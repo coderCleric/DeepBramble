@@ -29,15 +29,6 @@
           "z": 0
         },
         "linksTo": "Large Dimension"
-      },
-      {
-        "name": "Test Node",
-        "position": {
-          "x": 0,
-          "y": 400,
-          "z": 0
-        },
-        "linksTo": "Large Dimension"
       }
     ]
   },

@@ -13,6 +13,7 @@ namespace DeepBramble
     {
         public INewHorizons NewHorizonsAPI;
         public static DeepBramble instance;
+        private SignalHelper signalHelper;
 
         /**
          * Do NH setup stuff and patch certain methods
@@ -24,6 +25,9 @@ namespace DeepBramble
             NewHorizonsAPI.LoadConfigs(this);
             UnityEvent<string> loadEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
             loadEvent.AddListener(PrepBrambleSystem);
+
+            //Make our signal helper
+            this.signalHelper = new SignalHelper();
 
             instance = this;
         }
@@ -50,7 +54,8 @@ namespace DeepBramble
                 }
 
                 //Fix the parents of all of the signals
-                this.FixSignalParents();
+                this.signalHelper.PrepDictionary();
+                this.signalHelper.FixSignalParents();
             }
         }
 
@@ -74,36 +79,6 @@ namespace DeepBramble
                 //body.GetComponentInChildren<ThrustRuleset>()._thrustLimit = 9999999;
                 body.GetComponentInChildren<ThrustRuleset>().enabled = false;
                 //body.GetComponentInChildren<ThrustRuleset>();
-            }
-        }
-
-        /**
-         * Change the signals to have the correct parents
-         */
-        private void FixSignalParents()
-        {
-            //Do stuff for every signal
-            foreach(AudioSignal i in Component.FindObjectsOfType<AudioSignal>())
-            {
-                //Do nothing if the parent isn't called "Sector"
-                if (i.transform.parent.name.Equals("Sector"))
-                {
-                    //Check if it's the name we're looking for
-                    string name = i.gameObject.name;
-                    if (name.Equals("Signal_testSignal1"))
-                    {
-                        //If it is, look for the planet it should be attached to (should streamline this later)
-                        foreach (AstroObject j in Component.FindObjectsOfType<AstroObject>())
-                        {
-                            //It's the one we want, correct the parent
-                            if (j._name == AstroObject.Name.CustomString && j._customName.Equals("The Center"))
-                            {
-                                i.transform.SetParent(j.transform, false);
-                                break;
-                            }
-                        }
-                    }
-                }
             }
         }
 
