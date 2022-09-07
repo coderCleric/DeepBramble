@@ -85,17 +85,22 @@ namespace DeepBramble
             //Do stuff for every signal
             foreach(AudioSignal i in Component.FindObjectsOfType<AudioSignal>())
             {
-                string name = i.gameObject.name;
-                debugPrint(i.transform.parent.name);
-                if (name.Equals("Signal_testSignal1") && i.transform.parent.position == Vector3.zero)
+                //Do nothing if the parent isn't called "Sector"
+                if (i.transform.parent.name.Equals("Sector"))
                 {
-                    foreach(AstroObject j in Component.FindObjectsOfType<AstroObject>())
+                    //Check if it's the name we're looking for
+                    string name = i.gameObject.name;
+                    if (name.Equals("Signal_testSignal1"))
                     {
-                        if(j._name == AstroObject.Name.CustomString && j._customName.Equals("The Center"))
+                        //If it is, look for the planet it should be attached to (should streamline this later)
+                        foreach (AstroObject j in Component.FindObjectsOfType<AstroObject>())
                         {
-                            i.transform.SetParent(j.transform, false);
-                            debugPrint(name + " parent overridden to " + j._customName);
-                            break;
+                            //It's the one we want, correct the parent
+                            if (j._name == AstroObject.Name.CustomString && j._customName.Equals("The Center"))
+                            {
+                                i.transform.SetParent(j.transform, false);
+                                break;
+                            }
                         }
                     }
                 }
