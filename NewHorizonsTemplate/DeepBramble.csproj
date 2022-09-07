@@ -34,6 +34,6 @@
         </None>
     </ItemGroup>
     <ItemGroup>
-        <Content Include="NewHorizonsTemplate.csproj.user" />
+        <Content Include="DeepBramble.csproj.user" />
     </ItemGroup>
 </Project>
