@@ -34,7 +34,7 @@ namespace DeepBramble
 
         /**
          * When a star system finishes loading, check if it's the bramble system
-         * If it is the bramble system, set every non-dimension astro object to have a higher priority gravity field
+         * If it is the bramble system, do a series of setup steps
          * 
          * The s is not used in this function
          */
@@ -76,9 +76,8 @@ namespace DeepBramble
         {
             if(body.GetComponentInChildren<DarkBrambleRepelVolume>() != null)
             {
-                //body.GetComponentInChildren<ThrustRuleset>()._thrustLimit = 9999999;
                 body.GetComponentInChildren<ThrustRuleset>().enabled = false;
-                //body.GetComponentInChildren<ThrustRuleset>();
+                body.GetComponentInChildren<SimpleFluidVolume>()._density = 0;
             }
         }
 
@@ -87,7 +86,7 @@ namespace DeepBramble
             if (Keyboard.current[Key.K].wasPressedThisFrame)
             {
                 ModHelper.Console.WriteLine("Velocity: " + Locator.GetShipBody().GetVelocity().magnitude);
-                ModHelper.Console.WriteLine("Drag: " + Locator.GetShipBody().GetRigidbody().drag);
+                ModHelper.Console.WriteLine("Position: " + Locator.GetPlayerBody().GetPosition()); //Find a way to print a position while in open space
             }
         }
 

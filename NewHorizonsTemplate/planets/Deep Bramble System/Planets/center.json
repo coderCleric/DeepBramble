@@ -3,10 +3,10 @@
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "BrambleSystem",
   "Base": {
-    "groundSize": 100,
-    "surfaceSize": 102,
-    "surfaceGravity": 10,
-    "hasMapMarker": true,
+    "groundSize": 0,
+    "surfaceSize": 0,
+    "surfaceGravity": 0,
+    "hasMapMarker": false,
     "centerOfSolarSystem": true
   },
   "Orbit": {
@@ -15,19 +15,18 @@
       "y": 0,
       "z": 0
     },
-    "isStatic": true,
-    "siderealPeriod": 1
+    "isStatic": true
   },
   "Spawn": {
     "shipSpawnPoint": {
       "x": 0,
-      "y": 0,
-      "z": 105
+      "y": 10,
+      "z": 0
     },
     "playerSpawnPoint": {
-      "x": 0,
-      "y": -20,
-      "z": 105
+      "x": 5,
+      "y": 0,
+      "z": 0
     },
     "startWithSuit": true
   }

@@ -12,37 +12,36 @@
     "staticPosition": {
       "x": 0,
       "y": 0,
-      "z": 0
+      "z": 30000
     }
   },
   "Bramble": {
     "dimension": {
       "linksTo": "Loop Node",
-      "fogDensity": 0
+      "fogDensity": 1,
+      "radius": 2000
     },
     "nodes": [
       {
         "name": "Loop Node",
         "position": {
-          "x": 400,
+          "x": 0,
           "y": 0,
           "z": 0
         },
         "linksTo": "Large Dimension"
-      }
-    ]
-  },
-  "Props": {
-    "signals": [
+      },
       {
-        "audio": "OW_TravelerTheme_harmonica",
+        "name": "Entrance Node",
         "position": {
           "x": 0,
-          "y": 0,
-          "z": 100
+          "y": 2000,
+          "z": 0
         },
-        "frequency": "Traveler",
-        "name": "testSignal1"
+        "linksTo": "Start Dimension",
+        "possibleExits": [
+          0
+        ]
       }
     ]
   }

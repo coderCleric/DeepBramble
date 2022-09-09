@@ -36,4 +36,15 @@
     <ItemGroup>
         <Content Include="DeepBramble.csproj.user" />
     </ItemGroup>
+    <ItemGroup>
+      <None Update="planets\Deep Bramble System\Dimensions\largedimension.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Dimensions\startdimension.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="systems\BrambleSystem.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
 </Project>
