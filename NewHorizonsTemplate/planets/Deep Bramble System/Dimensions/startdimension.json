@@ -6,7 +6,8 @@
     "groundSize": 0,
     "surfaceSize": 0,
     "surfaceGravity": 0,
-    "hasMapMarker": false
+    "hasMapMarker": false,
+    "showMinimap": false
   },
   "Orbit": {
     "staticPosition": {

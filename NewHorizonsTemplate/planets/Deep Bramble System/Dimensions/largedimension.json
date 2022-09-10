@@ -6,7 +6,8 @@
     "groundSize": 0,
     "surfaceSize": 0,
     "surfaceGravity": 0,
-    "hasMapMarker": false
+    "hasMapMarker": false,
+    "showMinimap": false
   },
   "Orbit": {
     "staticPosition": {
@@ -29,14 +30,24 @@
           "y": 0,
           "z": 0
         },
+        "rotation": {
+          "x": 43.5599,
+          "y": 358.1138,
+          "z": 24.2412
+        },
         "linksTo": "Large Dimension"
       },
       {
         "name": "Entrance Node",
         "position": {
           "x": 0,
-          "y": 2000,
+          "y": 2084.067,
           "z": 0
+        },
+        "rotation": {
+          "x": 58.7695,
+          "y": 8.66,
+          "z": 55.0598
         },
         "linksTo": "Start Dimension",
         "possibleExits": [
