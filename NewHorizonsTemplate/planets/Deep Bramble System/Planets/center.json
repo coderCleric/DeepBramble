@@ -21,7 +21,7 @@
   "Spawn": {
     "shipSpawnPoint": {
       "x": 0,
-      "y": 10,
+      "y": 0,
       "z": 0
     },
     "playerSpawnPoint": {
