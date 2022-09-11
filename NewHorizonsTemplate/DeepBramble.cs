@@ -14,6 +14,7 @@ namespace DeepBramble
         public INewHorizons NewHorizonsAPI;
         public static DeepBramble instance;
         private SignalHelper signalHelper;
+        private bool shipDriftFixPrimed = false;
 
         /**
          * Do NH setup stuff and patch certain methods
@@ -56,6 +57,9 @@ namespace DeepBramble
                 //Fix the parents of all of the signals
                 this.signalHelper.PrepDictionary();
                 this.signalHelper.FixSignalParents();
+
+                //Prime the ship drift fix
+                this.shipDriftFixPrimed = true;
             }
         }
 
@@ -83,10 +87,42 @@ namespace DeepBramble
 
         private void Update()
         {
+            //If it's primed, fix the ship drift
+            if (this.shipDriftFixPrimed && Locator.GetShipBody() != null)
+            {
+                Locator.GetShipBody().SetVelocity(Vector3.zero);
+                this.shipDriftFixPrimed = false;
+            }
+
+            //Print the player's absolute and relative positions
             if (Keyboard.current[Key.K].wasPressedThisFrame)
             {
-                ModHelper.Console.WriteLine("Velocity: " + Locator.GetShipBody().GetVelocity().magnitude);
-                ModHelper.Console.WriteLine("Position: " + Locator.GetPlayerBody().GetPosition()); //Find a way to print a position while in open space
+                Transform refBody = null;
+                Transform absCenter = null;
+                foreach(AstroObject i in Component.FindObjectsOfType<AstroObject>())
+                {
+                    //Find the center
+                    if(i._name == AstroObject.Name.CustomString && i._customName.Equals("The Center"))
+                    {
+                        absCenter = i.transform;
+                    }
+                    //Find the target relative body
+                    if(i._name == AstroObject.Name.CustomString && i._customName.Equals("Start Dimension"))
+                    {
+                        refBody = i.transform;
+                    }
+                }
+                Vector3 absPosition = absCenter.position + Locator.GetPlayerCamera().transform.position;
+
+                //Finish calculating the relative position
+                GameObject relObject = new GameObject("noname");
+                relObject.transform.position = new Vector3(Locator.GetPlayerCamera().transform.position.x, Locator.GetPlayerCamera().transform.position.y, Locator.GetPlayerCamera().transform.position.z);
+                relObject.transform.SetParent(refBody, true); 
+
+                //Print stuff
+                debugPrint("Absolute position: " + absPosition);
+                debugPrint("Relative position: " + relObject.transform.localPosition);
+                Destroy(relObject);
             }
         }
 

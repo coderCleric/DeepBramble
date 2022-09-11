@@ -7,7 +7,4 @@ using UnityEngine;
 
 namespace DeepBramble
 {
-    public static class Patches
-    {
-    }
 }
