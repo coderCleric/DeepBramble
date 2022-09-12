@@ -3,6 +3,7 @@ using OWML.Common;
 using UnityEngine;
 using UnityEngine.PostProcessing;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.Events;
 using System;
@@ -30,6 +31,13 @@ namespace DeepBramble
             //Make our signal helper
             this.signalHelper = new SignalHelper();
 
+            //Make patches
+            //Wake up dimensions as we enter them
+            ModHelper.HarmonyHelper.AddPrefix<OuterFogWarpVolume>(
+                "ReceiveWarpedDetector",
+                typeof(Patches),
+                nameof(Patches.WakeOnEnter));
+
             instance = this;
         }
 
@@ -42,16 +50,16 @@ namespace DeepBramble
         private void PrepBrambleSystem(String s)
         {
             //Only do stuff if we're in the bramble system now
-            if(NewHorizonsAPI.GetCurrentStarSystem().Equals("BrambleSystem"))
+            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("BrambleSystem"))
             {
                 //Do some things to each astro object
-                foreach(AstroObject i in Component.FindObjectsOfType<AstroObject>())
+                foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
                     //If it has a gravity volume, increase the priority to 2
                     this.FixGravity(i.gameObject);
 
-                    //If it's a dimension, disable the speed limit
-                    this.RemoveSpeedLimit(i.gameObject);
+                    //If it's a dimension, do some fixes
+                    this.FixDimension(i.gameObject);
                 }
 
                 //Fix the parents of all of the signals
@@ -61,6 +69,10 @@ namespace DeepBramble
                 //Prime the ship drift fix
                 this.shipDriftFixPrimed = true;
             }
+
+            //If we're not in the bramble system, clear the bramble containers
+            else
+                BrambleContainer.clear();
         }
 
         /**
@@ -68,6 +80,7 @@ namespace DeepBramble
          */
         private void FixGravity(GameObject body)
         {
+            //Increase the priority
             GravityVolume volume = body.GetComponentInChildren<GravityVolume>();
             if (volume != null)
                 volume._priority = 2;
@@ -76,12 +89,24 @@ namespace DeepBramble
         /**
          * If this object is a bramble dimension, remove the speed limit
          */
-        private void RemoveSpeedLimit(GameObject body)
+        private void FixDimension(GameObject body)
         {
+            //Disable the thrust and drag
             if(body.GetComponentInChildren<DarkBrambleRepelVolume>() != null)
             {
                 body.GetComponentInChildren<ThrustRuleset>().enabled = false;
                 body.GetComponentInChildren<SimpleFluidVolume>()._density = 0;
+            }
+
+            //Set up each dimension with the things it needs to grab
+            if(body.GetComponent<AstroObject>()._name == AstroObject.Name.CustomString)
+            {
+                switch(body.GetComponent<AstroObject>()._customName)
+                {
+                    case "Start Dimension":
+                        BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "StartDimensionFlare", "StartDimensionRecorderContainer" }, true));
+                        break;
+                }
             }
         }
 
