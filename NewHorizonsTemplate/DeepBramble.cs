@@ -137,15 +137,18 @@ namespace DeepBramble
                         refBody = i.transform;
                     }
                 }
-                Vector3 absPosition = absCenter.position + Locator.GetPlayerCamera().transform.position;
+                //Finish calculating the relative position
+                GameObject absObject = new GameObject("noname1");
+                absObject.transform.position = new Vector3(Locator.GetPlayerCamera().transform.position.x, Locator.GetPlayerCamera().transform.position.y, Locator.GetPlayerCamera().transform.position.z);
+                absObject.transform.SetParent(absCenter, true); 
 
                 //Finish calculating the relative position
-                GameObject relObject = new GameObject("noname");
+                GameObject relObject = new GameObject("noname2");
                 relObject.transform.position = new Vector3(Locator.GetPlayerCamera().transform.position.x, Locator.GetPlayerCamera().transform.position.y, Locator.GetPlayerCamera().transform.position.z);
                 relObject.transform.SetParent(refBody, true); 
 
                 //Print stuff
-                debugPrint("Absolute position: " + absPosition);
+                debugPrint("Absolute position: " + absObject.transform.localPosition);
                 debugPrint("Relative position: " + relObject.transform.localPosition);
                 Destroy(relObject);
             }

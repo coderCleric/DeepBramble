@@ -1,0 +1,28 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+  
+  <!--Text that appears-->
+  <TextBlock>
+    <ID>1</ID>
+    <Text>
+      Look upon this tree, friends, and know that it symbolizes all that we need to survive in this environment. We are Nomai, and we will live so long as we have anything to hold onto.
+    </Text>
+  </TextBlock>
+  
+  <TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      So long as this tree stands, we can survive this place.
+  </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>3</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      So long as this tree stands, our time is not yet through.
+    </Text>
+  </TextBlock>
+
+  <!--Ship log reveals go here-->
+</NomaiObject>

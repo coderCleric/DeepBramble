@@ -19,7 +19,7 @@
   "Bramble": {
     "dimension": {
       "linksTo": "Loop Node",
-      "fogDensity": 1,
+      "fogDensity": 2,
       "radius": 2000
     },
     "nodes": [

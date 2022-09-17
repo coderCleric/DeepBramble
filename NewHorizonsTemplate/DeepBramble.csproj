@@ -43,6 +43,18 @@
       <None Update="planets\Deep Bramble System\Dimensions\startdimension.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Deep Bramble System\Planets\center.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Planets\Planetoid Cluster\treerock.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\startdimensionrecorder.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\treeshrinetext.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="systems\BrambleSystem.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

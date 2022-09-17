@@ -19,7 +19,7 @@
   "Bramble": {
     "dimension": {
       "linksTo": "Entrance Node",
-      "fogDensity": 0,
+      "fogDensity": 6,
       "radius": 250
     }
   },
@@ -44,7 +44,7 @@
         },
         "path": "DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/DynamicProps_EscapePodDimension/EscapePodFlare_Body",
         "removeChildren": [
-          "Prefab_NOM_Lamp_EscapePodFlare/Pointlight_NOM_Lamp",
+          "Prefab_NOM_Lamp_EscapePodFlare/PointLight_NOM_Lamp",
           "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/body",
           "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/lamp"
         ]
@@ -74,8 +74,8 @@
           "y": 5.6,
           "z": 16.6
         },
-        "frequency": "Traveler",
-        "name": "testSignal1"
+        "frequency": "Nomai Trailmarkers",
+        "name": "First Marker"
       }
     ]
   }
