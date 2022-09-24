@@ -20,14 +20,34 @@
   "Props": {
     "details": [
       {
-        "assetBundle": "assetbundles/dirtball",
-        "path": "Assets/Prefabs/asteroid.prefab",
+        "assetBundle": "assetbundles/bigasteroid",
+        "path": "Assets/Prefabs/bigasteroid.prefab",
         "position": {
           "x": 0,
           "y": 0,
           "z": 0
         },
         "alignToNormal": false
+      },
+      {
+        "assetBundle": "assetbundles/stilt_building_1",
+        "path": "Assets/Prefabs/buildings/stilt_building_1.prefab",
+        "position": {
+          "x": 8.395194,
+          "y": -21.76041,
+          "z": 17.41858
+        },
+        "alignToNormal": true
+      },
+      {
+        "assetBundle": "assetbundles/stilt_building_2",
+        "path": "Assets/Prefabs/buildings/stilt_building_2.prefab",
+        "position": {
+          "x": -27.32322,
+          "y": -14.62039,
+          "z": -15.99103
+        },
+        "alignToNormal": true
       },
       {
         "rename": "TextWall",
@@ -80,7 +100,6 @@
           "y": 0.9741912,
           "z": 0.02922469
         },
-
         "arcInfo": [
           {
             "position": {
@@ -110,6 +129,63 @@
         ],
         "type": "wall",
         "xmlFile": "planets/Deep Bramble System/Text/treeshrinetext.xml"
+      },
+
+      {
+        "position": {
+          "x": -25.16663,
+          "y": -12.4466,
+          "z": 28.17089
+        },
+        "normal": {
+          "x": -0.438794,
+          "y": -0.007078703,
+          "z": 0.8985597
+        },
+        "type": "preCrashRecorder",
+        "xmlFile": "planets/Deep Bramble System/Text/treerecorder.xml"
+      },
+
+      {
+        "rename": "planetoidhinttext",
+        "position": {
+          "x": -27.53622,
+          "y": -19.60245,
+          "z": -18.07157
+        },
+        "normal": {
+          "x": -0.6187087,
+          "y": 0.458569,
+          "z": 0.637898
+        },
+        "arcInfo": [
+          {
+            "position": {
+              "x": 0.5124,
+              "y": 0
+            },
+            "zRotation": 61.9364
+          },
+          {
+            "mirror": true
+          },
+          {},
+          {},
+          {},
+          {
+            "position": {
+              "x": -0.3918,
+              "y": 0.1909
+            },
+            "zRotation": 352.8231
+          },
+          {},
+          {},
+          {},
+          {}
+        ],
+        "type": "wall",
+        "xmlFile": "planets/Deep Bramble System/Text/bigplanetoidhint.xml"
       }
     ]
   }

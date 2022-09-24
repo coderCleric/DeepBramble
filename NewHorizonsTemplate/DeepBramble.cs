@@ -38,6 +38,24 @@ namespace DeepBramble
                 typeof(Patches),
                 nameof(Patches.WakeOnEnter));
 
+            //Activate the vessel black hole when the warp core is placed in the correct spot
+            ModHelper.HarmonyHelper.AddPostfix<WarpCoreSocket>(
+                "PlaceIntoSocket",
+                typeof(Patches),
+                nameof(Patches.WarpPlaceListener));
+
+            //Deactivate the vessel black hole when the warp core is removed from the slot
+            ModHelper.HarmonyHelper.AddPostfix<WarpCoreSocket>(
+                "RemoveFromSocket",
+                typeof(Patches),
+                nameof(Patches.WarpRemoveListener));
+
+            //Save and deactivate the black hole into the vessel dimension
+            ModHelper.HarmonyHelper.AddPostfix<VanishVolume>(
+                "Awake",
+                typeof(Patches),
+                nameof(Patches.VanishVolumeListener));
+
             instance = this;
         }
 
@@ -110,6 +128,9 @@ namespace DeepBramble
             }
         }
 
+        /**
+         * Do certain things every frame (mostly debug key presses)
+         */
         private void Update()
         {
             //If it's primed, fix the ship drift
@@ -119,7 +140,7 @@ namespace DeepBramble
                 this.shipDriftFixPrimed = false;
             }
 
-            //Print the player's absolute and relative positions
+            //Print the player's absolute and relative positions when k is pressed
             if (Keyboard.current[Key.K].wasPressedThisFrame)
             {
                 Transform refBody = null;
@@ -151,6 +172,34 @@ namespace DeepBramble
                 debugPrint("Absolute position: " + absObject.transform.localPosition);
                 debugPrint("Relative position: " + relObject.transform.localPosition);
                 Destroy(relObject);
+            }
+
+            //Lock onto the body that a signal is attached to
+            if (Keyboard.current[Key.O].wasPressedThisFrame)
+            {
+                //Go through each audio signal
+                foreach(AudioSignal i in Component.FindObjectsOfType<AudioSignal>())
+                {
+                    //If it's known and strong enough, try to lock onto it's parent body
+                    if(i.GetSignalStrength() == 1 && PlayerData.KnowsSignal(i._name))
+                    {
+                        //Loop through each parent
+                        Transform tf = i.transform;
+                        while(tf != null)
+                        {
+                            OWRigidbody body = tf.gameObject.GetComponent<OWRigidbody>();
+
+                            //If this parent is lockable, lock onto it
+                            if(body != null && body.IsTargetable()) {
+                                Locator.GetPlayerBody().gameObject.GetComponent<ReferenceFrameTracker>().TargetReferenceFrame(body.GetReferenceFrame());
+                                break;
+                            }
+
+                            //Otherwise, move another level up
+                            tf = tf.parent;
+                        }
+                    }
+                }
             }
         }
 

@@ -4,7 +4,7 @@
   <TextBlock>
     <ID>1</ID>
     <Text>
-      NOMAI1: Unfortunately, it appears that our gamble has not quite payed off how we wanted. It would seem that we are still trapped within this strange place.
+      ANALYTICNOMAI: Unfortunately, it appears that our gamble has not quite payed off how we wanted. It would seem that we are still trapped within this strange place.
     </Text>
   </TextBlock>
   
@@ -12,7 +12,7 @@
     <ID>2</ID>
     <ParentID>1</ParentID>
     <Text>
-      NOMAI2: What are we going to do? We have neither the means to return to the <![CDATA[<color=orange>Vessel</color>]]>, nor a source of oxygen. If we do not act quickly, this will almost 
+      SPOOKEDNOMAI: What are we going to do? We have neither the means to return to the <![CDATA[<color=orange>Vessel</color>]]>, nor a source of oxygen. If we do not act quickly, this will almost 
     certainly be our final resting place!
   </Text>
   </TextBlock>
@@ -27,7 +27,7 @@
     <ID>4</ID>
     <ParentID>3</ParentID>
     <Text>
-      NOMAI1: If you squint through the fog, there appear to be holes in the walls that surround us. As much as it pains me to say, we may need to split up in search of oxygen.
+      ANALYTICNOMAI: If you squint through the fog, there appear to be holes in the walls that surround us. As much as it pains me to say, we may need to split up in search of oxygen.
     </Text>
   </TextBlock>
 
@@ -43,7 +43,7 @@
     <ID>6</ID>
     <ParentID>5</ParentID>
     <Text>
-      NOMAI2: Visibility in this place is far from optimal, so I will leave a signal beacon here to ensure that we can find our way back. If luck is on our side, it may also lead other Nomai to our 
+      ANALYTICNOMAI: Visibility in this place is far from optimal, so I will leave a signal beacon here to ensure that we can find our way back. If luck is on our side, it may also lead other Nomai to our 
       current location.
     </Text>
   </TextBlock>

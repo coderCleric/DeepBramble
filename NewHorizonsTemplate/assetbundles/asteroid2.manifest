@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 3149165264
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ecb037a66d04ed5a12370c8eab7573b1
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: de50965482fa7694462306aafaf6660a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/asteroid2.prefab
+Dependencies: []

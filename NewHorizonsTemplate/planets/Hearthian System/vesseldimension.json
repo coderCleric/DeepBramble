@@ -1,0 +1,35 @@
+{
+  "name": "Vessel Dimension",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "Props": {
+    "details": [
+      {
+        "rename": "BrambleSystemWarpSocket",
+        "assetBundle": "assetbundles/warp_core_holder",
+        "path": "Assets/Prefabs/WarpCoreSocket.prefab",
+        "position": {
+          "x": 149.41,
+          "y": 7.677947,
+          "z": -37.40828
+        },
+        "rotation": {
+          "x": 5.8364,
+          "y": 275.6723,
+          "z": 357.0182
+        }
+      }
+    ],
+    "singularities": [
+      {
+        "type": "blackHole",
+        "targetStarSystem": "BrambleSystem",
+        "position": {
+          "x": 146.8333,
+          "y": 2.799,
+          "z": -18.084
+        },
+        "size": 2
+      }
+    ]
+  }
+}
