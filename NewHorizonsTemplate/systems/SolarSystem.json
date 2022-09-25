@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/star_system_schema.json",
+  "entryPositions": [
+    {
+      "id": "STRANDED_NOMAI_ENTRY",
+      "position": {
+        "x": 464.1818,
+        "y": -1331.442
+      }
+    }
+  ]
+}

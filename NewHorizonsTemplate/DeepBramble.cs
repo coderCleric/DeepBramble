@@ -17,6 +17,9 @@ namespace DeepBramble
         private SignalHelper signalHelper;
         private bool shipDriftFixPrimed = false;
 
+        //Only needed for debug
+        public static Transform relBody = null;
+
         /**
          * Do NH setup stuff and patch certain methods
          */
@@ -55,6 +58,12 @@ namespace DeepBramble
                 "Awake",
                 typeof(Patches),
                 nameof(Patches.VanishVolumeListener));
+
+            //Update the relative body
+            ModHelper.HarmonyHelper.AddPrefix<OuterFogWarpVolume>(
+                "ReceiveWarpedDetector",
+                typeof(Patches),
+                nameof(Patches.DimensionUpdater));
 
             instance = this;
         }
@@ -143,35 +152,31 @@ namespace DeepBramble
             //Print the player's absolute and relative positions when k is pressed
             if (Keyboard.current[Key.K].wasPressedThisFrame)
             {
-                Transform refBody = null;
                 Transform absCenter = null;
-                foreach(AstroObject i in Component.FindObjectsOfType<AstroObject>())
+                foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
                     //Find the center
-                    if(i._name == AstroObject.Name.CustomString && i._customName.Equals("The Center"))
+                    if (i._name == AstroObject.Name.CustomString && i._customName.Equals("The Center"))
                     {
                         absCenter = i.transform;
                     }
-                    //Find the target relative body
-                    if(i._name == AstroObject.Name.CustomString && i._customName.Equals("Start Dimension"))
-                    {
-                        refBody = i.transform;
-                    }
                 }
-                //Finish calculating the relative position
+                //Finish calculating the absolute position
                 GameObject absObject = new GameObject("noname1");
                 absObject.transform.position = new Vector3(Locator.GetPlayerCamera().transform.position.x, Locator.GetPlayerCamera().transform.position.y, Locator.GetPlayerCamera().transform.position.z);
-                absObject.transform.SetParent(absCenter, true); 
+                absObject.transform.SetParent(absCenter, true);
 
                 //Finish calculating the relative position
-                GameObject relObject = new GameObject("noname2");
-                relObject.transform.position = new Vector3(Locator.GetPlayerCamera().transform.position.x, Locator.GetPlayerCamera().transform.position.y, Locator.GetPlayerCamera().transform.position.z);
-                relObject.transform.SetParent(refBody, true); 
+                if (relBody != null) { 
+                    GameObject relObject = new GameObject("noname2");
+                    relObject.transform.position = new Vector3(Locator.GetPlayerCamera().transform.position.x, Locator.GetPlayerCamera().transform.position.y, Locator.GetPlayerCamera().transform.position.z);
+                    relObject.transform.SetParent(relBody, true);
+                    debugPrint("Relative position to " + relBody.name + ": " + relObject.transform.localPosition);
+                    Destroy(relObject);
+                }
 
                 //Print stuff
                 debugPrint("Absolute position: " + absObject.transform.localPosition);
-                debugPrint("Relative position: " + relObject.transform.localPosition);
-                Destroy(relObject);
             }
 
             //Lock onto the body that a signal is attached to

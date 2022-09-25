@@ -1,6 +1,10 @@
 {
   "name": "Vessel Dimension",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "ShipLog": {
+    "xmlFile": "planets/Hearthian System/Ship Logs/vesseldimension.xml",
+    "mapMode": {"remove": true}
+  },
   "Props": {
     "details": [
       {
@@ -29,6 +33,86 @@
           "z": -18.084
         },
         "size": 2
+      }
+    ],
+    "nomaiText": [
+      {
+        "xmlFile": "planets/Hearthian System/Text/tangledtext.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": 50.1233,
+          "y": -5.2315,
+          "z": 18.8356
+        },
+        "rotation": {
+          "x": 14.37,
+          "y": 344.5871,
+          "z": 248.7125
+        }
+      },
+      {
+        "xmlFile": "planets/Hearthian System/Text/mainbridgetext.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": 146.5829,
+          "y": 15.2791,
+          "z": -35.9635
+        },
+        "rotation": {
+          "x": 342.3813,
+          "y": 310.5994,
+          "z": 275.8649
+        }
+      },
+      {
+        "xmlFile": "planets/Hearthian System/Text/lowerbridgetext.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": 147.0509,
+          "y": 5.3025,
+          "z": -36.4737
+        },
+        "rotation": {
+          "x": 359.0599,
+          "y": 11.6987,
+          "z": 17.6079
+        }
+      }
+    ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "reveals": [ "WHY_TWO_PODS_RUMOR" ],
+        "radius": 15,
+        "revealOn": "observe",
+        "maxDistance": 100,
+        "position": {
+          "x": 109.4398,
+          "y": -63.91955,
+          "z": 58.01572
+        }
+      },
+      {
+        "reveals": [ "WARP_DEVICE_OBSERVE_FACT" ],
+        "radius": 5,
+        "revealOn": "enter",
+        "position": {
+          "x": 149.8779,
+          "y": 5.666356,
+          "z": -36.09431
+        }
+      },
+      {
+        "reveals": [ "WARP_TO_DB_FACT" ],
+        "radius": 2,
+        "revealOn": "enter",
+        "position": {
+          "x": 146.8333,
+          "y": 2.799,
+          "z": -18.084
+        },
+        "parentPath": "Sector_VesselDimension/BlackHole"
       }
     ]
   }

@@ -1,0 +1,74 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			ANALYTICNOMAI: That should be the last of the circuitry in place. Is the warp core prepared?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			CURIOUSNOMAI: Yes it is, my hard-working companion.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ANALYTICNOMAI: Okay then, go ahead and slot it into place and we will see if this somehow works.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ANALYTICNOMAI: Wait, how did that work? It should be completely impossible for that to function!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			CURIOUSNOMAI: Yes! I told you it was worth attempting!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			SPOOKEDNOMAI: That means we can escape! I can not wait to reunite with the rest of our clan, I had started to worry that we would never see them again.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			NOMAILEADER: Let us not delay then, there is no telling how long that core will be able to hold the singularity open. Everyone, go through!
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>LOWER_BRIDGE_RECORDER_FACT</FactID>
+      <Condition>8</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+</NomaiObject>

@@ -1,0 +1,41 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>VESSEL_DIMENSION</ID>
+
+  <!--The entry for the stranded Nomai-->
+  <Entry>
+    <ID>STRANDED_NOMAI_ENTRY</ID>
+    <Name>Stranded Nomai</Name>
+    
+    <RumorFact>
+      <ID>WHY_TWO_PODS_RUMOR</ID>
+      <SourceID>DB_VESSEL</SourceID>
+      <Text>Two escape pods seem to have been damaged and never launched. I wonder if any Nomai were left behind?</Text>
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>TANGLED_RECORDER_FACT</ID>
+      <Text>I found a Nomai recorder left by a few Nomai who's pod was damaged. In it, they decided to regroup at the bridge to discuss how to escape Dark Bramble.</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>MAIN_BRIDGE_RECORDER_FACT</ID>
+      <Text>A recorder on the bridge told me that the stranded Nomai made a plan to try to warp out of Dark Bramble. I should be able to find more about their experiment in the lower bridge, near the Eye signal.</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>LOWER_BRIDGE_RECORDER_FACT</ID>
+      <Text>A recorder on the lower bridge detailed how the Nomai were able to make a black hole that should have allowed them to escape Dark Bramble.</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WARP_DEVICE_OBSERVE_FACT</ID>
+      <Text>I found a strange Nomai device in the lower bridge. The device has a small, broken warp core in it.</Text>
+    </ExploreFact>
+
+    <ExploreFact>
+      <ID>WARP_TO_DB_FACT</ID>
+      <Text>I was able to use a warp core to activate the makeshift warp device. When I went through, my suit was able to record the signature of the black hole so that the interstellar drive on my ship can take me to the other system.</Text>
+    </ExploreFact>
+    
+  </Entry>
+</AstroObjectEntry>

@@ -29,6 +29,23 @@ namespace DeepBramble
         }
 
         /**
+         * When the player enters a bramble dimension, set it to be the relative body for the position printout
+         */
+        public static void DimensionUpdater(OuterFogWarpVolume __instance)
+        {
+            Transform tf = __instance.transform;
+            while(tf != null)
+            {
+                if(tf.gameObject.GetComponent<AstroObject>() != null)
+                {
+                    DeepBramble.relBody = tf;
+                    return;
+                }
+                tf = tf.parent;
+            }
+        }
+
+        /**
          * When the player sockets a warp core, check if we need to activate the black hole
          */
         public static void WarpPlaceListener(WarpCoreSocket __instance, ref OWItem item)

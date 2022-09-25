@@ -1,0 +1,74 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			CURIOUSNOMAI: So, what exactly is our plan of escape? Do we try to fly out?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ANALYTICNOMAI: I fear that such a contemporary strategy may not work here, the <![CDATA[<color=orange>Vessel</color>]]> is registering very strange readings from the surrounding environment. It is possible that space does not function normally here.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SPOOKEDNOMAI: What are we to do then? The warp core is damaged, so we can not simply warp out the <![CDATA[<color=orange>Vessel</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			CURIOUSNOMAI: ...Perhaps we still can. We have many smaller warp cores throughout the <![CDATA[<color=orange>Vessel</color>]]>, perhaps we can use a black hole core to escape.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ANALYTICNOMAI: I do not believe that such an endeavor would succeed. A warp requires both a black and white hole, and we have no core with which to establish a white hole.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			CURIOUSNOMAI: I believe that it is still worth attempting, especially seeing as we currently do not have better ideas.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			ANALYTICNOMAI: I will concede that it is currently the best idea we have.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			NOMAILEADER: It is settled then, we will attempt to construct a makeshift warp device using one of the smaller black hole cores. I suggest that we do this in the lower bridge, as that area is both near the existing warp circuitry, and it should be easy to create a small area of artificial gravity down there so that we can work.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>MAIN_BRIDGE_RECORDER_FACT</FactID>
+      <Condition>8</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+</NomaiObject>
