@@ -118,21 +118,25 @@ namespace DeepBramble
          */
         private void FixDimension(GameObject body)
         {
-            //Disable the thrust and drag
-            if(body.GetComponentInChildren<DarkBrambleRepelVolume>() != null)
-            {
+            //Only do anything if it's a bramble dimension
+            if (body.GetComponentInChildren<DarkBrambleRepelVolume>() != null) {
+
+                //Disable lock-on for the dimension body
+                body.GetComponent<OWRigidbody>()._isTargetable = false;
+
+                //Disable the thrust and drag limits
                 body.GetComponentInChildren<ThrustRuleset>().enabled = false;
                 body.GetComponentInChildren<SimpleFluidVolume>()._density = 0;
-            }
 
-            //Set up each dimension with the things it needs to grab
-            if(body.GetComponent<AstroObject>()._name == AstroObject.Name.CustomString)
-            {
-                switch(body.GetComponent<AstroObject>()._customName)
+                //Set up each dimension with the things it needs to grab
+                if (body.GetComponent<AstroObject>()._name == AstroObject.Name.CustomString)
                 {
-                    case "Start Dimension":
-                        BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "StartDimensionFlare", "StartDimensionRecorderContainer" }, true));
-                        break;
+                    switch (body.GetComponent<AstroObject>()._customName)
+                    {
+                        case "Start Dimension":
+                            BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "StartDimensionFlare", "StartDimensionRecorderContainer" }, true));
+                            break;
+                    }
                 }
             }
         }
