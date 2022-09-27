@@ -132,22 +132,23 @@
       },
 
       {
+        "rename": "TreeRecorder",
         "position": {
           "x": -25.16663,
           "y": -12.4466,
           "z": 28.17089
         },
-        "normal": {
-          "x": -0.438794,
-          "y": -0.007078703,
-          "z": 0.8985597
+        "rotation": {
+          "x": 48.9895,
+          "y": 63.1016,
+          "z": 86.3336
         },
         "type": "preCrashRecorder",
         "xmlFile": "planets/Deep Bramble System/Text/treerecorder.xml"
       },
 
       {
-        "rename": "planetoidhinttext",
+        "rename": "PlanetoidHintText",
         "position": {
           "x": -27.53622,
           "y": -19.60245,
