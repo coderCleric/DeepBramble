@@ -85,6 +85,9 @@
       <None Update="assetbundles\warp_core_holder.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assets\Ship Log Entry Sprites\STRANDED_NOMAI_ENTRY.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assets\tree rock heightmap.jpg">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
