@@ -1,7 +1,21 @@
 {
-  "name": "Tree Planetoid",
+  "name": "Planetoid Cluster",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "BrambleSystem",
+  "ShipLog": {
+    "xmlFile": "planets/Deep Bramble System/Ship Logs/planetoidcluster.xml",
+    "mapMode": {
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 2,
+        "y": 1
+      },
+      "manualPosition": {
+        "x": 50,
+        "y": 0
+      }
+    }
+  },
   "Base": {
     "groundSize": 0,
     "surfaceSize": 52,
@@ -187,6 +201,62 @@
         ],
         "type": "wall",
         "xmlFile": "planets/Deep Bramble System/Text/bigplanetoidhint.xml"
+      }
+    ],
+    "entryLocation": [
+      {
+        "id": "PLANETOID_CLUSTER_ENTRY",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        
+        }
+      },
+      {
+        "id": "TREE_SHRINE_ENTRY",
+        "position": {
+          "x": -28.12181,
+          "y": -4.396057,
+          "z": 27.84976
+        }
+      }
+    ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "rename": "PresenceReveal",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "radius": 350,
+        "revealOn": "enter",
+        "reveals": [ "CLUSTER_FOUND_FACT" ]
+      },
+      {
+        "rename": "RuinReveal1",
+        "position": {
+          "x": 8.395194,
+          "y": -21.76041,
+          "z": 17.41858
+        },
+        "radius": 20,
+        "revealOn": "enter",
+        "reveals": [ "CLUSTER_RUINS_FACT" ]
+      },
+      {
+        "rename": "RuinReveal2",
+        "position": {
+          "x": -27.32322,
+          "y": -14.62039,
+          "z": -15.99103
+        },
+        "radius": 20,
+        "revealOn": "enter",
+        "reveals": [ "CLUSTER_RUINS_FACT" ]
       }
     ]
   }

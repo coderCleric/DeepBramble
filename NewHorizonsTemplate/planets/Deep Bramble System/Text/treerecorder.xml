@@ -73,4 +73,10 @@
   </TextBlock>
 
   <!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>TREE_SHRINE_RECORDER_FACT</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

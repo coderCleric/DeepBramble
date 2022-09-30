@@ -43,4 +43,10 @@
   </TextBlock>
 
   <!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CLUSTER_WALL_HOLE_FACT</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

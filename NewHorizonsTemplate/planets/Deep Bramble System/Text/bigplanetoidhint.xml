@@ -86,4 +86,10 @@
   </TextBlock>
 
   <!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CLUSTER_LARGE_PLANETOID_HINT</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>
