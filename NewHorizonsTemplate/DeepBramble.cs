@@ -15,6 +15,7 @@ namespace DeepBramble
         public INewHorizons NewHorizonsAPI;
         public static DeepBramble instance;
         private SignalHelper signalHelper;
+        private EntryLocationHelper entryHelper;
         private bool shipDriftFixPrimed = false;
 
         //Only needed for debug
@@ -31,8 +32,9 @@ namespace DeepBramble
             UnityEvent<string> loadEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
             loadEvent.AddListener(PrepBrambleSystem);
 
-            //Make our signal helper
+            //Make our helpers
             this.signalHelper = new SignalHelper();
+            this.entryHelper = new EntryLocationHelper();
 
             //Make patches
             //Wake up dimensions as we enter them
@@ -92,6 +94,10 @@ namespace DeepBramble
                 //Fix the parents of all of the signals
                 this.signalHelper.PrepDictionary();
                 this.signalHelper.FixSignalParents();
+
+                //Fix the fog warps for every ship log entry location
+                this.entryHelper.PrepDictionary();
+                this.entryHelper.FixEntryOuterWarps();
 
                 //Prime the ship drift fix
                 this.shipDriftFixPrimed = true;
@@ -209,6 +215,19 @@ namespace DeepBramble
                         }
                     }
                 }
+            }
+
+            //Tell the distance from the player to the thing they're looking at
+            if (Keyboard.current[Key.L].wasPressedThisFrame)
+            {
+                RaycastHit hit;
+                OWCamera cam = Locator.GetPlayerCamera();
+                if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit))
+                {
+                    debugPrint("Distance to object is " + hit.distance);
+                }
+                else
+                    debugPrint("Raycast hit nothing");
             }
         }
 

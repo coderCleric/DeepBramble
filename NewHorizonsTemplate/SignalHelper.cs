@@ -37,9 +37,9 @@ namespace DeepBramble
                     switch(i._customName)
                     {
 
-                        case "The Center": //We're on The Center
-                            this.signalDictionary.Add("Signal_testSignal1", i);
-                            break;
+                        //case "The Center": //We're on The Center
+                        //    this.signalDictionary.Add("Signal_testSignal1", i);
+                        //    break;
 
                     }
                 }
