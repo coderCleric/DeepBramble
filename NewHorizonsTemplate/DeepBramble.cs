@@ -12,14 +12,19 @@ namespace DeepBramble
 {
     public class DeepBramble : ModBehaviour
     {
+        //Flags
+        private bool shipDriftFixPrimed = false;
+        public static bool removeShip = false;
+        private bool removeShipASAP = false;
+
+        //Miscellanious variables
         public INewHorizons NewHorizonsAPI;
-        public static DeepBramble instance;
         private SignalHelper signalHelper;
         private EntryLocationHelper entryHelper;
-        private bool shipDriftFixPrimed = false;
 
         //Only needed for debug
         public static Transform relBody = null;
+        public static DeepBramble instance;
 
         /**
          * Do NH setup stuff and patch certain methods
@@ -36,13 +41,14 @@ namespace DeepBramble
             this.signalHelper = new SignalHelper();
             this.entryHelper = new EntryLocationHelper();
 
-            //Make patches
+            //Miscellanious patches
             //Wake up dimensions as we enter them
             ModHelper.HarmonyHelper.AddPrefix<OuterFogWarpVolume>(
                 "ReceiveWarpedDetector",
                 typeof(Patches),
                 nameof(Patches.WakeOnEnter));
 
+            //Black Hole Patches
             //Activate the vessel black hole when the warp core is placed in the correct spot
             ModHelper.HarmonyHelper.AddPostfix<WarpCoreSocket>(
                 "PlaceIntoSocket",
@@ -55,12 +61,19 @@ namespace DeepBramble
                 typeof(Patches),
                 nameof(Patches.WarpRemoveListener));
 
-            //Save and deactivate the black hole into the vessel dimension
+            //Save and deactivate the black hole in the vessel dimension
             ModHelper.HarmonyHelper.AddPostfix<VanishVolume>(
                 "Awake",
                 typeof(Patches),
                 nameof(Patches.VanishVolumeListener));
 
+            //Patch black holes so that we remove the player ship if they use the hole to get to the bramble system
+            ModHelper.HarmonyHelper.AddPostfix<VanishVolume>(
+                "OnTriggerEnter",
+                typeof(Patches),
+                nameof(Patches.ShipRemover));
+
+            //Debug patches (don't include in release)
             //Update the relative body
             ModHelper.HarmonyHelper.AddPrefix<OuterFogWarpVolume>(
                 "ReceiveWarpedDetector",
@@ -101,6 +114,10 @@ namespace DeepBramble
 
                 //Prime the ship drift fix
                 this.shipDriftFixPrimed = true;
+
+                //Prime the destruction of the ship
+                this.removeShipASAP = removeShip;
+                removeShip = false;
             }
 
             //If we're not in the bramble system, clear the bramble containers
@@ -152,11 +169,19 @@ namespace DeepBramble
          */
         private void Update()
         {
+            //Flag-related actions
             //If it's primed, fix the ship drift
             if (this.shipDriftFixPrimed && Locator.GetShipBody() != null)
             {
                 Locator.GetShipBody().SetVelocity(Vector3.zero);
                 this.shipDriftFixPrimed = false;
+            }
+
+            //If it's flagged, send the ship to Brazil
+            if(this.removeShipASAP && Locator.GetShipBody() != null)
+            {
+                Destroy(Locator.GetShipBody().gameObject);
+                this.removeShipASAP = false;
             }
 
             //Print the player's absolute and relative positions when k is pressed

@@ -91,6 +91,20 @@ namespace DeepBramble
             }
         }
 
+        /**
+         * If we detect the player passing through the system black hole, set the flag to remove their ship
+         * 
+         * @param __instance The instance of the vanish volume
+         * @param hitCollider The collider that entered the volume
+         */
+        public static void ShipRemover(VanishVolume __instance, ref Collider hitCollider)
+        {
+            if(__instance.transform.parent.gameObject == brambleHole && hitCollider.attachedRigidbody.CompareTag("Player"))
+            {
+                DeepBramble.removeShip = true;
+            }
+        }
+
         public static void printTrace()
         {
             DeepBramble.debugPrint(System.Environment.StackTrace);
