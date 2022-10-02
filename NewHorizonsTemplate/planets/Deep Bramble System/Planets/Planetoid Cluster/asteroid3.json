@@ -20,6 +20,7 @@
   "Props": {
     "details": [
       {
+        "keepLoaded": true,
         "assetBundle": "assetbundles/asteroid4",
         "path": "Assets/Prefabs/asteroid4.prefab",
         "position": {

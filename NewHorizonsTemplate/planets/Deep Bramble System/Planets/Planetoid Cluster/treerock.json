@@ -34,6 +34,7 @@
   "Props": {
     "details": [
       {
+        "keepLoaded": true,
         "assetBundle": "assetbundles/bigasteroid",
         "path": "Assets/Prefabs/bigasteroid.prefab",
         "position": {
@@ -44,6 +45,7 @@
         "alignToNormal": false
       },
       {
+        "keepLoaded": true,
         "assetBundle": "assetbundles/stilt_building_1",
         "path": "Assets/Prefabs/buildings/stilt_building_1.prefab",
         "position": {
@@ -54,6 +56,7 @@
         "alignToNormal": true
       },
       {
+        "keepLoaded": true,
         "assetBundle": "assetbundles/stilt_building_2",
         "path": "Assets/Prefabs/buildings/stilt_building_2.prefab",
         "position": {
@@ -64,6 +67,7 @@
         "alignToNormal": true
       },
       {
+        "keepLoaded": true,
         "rename": "TextWall",
         "path": "VolcanicMoon_Body/Sector_VM/Interactables_VM/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
         "position": {
@@ -80,6 +84,7 @@
         "alignToNormal": false
       },
       {
+        "keepLoaded": true,
         "rename": "Tree",
         "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
         "position": {

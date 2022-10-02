@@ -180,7 +180,7 @@ namespace DeepBramble
             //If it's flagged, send the ship to Brazil
             if(this.removeShipASAP && Locator.GetShipBody() != null)
             {
-                Destroy(Locator.GetShipBody().gameObject);
+                Locator.GetShipBody().SetPosition(new Vector3(0, 0, -999999f));
                 this.removeShipASAP = false;
             }
 

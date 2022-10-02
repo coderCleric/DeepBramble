@@ -20,6 +20,7 @@
   "Props": {
     "details": [
       {
+        "keepLoaded": true,
         "assetBundle": "assetbundles/asteroid3",
         "path": "Assets/Prefabs/asteroid3.prefab",
         "position": {
@@ -30,6 +31,7 @@
         "alignToNormal": false
       },
       {
+        "keepLoaded": true,
         "rename": "TextWall",
         "path": "VolcanicMoon_Body/Sector_VM/Interactables_VM/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
         "position": {
