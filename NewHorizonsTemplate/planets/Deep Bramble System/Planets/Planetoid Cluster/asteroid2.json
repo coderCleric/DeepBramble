@@ -45,6 +45,7 @@
     ],
     "nomaiText": [
       {
+        "parentPath": "Sector/TextWall",
         "seed": 5,
         "position": {
           "x": 24.5271,
@@ -59,39 +60,39 @@
         "arcInfo": [
           {
             "position": {
-              "x": -1.0109,
-              "y": 0.4836
+              "x": -0.8185,
+              "y": 1.1918
             },
-            "zRotation": 261.4995
+            "zRotation": 245.4811
           },
           {
             "position": {
-              "x": 0,
-              "y": 0.9293
+              "x": -0.4265,
+              "y": 1.0933
             },
-            "zRotation": 334.5818,
+            "zRotation": 308.063,
             "mirror": true
           },
           {
             "position": {
-              "x": 0.5582,
-              "y": 1.9249
+              "x": 0.5124,
+              "y": 1.8442
             },
-            "zRotation": 12.927
+            "zRotation": 344.9447
           },
           {
             "position": {
-              "x": 0.3649,
-              "y": 2.7287
+              "x": 0.4598,
+              "y": 2.376
             },
-            "zRotation": 287.299
+            "zRotation": 52.3991
           },
           {
             "position": {
               "x": 0.5636,
               "y": 0.962
             },
-            "zRotation": 218.7359
+            "zRotation": 233.8269
           }
         ],
         "type": "wall",

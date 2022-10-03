@@ -108,6 +108,8 @@
     "nomaiText": [
       {
         "rename": "WallText",
+        "parentPath": "Sector/TextWall",
+        "type": "wall",
         "seed": 2387,
         "position": {
           "x": -27.16216,
@@ -122,31 +124,30 @@
         "arcInfo": [
           {
             "position": {
-              "x": -0.1869,
-              "y": 0.5446
+              "x": -0.3618,
+              "y": 0.3713
             },
-            "zRotation": 229.9725,
+            "zRotation": 275.3652,
             "type": "adult"
           },
           {
             "position": {
-              "x": 0.9378,
-              "y": -0.418
+              "x": 1.1789,
+              "y": -0.192
             },
-            "zRotation": 310.7833,
+            "zRotation": 258.501,
             "type": "adult"
           },
           {
             "position": {
-              "x": 0.3088,
-              "y": -0.8422
+              "x": 0.5429,
+              "y": -0.4007
             },
             "zRotation": 185.5178,
             "type": "adult",
             "mirror": true
           }
         ],
-        "type": "wall",
         "xmlFile": "planets/Deep Bramble System/Text/treeshrinetext.xml"
       },
 
@@ -168,10 +169,11 @@
 
       {
         "rename": "PlanetoidHintText",
+        "parentPath": "Sector/stilt_building_2",
         "position": {
-          "x": -27.53622,
-          "y": -19.60245,
-          "z": -18.07157
+          "x": -27.589,
+          "y": -18.22726,
+          "z": -19.11134
         },
         "normal": {
           "x": -0.6187087,
@@ -181,28 +183,79 @@
         "arcInfo": [
           {
             "position": {
-              "x": 0.5124,
-              "y": 0
+              "x": 0.9249,
+              "y": -0.296
             },
-            "zRotation": 61.9364
-          },
-          {
+            "zRotation": 95.2636,
             "mirror": true
           },
-          {},
-          {},
-          {},
           {
             "position": {
-              "x": -0.3918,
-              "y": 0.1909
+              "x": -0.1527,
+              "y": -0.1298
             },
-            "zRotation": 352.8231
+            "zRotation": 92.2636,
+            "mirror": true
           },
-          {},
-          {},
-          {},
-          {}
+          {
+            "position": {
+              "x": -1.4175,
+              "y": 0.55
+            },
+            "zRotation": 49.231
+          },
+          {
+            "position": {
+              "x": -2.1558,
+              "y": 1.1435
+            },
+            "zRotation": 106.46
+          },
+          {
+            "position": {
+              "x": -3.2469,
+              "y": 2.5262
+            },
+            "zRotation": 348.4541
+          },
+          {
+            "position": {
+              "x": -0.0116,
+              "y": 0.3051
+            },
+            "zRotation": 6.4545
+          },
+          {
+            "position": {
+              "x": 0.4609,
+              "y": -0.5978
+            },
+            "zRotation": 121.9432,
+            "mirror": true
+          },
+          {
+            "position": {
+              "x": -2.0817,
+              "y": 0.8031
+            },
+            "zRotation": 158.9822
+          },
+          {
+            "position": {
+              "x": -1.9382,
+              "y": -0.5866
+            },
+            "zRotation": 178.6995,
+            "mirror": true
+          },
+          {
+            "position": {
+              "x": -1.6325,
+              "y": 1.3136
+            },
+            "zRotation": 326.5989,
+            "mirror": true
+          }
         ],
         "type": "wall",
         "xmlFile": "planets/Deep Bramble System/Text/bigplanetoidhint.xml"
