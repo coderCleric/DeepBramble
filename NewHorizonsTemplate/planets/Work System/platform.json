@@ -1,0 +1,90 @@
+{
+  "name": "Platform",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "WorkSystem",
+  "Base": {
+    "groundSize": 0,
+    "surfaceSize": 0,
+    "surfaceGravity": 0,
+    "hasMapMarker": false,
+    "centerOfSolarSystem": true,
+    "ambientLight": 1.0
+  },
+  "Orbit": {
+    "staticPosition": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "isStatic": true
+  },
+  "Props": {
+    "details": [
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/gravplatform",
+        "path": "Assets/Prefabs/GravPlatform.prefab",
+        "position": {
+          "x": 0,
+          "y": 1,
+          "z": 0
+        },
+        "alignToNormal": true
+      },
+      {
+        "keepLoaded": true,
+        "rename": "TextWall",
+        "path": "VolcanicMoon_Body/Sector_VM/Interactables_VM/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
+        "position": {
+          "x": 16.39625,
+          "y": 1.125,
+          "z": 12.90365
+        },
+        "removeChildren": [ "whiteboard_brokenTiles" ]
+      },
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/stilt_building_1",
+        "path": "Assets/Prefabs/buildings/stilt_building_1.prefab",
+        "position": {
+          "x": -15.54034,
+          "y": 1.125,
+          "z": 22.7511
+        }
+      },
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/stilt_building_2",
+        "path": "Assets/Prefabs/buildings/stilt_building_2.prefab",
+        "position": {
+          "x": -28.43664,
+          "y": 1.125,
+          "z": -6.25235
+        }
+      },
+      {
+        "rename": "Oxygen",
+        "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Volumes_Crossroads/OxygenVolume",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 2000
+      }
+    ]
+  },
+  "Spawn": {
+    "shipSpawnPoint": {
+      "x": 0,
+      "y": 10,
+      "z": 0
+    },
+    "playerSpawnPoint": {
+      "x": 5,
+      "y": 10,
+      "z": 0
+    },
+    "startWithSuit": true
+  }
+}
