@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace DeepBramble
 {
+    /**
+     * This class just contains all of the patches that are used by the mod
+     */
     public static class Patches
     {
         private static GameObject brambleHole = null;
@@ -14,6 +17,9 @@ namespace DeepBramble
 
         /**
          * When the player enters a bramble dimension, wake up the attached rigidbodies
+         * 
+         * @param detector The warp detector of the object being warped
+         * @param __instance The instance of the warp volume the method is being called from
          */
         public static void WakeOnEnter(ref FogWarpDetector detector, OuterFogWarpVolume __instance)
         {
@@ -30,6 +36,8 @@ namespace DeepBramble
 
         /**
          * When the player enters a bramble dimension, set it to be the relative body for the position printout
+         * 
+         * @param __instance The instance of the warp volume the method is being called from
          */
         public static void DimensionUpdater(OuterFogWarpVolume __instance)
         {
@@ -47,6 +55,9 @@ namespace DeepBramble
 
         /**
          * When the player sockets a warp core, check if we need to activate the black hole
+         * 
+         * @param __instance The warp core socket instance the method is being called from
+         * @param item The item being placed into the socket
          */
         public static void WarpPlaceListener(WarpCoreSocket __instance, ref OWItem item)
         {
@@ -69,6 +80,8 @@ namespace DeepBramble
 
         /**
          * When the player removes the warp core, deactivate the black hole
+         * 
+         * @param __instance The warp core socket instance the method is being called from
          */
         public static void WarpRemoveListener(WarpCoreSocket __instance)
         {
@@ -80,6 +93,8 @@ namespace DeepBramble
 
         /**
          * When the vanish volume wakes up, save it if it's the one we want
+         * 
+         * @param __instance The vanish volume instance the method is being called from
          */
         public static void VanishVolumeListener(VanishVolume __instance)
         {
@@ -103,11 +118,6 @@ namespace DeepBramble
             {
                 DeepBramble.removeShip = true;
             }
-        }
-
-        public static void printTrace()
-        {
-            DeepBramble.debugPrint(System.Environment.StackTrace);
         }
     }
 }

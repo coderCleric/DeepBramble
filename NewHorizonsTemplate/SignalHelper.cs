@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace DeepBramble
 {
+    /**
+     * This class is responsible for properly tying signalscope signals to their originating bodies
+     */
     public  class SignalHelper
     {
         private  Dictionary<string, AstroObject> signalDictionary;
@@ -46,6 +49,9 @@ namespace DeepBramble
             }
         }
 
+        /**
+         * Fix the parents of all of the signals
+         */
         public void FixSignalParents()
         {
             //Do stuff for every signal

@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace DeepBramble
 {
+    /**
+     * this class manipulates campfires to look how we want.
+     */
     class CampFireHelper
     {
         private Campfire[] fires;
@@ -20,7 +23,7 @@ namespace DeepBramble
         }
 
         /**
-         * Prep all of the fires
+         * Enact all of our changes on the fires
          */
         public void PrepFires()
         {

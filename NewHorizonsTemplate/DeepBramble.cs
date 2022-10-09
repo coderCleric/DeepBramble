@@ -10,6 +10,9 @@ using System;
 
 namespace DeepBramble
 {
+    /**
+     * The main class of the mod, everything used in the mod branches from this class.
+     */
     public class DeepBramble : ModBehaviour
     {
         //Flags
@@ -87,7 +90,7 @@ namespace DeepBramble
          * When a star system finishes loading, check if it's the bramble system
          * If it is the bramble system, do a series of setup steps
          * 
-         * The s is not used in this function
+         * @param s The string that's the name of the loaded system? I think? Not used in this method.
          */
         private void PrepBrambleSystem(String s)
         {
@@ -133,6 +136,8 @@ namespace DeepBramble
 
         /**
          * If this object has a child with a gravity field, make it a higher priority
+         * 
+         * @param body The body to fix gravity for
          */
         private void FixGravity(GameObject body)
         {
@@ -144,6 +149,8 @@ namespace DeepBramble
 
         /**
          * If this object is a bramble dimension, remove the speed limit
+         * 
+         * @param body The body to remove the speed limit from
          */
         private void FixDimension(GameObject body)
         {
@@ -171,7 +178,10 @@ namespace DeepBramble
         }
 
         /**
-         * Do certain things every frame (mostly debug key presses)
+         * Do certain things every frame:
+         * -Any debug presses
+         * -Fix the ship drift
+         * -Send the ship far, far away
          */
         private void Update()
         {

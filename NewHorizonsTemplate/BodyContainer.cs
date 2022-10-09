@@ -7,6 +7,9 @@ using UnityEngine;
 
 namespace DeepBramble
 {
+    /**
+     * This is the container for a single floating object
+     */
     public class BodyContainer
     {
         private OWRigidbody body;
@@ -14,6 +17,8 @@ namespace DeepBramble
 
         /**
          * Make a new body container with the given body
+         * 
+         * @param body The body to contain
          */
         public BodyContainer(OWRigidbody body)
         {

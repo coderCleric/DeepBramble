@@ -9,6 +9,9 @@ using UnityEngine.Events;
 
 namespace DeepBramble
 {
+    /**
+     * The interface for interacting with new horizons
+     */
     public interface INewHorizons
     {
         void Create(Dictionary<string, object> config);

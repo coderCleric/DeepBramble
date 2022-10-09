@@ -7,12 +7,15 @@ using UnityEngine;
 
 namespace DeepBramble
 {
+    /**
+     * This class is responsible for making ship log entry locations properly refract through their nodes
+     */
     class EntryLocationHelper
     {
         private Dictionary<string, OuterFogWarpVolume> entryDictionary;
 
         /**
-         * Make a new signal helper
+         * Make a new entry location helper
          */
         public EntryLocationHelper()
         {
@@ -46,6 +49,9 @@ namespace DeepBramble
             }
         }
 
+        /**
+         * Refracts every entry location through the warps, as dictated by the dictionary
+         */
         public void FixEntryOuterWarps()
         {
             //Do stuff for every entry
