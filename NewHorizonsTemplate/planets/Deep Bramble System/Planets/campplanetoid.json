@@ -1,0 +1,44 @@
+{
+  "name": "Camp Planetoid",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "BrambleSystem",
+  "Base": {
+    "groundSize": 0,
+    "surfaceSize": 100,
+    "surfaceGravity": 12,
+    "hasMapMarker": false,
+    "ambientLight": 2.0
+  },
+  "Orbit": {
+    "staticPosition": {
+      "x": 1349.2,
+      "y": -326.9,
+      "z": 30861.2
+    },
+    "isStatic": true
+  },
+  "Props": {
+    "details": [
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/camp_planetoid",
+        "path": "Assets/Prefabs/large_planetoid.prefab",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "alignToNormal": false
+      },
+      {
+        "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Prefab_HEA_Campfire",
+        "position": {
+          "x": 0,
+          "y": 75,
+          "z": 0
+        },
+        "alignToNormal": true
+      }
+    ]
+  }
+}

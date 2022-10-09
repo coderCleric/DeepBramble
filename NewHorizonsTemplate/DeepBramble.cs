@@ -112,6 +112,10 @@ namespace DeepBramble
                 this.entryHelper.PrepDictionary();
                 this.entryHelper.FixEntryOuterWarps();
 
+                //Fix the campfires
+                CampFireHelper cfHelper = new CampFireHelper();
+                cfHelper.PrepFires();
+
                 //Prime the ship drift fix
                 this.shipDriftFixPrimed = true;
 
@@ -122,7 +126,9 @@ namespace DeepBramble
 
             //If we're not in the bramble system, clear the bramble containers
             else
+            {
                 BrambleContainer.clear();
+            }
         }
 
         /**
