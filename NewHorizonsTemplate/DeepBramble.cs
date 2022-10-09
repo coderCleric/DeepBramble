@@ -191,7 +191,7 @@ namespace DeepBramble
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
                     //Find the center
-                    if (i._name == AstroObject.Name.CustomString && i._customName.Equals("The Center"))
+                    if (i._name == AstroObject.Name.CustomString && i._customName.Equals("The First Dimension"))
                     {
                         absCenter = i.transform;
                     }
