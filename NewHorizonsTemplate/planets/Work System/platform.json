@@ -72,6 +72,122 @@
         },
         "scale": 2000
       }
+    ],
+    "nomaiText": [
+      {
+        "seed": 2,
+        "position": {
+          "x": -7.830616,
+          "y": 2.740077,
+          "z": 49.875
+        },
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "type": "wall",
+        "xmlFile": "planets/Work System/spirals.xml",
+
+        "arcInfo": [
+          {
+            "variation": 0
+          },
+          {
+            "variation": 1,
+            "position": {
+              "x": 2,
+              "y": 0
+            
+            }
+          },
+          {
+            "variation": 2,
+            "position": {
+              "x": 4,
+              "y": 0
+            }
+          },
+          {
+            "variation": 3,
+            "position": {
+              "x": 6,
+              "y": 0
+            }
+          },
+          {
+            "variation": 4,
+            "position": {
+              "x": 8,
+              "y": 0
+            }
+          },
+          {
+            "variation": 5,
+            "position": {
+              "x": 10,
+              "y": 0
+            }
+          },
+          {
+            "variation": 6,
+            "position": {
+              "x": 12,
+              "y": 0
+            }
+          },
+          {
+            "variation": 7,
+            "position": {
+              "x": 14,
+              "y": 0
+            }
+          },
+          {
+            "variation": 8,
+            "position": {
+              "x": 16,
+              "y": 0
+            }
+          },
+          {
+            "variation": 9,
+            "position": {
+              "x": 18,
+              "y": 0
+            }
+          },
+          {
+            "variation": 10,
+            "position": {
+              "x": 20,
+              "y": 0
+            }
+          },
+          {
+            "variation": 11,
+            "position": {
+              "x": 22,
+              "y": 0
+            }
+          },
+          {
+            "variation": 12,
+            "position": {
+              "x": 24,
+              "y": 0
+            }
+          },
+          {
+            "variation": 13,
+            "position": {
+              "x": 26,
+              "y": 0
+            }
+          }
+        ]
+
+      }
     ]
   },
   "Spawn": {
