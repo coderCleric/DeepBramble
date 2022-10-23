@@ -1,0 +1,70 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			ANALYTICNOMAI: Here we are friends, the campsite I had mentioned previously.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SPOOKEDNOMAI: There are still a few embers among the logs, it seems likely that somebody was here fairly recently.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			CURIOUSNOMAI: Perhaps we will be able to meet them if we remain here long enough, if they were here before then they are likely to return.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NOMAILEADER: As curious as I am about who constructed this site, this may not be wise, as we have no idea whether or not the denizens of this place are friendly.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			SPOOKEDNOMAI: I believe that we should avoid constructing large structures here for the same reason. Even if these people are friendly, they may not take kindly to us treating this body as our own.
+		</Text>
+	</TextBlock>
+
+
+	<!--Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			CURIOUSNOMAI: Amazing! This body is almost entirely covered in grass and trees! How do you suppose it manages to sustain life in a place like this?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			ANALYTICNOMAI: We may need to erect a small lab to study the origins of the soil and plant life to properly understand this.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>103</ID>
+		<ParentID>102</ParentID>
+		<Text>
+			NOMAILEADER: Feel free to set up that lab, but remember to keep it small, we don’t want to be too obstructive to whoever set up this campsite.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

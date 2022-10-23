@@ -1,0 +1,104 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			CURIOUSNOMAI: One of our new friends actually approached me today, I believe that it was the one that I had previously met at this campsite.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ANALYTICNOMAI: Oh? Did they seem to have any particular reason for doing so?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			CURIOUSNOMAI: They actually led me to somewhere quite interesting. Do you know of the wooden knot that lies in the center of this area, the one that leads back in through an infinite loop? They took me through there and, contrary to what normally happens, we arrived in an enclosed space.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			SPOOKEDNOMAI: How strange, what was the space like?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			CURIOUSNOMAI: It seemed to be a completely overgrown entrance to this area, and the person leading me beckoned me through another node, although I did not follow them through for fear of being unable to find my way back.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			NOMAILEADER: If a member of this other species desires for us to follow them, it may be worthwhile to do so. They have demonstrated that they are not hostile, and they may know how to escape from this place.
+		</Text>
+	</TextBlock>
+
+
+	<!--Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			ANALYTICNOMAI: I have passed through the knot that you speak of, but I have never arrived anywhere that sounds similar to what you speak of.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			CURIOUSNOMAI: It confuses me as well, ANALYTICNOMAI, and I am unsure of how to access that area again.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>103</ID>
+		<ParentID>102</ParentID>
+		<Text>
+			ANALYTICNOMAI: I have a hypothesis. I have noted that the hole one uses to enter that central knot lines up with where they will re-enter this larger area. If we can locate the exterior of the enclosure that you speak of, we may be able to find the hole that will lead us into it.
+		</Text>
+	</TextBlock>
+
+
+	<!--Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			CAMPDREE1: I fail to understand your strange tongue, but I pray that you may know mine. Follow where I lead and find us. It may be only a feeling, but I think that our species are fated to meet.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>202</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			CURIOUSNOMAI: Is this our new friend’s writing? How exciting! SPOOKEDNOMAI, are you able to understand what they have said?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>203</ID>
+		<ParentID>202</ParentID>
+		<Text>
+			SPOOKEDNOMAI: Unfortunately, I will need to analyze it more before I can determine what this text says, although I can assure you that I will begin work on my translation as soon as possible.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

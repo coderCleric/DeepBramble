@@ -1,0 +1,62 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			CURIOUSNOMAI: Friends, I am pleased to announce that I was successful in my attempt to make contact with the stranger!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SPOOKEDNOMAI: How did it go? Were you able to get a closer look at them?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			ANALYTICNOMAI: Were they appreciative of your attempt to return their item?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			CURIOUSNOMAI: It went well, yes, and maybe! I avoided hiding this time and, upon returning to the campsite, they slowly approached me, apparently having noticed that I was holding their tablet. I held it out for them to take and, upon grabbing it, they promptly turned around and left.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			CURIOUSNOMAI: As for their appearance, I confirmed what I observed previously. In addition, their teeth seemed to be sharp to a point, their body was covered in small, gray-green scales, and they did have small recesses in their skull where eyes might normally reside.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			NOMAILEADER: Let us hope that we made a good first impression, since they may no longer decide to return now that they have their tablet.
+		</Text>
+	</TextBlock>
+
+
+	<!--Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			ANALYTICNOMAI: It appears that they may still be somewhat scared of us, if they fled that quickly.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>
