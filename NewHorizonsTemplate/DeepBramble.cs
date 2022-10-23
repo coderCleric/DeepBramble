@@ -285,6 +285,36 @@ namespace DeepBramble
                 else
                     debugPrint("Raycast hit nothing");
             }
+
+            //Give a printout for the arc info for the collection the player is looking at
+            if(Keyboard.current[Key.M].wasPressedThisFrame)
+            {
+                string msg = "\"arcInfo\": [";
+                NomaiText text = Locator.GetPlayerCamera().transform.Find("NomaiTranslatorProp").GetComponent<NomaiTranslatorProp>()._nomaiTextComponent;
+
+                //Loop through each arc, getting the info for them
+                if (text != null)
+                {
+                    foreach (NomaiTextLine line in text.GetComponentsInChildren<NomaiTextLine>(true))
+                    {
+                        msg += "{";
+                        Transform tf = line.transform;
+                        //Mirror it if needed
+                        if (tf.localScale.x == -1)
+                            msg += "\"mirror\": true,";
+
+                        //Print the position
+                        msg += "\"position\": {\"x\": " + tf.localPosition.x + ",\"y\": " + tf.localPosition.y + "},";
+
+                        //And the z rotation
+                        msg += "\"zRotation\": " + tf.localRotation.eulerAngles.z;
+
+                        msg += "}";
+                    }
+                    msg += "]";
+                    debugPrint(msg);
+                }
+            }
         }
 
         public static void debugPrint(string str)
