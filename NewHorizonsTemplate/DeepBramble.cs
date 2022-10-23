@@ -37,8 +37,10 @@ namespace DeepBramble
             //NH setup stuff
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizonsAPI.LoadConfigs(this);
+
+            //Do stuff when the system loads
             UnityEvent<string> loadEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
-            loadEvent.AddListener(PrepBrambleSystem);
+            loadEvent.AddListener(PrepSystem);
 
             //Make our helpers
             this.signalHelper = new SignalHelper();
@@ -50,6 +52,12 @@ namespace DeepBramble
                 "ReceiveWarpedDetector",
                 typeof(Patches),
                 nameof(Patches.WakeOnEnter));
+
+            //Hide the text of dree writing
+            ModHelper.HarmonyHelper.AddPrefix<NomaiTranslatorProp>(
+                "DisplayTextNode",
+                typeof(Patches),
+                nameof(Patches.HideDreeText));
 
             //Black Hole Patches
             //Activate the vessel black hole when the warp core is placed in the correct spot
@@ -92,11 +100,14 @@ namespace DeepBramble
          * 
          * @param s The string that's the name of the loaded system? I think? Not used in this method.
          */
-        private void PrepBrambleSystem(String s)
+        private void PrepSystem(String s)
         {
-            //Only do stuff if we're in the bramble system now
+            //Do this stuff if we're in the bramble system
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("BrambleSystem"))
             {
+                //Tell patches that we're in the bramble system
+                Patches.inBrambleSystem = true;
+
                 //Do some things to each astro object
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
@@ -127,9 +138,13 @@ namespace DeepBramble
                 removeShip = false;
             }
 
-            //If we're not in the bramble system, clear the bramble containers
+            //Do other stuff if we're not in the bramble system
             else
             {
+                //Tell patches we're not in the bramble system
+                Patches.inBrambleSystem = false;
+
+                //Clear the bramble containers
                 BrambleContainer.clear();
             }
         }

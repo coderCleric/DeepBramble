@@ -14,6 +14,7 @@ namespace DeepBramble
     {
         private static GameObject brambleHole = null;
         private static GameObject eyeHologram = null;
+        public static bool inBrambleSystem = false;
 
         /**
          * When the player enters a bramble dimension, wake up the attached rigidbodies
@@ -23,15 +24,41 @@ namespace DeepBramble
          */
         public static void WakeOnEnter(ref FogWarpDetector detector, OuterFogWarpVolume __instance)
         {
-            //Figure out if it's the player that entered
-            bool isPlayer = detector.CompareName(FogWarpDetector.Name.Player) || detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip();
-
-            //If it is the player, activate the dimension they entered
-            GameObject bodyObject = __instance.transform.parent.parent.gameObject;
-            if (isPlayer)
+            //Only do stuff if we're in the bramble system
+            if (inBrambleSystem)
             {
-                BrambleContainer.setActiveDimension(bodyObject);
+                //Figure out if it's the player that entered
+                bool isPlayer = detector.CompareName(FogWarpDetector.Name.Player) || detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip();
+
+                //If it is the player, activate the dimension they entered
+                GameObject bodyObject = __instance.transform.parent.parent.gameObject;
+                if (isPlayer)
+                {
+                    BrambleContainer.setActiveDimension(bodyObject);
+                }
             }
+        }
+
+        /**
+         * Hide Dree text, unless the player has the translator upgrade
+         * 
+         * @param __instance The actual translator prop
+         * @return True if the text shouldn't be hidden, false otherwise
+         */
+        public static bool HideDreeText(NomaiTranslatorProp __instance)
+        {
+            //This flag checks if the targeted text is Dree text
+            bool flag = !(__instance._scanBeams[0]._nomaiTextLine == null) && __instance._scanBeams[0]._nomaiTextLine.gameObject.GetComponent<OWRenderer>().sharedMaterial.name == "Effects_IP_Text_mat";
+
+            //If the text is dree, and the player lacks the upgrade, hide the text
+            if (flag && inBrambleSystem && !Locator.GetShipLogManager().IsFactRevealed("TRANSLATOR_DREE_UPGRADE"))
+            {
+                __instance._textField.text = UITextLibrary.GetString(UITextType.TranslatorUntranslatableWarning);
+                return false;
+            }
+
+            //Otherwise, run normally
+            return true;
         }
 
         /**
