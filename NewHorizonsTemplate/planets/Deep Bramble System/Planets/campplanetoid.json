@@ -2,6 +2,20 @@
   "name": "Camp Planetoid",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "BrambleSystem",
+  "ShipLog": {
+    "xmlFile": "planets/Deep Bramble System/Ship Logs/camp_planetoid.xml",
+    "mapMode": {
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 3,
+        "y": 1
+      },
+      "manualPosition": {
+        "x": 100,
+        "y": 0
+      }
+    }
+  },
   "Base": {
     "groundSize": 0,
     "surfaceSize": 100,
@@ -331,14 +345,14 @@
         "rename": "stalking_text",
         "xmlFile": "planets/Deep Bramble System/Text/camp_planetoid/stalkingtext.xml",
         "position": {
-          "x": 8.556376,
-          "y": 72.33673,
-          "z": 22.74994
+          "x": 8.695808,
+          "y": 72.13302,
+          "z": 22.90304
         },
         "normal": {
           "x": -0.3623723,
           "y": 0.3214572,
-          "z": -0.8748437
+          "z": -0.8748438
         },
         "arcInfo": [
           {
@@ -395,13 +409,13 @@
         "rename": "hideaway_text",
         "xmlFile": "planets/Deep Bramble System/Text/camp_planetoid/wallhideaway.xml",
         "position": {
-          "x": 22.66097,
-          "y": 72.4893,
-          "z": 8.906432
+          "x": 22.88535,
+          "y": 72.3667,
+          "z": 8.945846
         },
         "normal": {
-          "x": -0.8748461,
-          "y": 0.3214592,
+          "x": -0.874846,
+          "y": 0.3214591,
           "z": -0.3623651
         },
         "arcInfo": [
@@ -496,6 +510,21 @@
             "zRotation": 137.191
           }
         ]
+      }
+    ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "rename": "CampsiteReveal",
+        "position": {
+          "x": 0,
+          "y": 75,
+          "z": 0
+        },
+        "radius": 30,
+        "revealOn": "enter",
+        "reveals": [ "CAMPSITE_FOUND_FACT" ]
       }
     ]
   }

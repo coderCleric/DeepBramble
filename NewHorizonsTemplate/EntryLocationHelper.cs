@@ -40,9 +40,11 @@ namespace DeepBramble
                     switch (i._customName)
                     {
                         //We're in the large dimension
-                        case "Large Dimension": 
-                            this.entryDictionary.Add("PLANETOID_CLUSTER_ENTRY", i.transform.Find("Sector").Find("OuterWarp").GetComponent<OuterFogWarpVolume>());
-                            this.entryDictionary.Add("TREE_SHRINE_ENTRY", i.transform.Find("Sector").Find("OuterWarp").GetComponent<OuterFogWarpVolume>());
+                        case "Large Dimension":
+                            OuterFogWarpVolume warpVolume = i.transform.Find("Sector").Find("OuterWarp").GetComponent<OuterFogWarpVolume>();
+                            this.entryDictionary.Add("PLANETOID_CLUSTER_ENTRY", warpVolume);
+                            this.entryDictionary.Add("TREE_SHRINE_ENTRY", warpVolume);
+                            this.entryDictionary.Add("CAMPSITE_ENTRY", warpVolume);
                             break;
                     }
                 }

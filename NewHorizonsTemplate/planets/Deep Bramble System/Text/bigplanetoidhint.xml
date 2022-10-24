@@ -92,4 +92,10 @@
       <Condition>5</Condition>
     </RevealFact>
   </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CAMPSITE_RUMOR</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

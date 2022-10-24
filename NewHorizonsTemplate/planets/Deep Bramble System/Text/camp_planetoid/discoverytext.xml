@@ -67,4 +67,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CAMPSITE_SOILLAB_HINT</FactID>
+      <Condition>103</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

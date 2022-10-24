@@ -59,4 +59,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CAMPSITE_CONTACT_FACT</FactID>
+      <Condition>6</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>
