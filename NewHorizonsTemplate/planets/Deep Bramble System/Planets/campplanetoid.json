@@ -68,6 +68,16 @@
         }
       }
     ],
+    "entryLocation": [
+      {
+        "id": "CAMPSITE_ENTRY",
+        "position": {
+          "x": 0,
+          "y": 75,
+          "z": 0
+        }
+      }
+    ],
     "nomaiText": [
       {
         "rename": "initial_discovery_text",

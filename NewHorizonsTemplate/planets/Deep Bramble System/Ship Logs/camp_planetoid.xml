@@ -3,7 +3,7 @@
 
   <!--The entry for the campsite-->
   <Entry>
-    <ID>CAMPSITE</ID>
+    <ID>CAMPSITE_ENTRY</ID>
     <Name>Unknown Campsite</Name>
 
     <RumorFact>
