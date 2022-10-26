@@ -19,6 +19,7 @@ namespace DeepBramble
         private bool shipDriftFixPrimed = false;
         public static bool removeShip = false;
         private bool removeShipASAP = false;
+        private bool podRevealPrimed = false;
 
         //Miscellanious variables
         public INewHorizons NewHorizonsAPI;
@@ -147,6 +148,13 @@ namespace DeepBramble
                 //Clear the bramble containers
                 BrambleContainer.clear();
             }
+
+            //Do this stuff if we're in the hearthian system
+            if(NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
+            {
+                //If the player knows about the vessel, give them the first fact for our mod
+                this.podRevealPrimed = true;
+            }
         }
 
         /**
@@ -215,6 +223,18 @@ namespace DeepBramble
                 this.removeShipASAP = false;
             }
 
+            //If it's flagged, check if we need to reveal the starting rumor
+            if(this.podRevealPrimed)
+            {
+                ShipLogManager logManager = Locator.GetShipLogManager();
+                if (logManager.IsFactRevealed("DB_VESSEL_X1"))
+                {
+                    logManager.RevealFact("WHY_TWO_PODS_RUMOR");
+                }
+                this.podRevealPrimed = false;
+            }
+
+            //Key-related actions
             //Print the player's absolute and relative positions when k is pressed
             if (Keyboard.current[Key.K].wasPressedThisFrame)
             {
