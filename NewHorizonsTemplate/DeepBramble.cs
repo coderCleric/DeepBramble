@@ -16,10 +16,7 @@ namespace DeepBramble
     public class DeepBramble : ModBehaviour
     {
         //Flags
-        private bool shipDriftFixPrimed = false;
-        public static bool removeShip = false;
-        private bool removeShipASAP = false;
-        private bool podRevealPrimed = false;
+        private bool fixShipDrift = false;
 
         //Miscellanious variables
         public INewHorizons NewHorizonsAPI;
@@ -47,7 +44,16 @@ namespace DeepBramble
             this.signalHelper = new SignalHelper();
             this.entryHelper = new EntryLocationHelper();
 
+            //Initialize the startup flag dictionary
+            Patches.initFlags();
+
             //Miscellanious patches
+            //Do locator-specific startup stuff
+            ModHelper.HarmonyHelper.AddPostfix<Locator>(
+                "LocateSceneObjects",
+                typeof(Patches),
+                nameof(Patches.LocatorStartup));
+
             //Wake up dimensions as we enter them
             ModHelper.HarmonyHelper.AddPrefix<OuterFogWarpVolume>(
                 "ReceiveWarpedDetector",
@@ -132,11 +138,7 @@ namespace DeepBramble
                 cfHelper.PrepFires();
 
                 //Prime the ship drift fix
-                this.shipDriftFixPrimed = true;
-
-                //Prime the destruction of the ship
-                this.removeShipASAP = removeShip;
-                removeShip = false;
+                this.fixShipDrift = true;
             }
 
             //Do other stuff if we're not in the bramble system
@@ -153,7 +155,7 @@ namespace DeepBramble
             if(NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
             {
                 //If the player knows about the vessel, give them the first fact for our mod
-                this.podRevealPrimed = true;
+                Patches.startupFlags["revealStartingRumor"] = true;
             }
         }
 
@@ -208,33 +210,13 @@ namespace DeepBramble
          */
         private void Update()
         {
-            //Flag-related actions
-            //If it's primed, fix the ship drift
-            if (this.shipDriftFixPrimed && Locator.GetShipBody() != null)
+            //Fix the ship drift, if possible and necessary
+            if(fixShipDrift && Locator.GetShipBody() != null)
             {
                 Locator.GetShipBody().SetVelocity(Vector3.zero);
-                this.shipDriftFixPrimed = false;
+                fixShipDrift = false;
             }
 
-            //If it's flagged, send the ship to Brazil
-            if(this.removeShipASAP && Locator.GetShipBody() != null)
-            {
-                Locator.GetShipBody().SetPosition(new Vector3(0, 0, -999999f));
-                this.removeShipASAP = false;
-            }
-
-            //If it's flagged, check if we need to reveal the starting rumor
-            if(this.podRevealPrimed)
-            {
-                ShipLogManager logManager = Locator.GetShipLogManager();
-                if (logManager.IsFactRevealed("DB_VESSEL_X1"))
-                {
-                    logManager.RevealFact("WHY_TWO_PODS_RUMOR");
-                }
-                this.podRevealPrimed = false;
-            }
-
-            //Key-related actions
             //Print the player's absolute and relative positions when k is pressed
             if (Keyboard.current[Key.K].wasPressedThisFrame)
             {

@@ -15,6 +15,46 @@ namespace DeepBramble
         private static GameObject brambleHole = null;
         private static GameObject eyeHologram = null;
         public static bool inBrambleSystem = false;
+        public static Dictionary<string, bool> startupFlags = null;
+
+        /**
+         * Initialize the dictionary of startup flags
+         */
+        public static void initFlags()
+        {
+            startupFlags = new Dictionary<string, bool>();
+            startupFlags.Add("vanishShip", false);
+            startupFlags.Add("revealStartingRumor", false);
+        }
+
+
+        /**
+         * When the locator finishes loading, do a bunch of stuff to prep the game
+         */
+        public static void LocatorStartup()
+        {
+            DeepBramble.debugPrint("Running locator startup");
+
+            //If needed, vanish the ship
+            if (startupFlags["vanishShip"])
+            {
+                DeepBramble.debugPrint("Vanishing the ship");
+                Locator.GetShipBody().SetPosition(new Vector3(0, 0, -999999f));
+                startupFlags["vanishShip"] = false;
+            }
+
+            //If needed, check if we need to reveal the starting rumor of the mod
+            if(startupFlags["revealStartingRumor"])
+            {
+                DeepBramble.debugPrint("Revealing starting rumor");
+                ShipLogManager logManager = Locator.GetShipLogManager();
+                if (logManager.IsFactRevealed("DB_VESSEL_X1"))
+                {
+                    logManager.RevealFact("WHY_TWO_PODS_RUMOR");
+                }
+                startupFlags["revealStartingRumor"] = false;
+            }
+        }
 
         /**
          * When the player enters a bramble dimension, wake up the attached rigidbodies
@@ -143,7 +183,7 @@ namespace DeepBramble
         {
             if(__instance.transform.parent.gameObject == brambleHole && hitCollider.attachedRigidbody.CompareTag("Player"))
             {
-                DeepBramble.removeShip = true;
+                startupFlags["vanishShip"] = true;
             }
         }
     }
