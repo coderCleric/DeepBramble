@@ -315,14 +315,6 @@ namespace DeepBramble
                     debugPrint(msg);
                 }
             }
-
-            if (Keyboard.current[Key.N].wasPressedThisFrame)
-            {
-                string msg = "";
-                foreach (string i in Locator.GetShipLogManager()._factDict.Keys)
-                    msg += Locator.GetShipLogManager()._factDict[i]._text + "\n";
-                debugPrint(msg);
-            }
         }
 
         public static void debugPrint(string str)
