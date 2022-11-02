@@ -97,6 +97,9 @@
       <None Update="assetbundles\warp_core_holder.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assets\Heightmaps\camp_planetoid_tree_heightmap.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assets\Map Mode Images\start_dimension.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

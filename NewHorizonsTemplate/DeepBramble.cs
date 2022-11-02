@@ -118,8 +118,8 @@ namespace DeepBramble
                 //Do some things to each astro object
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
-                    //If it has a gravity volume, increase the priority to 2
-                    this.FixGravity(i.gameObject);
+                    //If it has a gravity volume, do some stuff to it
+                    this.FixPlanet(i.gameObject);
 
                     //If it's a dimension, do some fixes
                     this.FixDimension(i.gameObject);
@@ -160,16 +160,25 @@ namespace DeepBramble
         }
 
         /**
-         * If this object has a child with a gravity field, make it a higher priority
+         * If this object has a child with a gravity field, modify it as a planet
          * 
-         * @param body The body to fix gravity for
+         * @param body The body to fix
          */
-        private void FixGravity(GameObject body)
+        private void FixPlanet(GameObject body)
         {
-            //Increase the priority
+            //Check if it has a gravity volume and a child named "Sector"
             GravityVolume volume = body.GetComponentInChildren<GravityVolume>();
-            if (volume != null)
+            Transform sectorTransform = body.transform.Find("Sector");
+            if (volume != null && sectorTransform != null)
+            {
+                //Increase the priority of the gravity volume
                 volume._priority = 2;
+
+                //Remove any heightmap-generated ground
+                Transform fakeGround = sectorTransform.Find("CubeSphere");
+                if (fakeGround != null)
+                    fakeGround.gameObject.SetActive(false);
+            }
         }
 
         /**
