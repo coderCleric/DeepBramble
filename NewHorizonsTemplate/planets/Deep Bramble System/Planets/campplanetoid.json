@@ -27,7 +27,7 @@
   "HeightMap": {
     "heightMap": "assets/Heightmaps/camp_planetoid_tree_heightmap.png",
     "minHeight": 0,
-    "maxHeight": 99
+    "maxHeight": 99.3
   },
   "Orbit": {
     "staticPosition": {
@@ -288,6 +288,33 @@
           "z": -7.354018
         },
         "alignToNormal": true
+      },
+      {
+        "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/DetailPatches_PioneerDimension/Foliage/Foliage_TH_HighPatch (1)",
+        "position": {
+          "x": -35.58304,
+          "y": 77.80735,
+          "z": -13.18682
+        },
+        "alignToNormal": true
+      },
+      {
+        "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/DetailPatches_PioneerDimension/Foliage/Foliage_TH_HighPatch (1)",
+        "position": {
+          "x": -33.42143,
+          "y": 78.76303,
+          "z": -13.63165
+        },
+        "alignToNormal": true
+      },
+      {
+        "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/DetailPatches_PioneerDimension/Foliage/Foliage_TH_HighPatch (1)",
+        "position": {
+          "x": -34.40537,
+          "y": 77.64217,
+          "z": -16.71171
+        },
+        "alignToNormal": true
       }
     ],
     "scatter": [
@@ -296,6 +323,13 @@
         "seed": 564343,
         "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
         "count": 42,
+        "minHeight": 80,
+        "maxHeight": 110
+      },
+      {
+        "seed": 396157,
+        "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/DetailPatches_PioneerDimension/Foliage/Foliage_TH_HighPatch (1)",
+        "count": 30,
         "minHeight": 80,
         "maxHeight": 110
       }
