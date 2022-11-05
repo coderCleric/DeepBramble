@@ -186,6 +186,46 @@
             }
           }
         ]
+      },
+      {
+        "rename": "soil_lab_text",
+        "seed": 17845,
+        "position": {
+          "x": -11.95034,
+          "y": 4.127697,
+          "z": 24.38659
+        },
+        "normal": {
+          "x": -1,
+          "y": 0,
+          "z": 0
+        },
+        "type": "wall",
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planetoid/soillabtext.xml",
+        "arcInfo": [
+          {
+            "position": {
+              "x": -0.1818181,
+              "y": -0.08545452
+            },
+            "zRotation": 0
+          },
+          {
+            "mirror": true,
+            "position": {
+              "x": -0.9679235,
+              "y": 0.7024161
+            },
+            "zRotation": 187.2093
+          },
+          {
+            "position": {
+              "x": -1.370789,
+              "y": 1.112514
+            },
+            "zRotation": 337.3176
+          }
+        ]
       }
     ]
   },

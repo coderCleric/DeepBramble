@@ -45,6 +45,7 @@ namespace DeepBramble
                             this.entryDictionary.Add("PLANETOID_CLUSTER_ENTRY", warpVolume);
                             this.entryDictionary.Add("TREE_SHRINE_ENTRY", warpVolume);
                             this.entryDictionary.Add("CAMPSITE_ENTRY", warpVolume);
+                            this.entryDictionary.Add("SOIL_LAB_ENTRY", warpVolume);
                             break;
                     }
                 }

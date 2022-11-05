@@ -17,21 +17,39 @@
       <Text>I found a strange campsite on the north pole of a large planetoid.</Text>
     </ExploreFact>
     
-  <ExploreFact>
-    <ID>CAMPSITE_SOILLAB_HINT</ID>
-    <IgnoreMoreToExplore/>
-    <Text>A text in the campsite mentioned a soil analysis lab somewhere on this planetoid.</Text>
-  </ExploreFact>
+    <ExploreFact>
+      <ID>CAMPSITE_SOILLAB_HINT</ID>
+      <IgnoreMoreToExplore/>
+      <Text>A text in the campsite mentioned a soil analysis lab somewhere on this planetoid.</Text>
+    </ExploreFact>
     
-  <ExploreFact>
-    <ID>CAMPSITE_CONTACT_FACT</ID>
-    <Text>I found a number of Nomai texts detailing their attempts to contact the person who made this campsite.</Text>
-  </ExploreFact>
+    <ExploreFact>
+      <ID>CAMPSITE_CONTACT_FACT</ID>
+      <Text>I found a number of Nomai texts detailing their attempts to contact the person who made this campsite.</Text>
+    </ExploreFact>
     
-  <ExploreFact>
-    <ID>CAMPSITE_DREE_NODE_HINT</ID>
-    <Text>One of the texts mentioned that an alien tried to lead the Nomai through a node in an enclosed area. Supposedly, I can use the node in the center of the large dimension to access this enclosed area.</Text>
-  </ExploreFact>
+    <ExploreFact>
+      <ID>CAMPSITE_DREE_NODE_HINT</ID>
+      <Text>One of the texts mentioned that an alien tried to lead the Nomai through a node in an enclosed area. Supposedly, I can use the node in the center of the large dimension to access this enclosed area.</Text>
+    </ExploreFact>
+  </Entry>
 
+  <!--The entry for the soil lab-->
+  <Entry>
+    <ID>SOIL_LAB_ENTRY</ID>
+    <Name>Soil Lab</Name>
+
+    <RumorFact>
+      <ID>SOIL_LAB_RUMOR</ID>
+      <SourceID>CAMPSITE_ENTRY</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>I found some text that says there should be a soil lab somewhere on the camp planetoid</Text>      
+    </RumorFact>
+
+    <ExploreFact>
+      <ID>SOIL_LAB_ANALYSIS_FACT</ID>
+      <IgnoreMoreToExplore/>
+      <Text>I found some text remarking that the camp planetoid seems to be made of the remains of many planets.</Text>
+    </ExploreFact>
   </Entry>
 </AstroObjectEntry>

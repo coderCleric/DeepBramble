@@ -73,4 +73,11 @@
       <Condition>103</Condition>
     </RevealFact>
   </ShipLogConditions>
+
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>SOIL_LAB_RUMOR</FactID>
+      <Condition>103</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>
