@@ -297,34 +297,23 @@ namespace DeepBramble
                     debugPrint("Raycast hit nothing");
             }
 
-            //Give a printout for the arc info for the collection the player is looking at
-            if(Keyboard.current[Key.M].wasPressedThisFrame)
+            //Teleport to a specific point when n is pressed
+            if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
-                string msg = "\"arcInfo\": [";
-                NomaiText text = Locator.GetPlayerCamera().transform.Find("NomaiTranslatorProp").GetComponent<NomaiTranslatorProp>()._nomaiTextComponent;
-
-                //Loop through each arc, getting the info for them
-                if (text != null)
+                Vector3 point = new Vector3(10002.1f, 151.1f, -66.3f);
+                Transform absCenter = null;
+                foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
-                    foreach (NomaiTextLine line in text.GetComponentsInChildren<NomaiTextLine>(true))
+                    //Find the center
+                    if (i._name == AstroObject.Name.CustomString && i._customName.Equals("The First Dimension"))
                     {
-                        msg += "{";
-                        Transform tf = line.transform;
-                        //Mirror it if needed
-                        if (tf.localScale.x == -1)
-                            msg += "\"mirror\": true,";
-
-                        //Print the position
-                        msg += "\"position\": {\"x\": " + tf.localPosition.x + ",\"y\": " + tf.localPosition.y + "},";
-
-                        //And the z rotation
-                        msg += "\"zRotation\": " + tf.localRotation.eulerAngles.z;
-
-                        msg += "}";
+                        absCenter = i.transform;
                     }
-                    msg += "]";
-                    debugPrint(msg);
                 }
+
+                point = point + absCenter.position;
+
+                Locator._shipBody.SetPosition(point);
             }
         }
 

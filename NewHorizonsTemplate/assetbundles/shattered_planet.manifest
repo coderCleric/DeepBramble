@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 214782723
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6eca6b9f5fa3b0968992b910757261a3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6f26310843798cdec2dda04fdb1d725f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 01a5b7908b90d934ba5200c0454bd083, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1dcbefa0a1fd4004cbf5a5e8f20d7fc0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ef66a28deb09ab4aaba30bb60b9f19a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a3f3010a1d86dd2419fff5fc5e5cc2fe, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b21148dab2fe4ab468de03459edf483b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/shattered_planet.prefab
+Dependencies: []

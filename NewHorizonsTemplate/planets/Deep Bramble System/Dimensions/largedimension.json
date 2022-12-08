@@ -55,10 +55,52 @@
         "possibleExits": [
           0
         ]
+      },
+      {
+        "name": "Dree Node",
+        "hasFogLight": false,
+        "position": {
+          "x": -267.2253,
+          "y": -2456.087,
+          "z": 202.5454
+        },
+        "rotation": {
+          "x": 47.7167,
+          "y": 5.8031,
+          "z": 67.1201
+        },
+        "fogTint": {
+          "r": 51,
+          "g": 51,
+          "b": 51,
+          "a": 255
+        },
+        "linksTo": "Dree Dimension",
+        "possibleExits": [
+          0
+        ]
       }
     ]
   },
   "Props": {
+    "details": [
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/bramblecap",
+        "path": "Assets/Prefabs/bramblecap.prefab",
+        "position": {
+          "x": -199.1523,
+          "y": -2918.853,
+          "z": -69.8275
+        },
+        "rotation": {
+          "x": 270,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 700
+      }
+    ],
     "signals": [
       {
         "audio": "OW_TravelerTheme_harmonica",
