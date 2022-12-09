@@ -5,8 +5,10 @@ using UnityEngine.PostProcessing;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
+using HarmonyLib;
 using UnityEngine.Events;
 using System;
+using System.Reflection;
 
 namespace DeepBramble
 {
@@ -47,56 +49,8 @@ namespace DeepBramble
             //Initialize the startup flag dictionary
             Patches.initFlags();
 
-            //Miscellanious patches
-            //Do locator-specific startup stuff
-            ModHelper.HarmonyHelper.AddPostfix<Locator>(
-                "LocateSceneObjects",
-                typeof(Patches),
-                nameof(Patches.LocatorStartup));
-
-            //Wake up dimensions as we enter them
-            ModHelper.HarmonyHelper.AddPrefix<OuterFogWarpVolume>(
-                "ReceiveWarpedDetector",
-                typeof(Patches),
-                nameof(Patches.WakeOnEnter));
-
-            //Hide the text of dree writing
-            ModHelper.HarmonyHelper.AddPrefix<NomaiTranslatorProp>(
-                "DisplayTextNode",
-                typeof(Patches),
-                nameof(Patches.HideDreeText));
-
-            //Black Hole Patches
-            //Activate the vessel black hole when the warp core is placed in the correct spot
-            ModHelper.HarmonyHelper.AddPostfix<WarpCoreSocket>(
-                "PlaceIntoSocket",
-                typeof(Patches),
-                nameof(Patches.WarpPlaceListener));
-
-            //Deactivate the vessel black hole when the warp core is removed from the slot
-            ModHelper.HarmonyHelper.AddPostfix<WarpCoreSocket>(
-                "RemoveFromSocket",
-                typeof(Patches),
-                nameof(Patches.WarpRemoveListener));
-
-            //Save and deactivate the black hole in the vessel dimension
-            ModHelper.HarmonyHelper.AddPostfix<VanishVolume>(
-                "Awake",
-                typeof(Patches),
-                nameof(Patches.VanishVolumeListener));
-
-            //Patch black holes so that we remove the player ship if they use the hole to get to the bramble system
-            ModHelper.HarmonyHelper.AddPostfix<VanishVolume>(
-                "OnTriggerEnter",
-                typeof(Patches),
-                nameof(Patches.ShipRemover));
-
-            //Debug patches (don't include in release)
-            //Update the relative body
-            ModHelper.HarmonyHelper.AddPrefix<OuterFogWarpVolume>(
-                "ReceiveWarpedDetector",
-                typeof(Patches),
-                nameof(Patches.DimensionUpdater));
+            //Make all of the patches
+            Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
 
             instance = this;
         }
@@ -219,6 +173,9 @@ namespace DeepBramble
          */
         private void Update()
         {
+            //Stop forbidding unlocks this frame
+            Patches.forbidUnlock = false;
+
             //Fix the ship drift, if possible and necessary
             if(fixShipDrift && Locator.GetShipBody() != null)
             {
@@ -257,7 +214,7 @@ namespace DeepBramble
             }
 
             //Lock onto the body that a signal is attached to
-            if (Keyboard.current[Key.O].wasPressedThisFrame)
+            if (OWInput.IsNewlyPressed(InputLibrary.lockOn))
             {
                 //Go through each audio signal
                 foreach(AudioSignal i in Component.FindObjectsOfType<AudioSignal>())
@@ -274,6 +231,7 @@ namespace DeepBramble
                             //If this parent is lockable, lock onto it
                             if(body != null && body.IsTargetable()) {
                                 Locator.GetPlayerBody().gameObject.GetComponent<ReferenceFrameTracker>().TargetReferenceFrame(body.GetReferenceFrame());
+                                Patches.forbidUnlock = true;
                                 break;
                             }
 

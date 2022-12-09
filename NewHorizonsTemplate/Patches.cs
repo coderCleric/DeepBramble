@@ -4,17 +4,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using HarmonyLib;
 
 namespace DeepBramble
 {
     /**
      * This class just contains all of the patches that are used by the mod
      */
+    [HarmonyPatch]
     public static class Patches
     {
+        //Flags
+        public static bool inBrambleSystem = false;
+        public static bool forbidUnlock = false;
+
+        //Other variables
         private static GameObject brambleHole = null;
         private static GameObject eyeHologram = null;
-        public static bool inBrambleSystem = false;
         public static Dictionary<string, bool> startupFlags = null;
 
         /**
@@ -27,10 +33,12 @@ namespace DeepBramble
             startupFlags.Add("revealStartingRumor", false);
         }
 
-
+        //Miscellanious patches
         /**
          * When the locator finishes loading, do a bunch of stuff to prep the game
          */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(Locator), nameof(Locator.LocateSceneObjects))]
         public static void LocatorStartup()
         {
             DeepBramble.debugPrint("Running locator startup");
@@ -62,8 +70,22 @@ namespace DeepBramble
          * @param detector The warp detector of the object being warped
          * @param __instance The instance of the warp volume the method is being called from
          */
-        public static void WakeOnEnter(ref FogWarpDetector detector, OuterFogWarpVolume __instance)
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
+        public static void WakeOnEnter(ref FogWarpDetector detector, FogWarpVolume __instance)
         {
+            //Find the outer warp volume or, if there isn't one, do nothing
+            OuterFogWarpVolume outerVolume = null;
+            if ((__instance as OuterFogWarpVolume) != null)
+                outerVolume = __instance as OuterFogWarpVolume;
+            else if (((__instance as InnerFogWarpVolume) != null))
+            {
+                InnerFogWarpVolume innerVolume = __instance as InnerFogWarpVolume;
+                outerVolume = innerVolume.GetContainerWarpVolume();
+            }
+            else
+                return;
+
             //Only do stuff if we're in the bramble system
             if (inBrambleSystem)
             {
@@ -71,7 +93,7 @@ namespace DeepBramble
                 bool isPlayer = detector.CompareName(FogWarpDetector.Name.Player) || detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip();
 
                 //If it is the player, activate the dimension they entered
-                GameObject bodyObject = __instance.transform.parent.parent.gameObject;
+                GameObject bodyObject = outerVolume.transform.parent.parent.gameObject;
                 if (isPlayer)
                 {
                     BrambleContainer.setActiveDimension(bodyObject);
@@ -85,10 +107,12 @@ namespace DeepBramble
          * @param __instance The actual translator prop
          * @return True if the text shouldn't be hidden, false otherwise
          */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(NomaiTranslatorProp), nameof(NomaiTranslatorProp.DisplayTextNode))]
         public static bool HideDreeText(NomaiTranslatorProp __instance)
         {
             //This flag checks if the targeted text is Dree text
-            bool flag = !(__instance._scanBeams[0]._nomaiTextLine == null) && __instance._scanBeams[0]._nomaiTextLine.gameObject.GetComponent<OWRenderer>().sharedMaterial.name == "Effects_IP_Text_mat";
+            bool flag = __instance._scanBeams[0]._nomaiTextLine != null && __instance._scanBeams[0]._nomaiTextLine.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("IP");
 
             //If the text is dree, and the player lacks the upgrade, hide the text
             if (flag && inBrambleSystem && !Locator.GetShipLogManager().IsFactRevealed("TRANSLATOR_DREE_UPGRADE"))
@@ -106,12 +130,27 @@ namespace DeepBramble
          * 
          * @param __instance The instance of the warp volume the method is being called from
          */
-        public static void DimensionUpdater(OuterFogWarpVolume __instance)
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
+        public static void DimensionUpdater(FogWarpVolume __instance)
         {
-            Transform tf = __instance.transform;
-            while(tf != null)
+            //Find the outer warp volume or, if there isn't one, do nothing
+            OuterFogWarpVolume outerVolume = null;
+            if ((__instance as OuterFogWarpVolume) != null)
+                outerVolume = __instance as OuterFogWarpVolume;
+            else if (((__instance as InnerFogWarpVolume) != null))
             {
-                if(tf.gameObject.GetComponent<AstroObject>() != null)
+                InnerFogWarpVolume innerVolume = __instance as InnerFogWarpVolume;
+                outerVolume = innerVolume.GetContainerWarpVolume();
+            }
+            else
+                return;
+
+            //Set the dimension to be the relative body
+            Transform tf = outerVolume.transform;
+            while (tf != null)
+            {
+                if (tf.gameObject.GetComponent<AstroObject>() != null)
                 {
                     DeepBramble.relBody = tf;
                     return;
@@ -120,16 +159,19 @@ namespace DeepBramble
             }
         }
 
+        //Black hole things
         /**
          * When the player sockets a warp core, check if we need to activate the black hole
          * 
          * @param __instance The warp core socket instance the method is being called from
          * @param item The item being placed into the socket
          */
-        public static void WarpPlaceListener(WarpCoreSocket __instance, ref OWItem item)
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(OWItemSocket), nameof(OWItemSocket.PlaceIntoSocket))]
+        public static void WarpPlaceListener(OWItemSocket __instance, ref OWItem item)
         {
             //Only do stuff if the slotting was successful and this is the right slot
-            if (__instance.AcceptsItem(item) && __instance.name.Equals("BrambleSystemWarpSocket"))
+            if ((__instance as WarpCoreSocket) != null && __instance.AcceptsItem(item) && __instance.name.Equals("BrambleSystemWarpSocket"))
             {
                 //Try to cast the item as a warp core
                 WarpCoreItem core = item as WarpCoreItem;
@@ -150,9 +192,11 @@ namespace DeepBramble
          * 
          * @param __instance The warp core socket instance the method is being called from
          */
-        public static void WarpRemoveListener(WarpCoreSocket __instance)
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(OWItemSocket), nameof(OWItemSocket.RemoveFromSocket))]
+        public static void WarpRemoveListener(OWItemSocket __instance)
         {
-            if (__instance.name.Equals("BrambleSystemWarpSocket"))
+            if ((__instance as WarpCoreSocket) != null && __instance.name.Equals("BrambleSystemWarpSocket"))
             {
                 brambleHole.SetActive(false);
             }
@@ -163,6 +207,8 @@ namespace DeepBramble
          * 
          * @param __instance The vanish volume instance the method is being called from
          */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(VanishVolume), nameof(VanishVolume.Awake))]
         public static void VanishVolumeListener(VanishVolume __instance)
         {
             //Figure out if this is the one we want, save it if it is
@@ -179,12 +225,46 @@ namespace DeepBramble
          * @param __instance The instance of the vanish volume
          * @param hitCollider The collider that entered the volume
          */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(VanishVolume), nameof(VanishVolume.OnTriggerEnter))]
         public static void ShipRemover(VanishVolume __instance, ref Collider hitCollider)
         {
             if(__instance.transform.parent.gameObject == brambleHole && hitCollider.attachedRigidbody.CompareTag("Player"))
             {
                 startupFlags["vanishShip"] = true;
             }
+        }
+
+        //Signal lock patches
+        /**
+         * Suppress lock-on while the player has their signalscope out
+         * 
+         * @return True if lock-on should behave normally, false otherwise
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(ReferenceFrameTracker), nameof(ReferenceFrameTracker.FindReferenceFrameInLineOfSight))]
+        public static bool LockOnSuppressor()
+        {
+            //Supress normal operation if the signalscope is equipped
+            if ((Locator.GetToolModeSwapper()._equippedTool as Signalscope) != null)
+            {
+                return false;
+            }
+
+            //Otherwise, return true
+            return true;
+        }
+
+        /**
+         * Suppress unlocks if they are forbidden
+         * 
+         * @return True if unlocks are allowed, false otherwise
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(ReferenceFrameTracker), nameof(ReferenceFrameTracker.UntargetReferenceFrame), new Type[] { typeof(bool) })]
+        public static bool UnlockSuppressor()
+        {
+            return !forbidUnlock;
         }
     }
 }
