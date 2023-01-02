@@ -24,6 +24,7 @@ namespace DeepBramble
         public INewHorizons NewHorizonsAPI;
         private SignalHelper signalHelper;
         private EntryLocationHelper entryHelper;
+        private DecorHelper decorHelper;
 
         //Only needed for debug
         public static Transform relBody = null;
@@ -45,6 +46,7 @@ namespace DeepBramble
             //Make our helpers
             this.signalHelper = new SignalHelper();
             this.entryHelper = new EntryLocationHelper();
+            this.decorHelper = new DecorHelper();
 
             //Initialize the startup flag dictionary
             Patches.initFlags();
@@ -63,6 +65,8 @@ namespace DeepBramble
          */
         private void PrepSystem(String s)
         {
+            decorHelper.FixDecor();
+
             //Do this stuff if we're in the bramble system
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("BrambleSystem"))
             {
