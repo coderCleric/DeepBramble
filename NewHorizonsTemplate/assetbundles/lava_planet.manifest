@@ -1,0 +1,53 @@
+ManifestFileVersion: 0
+CRC: 121213101
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5856ba8d7819c57a9a26ad31417f591e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6df692358aa766c18792f0545a26a46b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 38e4d433f3f97234aa734760ddda2661, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 034b758dcb27c9746a7640cdb345b333, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 826509cfb70938446954983d5be2e39c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/lava_planet.prefab
+Dependencies: []

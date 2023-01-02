@@ -190,7 +190,7 @@
       {
         "seed": 72446,
         "type": "wall",
-        "xmlFile": "planets/Deep Bramble System/Text/camp_planetoid/wallhideaway.xml",
+        "xmlFile": "planets/Deep Bramble System/Text/planetoid_cluster/missinglover.xml",
         "position": {
           "x": -49.875,
           "y": 4.090255,
@@ -203,105 +203,20 @@
         },
         "arcInfo": [
           {
-            "type": "child",
+            "type": "adult",
             "position": {
-              "x": -0.1738183,
-              "y": -0.08545457
+              "x": -0.1743637,
+              "y": -0.08399999
             },
             "zRotation": 0
           },
           {
-            "mirror": true,
             "type": "adult",
             "position": {
-              "x": -0.217091,
-              "y": 0.8527268
+              "x": -0.09628716,
+              "y": 0.7024161
             },
-            "zRotation": 18
-          },
-          {
-            "mirror": true,
-            "type": "adult",
-            "position": {
-              "x": -0.773454,
-              "y": 1.665999
-            },
-            "zRotation": 68.60007
-          },
-          {
-            "type": "adult",
-            "position": {
-              "x": -1.514185,
-              "y": 1.991451
-            },
-            "zRotation": 111.0092
-          },
-          {
-            "mirror": true,
-            "type": "adult",
-            "position": {
-              "x": -2.23072,
-              "y": 1.318546
-            },
-            "zRotation": 172.4727
-          },
-          {
-            "mirror": true,
-            "type": "adult",
-            "position": {
-              "x": -2.069089,
-              "y": 0.208182
-            },
-            "zRotation": 203.7909
-          },
-          {
-            "type": "adult",
-            "position": {
-              "x": -1.089818,
-              "y": 2.019633
-            },
-            "zRotation": 311.5274
-          },
-          {
-            "type": "adult",
-            "position": {
-              "x": -0.2236364,
-              "y": 2.706361
-            },
-            "zRotation": 244.0816
-          },
-          {
-            "type": "adult",
-            "position": {
-              "x": 0.7849087,
-              "y": 1.758001
-            },
-            "zRotation": 208.5447
-          },
-          {
-            "type": "stranger",
-            "position": {
-              "x": -2.4995,
-              "y": 1.7922
-            },
-            "zRotation": 72.44534
-          },
-          {
-            "type": "adult",
-            "position": {
-              "x": -2.637272,
-              "y": 1.564908
-            },
-            "zRotation": 109.6455
-          },
-          {
-            "mirror": true,
-            "type": "adult",
-            "position": {
-              "x": -3.077997,
-              "y": 0.7065451
-            },
-            "zRotation": 137.191
+            "zRotation": 327.0455
           }
         ]
       }
