@@ -96,7 +96,7 @@
           }
         ],
         "type": "wall",
-        "xmlFile": "planets/Deep Bramble System/Text/holeoverlooktext.xml"
+        "xmlFile": "planets/Deep Bramble System/Text/planetoid_cluster/holeoverlooktext.xml"
       }
     ]
   }

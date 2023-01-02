@@ -1,0 +1,101 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+  <!--Text that appears-->
+  <!--Main branch-->
+  <TextBlock>
+    <ID>1</ID>
+    <Text>
+      ANALYTICNOMAI: Who is responsible for the campsite on the large planetoid near the center of this area? It represents an excellent location for us to build more permanent residence, and I am quite shocked that someone is keeping it to themselves.
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      NOMAILEADER: I am inclined to believe our friends, ANALYTICNOMAI, and I do not believe that any of our clan would be willing to keep such a secret from the group. Are you certain that the campsite you saw could not have been a natural formation?
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>
+      ANALYTICNOMAI: I am absolutely certain. There was a small ring of stones with still smoldering firewood inside.
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>
+      NOMAILEADER: Quite an interesting find ANALYTICNOMAI! We should make our way over there and investigate at once. Do you remember where we can find this planetoid?
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>5</ID>
+    <ParentID>4</ParentID>
+    <Text>
+      ANALYTICNOMAI: I was concerned that I would be unable to find it again, so I planted a signal beacon on the opposite side of the planetoid as the campsite.
+    </Text>
+  </TextBlock>
+
+  <!--Branch 1-->
+  <TextBlock>
+    <ID>6</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      SPOOKEDNOMAI: I have been here putting together shelters, I did not realize there were any other bodies out there.
+    </Text>
+  </TextBlock>
+
+  <!--Branch 2-->
+  <TextBlock>
+    <ID>7</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      CURIOUSNOMAI: I poked around a bit, but I have not yet located this large planetoid that you speak of.
+    </Text>
+  </TextBlock>
+
+  <!--Branch 3-->
+  <TextBlock>
+    <ID>8</ID>
+    <ParentID>3</ParentID>
+    <Text>
+      SPOOKEDNOMAI: Is it possible that the campsite was made by other members of our clan? Perhaps they followed us through our makeshift warp setup and are stranded here as well.
+    </Text>
+  </TextBlock>
+  
+  <TextBlock>
+    <ID>9</ID>
+    <ParentID>8</ParentID>
+    <Text>
+      ANALYTICNOMAI: As much as I would hope for your hypothesis to be true, there were no other structures indicative of Nomai presence, and it has long been outside of our culture to construct campfires.
+    </Text>
+  </TextBlock>
+
+  <!--Branch 4-->
+  <TextBlock>
+    <ID>10</ID>
+    <ParentID>3</ParentID>
+    <Text>
+      CURIOUSNOMAI: Are you saying that there is a campsite in here that none of us made? That would imply that there are other sentient beings here besides us!
+    </Text>
+  </TextBlock>
+
+  <!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CLUSTER_LARGE_PLANETOID_HINT</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CAMPSITE_RUMOR</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+</NomaiObject>

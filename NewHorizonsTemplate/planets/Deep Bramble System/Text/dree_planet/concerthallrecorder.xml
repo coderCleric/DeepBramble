@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			CURIOUSNOMAI: That performance was beautiful! I never suspected that these people would have such wonderful singing voices.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			ANALYTICNOMAI: Suppose that the physiology of their vocal organs are different from ours? I fail to even imagine how one of us might create those sounds.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NOMAILEADER: Interesting hypothesis, ANALYTICNOMAI, we will have to see what SPOOKEDNOMAI can discover once he completes his analysis of these people’s language.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			CURIOUSNOMAI: I know it is for a good reason, but I still struggle to understand how he was willing to miss this performance to continue working. Hopefully he gets an opportunity to relax soon!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			NOMAILEADER: I hope so too, but you know how impossible it is to distract SPOOKEDNOMAI once he begins work on a translation.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

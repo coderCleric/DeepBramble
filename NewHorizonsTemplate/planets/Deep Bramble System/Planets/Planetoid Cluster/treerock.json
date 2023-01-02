@@ -148,7 +148,7 @@
             "mirror": true
           }
         ],
-        "xmlFile": "planets/Deep Bramble System/Text/treeshrinetext.xml"
+        "xmlFile": "planets/Deep Bramble System/Text/planetoid_cluster/treeshrinetext.xml"
       },
 
       {
@@ -164,7 +164,7 @@
           "z": 86.3336
         },
         "type": "preCrashRecorder",
-        "xmlFile": "planets/Deep Bramble System/Text/treerecorder.xml"
+        "xmlFile": "planets/Deep Bramble System/Text/planetoid_cluster/treerecorder.xml"
       },
 
       {
@@ -258,7 +258,41 @@
           }
         ],
         "type": "wall",
-        "xmlFile": "planets/Deep Bramble System/Text/bigplanetoidhint.xml"
+        "xmlFile": "planets/Deep Bramble System/Text/planetoid_cluster/bigplanetoidhint.xml"
+      },
+      {
+        "seed": 72446,
+        "type": "wall",
+        "rename": "MissingLoverText",
+        "xmlFile": "planets/Deep Bramble System/Text/planetoid_cluster/missinglover.xml",
+        "position": {
+          "x": -36.07301,
+          "y": -18.8719,
+          "z": -21.1325
+        },
+        "normal": {
+          "x": -0.05716172,
+          "y": 0.7835385,
+          "z": -0.6187085
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.1744,
+              "y": -0.084
+            },
+            "zRotation": 231.9631
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.688257,
+              "y": -0.6232196
+            },
+            "zRotation": 188.7181
+          }
+        ]
       }
     ],
     "entryLocation": [

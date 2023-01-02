@@ -18,6 +18,19 @@
     }
   },
   "Bramble": {
+    "nodes": [
+      {
+        "name": "Hot Node",
+        "hasFogLight": false,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "scale": 0.4,
+        "linksTo": "Hot Dimension"
+      }
+    ],
     "dimension": {
       "linksTo": "Dree Node",
       "fogDensity": 2,
