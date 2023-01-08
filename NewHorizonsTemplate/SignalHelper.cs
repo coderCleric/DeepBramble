@@ -44,6 +44,10 @@ namespace DeepBramble
                             this.signalDictionary.Add("Signal_Camp Marker", i);
                             break;
 
+                        case "Graviton's Folly": //We're on Graviton's Folly
+                            this.signalDictionary.Add("Signal_Gravitational Anomaly", i);
+                            break;
+
                     }
                 }
             }

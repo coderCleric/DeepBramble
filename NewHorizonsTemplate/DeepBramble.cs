@@ -9,6 +9,7 @@ using HarmonyLib;
 using UnityEngine.Events;
 using System;
 using System.Reflection;
+using System.Linq;
 
 namespace DeepBramble
 {
@@ -124,7 +125,7 @@ namespace DeepBramble
          */
         private void FixPlanet(GameObject body)
         {
-            //Check if it has a gravity volume and a child named "Sector"
+            //Check if it has a gravity volume and a child named "Sector" to find if it's a planet
             GravityVolume volume = body.GetComponentInChildren<GravityVolume>();
             Transform sectorTransform = body.transform.Find("Sector");
             if (volume != null && sectorTransform != null)

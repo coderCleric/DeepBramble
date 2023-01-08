@@ -266,5 +266,58 @@ namespace DeepBramble
         {
             return !forbidUnlock;
         }
+
+        //AudioSignalDetectionTrigger stuff, so the player can pick up signals while in their ship
+        /**
+         * If the AudioSignalDetectionTrigger asks whether the player is in the ship, say no
+         * 
+         * @param __result The return value of the original call
+         * @return False if the signal is asking, true otherwise
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(PlayerState), nameof(PlayerState.IsInsideShip))]
+        public static bool ShipLieToSignal(ref bool __result)
+        {
+            //Get the name of the calling function & class
+            System.Diagnostics.StackTrace trace = new System.Diagnostics.StackTrace();
+            String callerMethodName = trace.GetFrame(2).GetMethod().Name;
+            String callerClassName = trace.GetFrame(2).GetMethod().DeclaringType.FullName;
+
+            //Always say we're not in the ship if the signal trigger asks
+            if(callerClassName.Contains("AudioSignalDetectionTrigger") && callerMethodName.Contains("Update"))
+            {
+                __result = false;
+                return false;
+            }
+
+            //Otherwise, let the actual method run
+            return true;
+        }
+
+        /**
+         * If the AudioSignalDetectionTrigger asks whether the player has their helmet on, say yes
+         * 
+         * @param __result The return value of the original call
+         * @return False if the signal is asking, true otherwise
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(PlayerSpacesuit), nameof(PlayerSpacesuit.IsWearingHelmet))]
+        public static bool SuitLieToSignal(ref bool __result)
+        {
+            //Get the name of the calling function & class
+            System.Diagnostics.StackTrace trace = new System.Diagnostics.StackTrace();
+            String callerMethodName = trace.GetFrame(2).GetMethod().Name;
+            String callerClassName = trace.GetFrame(2).GetMethod().DeclaringType.FullName;
+
+            //Always say we're not in the ship if the signal trigger asks
+            if (callerClassName.Contains("AudioSignalDetectionTrigger") && callerMethodName.Contains("Update"))
+            {
+                __result = true;
+                return false;
+            }
+
+            //Otherwise, let the actual method run
+            return true;
+        }
     }
 }
