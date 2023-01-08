@@ -111,6 +111,32 @@
         },
         "frequency": "Nomai Trailmarkers",
         "name": "Camp Marker"
+      },
+      {
+        "audio": "OW_TravelerTheme_harmonica",
+        "sourceRadius": 67,
+        "identificationRadius": 224,
+        "detectionRadius": 300,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frequency": "Natural Phenomena",
+        "name": "Amplified Ambience"
+      },
+      {
+        "audio": "OW_TravelerTheme_harmonica",
+        "sourceRadius": 275,
+        "identificationRadius": 0,
+        "detectionRadius": 0,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frequency": "Natural Phenomena",
+        "name": "Gravitational Anomaly"
       }
     ]
   }

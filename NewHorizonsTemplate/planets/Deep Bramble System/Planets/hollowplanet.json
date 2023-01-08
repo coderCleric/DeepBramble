@@ -1,7 +1,7 @@
 {
-  "name": "Graviton's Folly'",
+  "name": "Graviton's Folly",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-  "starSystem": "WorkSystem",
+  "starSystem": "BrambleSystem",
   "canShowOnTitle": false,
   "Base": {
     "groundSize": 0,
@@ -12,9 +12,9 @@
   },
   "Orbit": {
     "staticPosition": {
-      "x": 700,
-      "y": 0,
-      "z": 0
+      "x": -54.3,
+      "y": -173.6,
+      "z": 28801.0
     },
     "isStatic": true
   },

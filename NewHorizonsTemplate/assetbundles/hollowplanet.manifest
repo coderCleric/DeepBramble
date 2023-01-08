@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1616285847
+CRC: 3204250783
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 501e2b5781b1e64e4e4513a64347e8b9
+    Hash: 05a43f3910d4090d9bda36bf6c62d002
   TypeTreeHash:
     serializedVersion: 2
-    Hash: de50965482fa7694462306aafaf6660a
+    Hash: 6d2b1e1542da968a7f782bdc87fc184d
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -27,11 +27,22 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 64
   Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/hollowplanet.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_1
+- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_2
+- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_3

@@ -137,6 +137,13 @@ namespace DeepBramble
                 Transform fakeGround = sectorTransform.Find("CubeSphere");
                 if (fakeGround != null)
                     fakeGround.gameObject.SetActive(false);
+
+                //Reverse the gravity of Graviton's Folly
+                if(body.GetComponent<AstroObject>().GetAstroObjectName() == AstroObject.Name.CustomString && body.GetComponent<AstroObject>().GetCustomName().Equals("Graviton's Folly"))
+                {
+                    volume._gravitationalMass *= -1;
+                    volume._surfaceAcceleration *= -1;
+                }
             }
         }
 
