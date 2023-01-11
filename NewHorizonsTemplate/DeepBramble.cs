@@ -138,11 +138,15 @@ namespace DeepBramble
                 if (fakeGround != null)
                     fakeGround.gameObject.SetActive(false);
 
-                //Reverse the gravity of Graviton's Folly
+                //Do some extra stuff if it's Graviton's Folly
                 if(body.GetComponent<AstroObject>().GetAstroObjectName() == AstroObject.Name.CustomString && body.GetComponent<AstroObject>().GetCustomName().Equals("Graviton's Folly"))
                 {
+                    //Reverse the gravity since it doesn't work in the config
                     volume._gravitationalMass *= -1;
                     volume._surfaceAcceleration *= -1;
+
+                    //Add the camera inverter
+                    body.transform.Find("Sector/hollowplanet/planet/LandingInverseTrigger").gameObject.AddComponent<LandingCamInverter>();
                 }
             }
         }
@@ -270,7 +274,7 @@ namespace DeepBramble
             //Teleport to a specific point when n is pressed
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
-                Vector3 point = new Vector3(10002.1f, 151.1f, -66.3f);
+                Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f);
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
