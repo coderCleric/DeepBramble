@@ -33,6 +33,16 @@
       },
       {
         "keepLoaded": true,
+        "assetBundle": "assetbundles/baby_fish",
+        "path": "Assets/Prefabs/baby_fish.prefab",
+        "position": {
+          "x": 0,
+          "y": 50,
+          "z": 0
+        }
+      },
+      {
+        "keepLoaded": true,
         "rename": "TextWall",
         "path": "VolcanicMoon_Body/Sector_VM/Interactables_VM/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
         "position": {
@@ -224,7 +234,7 @@
   },
   "Spawn": {
     "shipSpawnPoint": {
-      "x": 0,
+      "x": -5,
       "y": 10,
       "z": 0
     },

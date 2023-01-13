@@ -18,6 +18,11 @@
         <PackageReference Include="HarmonyX" Version="2.10.0" />
         <PackageReference Include="OWML" Version="2.6.0" />
         <PackageReference Include="OuterWildsGameLibs" Version="1.1.12.201" />
+
+        <Reference Include="NewHorizons">
+          <HintPath>$(OuterWildsModsDirectory)\xen.NewHorizons\NewHorizons.dll</HintPath>
+          <Private>False</Private>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
         <None Include="default-config.json">
@@ -53,6 +58,12 @@
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="assetbundles\asteroid4.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\baby_fish">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\baby_fish.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="assetbundles\bigasteroid">

@@ -23,6 +23,9 @@ namespace DeepBramble
         private static GameObject eyeHologram = null;
         public static Dictionary<string, bool> startupFlags = null;
 
+        //Needed for the baby angler
+        private static Animator anglerAnimator = null;
+
         /**
          * Initialize the dictionary of startup flags
          */
@@ -318,6 +321,61 @@ namespace DeepBramble
 
             //Otherwise, let the actual method run
             return true;
+        }
+
+        //Baby angler stuff
+        /**
+         * 
+         */
+
+        /**
+         * Before the angleraudiocontroller wakes up, see if we need to add a babyfishcontroller
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(AnglerfishAudioController), nameof(AnglerfishAudioController.Awake))]
+        public static void BabyBrainMaker(AnglerfishAudioController __instance)
+        {
+            Transform fishTransform = __instance.transform.parent;
+
+            //If it's an adult fish, save a reference to the animator
+            if (anglerAnimator == null && fishTransform != null && fishTransform.name.Equals("Anglerfish_Body"))
+            {
+                anglerAnimator = fishTransform.gameObject.GetComponentInChildren<Animator>(true);
+            }
+
+            //If it's a baby fish, prepare it
+            else if (fishTransform != null && fishTransform.name.Equals("baby_fish") && fishTransform.GetComponent<BabyFishController>() == null)
+            {
+                //Copy properties of the saved animator to this one
+                Animator babyAnimator = fishTransform.gameObject.GetComponentInChildren<Animator>();
+                babyAnimator.runtimeAnimatorController = anglerAnimator.runtimeAnimatorController;
+                babyAnimator.avatar = anglerAnimator.avatar;
+                babyAnimator.cullingMode = anglerAnimator.cullingMode;
+
+                //Add the controller for the audio controller to find
+                BabyFishController.AddBabyController(fishTransform.gameObject);
+                BabyFishController babyController = fishTransform.gameObject.GetComponent<BabyFishController>();
+
+                //Manually feed the controller to the anim controller
+                AnglerfishAnimController animController = fishTransform.GetComponentInChildren<AnglerfishAnimController>();
+                animController._anglerfishController = babyController;
+
+                //Delete the NH animation fixer from existence (Have to find it by string since it's private)
+                MonoBehaviour[] comps = animController.gameObject.GetComponents<MonoBehaviour>();
+                for(int i = 0; i < comps.Length; i++)
+                {
+                    if(comps[i].ToString().Contains("NewHorizons.Builder.Props.DetailBuilder/AnglerAnimFixer"))
+                    {
+                        Component.Destroy(comps[i]);
+                        break;
+                    }
+                }
+
+                //Add the baby biter to the bite trigger
+                Transform biteTrigger = fishTransform.Find("BiteTrigger");
+                if (biteTrigger != null)
+                    biteTrigger.gameObject.AddComponent<BabyBiter>();
+            }
         }
     }
 }
