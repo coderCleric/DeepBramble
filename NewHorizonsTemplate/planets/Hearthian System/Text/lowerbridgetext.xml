@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ANALYTICNOMAI: That should be the last of the circuitry in place. Is the warp core prepared?
+			NESIA: That should be the last of the circuitry in place. Is the warp core prepared?
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			CURIOUSNOMAI: Yes it is, my hard-working companion.
+			OKALIS: Yes it is, my hard-working companion.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ANALYTICNOMAI: Okay then, go ahead and slot it into place and we will see if this somehow works.
+			NESIA: Okay then, go ahead and slot it into place and we will see if this somehow works.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			ANALYTICNOMAI: Wait, how did that work? It should be completely impossible for that to function!
+			NESIA: Wait, how did that work? It should be completely impossible for that to function!
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			CURIOUSNOMAI: Yes! I told you it was worth attempting!
+			OKALIS: Yes! I told you it was worth attempting!
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			SPOOKEDNOMAI: That means we can escape! I can not wait to reunite with the rest of our clan, I had started to worry that we would never see them again.
+			SENNETTI: That means we can escape! I can not wait to reunite with the rest of our clan, I had started to worry that we would never see them again.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<Text>
-			NOMAILEADER: Let us not delay then, there is no telling how long that core will be able to hold the singularity open. Everyone, go through!
+			AZOLLA: Let us not delay then, there is no telling how long that core will be able to hold the singularity open. Everyone, go through!
 		</Text>
 	</TextBlock>
 

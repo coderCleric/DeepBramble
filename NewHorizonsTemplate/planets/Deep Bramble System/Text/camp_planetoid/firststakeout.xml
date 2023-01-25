@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			CURIOUSNOMAI: Oh my goodness! I was hiding behind one of the trees on the upper ring, and was able to see one of the campsite occupants return!
+			OKALIS: Oh my goodness! I was hiding behind one of the trees on the upper ring, and was able to see one of the campsite occupants return!
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<ID>101</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			NOMAILEADER: CURIOUSNOMAI, you were explicitly instructed not to attempt to interact with them! What if they had attacked you!
+			AZOLLA: Okalis, you were explicitly instructed not to attempt to interact with them! What if they had attacked you!
 		</Text>
 	</TextBlock>
 
@@ -22,7 +22,7 @@
 		<ID>102</ID>
 		<ParentID>101</ParentID>
 		<Text>
-			CURIOUSNOMAI: I know, I know, but I was simply too curious to not try and see the other species. We are Nomai after all.
+			OKALIS: I know, I know, but I was simply too curious to not try and see the other species. We are Nomai after all.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ID>201</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			SPOOKEDNOMAI: Really? What did they look like? Did they seem friendly?
+			SENNETTI: Really? What did they look like? Did they seem friendly?
 		</Text>
 	</TextBlock>
 
@@ -40,7 +40,7 @@
 		<ID>202</ID>
 		<ParentID>201</ParentID>
 		<Text>
-			CURIOUSNOMAI: Worry not, friend, they did not seem to be hostile. I was fairly far away, so I did not have an ideal view on them. However, I was able to tell that they had large, ear-like frills on both sides of their head, a large tail, as well as webbed hands and feet. To top it all off, they seemed to have no eyes!
+			OKALIS: Worry not, friend, they did not seem to be hostile. I was fairly far away, so I did not have an ideal view on them. However, I was able to tell that they had large, ear-like frills on both sides of their head, a large tail, as well as webbed hands and feet. To top it all off, they seemed to have no eyes!
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<ID>203</ID>
 		<ParentID>202</ParentID>
 		<Text>
-			SPOOKEDNOMAI: How strange! How do you suppose they navigate without vision?
+			SENNETTI: How strange! How do you suppose they navigate without vision?
 		</Text>
 	</TextBlock>
 
@@ -56,7 +56,7 @@
 		<ID>204</ID>
 		<ParentID>203</ParentID>
 		<Text>
-			CURIOUSNOMAI: I am uncertain, but they did seem to notice me when I stepped out from behind the tree. Perhaps they have some form of echolocation?
+			OKALIS: I am uncertain, but they did seem to notice me when I stepped out from behind the tree. Perhaps they have some form of echolocation?
 		</Text>
 	</TextBlock>
 
@@ -66,7 +66,7 @@
 		<ID>301</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ANALYTICNOMAI: Did they see you as well? If they did, then how did they react?
+			NESIA: Did they see you as well? If they did, then how did they react?
 		</Text>
 	</TextBlock>
 
@@ -74,7 +74,7 @@
 		<ID>302</ID>
 		<ParentID>301</ParentID>
 		<Text>
-			CURIOUSNOMAI: They did not notice me at first, but when I moved out from behind the tree to try and make contact, they turned toward me before fleeing. Notably, they appeared to swim through the air using the webbing on their hands and feet!
+			OKALIS: They did not notice me at first, but when I moved out from behind the tree to try and make contact, they turned toward me before fleeing. Notably, they appeared to swim through the air using the webbing on their hands and feet!
 		</Text>
 	</TextBlock>
 
@@ -82,7 +82,7 @@
 		<ID>303</ID>
 		<ParentID>302</ParentID>
 		<Text>
-			ANALYTICNOMAI: Very interesting, especially given your note that they did not appear to have eyes. Did they seem to have any obvious reason for returning?
+			NESIA: Very interesting, especially given your note that they did not appear to have eyes. Did they seem to have any obvious reason for returning?
 		</Text>
 	</TextBlock>
 
@@ -90,7 +90,7 @@
 		<ID>304</ID>
 		<ParentID>303</ParentID>
 		<Text>
-			CURIOUSNOMAI: Actually, they appeared to be looking for something. I believe that they found it just before I showed myself, but dropped it as they left. It appears to be some sort of painted tablet, perhaps I should attempt to return it to them?
+			OKALIS: Actually, they appeared to be looking for something. I believe that they found it just before I showed myself, but dropped it as they left. It appears to be some sort of painted tablet, perhaps I should attempt to return it to them?
 		</Text>
 	</TextBlock>
 
@@ -98,7 +98,7 @@
 		<ID>305</ID>
 		<ParentID>304</ParentID>
 		<Text>
-			NOMAILEADER: While we had previously decided that it was best to not initiate contact, the fact that they did not attack you seems to indicate that they are not hostile. Because of this, it may be best for you to return their item to them.
+			AZOLLA: While we had previously decided that it was best to not initiate contact, the fact that they did not attack you seems to indicate that they are not hostile. Because of this, it may be best for you to return their item to them.
 		</Text>
 	</TextBlock>
 
@@ -106,7 +106,7 @@
 		<ID>306</ID>
 		<ParentID>305</ParentID>
 		<Text>
-			CURIOUSNOMAI: Absolutely! With any luck, I’ll be able to get close enough to them to get a better idea of their appearance!
+			OKALIS: Absolutely! With any luck, I’ll be able to get close enough to them to get a better idea of their appearance!
 		</Text>
 	</TextBlock>
 

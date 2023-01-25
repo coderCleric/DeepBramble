@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ANALYTICNOMAI: Oh Secca, I yearn to reunite with you outside of the hazards of this place.
+			NESIA: Oh Secca, I yearn to reunite with you outside of the hazards of this place.
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ANALYTICNOMAI: I can only hope that you escaped safely.
+			NESIA: I can only hope that you escaped safely.
 		</Text>
 	</TextBlock>
 

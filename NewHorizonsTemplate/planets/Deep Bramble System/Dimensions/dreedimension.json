@@ -29,6 +29,23 @@
         },
         "scale": 0.4,
         "linksTo": "Hot Dimension"
+      },
+      {
+        "name": "Language Node",
+        "hasFogLight": true,
+        "possibleExits": [ 4 ],
+        "scale": 0.2,
+        "position": {
+          "x": -168.2948,
+          "y": 187.7638,
+          "z": -556.2195
+        },
+        "rotation": {
+          "x": 58.0055,
+          "y": 221.6893,
+          "z": 0.0003
+        },
+        "linksTo": "Language Dimension"
       }
     ],
     "dimension": {

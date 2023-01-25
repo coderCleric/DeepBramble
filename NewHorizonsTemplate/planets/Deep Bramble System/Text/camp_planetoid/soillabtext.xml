@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			ANALYTICNOMAI: Curiously, analysis of the soil composition indicates that this body may be composed of the remnants of many others.
+			NESIA: Curiously, analysis of the soil composition indicates that this body may be composed of the remnants of many others.
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			SPOOKEDNOMAI: Do you mean to say that this planetoid is composed of debris from planets that ended up in this place after their destruction?
+			SENNETTI: Do you mean to say that this planetoid is composed of debris from planets that ended up in this place after their destruction?
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ANALYTICNOMAI: I do. The trees also show characteristics from many cataloged species which, combined with the unique set of nutrients they draw from the soil, may explain the strange color of the fire in the campsite.
+			NESIA: I do. The trees also show characteristics from many cataloged species which, combined with the unique set of nutrients they draw from the soil, may explain the strange color of the fire in the campsite.
 		</Text>
 	</TextBlock>
 

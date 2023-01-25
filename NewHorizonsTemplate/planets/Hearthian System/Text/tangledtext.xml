@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			NOMAILEADER: What are you all still doing here? You should be on an escape pod and leaving!
+			AZOLLA: What are you all still doing here? You should be on an escape pod and leaving!
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			SPOOKEDNOMAI: We tried, but the pod on the far side of the ship is entirely blocked off. We can not reach it.
+			SENNETTI: We tried, but the pod on the far side of the ship is entirely blocked off. We can not reach it.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			ANALYTICNOMAI: Unfortunately, that seems to also be true of the pod on this side. We seem to be stranded.
+			NESIA: Unfortunately, that seems to also be true of the pod on this side. We seem to be stranded.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			CURIOUSNOMAI: How are we going to escape from this place? The <![CDATA[<color=orange>Vessel</color>]]> is our only source of oxygen, so we are unable to just fly away from it.
+			OKALIS: How are we going to escape from this place? The <![CDATA[<color=orange>Vessel</color>]]> is our only source of oxygen, so we are unable to just fly away from it.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			NOMAILEADER: Despite the frightful appearance of our environment, we do not seem to be in any immediate danger. We should regroup on the bridge and come up with a plan from there.
+			AZOLLA: Despite the frightful appearance of our environment, we do not seem to be in any immediate danger. We should regroup on the bridge and come up with a plan from there.
 		</Text>
 	</TextBlock>
 

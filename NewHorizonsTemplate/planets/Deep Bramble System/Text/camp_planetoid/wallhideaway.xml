@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			CURIOUSNOMAI: One of our new friends actually approached me today, I believe that it was the one that I had previously met at this campsite.
+			OKALIS: One of our new friends actually approached me today, I believe that it was the one that I had previously met at this campsite.
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			ANALYTICNOMAI: Oh? Did they seem to have any particular reason for doing so?
+			NESIA: Oh? Did they seem to have any particular reason for doing so?
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			CURIOUSNOMAI: They actually led me to somewhere quite interesting. Do you know of the wooden knot that lies in the center of this area, the one that leads back in through an infinite loop? They took me through there and, contrary to what normally happens, we arrived in an enclosed space.
+			OKALIS: They actually led me to somewhere quite interesting. Do you know of the wooden knot that lies in the center of this area, the one that leads back in through an infinite loop? They took me through there and, contrary to what normally happens, we arrived in an enclosed space.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			SPOOKEDNOMAI: How strange, what was the space like?
+			SENNETTI: How strange, what was the space like?
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			CURIOUSNOMAI: It seemed to be a completely overgrown entrance to this area, and the person leading me beckoned me through another node, although I did not follow them through for fear of being unable to find my way back.
+			OKALIS: It seemed to be a completely overgrown entrance to this area, and the person leading me beckoned me through another node, although I did not follow them through for fear of being unable to find my way back.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			NOMAILEADER: If a member of this other species desires for us to follow them, it may be worthwhile to do so. They have demonstrated that they are not hostile, and they may know how to escape from this place.
+			AZOLLA: If a member of this other species desires for us to follow them, it may be worthwhile to do so. They have demonstrated that they are not hostile, and they may know how to escape from this place.
 		</Text>
 	</TextBlock>
 
@@ -54,7 +54,7 @@
 		<ID>101</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			ANALYTICNOMAI: I have passed through the knot that you speak of, but I have never arrived anywhere that sounds similar to what you speak of.
+			NESIA: I have passed through the knot that you speak of, but I have never arrived anywhere that sounds similar to what you speak of.
 		</Text>
 	</TextBlock>
 
@@ -62,7 +62,7 @@
 		<ID>102</ID>
 		<ParentID>101</ParentID>
 		<Text>
-			CURIOUSNOMAI: It confuses me as well, ANALYTICNOMAI, and I am unsure of how to access that area again.
+			OKALIS: It confuses me as well, Nesia, and I am unsure of how to access that area again.
 		</Text>
 	</TextBlock>
 
@@ -70,7 +70,7 @@
 		<ID>103</ID>
 		<ParentID>102</ParentID>
 		<Text>
-			ANALYTICNOMAI: I have a hypothesis. I have noted that the hole one uses to enter that central knot lines up with where they will re-enter this larger area. If we can locate the exterior of the enclosure that you speak of, we may be able to find the hole that will lead us into it.
+			NESIA: I have a hypothesis. I have noted that the hole one uses to enter that central knot lines up with where they will re-enter this larger area. If we can locate the exterior of the enclosure that you speak of, we may be able to find the hole that will lead us into it.
 		</Text>
 	</TextBlock>
 
@@ -88,7 +88,7 @@
 		<ID>202</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			CURIOUSNOMAI: Is this our new friend’s writing? How exciting! SPOOKEDNOMAI, are you able to understand what they have said?
+			OKALIS: Is this our new friend’s writing? How exciting! Sennetti, are you able to understand what they have said?
 		</Text>
 	</TextBlock>
 
@@ -96,7 +96,7 @@
 		<ID>203</ID>
 		<ParentID>202</ParentID>
 		<Text>
-			SPOOKEDNOMAI: Unfortunately, I will need to analyze it more before I can determine what this text says, although I can assure you that I will begin work on my translation as soon as possible.
+			SENNETTI: Unfortunately, I will need to analyze it more before I can determine what this text says, although I can assure you that I will begin work on my translation as soon as possible.
 		</Text>
 	</TextBlock>
 

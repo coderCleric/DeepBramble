@@ -33,7 +33,8 @@
           "y": 2.799,
           "z": -18.084
         },
-        "size": 2
+        "horizonRadius": 2,
+        "distortRadius": 2.3
       }
     ],
     "nomaiText": [
