@@ -29,7 +29,7 @@ namespace DeepBramble
             OWRigidbody otherBody = other.gameObject.GetAttachedOWRigidbody();
 
             //Only do stuff if it's the ship or the player
-            if(otherBody.CompareTag("Player"))
+            if(otherBody.CompareTag("Player") || otherBody.CompareTag("Ship"))
             {
                 DeepBramble.debugPrint("Either player or ship should be bitten");
 
@@ -50,6 +50,8 @@ namespace DeepBramble
                 fishTransform.GetComponent<BabyFishController>().enabled = false;
 
                 //Second, if it's the player, start hurting them
+                if (otherBody.CompareTag("Player"))
+                    this.transform.parent.Find("HazardVolume").gameObject.SetActive(true);
             }
         }
     }

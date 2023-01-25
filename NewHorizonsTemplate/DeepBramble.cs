@@ -168,6 +168,13 @@ namespace DeepBramble
                 body.GetComponentInChildren<ThrustRuleset>().enabled = false;
                 body.GetComponentInChildren<SimpleFluidVolume>()._density = 0;
 
+                //Remove the ambient light from the dimension
+                body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
+
+                //If it's the start dimension, ensure that enablerenderers has been called
+                if (body.GetComponent<AstroObject>()._customName.Equals("Start Dimension"))
+                    body.GetComponent<NewHorizons.Components.BrambleSectorController>().Invoke("EnableRenderers", 0);
+
                 //Set up each dimension with the things it needs to grab
                 if (body.GetComponent<AstroObject>()._name == AstroObject.Name.CustomString)
                 {
@@ -274,7 +281,9 @@ namespace DeepBramble
             //Teleport to a specific point when n is pressed
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
-                Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f);
+                //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
+                Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
+                //Vector3 point = new Vector3(9559.7f, 9920.6f, -99.4f); //Language Dimension
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {

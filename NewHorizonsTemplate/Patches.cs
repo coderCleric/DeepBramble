@@ -377,5 +377,18 @@ namespace DeepBramble
                     biteTrigger.gameObject.AddComponent<BabyBiter>();
             }
         }
+
+        /**
+         * Prevent baby fish from entering the investigate state
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(AnglerfishController), nameof(AnglerfishController.ChangeState))]
+        public static bool PreventBabyInvestigate(AnglerfishController __instance, AnglerfishController.AnglerState newState)
+        {
+            if (newState == AnglerfishController.AnglerState.Investigating && __instance is BabyFishController)
+                return false;
+            else
+                return true;
+        }
     }
 }
