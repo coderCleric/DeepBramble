@@ -38,9 +38,6 @@ namespace DeepBramble
 
             //Add to the list
             containers.Add(this);
-
-            //Sleep everything in the dimension
-            this.sleepBodies();
         }
 
         /**
@@ -63,7 +60,8 @@ namespace DeepBramble
             containers.Add(this);
 
             //Make this the active dimension
-            activeDimension = this;
+            if (loadByDefault)
+                activeDimension = this;
         }
 
         /**

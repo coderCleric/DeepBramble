@@ -99,6 +99,33 @@
           "z": 0
         },
         "scale": 700
+      },
+      {
+        "rename": "RecursiveNodeRecorderContainer",
+        "position": {
+          "x": -12.5,
+          "y": 93.6,
+          "z": 0.2
+        },
+        "path": "DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/DynamicProps_EscapePodDimension/EscapePodFlare_Body",
+        "removeChildren": [
+          "Prefab_NOM_Lamp_EscapePodFlare/PointLight_NOM_Lamp",
+          "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/body",
+          "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/lamp"
+        ]
+      }
+    ],
+    "nomaiText": [
+      {
+        "rename": "RecursiveNodeRecorder",
+        "position": {
+          "x": -12.5,
+          "y": 93.6,
+          "z": 0.2
+        },
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/RecursiveNodeRecorderContainer",
+        "xmlFile": "planets/Deep Bramble System/Text/recursivenodediscovery.xml"
       }
     ],
     "signals": [

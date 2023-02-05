@@ -20,12 +20,14 @@ namespace DeepBramble
     {
         //Flags
         private bool fixShipDrift = false;
+        private bool ensureStarterLoad = false;
 
         //Miscellanious variables
         public INewHorizons NewHorizonsAPI;
         private SignalHelper signalHelper;
         private EntryLocationHelper entryHelper;
         private DecorHelper decorHelper;
+        private GameObject startDimensionObject;
 
         //Only needed for debug
         public static Transform relBody = null;
@@ -158,8 +160,8 @@ namespace DeepBramble
          */
         private void FixDimension(GameObject body)
         {
-            //Only do anything if it's a bramble dimension
-            if (body.GetComponentInChildren<DarkBrambleRepelVolume>() != null) {
+            //Only do anything if it's a bramble dimension added by a mod
+            if (body.GetComponentInChildren<DarkBrambleRepelVolume>() != null && body.transform.Find("Sector") != null) {
 
                 //Disable lock-on for the dimension body
                 body.GetComponent<OWRigidbody>()._isTargetable = false;
@@ -168,12 +170,15 @@ namespace DeepBramble
                 body.GetComponentInChildren<ThrustRuleset>().enabled = false;
                 body.GetComponentInChildren<SimpleFluidVolume>()._density = 0;
 
-                //Remove the ambient light from the dimension
+                //Remove the ambient light from the dimension, only if it's a special one
                 body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
 
-                //If it's the start dimension, ensure that enablerenderers has been called
+                //If it's the start dimension, prime the manual renderer enabling
                 if (body.GetComponent<AstroObject>()._customName.Equals("Start Dimension"))
-                    body.GetComponent<NewHorizons.Components.BrambleSectorController>().Invoke("EnableRenderers", 0);
+                {
+                    this.startDimensionObject = body;
+                    this.ensureStarterLoad = true;
+                }
 
                 //Set up each dimension with the things it needs to grab
                 if (body.GetComponent<AstroObject>()._name == AstroObject.Name.CustomString)
@@ -182,6 +187,9 @@ namespace DeepBramble
                     {
                         case "Start Dimension":
                             BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "StartDimensionFlare", "StartDimensionRecorderContainer" }, true));
+                            break;
+                        case "Large Dimension":
+                            BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "RecursiveNodeRecorderContainer" }, false));
                             break;
                     }
                 }
@@ -204,6 +212,14 @@ namespace DeepBramble
             {
                 Locator.GetShipBody().SetVelocity(Vector3.zero);
                 fixShipDrift = false;
+            }
+
+            //Ensure that the starting dimension gets rendered
+            if(this.ensureStarterLoad && this.startDimensionObject.GetComponent<NewHorizons.Components.BrambleSectorController>() != null)
+            {
+                this.startDimensionObject.GetComponent<NewHorizons.Components.BrambleSectorController>().Invoke("EnableRenderers", 0);
+                debugPrint("Start dimension renderers manually enabled");
+                ensureStarterLoad = false;
             }
 
             //Print the player's absolute and relative positions when k is pressed
