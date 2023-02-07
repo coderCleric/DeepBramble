@@ -1,0 +1,72 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: Exciting news friends! I have made significant progress towards deciphering our neighborâ€™s language!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: If you donâ€™t mind my asking, what particulars of their language have you decrypted?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: Mostly common words, such as "and" and "the." Notably, however, I have also puzzled out a couple of names! Specifically, the species refer to themselves as the Dree, and the Dree that I have been working with is known as Ditylum!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AZOLLA: Good work Sennetti! At this rate, weâ€™ll be able to swap discoveries with the Dree in hardly any time at all!
+		</Text>
+	</TextBlock>
+
+
+	<!--Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			OKALIS: This is wonderful news Sennetti! Does this mean that communication between our species will go more smoothly now?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			SENNETTI: Somewhat, but I am still far from completing my translation.
+		</Text>
+	</TextBlock>
+
+
+	<!--Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			OKALIS: Would this happen to be the same Dree that we first met?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>202</ID>
+		<ParentID>201</ParentID>
+		<Text>
+			SENNETTI: That is correct! It seems that he is quite eager to help facilitate communications between our two species.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

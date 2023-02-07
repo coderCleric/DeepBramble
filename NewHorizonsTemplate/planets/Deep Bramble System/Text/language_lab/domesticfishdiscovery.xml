@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: I must admit that this discovery is rather embarrassing, but apparently I had previously mistaken the Dree adjective modifiers for â€œhostileâ€? and â€œneutralâ€?.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: Interesting, what led to that error?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: In our discussions, Ditylum kept using a particular adjective while referring to the anglerfish in the <![CDATA[<color=orange>Bright Node</color>]]>. I had previously assumed this to be an adjective roughly translating to â€œaggressive,â€? but it apparently means â€œneutralâ€? or â€œtame.â€?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AZOLLA: Peculiar. Would this imply that the anglerfish in that area actually arenâ€™t hostile?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			SENNETTI: It may, although I would suggest giving me more time to properly decipher this fact, as the consequences for me being incorrect again are a potential catastrophe.
+		</Text>
+	</TextBlock>
+
+
+	<!--Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: Donâ€™t fret, Sennetti, it happens to the best of us.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>
