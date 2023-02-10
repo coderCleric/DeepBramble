@@ -149,6 +149,13 @@ namespace DeepBramble
 
                     //Add the camera inverter
                     body.transform.Find("Sector/hollowplanet/planet/LandingInverseTrigger").gameObject.AddComponent<LandingCamInverter>();
+
+                    //Add the gravity controllers to the pillar fields
+                    Transform gravityParent = body.transform.Find("Sector/hollowplanet/planet/pillargravity");
+                    gravityParent.Find("Side 1").gameObject.AddComponent<PillarGravityController>();
+                    gravityParent.Find("Side 2").gameObject.AddComponent<PillarGravityController>();
+                    gravityParent.Find("Side 3").gameObject.AddComponent<PillarGravityController>();
+                    gravityParent.Find("Side 4").gameObject.AddComponent<PillarGravityController>();
                 }
             }
         }
@@ -297,8 +304,8 @@ namespace DeepBramble
             //Teleport to a specific point when n is pressed
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
-                //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
-                Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
+                Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
+                //Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
                 //Vector3 point = new Vector3(9559.7f, 9920.6f, -99.4f); //Language Dimension
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
@@ -313,6 +320,15 @@ namespace DeepBramble
                 point = point + absCenter.position;
 
                 Locator._shipBody.SetPosition(point);
+            }
+
+            if (Keyboard.current[Key.P].wasPressedThisFrame)
+            {
+                foreach (ReferenceFrameGUI i in Component.FindObjectsOfType<ReferenceFrameGUI>())
+                {
+                    i._reticule1.EnableTextReadout(true);
+                    i._reticule2.EnableTextReadout(true);
+                }
             }
         }
 

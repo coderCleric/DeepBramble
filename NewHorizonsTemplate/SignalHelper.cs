@@ -40,7 +40,7 @@ namespace DeepBramble
                     switch(i._customName)
                     {
 
-                        case "Camp Planetoid": //We're on The Camp Planetoid
+                        case "Lover's Rock": //We're on The Camp Planetoid
                             this.signalDictionary.Add("Signal_Camp Marker", i);
                             break;
 

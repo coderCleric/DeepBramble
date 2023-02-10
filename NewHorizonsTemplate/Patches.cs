@@ -36,7 +36,7 @@ namespace DeepBramble
             startupFlags.Add("revealStartingRumor", false);
         }
 
-        //Miscellanious patches
+        //#################################Miscellanious patches#################################
         /**
          * When the locator finishes loading, do a bunch of stuff to prep the game
          */
@@ -65,6 +65,10 @@ namespace DeepBramble
                 }
                 startupFlags["revealStartingRumor"] = false;
             }
+
+            //If we're in deep bramble, disable the bramble audio player
+            if (inBrambleSystem)
+                Locator._globalMusicController._darkBrambleSource.gameObject.SetActive(false);
         }
 
         /**
@@ -162,7 +166,7 @@ namespace DeepBramble
             }
         }
 
-        //Black hole things
+        //#################################Black hole things#################################
         /**
          * When the player sockets a warp core, check if we need to activate the black hole
          * 
@@ -238,7 +242,7 @@ namespace DeepBramble
             }
         }
 
-        //Signal lock patches
+        //#################################Signal lock patches#################################
         /**
          * Suppress lock-on while the player has their signalscope out
          * 
@@ -270,7 +274,7 @@ namespace DeepBramble
             return !forbidUnlock;
         }
 
-        //AudioSignalDetectionTrigger stuff, so the player can pick up signals while in their ship
+        //#################################AudioSignalDetectionTrigger stuff, so the player can pick up signals while in their ship#################################
         /**
          * If the AudioSignalDetectionTrigger asks whether the player is in the ship, say no
          * 
@@ -323,7 +327,7 @@ namespace DeepBramble
             return true;
         }
 
-        //Baby angler stuff
+        //#################################Baby angler stuff#################################
         /**
          * 
          */
@@ -389,6 +393,22 @@ namespace DeepBramble
                 return false;
             else
                 return true;
+        }
+
+        //#################################Debug Things#################################
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(SphericalFogWarpVolume), nameof(SphericalFogWarpVolume.RepositionWarpedBody))]
+        public static void PrintUsedPassage(SphericalFogWarpVolume __instance, Vector3 localPos)
+        {
+            Vector3 localPoint = __instance.transform.TransformPoint(localPos.normalized * __instance._exitRadius);
+            SphericalFogWarpExit usedExit = __instance.FindClosestWarpExit(localPoint);
+            for(int i = 0; i < __instance._exits.Length; i++)
+            {
+                if(__instance._exits[i] == usedExit)
+                {
+                    DeepBramble.debugPrint("Something was received in passage " + i);
+                }
+            }
         }
     }
 }
