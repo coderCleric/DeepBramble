@@ -60,6 +60,37 @@
       }
     }
   },
+  "Props": {
+    "details": [
+      {
+        "rename": "karenia_house",
+        "assetBundle": "assetbundles/dree_floating_house",
+        "path": "Assets/Prefabs/buildings/dree_floating_house.prefab",
+        "scale": 2,
+        "position": {
+          "x": 99.7874,
+          "y": -203.93,
+          "z": -546.704
+        },
+        "rotation": {
+          "x": 58.6794,
+          "y": 334.7891,
+          "z": 358.8364
+        }
+      },
+      {
+        "rename": "amylax_house",
+        "assetBundle": "assetbundles/dree_floating_house",
+        "path": "Assets/Prefabs/buildings/dree_floating_house.prefab",
+        "scale": 2,
+        "position": {
+          "x": 393.8038,
+          "y": 311.505,
+          "z": -316.1444
+        }
+      }
+    ]
+  },
   "Volumes": {
     "zeroGravityVolumes": [
       {

@@ -1,0 +1,47 @@
+ManifestFileVersion: 0
+CRC: 524976621
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cacf8ae95b6c00af68373227b43bb7c8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: fb7f3be8e8260f8eecd6c9b74b287ce0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 44e6c85460fc91746b86ccb3c4135daf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b21148dab2fe4ab468de03459edf483b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/buildings/dree_floating_house.prefab
+Dependencies: []

@@ -90,6 +90,12 @@
       <None Update="assetbundles\dirtball.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assetbundles\dree_floating_house">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\dree_floating_house.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assetbundles\gravplatform">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
