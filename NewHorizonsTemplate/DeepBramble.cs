@@ -68,7 +68,6 @@ namespace DeepBramble
          */
         private void PrepSystem(String s)
         {
-            decorHelper.FixDecor();
 
             //Do this stuff if we're in the bramble system
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("BrambleSystem"))
