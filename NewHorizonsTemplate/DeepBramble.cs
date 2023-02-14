@@ -28,6 +28,7 @@ namespace DeepBramble
         private EntryLocationHelper entryHelper;
         private DecorHelper decorHelper;
         private GameObject startDimensionObject;
+        private AssetBundle titleBundle;
 
         //Only needed for debug
         public static Transform relBody = null;
@@ -38,9 +39,21 @@ namespace DeepBramble
          */
         private void Start()
         {
+            instance = this;
+
             //NH setup stuff
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizonsAPI.LoadConfigs(this);
+
+            //Do stuff when the title screen loads
+            this.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
+            this.MakeTitleEdits();
+            LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
+            {
+                debugPrint("Detecting scene load");
+                if (loadScene == OWScene.TitleScreen)
+                    this.MakeTitleEdits();
+            };
 
             //Do stuff when the system loads
             UnityEvent<string> loadEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
@@ -56,8 +69,6 @@ namespace DeepBramble
 
             //Make all of the patches
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
-
-            instance = this;
         }
 
         /**
@@ -200,6 +211,41 @@ namespace DeepBramble
                     }
                 }
             }
+        }
+
+        /**
+         * Mess with the title screen
+         */
+        private void MakeTitleEdits()
+        {
+            debugPrint("Making title edits");
+
+            //Find the background object
+            GameObject backgroundObject = GameObject.Find("Scene/Background");
+            if(backgroundObject == null)
+            {
+                debugPrint("Couldn't find background object");
+                return;
+            }
+
+            //Load the custom effects bundle, make it a child of the background object
+            GameObject titleEffectsObject = this.titleBundle.LoadAsset<GameObject>("Assets/Prefabs/titlescreeneffects.prefab");
+            if(titleEffectsObject == null)
+            {
+                debugPrint("Couldn't load title effects object");
+                return;
+            }
+            titleEffectsObject = GameObject.Instantiate(titleEffectsObject, backgroundObject.transform);
+            titleEffectsObject.name = "DB Title Effects Object";
+            titleEffectsObject.transform.position = new Vector3(-12.3836f, 169.4274f, 5.1f);
+            debugPrint("Title edits complete");
+
+            //Change the campfire appearance
+            CampFireHelper.ChangeFireAppearance(backgroundObject.transform.Find("PlanetPivot/Prefab_HEA_Campfire/Controller_Campfire").GetComponent<Campfire>());
+
+            //Find the animator & set it to play at a specific point
+            Animator animator = GameObject.Find("Scene").GetComponent<Animator>();
+            animator.Play(animator.GetCurrentAnimatorStateInfo(0).fullPathHash, 0, 0.6f);
         }
 
         /**
