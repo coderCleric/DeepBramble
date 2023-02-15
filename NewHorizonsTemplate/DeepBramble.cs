@@ -208,6 +208,9 @@ namespace DeepBramble
                         case "Large Dimension":
                             BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "RecursiveNodeRecorderContainer" }, false));
                             break;
+                        case "Dree Dimension":
+                            BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "CommunionRecorderContainer", "ReinvigorationRecorderContainer" }, false));
+                            break;
                     }
                 }
             }
@@ -242,6 +245,9 @@ namespace DeepBramble
 
             //Change the campfire appearance
             CampFireHelper.ChangeFireAppearance(backgroundObject.transform.Find("PlanetPivot/Prefab_HEA_Campfire/Controller_Campfire").GetComponent<Campfire>());
+
+            //Disable the cricket noises
+            GameObject.Find("Scene/AudioSource_Ambience").SetActive(false);
 
             //Find the animator & set it to play at a specific point
             Animator animator = GameObject.Find("Scene").GetComponent<Animator>();

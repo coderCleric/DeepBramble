@@ -267,7 +267,13 @@
       <None Update="planets\Deep Bramble System\Text\camp_planetoid\wallhideaway.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Deep Bramble System\Text\dree_planet\acceptancetext.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Deep Bramble System\Text\dree_planet\amylaxnametag.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\dree_planet\communionrecording.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Text\dree_planet\concerthallrecorder.xml">
@@ -280,6 +286,9 @@
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Text\dree_planet\parkrecorder.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\dree_planet\reinvigorationrecording.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Text\holeoverlooktext.xml">

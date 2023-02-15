@@ -1,0 +1,124 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: Amylax, can I converse with you for a moment? There have been recent… developments that have been troubling me.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AMYLAX: Oh, um, sure, I guess. What do you want to talk about?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: The other Nomai and I have recently arrived at the conclusion that a large portion of our clan perished in the <![CDATA[<color=purple>Bramble</color>]]>, one of them being Nesia’s love. Naturally, everyone has found themselves demoralized, and I am unsure what I can do to remedy the situation.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			OKALIS: Nesia believes that we will never be able to escape the <![CDATA[<color=purple>Deep Bramble</color>]]>, and this outlook has spread through everyone else like a miasma.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			AMYLAX: I mean, would that be such a bad thing?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			OKALIS: Excuse me?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			AMYLAX: Hold on, hold on, hear me out. Ever since you guys showed up, you’ve made comments on two main things. One, that you Nomai are intensely curious, and two, that the <![CDATA[<color=purple>Deep Bramble</color>]]> is probably the weirdest place that your people have ever found.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>
+			AMYLAX: However, you also keep saying a third thing, which seems to contradict those two, and that’s that you desperately want to leave. I know that you all want to see the rest of your people again, but if that’s not possible right now, why not make the best of the situation?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>
+			OKALIS: That’s… actually a very solid argument. At this point it has become clear that escape is not easily achievable, so perhaps investigating the phenomena surrounding us would be the most efficient use of our time!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>
+			AMYLAX: That’s the spirit! I mean, there are so many things you guys could try and figure out, like the whole teleportation thing when moving between nodes, how things end up in the <![CDATA[<color=purple>Deep Bramble</color>]]>, and that signal that came through a while back and ended up stuck in the <![CDATA[<color=orange>Feedback Chamber</color>]]>!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>
+			OKALIS: Wait, a signal? Amylax, when did this signal first appear?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>
+			AMYLAX: Um, pretty shortly before you guys showed up, actually. There was actually an idea at first that you guys must have made it.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>14</ID>
+		<ParentID>13</ParentID>
+		<Text>
+			OKALIS: The <![CDATA[<color=orange>Eye</color>]]>! That’s the only explanation! The signal from the <![CDATA[<color=orange>Eye of the Universe</color>]]> must have passed through here! You said it is still reverberating throughout the feedback chamber? I must notify the others immediately, this is sure to brighten their attitudes!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<Text>
+			AMYLAX: Wait! Okalis! Don’t run off so fast! The feedback chamber is super… hot… oh Bramble, I hope the other Nomai are more careful than he is, or they’re gonna get themselves killed.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

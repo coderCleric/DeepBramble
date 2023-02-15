@@ -84,10 +84,186 @@
         "path": "Assets/Prefabs/buildings/dree_floating_house.prefab",
         "scale": 2,
         "position": {
-          "x": 393.8038,
-          "y": 311.505,
+          "x": 392.102,
+          "y": 309.8978,
           "z": -316.1444
+        },
+        "rotation": {
+          "x": 26.8619,
+          "y": 120.3096,
+          "z": 209.0184
         }
+      },
+      {
+        "rename": "CommunionRecorderContainer",
+        "position": {
+          "x": 100.0,
+          "y": -201.0,
+          "z": -549.3
+        },
+        "path": "DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/DynamicProps_EscapePodDimension/EscapePodFlare_Body",
+        "removeChildren": [
+          "Prefab_NOM_Lamp_EscapePodFlare/PointLight_NOM_Lamp",
+          "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/body",
+          "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/lamp"
+        ]
+      },
+      {
+        "rename": "ReinvigorationRecorderContainer",
+        "position": {
+          "x": 389.3,
+          "y": 311.0,
+          "z": -314.4
+        },
+        "path": "DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/DynamicProps_EscapePodDimension/EscapePodFlare_Body",
+        "removeChildren": [
+          "Prefab_NOM_Lamp_EscapePodFlare/PointLight_NOM_Lamp",
+          "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/body",
+          "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/lamp"
+        ]
+      },
+      {
+        "rename": "AcceptanceWall",
+        "parentPath": "Sector/amylax_house",
+        "isRelativeToParent": true,
+        "path": "VolcanicMoon_Body/Sector_VM/Interactables_VM/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
+        "position": {
+          "x": 0.4835,
+          "y": -0.7587,
+          "z": 3.3852
+        },
+        "rotation": {
+          "x": 355.3868,
+          "y": 174.3157,
+          "z": 272.9818
+        },
+        "removeChildren": [ "whiteboard_brokenTiles" ],
+        "alignToNormal": false
+      }
+    ],
+    "nomaiText": [
+      {
+        "rename": "KareniaNameplate",
+        "parentPath": "Sector/karenia_house",
+        "type": "wall",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/karenianametag.xml",
+        "seed": 9876,
+        "position": {
+          "x": 96.95987,
+          "y": -201.9804,
+          "z": -538.0757
+        },
+        "normal": {
+          "x": -0.3454304,
+          "y": 0.5197192,
+          "z": 0.7813898
+        },
+        "arcInfo": [
+          {
+            "type": "stranger",
+            "position": {
+              "x": -0.6218,
+              "y": -0.2218
+            },
+            "zRotation": 0
+          }
+        ]
+      },
+      {
+        "rename": "AmylaxNameplate",
+        "parentPath": "Sector/amylax_house",
+        "type": "wall",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/amylaxnametag.xml",
+        "seed": 987,
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0.5918,
+          "y": 4.366,
+          "z": 1.5251
+        },
+        "normal": {
+          "x": -0.5859225,
+          "y": -0.7801077,
+          "z": -0.2193783
+        },
+        "arcInfo": [
+          {
+            "type": "stranger",
+            "position": {
+              "x": -0.9745449,
+              "y": 0.6909086
+            },
+            "zRotation": 318.2283
+          }
+        ]
+      },
+      {
+        "rename": "CommunionRecorder",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/CommunionRecorderContainer",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/communionrecording.xml",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "rename": "ReinvigorationRecorder",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/ReinvigorationRecorderContainer",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/reinvigorationrecording.xml",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "rename": "AcceptanceText",
+        "parentPath": "Sector/amylax_house/AcceptanceWall",
+        "isRelativeToParent": true,
+        "type": "wall",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/acceptancetext.xml",
+        "seed": 1246,
+        "position": {
+          "x": 0.0344,
+          "y": 1.5494,
+          "z": 0.007
+        },
+        "normal": {
+          "x": -0.786125,
+          "y": 0.3426968,
+          "z": 0.5143601
+        },
+        "arcInfo": [
+          {
+            "type": "stranger",
+            "position": {
+              "x": 0.4327277,
+              "y": 1.34909
+            },
+            "zRotation": 334.7994
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": -0.3072729,
+              "y": 0.05272716
+            },
+            "zRotation": 333.5271
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": -0.8509086,
+              "y": -1.18909
+            },
+            "zRotation": 335.6577
+          }
+        ]
       }
     ]
   },

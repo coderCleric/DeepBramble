@@ -36,7 +36,7 @@ namespace DeepBramble
             startupFlags.Add("revealStartingRumor", false);
         }
 
-        //#################################Miscellanious patches#################################
+        //################################# Miscellanious patches #################################
         /**
          * When the locator finishes loading, do a bunch of stuff to prep the game
          */
@@ -57,10 +57,10 @@ namespace DeepBramble
             //If needed, check if we need to reveal the starting rumor of the mod
             if(startupFlags["revealStartingRumor"])
             {
-                DeepBramble.debugPrint("Revealing starting rumor");
                 ShipLogManager logManager = Locator.GetShipLogManager();
                 if (logManager.IsFactRevealed("DB_VESSEL_X1"))
                 {
+                    DeepBramble.debugPrint("Revealing starting rumor");
                     logManager.RevealFact("WHY_TWO_PODS_RUMOR");
                 }
                 startupFlags["revealStartingRumor"] = false;
@@ -166,7 +166,7 @@ namespace DeepBramble
             }
         }
 
-        //#################################Black hole things#################################
+        //################################# Black hole things #################################
         /**
          * When the player sockets a warp core, check if we need to activate the black hole
          * 
@@ -242,7 +242,7 @@ namespace DeepBramble
             }
         }
 
-        //#################################Signal lock patches#################################
+        //################################# Signal lock patches #################################
         /**
          * Suppress lock-on while the player has their signalscope out
          * 
@@ -274,7 +274,7 @@ namespace DeepBramble
             return !forbidUnlock;
         }
 
-        //#################################AudioSignalDetectionTrigger stuff, so the player can pick up signals while in their ship#################################
+        //################################# AudioSignalDetectionTrigger stuff, so the player can pick up signals while in their ship #################################
         /**
          * If the AudioSignalDetectionTrigger asks whether the player is in the ship, say no
          * 
@@ -327,11 +327,7 @@ namespace DeepBramble
             return true;
         }
 
-        //#################################Baby angler stuff#################################
-        /**
-         * 
-         */
-
+        //################################# Baby angler stuff #################################
         /**
          * Before the angleraudiocontroller wakes up, see if we need to add a babyfishcontroller
          */
@@ -395,7 +391,7 @@ namespace DeepBramble
                 return true;
         }
 
-        //#################################Debug Things#################################
+        //################################# Debug Things #################################
         [HarmonyPostfix]
         [HarmonyPatch(typeof(SphericalFogWarpVolume), nameof(SphericalFogWarpVolume.RepositionWarpedBody))]
         public static void PrintUsedPassage(SphericalFogWarpVolume __instance, Vector3 localPos)
