@@ -36,6 +36,72 @@
           "y": 350.849,
           "z": 1.4436
         }
+      },
+      {
+        "assetBundle": "assetbundles/angler_skeleton",
+        "path": "Assets/Prefabs/props/angler_skeleton.prefab",
+        "rotation": {
+          "x": 0,
+          "y": 256.8719,
+          "z": 0
+        },
+        "scale": 1.2
+      },
+      {
+        "assetBundle": "assetbundles/baby_fish",
+        "path": "Assets/Prefabs/baby_fish.prefab",
+        "position": {
+          "x": -8.1,
+          "y": -5.8,
+          "z": -2.3
+        },
+        "rotation": {
+          "x": 355.3274,
+          "y": 350.849,
+          "z": 1.4436
+        }
+      },
+      {
+        "assetBundle": "assetbundles/baby_fish",
+        "path": "Assets/Prefabs/baby_fish.prefab",
+        "position": {
+          "x": -31.9,
+          "y": 1.8,
+          "z": -3.6
+        },
+        "rotation": {
+          "x": 0,
+          "y": 30.849,
+          "z": 100.4436
+        }
+      },
+      {
+        "assetBundle": "assetbundles/baby_fish",
+        "path": "Assets/Prefabs/baby_fish.prefab",
+        "position": {
+          "x": -24.0,
+          "y": -2.3,
+          "z": -8.9
+        },
+        "rotation": {
+          "x": 356.4338,
+          "y": 204.9696,
+          "z": 170.5328
+        }
+      },
+      {
+        "assetBundle": "assetbundles/baby_fish",
+        "path": "Assets/Prefabs/baby_fish.prefab",
+        "position": {
+          "x": -32.2,
+          "y": -5.8,
+          "z": -9.2
+        },
+        "rotation": {
+          "x": 76.4185,
+          "y": 80.8491,
+          "z": 231.4436
+        }
       }
     ],
     "nomaiText": [

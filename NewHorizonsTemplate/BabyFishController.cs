@@ -65,13 +65,13 @@ namespace DeepBramble
         {
 			BabyFishController controller = target.AddComponent<BabyFishController>();
 			controller._mouthOffset = new Vector3(0, 0, 0.5f);
-			controller._acceleration = 10;
+			controller._acceleration = 15;
 			controller._investigateSpeed = 5;
 			controller._chaseSpeed = 20;
 			controller._turnSpeed = 90;
 			controller._quickTurnSpeed = 360;
 			controller._arrivalDistance = 1;
-			controller._pursueDistance = 30;
+			controller._pursueDistance = 45;
 			controller._escapeDistance = 100;
         }
 	}

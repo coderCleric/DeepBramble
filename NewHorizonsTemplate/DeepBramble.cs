@@ -211,6 +211,9 @@ namespace DeepBramble
                         case "Dree Dimension":
                             BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "CommunionRecorderContainer", "ReinvigorationRecorderContainer" }, false));
                             break;
+                        case "Language Dimension":
+                            BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "baby_fish" }, false));
+                            break;
                     }
                 }
             }

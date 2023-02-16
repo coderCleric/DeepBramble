@@ -42,6 +42,12 @@
         <Content Include="DeepBramble.csproj.user" />
     </ItemGroup>
     <ItemGroup>
+      <None Update="assetbundles\angler_skeleton">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\angler_skeleton.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assetbundles\asteroid2">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

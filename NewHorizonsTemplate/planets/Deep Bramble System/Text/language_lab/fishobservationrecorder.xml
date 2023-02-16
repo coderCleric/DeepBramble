@@ -20,15 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			…
-		</Text>
-	</TextBlock>
-
-	<TextBlock>
-		<ID>4</ID>
-		<ParentID>3</ParentID>
-		<Text>
-			SENNETTI: Hm, while I am unfamiliar with this type of organism, I can’t help but think that it’s breathing seems… labored. I should notify the Dree when I get a chance, the beast may have some manner of affliction.
+			SENNETTI: Really, it should be glad that the Dree look after it. With its massive size, I'm certain it would starve without them feeding it!
 		</Text>
 	</TextBlock>
 
