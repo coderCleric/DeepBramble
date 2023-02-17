@@ -20,7 +20,9 @@ namespace DeepBramble
 
         GameObject GetPlanet(string name);
         
-        UnityEvent<string> GetStarSystemLoadedEvent();
+        UnityEvent<string> GetStarSystemLoadedEvent(); 
+        
+        UnityEvent<string> GetChangeStarSystemEvent();
 
         string GetCurrentStarSystem();
     }

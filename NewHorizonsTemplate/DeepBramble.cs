@@ -55,9 +55,13 @@ namespace DeepBramble
                     this.MakeTitleEdits();
             };
 
-            //Do stuff when the system loads
-            UnityEvent<string> loadEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
-            loadEvent.AddListener(PrepSystem);
+            //Do stuff when the system starts to load
+            UnityEvent<String> startLoadEvent = NewHorizonsAPI.GetChangeStarSystemEvent();
+            startLoadEvent.AddListener(UpdateSystemFlag);
+
+            //Do stuff when the system finishes loading
+            UnityEvent<string> loadCompleteEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
+            loadCompleteEvent.AddListener(PrepSystem);
 
             //Make our helpers
             this.signalHelper = new SignalHelper();
@@ -69,6 +73,16 @@ namespace DeepBramble
 
             //Make all of the patches
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
+        }
+
+        /**
+         * Updates the inBrambleSystem flag
+         * 
+         * @param s The name of the loading system
+         */
+        private void UpdateSystemFlag(String s)
+        {
+            Patches.inBrambleSystem = s.Equals("BrambleSystem");
         }
 
         /**
@@ -210,9 +224,6 @@ namespace DeepBramble
                             break;
                         case "Dree Dimension":
                             BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "CommunionRecorderContainer", "ReinvigorationRecorderContainer" }, false));
-                            break;
-                        case "Language Dimension":
-                            BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "baby_fish" }, false));
                             break;
                     }
                 }

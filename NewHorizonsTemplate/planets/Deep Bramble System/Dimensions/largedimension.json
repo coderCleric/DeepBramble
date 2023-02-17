@@ -79,6 +79,22 @@
         "possibleExits": [
           0
         ]
+      },
+      {
+        "name": "Large Language Node",
+        "hasFogLight": false,
+        "position": {
+          "x": -755.7618,
+          "y": -1502.549,
+          "z": -1217
+        },
+        "rotation": {
+          "x": 359.0761,
+          "y": 3.9636,
+          "z": 287.1636
+        },
+        "possibleExits": [1],
+        "linksTo": "Language Dimension"
       }
     ]
   },

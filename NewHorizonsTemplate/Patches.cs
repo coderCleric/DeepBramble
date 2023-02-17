@@ -21,6 +21,9 @@ namespace DeepBramble
         //Other variables
         private static GameObject brambleHole = null;
         private static GameObject eyeHologram = null;
+        private static InnerFogWarpVolume largeLabEntrance = null;
+        private static InnerFogWarpVolume smallLabEntrance = null;
+        private static OuterFogWarpVolume languageOuterWarp = null;
         public static Dictionary<string, bool> startupFlags = null;
 
         //Needed for the baby angler
@@ -132,37 +135,71 @@ namespace DeepBramble
             return true;
         }
 
+        //################################# Language Lab Hotswap Patches #################################
         /**
-         * When the player enters a bramble dimension, set it to be the relative body for the position printout
+         * Set up the hotswapper for the two language lab nodes when they wake up
          * 
-         * @param __instance The instance of the warp volume the method is being called from
+         * @param __instance The instance of the fog warp volume
          */
-        [HarmonyPrefix]
-        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
-        public static void DimensionUpdater(FogWarpVolume __instance)
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(SphericalFogWarpVolume), nameof(SphericalFogWarpVolume.OnAwake))]
+        public static void PrimeNodeHotswap(SphericalFogWarpVolume __instance)
         {
-            //Find the outer warp volume or, if there isn't one, do nothing
-            OuterFogWarpVolume outerVolume = null;
-            if ((__instance as OuterFogWarpVolume) != null)
-                outerVolume = __instance as OuterFogWarpVolume;
-            else if (((__instance as InnerFogWarpVolume) != null))
+            if (inBrambleSystem)
             {
-                InnerFogWarpVolume innerVolume = __instance as InnerFogWarpVolume;
-                outerVolume = innerVolume.GetContainerWarpVolume();
-            }
-            else
-                return;
-
-            //Set the dimension to be the relative body
-            Transform tf = outerVolume.transform;
-            while (tf != null)
-            {
-                if (tf.gameObject.GetComponent<AstroObject>() != null)
+                //If it's the smaller node, just save it
+                if (__instance.name.Equals("Language Node"))
                 {
-                    DeepBramble.relBody = tf;
-                    return;
+                    smallLabEntrance = __instance as InnerFogWarpVolume;
+                    DeepBramble.debugPrint("Saving small language node inner warp.");
                 }
-                tf = tf.parent;
+
+                //If it's the dimension, just save it
+                if (__instance.transform.parent.parent.name.Equals("LanguageDimension_Body"))
+                {
+                    languageOuterWarp = __instance as OuterFogWarpVolume;
+                    DeepBramble.debugPrint("Saving language outer warp.");
+                }
+
+                //If it's the larger node, save it & do some cosmetic edits
+                if (__instance.name.Equals("Large Language Node"))
+                {
+                    largeLabEntrance = __instance as InnerFogWarpVolume;
+                    Transform nodeEffects = __instance.transform.Find("Effects");
+                    nodeEffects.Find("PointLight_DB_FogLight").gameObject.SetActive(false);
+                    nodeEffects.Find("DB_BrambleLightShafts").gameObject.SetActive(false);
+                    nodeEffects.Find("InnerWarpFogGlow").gameObject.SetActive(false);
+                    nodeEffects.Find("FogOverrideVolume").gameObject.SetActive(false);
+                    DeepBramble.debugPrint("Saving large language node inner warp.");
+                }
+            }
+        }
+
+        /**
+         * Swap the language lab exit depending on the actions of the ship
+         * 
+         * @param __instance The instance of the fog warp
+         * @param body The body that was warped
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(SphericalFogWarpVolume), nameof(SphericalFogWarpVolume.RepositionWarpedBody))]
+        public static void SwapLanguageExits(SphericalFogWarpExit __instance, OWRigidbody body)
+        {
+            if(inBrambleSystem && body.CompareTag("Ship"))
+            {
+                //If the dimension received the ship, swap the exit to the big one
+                if(__instance == languageOuterWarp)
+                {
+                    languageOuterWarp._linkedInnerWarpVolume = largeLabEntrance;
+                    DeepBramble.debugPrint("Swapping language entrance to the larger node.");
+                }
+
+                //If the big exit received the ship, swap the dimension exit to the small one
+                if(__instance == largeLabEntrance)
+                {
+                    languageOuterWarp._linkedInnerWarpVolume = smallLabEntrance;
+                    DeepBramble.debugPrint("Swapping language entrance to the smaller node.");
+                }
             }
         }
 
@@ -392,6 +429,41 @@ namespace DeepBramble
         }
 
         //################################# Debug Things #################################
+
+        /**
+         * When the player enters a bramble dimension, set it to be the relative body for the position printout
+         * 
+         * @param __instance The instance of the warp volume the method is being called from
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
+        public static void DimensionUpdater(FogWarpVolume __instance)
+        {
+            //Find the outer warp volume or, if there isn't one, do nothing
+            OuterFogWarpVolume outerVolume = null;
+            if ((__instance as OuterFogWarpVolume) != null)
+                outerVolume = __instance as OuterFogWarpVolume;
+            else if (((__instance as InnerFogWarpVolume) != null))
+            {
+                InnerFogWarpVolume innerVolume = __instance as InnerFogWarpVolume;
+                outerVolume = innerVolume.GetContainerWarpVolume();
+            }
+            else
+                return;
+
+            //Set the dimension to be the relative body
+            Transform tf = outerVolume.transform;
+            while (tf != null)
+            {
+                if (tf.gameObject.GetComponent<AstroObject>() != null)
+                {
+                    DeepBramble.relBody = tf;
+                    return;
+                }
+                tf = tf.parent;
+            }
+        }
+
         [HarmonyPostfix]
         [HarmonyPatch(typeof(SphericalFogWarpVolume), nameof(SphericalFogWarpVolume.RepositionWarpedBody))]
         public static void PrintUsedPassage(SphericalFogWarpVolume __instance, Vector3 localPos)

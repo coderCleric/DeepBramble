@@ -23,7 +23,7 @@
       "vinePrefab": "none",
       "fogDensity": 2,
       "allowedEntrances": [ 1 ],
-      "radius": 100
+      "radius": 120
     }
   },
   "Props": {
@@ -49,6 +49,7 @@
       },
       {
         "assetBundle": "assetbundles/baby_fish",
+        "keepLoaded": true,
         "path": "Assets/Prefabs/baby_fish.prefab",
         "position": {
           "x": -8.1,
@@ -63,6 +64,7 @@
       },
       {
         "assetBundle": "assetbundles/baby_fish",
+        "keepLoaded": true,
         "path": "Assets/Prefabs/baby_fish.prefab",
         "position": {
           "x": -31.9,
@@ -77,6 +79,7 @@
       },
       {
         "assetBundle": "assetbundles/baby_fish",
+        "keepLoaded": true,
         "path": "Assets/Prefabs/baby_fish.prefab",
         "position": {
           "x": -24.0,
@@ -91,6 +94,7 @@
       },
       {
         "assetBundle": "assetbundles/baby_fish",
+        "keepLoaded": true,
         "path": "Assets/Prefabs/baby_fish.prefab",
         "position": {
           "x": -32.2,
