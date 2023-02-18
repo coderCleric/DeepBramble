@@ -138,6 +138,12 @@
       <None Update="assetbundles\language_lab.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assetbundles\lavageyser">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\lavageyser.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assetbundles\lava_planet">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

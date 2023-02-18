@@ -164,22 +164,27 @@ namespace DeepBramble
                 if (fakeGround != null)
                     fakeGround.gameObject.SetActive(false);
 
-                //Do some extra stuff if it's Graviton's Folly
-                if(body.GetComponent<AstroObject>().GetAstroObjectName() == AstroObject.Name.CustomString && body.GetComponent<AstroObject>().GetCustomName().Equals("Graviton's Folly"))
+                //Do some extra stuff for specific planets
+                if(body.GetComponent<AstroObject>().GetAstroObjectName() == AstroObject.Name.CustomString)
                 {
-                    //Reverse the gravity since it doesn't work in the config
-                    volume._gravitationalMass *= -1;
-                    volume._surfaceAcceleration *= -1;
+                    switch(body.GetComponent<AstroObject>().GetCustomName())
+                    {
+                        case "Graviton's Folly":
+                            //Reverse the gravity since it doesn't work in the config
+                            volume._gravitationalMass *= -1;
+                            volume._surfaceAcceleration *= -1;
 
-                    //Add the camera inverter
-                    body.transform.Find("Sector/hollowplanet/planet/LandingInverseTrigger").gameObject.AddComponent<LandingCamInverter>();
+                            //Add the camera inverter
+                            body.transform.Find("Sector/hollowplanet/planet/LandingInverseTrigger").gameObject.AddComponent<LandingCamInverter>();
 
-                    //Add the gravity controllers to the pillar fields
-                    Transform gravityParent = body.transform.Find("Sector/hollowplanet/planet/pillargravity");
-                    gravityParent.Find("Side 1").gameObject.AddComponent<PillarGravityController>();
-                    gravityParent.Find("Side 2").gameObject.AddComponent<PillarGravityController>();
-                    gravityParent.Find("Side 3").gameObject.AddComponent<PillarGravityController>();
-                    gravityParent.Find("Side 4").gameObject.AddComponent<PillarGravityController>();
+                            //Add the gravity controllers to the pillar fields
+                            Transform gravityParent = body.transform.Find("Sector/hollowplanet/planet/pillargravity");
+                            gravityParent.Find("Side 1").gameObject.AddComponent<PillarGravityController>();
+                            gravityParent.Find("Side 2").gameObject.AddComponent<PillarGravityController>();
+                            gravityParent.Find("Side 3").gameObject.AddComponent<PillarGravityController>();
+                            gravityParent.Find("Side 4").gameObject.AddComponent<PillarGravityController>();
+                            break;
+                    }
                 }
             }
         }
@@ -201,8 +206,11 @@ namespace DeepBramble
                 body.GetComponentInChildren<ThrustRuleset>().enabled = false;
                 body.GetComponentInChildren<SimpleFluidVolume>()._density = 0;
 
-                //Remove the ambient light from the dimension, only if it's a special one
-                body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
+                //Remove the ambient light from the dimension, except for certain ones
+                if (!body.GetComponent<AstroObject>()._customName.Equals("Hot Dimension"))
+                {
+                    body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
+                }
 
                 //If it's the start dimension, prime the manual renderer enabling
                 if (body.GetComponent<AstroObject>()._customName.Equals("Start Dimension"))
@@ -370,8 +378,9 @@ namespace DeepBramble
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
                 //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
-                Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
+                //Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
                 //Vector3 point = new Vector3(9559.7f, 9920.6f, -99.4f); //Language Dimension
+                Vector3 point = new Vector3(-24.7f, 10043.4f, -244.6f); //Lava planet
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
