@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4249423685
+CRC: 1769678862
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 43f4c04a4148ab376dba25adfbb5ec3e
+    Hash: c31a544dbd37034fad590b5e6a4c4361
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 797b1028fb15292f6a8805035f0f451a
+    Hash: 7847a233a9652ee8e554465dcf0a9310
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -26,6 +26,8 @@ ClassTypes:
 - Class: 48
   Script: {instanceID: 0}
 - Class: 64
+  Script: {instanceID: 0}
+- Class: 65
   Script: {instanceID: 0}
 - Class: 82
   Script: {instanceID: 0}
@@ -63,4 +65,6 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/lava_planet.prefab
 Dependencies:
+- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_2
+- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_3
 - C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/lavageyser

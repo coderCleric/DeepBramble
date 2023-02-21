@@ -411,7 +411,7 @@ namespace DeepBramble
                 //Add the baby biter to the bite trigger
                 Transform biteTrigger = fishTransform.Find("BiteTrigger");
                 if (biteTrigger != null)
-                    biteTrigger.gameObject.AddComponent<BabyBiter>();
+                    biteTrigger.gameObject.AddComponent<Triggers.BabyBiter>();
             }
         }
 

@@ -151,7 +151,7 @@ namespace DeepBramble
          */
         private void FixPlanet(GameObject body)
         {
-            //Check if it has a gravity volume and a child named "Sector" to find if it's a planet
+            //Check if it has a gravity volume and a child named "Sector" to find if it's a custom planet
             GravityVolume volume = body.GetComponentInChildren<GravityVolume>();
             Transform sectorTransform = body.transform.Find("Sector");
             if (volume != null && sectorTransform != null)
@@ -163,6 +163,9 @@ namespace DeepBramble
                 Transform fakeGround = sectorTransform.Find("CubeSphere");
                 if (fakeGround != null)
                     fakeGround.gameObject.SetActive(false);
+
+                //Disable the supernova controller (won't be needing it & it messes stuff up)
+                sectorTransform.Find("SupernovaController").gameObject.SetActive(false);
 
                 //Do some extra stuff for specific planets
                 if(body.GetComponent<AstroObject>().GetAstroObjectName() == AstroObject.Name.CustomString)
@@ -183,6 +186,25 @@ namespace DeepBramble
                             gravityParent.Find("Side 2").gameObject.AddComponent<PillarGravityController>();
                             gravityParent.Find("Side 3").gameObject.AddComponent<PillarGravityController>();
                             gravityParent.Find("Side 4").gameObject.AddComponent<PillarGravityController>();
+                            break;
+
+                        case "Magma's Recursion":
+                            //Complete the cave zone triggers
+                            Transform caveTriggerRoot = body.transform.Find("Sector/lava_planet/cave_triggers");
+                            Light dimensionLight = GameObject.Find("HotDimension_Body/Sector/Atmosphere/AmbientLight_DB_Interior").GetComponent<Light>();
+                            Light planetLight = body.transform.Find("Sector/AmbientLight").GetComponent<Light>();
+                            //Quantum Cave
+                            Triggers.LightFadeTrigger quantumLightFade = caveTriggerRoot.Find("quantumcavetrigger").gameObject.AddComponent<Triggers.LightFadeTrigger>();
+                            quantumLightFade.AddLight(dimensionLight);
+                            quantumLightFade.AddLight(planetLight);
+
+                            //Gas Cave
+                            Triggers.LightFadeTrigger gasLightFade = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<Triggers.LightFadeTrigger>();
+                            gasLightFade.AddLight(dimensionLight);
+                            gasLightFade.AddLight(planetLight);
+                            gasLightFade.fadetime = 1.5f;
+                            Triggers.LavaDisableTrigger gasLavaDisable = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<Triggers.LavaDisableTrigger>();
+                            gasLavaDisable.RegisterLavaSphere(body.transform.Find("Sector/MoltenCore").gameObject);
                             break;
                     }
                 }
@@ -206,11 +228,8 @@ namespace DeepBramble
                 body.GetComponentInChildren<ThrustRuleset>().enabled = false;
                 body.GetComponentInChildren<SimpleFluidVolume>()._density = 0;
 
-                //Remove the ambient light from the dimension, except for certain ones
-                if (!body.GetComponent<AstroObject>()._customName.Equals("Hot Dimension"))
-                {
-                    body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
-                }
+                //Remove the ambient light from the dimension
+                body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
 
                 //If it's the start dimension, prime the manual renderer enabling
                 if (body.GetComponent<AstroObject>()._customName.Equals("Start Dimension"))
