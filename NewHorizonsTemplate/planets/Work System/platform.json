@@ -33,12 +33,32 @@
       },
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/baby_fish",
-        "path": "Assets/Prefabs/baby_fish.prefab",
+        "assetBundle": "assetbundles/grav_crystals",
+        "path": "Assets/Prefabs/props/full_crystal_socket.prefab",
         "position": {
-          "x": 0,
-          "y": 50,
-          "z": 0
+          "x": 2.55119,
+          "y": 6.38479,
+          "z": 49.875
+        },
+        "rotation": {
+          "x": 61.60488,
+          "y": 270,
+          "z": 90.00001
+        }
+      },
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/grav_crystals",
+        "path": "Assets/Prefabs/props/empty_crystal_socket.prefab",
+        "position": {
+          "x": 11.50093,
+          "y": 4.346263,
+          "z": 49.875
+        },
+        "rotation": {
+          "x": 10.75325,
+          "y": 270,
+          "z": 90
         }
       },
       {

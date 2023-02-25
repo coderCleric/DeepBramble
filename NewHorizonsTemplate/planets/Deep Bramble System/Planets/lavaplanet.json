@@ -37,6 +37,15 @@
           "y": 327.6366,
           "z": 10.0365
         }
+      },
+      {
+        "assetBundle": "assetbundles/player_explosion",
+        "path": "Assets/Prefabs/player_explosion.prefab",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
       }
     ]
   }

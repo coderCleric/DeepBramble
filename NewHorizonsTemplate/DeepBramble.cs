@@ -9,6 +9,7 @@ using HarmonyLib;
 using UnityEngine.Events;
 using System;
 using System.Reflection;
+using DeepBramble.BaseInheritors;
 using System.Linq;
 
 namespace DeepBramble
@@ -193,6 +194,7 @@ namespace DeepBramble
                             Transform caveTriggerRoot = body.transform.Find("Sector/lava_planet/cave_triggers");
                             Light dimensionLight = GameObject.Find("HotDimension_Body/Sector/Atmosphere/AmbientLight_DB_Interior").GetComponent<Light>();
                             Light planetLight = body.transform.Find("Sector/AmbientLight").GetComponent<Light>();
+
                             //Quantum Cave
                             Triggers.LightFadeTrigger quantumLightFade = caveTriggerRoot.Find("quantumcavetrigger").gameObject.AddComponent<Triggers.LightFadeTrigger>();
                             quantumLightFade.AddLight(dimensionLight);
@@ -205,6 +207,20 @@ namespace DeepBramble
                             gasLightFade.fadetime = 1.5f;
                             Triggers.LavaDisableTrigger gasLavaDisable = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<Triggers.LavaDisableTrigger>();
                             gasLavaDisable.RegisterLavaSphere(body.transform.Find("Sector/MoltenCore").gameObject);
+
+                            //Make the gas hazardous
+                            sectorTransform.Find("lava_planet/crystal_cave/explosion_trigger").gameObject.AddComponent<Triggers.GasVolume>();
+                            Triggers.GasVolume.baseExplosion = sectorTransform.Find("player_explosion").gameObject;
+
+                            //Do stuff to all of the gravity crystals
+                            Transform crystalRoot = sectorTransform.Find("lava_planet/crystal_cave/grav_crystals");
+                            foreach(Transform socket in crystalRoot)
+                            {
+                                if(socket.name.Contains("full"))
+                                    GravCrystalItem.MakeItem(socket.Find("crystal"));
+
+                                socket.gameObject.AddComponent<GravCrystalSocket>();
+                            }
                             break;
                     }
                 }

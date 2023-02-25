@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1769678862
+CRC: 3256204395
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c31a544dbd37034fad590b5e6a4c4361
+    Hash: 54bef98372f3557107222de4e5fce10d
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 7847a233a9652ee8e554465dcf0a9310
+    Hash: 3f373f32be3e29b6a05816dd0e11018e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -38,9 +38,15 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 7cf41285c9a8c4f4b9402fa3af7ccb34, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 840ab63696e59254eb425242136805dd, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 14d96bf9d36d4254e875b26361d59a05, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7f5f781ad5c7cb3479ad11f01f455d95, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 034b758dcb27c9746a7640cdb345b333, type: 3}
 - Class: 114
@@ -55,6 +61,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 134
   Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
 - Class: 198
@@ -65,6 +73,6 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/lava_planet.prefab
 Dependencies:
+- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/grav_crystals
 - C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_2
 - C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_3
-- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/lavageyser

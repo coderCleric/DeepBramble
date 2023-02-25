@@ -11,7 +11,7 @@
       {
         "rename": "BrambleSystemWarpSocket",
         "assetBundle": "assetbundles/warp_core_holder",
-        "path": "Assets/Prefabs/WarpCoreSocket.prefab",
+        "path": "Assets/Prefabs/props/WarpCoreSocket.prefab",
         "position": {
           "x": 149.41,
           "y": 7.677947,

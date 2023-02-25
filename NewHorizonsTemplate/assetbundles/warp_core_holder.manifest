@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 2789136064
+CRC: 3385198348
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 361d331260dec9bd5d6f65ff7c7c3e93
+    Hash: 04d6f0bcd253979a07af3f86c3379e44
   TypeTreeHash:
     serializedVersion: 2
     Hash: f1dd51a192138687a4c6fcbd1e3624da
@@ -49,5 +49,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Prefabs/WarpCoreSocket.prefab
+- Assets/Prefabs/props/WarpCoreSocket.prefab
 Dependencies: []
