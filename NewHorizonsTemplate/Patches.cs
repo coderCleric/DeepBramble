@@ -26,6 +26,7 @@ namespace DeepBramble
         private static InnerFogWarpVolume smallLabEntrance = null;
         private static OuterFogWarpVolume languageOuterWarp = null;
         public static Dictionary<string, bool> startupFlags = null;
+        public static List<BlockableQuantumSocket> blockableSockets = new List<BlockableQuantumSocket>();
 
         //Needed for the baby angler
         private static Animator anglerAnimator = null;
@@ -134,6 +135,43 @@ namespace DeepBramble
 
             //Otherwise, run normally
             return true;
+        }
+
+        //################################# Dropping object blocking logic #################################
+        /**
+         * When an item is placed down, check if it's in-bounds of any of the saved blockable sockets
+         * 
+         * @param position The position the object was placed at
+         * @param __instance The instance of the item
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(OWItem), nameof(OWItem.DropItem))]
+        public static void BlockOnDrop(Vector3 position, OWItem __instance)
+        {
+            DeepBramble.debugPrint(position.ToString());
+            foreach(BlockableQuantumSocket i in blockableSockets)
+            {
+                if (i._occupiedByPlayerVolume != null && i._occupiedByPlayerVolume.GetOWCollider().GetCollider().bounds.Contains(position))
+                {
+                    i.blockingDrop = __instance;
+                }
+            }
+        }
+
+        /**
+         * When an item is picked up, unblock any sockets it was blocking
+         * 
+         * @param __instance The instance of the item
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(OWItem), nameof(OWItem.PickUpItem))]
+        public static void UnblockOnPickup(OWItem __instance)
+        {
+            foreach(BlockableQuantumSocket i in blockableSockets)
+            {
+                if (i.blockingDrop == __instance)
+                    i.blockingDrop = null;
+            }
         }
 
         //################################# Language Lab Hotswap Patches #################################

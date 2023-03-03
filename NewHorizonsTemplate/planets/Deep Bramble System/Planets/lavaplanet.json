@@ -47,6 +47,22 @@
           "z": 0
         }
       }
+    ],
+    "nomaiText": [
+      {
+        "type": "scroll",
+        "xmlFile": "planets/Deep Bramble System/Text/treerecorder.xml",
+        "position": {
+          "x": -252.1227,
+          "y": -18.83336,
+          "z": 48.40466
+        },
+        "rotation": {
+          "x": 82.12942,
+          "y": 118.0437,
+          "z": 197.6499
+        }
+      }
     ]
   }
 }

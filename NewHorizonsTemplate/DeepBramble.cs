@@ -10,6 +10,8 @@ using UnityEngine.Events;
 using System;
 using System.Reflection;
 using DeepBramble.BaseInheritors;
+using DeepBramble.Triggers;
+using DeepBramble.MiscBehaviours;
 using System.Linq;
 
 namespace DeepBramble
@@ -94,6 +96,8 @@ namespace DeepBramble
          */
         private void PrepSystem(String s)
         {
+            //Do this stuff no matter where we are
+            Patches.blockableSockets = new List<BlockableQuantumSocket>();
 
             //Do this stuff if we're in the bramble system
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("BrambleSystem"))
@@ -142,6 +146,12 @@ namespace DeepBramble
             {
                 //If the player knows about the vessel, give them the first fact for our mod
                 Patches.startupFlags["revealStartingRumor"] = true;
+            }
+
+            //Debug thing, take out
+            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("WorkSystem"))
+            {
+                DoorButtonGroup.MakeOnDoor(GameObject.Find("Platform_Body/Sector/functional_doorway"));
             }
         }
 
@@ -196,21 +206,21 @@ namespace DeepBramble
                             Light planetLight = body.transform.Find("Sector/AmbientLight").GetComponent<Light>();
 
                             //Quantum Cave
-                            Triggers.LightFadeTrigger quantumLightFade = caveTriggerRoot.Find("quantumcavetrigger").gameObject.AddComponent<Triggers.LightFadeTrigger>();
+                            LightFadeTrigger quantumLightFade = caveTriggerRoot.Find("quantumcavetrigger").gameObject.AddComponent<LightFadeTrigger>();
                             quantumLightFade.AddLight(dimensionLight);
                             quantumLightFade.AddLight(planetLight);
 
                             //Gas Cave
-                            Triggers.LightFadeTrigger gasLightFade = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<Triggers.LightFadeTrigger>();
+                            LightFadeTrigger gasLightFade = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<LightFadeTrigger>();
                             gasLightFade.AddLight(dimensionLight);
                             gasLightFade.AddLight(planetLight);
                             gasLightFade.fadetime = 1.5f;
-                            Triggers.LavaDisableTrigger gasLavaDisable = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<Triggers.LavaDisableTrigger>();
+                            LavaDisableTrigger gasLavaDisable = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<LavaDisableTrigger>();
                             gasLavaDisable.RegisterLavaSphere(body.transform.Find("Sector/MoltenCore").gameObject);
 
                             //Make the gas hazardous
-                            sectorTransform.Find("lava_planet/crystal_cave/explosion_trigger").gameObject.AddComponent<Triggers.GasVolume>();
-                            Triggers.GasVolume.baseExplosion = sectorTransform.Find("player_explosion").gameObject;
+                            sectorTransform.Find("lava_planet/crystal_cave/explosion_trigger").gameObject.AddComponent<GasVolume>();
+                            GasVolume.baseExplosion = sectorTransform.Find("player_explosion").gameObject;
 
                             //Do stuff to all of the gravity crystals
                             Transform crystalRoot = sectorTransform.Find("lava_planet/crystal_cave/grav_crystals");
@@ -221,6 +231,24 @@ namespace DeepBramble
 
                                 socket.gameObject.AddComponent<GravCrystalSocket>();
                             }
+
+                            //Add the special quantum stuff to the quantum cave
+                            Transform quantumCaveRoot = sectorTransform.Find("lava_planet/quantum_cave");
+
+                            //First, the sockets
+                            foreach(Transform socket in quantumCaveRoot)
+                            {
+                                if(socket.name.Contains("socket"))
+                                {
+                                    socket.gameObject.AddComponent<BlockableQuantumSocket>();
+                                }
+                            }
+                            BlockableQuantumSocket specialSocket = quantumCaveRoot.parent.Find("special_socket").gameObject.AddComponent<BlockableQuantumSocket>();
+
+                            //Then the rock
+                            Transform rockTF = quantumCaveRoot.Find("quantum_rock");
+                            BlockableQuantumObject rock = rockTF.gameObject.AddComponent<BlockableQuantumObject>();
+                            rock.specialSocket = specialSocket;
                             break;
                     }
                 }
@@ -415,7 +443,8 @@ namespace DeepBramble
                 //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
                 //Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
                 //Vector3 point = new Vector3(9559.7f, 9920.6f, -99.4f); //Language Dimension
-                Vector3 point = new Vector3(-24.7f, 10043.4f, -244.6f); //Lava planet
+                //Vector3 point = new Vector3(-24.7f, 10043.4f, -244.6f); //Lava planet start
+                Vector3 point = new Vector3(-257.3f, 9950.4f, 39.4f); //Quantum cave
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {

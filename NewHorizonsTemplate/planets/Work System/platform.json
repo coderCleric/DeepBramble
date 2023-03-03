@@ -32,33 +32,17 @@
         "alignToNormal": true
       },
       {
-        "keepLoaded": true,
-        "assetBundle": "assetbundles/grav_crystals",
-        "path": "Assets/Prefabs/props/full_crystal_socket.prefab",
+        "assetBundle": "assetbundles/functional_doorway",
+        "path": "Assets/Prefabs/buildings/functional_doorway.prefab",
         "position": {
-          "x": 2.55119,
-          "y": 6.38479,
-          "z": 49.875
+          "x": 5.586812,
+          "y": 1.125,
+          "z": 13.92761
         },
         "rotation": {
-          "x": 61.60488,
-          "y": 270,
-          "z": 90.00001
-        }
-      },
-      {
-        "keepLoaded": true,
-        "assetBundle": "assetbundles/grav_crystals",
-        "path": "Assets/Prefabs/props/empty_crystal_socket.prefab",
-        "position": {
-          "x": 11.50093,
-          "y": 4.346263,
-          "z": 49.875
-        },
-        "rotation": {
-          "x": 10.75325,
-          "y": 270,
-          "z": 90
+          "x": 0,
+          "y": 164.3997,
+          "z": 0
         }
       },
       {

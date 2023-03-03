@@ -102,6 +102,12 @@
       <None Update="assetbundles\dree_floating_house.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assetbundles\functional_doorway">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\functional_doorway.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assetbundles\gravplatform">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
