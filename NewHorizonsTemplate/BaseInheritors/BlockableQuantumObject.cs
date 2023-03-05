@@ -55,9 +55,23 @@ namespace DeepBramble.BaseInheritors
                     specialSocketActive = true;
                     _socketList.Add(specialSocket);
                 }
+                if (allBlocked)
+                    specialSocket.gameObject.GetComponent<VisibilityObject>()._isIlluminated = specialSocket.gameObject.GetComponent<VisibilityObject>().CheckIllumination();
             }
 
-            return base.ChangeQuantumState(skipInstantVisibilityCheck);
+            //Run the original method
+            bool ret = base.ChangeQuantumState(skipInstantVisibilityCheck);
+
+            //Depending on the return value, may need to handle the outer warp volumes for the player
+            FogWarpDetector playerDetector = Locator.GetPlayerDetector().GetComponent<FogWarpDetector>();
+            BlockableQuantumSocket targetSock = GetCurrentSocket() as BlockableQuantumSocket;
+            if (ret && IsPlayerEntangled() && playerDetector.GetOuterFogWarpVolume() != null && targetSock != null && targetSock.outerFogWarp != null)
+            {
+                Patches.fogRepositionHandled = true;
+                playerDetector.GetOuterFogWarpVolume().WarpDetector(playerDetector, targetSock.outerFogWarp);
+            }
+
+            return ret;
         }
     }
 }

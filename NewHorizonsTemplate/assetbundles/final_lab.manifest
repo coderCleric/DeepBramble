@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 4254237383
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c71a7b7459e13d612f6b4f3ffb2ad06f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc084bc67f437ae0688fd47186d5bb0b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d8592143aba9d594fb3338233ad486ee, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6852cf345d89f5f4583e26776c10f794, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6e08224a0c172cf49b787f8bc8d72094, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 034b758dcb27c9746a7640cdb345b333, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77ab764e0bd734547b726914ece49599, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/buildings/final_lab.prefab
+Dependencies:
+- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/functional_doorway

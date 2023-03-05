@@ -32,6 +32,8 @@ namespace DeepBramble
         private DecorHelper decorHelper;
         private GameObject startDimensionObject;
         private AssetBundle titleBundle;
+        private BlockableQuantumObject quantumRock = null;
+        private BlockableQuantumSocket specialSocket = null;
 
         //Only needed for debug
         public static Transform relBody = null;
@@ -236,19 +238,37 @@ namespace DeepBramble
                             Transform quantumCaveRoot = sectorTransform.Find("lava_planet/quantum_cave");
 
                             //First, the sockets
+                            OuterFogWarpVolume hotOuterWarp = GameObject.Find("HotDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
                             foreach(Transform socket in quantumCaveRoot)
                             {
                                 if(socket.name.Contains("socket"))
                                 {
-                                    socket.gameObject.AddComponent<BlockableQuantumSocket>();
+                                    BlockableQuantumSocket sock = socket.gameObject.AddComponent<BlockableQuantumSocket>();
+                                    sock.outerFogWarp = hotOuterWarp;
                                 }
                             }
-                            BlockableQuantumSocket specialSocket = quantumCaveRoot.parent.Find("special_socket").gameObject.AddComponent<BlockableQuantumSocket>();
 
                             //Then the rock
                             Transform rockTF = quantumCaveRoot.Find("quantum_rock");
-                            BlockableQuantumObject rock = rockTF.gameObject.AddComponent<BlockableQuantumObject>();
-                            rock.specialSocket = specialSocket;
+                            quantumRock = rockTF.gameObject.AddComponent<BlockableQuantumObject>();
+                            quantumRock.SetSector(null);
+                            if(specialSocket != null)
+                                quantumRock.specialSocket = specialSocket;
+                            break;
+
+                        case "Heart Planet":
+                            //Find and activate the quantum socket
+                            OuterFogWarpVolume heartFogWarp = GameObject.Find("HeartDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
+                            specialSocket = sectorTransform.Find("final_lab/quantum_room/quantum_socket").gameObject.AddComponent<BlockableQuantumSocket>();
+                            specialSocket.outerFogWarp = heartFogWarp;
+                            if (quantumRock != null)
+                                quantumRock.specialSocket = specialSocket;
+
+                            //Activate the doors
+                            DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/quantum_room/room/functional_doorway").gameObject);
+                            debugPrint("test4");
+                            DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/final_lab_room/room/walls/functional_doorway").gameObject);
+                            debugPrint("test5");
                             break;
                     }
                 }
@@ -275,13 +295,6 @@ namespace DeepBramble
                 //Remove the ambient light from the dimension
                 body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
 
-                //If it's the start dimension, prime the manual renderer enabling
-                if (body.GetComponent<AstroObject>()._customName.Equals("Start Dimension"))
-                {
-                    this.startDimensionObject = body;
-                    this.ensureStarterLoad = true;
-                }
-
                 //Set up each dimension with the things it needs to grab
                 if (body.GetComponent<AstroObject>()._name == AstroObject.Name.CustomString)
                 {
@@ -297,6 +310,15 @@ namespace DeepBramble
                             BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "CommunionRecorderContainer", "ReinvigorationRecorderContainer" }, false));
                             break;
                     }
+                }
+
+                //Special actions for specific dimensions
+                switch(body.GetComponent<AstroObject>()._customName)
+                {
+                    case "Start Dimension":
+                        this.startDimensionObject = body;
+                        this.ensureStarterLoad = true;
+                        break;
                 }
             }
         }
@@ -456,6 +478,12 @@ namespace DeepBramble
                 }
 
                 point = point + absCenter.position;
+
+                FogWarpDetector shipDetector = Locator.GetShipDetector().GetComponent<FogWarpDetector>();
+                if (shipDetector.GetOuterFogWarpVolume() != null) {
+                    Patches.fogRepositionHandled = true;
+                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("HotDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
+                }
 
                 Locator._shipBody.SetPosition(point);
             }

@@ -10,6 +10,7 @@ namespace DeepBramble.BaseInheritors
     public class BlockableQuantumSocket : QuantumSocket
     {
         public OWItem blockingDrop = null;
+        public OuterFogWarpVolume outerFogWarp = null;
 
         /**
          * Need to do stuff to prevent a null ref in the standard awake

@@ -18,6 +18,8 @@ namespace DeepBramble
         //Flags
         public static bool inBrambleSystem = false;
         public static bool forbidUnlock = false;
+        public static bool fogRepositionHandled = false;
+        private static bool hideFogEffect = false;
 
         //Other variables
         private static GameObject brambleHole = null;
@@ -135,6 +137,69 @@ namespace DeepBramble
 
             //Otherwise, run normally
             return true;
+        }
+
+        //################################# Between dimension teleportation #################################
+        /**
+         * Ignores the request to reposition a body if we have been told to do so
+         * 
+         * @param body The body being warped
+         * @return False if it should interrupt, and true otherwise
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(SphericalFogWarpVolume), nameof(SphericalFogWarpVolume.RepositionWarpedBody))]
+        public static bool InterruptFogReposition(OWRigidbody body)
+        {
+            if (fogRepositionHandled)
+            {
+                fogRepositionHandled = false;
+                hideFogEffect = body.CompareTag("Player");
+                DeepBramble.debugPrint("Blocked a fog warp reposition");
+                return false;
+            }
+            else
+                return true;
+        }
+
+        /**
+         * Hide the visor fog effect when the player uses direct teleportation
+         * 
+         * @param __instance The calling instance
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(PlayerFogWarpDetector), nameof(PlayerFogWarpDetector.OnFogWarp))]
+        public static void HideThickFog(PlayerFogWarpDetector __instance)
+        {
+            if(hideFogEffect)
+            {
+                hideFogEffect = false;
+                __instance._fogFraction = 0;
+            }
+        }
+
+        /**
+         * When the object moves, check if we need to handle the probe warp
+         * 
+         * @param __instance The instance of the object that is calling
+         * @socket The socket to move to
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(SocketedQuantumObject), nameof(SocketedQuantumObject.MoveToSocket))]
+        public static void HandleProbeEntanglement(SocketedQuantumObject __instance, QuantumSocket socket)
+        {
+            //Only do this for our special rocks
+            BlockableQuantumObject obj = __instance as BlockableQuantumObject;
+            BlockableQuantumSocket targetSocket = socket as BlockableQuantumSocket;
+            if(obj != null && targetSocket != null)
+            {
+                //Then, only do this if the probe is anchored and is both in and going to a bramble dimension
+                FogWarpDetector probeDetector = obj.gameObject.GetComponentInChildren<FogWarpDetector>();
+                if(probeDetector != null && probeDetector.GetOuterFogWarpVolume() != null && targetSocket.outerFogWarp != null)
+                {
+                    fogRepositionHandled = true;
+                    probeDetector.GetOuterFogWarpVolume().WarpDetector(probeDetector, targetSocket.outerFogWarp);
+                }
+            }
         }
 
         //################################# Dropping object blocking logic #################################
@@ -517,5 +582,13 @@ namespace DeepBramble
                 }
             }
         }
+
+        /*
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(QuantumObject), nameof(QuantumObject.Collapse))]
+        public static void PrintTrace()
+        {
+            DeepBramble.debugPrint(Environment.StackTrace);
+        }*/
     }
 }
