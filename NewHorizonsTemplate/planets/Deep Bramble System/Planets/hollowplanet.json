@@ -7,9 +7,13 @@
     "groundSize": 0,
     "surfaceSize": 235,
     "surfaceGravity": 14,
-    "hasMapMarker": true,
-    "ambientLight": 2.0
+    "hasMapMarker": true
   },
+  "AmbientLights": [
+    {
+      "intensity": 2
+    }
+  ],
   "Orbit": {
     "staticPosition": {
       "x": -54.3,

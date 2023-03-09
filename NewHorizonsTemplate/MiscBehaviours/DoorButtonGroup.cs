@@ -10,12 +10,32 @@ namespace DeepBramble.MiscBehaviours
     class DoorButtonGroup : MonoBehaviour
     {
         private List<InteractReceiver> buttonReceivers = new List<InteractReceiver>();
+        public List<Light> doorLights = new List<Light>();
         private Animator doorAnimator = null;
         private OWAudioSource audio = null;
         private bool doorOpen = false;
         private bool audioPlaying = false;
         private float audioPlayTime = 0;
+        private bool controlsLights = false;
+        public float lightFadeTime = 2;
 
+        /**
+         * Sets whether or not the door should control the lights
+         * 
+         * @param shouldControl True if it should, false otherwise
+         */
+        public void SetLightControl(bool shouldControl)
+        {
+            controlsLights = shouldControl;
+            foreach(Light light in doorLights)
+            {
+                if (shouldControl)
+                    light.intensity = 0;
+                else
+                    light.intensity = 1;
+            }
+        }
+        
         /**
          * Toggle the door's state
          */
@@ -39,7 +59,17 @@ namespace DeepBramble.MiscBehaviours
         public void RegisterButton(InteractReceiver button)
         {
             button.OnPressInteract += ToggleDoor;
-            buttonReceivers.Add(button);
+            buttonReceivers.SafeAdd(button);
+        }
+
+        /**
+         * Register a light
+         * 
+         * @param light The light to register
+         */
+        public void RegisterLight(Light light)
+        {
+            doorLights.SafeAdd(light);
         }
 
         /**
@@ -59,6 +89,7 @@ namespace DeepBramble.MiscBehaviours
          */
         private void Update()
         {
+            //Control the audio
             if(audioPlaying)
             {
                 audioPlayTime -= Time.deltaTime;
@@ -67,6 +98,24 @@ namespace DeepBramble.MiscBehaviours
                     audioPlaying = false;
                     audio.Stop();
                     audio.PlayOneShot(AudioType.NomaiDoorStop);
+                }
+            }
+
+            //Control the lights
+            if(controlsLights)
+            {
+                foreach (Light light in doorLights)
+                {
+                    if (doorOpen)
+                    {
+                        light.intensity += Time.deltaTime / lightFadeTime;
+                        light.intensity = Mathf.Min(light.intensity, 1);
+                    }
+                    else
+                    {
+                        light.intensity -= Time.deltaTime / lightFadeTime;
+                        light.intensity = Mathf.Max(light.intensity, 0);
+                    }
                 }
             }
         }
@@ -103,6 +152,10 @@ namespace DeepBramble.MiscBehaviours
                 receiver.gameObject.AddComponent<DoorButton>();
                 buttonGroup.RegisterButton(receiver);
             }
+
+            //Find and store the lights
+            foreach (Light light in obj.transform.Find("Doorway_Lamp").gameObject.GetComponentsInChildren<Light>())
+                buttonGroup.RegisterLight(light);
 
             return buttonGroup;
         }

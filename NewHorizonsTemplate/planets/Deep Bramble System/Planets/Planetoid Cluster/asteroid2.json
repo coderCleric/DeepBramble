@@ -6,9 +6,13 @@
     "groundSize": 0,
     "surfaceSize": 26,
     "surfaceGravity": 2,
-    "hasMapMarker": false,
-    "ambientLight": 2.0
+    "hasMapMarker": false
   },
+  "AmbientLights": [
+    {
+      "intensity": 2
+    }
+  ],
   "Orbit": {
     "staticPosition": {
       "x": 325.3,
@@ -43,7 +47,7 @@
         "alignToNormal": true
       }
     ],
-    "nomaiText": [
+    "translatorText": [
       {
         "parentPath": "Sector/TextWall",
         "seed": 5,

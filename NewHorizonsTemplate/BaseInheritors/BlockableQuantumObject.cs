@@ -37,7 +37,8 @@ namespace DeepBramble.BaseInheritors
                 bool allBlocked = true;
                 foreach(QuantumSocket sock in _socketList)
                 {
-                    if((sock as BlockableQuantumSocket) != specialSocket && !sock.IsOccupied())
+                    BlockableQuantumSocket sockAsBlockable = sock as BlockableQuantumSocket;
+                    if(sockAsBlockable != specialSocket && (!sock.IsOccupied() || (sockAsBlockable.OccupiedByScoutOnly() && IsPlayerEntangled())))
                     {
                         allBlocked = false;
                         break;
@@ -70,6 +71,10 @@ namespace DeepBramble.BaseInheritors
                 Patches.fogRepositionHandled = true;
                 playerDetector.GetOuterFogWarpVolume().WarpDetector(playerDetector, targetSock.outerFogWarp);
             }
+
+            //Parent to the new socket
+            if (ret)
+                transform.parent = targetSock.transform;
 
             return ret;
         }

@@ -20,9 +20,13 @@
     "groundSize": 0,
     "surfaceSize": 52,
     "surfaceGravity": 3,
-    "hasMapMarker": false,
-    "ambientLight": 2.0
+    "hasMapMarker": false
   },
+  "AmbientLights": [
+    {
+      "intensity": 2
+    }
+  ],
   "Orbit": {
     "staticPosition": {
       "x": 171.7,
@@ -105,7 +109,7 @@
         "scale": 2
       }
     ],
-    "nomaiText": [
+    "translatorText": [
       {
         "rename": "WallText",
         "parentPath": "Sector/TextWall",
@@ -121,33 +125,6 @@
           "y": 0.9741912,
           "z": 0.02922469
         },
-        "arcInfo": [
-          {
-            "position": {
-              "x": -0.3618,
-              "y": 0.3713
-            },
-            "zRotation": 275.3652,
-            "type": "adult"
-          },
-          {
-            "position": {
-              "x": 1.1789,
-              "y": -0.192
-            },
-            "zRotation": 258.501,
-            "type": "adult"
-          },
-          {
-            "position": {
-              "x": 0.5429,
-              "y": -0.4007
-            },
-            "zRotation": 185.5178,
-            "type": "adult",
-            "mirror": true
-          }
-        ],
         "xmlFile": "planets/Deep Bramble System/Text/planetoid_cluster/treeshrinetext.xml"
       },
 
@@ -180,83 +157,6 @@
           "y": 0.458569,
           "z": 0.637898
         },
-        "arcInfo": [
-          {
-            "position": {
-              "x": 0.9249,
-              "y": -0.296
-            },
-            "zRotation": 95.2636,
-            "mirror": true
-          },
-          {
-            "position": {
-              "x": -0.1527,
-              "y": -0.1298
-            },
-            "zRotation": 92.2636,
-            "mirror": true
-          },
-          {
-            "position": {
-              "x": -1.4175,
-              "y": 0.55
-            },
-            "zRotation": 49.231
-          },
-          {
-            "position": {
-              "x": -2.1558,
-              "y": 1.1435
-            },
-            "zRotation": 106.46
-          },
-          {
-            "position": {
-              "x": -3.2469,
-              "y": 2.5262
-            },
-            "zRotation": 348.4541
-          },
-          {
-            "position": {
-              "x": -0.0116,
-              "y": 0.3051
-            },
-            "zRotation": 6.4545
-          },
-          {
-            "position": {
-              "x": 0.4609,
-              "y": -0.5978
-            },
-            "zRotation": 121.9432,
-            "mirror": true
-          },
-          {
-            "position": {
-              "x": -2.0817,
-              "y": 0.8031
-            },
-            "zRotation": 158.9822
-          },
-          {
-            "position": {
-              "x": -1.9382,
-              "y": -0.5866
-            },
-            "zRotation": 178.6995,
-            "mirror": true
-          },
-          {
-            "position": {
-              "x": -1.6325,
-              "y": 1.3136
-            },
-            "zRotation": 326.5989,
-            "mirror": true
-          }
-        ],
         "type": "wall",
         "xmlFile": "planets/Deep Bramble System/Text/planetoid_cluster/bigplanetoidhint.xml"
       },
@@ -274,25 +174,7 @@
           "x": -0.05716172,
           "y": 0.7835385,
           "z": -0.6187085
-        },
-        "arcInfo": [
-          {
-            "type": "adult",
-            "position": {
-              "x": -0.1744,
-              "y": -0.084
-            },
-            "zRotation": 231.9631
-          },
-          {
-            "type": "adult",
-            "position": {
-              "x": 0.688257,
-              "y": -0.6232196
-            },
-            "zRotation": 188.7181
-          }
-        ]
+        }
       }
     ],
     "entryLocation": [

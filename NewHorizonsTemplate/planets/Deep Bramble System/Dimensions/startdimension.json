@@ -29,30 +29,31 @@
     "details": [
       {
         "rename": "StartDimensionFlare",
+        "hasPhysics": true,
         "position": {
           "x": 7.7,
           "y": 5.6,
           "z": 16.6
         },
-        "path": "DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/DynamicProps_EscapePodDimension/EscapePodFlare_Body"
+        "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare"
       },
       {
         "rename": "StartDimensionRecorderContainer",
+        "hasPhysics": true,
         "position": {
           "x": -0.1,
           "y": 4.7,
           "z": 10.3
         },
-        "path": "DB_EscapePodDimension_Body/Sector_EscapePodDimension/Interactables_EscapePodDimension/DynamicProps_EscapePodDimension/EscapePodFlare_Body",
+        "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
         "removeChildren": [
-          "Prefab_NOM_Lamp_EscapePodFlare/PointLight_NOM_Lamp",
-          "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/body",
-          "Prefab_NOM_Lamp_EscapePodFlare/Props_NOM_Lamp_EscapePodFlare/lamp"
+          "PointLight_NOM_Lamp",
+          "Props_NOM_Lamp_EscapePodFlare"
         ]
       }
     ],
 
-    "nomaiText": [
+    "translatorText": [
       {
         "rename": "StartDimensionRecorder",
         "position": {

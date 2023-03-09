@@ -10,6 +10,7 @@ namespace DeepBramble.BaseInheritors
     public class BlockableQuantumSocket : QuantumSocket
     {
         public OWItem blockingDrop = null;
+        private bool scoutIsBlocking = false;
         public OuterFogWarpVolume outerFogWarp = null;
 
         /**
@@ -18,9 +19,33 @@ namespace DeepBramble.BaseInheritors
         public new void Awake()
         {
             _occupiedByPlayerVolume = GetComponentInChildren<OWTriggerVolume>();
+            _occupiedByPlayerVolume.OnEntry += OnScoutEnter;
+            _occupiedByPlayerVolume.OnExit+= OnScoutExit;
             _lightSources = new Light[0];
             base.Awake();
             Patches.blockableSockets.Add(this);
+        }
+
+        /**
+         * Mark the socket as blocked when the scout enters
+         */
+        private void OnScoutEnter(GameObject other)
+        {
+            if(other.CompareTag("ProbeDetector"))
+            {
+                scoutIsBlocking = true;
+            }
+        }
+
+        /**
+         * Set the flag when the scout leaves
+         */
+        private void OnScoutExit(GameObject other)
+        {
+            if (other.CompareTag("ProbeDetector"))
+            {
+                scoutIsBlocking = false;
+            }
         }
 
         /**
@@ -29,7 +54,25 @@ namespace DeepBramble.BaseInheritors
         public override bool IsOccupied()
         {
             bool baseOccupied = base.IsOccupied();
-            return baseOccupied || blockingDrop != null;
+            return baseOccupied || blockingDrop != null || scoutIsBlocking;
+        }
+
+        /**
+         * Tells whether or not the socket is blocked by the scout only
+         */
+        public bool OccupiedByScoutOnly()
+        {
+            return scoutIsBlocking && !base.IsOccupied() && blockingDrop == null;
+        }
+
+        /**
+         * Remove events when destroyed
+         */
+        private new void OnDestroy()
+        {
+            base.OnDestroy();
+            _occupiedByPlayerVolume.OnEntry -= OnScoutEnter;
+            _occupiedByPlayerVolume.OnExit -= OnScoutExit;
         }
     }
 }

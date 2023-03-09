@@ -7,9 +7,13 @@
     "surfaceSize": 0,
     "surfaceGravity": 0,
     "hasMapMarker": false,
-    "centerOfSolarSystem": true,
-    "ambientLight": 1.0
+    "centerOfSolarSystem": true
   },
+  "AmbientLights": [
+    {
+      "intensity": 1
+    }
+  ],
   "Orbit": {
     "staticPosition": {
       "x": 0,
@@ -87,7 +91,7 @@
         "scale": 2000
       }
     ],
-    "nomaiText": [
+    "translatorText": [
       {
         "seed": 2,
         "position": {

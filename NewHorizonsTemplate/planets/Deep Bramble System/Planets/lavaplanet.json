@@ -7,9 +7,13 @@
     "groundSize": 0,
     "surfaceSize": 250,
     "surfaceGravity": 11,
-    "hasMapMarker": true,
-    "ambientLight": 2.0
+    "hasMapMarker": true
   },
+  "AmbientLights": [
+    {
+      "intensity": 2
+    }
+  ],
   "Orbit": {
     "staticPosition": {
       "x": 0,
@@ -48,7 +52,7 @@
         }
       }
     ],
-    "nomaiText": [
+    "translatorText": [
       {
         "type": "scroll",
         "xmlFile": "planets/Deep Bramble System/Text/treerecorder.xml",

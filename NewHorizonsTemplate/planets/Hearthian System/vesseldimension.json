@@ -37,7 +37,7 @@
         "distortRadius": 2.3
       }
     ],
-    "nomaiText": [
+    "translatorText": [
       {
         "xmlFile": "planets/Hearthian System/Text/tangledtext.xml",
         "type": "preCrashRecorder",

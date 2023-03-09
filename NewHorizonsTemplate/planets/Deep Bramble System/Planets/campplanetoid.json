@@ -21,9 +21,13 @@
     "groundSize": 0,
     "surfaceSize": 100,
     "surfaceGravity": 12,
-    "hasMapMarker": true,
-    "ambientLight": 2.0
+    "hasMapMarker": true
   },
+  "AmbientLights": [
+    {
+      "intensity": 2
+    }
+  ],
   "HeightMap": {
     "heightMap": "assets/Heightmaps/camp_planetoid_tree_heightmap.png",
     "minHeight": 0,
@@ -398,7 +402,7 @@
         }
       }
     ],
-    "nomaiText": [
+    "translatorText": [
       {
         "rename": "initial_discovery_text",
         "seed": 761234,

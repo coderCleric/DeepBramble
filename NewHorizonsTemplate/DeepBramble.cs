@@ -32,8 +32,13 @@ namespace DeepBramble
         private DecorHelper decorHelper;
         private GameObject startDimensionObject;
         private AssetBundle titleBundle;
+
+        //Paired things that need each other but may load at different times
         private BlockableQuantumObject quantumRock = null;
         private BlockableQuantumSocket specialSocket = null;
+
+        private LightFadeGroup lavaLightFadeGroup = null;
+        private LightFadeTrigger heartLightFadeTrigger = null;
 
         //Only needed for debug
         public static Transform relBody = null;
@@ -207,18 +212,23 @@ namespace DeepBramble
                             Light dimensionLight = GameObject.Find("HotDimension_Body/Sector/Atmosphere/AmbientLight_DB_Interior").GetComponent<Light>();
                             Light planetLight = body.transform.Find("Sector/AmbientLight").GetComponent<Light>();
 
-                            //Quantum Cave
-                            LightFadeTrigger quantumLightFade = caveTriggerRoot.Find("quantumcavetrigger").gameObject.AddComponent<LightFadeTrigger>();
-                            quantumLightFade.AddLight(dimensionLight);
-                            quantumLightFade.AddLight(planetLight);
+                            //Make the fade group
+                            lavaLightFadeGroup = caveTriggerRoot.gameObject.AddComponent<LightFadeGroup>();
+                            lavaLightFadeGroup.AddLight(dimensionLight);
+                            lavaLightFadeGroup.AddLight(planetLight);
+                            if (heartLightFadeTrigger != null)
+                                lavaLightFadeGroup.RegisterTrigger(heartLightFadeTrigger);
 
-                            //Gas Cave
-                            LightFadeTrigger gasLightFade = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<LightFadeTrigger>();
-                            gasLightFade.AddLight(dimensionLight);
-                            gasLightFade.AddLight(planetLight);
-                            gasLightFade.fadetime = 1.5f;
+                            //Quantum Cave trigger
+                            LightFadeTrigger quantumFadeTrigger = caveTriggerRoot.Find("quantumcavetrigger").gameObject.AddComponent<LightFadeTrigger>();
+                            lavaLightFadeGroup.RegisterTrigger(quantumFadeTrigger);
+
+                            //Gas Cave trigger
+                            LightFadeTrigger gasFadeTrigger = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<LightFadeTrigger>();
+                            gasFadeTrigger.fadetime = 2.0f;
+                            lavaLightFadeGroup.RegisterTrigger(gasFadeTrigger);
                             LavaDisableTrigger gasLavaDisable = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<LavaDisableTrigger>();
-                            gasLavaDisable.RegisterLavaSphere(body.transform.Find("Sector/MoltenCore").gameObject);
+                            gasLavaDisable.RegisterLavaSphere(sectorTransform.Find("MoltenCore").gameObject);
 
                             //Make the gas hazardous
                             sectorTransform.Find("lava_planet/crystal_cave/explosion_trigger").gameObject.AddComponent<GasVolume>();
@@ -251,24 +261,32 @@ namespace DeepBramble
                             //Then the rock
                             Transform rockTF = quantumCaveRoot.Find("quantum_rock");
                             quantumRock = rockTF.gameObject.AddComponent<BlockableQuantumObject>();
+                            quantumRock._randomYRotation = false;
                             quantumRock.SetSector(null);
                             if(specialSocket != null)
                                 quantumRock.specialSocket = specialSocket;
                             break;
 
                         case "Heart Planet":
+                            //Make the light fade trigger
+                            heartLightFadeTrigger = sectorTransform.Find("final_lab/quantum_room/grav").gameObject.AddComponent<LightFadeTrigger>();
+                            if (lavaLightFadeGroup != null)
+                                lavaLightFadeGroup.RegisterTrigger(heartLightFadeTrigger);
+
+                            //Activate the doors
+                            DoorButtonGroup quantumDoorGroup = DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/quantum_room/room/functional_doorway").gameObject);
+                            quantumDoorGroup.SetLightControl(true);
+                            DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/final_lab_room/room/walls/functional_doorway").gameObject);
+
                             //Find and activate the quantum socket
                             OuterFogWarpVolume heartFogWarp = GameObject.Find("HeartDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
                             specialSocket = sectorTransform.Find("final_lab/quantum_room/quantum_socket").gameObject.AddComponent<BlockableQuantumSocket>();
                             specialSocket.outerFogWarp = heartFogWarp;
+                            Light[] lightArray = new Light[] {quantumDoorGroup.doorLights[0], quantumDoorGroup.doorLights[1]};
+                            specialSocket._visibilityObject.SetLightSources(lightArray);
                             if (quantumRock != null)
                                 quantumRock.specialSocket = specialSocket;
 
-                            //Activate the doors
-                            DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/quantum_room/room/functional_doorway").gameObject);
-                            debugPrint("test4");
-                            DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/final_lab_room/room/walls/functional_doorway").gameObject);
-                            debugPrint("test5");
                             break;
                     }
                 }
@@ -296,6 +314,7 @@ namespace DeepBramble
                 body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
 
                 //Set up each dimension with the things it needs to grab
+                /*
                 if (body.GetComponent<AstroObject>()._name == AstroObject.Name.CustomString)
                 {
                     switch (body.GetComponent<AstroObject>()._customName)
@@ -311,6 +330,7 @@ namespace DeepBramble
                             break;
                     }
                 }
+                */
 
                 //Special actions for specific dimensions
                 switch(body.GetComponent<AstroObject>()._customName)

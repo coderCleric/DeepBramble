@@ -7,9 +7,13 @@
     "groundSize": 0,
     "surfaceSize": 150,
     "surfaceGravity": 9,
-    "hasMapMarker": true,
-    "ambientLight": 2.0
+    "hasMapMarker": true
   },
+  "AmbientLights": [
+    {
+      "intensity": 2
+    }
+  ],
   "Orbit": {
     "staticPosition": {
       "x": 10000,
@@ -32,7 +36,7 @@
         }
       }
     ],
-    "nomaiText": [
+    "translatorText": [
       {
         "rename": "ParkRecorder",
         "type": "preCrashRecorder",
