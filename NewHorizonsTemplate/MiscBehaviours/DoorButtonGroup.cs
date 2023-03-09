@@ -14,8 +14,6 @@ namespace DeepBramble.MiscBehaviours
         private Animator doorAnimator = null;
         private OWAudioSource audio = null;
         private bool doorOpen = false;
-        private bool audioPlaying = false;
-        private float audioPlayTime = 0;
         private bool controlsLights = false;
         public float lightFadeTime = 2;
 
@@ -45,9 +43,6 @@ namespace DeepBramble.MiscBehaviours
             if (doorAnimator != null)
             {
                 doorAnimator.SetBool("isOpen", doorOpen);
-                audioPlaying = true;
-                audioPlayTime = 2;
-                audio.Play();
             }
         }
 
@@ -85,22 +80,27 @@ namespace DeepBramble.MiscBehaviours
         }
 
         /**
+         * Start playing the looping audio
+         */
+        public void StartAudio()
+        {
+            audio.Play();
+        }
+
+        /**
+         * Start playing the looping audio
+         */
+        public void StopAudio()
+        {
+            audio.Stop();
+            audio.PlayOneShot(AudioType.NomaiDoorStop);
+        }
+
+        /**
          * Check whether to continue or stop the audio
          */
         private void Update()
         {
-            //Control the audio
-            if(audioPlaying)
-            {
-                audioPlayTime -= Time.deltaTime;
-                if(audioPlayTime <= 0)
-                {
-                    audioPlaying = false;
-                    audio.Stop();
-                    audio.PlayOneShot(AudioType.NomaiDoorStop);
-                }
-            }
-
             //Control the lights
             if(controlsLights)
             {
@@ -128,10 +128,10 @@ namespace DeepBramble.MiscBehaviours
          */
         public static DoorButtonGroup MakeOnDoor(GameObject obj)
         {
-            DoorButtonGroup buttonGroup = obj.transform.Find("buttons").gameObject.AddComponent<DoorButtonGroup>();
+            DoorButtonGroup buttonGroup = obj.AddComponent<DoorButtonGroup>();
 
             //Find the door animator
-            buttonGroup.doorAnimator = obj.transform.Find("door").GetComponent<Animator>();
+            buttonGroup.doorAnimator = obj.GetComponent<Animator>();
             if(buttonGroup.doorAnimator == null)
             {
                 DeepBramble.debugPrint("Door animator was not found when looked for!");
@@ -147,7 +147,7 @@ namespace DeepBramble.MiscBehaviours
             }
 
             //Make and store all of the buttons
-            foreach (InteractReceiver receiver in buttonGroup.GetComponentsInChildren<InteractReceiver>())
+            foreach (InteractReceiver receiver in obj.transform.Find("buttons").gameObject.GetComponentsInChildren<InteractReceiver>())
             {
                 receiver.gameObject.AddComponent<DoorButton>();
                 buttonGroup.RegisterButton(receiver);
