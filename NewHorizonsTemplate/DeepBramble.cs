@@ -159,6 +159,11 @@ namespace DeepBramble
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("WorkSystem"))
             {
                 DoorButtonGroup.MakeOnDoor(GameObject.Find("Platform_Body/Sector/functional_doorway"));
+                debugPrint(GameObject.Find("Platform_Body/Sector/kevin") + "");
+                debugPrint(GameObject.Find("kevin") + "");
+                GameObject kevin = GameObject.Find("Platform_Body/Sector/kevin");
+                kevin.AddComponent<KevinBody>();
+                kevin.AddComponent<KevinController>();
             }
         }
 

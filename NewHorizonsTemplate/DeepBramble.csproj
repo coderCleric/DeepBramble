@@ -150,6 +150,12 @@
       <None Update="assetbundles\hollowplanet.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assetbundles\kevin">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\kevin.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assetbundles\language_lab">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

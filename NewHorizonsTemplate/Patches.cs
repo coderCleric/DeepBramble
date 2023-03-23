@@ -20,6 +20,7 @@ namespace DeepBramble
         public static bool forbidUnlock = false;
         public static bool fogRepositionHandled = false;
         private static bool hideFogEffect = false;
+        public static bool playerAttachedToKevin = false;
 
         //Other variables
         private static GameObject brambleHole = null;
@@ -29,9 +30,10 @@ namespace DeepBramble
         private static OuterFogWarpVolume languageOuterWarp = null;
         public static Dictionary<string, bool> startupFlags = null;
         public static List<BlockableQuantumSocket> blockableSockets = new List<BlockableQuantumSocket>();
+        private static Vector3 lastCOTUCachedVel = Vector3.zero;
 
-        //Needed for the baby angler
-        private static Animator anglerAnimator = null;
+        //Needed for the baby angler & kevin
+        public static Animator anglerAnimator = null;
 
         /**
          * Initialize the dictionary of startup flags
@@ -137,6 +139,38 @@ namespace DeepBramble
 
             //Otherwise, run normally
             return true;
+        }
+
+        /**
+         * Fixes a bug where attach points are able to carry the player away from the world origin
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(PlayerAttachPoint), nameof(PlayerAttachPoint.UpdatePlayerAttach))]
+        public static void FixAttachBug()
+        {
+            GlobalMessenger.FireEvent("PlayerRepositioned");
+        }
+
+        /**
+         * Stop the center of the universe from flying away if the player is attached to a moving Kevin
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(CenterOfTheUniverse), nameof(CenterOfTheUniverse.FixedUpdate))]
+        public static bool FixCOTUSpeedup(CenterOfTheUniverse __instance)
+        {
+            if (playerAttachedToKevin)
+            {
+                Vector3 newCachedVel = (__instance.enabled ? (-__instance._centerBody.GetRigidbody().velocity) : Vector3.zero); //Get vel directly from player's rigidbody
+                Vector3 origCachedVel = newCachedVel;
+
+                //Calculate what it should end up being
+                newCachedVel = newCachedVel - lastCOTUCachedVel;
+                lastCOTUCachedVel = origCachedVel;
+                __instance._cachedOffsetVelocity = newCachedVel;
+                return false;
+            }
+            else
+                return true;
         }
 
         //################################# Between dimension teleportation #################################

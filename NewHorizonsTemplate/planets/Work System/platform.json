@@ -50,6 +50,16 @@
         }
       },
       {
+        "assetBundle": "assetbundles/kevin",
+        "path": "Assets/Prefabs/kevin.prefab",
+        "keepLoaded": true,
+        "position": {
+          "x": 0,
+          "y": 300,
+          "z": 0
+        }
+      },
+      {
         "keepLoaded": true,
         "rename": "TextWall",
         "path": "VolcanicMoon_Body/Sector_VM/Interactables_VM/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
