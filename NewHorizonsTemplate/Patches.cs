@@ -141,6 +141,7 @@ namespace DeepBramble
             return true;
         }
 
+        //################################# Kevin, my hated #################################
         /**
          * Fixes a bug where attach points are able to carry the player away from the world origin
          */
@@ -153,6 +154,9 @@ namespace DeepBramble
 
         /**
          * Stop the center of the universe from flying away if the player is attached to a moving Kevin
+         * 
+         * @param __instance The center of the universe
+         * @return False if we should override, true otherwise
          */
         [HarmonyPrefix]
         [HarmonyPatch(typeof(CenterOfTheUniverse), nameof(CenterOfTheUniverse.FixedUpdate))]

@@ -7,6 +7,11 @@ using UnityEngine;
 
 namespace DeepBramble.MiscBehaviours
 {
+    enum KevinState
+    {
+        HIDDEN, ATSTART, ATEND, MOVING
+    }
+
     class KevinController : MonoBehaviour
     {
         //Animation change times
@@ -26,10 +31,12 @@ namespace DeepBramble.MiscBehaviours
         private float speed = 0;
 
         //Other things
+        public KevinState state = KevinState.HIDDEN;
         private Animator travelAnimator = null;
         private Animator bodyAnimator = null;
         private PlayerAttachPoint attachPoint = null;
         private InteractReceiver handleReceiver = null;
+        private OWTriggerVolume[] eyeTriggers;
 
         /**
          * Need to grab necessary components and initialize a proper starting state
@@ -48,33 +55,81 @@ namespace DeepBramble.MiscBehaviours
             handleReceiver = attachPoint.gameObject.GetComponent<InteractReceiver>();
             handleReceiver.OnPressInteract += MoveToEnd;
             handleReceiver.ChangePrompt("Grab");
+            handleReceiver.DisableInteraction();
+
+            //Grab & set up the eye triggers
+            eyeTriggers = transform.Find("Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/eye_triggers").gameObject.GetComponentsInChildren<OWTriggerVolume>();
+            foreach(OWTriggerVolume trigger in eyeTriggers)
+            {
+                trigger.OnEntry += EyeHitDetected;
+            }
+        }
+        
+        /**
+         * Does everything needed for Kevin to come to the start from being hidden
+         */
+        private void EyeHitDetected(GameObject other)
+        {
+            if(state == KevinState.HIDDEN && other.CompareTag("ProbeDetector"))
+            {
+                state = KevinState.MOVING;
+
+                //Get Kevin moving
+                travelAnimator.SetTrigger("eye_hit");
+            }
         }
 
         /**
-         * Does everything needed for Kevin to start moving from the start to the end
+         * Does everything needed for Kevin to start moving from the start to the end. Should be called when the handles are grabbed
          */
         private void MoveToEnd()
         {
-            //Connect the player and disable the interaction
-            //travelAnimator.updateMode = AnimatorUpdateMode.Normal;
-            attachPoint.AttachPlayer();
-            handleReceiver._owCollider.GetCollider().enabled = false;
-            Locator.GetPlayerBody().GetComponent<PlayerCharacterController>().EnableZeroGMovement(); //This allows the player to look horizontally, for some reason
-            Patches.playerAttachedToKevin = true;
+            if (state == KevinState.ATSTART)
+            {
+                state = KevinState.MOVING;
 
-            //Then, get Kevin moving
-            travelAnimator.SetTrigger("begin_travel");
+                //Connect the player and disable the interaction
+                attachPoint.AttachPlayer();
+                handleReceiver.DisableInteraction();
+                Locator.GetPlayerBody().GetComponent<PlayerCharacterController>().EnableZeroGMovement(); //This allows the player to look horizontally, for some reason
+                Patches.playerAttachedToKevin = true;
+
+                //Then, get Kevin moving
+                travelAnimator.SetTrigger("begin_travel");
+            }
         }
 
         /**
-         * Detaches the player from the handles
+         * Does the stuff necessary for Kevin to warp back to the start
          */
-        public void DetachFromHandles()
+        public void TeleportBack()
         {
+            if(state == KevinState.ATEND)
+            {
+                state = KevinState.ATSTART;
+                travelAnimator.SetTrigger("teleport_back");
+                handleReceiver.EnableInteraction();
+            }
+        }
+
+        /**
+         * Does everything needed when Kevin reaches the end
+         */
+        public void ArriveAtEnd()
+        {
+            state = KevinState.ATEND;
             Patches.playerAttachedToKevin = false;
             attachPoint.DetachPlayer();
-            //travelAnimator.updateMode = AnimatorUpdateMode.AnimatePhysics;
             Locator.GetPlayerBody().GetComponent<PlayerCharacterController>().DisableZeroGMovement();
+        }
+
+        /**
+         * Does everything needed when Kevin reaches the start
+         */
+        public void ArriveAtStart()
+        {
+            state = KevinState.ATSTART;
+            handleReceiver.EnableInteraction();
         }
 
         /**
@@ -125,6 +180,17 @@ namespace DeepBramble.MiscBehaviours
             lerpTime = Mathf.Min(lerpTime, 1);
             speed = Mathf.Lerp(startSpeed, targetSpeed, lerpTime);
             bodyAnimator.SetFloat("MoveSpeed", speed);
+        }
+
+        /**
+         * Remove events if this is destroyed
+         */
+        private void OnDestroy()
+        {
+            foreach (OWTriggerVolume trigger in eyeTriggers)
+            {
+                trigger.OnEntry -= EyeHitDetected;
+            }
         }
     }
 }
