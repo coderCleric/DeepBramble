@@ -34,6 +34,7 @@ namespace DeepBramble.MiscBehaviours
         public KevinState state = KevinState.HIDDEN;
         private Animator travelAnimator = null;
         private Animator bodyAnimator = null;
+        private OWAudioSource longRangeSource = null;
         private PlayerAttachPoint attachPoint = null;
         private InteractReceiver handleReceiver = null;
         private OWTriggerVolume[] eyeTriggers;
@@ -63,6 +64,9 @@ namespace DeepBramble.MiscBehaviours
             {
                 trigger.OnEntry += EyeHitDetected;
             }
+
+            //Grab the audio sources
+            longRangeSource = transform.Find("AudioController/OneShotSource_LongRange").gameObject.GetComponent<OWAudioSource>();
         }
         
         /**
@@ -73,6 +77,8 @@ namespace DeepBramble.MiscBehaviours
             if(state == KevinState.HIDDEN && other.CompareTag("ProbeDetector"))
             {
                 state = KevinState.MOVING;
+                longRangeSource.pitch = UnityEngine.Random.Range(0.8f, 1f);
+                longRangeSource.PlayOneShot(AudioType.DBAnglerfishDetectDisturbance);
 
                 //Get Kevin moving
                 travelAnimator.SetTrigger("eye_hit");

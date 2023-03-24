@@ -177,6 +177,18 @@ namespace DeepBramble
                 return true;
         }
 
+        /**
+         * Prevent other fish from hearing the player if they're attached to Kevin
+         * 
+         * @return False if the player is attached to kevin, true otherwise
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(CenterOfTheUniverse), nameof(CenterOfTheUniverse.FixedUpdate))]
+        public static bool MufflePlayer()
+        {
+            return !playerAttachedToKevin;
+        }
+
         //################################# Between dimension teleportation #################################
         /**
          * Ignores the request to reposition a body if we have been told to do so
