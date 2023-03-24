@@ -1,7 +1,7 @@
 {
   "name": "Titan's Tears",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-  "starSystem": "BrambleSystem",
+  "starSystem": "DeepBramble",
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/planetoidcluster.xml",
     "mapMode": {
@@ -184,7 +184,7 @@
           "x": 0,
           "y": 0,
           "z": 0
-        
+
         }
       },
       {

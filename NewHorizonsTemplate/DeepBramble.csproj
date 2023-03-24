@@ -234,9 +234,6 @@
       <None Update="assets\tree rock texturemap.jpg">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\BrambleSystem.png">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
       <None Update="planets\Deep Bramble System\Dimensions\dreedimension.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
@@ -414,6 +411,9 @@
       <None Update="planets\Deep Bramble System\Text\treeshrinetext.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\DeepBramble.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Hearthian System\Ship Logs\vesseldimension.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
@@ -438,7 +438,7 @@
       <None Update="planets\Work System\spirals.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="systems\BrambleSystem.json">
+      <None Update="systems\DeepBramble.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="systems\SolarSystem.json">

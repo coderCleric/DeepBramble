@@ -92,9 +92,9 @@ namespace DeepBramble
         {
             //Find the outer warp volume or, if there isn't one, do nothing
             OuterFogWarpVolume outerVolume = null;
-            if ((__instance as OuterFogWarpVolume) != null)
+            if (__instance is OuterFogWarpVolume)
                 outerVolume = __instance as OuterFogWarpVolume;
-            else if (((__instance as InnerFogWarpVolume) != null))
+            else if (__instance is InnerFogWarpVolume)
             {
                 InnerFogWarpVolume innerVolume = __instance as InnerFogWarpVolume;
                 outerVolume = innerVolume.GetContainerWarpVolume();
@@ -117,6 +117,7 @@ namespace DeepBramble
             }
         }
 
+        //################################# Dree text stuff #################################
         /**
          * Hide Dree text, unless the player has the translator upgrade
          * 
@@ -139,6 +140,32 @@ namespace DeepBramble
 
             //Otherwise, run normally
             return true;
+        }
+
+        /**
+         * Recolor all of the Dree text
+         * 
+         * @param __instance The instance of text being investigated
+         * @param state The state of the text
+         * @param __result The returned color
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(NomaiTextLine), nameof(NomaiTextLine.DetermineTextLineColor))]
+        public static void RecolorDreeText(NomaiTextLine __instance, NomaiTextLine.VisualState state, ref Color __result)
+        {
+            //Only recolor if it's active, in the bramble system, and is Dree
+            if(inBrambleSystem && __instance._active && __instance.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("IP"))
+            {
+                switch(state)
+                {
+                    case NomaiTextLine.VisualState.UNREAD:
+                        __result = new Color(0.25f, 0.3f, 0.25f, 7f);
+                        break;
+                    case NomaiTextLine.VisualState.TRANSLATED:
+                        __result = new Color(0.25f, 0.3f, 0.25f, 1f);
+                        break;
+                }
+            }
         }
 
         //################################# Kevin, my hated #################################
@@ -369,7 +396,7 @@ namespace DeepBramble
         public static void WarpPlaceListener(OWItemSocket __instance, ref OWItem item)
         {
             //Only do stuff if the slotting was successful and this is the right slot
-            if ((__instance as WarpCoreSocket) != null && __instance.AcceptsItem(item) && __instance.name.Equals("BrambleSystemWarpSocket"))
+            if (__instance is WarpCoreSocket && __instance.AcceptsItem(item) && __instance.name.Equals("BrambleSystemWarpSocket"))
             {
                 //Try to cast the item as a warp core
                 WarpCoreItem core = item as WarpCoreItem;
@@ -394,7 +421,7 @@ namespace DeepBramble
         [HarmonyPatch(typeof(OWItemSocket), nameof(OWItemSocket.RemoveFromSocket))]
         public static void WarpRemoveListener(OWItemSocket __instance)
         {
-            if ((__instance as WarpCoreSocket) != null && __instance.name.Equals("BrambleSystemWarpSocket"))
+            if (__instance is WarpCoreSocket && __instance.name.Equals("BrambleSystemWarpSocket"))
             {
                 brambleHole.SetActive(false);
             }
@@ -595,9 +622,9 @@ namespace DeepBramble
         {
             //Find the outer warp volume or, if there isn't one, do nothing
             OuterFogWarpVolume outerVolume = null;
-            if ((__instance as OuterFogWarpVolume) != null)
+            if (__instance is OuterFogWarpVolume)
                 outerVolume = __instance as OuterFogWarpVolume;
-            else if (((__instance as InnerFogWarpVolume) != null))
+            else if (__instance is InnerFogWarpVolume)
             {
                 InnerFogWarpVolume innerVolume = __instance as InnerFogWarpVolume;
                 outerVolume = innerVolume.GetContainerWarpVolume();

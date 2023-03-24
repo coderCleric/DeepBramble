@@ -1,7 +1,7 @@
 {
   "name": "Language Dimension",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
-  "starSystem": "BrambleSystem",
+  "starSystem": "DeepBramble",
 
   "Base": {
     "groundSize": 0,

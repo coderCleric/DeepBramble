@@ -92,7 +92,7 @@ namespace DeepBramble
          */
         private void UpdateSystemFlag(String s)
         {
-            Patches.inBrambleSystem = s.Equals("BrambleSystem");
+            Patches.inBrambleSystem = s.Equals("DeepBramble");
         }
 
         /**
@@ -107,7 +107,7 @@ namespace DeepBramble
             Patches.blockableSockets = new List<BlockableQuantumSocket>();
 
             //Do this stuff if we're in the bramble system
-            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("BrambleSystem"))
+            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("DeepBramble"))
             {
                 //Tell patches that we're in the bramble system
                 Patches.inBrambleSystem = true;
