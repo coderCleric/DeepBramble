@@ -46,6 +46,18 @@
           "z": 180
         },
         "linksTo": "Language Dimension"
+      },
+      {
+        "name": "Nursery Node",
+        "hasFogLight": false,
+        "scale": 0.5,
+        "possibleExits": [3, 4, 5],
+        "position": {
+          "x": -346.0553,
+          "y": 176.3459,
+          "z": 239.3147
+        },
+        "linksTo": "The Nursery"
       }
     ],
     "dimension": {
@@ -276,6 +288,15 @@
           "x": -44.9894,
           "y": -210.9634,
           "z": -351.4937
+        }
+      },
+      {
+        "radius": 150,
+        "priority": 3,
+        "position": {
+          "x": -346.0553,
+          "y": 176.3459,
+          "z": 239.3147
         }
       }
     ]

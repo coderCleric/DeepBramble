@@ -1,0 +1,47 @@
+{
+  "name": "The Nursery",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "DeepBramble",
+
+  "Base": {
+    "groundSize": 0,
+    "surfaceSize": 0,
+    "surfaceGravity": 0,
+    "hasMapMarker": false,
+    "showMinimap": false
+  },
+  "Orbit": {
+    "staticPosition": {
+      "x": 0,
+      "y": -10000,
+      "z": 0
+    }
+  },
+  "Bramble": {
+    "dimension": {
+      "linksTo": "Nursery Node",
+      "fogDensity": 1.2,
+      "allowedEntrances": [ 3 ],
+      "vinePrefab": "none",
+      "radius": 1500
+    }
+  },
+  "Props": {
+    "details": [
+      {
+        "assetBundle": "assetbundles/nursery_tube",
+        "path": "Assets/Prefabs/nursery_tube.prefab",
+        "position": {
+          "x": 450.9088,
+          "y": 990.3675,
+          "z": -22.3636
+        },
+        "rotation": {
+          "x": 299.3965,
+          "y": 86.8908,
+          "z": 32.4
+        }
+      }
+    ]
+  }
+}
