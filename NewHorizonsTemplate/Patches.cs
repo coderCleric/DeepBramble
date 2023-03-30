@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using DeepBramble.BaseInheritors;
+using DeepBramble.MiscBehaviours;
 using HarmonyLib;
 
 namespace DeepBramble
@@ -16,6 +17,7 @@ namespace DeepBramble
     public static class Patches
     {
         //Flags
+        public static Dictionary<string, bool> startupFlags = null;
         public static bool inBrambleSystem = false;
         public static bool forbidUnlock = false;
         public static bool fogRepositionHandled = false;
@@ -28,7 +30,7 @@ namespace DeepBramble
         private static InnerFogWarpVolume largeLabEntrance = null;
         private static InnerFogWarpVolume smallLabEntrance = null;
         private static OuterFogWarpVolume languageOuterWarp = null;
-        public static Dictionary<string, bool> startupFlags = null;
+        public static KevinController registeredKevin = null;
         public static List<BlockableQuantumSocket> blockableSockets = new List<BlockableQuantumSocket>();
         private static Vector3 lastCOTUCachedVel = Vector3.zero;
 
@@ -214,6 +216,22 @@ namespace DeepBramble
         public static bool MufflePlayer()
         {
             return !playerAttachedToKevin;
+        }
+
+        /**
+         * Warp Kevin back to the start when the player leaves the nursery
+         * 
+         * @param __instance The fog warp volume the player is leaving
+         * @param detector The detector being warped
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.WarpDetector))]
+        public static void ResetKevin(FogWarpVolume __instance, FogWarpDetector detector)
+        {
+            if (inBrambleSystem && (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip())))
+            {
+                registeredKevin.TeleportBack();
+            }
         }
 
         //################################# Between dimension teleportation #################################

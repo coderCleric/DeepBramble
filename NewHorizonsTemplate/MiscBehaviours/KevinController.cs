@@ -7,12 +7,12 @@ using UnityEngine;
 
 namespace DeepBramble.MiscBehaviours
 {
-    enum KevinState
+    public enum KevinState
     {
         HIDDEN, ATSTART, ATEND, MOVING
     }
 
-    class KevinController : MonoBehaviour
+    public class KevinController : MonoBehaviour
     {
         //Animation change times
         private float lookTime = 1;
@@ -67,6 +67,9 @@ namespace DeepBramble.MiscBehaviours
 
             //Grab the audio sources
             longRangeSource = transform.Find("AudioController/OneShotSource_LongRange").gameObject.GetComponent<OWAudioSource>();
+
+            //Register with patches
+            Patches.registeredKevin = this;
         }
         
         /**
