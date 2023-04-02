@@ -17,7 +17,7 @@ using System.Linq;
 namespace DeepBramble
 {
     /**
-     * The main class of the mod, everything used in the mod branches from this class.
+     * The main class of the mod, everything used in the mod branches test from this class.
      */
     public class DeepBramble : ModBehaviour
     {
