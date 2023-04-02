@@ -146,6 +146,7 @@
     ],
     "signals": [
       {
+        "rename": "Camp_Marker_Signal",
         "audio": "OW_TravelerTheme_harmonica",
         "position": {
           "x": -35.3206,
@@ -156,6 +157,7 @@
         "name": "Camp Marker"
       },
       {
+        "rename": "Amplified_Ambience_Signal",
         "audio": "OW_TravelerTheme_harmonica",
         "sourceRadius": 67,
         "identificationRadius": 224,
@@ -169,6 +171,7 @@
         "name": "Amplified Ambience"
       },
       {
+        "rename": "Gravitation_Anomaly_Signal",
         "audio": "OW_TravelerTheme_harmonica",
         "sourceRadius": 275,
         "identificationRadius": 0,

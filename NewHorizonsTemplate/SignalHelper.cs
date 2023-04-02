@@ -41,11 +41,11 @@ namespace DeepBramble
                     {
 
                         case "Lover's Rock": //We're on The Camp Planetoid
-                            this.signalDictionary.Add("Signal_Camp Marker", i);
+                            this.signalDictionary.Add("Camp_Marker_Signal", i);
                             break;
 
                         case "Graviton's Folly": //We're on Graviton's Folly
-                            this.signalDictionary.Add("Signal_Gravitational Anomaly", i);
+                            this.signalDictionary.Add("Gravitation_Anomaly_Signal", i);
                             break;
 
                     }

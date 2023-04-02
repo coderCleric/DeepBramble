@@ -150,7 +150,7 @@
           "z": 272.9818
         },
         "removeChildren": [ "whiteboard_brokenTiles" ],
-        "alignToNormal": false
+        "alignRadial": false
       }
     ],
     "translatorText": [

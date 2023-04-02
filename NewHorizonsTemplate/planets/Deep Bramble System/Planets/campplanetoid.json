@@ -53,7 +53,7 @@
           "z": 0
         },
         "scale": 1.0774,
-        "alignToNormal": false
+        "alignRadial": false
       },
       {
         "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Prefab_HEA_Campfire",
@@ -62,7 +62,7 @@
           "y": 75,
           "z": 0
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/Tree_TH_Stump",
@@ -72,7 +72,7 @@
           "y": 75.03605,
           "z": -2.232371
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/Tree_TH_Stump",
@@ -82,7 +82,7 @@
           "y": 75.04526,
           "z": -2.210721
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "path": "TimberHearth_Body/Sector_TH/Sector_Village/Sector_Observatory/Interactables_Observatory/VisibleFrom_Village/QuantumShard_Exhibit/Tree_TH_Stump",
@@ -92,7 +92,7 @@
           "y": 75.03866,
           "z": 3.719639
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
@@ -131,7 +131,7 @@
           "y": 81.04437,
           "z": -1.553337
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -141,7 +141,7 @@
           "y": 80.6447,
           "z": -8.692346
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -151,7 +151,7 @@
           "y": 80.30783,
           "z": -18.59457
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -161,7 +161,7 @@
           "y": 81.44872,
           "z": -26.00357
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -171,7 +171,7 @@
           "y": 78.26701,
           "z": -37.16162
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -181,7 +181,7 @@
           "y": 81.47604,
           "z": -28.68067
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -191,7 +191,7 @@
           "y": 79.01715,
           "z": -30.25778
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -201,7 +201,7 @@
           "y": 81.37089,
           "z": -20.55747
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -211,7 +211,7 @@
           "y": 79.93881,
           "z": -17.32685
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -221,7 +221,7 @@
           "y": 81.41644,
           "z": 3.631995
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -231,7 +231,7 @@
           "y": 78.79382,
           "z": 15.01486
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -241,7 +241,7 @@
           "y": 79.00465,
           "z": 22.0783
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -251,7 +251,7 @@
           "y": 80.11312,
           "z": 27.24485
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -261,7 +261,7 @@
           "y": 80.37527,
           "z": 31.96643
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -271,7 +271,7 @@
           "y": 79.0787,
           "z": 35.49554
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -281,13 +281,13 @@
           "y": 80.98469,
           "z": 29.93907
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
         "path": "QuantumMoon_Body/Sector_QuantumMoon/State_TH/Interactables_THState/Crater_3/Crater_3_Sapling/QSapling/Tree_TH_Sapling",
         "position": {},
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -297,7 +297,7 @@
           "y": 79.42245,
           "z": 27.93344
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -307,7 +307,7 @@
           "y": 80.97378,
           "z": 19.90967
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -317,7 +317,7 @@
           "y": 79.63827,
           "z": 11.96078
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -327,7 +327,7 @@
           "y": 80.55681,
           "z": 0.6676455
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -337,7 +337,7 @@
           "y": 78.90237,
           "z": -7.354018
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/DetailPatches_PioneerDimension/Foliage/Foliage_TH_HighPatch (1)",
@@ -346,7 +346,7 @@
           "y": 77.80735,
           "z": -13.18682
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/DetailPatches_PioneerDimension/Foliage/Foliage_TH_HighPatch (1)",
@@ -355,7 +355,7 @@
           "y": 78.76303,
           "z": -13.63165
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/DetailPatches_PioneerDimension/Foliage/Foliage_TH_HighPatch (1)",
@@ -364,7 +364,7 @@
           "y": 77.64217,
           "z": -16.71171
         },
-        "alignToNormal": true
+        "alignRadial": true
       }
     ],
     "scatter": [
@@ -451,7 +451,6 @@
             "zRotation": 225.7538
           },
           {
-            "variation": 1,
             "mirror": true,
             "position": {
               "x": -1.2405,
@@ -500,7 +499,6 @@
         },
         "arcInfo": [
           {
-            "variation": 6,
             "position": {
               "x": 0.2189,
               "y": -0.1062

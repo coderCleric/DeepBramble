@@ -32,7 +32,7 @@
           "y": 0,
           "z": 0
         },
-        "alignToNormal": false
+        "alignRadial": false
       },
       {
         "keepLoaded": true,
@@ -44,7 +44,7 @@
           "z": 14.2389
         },
         "removeChildren": [ "whiteboard_brokenTiles" ],
-        "alignToNormal": true
+        "alignRadial": true
       }
     ],
     "translatorText": [

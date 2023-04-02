@@ -46,7 +46,7 @@
           "y": 0,
           "z": 0
         },
-        "alignToNormal": false
+        "alignRadial": false
       },
       {
         "keepLoaded": true,
@@ -57,7 +57,7 @@
           "y": -21.76041,
           "z": 17.41858
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -68,7 +68,7 @@
           "y": -14.62039,
           "z": -15.99103
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "keepLoaded": true,
@@ -85,7 +85,7 @@
           "z": 218.3247
         },
         "removeChildren": [ "whiteboard_brokenTiles" ],
-        "alignToNormal": false
+        "alignRadial": false
       },
       {
         "keepLoaded": true,
@@ -96,7 +96,7 @@
           "y": -13.9373,
           "z": 26.8997
         },
-        "alignToNormal": true
+        "alignRadial": true
       },
       {
         "rename": "TreeOxygen",

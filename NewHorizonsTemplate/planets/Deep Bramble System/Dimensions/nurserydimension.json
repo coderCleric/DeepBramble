@@ -22,9 +22,21 @@
       "linksTo": "Nursery Node",
       "fogDensity": 1.2,
       "allowedEntrances": [ 3 ],
-      "vinePrefab": "none",
+      "vinePrefab": "cluster",
       "radius": 1500
-    }
+    },
+    "nodes": [
+      {
+        "name": "Cyst Node",
+        "position": {
+          "x": -151.98,
+          "y": 23.15699,
+          "z": -38.80038
+        },
+        "hasFogLight": false,
+        "linksTo": "Antrum of the Cyst"
+      }
+    ]
   },
   "Props": {
     "details": [

@@ -34,16 +34,20 @@
     "isStatic": true
   },
   "Spawn": {
-    "shipSpawnPoint": {
-      "x": 0,
-      "y": 0,
-      "z": 0
+    "shipSpawn": {
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
     },
-    "playerSpawnPoint": {
-      "x": 5,
-      "y": 0,
-      "z": 0
-    },
-    "startWithSuit": true
+    "playerSpawn": {
+      "position": {
+        "x": 5,
+        "y": 0,
+        "z": 0
+      },
+      "startWithSuit": true
+    }
   }
 }
