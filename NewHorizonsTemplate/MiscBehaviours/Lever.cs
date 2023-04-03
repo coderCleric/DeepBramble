@@ -9,7 +9,8 @@ namespace DeepBramble.MiscBehaviours
 {
     class Lever : MonoBehaviour
     {
-        public GameObject beamObject = null;
+        private GameObject beamObject = null;
+        private GameObject spikeObject = null;
         private InteractReceiver interactor = null;
         private Animator animator = null;
         public bool permaDisable = false;
@@ -52,13 +53,33 @@ namespace DeepBramble.MiscBehaviours
         }
 
         /**
+         * Registers the given transform as the beam, requiring a very specific structure
+         * 
+         * @param beamObj The object to register
+         */
+        public void RegisterBeam(GameObject beamObject)
+        {
+            //Grab the beam, then the spikes
+            this.beamObject = beamObject;
+            if(beamObject.transform.parent.Find("spikes") != null)
+                this.spikeObject = beamObject.transform.parent.Find("spikes").gameObject;
+        }
+
+        /**
          * Activate the animator
          */
         private void OnFlip()
         {
             animator.SetTrigger("flip");
-            if(!permaDisable)
-                beamObject.SetActive(!beamObject.activeSelf);
+            bool flipBool = !beamObject.activeSelf;
+            if (permaDisable)
+                flipBool = false;
+            beamObject.SetActive(flipBool);
+            if (spikeObject != null)
+            {
+                spikeObject.transform.Find("collider").gameObject.SetActive(!flipBool);
+                spikeObject.transform.Find("killzone").gameObject.SetActive(flipBool);
+            }
         }
 
         /**
@@ -80,12 +101,12 @@ namespace DeepBramble.MiscBehaviours
             }
 
             //Map them to the beams
-            levComponents[0].beamObject = beams[0].gameObject;
-            levComponents[1].beamObject = beams[4].gameObject;
-            levComponents[2].beamObject = beams[1].gameObject;
-            levComponents[3].beamObject = beams[2].gameObject;
-            levComponents[4].beamObject = beams[5].gameObject;
-            levComponents[5].beamObject = beams[3].gameObject;
+            levComponents[0].RegisterBeam(beams[0].gameObject);
+            levComponents[1].RegisterBeam(beams[4].gameObject);
+            levComponents[2].RegisterBeam(beams[1].gameObject);
+            levComponents[3].RegisterBeam(beams[2].gameObject);
+            levComponents[4].RegisterBeam(beams[5].gameObject);
+            levComponents[5].RegisterBeam(beams[3].gameObject);
         }
     }
 }
