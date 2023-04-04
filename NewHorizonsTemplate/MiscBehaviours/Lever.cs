@@ -13,7 +13,7 @@ namespace DeepBramble.MiscBehaviours
         private GameObject spikeObject = null;
         private InteractReceiver interactor = null;
         private Animator animator = null;
-        public bool permaDisable = false;
+        private bool permaDisable = false;
 
         /**
          * Grab needed components on awake
@@ -79,6 +79,20 @@ namespace DeepBramble.MiscBehaviours
             {
                 spikeObject.transform.Find("collider").gameObject.SetActive(!flipBool);
                 spikeObject.transform.Find("killzone").gameObject.SetActive(flipBool);
+            }
+        }
+
+        /**
+         * Permanently disables the beam that the lever is attached to
+         */
+        public void PermaDisable()
+        {
+            permaDisable = true;
+            beamObject.SetActive(false);
+            if (spikeObject != null)
+            {
+                spikeObject.transform.Find("collider").gameObject.SetActive(true);
+                spikeObject.transform.Find("killzone").gameObject.SetActive(false);
             }
         }
 

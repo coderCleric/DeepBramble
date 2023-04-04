@@ -36,6 +36,20 @@
         "alignRadial": true
       },
       {
+        "assetBundle": "assetbundles/grav_core",
+        "path": "Assets/Prefabs/props/grav_core.prefab",
+        "position": {
+          "x": -17.00081,
+          "y": 2.7032,
+          "z": 5.506546
+        },
+        "rotation": {
+          "x": 0,
+          "y": 94.81483,
+          "z": 0
+        }
+      },
+      {
         "assetBundle": "assetbundles/functional_doorway",
         "path": "Assets/Prefabs/buildings/functional_doorway.prefab",
         "position": {

@@ -206,7 +206,10 @@ namespace DeepBramble
                             gravityParent.Find("Side 4").gameObject.AddComponent<PillarGravityController>();
 
                             //Make the levers
-                            Lever.MakeLevers(sectorTransform.Find("hollowplanet/planet/crystal_core/beams"));                            
+                            Lever.MakeLevers(sectorTransform.Find("hollowplanet/planet/crystal_core/beams"));
+
+                            //Make the core
+                            sectorTransform.Find("hollowplanet/planet/crystal_core/grav_core").gameObject.AddComponent<GravCore>();
 
                             break;
 
