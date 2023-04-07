@@ -32,6 +32,7 @@ namespace DeepBramble
         private DecorHelper decorHelper;
         private GameObject startDimensionObject;
         private AssetBundle titleBundle;
+        public static PlayerAudioController playerAudioController = null;
 
         //Paired things that need each other but may load at different times
         private BlockableQuantumObject quantumRock = null;
@@ -214,6 +215,19 @@ namespace DeepBramble
                             break;
 
                         case "Magma's Recursion":
+                            //Register the hazard with patches
+                            Patches.hotNodeHazard = sectorTransform.Find("lava_planet/heat_hazard").gameObject.GetComponent<HazardVolume>();
+                            Patches.hotNodeHazard.gameObject.AddComponent<HeatWarningTrigger>();
+
+                            //Make all of the cool zones
+                            foreach(OWTriggerVolume trig in sectorTransform.gameObject.GetComponentsInChildren<OWTriggerVolume>())
+                            {
+                                if(trig.name.Contains("coolzone"))
+                                {
+                                    trig.gameObject.AddComponent<CoolZone>();
+                                }
+                            }
+
                             //Complete the cave zone triggers
                             Transform caveTriggerRoot = body.transform.Find("Sector/lava_planet/cave_triggers");
                             Light dimensionLight = GameObject.Find("HotDimension_Body/Sector/Atmosphere/AmbientLight_DB_Interior").GetComponent<Light>();
@@ -420,6 +434,15 @@ namespace DeepBramble
                 ensureStarterLoad = false;
             }
 
+            //Lower the damage audio if the player is hurt only by the hot node
+            if(playerAudioController != null)
+            {
+                if (Patches.DamagedByAmbientHeatOnly())
+                    playerAudioController._damageAudioSource.SetMaxVolume(0.15f);
+                else
+                    playerAudioController._damageAudioSource.SetMaxVolume(0.7f);
+            }
+
             //Print the player's absolute and relative positions when k is pressed
             if (Keyboard.current[Key.K].wasPressedThisFrame)
             {
@@ -495,8 +518,8 @@ namespace DeepBramble
             //Teleport to a specific point when n is pressed
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
-                Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
-                //Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
+                //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
+                Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
                 //Vector3 point = new Vector3(9559.7f, 9920.6f, -99.4f); //Language Dimension
                 //Vector3 point = new Vector3(-24.7f, 10043.4f, -244.6f); //Lava planet start
                 //Vector3 point = new Vector3(-257.3f, 9950.4f, 39.4f); //Quantum cave
@@ -515,7 +538,7 @@ namespace DeepBramble
                 FogWarpDetector shipDetector = Locator.GetShipDetector().GetComponent<FogWarpDetector>();
                 if (shipDetector.GetOuterFogWarpVolume() != null) {
                     Patches.fogRepositionHandled = true;
-                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("LargeDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
+                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("DreeDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
                 }
 
                 Locator._shipBody.SetPosition(point);

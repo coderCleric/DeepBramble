@@ -33,6 +33,7 @@ namespace DeepBramble
         public static KevinController registeredKevin = null;
         public static List<BlockableQuantumSocket> blockableSockets = new List<BlockableQuantumSocket>();
         private static Vector3 lastCOTUCachedVel = Vector3.zero;
+        public static HazardVolume hotNodeHazard = null;
 
         //Needed for the baby angler & kevin
         public static Animator anglerAnimator = null;
@@ -80,6 +81,9 @@ namespace DeepBramble
             //If we're in deep bramble, disable the bramble audio player
             if (inBrambleSystem)
                 Locator._globalMusicController._darkBrambleSource.gameObject.SetActive(false);
+
+            //Give the main class the player damage audio
+            DeepBramble.playerAudioController = Locator.GetPlayerAudioController();
         }
 
         /**
@@ -117,6 +121,48 @@ namespace DeepBramble
                     BrambleContainer.setActiveDimension(bodyObject);
                 }
             }
+        }
+
+        //################################# Suppress hot node damage effects #################################
+        /**
+         * Helper function, checks if the player is in only the hot node hazard volume
+         * 
+         * @return True if the player is only being damaged by the hot node, false otherwise
+         */
+        public static bool DamagedByAmbientHeatOnly()
+        {
+            if(hotNodeHazard == null)
+                return false;
+
+            HazardDetector playerDetector = Locator.GetPlayerDetector().GetComponent<HazardDetector>();
+            bool otherFound = false;
+            bool nodeHazFound = false;
+            foreach(EffectVolume i in playerDetector._activeVolumes)
+            {
+                HazardVolume hazVolume = i as HazardVolume;
+                if (hazVolume == hotNodeHazard)
+                    nodeHazFound = true;
+                else
+                    otherFound = true;
+            }
+
+            return !otherFound && nodeHazFound;
+        }
+
+        /**
+         * Disable the phosphenes if they're only made by the node hazard
+         * 
+         * @return False if the effects should be suppressed, true otherwise
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(PlayerCameraEffectController), nameof(PlayerCameraEffectController.ApplyExposureDamage))]
+        public static bool SuppressPhosphenes()
+        {
+            if(DamagedByAmbientHeatOnly())
+            {
+                return false;
+            }
+            return true;
         }
 
         //################################# Dree text stuff #################################
