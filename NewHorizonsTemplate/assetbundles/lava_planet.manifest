@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 460901972
+CRC: 3728673494
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: ab73b563bf5c8bedb2d6d3c63cc49172
+    Hash: 2b185d2c7210dd7f6b166c82f307c488
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 870c87b17921526b95e16d7ddddb9bd0
+    Hash: 41b91c60f70d8874f50df11c7b0866b7
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -31,43 +31,39 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 82
   Script: {instanceID: 0}
-- Class: 114
-  Script: {fileID: 11500000, guid: d27fca208721c7b4a95de61221d970bf, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 38e4d433f3f97234aa734760ddda2661, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: d8592143aba9d594fb3338233ad486ee, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 6852cf345d89f5f4583e26776c10f794, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 7cf41285c9a8c4f4b9402fa3af7ccb34, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 840ab63696e59254eb425242136805dd, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 14d96bf9d36d4254e875b26361d59a05, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 7f5f781ad5c7cb3479ad11f01f455d95, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: ab1b94fc079c818499e6d839ed219328, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 034b758dcb27c9746a7640cdb345b333, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 1125cd8dac17a504f95ad0e7b5b4cde8, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 1427db0e1d26e0b41ad8a527d6b2bd5a, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 77ab764e0bd734547b726914ece49599, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
-- Class: 114
-  Script: {fileID: 11500000, guid: 826509cfb70938446954983d5be2e39c, type: 3}
-- Class: 115
+- Class: 108
   Script: {instanceID: 0}
-- Class: 134
+- Class: 114
+  Script: {fileID: 11500000, guid: b3891590690609c69465a648b6c178e6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cc6b7c1133e875fc7b5e5ea2817aa5a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a00a4b529366e7a35af5046cca370e8e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 094908c5e449faf8394b88faf7ab2730, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 53fe1f971c08db1945e16add52db7b68, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f031b2a1450f8281d8cd055b417bf4b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 82d6ff9ac3325b114213581627497e75, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 606fff1e570be47c0db66f6c3ccd8591, type: 3}
+- Class: 115
   Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
@@ -81,6 +77,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/lava_planet.prefab
 Dependencies:
-- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/grav_crystals
-- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_2
-- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_3
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/grav_crystals

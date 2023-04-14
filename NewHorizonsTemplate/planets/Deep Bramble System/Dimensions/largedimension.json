@@ -185,5 +185,17 @@
         "name": "Gravitational Anomaly"
       }
     ]
+  },
+  "Volumes": {
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 3000,
+        "volume": 0.3,
+        "audio": "OW Aquatic Exploration 050318 AP LOOP",
+        "track": "music",
+        "loop": true
+      }
+    ]
   }
 }

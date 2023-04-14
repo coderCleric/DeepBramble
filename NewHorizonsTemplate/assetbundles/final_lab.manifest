@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 245635854
+CRC: 1447408199
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 1c83011e9fc65871f8431e69ab4100b8
+    Hash: 2934233f3ef0109745ec9943e08fed65
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cc084bc67f437ae0688fd47186d5bb0b
+    Hash: e9bff0550b50aec1177d12119d6a3eea
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,21 +40,21 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: d8592143aba9d594fb3338233ad486ee, type: 3}
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 6852cf345d89f5f4583e26776c10f794, type: 3}
+  Script: {fileID: 11500000, guid: a00a4b529366e7a35af5046cca370e8e, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 6e08224a0c172cf49b787f8bc8d72094, type: 3}
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
+  Script: {fileID: 11500000, guid: 53fe1f971c08db1945e16add52db7b68, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 034b758dcb27c9746a7640cdb345b333, type: 3}
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 77ab764e0bd734547b726914ece49599, type: 3}
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 135
@@ -63,4 +63,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/buildings/final_lab.prefab
 Dependencies:
-- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/functional_doorway
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/functional_doorway

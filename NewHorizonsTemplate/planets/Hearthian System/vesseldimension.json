@@ -27,13 +27,13 @@
     "singularities": [
       {
         "type": "blackHole",
-        "targetStarSystem": "BrambleSystem",
+        "targetStarSystem": "DeepBramble",
         "position": {
           "x": 146.8333,
           "y": 2.799,
           "z": -18.084
         },
-        "horizonRadius": 2,
+        "horizonRadius": 1.3,
         "distortRadius": 2.3
       }
     ],

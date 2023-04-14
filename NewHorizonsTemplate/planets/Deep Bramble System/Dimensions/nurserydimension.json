@@ -22,7 +22,7 @@
       "linksTo": "Nursery Node",
       "fogDensity": 1.2,
       "allowedEntrances": [ 3 ],
-      "vinePrefab": "none",
+      "vinePrefab": "smallNest",
       "radius": 1500
     },
     "nodes": [

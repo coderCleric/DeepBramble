@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1146632112
+CRC: 4285426215
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2144f21da2177596c62eb0c1d0f6de5a
+    Hash: 44d7e5be59e68c146b63ca05d252e011
   TypeTreeHash:
     serializedVersion: 2
-    Hash: cd7084500a9715331a297dd45dc5fea0
+    Hash: fbfeee844170b046be955b7740600c0c
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -40,21 +40,23 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
-  Script: {fileID: 11500000, guid: 38e4d433f3f97234aa734760ddda2661, type: 3}
+  Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 6e08224a0c172cf49b787f8bc8d72094, type: 3}
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: f9ce482dc5a30df4aaa60ec7f4360f5d, type: 3}
+  Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 0697417d0b4243b48a036bfb10342726, type: 3}
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 5c2d328d259791744bb8539650a9c619, type: 3}
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 034b758dcb27c9746a7640cdb345b333, type: 3}
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 61b00a8e76a237e429174e8bc253901f, type: 3}
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 826509cfb70938446954983d5be2e39c, type: 3}
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1baab1be2365418212ecfb0e7844d02e, type: 3}
 - Class: 115
   Script: {instanceID: 0}
 - Class: 134
@@ -71,6 +73,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/hollowplanet.prefab
 Dependencies:
-- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_1
-- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_2
-- C:/Users/wesca/AppData/Roaming/OuterWildsModManager/OWML/Mods/Cleric.DeepBramble/assetbundles/ground_building_3
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/grav_core

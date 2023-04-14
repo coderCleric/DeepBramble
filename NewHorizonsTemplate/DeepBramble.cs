@@ -178,11 +178,6 @@ namespace DeepBramble
                 //Increase the priority of the gravity volume
                 volume._priority = 2;
 
-                //Remove any heightmap-generated ground
-                Transform fakeGround = sectorTransform.Find("CubeSphere");
-                if (fakeGround != null)
-                    fakeGround.gameObject.SetActive(false);
-
                 //Disable the supernova controller (won't be needing it & it messes stuff up)
                 sectorTransform.Find("SupernovaController").gameObject.SetActive(false);
 
@@ -295,7 +290,7 @@ namespace DeepBramble
                                 lavaLightFadeGroup.RegisterTrigger(heartLightFadeTrigger);
 
                             //Activate the doors
-                            DoorButtonGroup quantumDoorGroup = DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/quantum_room/room/functional_doorway").gameObject);
+                            DoorButtonGroup quantumDoorGroup = DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/quantum_room/room/walls/functional_doorway").gameObject);
                             quantumDoorGroup.SetLightControl(true);
                             DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/final_lab_room/room/walls/functional_doorway").gameObject);
 
