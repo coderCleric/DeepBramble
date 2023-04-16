@@ -13,7 +13,9 @@ namespace DeepBramble.Triggers
         private List<float> intensities = new List<float>();
         private List<LightFadeTrigger> triggers = new List<LightFadeTrigger>();
         private int dimCount = 0;
-        private float minDimTime = Mathf.Infinity;
+        private float minDimTime = 0;
+        private float changeStartTime = 0;
+        private bool playerNewlyExited = false;
 
         /**
          * Adds the given light to the group
@@ -60,7 +62,12 @@ namespace DeepBramble.Triggers
             if (dimCount > 1)
                 minDimTime = Mathf.Min(minDimTime, trigger.fadetime);
             else
+            {
                 minDimTime = trigger.fadetime;
+                if(!playerNewlyExited)
+                    changeStartTime = Time.time;
+            }
+            playerNewlyExited = false;
         }
 
         /**
@@ -83,20 +90,29 @@ namespace DeepBramble.Triggers
                 }
                 minDimTime = min;
             }
+            else
+                playerNewlyExited = true;
         }
 
         /**
          * Update the light intensity every frame
          */
-        private void Update()
+        private void LateUpdate()
         {
+            if (playerNewlyExited)
+            {
+                playerNewlyExited = false;
+                changeStartTime = Time.time;
+            }
+
+            float changeAmount = (Time.time - changeStartTime) / minDimTime;
+
             //Dim them if we're fading
             if (dimCount > 0)
             {
                 for (int i = 0; i < this.lights.Count(); i++)
                 {
-                    this.lights[i].intensity -= this.intensities[i] * (Time.deltaTime / minDimTime);
-                    this.lights[i].intensity = Mathf.Max(0, this.lights[i].intensity);
+                    this.lights[i].intensity = Mathf.Lerp(this.intensities[i], 0, changeAmount);
                 }
             }
 
@@ -105,8 +121,7 @@ namespace DeepBramble.Triggers
             {
                 for (int i = 0; i < this.lights.Count(); i++)
                 {
-                    this.lights[i].intensity += this.intensities[i] * (Time.deltaTime / minDimTime);
-                    this.lights[i].intensity = Mathf.Min(this.intensities[i], this.lights[i].intensity);
+                    this.lights[i].intensity = Mathf.Lerp(0, this.intensities[i], changeAmount);
                 }
             }
         }

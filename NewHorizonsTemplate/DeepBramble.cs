@@ -41,6 +41,9 @@ namespace DeepBramble
         private LightFadeGroup lavaLightFadeGroup = null;
         private LightFadeTrigger heartLightFadeTrigger = null;
 
+        private Material greenTreeMat = null;
+        private Transform heartDimensionSector = null;
+
         //Only needed for debug
         public static Transform relBody = null;
         public static DeepBramble instance;
@@ -206,7 +209,13 @@ namespace DeepBramble
 
                             //Make the core
                             sectorTransform.Find("hollowplanet/planet/crystal_core/grav_core").gameObject.AddComponent<GravCore>();
+                            break;
 
+                        case "Shattered Hearth":
+                            //Grab the mat from the tree
+                            greenTreeMat = sectorTransform.Find("shattered_planet/park_area/GEO_NomaiTree_1_Trunk").gameObject.GetComponent<MeshRenderer>().material;
+                            if(heartDimensionSector != null)
+                                ReskinHeartDimension(greenTreeMat, heartDimensionSector);
                             break;
 
                         case "Magma's Recursion":
@@ -327,7 +336,8 @@ namespace DeepBramble
                 body.GetComponentInChildren<SimpleFluidVolume>()._density = 0;
 
                 //Remove the ambient light from the dimension
-                body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
+                if(body.GetComponent<AstroObject>()._customName != "Hot Dimension")
+                    body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
 
                 //Set up each dimension with the things it needs to grab
                 /*
@@ -360,9 +370,31 @@ namespace DeepBramble
                         GameObject kevin = body.transform.Find("Sector/nursery_tube/kevin").gameObject;
                         kevin.AddComponent<KevinBody>();
                         kevin.AddComponent<KevinController>();
+                        body.GetComponentInChildren<SimpleFluidVolume>()._density = 8;
+                        break;
+
+                    case "Heart Dimension":
+                        debugPrint("Trying to re-mat the heart dimension");
+                        heartDimensionSector = body.transform.Find("Sector");
+                        if(greenTreeMat != null)
+                            ReskinHeartDimension(greenTreeMat, heartDimensionSector);
                         break;
                 }
             }
+        }
+
+        /**
+         * Re-material the vines in the heart dimension
+         * 
+         * @param mat The mat to replace with
+         * @param sectorRoot the root of the heart dimension's sector
+         */
+        private void ReskinHeartDimension(Material mat, Transform sectorRoot)
+        {
+            //The vines & walls
+            Transform geometryRoot = sectorRoot.Find("Geometry/OtherComponentsGroup");
+            foreach(MeshRenderer i in geometryRoot.GetComponentsInChildren<MeshRenderer>())
+                i.material = mat;
         }
 
         /**
