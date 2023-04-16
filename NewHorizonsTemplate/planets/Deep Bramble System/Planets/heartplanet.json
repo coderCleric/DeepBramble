@@ -23,12 +23,7 @@
       {
         "keepLoaded": true,
         "assetBundle": "assetbundles/final_lab",
-        "path": "Assets/Prefabs/buildings/final_lab.prefab",
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
+        "path": "Assets/Prefabs/buildings/final_lab.prefab"
       }
     ]
   }

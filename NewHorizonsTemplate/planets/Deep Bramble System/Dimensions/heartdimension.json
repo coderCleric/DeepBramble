@@ -21,7 +21,21 @@
     "dimension": {
       "linksTo": "Hot Node",
       "fogDensity": 6,
-      "radius": 500
-    }
+      "radius": 250,
+      "vinePrefab": "cluster"
+    },
+    "nodes": [
+      {
+        "name": "Heart Node",
+        "hasFogLight": false,
+        "scale": 0.5,
+        "rotation": {
+          "x": 43.5599,
+          "y": 358.1138,
+          "z": 24.2412
+        },
+        "linksTo": "Heart Dimension"
+      }
+    ]
   }
 }
