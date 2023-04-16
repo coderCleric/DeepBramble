@@ -140,6 +140,9 @@ namespace DeepBramble
 
                 //Prime the ship drift fix
                 this.fixShipDrift = true;
+
+                //Reset the scare on the domestic fish
+                DomesticFishController.playerSpooked = false;
             }
 
             //Do other stuff if we're not in the bramble system
@@ -163,6 +166,7 @@ namespace DeepBramble
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("WorkSystem"))
             {
                 DoorButtonGroup.MakeOnDoor(GameObject.Find("Platform_Body/Sector/functional_doorway"));
+                GameObject.Find("domestic_fish").AddComponent<DomesticFishController>();
             }
         }
 

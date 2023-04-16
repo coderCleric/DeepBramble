@@ -96,6 +96,12 @@
       <None Update="assetbundles\dirtball.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assetbundles\domestic_fish">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\domestic_fish.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assetbundles\dree_floating_house">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

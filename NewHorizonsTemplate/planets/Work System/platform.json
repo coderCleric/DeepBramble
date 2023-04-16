@@ -103,6 +103,16 @@
           "z": 0
         },
         "scale": 2000
+      },
+      {
+        "assetBundle": "assetbundles/domestic_fish",
+        "keepLoaded": true,
+        "path": "Assets/Prefabs/domestic_fish.prefab",
+        "position": {
+          "x": 1000,
+          "y": 0,
+          "z": 0
+        }
       }
     ],
     "translatorText": [

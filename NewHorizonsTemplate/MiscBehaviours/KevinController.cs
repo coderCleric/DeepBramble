@@ -65,7 +65,7 @@ namespace DeepBramble.MiscBehaviours
                 trigger.OnEntry += EyeHitDetected;
             }
 
-            //Grab the audio sources
+            //Grab the audio source
             longRangeSource = transform.Find("AudioController/OneShotSource_LongRange").gameObject.GetComponent<OWAudioSource>();
 
             //Register with patches
