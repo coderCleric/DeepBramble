@@ -109,6 +109,7 @@ namespace DeepBramble
         {
             //Do this stuff no matter where we are
             Patches.blockableSockets = new List<BlockableQuantumSocket>();
+            DomesticFishController.Reset();
 
             //Do this stuff if we're in the bramble system
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("DeepBramble"))
@@ -140,9 +141,6 @@ namespace DeepBramble
 
                 //Prime the ship drift fix
                 this.fixShipDrift = true;
-
-                //Reset the scare on the domestic fish
-                DomesticFishController.playerSpooked = false;
             }
 
             //Do other stuff if we're not in the bramble system
@@ -165,8 +163,6 @@ namespace DeepBramble
             //Debug thing, take out
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("WorkSystem"))
             {
-                DoorButtonGroup.MakeOnDoor(GameObject.Find("Platform_Body/Sector/functional_doorway"));
-                GameObject.Find("domestic_fish").AddComponent<DomesticFishController>();
             }
         }
 
@@ -378,10 +374,16 @@ namespace DeepBramble
                         break;
 
                     case "Heart Dimension":
-                        debugPrint("Trying to re-mat the heart dimension");
                         heartDimensionSector = body.transform.Find("Sector");
                         if(greenTreeMat != null)
                             ReskinHeartDimension(greenTreeMat, heartDimensionSector);
+                        break;
+
+                    case "Domestic Dimension":
+                        foreach(Transform fish in body.transform.Find("Sector/observation_lab/fish"))
+                        {
+                            fish.gameObject.AddComponent<DomesticFishController>();
+                        }
                         break;
                 }
             }
@@ -425,7 +427,8 @@ namespace DeepBramble
             }
             titleEffectsObject = GameObject.Instantiate(titleEffectsObject, backgroundObject.transform);
             titleEffectsObject.name = "DB Title Effects Object";
-            titleEffectsObject.transform.position = new Vector3(-12.3836f, 169.4274f, 5.1f);
+            titleEffectsObject.transform.position = new Vector3(116.455f, 368.8177f, -47.0909f);
+            titleEffectsObject.transform.rotation = Quaternion.Euler(327.4284f, 1.9997f, 340.8541f);
             debugPrint("Title edits complete");
 
             //Change the campfire appearance

@@ -51,13 +51,29 @@
         "name": "Nursery Node",
         "hasFogLight": false,
         "scale": 0.5,
-        "possibleExits": [3, 4, 5],
+        "possibleExits": [ 3, 4, 5 ],
         "position": {
           "x": -346.0553,
           "y": 176.3459,
           "z": 239.3147
         },
         "linksTo": "The Nursery"
+      },
+      {
+        "name": "Domestic Node",
+        "hasFogLight": false,
+        "scale": 0.7,
+        "position": {
+          "x": 186.0045,
+          "y": 153.2137,
+          "z": 368.3324
+        },
+        "rotation": {
+          "x": 1.5271,
+          "y": 23.909,
+          "z": 58.3818
+        },
+        "linksTo": "Domestic Dimension"
       }
     ],
     "dimension": {

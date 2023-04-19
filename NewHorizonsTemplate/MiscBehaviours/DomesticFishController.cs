@@ -9,7 +9,11 @@ namespace DeepBramble.MiscBehaviours
 {
     public class DomesticFishController : MonoBehaviour
     {
-        public static bool playerSpooked = false;
+        //Static shit
+        private static bool playerSpooked = false;
+        private static List<DomesticFishController> fishies = null;
+
+        //Components
         private Animator animator = null;
         private AnglerfishFluidVolume killFluid = null;
         private InteractReceiver[] petZones = null;
@@ -17,12 +21,14 @@ namespace DeepBramble.MiscBehaviours
         private NoiseSensor noiseSensor = null;
 
         //Variables for the look behaviour
-        private float lookSpeed = 30;
+        private float lookSpeed = 120;
+        private float lookBackTime = 3.5f;
         private OWRigidbody lookTarget = null;
-        private Vector3 originalRotation = Vector3.zero;
-        private Vector3 finalStareRotation = Vector3.zero;
+        private Quaternion originalRotation = Quaternion.identity;
+        private Quaternion finalStareRotation = Quaternion.identity;
+        private bool lookedBack = false;
         private float lookStartTime = -1;
-        private float stareDuration = 3;
+        private float stareDuration = 5;
 
         /**
          * Do some setup on awake
@@ -52,6 +58,9 @@ namespace DeepBramble.MiscBehaviours
 
             //Grab the audio source
             longRangeSource = transform.Find("AudioController/OneShotSource_LongRange").gameObject.GetComponent<OWAudioSource>();
+
+            //Add ourselves to the static list
+            fishies.Add(this);
         }
 
         /**
@@ -91,9 +100,13 @@ namespace DeepBramble.MiscBehaviours
 
             //Otherwise, do some stuff
             playerSpooked = true;
-            lookTarget = noiseMaker._attachedBody;
-            lookStartTime = Time.time;
-            originalRotation = transform.rotation.eulerAngles;
+            foreach (DomesticFishController controller in fishies)
+            {
+                controller.lookTarget = noiseMaker._attachedBody;
+                controller.lookStartTime = Time.time;
+                controller.originalRotation = controller.transform.rotation;
+            }
+            longRangeSource.PlayOneShot(AudioType.DBAnglerfishDetectDisturbance);
         }
 
         /**
@@ -108,6 +121,15 @@ namespace DeepBramble.MiscBehaviours
         }
 
         /**
+         * Resets the static things to prepare for a new loop
+         */
+        public static void Reset()
+        {
+            playerSpooked = false;
+            fishies = new List<DomesticFishController>();
+        }
+
+        /**
          * Rotate the fishy if there's a target
          */
         private void FixedUpdate()
@@ -116,20 +138,25 @@ namespace DeepBramble.MiscBehaviours
             if (lookTarget == null)
                 return;
 
-            /*
-            Vector3 targetDirection = lookTarget.transform.position - transform.position;
-            targetDirection = targetDirection.normalized;
-            float lookAmount = lookSpeed * Time.deltaTime;
-            Vector3 newDirection = Vector3.RotateTowards(transform.forward, targetDirection, lookAmount, 0);
-            transform.LookAt(newDirection);
-            */
-
-            Vector3 targetDirection = lookTarget.transform.position - transform.position;
-            Vector3 axis = Vector3.Cross(targetDirection.normalized, transform.forward).normalized;
-            float angle = Vector3.SignedAngle(transform.forward, targetDirection.normalized, axis);
-            angle = Mathf.Clamp(angle, -lookSpeed, lookSpeed);
-            angle *= Time.deltaTime;
-            transform.Rotate(axis, angle, Space.World);
+            //Make it just stare at the player for a bit
+            if (Time.time < lookStartTime + stareDuration)
+            {
+                Vector3 targetDirection = lookTarget.transform.position - transform.position;
+                Vector3 axis = Vector3.Cross(targetDirection.normalized, transform.forward).normalized;
+                float matchAngle = Vector3.SignedAngle(transform.forward, targetDirection.normalized, axis);
+                float actualAngle = Mathf.Clamp(matchAngle, -lookSpeed * Time.deltaTime, lookSpeed * Time.deltaTime);
+                transform.Rotate(axis, actualAngle, Space.World);
+            }
+            else
+            {
+                if(!lookedBack)
+                {
+                    lookedBack = true;
+                    finalStareRotation = transform.rotation;
+                }
+                float lookAmount = (Time.time - (lookStartTime + stareDuration)) / lookBackTime;
+                transform.rotation = Quaternion.Lerp(finalStareRotation, originalRotation, lookAmount);
+            }
         }
     }
 }

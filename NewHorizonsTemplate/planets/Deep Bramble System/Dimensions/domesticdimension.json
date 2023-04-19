@@ -1,0 +1,41 @@
+{
+  "name": "Domestic Dimension",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "DeepBramble",
+
+  "Base": {
+    "groundSize": 0,
+    "surfaceSize": 0,
+    "surfaceGravity": 0,
+    "hasMapMarker": false,
+    "showMinimap": false
+  },
+  "Orbit": {
+    "staticPosition": {
+      "x": -10000,
+      "y": 0,
+      "z": -10000
+    }
+  },
+  "Bramble": {
+    "dimension": {
+      "linksTo": "Domestic Node",
+      "fogDensity": 2,
+      "vinePrefab": "hub",
+      "radius": 500
+    }
+  },
+  "Props": {
+    "details": [
+      {
+        "assetBundle": "assetbundles/observation_lab",
+        "path": "Assets/Prefabs/buildings/observation_lab.prefab",
+        "rotation": {
+          "x": 44.0179,
+          "y": 294.4737,
+          "z": 0
+        }
+      }
+    ]
+  }
+}

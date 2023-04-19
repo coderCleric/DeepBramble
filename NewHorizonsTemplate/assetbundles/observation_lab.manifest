@@ -1,0 +1,74 @@
+ManifestFileVersion: 0
+CRC: 4074522644
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a6c1428c08c1ece8a51e3da168e79fa5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: d9f79f9d7c6b7a10ba3b4b795cc17563
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3bfd83f28489a24bc69cb526ff54d468, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eecfc1b39ba9e0000e410dc9ec32a8ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1dcb8b570234015f281c1774637aeaf1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7aba6c2ce49844631cfc871c69533e25, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/buildings/observation_lab.prefab
+Dependencies:
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/domestic_fish
