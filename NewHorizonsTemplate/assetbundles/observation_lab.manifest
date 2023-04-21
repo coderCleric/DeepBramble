@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 4074522644
+CRC: 1029435535
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a6c1428c08c1ece8a51e3da168e79fa5
+    Hash: a6b089d52c64455702b9ed4133303f4c
   TypeTreeHash:
     serializedVersion: 2
-    Hash: d9f79f9d7c6b7a10ba3b4b795cc17563
+    Hash: cd473fdfa4376fe85c5d3bee0bb16ec3
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -46,13 +46,19 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 3bfd83f28489a24bc69cb526ff54d468, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: eecfc1b39ba9e0000e410dc9ec32a8ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1dcb8b570234015f281c1774637aeaf1, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
 - Class: 114
@@ -65,10 +71,15 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 - Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/buildings/observation_lab.prefab
-Dependencies:
-- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/domestic_fish
+Dependencies: []
