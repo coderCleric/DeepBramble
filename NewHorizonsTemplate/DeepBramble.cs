@@ -290,6 +290,11 @@ namespace DeepBramble
                             quantumRock.SetSector(null);
                             if(specialSocket != null)
                                 quantumRock.specialSocket = specialSocket;
+
+                            //Set up the swapping text on the scroll
+                            ScrollTextSwitcher scrollSwitcher = sectorTransform.Find("quantumTrickScroll").gameObject.AddComponent<ScrollTextSwitcher>();
+                            scrollSwitcher.RegisterTrigger(quantumFadeTrigger.gameObject.GetComponent<OWTriggerVolume>());
+
                             break;
 
                         case "Heart Planet":

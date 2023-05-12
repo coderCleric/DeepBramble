@@ -54,6 +54,8 @@
     ],
     "translatorText": [
       {
+        "rename": "quantumTrickScroll",
+        "seed": 85368,
         "type": "scroll",
         "xmlFile": "planets/Deep Bramble System/Text/treerecorder.xml",
         "position": {
@@ -66,6 +68,14 @@
           "y": 118.0437,
           "z": 197.6499
         }
+      },
+      {
+        "rename": "altScrollText",
+        "parentPath": "Sector/quantumTrickScroll",
+        "isRelativeToParent": true,
+        "seed": 85368,
+        "type": "wall",
+        "xmlFile": "planets/Deep Bramble System/Text/janktext.xml"
       }
     ]
   }

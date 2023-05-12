@@ -1,0 +1,82 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+  <!--Text that appears-->
+  <TextBlock>
+    <ID>1</ID>
+    <Text>
+      OKALIS: It worked, so that's nice
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>2</ID>
+    <ParentID>1</ParentID>
+    <Text>
+      NESIA: Suppose that this place does not obey euclidean laws. What if that wooden sphere is actually the one we found ourselves in, but we were smaller when inside it?
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>
+      OKALIS: What an intriguing idea Nesia! Suppose that, instead, these spheres allow travelers to instantaneously teleport between them?
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>4</ID>
+    <ParentID>3</ParentID>
+    <Text>
+      NESIA: Hm, assuming what you said to be true, that might explain how we were able to warp earlier. What if this place interfered with our warp? Could it have done the same to the <![CDATA[<color=orange>Vessel</color>]]>?
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>5</ID>
+    <ParentID>4</ParentID>
+    <Text>
+      SENNETTI: Friends, while the curiosities of this place intrigue me as well, I believe we should focus on securing our survival first and foremost.
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>6</ID>
+    <ParentID>5</ParentID>
+    <Text>
+      AZOLLA: Sennetti is right; As much as we may desire to study our environment, our first priority should be to locate oxygen, as well as somewhere to set up shelter.
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>7</ID>
+    <ParentID>6</ParentID>
+    <Text>
+      OKALIS: I believe that I can see a number of small planetoids over there, could they be a candidate?
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>8</ID>
+    <ParentID>7</ParentID>
+    <Text>
+      NESIA: I see the objects that Okalis speaks of; there appear to be five small planetoids, and I believe that I can see a tree on one.
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>9</ID>
+    <ParentID>8</ParentID>
+    <Text>
+      AZOLLA: That settles it then. The tree will provide us oxygen, and we can set up basic shelter on the planetoids themselves. One of them seems noticeably smaller than the others, so we can use it for building materials.
+    </Text>
+  </TextBlock>
+
+  <!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>TREE_SHRINE_RECORDER_FACT</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+</NomaiObject>
