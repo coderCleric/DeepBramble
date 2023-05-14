@@ -336,6 +336,9 @@
       <None Update="planets\Deep Bramble System\Planets\Planetoid Cluster\treerock.nhcache">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Deep Bramble System\Planets\poisonplanet.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Deep Bramble System\Ship Logs\camp_planetoid.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

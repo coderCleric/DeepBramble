@@ -1,0 +1,38 @@
+{
+	"name": "The Venomous Reject",
+	"$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"starSystem": "DeepBramble",
+	"canShowOnTitle": false,
+	"Base": {
+		"groundSize": 0,
+		"surfaceSize": 175,
+		"surfaceGravity": 5,
+		"hasMapMarker": true
+	},
+	"Orbit": {
+		"staticPosition": {
+			"x": 0,
+			"y": 0,
+			"z": -10000
+		},
+		"isStatic": true
+	},
+	"Water": {
+		"size": 70,
+		"tint": {
+			"r": 0,
+			"g": 140,
+			"b": 0,
+			"a": 255
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"keepLoaded": true,
+				"assetBundle": "assetbundles/poison_planet",
+				"path": "Assets/Prefabs/poison_planet.prefab"
+			}
+		]
+	}
+}

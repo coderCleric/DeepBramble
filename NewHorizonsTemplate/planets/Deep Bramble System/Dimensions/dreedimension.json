@@ -156,16 +156,17 @@
         "isRelativeToParent": true,
         "path": "VolcanicMoon_Body/Sector_VM/Interactables_VM/Prefab_NOM_Whiteboard_Shared/Props_NOM_Whiteboard_Shared",
         "position": {
-          "x": 0.4835,
-          "y": -0.7587,
-          "z": 3.3852
+          "x": 0.9308,
+          "y": -0.8351,
+          "z": 1.8979
         },
         "rotation": {
-          "x": 355.3868,
+          "x": 320.0583,
           "y": 174.3157,
-          "z": 272.9818
+          "z": 274.6903
         },
         "removeChildren": [ "whiteboard_brokenTiles" ],
+        "scale": 0.7,
         "alignRadial": false
       }
     ],
