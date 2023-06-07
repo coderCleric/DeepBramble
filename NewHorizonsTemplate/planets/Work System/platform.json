@@ -27,9 +27,10 @@
       {
         "name": "Dilation Node",
         "hasFogLight": false,
+        "scale": 0.2,
         "preventRecursionCrash": true,
         "position": {
-          "x": 300,
+          "x": 200,
           "y": 0,
           "z": 0
         },
