@@ -33,6 +33,7 @@ namespace DeepBramble
         private GameObject startDimensionObject;
         private AssetBundle titleBundle;
         public static PlayerAudioController playerAudioController = null;
+        public static float recallTimer = -999;
 
         //Paired things that need each other but may load at different times
         private BlockableQuantumObject quantumRock = null;
@@ -163,6 +164,8 @@ namespace DeepBramble
             //Debug thing, take out
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("WorkSystem"))
             {
+                //Find the dilation dimension & register it
+                Patches.dilationOuterWarp = GameObject.Find("DilationDimension_Body").transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
             }
         }
 
@@ -480,6 +483,20 @@ namespace DeepBramble
                     playerAudioController._damageAudioSource.SetMaxVolume(0.15f);
                 else
                     playerAudioController._damageAudioSource.SetMaxVolume(0.7f);
+            }
+
+            //If needed, count down to the probe being recalled
+            if(recallTimer > 0)
+            {
+                recallTimer -= Time.deltaTime;
+            }
+            //Otherwise, warp it if needed
+            else if(recallTimer <= 0 && recallTimer > -999)
+            {
+                Locator.GetProbe().ExternalRetrieve(silent: true);
+                NotificationData data = new NotificationData(NotificationTarget.All, "SCOUT RECALL COMPLETED");
+                NotificationManager.SharedInstance.PostNotification(data);
+                recallTimer = -999;
             }
 
             //Print the player's absolute and relative positions when k is pressed

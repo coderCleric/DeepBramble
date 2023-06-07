@@ -4,7 +4,7 @@
   "starSystem": "WorkSystem",
   "Base": {
     "groundSize": 0,
-    "surfaceSize": 0,
+    "surfaceSize": 500,
     "surfaceGravity": 0,
     "hasMapMarker": false,
     "centerOfSolarSystem": true
@@ -21,6 +21,21 @@
       "z": 0
     },
     "isStatic": true
+  },
+  "Bramble": {
+    "nodes": [
+      {
+        "name": "Dilation Node",
+        "hasFogLight": false,
+        "preventRecursionCrash": true,
+        "position": {
+          "x": 300,
+          "y": 0,
+          "z": 0
+        },
+        "linksTo": "Dilation Dimension"
+      }
+    ]
   },
   "Props": {
     "details": [

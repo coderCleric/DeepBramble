@@ -22,7 +22,7 @@
       "linksTo": "Nursery Node",
       "fogDensity": 1.2,
       "allowedEntrances": [ 3 ],
-      "vinePrefab": "exitOnly",
+      "vinePrefab": "none",
       "radius": 1500
     },
     "nodes": [
@@ -52,6 +52,51 @@
           "x": 299.3965,
           "y": 86.8908,
           "z": 32.4
+        }
+      },
+      {
+        "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body",
+        "parentPath": "Sector/nursery_tube",
+        "isRelativeToParent": true,
+        "position": {
+          "x": -98.4,
+          "y": 80.8,
+          "z": 212
+        },
+        "rotation": {
+          "x": 16.917,
+          "y": 56.987,
+          "z": 0
+        }
+      },
+      {
+        "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body",
+        "parentPath": "Sector/nursery_tube",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 14,
+          "y": 148,
+          "z": -214
+        },
+        "rotation": {
+          "x": 57.556,
+          "y": 28.751,
+          "z": 0
+        }
+      },
+      {
+        "path": "DB_HubDimension_Body/Sector_HubDimension/Interactables_HubDimension/Anglerfish_Body",
+        "parentPath": "Sector/nursery_tube",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 14,
+          "y": -212,
+          "z": -227
+        },
+        "rotation": {
+          "x": -34.544,
+          "y": 0,
+          "z": -25.074
         }
       }
     ]

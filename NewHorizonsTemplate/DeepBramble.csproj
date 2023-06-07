@@ -471,6 +471,9 @@
       <None Update="planets\Hearthian System\vesseldimension.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Work System\dilationdimension.json">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Work System\platform.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

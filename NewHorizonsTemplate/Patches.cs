@@ -7,6 +7,7 @@ using UnityEngine;
 using DeepBramble.BaseInheritors;
 using DeepBramble.MiscBehaviours;
 using HarmonyLib;
+using static TimelineObliterationController;
 
 namespace DeepBramble
 {
@@ -23,6 +24,7 @@ namespace DeepBramble
         public static bool fogRepositionHandled = false;
         private static bool hideFogEffect = false;
         public static bool playerAttachedToKevin = false;
+        private static bool probeDilated = false;
 
         //Other variables
         private static GameObject brambleHole = null;
@@ -34,6 +36,7 @@ namespace DeepBramble
         public static List<BlockableQuantumSocket> blockableSockets = new List<BlockableQuantumSocket>();
         private static Vector3 lastCOTUCachedVel = Vector3.zero;
         public static HazardVolume hotNodeHazard = null;
+        public static OuterFogWarpVolume dilationOuterWarp = null;
 
         //Needed for the baby angler & kevin
         public static Animator anglerAnimator = null;
@@ -57,6 +60,10 @@ namespace DeepBramble
         public static void LocatorStartup()
         {
             DeepBramble.debugPrint("Running locator startup");
+
+            //Reset a couple of flags
+            playerAttachedToKevin = false;
+            probeDilated = false;
 
             //If needed, vanish the ship
             if (startupFlags["vanishShip"])
@@ -121,6 +128,86 @@ namespace DeepBramble
                     BrambleContainer.setActiveDimension(bodyObject);
                 }
             }
+        }
+
+        //################################# Do funky time dilation node stuff #################################
+        /**
+         * If the player enters the dilation dimension, kill them. If the probe enters, set the lock
+         * 
+         * @param detector The warp detector being received
+         * @param __instance The calling warp volume
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
+        public static void DilationEntryManager(ref FogWarpDetector detector, FogWarpVolume __instance)
+        {
+            //Only do anything if this is the dilation dimension
+            OuterFogWarpVolume outerWarp = __instance as OuterFogWarpVolume;
+            if(outerWarp != null && outerWarp == dilationOuterWarp)
+            {
+                //If it's the player, kill them
+                if (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip()))
+                {
+                    Locator.GetDeathManager().KillPlayer(DeathType.TimeLoop);
+                }
+
+                //If it's the probe, engage the lock
+                else if (detector.CompareTag("ProbeDetector"))
+                {
+                    probeDilated = true;
+                }
+            }
+        }
+
+        /**
+         * Make interference if the probe is in the dilation dimension
+         * 
+         * @param __result Whether or not the probe should be interfered with
+         * @return Suppress the original if the probe is locked by the dilation dimension
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(ProbeCamera), nameof(ProbeCamera.HasInterference))]
+        public static bool DilationInterference(ref bool __result)
+        {
+            //Mark true and suppress if the probe is locked in
+            if(probeDilated)
+            {
+                __result = true;
+                return false;
+            }
+
+            return true;
+        }
+
+        /**
+         * Delay the recall if the probe is locked
+         * 
+         * @param forcedRetrieval Whether or not the retrieval was forced
+         * @return If the probe is locked and isn't being forced, stop it from recalling
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(ProbeLauncher), nameof(ProbeLauncher.RetrieveProbe))]
+        public static bool DelayRetrieve(bool playEffects, bool forcedRetrieval, ProbeLauncher __instance)
+        {
+            //Request the recall if it's locked in
+            if(!forcedRetrieval && probeDilated)
+            {
+                if (DeepBramble.recallTimer == -999)
+                    DeepBramble.recallTimer = 3;
+                NotificationData data = new NotificationData(NotificationTarget.All, "RECALL REQUEST UNACKNOWLEDGED");
+                NotificationManager.SharedInstance.PostNotification(data);
+                return false;
+            }
+
+            //Play the recall effects manually if it was forced but still locked
+            else if(DeepBramble.recallTimer > -999 && !playEffects)
+            {
+                __instance._effects.PlayRetrievalClip();
+                __instance._probeRetrievalEffect.WarpObjectIn(__instance._probeRetrievalLength);
+            }
+
+            probeDilated = false; //If it's recalled, it's no longer dilated
+            return true;
         }
 
         //################################# Suppress hot node damage effects #################################
@@ -258,7 +345,7 @@ namespace DeepBramble
          * @return False if the player is attached to kevin, true otherwise
          */
         [HarmonyPrefix]
-        [HarmonyPatch(typeof(CenterOfTheUniverse), nameof(CenterOfTheUniverse.FixedUpdate))]
+        [HarmonyPatch(typeof(AnglerfishController), nameof(AnglerfishController.OnClosestAudibleNoise))]
         public static bool MufflePlayer()
         {
             return !playerAttachedToKevin;
@@ -695,6 +782,13 @@ namespace DeepBramble
             }
             else
                 return;
+
+            //Don't break things if there was no container
+            if(outerVolume == null)
+            {
+                DeepBramble.relBody = null;
+                return;
+            }
 
             //Set the dimension to be the relative body
             Transform tf = outerVolume.transform;
