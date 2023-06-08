@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace DeepBramble.MiscBehaviours
 {
-    class Lever : MonoBehaviour
+    public class Lever : MonoBehaviour
     {
         private GameObject beamObject = null;
         private GameObject spikeObject = null;

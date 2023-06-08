@@ -90,6 +90,12 @@
       <None Update="assetbundles\camp_planetoid.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assetbundles\dead_node">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\dead_node.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assetbundles\dirtball">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

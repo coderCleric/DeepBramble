@@ -42,6 +42,23 @@
     "details": [
       {
         "keepLoaded": true,
+        "assetBundle": "assetbundles/dead_node",
+        "path": "Assets/Prefabs/props/dead_node.prefab",
+        "parentPath": "Sector/Dilation Node",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "keepLoaded": true,
         "assetBundle": "assetbundles/gravplatform",
         "path": "Assets/Prefabs/GravPlatform.prefab",
         "position": {

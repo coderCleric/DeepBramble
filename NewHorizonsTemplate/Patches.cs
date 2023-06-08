@@ -24,7 +24,7 @@ namespace DeepBramble
         public static bool fogRepositionHandled = false;
         private static bool hideFogEffect = false;
         public static bool playerAttachedToKevin = false;
-        private static bool probeDilated = false;
+        public static bool probeDilated = false;
 
         //Other variables
         private static GameObject brambleHole = null;
@@ -200,7 +200,8 @@ namespace DeepBramble
             }
 
             //Play the recall effects manually if it was forced but still locked
-            else if(DeepBramble.recallTimer > -999 && !playEffects)
+            else if(DeepBramble.recallTimer > -999 && !playEffects && 
+                Locator.GetToolModeSwapper().GetProbeLauncher() == __instance && Locator.GetToolModeSwapper().GetToolMode() == ToolMode.Probe)
             {
                 __instance._effects.PlayRetrievalClip();
                 __instance._probeRetrievalEffect.WarpObjectIn(__instance._probeRetrievalLength);
@@ -209,6 +210,26 @@ namespace DeepBramble
             probeDilated = false; //If it's recalled, it's no longer dilated
             return true;
         }
+
+        /**
+         * Mess with distance to prevent things entering dead nodes
+         * 
+         * @param __result The reported distance
+         * @param __instance The calling inner warp volume
+         * @return Don't do the original math on an override
+         */
+        /*[HarmonyPostfix]
+        [HarmonyPatch(typeof(InnerFogWarpVolume), nameof(InnerFogWarpVolume.CheckWarpProximity))]
+        public static bool DistanceOverride(ref float __result, InnerFogWarpVolume __instance)
+        {
+            NodeKiller killer = __instance.gameObject.GetComponent<NodeKiller>();
+            if(killer != null && killer.IsDead())
+            {
+                __result = 9999; //Just need to tell everything that it's far away
+                return false;
+            }
+            return true;
+        }*/
 
         //################################# Suppress hot node damage effects #################################
         /**

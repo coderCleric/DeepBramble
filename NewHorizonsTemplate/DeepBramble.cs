@@ -166,6 +166,9 @@ namespace DeepBramble
             {
                 //Find the dilation dimension & register it
                 Patches.dilationOuterWarp = GameObject.Find("DilationDimension_Body").transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
+
+                //Add the killer to the dilation node
+                Patches.dilationOuterWarp._linkedInnerWarpVolume.gameObject.AddComponent<NodeKiller>();
             }
         }
 
