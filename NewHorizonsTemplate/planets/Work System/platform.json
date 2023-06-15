@@ -144,6 +144,21 @@
           }
         ]
       }
+    ],
+    "signals": [
+      {
+        "rename": "dilation_signal",
+        "audio": "OW_TravelerTheme_harmonica",
+        "parentPath": "Sector/Dilation Node",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frequency": "Nomai Trailmarkers",
+        "name": "Warped Echolocation"
+      }
     ]
   },
   "Spawn": {

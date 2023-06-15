@@ -13,7 +13,7 @@ namespace DeepBramble.MiscBehaviours
         private float dieTime = 0;
         private bool waitingToDie = false;
 
-        //Things it turns on/off
+        //Things it manipulates on death
         private GameObject effects = null;
         private GameObject liveNode = null;
         private GameObject caps = null;
@@ -82,6 +82,7 @@ namespace DeepBramble.MiscBehaviours
                 }
 
                 //Disable the Dree signal
+                GetComponentInChildren<AudioSignal>().gameObject.SetActive(false);
             }
         }
     }
