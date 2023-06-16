@@ -37,6 +37,7 @@ namespace DeepBramble
         private static Vector3 lastCOTUCachedVel = Vector3.zero;
         public static HazardVolume hotNodeHazard = null;
         public static OuterFogWarpVolume dilationOuterWarp = null;
+        public static DilatedDitylumManager dilatedDitylum = null;
 
         //Needed for the baby angler & kevin
         public static Animator anglerAnimator = null;
@@ -148,7 +149,11 @@ namespace DeepBramble
                 //If it's the player, kill them
                 if (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip()))
                 {
-                    Locator.GetDeathManager().KillPlayer(DeathType.TimeLoop);
+                    //Locator.GetDeathManager().KillPlayer(DeathType.TimeLoop);
+                    OWRigidbody playerBody = Locator.GetPlayerBody();
+                    Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
+                    playerBody.SetVelocity(wantedVel);
+                    dilatedDitylum.LookAtPlayer();
                 }
 
                 //If it's the probe, engage the lock
@@ -210,26 +215,6 @@ namespace DeepBramble
             probeDilated = false; //If it's recalled, it's no longer dilated
             return true;
         }
-
-        /**
-         * Mess with distance to prevent things entering dead nodes
-         * 
-         * @param __result The reported distance
-         * @param __instance The calling inner warp volume
-         * @return Don't do the original math on an override
-         */
-        /*[HarmonyPostfix]
-        [HarmonyPatch(typeof(InnerFogWarpVolume), nameof(InnerFogWarpVolume.CheckWarpProximity))]
-        public static bool DistanceOverride(ref float __result, InnerFogWarpVolume __instance)
-        {
-            NodeKiller killer = __instance.gameObject.GetComponent<NodeKiller>();
-            if(killer != null && killer.IsDead())
-            {
-                __result = 9999; //Just need to tell everything that it's far away
-                return false;
-            }
-            return true;
-        }*/
 
         //################################# Suppress hot node damage effects #################################
         /**

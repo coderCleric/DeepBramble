@@ -169,6 +169,9 @@ namespace DeepBramble
 
                 //Add the killer to the dilation node
                 Patches.dilationOuterWarp._linkedInnerWarpVolume.gameObject.AddComponent<NodeKiller>();
+
+                //Add the rotation controller to Ditylum
+                Patches.dilatedDitylum = GameObject.Find("ditylum").AddComponent<DilatedDitylumManager>();
             }
         }
 

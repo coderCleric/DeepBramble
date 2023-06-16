@@ -150,6 +150,9 @@
         "rename": "dilation_signal",
         "audio": "OW_TravelerTheme_harmonica",
         "parentPath": "Sector/Dilation Node",
+        "identificationRadius": 0,
+        "sourceRadius": 1,
+        "detectionRadius": 0,
         "isRelativeToParent": true,
         "position": {
           "x": 0,

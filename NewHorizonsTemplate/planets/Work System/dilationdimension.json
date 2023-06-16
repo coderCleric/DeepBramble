@@ -22,13 +22,27 @@
       "linksTo": "Dilation Node",
       "fogDensity": 1.3,
       "radius": 750,
-      "fogTint": {
-        "r": 128,
-        "g": 51,
-        "b": 0,
-        "a": 255
-      },
       "allowedEntrances": [ 4 ]
     }
+  },
+
+  "Props": {
+    "details": [
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/ditylum",
+        "path": "Assets/Prefabs/props/ditylum.prefab",
+        "position": {
+          "x": -149.2,
+          "y": 346.9,
+          "z": -1209.3
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ]
   }
 }
