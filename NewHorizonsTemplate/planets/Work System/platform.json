@@ -58,6 +58,23 @@
         }
       },
       {
+        "assetBundle": "assetbundles/ditylum",
+        "path": "Assets/Prefabs/props/ditylum.prefab",
+        "rename": "outerditylum",
+        "hasPhysics": true,
+        "physicsRadius": 0,
+        "position": {
+          "x": 100,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
         "keepLoaded": true,
         "assetBundle": "assetbundles/gravplatform",
         "path": "Assets/Prefabs/GravPlatform.prefab",

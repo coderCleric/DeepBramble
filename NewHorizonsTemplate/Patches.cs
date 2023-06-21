@@ -7,7 +7,7 @@ using UnityEngine;
 using DeepBramble.BaseInheritors;
 using DeepBramble.MiscBehaviours;
 using HarmonyLib;
-using static TimelineObliterationController;
+using DeepBramble.Ditylum;
 
 namespace DeepBramble
 {

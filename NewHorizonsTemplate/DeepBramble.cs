@@ -13,6 +13,7 @@ using DeepBramble.BaseInheritors;
 using DeepBramble.Triggers;
 using DeepBramble.MiscBehaviours;
 using System.Linq;
+using DeepBramble.Ditylum;
 
 namespace DeepBramble
 {
@@ -172,6 +173,9 @@ namespace DeepBramble
 
                 //Add the rotation controller to Ditylum
                 Patches.dilatedDitylum = GameObject.Find("ditylum").AddComponent<DilatedDitylumManager>();
+
+                //Add the swim controller to outer ditylum
+                GameObject.Find("outerditylum").AddComponent<SwimmingDitylumManager>();
             }
         }
 
