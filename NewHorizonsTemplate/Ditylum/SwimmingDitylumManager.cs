@@ -12,7 +12,8 @@ namespace DeepBramble.Ditylum
         private OWRigidbody body = null;
         private PlayerLockOnTargeting lockOnThing = null;
         private bool activated = false;
-        private float swimSpeed = 5f;
+        private float swimSpeed = 7f;
+        private bool isSwimming = false;
 
         /**
          * Grab the player lock on thingy when we start up
@@ -61,10 +62,22 @@ namespace DeepBramble.Ditylum
          */
         public void StartMoving()
         {
-            Vector3 move = body.GetOrigParent().position - transform.position;
-            move = move.normalized;
-            move = move * swimSpeed;
-            body.AddAcceleration(move);
+            isSwimming = true;
+        }
+
+        /**
+         * Apply some acceleration every frame, and despawn when far enough away
+         */
+        private void Update()
+        {
+            //Schmoovin' time
+            if(isSwimming && body != null)
+            {
+                Vector3 move = body._origParent.transform.position - transform.position;
+                move = move.normalized;
+                move *= swimSpeed;
+                body.AddAcceleration(move);
+            }
         }
     }
 }
