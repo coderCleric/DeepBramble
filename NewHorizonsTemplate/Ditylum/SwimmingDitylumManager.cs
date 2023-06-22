@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
@@ -14,6 +15,7 @@ namespace DeepBramble.Ditylum
         private bool activated = false;
         private float swimSpeed = 7f;
         private bool isSwimming = false;
+        private float disableTime = -1;
 
         /**
          * Grab the player lock on thingy when we start up
@@ -71,13 +73,29 @@ namespace DeepBramble.Ditylum
         private void Update()
         {
             //Schmoovin' time
-            if(isSwimming && body != null)
+            if (isSwimming)
             {
-                Vector3 move = body._origParent.transform.position - transform.position;
-                move = move.normalized;
-                move *= swimSpeed;
-                body.AddAcceleration(move);
+                if (body != null)
+                {
+                    Vector3 move = body._origParent.transform.position - transform.position;
+                    move = move.normalized;
+                    move *= swimSpeed;
+                    body.AddAcceleration(move);
+                }
+
+                //If we get too far away, fade away and unlock the player
+                if(Vector3.Distance(transform.position, Locator.GetPlayerBody().transform.position) > 200)
+                {
+                    isSwimming = false;
+                    disableTime = Time.time + 5.0f;
+                    UnlockPlayer();
+                    GetComponent<SectorCullGroup>().SetVisible(false);
+                }
             }
+
+            //If we should disable, do so
+            if(disableTime > 0 && Time.time  > disableTime)
+                transform.parent.gameObject.SetActive(false);
         }
     }
 }
