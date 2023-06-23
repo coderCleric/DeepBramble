@@ -17,9 +17,9 @@ namespace DeepBramble.Triggers
         private void OnTriggerEnter(Collider other)
         {
             //Need to find if the right collider entered
-            if (other.gameObject.name.Equals("Cockpit_Collision_Front") && other.transform.parent.parent.parent.parent.parent.GetComponent<ShipBody>() != null)
+            if (other.CompareTag("ShipDetector"))
             {
-                AlignShipWithReferenceFrame shipAligner = other.transform.parent.parent.parent.parent.parent.GetComponent<AlignShipWithReferenceFrame>();
+                AlignShipWithReferenceFrame shipAligner = other.transform.parent.gameObject.GetComponent<AlignShipWithReferenceFrame>();
                 shipAligner.SetLocalAlignmentAxis(shipAligner._localAlignmentAxis * -1);
                 DeepBramble.debugPrint("Cam Inverting");
             }
@@ -33,9 +33,9 @@ namespace DeepBramble.Triggers
         private void OnTriggerExit(Collider other)
         {
             //Need to find if the right collider entered
-            if (other.gameObject.name.Equals("Cockpit_Collision_Front") && other.transform.parent.parent.parent.parent.parent.GetComponent<ShipBody>() != null)
+            if (other.CompareTag("ShipDetector"))
             {
-                AlignShipWithReferenceFrame shipAligner = other.transform.parent.parent.parent.parent.parent.GetComponent<AlignShipWithReferenceFrame>();
+                AlignShipWithReferenceFrame shipAligner = other.transform.parent.gameObject.GetComponent<AlignShipWithReferenceFrame>();
                 shipAligner.SetLocalAlignmentAxis(shipAligner._localAlignmentAxis * -1);
                 DeepBramble.debugPrint("Cam Reorienting");
             }
