@@ -75,7 +75,7 @@
         }
       },
       {
-        "keepLoaded": true,
+        "keepLoaded": false,
         "assetBundle": "assetbundles/gravplatform",
         "path": "Assets/Prefabs/GravPlatform.prefab",
         "position": {

@@ -29,7 +29,7 @@ namespace DeepBramble.Triggers
          */
         private void DisableHeat(GameObject other)
         {
-            if (other.GetAttachedOWRigidbody().CompareTag("Player"))
+            if (other.CompareTag("PlayerDetector"))
             {
                 insideCount++;
                 Patches.hotNodeHazard.gameObject.SetActive(false);
@@ -43,7 +43,7 @@ namespace DeepBramble.Triggers
          */
         private void EnableHeat(GameObject other)
         {
-            if (other.GetAttachedOWRigidbody().CompareTag("Player"))
+            if (other.CompareTag("PlayerDetector"))
             {
                 insideCount--;
                 if(insideCount == 0)

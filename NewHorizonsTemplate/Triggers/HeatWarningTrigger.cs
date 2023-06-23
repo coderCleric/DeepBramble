@@ -28,8 +28,9 @@ namespace DeepBramble.Triggers
          */
         private void PostNotification(GameObject other)
         {
-            if (other.GetAttachedOWRigidbody().CompareTag("Player"))
+            if (other.CompareTag("PlayerDetector"))
             {
+                DeepBramble.debugPrint("notif posted");
                 //Post and pin the notification
                 NotificationManager.SharedInstance.PostNotification(heatNotification, true);
             }
@@ -42,7 +43,7 @@ namespace DeepBramble.Triggers
          */
         private void UnpostNotification(GameObject other)
         {
-            if (other.GetAttachedOWRigidbody().CompareTag("Player"))
+            if (other.CompareTag("PlayerDetector"))
             {
                 //Post and pin the notification
                 NotificationManager.SharedInstance.UnpinNotification(heatNotification);
