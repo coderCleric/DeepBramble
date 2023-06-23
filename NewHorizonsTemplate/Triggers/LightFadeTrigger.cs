@@ -13,7 +13,6 @@ namespace DeepBramble.Triggers
         //Variables
         public float fadetime = 0.5f;
         public LightFadeGroup fadeGroup = null;
-        public bool active = false;
 
         /**
          * Tell the group when the player enters the trigger
@@ -22,9 +21,8 @@ namespace DeepBramble.Triggers
          */
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.GetAttachedOWRigidbody().CompareTag("Player") && !active)
+            if (other.CompareTag("PlayerDetector"))
             {
-                active = true;
                 if (fadeGroup != null)
                     fadeGroup.OnTriggerActivate(this);
             }
@@ -37,9 +35,8 @@ namespace DeepBramble.Triggers
          */
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.GetAttachedOWRigidbody().CompareTag("Player") && active)
+            if (other.CompareTag("PlayerDetector"))
             {
-                active = false;
                 if (fadeGroup != null)
                     fadeGroup.OnTriggerDeactivate(this);
             }

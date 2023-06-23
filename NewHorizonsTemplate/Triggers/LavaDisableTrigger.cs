@@ -28,7 +28,7 @@ namespace DeepBramble.Triggers
          */
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.GetAttachedOWRigidbody().CompareTag("Player"))
+            if (other.CompareTag("PlayerDetector"))
             {
                 lavaSphere.SetActive(false);
             }
@@ -41,7 +41,7 @@ namespace DeepBramble.Triggers
          */
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.GetAttachedOWRigidbody().CompareTag("Player"))
+            if (other.CompareTag("PlayerDetector"))
             {
                 lavaSphere.SetActive(true);
             }

@@ -13,10 +13,6 @@ namespace DeepBramble.Triggers
         private static PillarGravityController activeField = null;
         private static PillarGravityController backupField = null;
 
-        //Flags
-        private bool alreadyEntered = false;
-        private bool alreadyExited = true;
-
         /**
          * When the player enters, determine how this field should be treated
          * 
@@ -24,11 +20,9 @@ namespace DeepBramble.Triggers
          */
         private void OnTriggerEnter(Collider other)
         {
-            if (other.gameObject.GetAttachedOWRigidbody().CompareTag("Player") && !this.alreadyEntered)
+            if (other.CompareTag("PlayerDetector"))
             {
                 DeepBramble.debugPrint(this + " called OnTriggerEnter");
-                this.alreadyExited = false;
-                this.alreadyEntered = true;
 
                 //If there's no active field, set this one and allow it to align
                 if (activeField == null)
@@ -54,11 +48,9 @@ namespace DeepBramble.Triggers
          */
         private void OnTriggerExit(Collider other)
         {
-            if (other.gameObject.GetAttachedOWRigidbody().CompareTag("Player") && !this.alreadyExited)
+            if (other.CompareTag("PlayerDetector"))
             {
                 DeepBramble.debugPrint(this + " called OnTriggerExit");
-                this.alreadyEntered = false;
-                this.alreadyExited = true;
 
                 //If this is the active field, demote it and promote the backup
                 if (this == activeField)
