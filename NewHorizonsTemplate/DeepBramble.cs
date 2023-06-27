@@ -31,20 +31,7 @@ namespace DeepBramble
         private SignalHelper signalHelper;
         private EntryLocationHelper entryHelper;
         private DecorHelper decorHelper;
-        private GameObject startDimensionObject;
-        private AssetBundle titleBundle;
-        public static PlayerAudioController playerAudioController = null;
         public static float recallTimer = -999;
-
-        //Paired things that need each other but may load at different times
-        private BlockableQuantumObject quantumRock = null;
-        private BlockableQuantumSocket specialSocket = null;
-
-        private LightFadeGroup lavaLightFadeGroup = null;
-        private LightFadeTrigger heartLightFadeTrigger = null;
-
-        private Material greenTreeMat = null;
-        private Transform heartDimensionSector = null;
 
         //Only needed for debug
         public static Transform relBody = null;
@@ -62,7 +49,7 @@ namespace DeepBramble
             NewHorizonsAPI.LoadConfigs(this);
 
             //Do stuff when the title screen loads
-            this.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
+            ForgottenLocator.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
             this.MakeTitleEdits();
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
@@ -110,7 +97,7 @@ namespace DeepBramble
         private void PrepSystem(String s)
         {
             //Do this stuff no matter where we are
-            Patches.blockableSockets = new List<BlockableQuantumSocket>();
+            ForgottenLocator.blockableSockets = new List<BlockableQuantumSocket>();
             DomesticFishController.Reset();
 
             //Do this stuff if we're in the bramble system
@@ -166,13 +153,13 @@ namespace DeepBramble
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("WorkSystem"))
             {
                 //Find the dilation dimension & register it
-                Patches.dilationOuterWarp = GameObject.Find("DilationDimension_Body").transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
+                ForgottenLocator.dilationOuterWarp = GameObject.Find("DilationDimension_Body").transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
 
                 //Add the killer to the dilation node
-                Patches.dilationOuterWarp._linkedInnerWarpVolume.gameObject.AddComponent<NodeKiller>();
+                ForgottenLocator.dilationOuterWarp._linkedInnerWarpVolume.gameObject.AddComponent<NodeKiller>();
 
                 //Add the rotation controller to Ditylum
-                Patches.dilatedDitylum = GameObject.Find("ditylum").AddComponent<DilatedDitylumManager>();
+                ForgottenLocator.dilatedDitylum = GameObject.Find("ditylum").AddComponent<DilatedDitylumManager>();
 
                 //Add the swim controller to outer ditylum
                 GameObject.Find("outerditylum").AddComponent<SwimmingDitylumManager>();
@@ -226,15 +213,15 @@ namespace DeepBramble
 
                         case "Shattered Hearth":
                             //Grab the mat from the tree
-                            greenTreeMat = sectorTransform.Find("shattered_planet/park_area/GEO_NomaiTree_1_Trunk").gameObject.GetComponent<MeshRenderer>().material;
-                            if(heartDimensionSector != null)
-                                ReskinHeartDimension(greenTreeMat, heartDimensionSector);
+                            ForgottenLocator.greenTreeMat = sectorTransform.Find("shattered_planet/park_area/GEO_NomaiTree_1_Trunk").gameObject.GetComponent<MeshRenderer>().material;
+                            if(ForgottenLocator.heartDimensionSector != null)
+                                ReskinHeartDimension(ForgottenLocator.greenTreeMat, ForgottenLocator.heartDimensionSector);
                             break;
 
                         case "Magma's Recursion":
                             //Register the hazard with patches
-                            Patches.hotNodeHazard = sectorTransform.Find("lava_planet/heat_hazard").gameObject.GetComponent<HazardVolume>();
-                            Patches.hotNodeHazard.gameObject.AddComponent<HeatWarningTrigger>();
+                            ForgottenLocator.hotNodeHazard = sectorTransform.Find("lava_planet/heat_hazard").gameObject.GetComponent<HazardVolume>();
+                            ForgottenLocator.hotNodeHazard.gameObject.AddComponent<HeatWarningTrigger>();
 
                             //Make all of the cool zones
                             foreach(OWTriggerVolume trig in sectorTransform.gameObject.GetComponentsInChildren<OWTriggerVolume>())
@@ -251,20 +238,20 @@ namespace DeepBramble
                             Light planetLight = body.transform.Find("Sector/AmbientLight").GetComponent<Light>();
 
                             //Make the fade group
-                            lavaLightFadeGroup = caveTriggerRoot.gameObject.AddComponent<LightFadeGroup>();
-                            lavaLightFadeGroup.AddLight(dimensionLight);
-                            lavaLightFadeGroup.AddLight(planetLight);
-                            if (heartLightFadeTrigger != null)
-                                lavaLightFadeGroup.RegisterTrigger(heartLightFadeTrigger);
+                            ForgottenLocator.lavaLightFadeGroup = caveTriggerRoot.gameObject.AddComponent<LightFadeGroup>();
+                            ForgottenLocator.lavaLightFadeGroup.AddLight(dimensionLight);
+                            ForgottenLocator.lavaLightFadeGroup.AddLight(planetLight);
+                            if (ForgottenLocator.heartLightFadeTrigger != null)
+                                ForgottenLocator.lavaLightFadeGroup.RegisterTrigger(ForgottenLocator.heartLightFadeTrigger);
 
                             //Quantum Cave trigger
                             LightFadeTrigger quantumFadeTrigger = caveTriggerRoot.Find("quantumcavetrigger").gameObject.AddComponent<LightFadeTrigger>();
-                            lavaLightFadeGroup.RegisterTrigger(quantumFadeTrigger);
+                            ForgottenLocator.lavaLightFadeGroup.RegisterTrigger(quantumFadeTrigger);
 
                             //Gas Cave trigger
                             LightFadeTrigger gasFadeTrigger = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<LightFadeTrigger>();
                             gasFadeTrigger.fadetime = 2.0f;
-                            lavaLightFadeGroup.RegisterTrigger(gasFadeTrigger);
+                            ForgottenLocator.lavaLightFadeGroup.RegisterTrigger(gasFadeTrigger);
                             LavaDisableTrigger gasLavaDisable = caveTriggerRoot.Find("gascavetrigger").gameObject.AddComponent<LavaDisableTrigger>();
                             gasLavaDisable.RegisterLavaSphere(sectorTransform.Find("MoltenCore").gameObject);
 
@@ -298,11 +285,11 @@ namespace DeepBramble
 
                             //Then the rock
                             Transform rockTF = quantumCaveRoot.Find("quantum_rock");
-                            quantumRock = rockTF.gameObject.AddComponent<BlockableQuantumObject>();
-                            quantumRock._randomYRotation = false;
-                            quantumRock.SetSector(null);
-                            if(specialSocket != null)
-                                quantumRock.specialSocket = specialSocket;
+                            ForgottenLocator.quantumRock = rockTF.gameObject.AddComponent<BlockableQuantumObject>();
+                            ForgottenLocator.quantumRock._randomYRotation = false;
+                            ForgottenLocator.quantumRock.SetSector(null);
+                            if(ForgottenLocator.specialSocket != null)
+                                ForgottenLocator.quantumRock.specialSocket = ForgottenLocator.specialSocket;
 
                             //Set up the swapping text on the scroll
                             ScrollTextSwitcher scrollSwitcher = sectorTransform.Find("quantumTrickScroll").gameObject.AddComponent<ScrollTextSwitcher>();
@@ -312,9 +299,9 @@ namespace DeepBramble
 
                         case "Heart Planet":
                             //Make the light fade trigger
-                            heartLightFadeTrigger = sectorTransform.Find("final_lab/quantum_room/grav").gameObject.AddComponent<LightFadeTrigger>();
-                            if (lavaLightFadeGroup != null)
-                                lavaLightFadeGroup.RegisterTrigger(heartLightFadeTrigger);
+                            ForgottenLocator.heartLightFadeTrigger = sectorTransform.Find("final_lab/quantum_room/grav").gameObject.AddComponent<LightFadeTrigger>();
+                            if (ForgottenLocator.lavaLightFadeGroup != null)
+                                ForgottenLocator.lavaLightFadeGroup.RegisterTrigger(ForgottenLocator.heartLightFadeTrigger);
 
                             //Activate the doors
                             DoorButtonGroup quantumDoorGroup = DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/quantum_room/room/walls/functional_doorway").gameObject);
@@ -323,12 +310,12 @@ namespace DeepBramble
 
                             //Find and activate the quantum socket
                             OuterFogWarpVolume heartFogWarp = GameObject.Find("HeartDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
-                            specialSocket = sectorTransform.Find("final_lab/quantum_room/quantum_socket").gameObject.AddComponent<BlockableQuantumSocket>();
-                            specialSocket.outerFogWarp = heartFogWarp;
+                            ForgottenLocator.specialSocket = sectorTransform.Find("final_lab/quantum_room/quantum_socket").gameObject.AddComponent<BlockableQuantumSocket>();
+                            ForgottenLocator.specialSocket.outerFogWarp = heartFogWarp;
                             Light[] lightArray = new Light[] {quantumDoorGroup.doorLights[0], quantumDoorGroup.doorLights[1]};
-                            specialSocket._visibilityObject.SetLightSources(lightArray);
-                            if (quantumRock != null)
-                                quantumRock.specialSocket = specialSocket;
+                            ForgottenLocator.specialSocket._visibilityObject.SetLightSources(lightArray);
+                            if (ForgottenLocator.quantumRock != null)
+                                ForgottenLocator.quantumRock.specialSocket = ForgottenLocator.specialSocket;
 
                             break;
                     }
@@ -380,7 +367,7 @@ namespace DeepBramble
                 switch(body.GetComponent<AstroObject>()._customName)
                 {
                     case "Start Dimension":
-                        this.startDimensionObject = body;
+                        ForgottenLocator.startDimensionObject = body;
                         this.ensureStarterLoad = true;
                         break;
 
@@ -392,9 +379,9 @@ namespace DeepBramble
                         break;
 
                     case "Heart Dimension":
-                        heartDimensionSector = body.transform.Find("Sector");
-                        if(greenTreeMat != null)
-                            ReskinHeartDimension(greenTreeMat, heartDimensionSector);
+                        ForgottenLocator.heartDimensionSector = body.transform.Find("Sector");
+                        if(ForgottenLocator.greenTreeMat != null)
+                            ReskinHeartDimension(ForgottenLocator.greenTreeMat, ForgottenLocator.heartDimensionSector);
                         break;
 
                     case "Domestic Dimension":
@@ -437,7 +424,7 @@ namespace DeepBramble
             }
 
             //Load the custom effects bundle, make it a child of the background object
-            GameObject titleEffectsObject = this.titleBundle.LoadAsset<GameObject>("Assets/Prefabs/titlescreeneffects.prefab");
+            GameObject titleEffectsObject = ForgottenLocator.titleBundle.LoadAsset<GameObject>("Assets/Prefabs/titlescreeneffects.prefab");
             if(titleEffectsObject == null)
             {
                 debugPrint("Couldn't load title effects object");
@@ -479,20 +466,20 @@ namespace DeepBramble
             }
 
             //Ensure that the starting dimension gets rendered
-            if(this.ensureStarterLoad && this.startDimensionObject.GetComponent<NewHorizons.Components.Sectored.BrambleSectorController>() != null)
+            if(this.ensureStarterLoad && ForgottenLocator.startDimensionObject.GetComponent<NewHorizons.Components.Sectored.BrambleSectorController>() != null)
             {
-                this.startDimensionObject.GetComponent<NewHorizons.Components.Sectored.BrambleSectorController>().Invoke("EnableRenderers", 0);
+                ForgottenLocator.startDimensionObject.GetComponent<NewHorizons.Components.Sectored.BrambleSectorController>().Invoke("EnableRenderers", 0);
                 debugPrint("Start dimension renderers manually enabled");
                 ensureStarterLoad = false;
             }
 
             //Lower the damage audio if the player is hurt only by the hot node
-            if(playerAudioController != null)
+            if(ForgottenLocator.playerAudioController != null)
             {
                 if (Patches.DamagedByAmbientHeatOnly())
-                    playerAudioController._damageAudioSource.SetMaxVolume(0.15f);
+                    ForgottenLocator.playerAudioController._damageAudioSource.SetMaxVolume(0.15f);
                 else
-                    playerAudioController._damageAudioSource.SetMaxVolume(0.7f);
+                    ForgottenLocator.playerAudioController._damageAudioSource.SetMaxVolume(0.7f);
             }
 
             //If needed, count down to the probe being recalled

@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace DeepBramble.Triggers
 {
-    class LightFadeTrigger : MonoBehaviour
+    public class LightFadeTrigger : MonoBehaviour
     {
         //Variables
         public float fadetime = 0.5f;

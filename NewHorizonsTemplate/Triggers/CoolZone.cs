@@ -32,7 +32,7 @@ namespace DeepBramble.Triggers
             if (other.CompareTag("PlayerDetector"))
             {
                 insideCount++;
-                Patches.hotNodeHazard.gameObject.SetActive(false);
+                ForgottenLocator.hotNodeHazard.gameObject.SetActive(false);
             }
         }
 
@@ -47,7 +47,7 @@ namespace DeepBramble.Triggers
             {
                 insideCount--;
                 if(insideCount == 0)
-                    Patches.hotNodeHazard.gameObject.SetActive(true);
+                    ForgottenLocator.hotNodeHazard.gameObject.SetActive(true);
             }
         }
 

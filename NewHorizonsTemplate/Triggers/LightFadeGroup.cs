@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace DeepBramble.Triggers
 {
-    class LightFadeGroup : MonoBehaviour
+    public class LightFadeGroup : MonoBehaviour
     {
         private List<Light> lights = new List<Light>();
         private List<float> intensities = new List<float>();

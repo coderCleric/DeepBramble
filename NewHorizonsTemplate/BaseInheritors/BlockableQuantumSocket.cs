@@ -23,7 +23,7 @@ namespace DeepBramble.BaseInheritors
             _occupiedByPlayerVolume.OnExit+= OnScoutExit;
             _lightSources = new Light[0];
             base.Awake();
-            Patches.blockableSockets.Add(this);
+            ForgottenLocator.blockableSockets.Add(this);
         }
 
         /**

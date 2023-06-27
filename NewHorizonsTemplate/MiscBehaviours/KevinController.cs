@@ -69,7 +69,7 @@ namespace DeepBramble.MiscBehaviours
             longRangeSource = transform.Find("AudioController/OneShotSource_LongRange").gameObject.GetComponent<OWAudioSource>();
 
             //Register with patches
-            Patches.registeredKevin = this;
+            ForgottenLocator.registeredKevin = this;
         }
         
         /**

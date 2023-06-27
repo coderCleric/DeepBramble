@@ -27,17 +27,7 @@ namespace DeepBramble
         public static bool probeDilated = false;
 
         //Other variables
-        private static GameObject brambleHole = null;
-        private static GameObject eyeHologram = null;
-        private static InnerFogWarpVolume largeLabEntrance = null;
-        private static InnerFogWarpVolume smallLabEntrance = null;
-        private static OuterFogWarpVolume languageOuterWarp = null;
-        public static KevinController registeredKevin = null;
-        public static List<BlockableQuantumSocket> blockableSockets = new List<BlockableQuantumSocket>();
-        private static Vector3 lastCOTUCachedVel = Vector3.zero;
-        public static HazardVolume hotNodeHazard = null;
-        public static OuterFogWarpVolume dilationOuterWarp = null;
-        public static DilatedDitylumManager dilatedDitylum = null;
+        public static Vector3 lastCOTUCachedVel = Vector3.zero;
 
         //Needed for the baby angler & kevin
         public static Animator anglerAnimator = null;
@@ -91,7 +81,7 @@ namespace DeepBramble
                 Locator._globalMusicController._darkBrambleSource.gameObject.SetActive(false);
 
             //Give the main class the player damage audio
-            DeepBramble.playerAudioController = Locator.GetPlayerAudioController();
+            ForgottenLocator.playerAudioController = Locator.GetPlayerAudioController();
         }
 
         /**
@@ -144,7 +134,7 @@ namespace DeepBramble
         {
             //Only do anything if this is the dilation dimension
             OuterFogWarpVolume outerWarp = __instance as OuterFogWarpVolume;
-            if(outerWarp != null && outerWarp == dilationOuterWarp)
+            if(outerWarp != null && outerWarp == ForgottenLocator.dilationOuterWarp)
             {
                 //If it's the player, kill them
                 if (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip()))
@@ -153,7 +143,7 @@ namespace DeepBramble
                     OWRigidbody playerBody = Locator.GetPlayerBody();
                     Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
                     playerBody.SetVelocity(wantedVel);
-                    dilatedDitylum.LookAtPlayer();
+                    ForgottenLocator.dilatedDitylum.LookAtPlayer();
                 }
 
                 //If it's the probe, engage the lock
@@ -224,7 +214,7 @@ namespace DeepBramble
          */
         public static bool DamagedByAmbientHeatOnly()
         {
-            if(hotNodeHazard == null)
+            if(ForgottenLocator.hotNodeHazard == null)
                 return false;
 
             HazardDetector playerDetector = Locator.GetPlayerDetector().GetComponent<HazardDetector>();
@@ -233,7 +223,7 @@ namespace DeepBramble
             foreach(EffectVolume i in playerDetector._activeVolumes)
             {
                 HazardVolume hazVolume = i as HazardVolume;
-                if (hazVolume == hotNodeHazard)
+                if (hazVolume == ForgottenLocator.hotNodeHazard)
                     nodeHazFound = true;
                 else
                     otherFound = true;
@@ -369,7 +359,7 @@ namespace DeepBramble
         {
             if (inBrambleSystem && (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip())))
             {
-                registeredKevin.TeleportBack();
+                ForgottenLocator.registeredKevin.TeleportBack();
             }
         }
 
@@ -448,7 +438,7 @@ namespace DeepBramble
         public static void BlockOnDrop(Vector3 position, OWItem __instance)
         {
             DeepBramble.debugPrint(position.ToString());
-            foreach(BlockableQuantumSocket i in blockableSockets)
+            foreach(BlockableQuantumSocket i in ForgottenLocator.blockableSockets)
             {
                 if (i._occupiedByPlayerVolume != null && i._occupiedByPlayerVolume.GetOWCollider().GetCollider().bounds.Contains(position))
                 {
@@ -466,7 +456,7 @@ namespace DeepBramble
         [HarmonyPatch(typeof(OWItem), nameof(OWItem.PickUpItem))]
         public static void UnblockOnPickup(OWItem __instance)
         {
-            foreach(BlockableQuantumSocket i in blockableSockets)
+            foreach(BlockableQuantumSocket i in ForgottenLocator.blockableSockets)
             {
                 if (i.blockingDrop == __instance)
                     i.blockingDrop = null;
@@ -488,21 +478,21 @@ namespace DeepBramble
                 //If it's the smaller node, just save it
                 if (__instance.name.Equals("Language Node"))
                 {
-                    smallLabEntrance = __instance as InnerFogWarpVolume;
+                    ForgottenLocator.smallLabEntrance = __instance as InnerFogWarpVolume;
                     DeepBramble.debugPrint("Saving small language node inner warp.");
                 }
 
                 //If it's the dimension, just save it
                 if (__instance.transform.parent.parent.name.Equals("LanguageDimension_Body"))
                 {
-                    languageOuterWarp = __instance as OuterFogWarpVolume;
+                    ForgottenLocator.languageOuterWarp = __instance as OuterFogWarpVolume;
                     DeepBramble.debugPrint("Saving language outer warp.");
                 }
 
                 //If it's the larger node, save it & do some cosmetic edits
                 if (__instance.name.Equals("Large Language Node"))
                 {
-                    largeLabEntrance = __instance as InnerFogWarpVolume;
+                    ForgottenLocator.largeLabEntrance = __instance as InnerFogWarpVolume;
                     Transform nodeEffects = __instance.transform.Find("Effects");
                     nodeEffects.Find("PointLight_DB_FogLight").gameObject.SetActive(false);
                     nodeEffects.Find("DB_BrambleLightShafts").gameObject.SetActive(false);
@@ -526,16 +516,16 @@ namespace DeepBramble
             if(inBrambleSystem && body.CompareTag("Ship"))
             {
                 //If the dimension received the ship, swap the exit to the big one
-                if(__instance == languageOuterWarp)
+                if(__instance == ForgottenLocator.languageOuterWarp)
                 {
-                    languageOuterWarp._linkedInnerWarpVolume = largeLabEntrance;
+                    ForgottenLocator.languageOuterWarp._linkedInnerWarpVolume = ForgottenLocator.largeLabEntrance;
                     DeepBramble.debugPrint("Swapping language entrance to the larger node.");
                 }
 
                 //If the big exit received the ship, swap the dimension exit to the small one
-                if(__instance == largeLabEntrance)
+                if(__instance == ForgottenLocator.largeLabEntrance)
                 {
-                    languageOuterWarp._linkedInnerWarpVolume = smallLabEntrance;
+                    ForgottenLocator.languageOuterWarp._linkedInnerWarpVolume = ForgottenLocator.smallLabEntrance;
                     DeepBramble.debugPrint("Swapping language entrance to the smaller node.");
                 }
             }
@@ -561,10 +551,10 @@ namespace DeepBramble
                 //If it's a black hole core, activate the singularity
                 if (core.GetWarpCoreType() == WarpCoreType.Black)
                 {
-                    brambleHole.SetActive(true);
-                    eyeHologram = GameObject.Find("VesselHologram_EyeSignal");
-                    if (eyeHologram != null)
-                        eyeHologram.SetActive(false);
+                    ForgottenLocator.brambleSingularity.SetActive(true);
+                    ForgottenLocator.eyeHologram = GameObject.Find("VesselHologram_EyeSignal");
+                    if (ForgottenLocator.eyeHologram != null)
+                        ForgottenLocator.eyeHologram.SetActive(false);
                 }
             }
         }
@@ -580,7 +570,7 @@ namespace DeepBramble
         {
             if (__instance is WarpCoreSocket && __instance.name.Equals("BrambleSystemWarpSocket"))
             {
-                brambleHole.SetActive(false);
+                ForgottenLocator.brambleSingularity.SetActive(false);
             }
         }
 
@@ -594,10 +584,10 @@ namespace DeepBramble
         public static void VanishVolumeListener(VanishVolume __instance)
         {
             //Figure out if this is the one we want, save it if it is
-            if(__instance.transform.parent.parent.name.Equals("Sector_VesselDimension") && brambleHole == null)
+            if(__instance.transform.parent.parent.name.Equals("Sector_VesselDimension") && ForgottenLocator.brambleSingularity == null)
             {
-                brambleHole = __instance.transform.parent.gameObject;
-                brambleHole.SetActive(false);
+                ForgottenLocator.brambleSingularity = __instance.transform.parent.gameObject;
+                ForgottenLocator.brambleSingularity.SetActive(false);
             }
         }
 
@@ -611,7 +601,7 @@ namespace DeepBramble
         [HarmonyPatch(typeof(VanishVolume), nameof(VanishVolume.OnTriggerEnter))]
         public static void ShipRemover(VanishVolume __instance, ref Collider hitCollider)
         {
-            if(__instance.transform.parent.gameObject == brambleHole && hitCollider.attachedRigidbody.CompareTag("Player"))
+            if(__instance.transform.parent.gameObject == ForgottenLocator.brambleSingularity && hitCollider.attachedRigidbody.CompareTag("Player"))
             {
                 startupFlags["vanishShip"] = true;
             }
