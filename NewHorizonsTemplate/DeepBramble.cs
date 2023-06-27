@@ -126,13 +126,6 @@ namespace DeepBramble
                 this.fixShipDrift = true;
             }
 
-            //Do other stuff if we're not in the bramble system
-            else
-            {
-                //Clear the bramble containers
-                BrambleContainer.clear();
-            }
-
             //Do this stuff if we're in the hearthian system
             if(NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
             {

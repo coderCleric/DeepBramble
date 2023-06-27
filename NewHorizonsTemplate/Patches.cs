@@ -70,43 +70,6 @@ namespace DeepBramble
             ForgottenLocator.playerAudioController = Locator.GetPlayerAudioController();
         }
 
-        /**
-         * When the player enters a bramble dimension, wake up the attached rigidbodies
-         * 
-         * @param detector The warp detector of the object being warped
-         * @param __instance The instance of the warp volume the method is being called from
-         */
-        [HarmonyPrefix]
-        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
-        public static void WakeOnEnter(ref FogWarpDetector detector, FogWarpVolume __instance)
-        {
-            //Find the outer warp volume or, if there isn't one, do nothing
-            OuterFogWarpVolume outerVolume = null;
-            if (__instance is OuterFogWarpVolume)
-                outerVolume = __instance as OuterFogWarpVolume;
-            else if (__instance is InnerFogWarpVolume)
-            {
-                InnerFogWarpVolume innerVolume = __instance as InnerFogWarpVolume;
-                outerVolume = innerVolume.GetContainerWarpVolume();
-            }
-            else
-                return;
-
-            //Only do stuff if we're in the bramble system
-            if (ForgottenLocator.inBrambleSystem)
-            {
-                //Figure out if it's the player that entered
-                bool isPlayer = detector.CompareName(FogWarpDetector.Name.Player) || detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip();
-
-                //If it is the player, activate the dimension they entered
-                GameObject bodyObject = outerVolume.transform.parent.parent.gameObject;
-                if (isPlayer)
-                {
-                    BrambleContainer.setActiveDimension(bodyObject);
-                }
-            }
-        }
-
         //################################# Do funky time dilation node stuff #################################
         /**
          * If the player enters the dilation dimension, kill them. If the probe enters, set the lock
