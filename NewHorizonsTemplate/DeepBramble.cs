@@ -22,7 +22,7 @@ namespace DeepBramble
      */
     public class DeepBramble : ModBehaviour
     {
-        //Flags
+        //Flags, immediately used
         private bool fixShipDrift = false;
         private bool ensureStarterLoad = false;
 
@@ -71,9 +71,6 @@ namespace DeepBramble
             this.entryHelper = new EntryLocationHelper();
             this.decorHelper = new DecorHelper();
 
-            //Initialize the startup flag dictionary
-            Patches.initFlags();
-
             //Make all of the patches
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }
@@ -85,7 +82,7 @@ namespace DeepBramble
          */
         private void UpdateSystemFlag(String s)
         {
-            Patches.inBrambleSystem = s.Equals("DeepBramble");
+            ForgottenLocator.inBrambleSystem = s.Equals("DeepBramble");
         }
 
         /**
@@ -103,9 +100,6 @@ namespace DeepBramble
             //Do this stuff if we're in the bramble system
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("DeepBramble"))
             {
-                //Tell patches that we're in the bramble system
-                Patches.inBrambleSystem = true;
-
                 //Do some things to each astro object
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
@@ -135,9 +129,6 @@ namespace DeepBramble
             //Do other stuff if we're not in the bramble system
             else
             {
-                //Tell patches we're not in the bramble system
-                Patches.inBrambleSystem = false;
-
                 //Clear the bramble containers
                 BrambleContainer.clear();
             }
@@ -146,7 +137,7 @@ namespace DeepBramble
             if(NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
             {
                 //If the player knows about the vessel, give them the first fact for our mod
-                Patches.startupFlags["revealStartingRumor"] = true;
+                ForgottenLocator.revealStartingRumor = true;
             }
 
             //Debug thing, take out

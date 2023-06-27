@@ -13,6 +13,13 @@ namespace DeepBramble
 {
     public static class ForgottenLocator
     {
+        //Flags that are actually related to game state (they aren't immediatelly consumed)
+        public static bool vanishShip = false;
+        public static bool revealStartingRumor = false;
+        public static bool inBrambleSystem = false;
+        public static bool playerAttachedToKevin = false;
+        public static bool probeDilated = false;
+
         //Things that Patches needs to function
         public static GameObject brambleSingularity = null;
         public static GameObject eyeHologram = null;

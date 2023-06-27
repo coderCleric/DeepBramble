@@ -17,30 +17,16 @@ namespace DeepBramble
     [HarmonyPatch]
     public static class Patches
     {
-        //Flags
-        public static Dictionary<string, bool> startupFlags = null;
-        public static bool inBrambleSystem = false;
+        //Flags that are immediatelly used
         public static bool forbidUnlock = false;
         public static bool fogRepositionHandled = false;
         private static bool hideFogEffect = false;
-        public static bool playerAttachedToKevin = false;
-        public static bool probeDilated = false;
 
         //Other variables
         public static Vector3 lastCOTUCachedVel = Vector3.zero;
 
         //Needed for the baby angler & kevin
         public static Animator anglerAnimator = null;
-
-        /**
-         * Initialize the dictionary of startup flags
-         */
-        public static void initFlags()
-        {
-            startupFlags = new Dictionary<string, bool>();
-            startupFlags.Add("vanishShip", false);
-            startupFlags.Add("revealStartingRumor", false);
-        }
 
         //################################# Miscellanious patches #################################
         /**
@@ -53,19 +39,19 @@ namespace DeepBramble
             DeepBramble.debugPrint("Running locator startup");
 
             //Reset a couple of flags
-            playerAttachedToKevin = false;
-            probeDilated = false;
+            ForgottenLocator.playerAttachedToKevin = false;
+            ForgottenLocator.probeDilated = false;
 
             //If needed, vanish the ship
-            if (startupFlags["vanishShip"])
+            if (ForgottenLocator.vanishShip)
             {
                 DeepBramble.debugPrint("Vanishing the ship");
                 Locator.GetShipBody().SetPosition(new Vector3(0, 0, -999999f));
-                startupFlags["vanishShip"] = false;
+                ForgottenLocator.vanishShip = false;
             }
 
             //If needed, check if we need to reveal the starting rumor of the mod
-            if(startupFlags["revealStartingRumor"])
+            if(ForgottenLocator.revealStartingRumor)
             {
                 ShipLogManager logManager = Locator.GetShipLogManager();
                 if (logManager.IsFactRevealed("DB_VESSEL_X1"))
@@ -73,11 +59,11 @@ namespace DeepBramble
                     DeepBramble.debugPrint("Revealing starting rumor");
                     logManager.RevealFact("WHY_TWO_PODS_RUMOR");
                 }
-                startupFlags["revealStartingRumor"] = false;
+                ForgottenLocator.revealStartingRumor = false;
             }
 
             //If we're in deep bramble, disable the bramble audio player
-            if (inBrambleSystem)
+            if (ForgottenLocator.inBrambleSystem)
                 Locator._globalMusicController._darkBrambleSource.gameObject.SetActive(false);
 
             //Give the main class the player damage audio
@@ -107,7 +93,7 @@ namespace DeepBramble
                 return;
 
             //Only do stuff if we're in the bramble system
-            if (inBrambleSystem)
+            if (ForgottenLocator.inBrambleSystem)
             {
                 //Figure out if it's the player that entered
                 bool isPlayer = detector.CompareName(FogWarpDetector.Name.Player) || detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip();
@@ -149,7 +135,7 @@ namespace DeepBramble
                 //If it's the probe, engage the lock
                 else if (detector.CompareTag("ProbeDetector"))
                 {
-                    probeDilated = true;
+                    ForgottenLocator.probeDilated = true;
                 }
             }
         }
@@ -165,7 +151,7 @@ namespace DeepBramble
         public static bool DilationInterference(ref bool __result)
         {
             //Mark true and suppress if the probe is locked in
-            if(probeDilated)
+            if(ForgottenLocator.probeDilated)
             {
                 __result = true;
                 return false;
@@ -185,7 +171,7 @@ namespace DeepBramble
         public static bool DelayRetrieve(bool playEffects, bool forcedRetrieval, ProbeLauncher __instance)
         {
             //Request the recall if it's locked in
-            if(!forcedRetrieval && probeDilated)
+            if(!forcedRetrieval && ForgottenLocator.probeDilated)
             {
                 if (DeepBramble.recallTimer == -999)
                     DeepBramble.recallTimer = 3;
@@ -202,7 +188,7 @@ namespace DeepBramble
                 __instance._probeRetrievalEffect.WarpObjectIn(__instance._probeRetrievalLength);
             }
 
-            probeDilated = false; //If it's recalled, it's no longer dilated
+            ForgottenLocator.probeDilated = false; //If it's recalled, it's no longer dilated
             return true;
         }
 
@@ -263,7 +249,7 @@ namespace DeepBramble
             bool flag = __instance._scanBeams[0]._nomaiTextLine != null && __instance._scanBeams[0]._nomaiTextLine.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("IP");
 
             //If the text is dree, and the player lacks the upgrade, hide the text
-            if (flag && inBrambleSystem && !Locator.GetShipLogManager().IsFactRevealed("TRANSLATOR_DREE_UPGRADE"))
+            if (flag && ForgottenLocator.inBrambleSystem && !Locator.GetShipLogManager().IsFactRevealed("TRANSLATOR_DREE_UPGRADE"))
             {
                 __instance._textField.text = UITextLibrary.GetString(UITextType.TranslatorUntranslatableWarning);
                 return false;
@@ -285,7 +271,7 @@ namespace DeepBramble
         public static void RecolorDreeText(NomaiTextLine __instance, NomaiTextLine.VisualState state, ref Color __result)
         {
             //Only recolor if it's active, in the bramble system, and is Dree
-            if(inBrambleSystem && __instance._active && __instance.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("IP"))
+            if(ForgottenLocator.inBrambleSystem && __instance._active && __instance.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("IP"))
             {
                 switch(state)
                 {
@@ -320,7 +306,7 @@ namespace DeepBramble
         [HarmonyPatch(typeof(CenterOfTheUniverse), nameof(CenterOfTheUniverse.FixedUpdate))]
         public static bool FixCOTUSpeedup(CenterOfTheUniverse __instance)
         {
-            if (playerAttachedToKevin)
+            if (ForgottenLocator.playerAttachedToKevin)
             {
                 Vector3 newCachedVel = (__instance.enabled ? (-__instance._centerBody.GetRigidbody().velocity) : Vector3.zero); //Get vel directly from player's rigidbody
                 Vector3 origCachedVel = newCachedVel;
@@ -344,7 +330,7 @@ namespace DeepBramble
         [HarmonyPatch(typeof(AnglerfishController), nameof(AnglerfishController.OnClosestAudibleNoise))]
         public static bool MufflePlayer()
         {
-            return !playerAttachedToKevin;
+            return !ForgottenLocator.playerAttachedToKevin;
         }
 
         /**
@@ -357,7 +343,7 @@ namespace DeepBramble
         [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.WarpDetector))]
         public static void ResetKevin(FogWarpVolume __instance, FogWarpDetector detector)
         {
-            if (inBrambleSystem && (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip())))
+            if (ForgottenLocator.inBrambleSystem && (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip())))
             {
                 ForgottenLocator.registeredKevin.TeleportBack();
             }
@@ -473,7 +459,7 @@ namespace DeepBramble
         [HarmonyPatch(typeof(SphericalFogWarpVolume), nameof(SphericalFogWarpVolume.OnAwake))]
         public static void PrimeNodeHotswap(SphericalFogWarpVolume __instance)
         {
-            if (inBrambleSystem)
+            if (ForgottenLocator.inBrambleSystem)
             {
                 //If it's the smaller node, just save it
                 if (__instance.name.Equals("Language Node"))
@@ -513,7 +499,7 @@ namespace DeepBramble
         [HarmonyPatch(typeof(SphericalFogWarpVolume), nameof(SphericalFogWarpVolume.RepositionWarpedBody))]
         public static void SwapLanguageExits(SphericalFogWarpExit __instance, OWRigidbody body)
         {
-            if(inBrambleSystem && body.CompareTag("Ship"))
+            if(ForgottenLocator.inBrambleSystem && body.CompareTag("Ship"))
             {
                 //If the dimension received the ship, swap the exit to the big one
                 if(__instance == ForgottenLocator.languageOuterWarp)
@@ -603,7 +589,7 @@ namespace DeepBramble
         {
             if(__instance.transform.parent.gameObject == ForgottenLocator.brambleSingularity && hitCollider.attachedRigidbody.CompareTag("Player"))
             {
-                startupFlags["vanishShip"] = true;
+                ForgottenLocator.vanishShip = true;
             }
         }
 

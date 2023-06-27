@@ -49,7 +49,7 @@ namespace DeepBramble.MiscBehaviours
             waitingToDie = true;
 
             //Emergency recall the scout
-            if(Patches.probeDilated)
+            if(ForgottenLocator.probeDilated)
                 Locator.GetProbe().ExternalRetrieve();
             DeepBramble.recallTimer = -999;
 

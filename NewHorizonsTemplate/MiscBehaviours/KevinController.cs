@@ -101,7 +101,7 @@ namespace DeepBramble.MiscBehaviours
                 attachPoint.AttachPlayer();
                 handleReceiver.DisableInteraction();
                 Locator.GetPlayerBody().GetComponent<PlayerCharacterController>().EnableZeroGMovement(); //This allows the player to look horizontally, for some reason
-                Patches.playerAttachedToKevin = true;
+                ForgottenLocator.playerAttachedToKevin = true;
 
                 //Then, get Kevin moving
                 travelAnimator.SetTrigger("begin_travel");
@@ -127,7 +127,7 @@ namespace DeepBramble.MiscBehaviours
         public void ArriveAtEnd()
         {
             state = KevinState.ATEND;
-            Patches.playerAttachedToKevin = false;
+            ForgottenLocator.playerAttachedToKevin = false;
             attachPoint.DetachPlayer();
             Locator.GetPlayerBody().GetComponent<PlayerCharacterController>().DisableZeroGMovement();
         }
