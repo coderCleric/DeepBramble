@@ -5,47 +5,38 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace DeepBramble
+namespace DeepBramble.Helpers
 {
     /**
      * This class is responsible for properly tying signalscope signals to their originating bodies
      */
-    public  class SignalHelper
+    public static class SignalHelper
     {
-        private  Dictionary<string, AstroObject> signalDictionary;
-
-        /**
-         * Make a new signal helper
-         */
-        public SignalHelper()
-        {
-            //Make the dictionary
-            this.signalDictionary = null;
-        }
+        private static Dictionary<string, AstroObject> signalDictionary = null;
 
         /**
          * Prep the dictionary for use
          */
-        public void PrepDictionary()
+        public static void PrepDictionary()
         {
             //Make the dictionary instance
-            this.signalDictionary = new Dictionary<string, AstroObject>();
+            signalDictionary = new Dictionary<string, AstroObject>();
 
             //Go through each astroobject, making their dictionary entries as we go
-            foreach(AstroObject i in Component.FindObjectsOfType<AstroObject>())
+            foreach (AstroObject i in UnityEngine.Object.FindObjectsOfType<AstroObject>())
             {
                 //Switch based on the name (if they have a custom name)
-                if(i._name == AstroObject.Name.CustomString)
+                if (i._name == AstroObject.Name.CustomString)
                 {
-                    switch(i._customName)
+                    switch (i._customName)
                     {
 
                         case "Lover's Rock": //We're on The Camp Planetoid
-                            this.signalDictionary.Add("Camp_Marker_Signal", i);
+                            signalDictionary.Add("Camp_Marker_Signal", i);
                             break;
 
                         case "Graviton's Folly": //We're on Graviton's Folly
-                            this.signalDictionary.Add("Gravitation_Anomaly_Signal", i);
+                            signalDictionary.Add("Gravitation_Anomaly_Signal", i);
                             break;
 
                     }
@@ -56,20 +47,20 @@ namespace DeepBramble
         /**
          * Fix the parents of all of the signals
          */
-        public void FixSignalParents()
+        public static void FixSignalParents()
         {
             //Do stuff for every signal
-            foreach (AudioSignal i in Component.FindObjectsOfType<AudioSignal>())
+            foreach (AudioSignal i in UnityEngine.Object.FindObjectsOfType<AudioSignal>())
             {
                 //Do nothing if the parent isn't called "Sector"
                 if (i.transform.parent.name.Equals("Sector"))
                 {
                     //Check if it's a name we're looking for
                     string name = i.gameObject.name;
-                    if (this.signalDictionary.ContainsKey(name))
+                    if (signalDictionary.ContainsKey(name))
                     {
                         //If it is, make it a child of the astro object it leads to in the dictionary
-                        i.transform.SetParent(this.signalDictionary[name].transform, false);
+                        i.transform.SetParent(signalDictionary[name].transform, false);
                     }
                 }
             }

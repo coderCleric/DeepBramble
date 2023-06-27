@@ -5,30 +5,22 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace DeepBramble
+namespace DeepBramble.Helpers
 {
     /**
      * this class manipulates campfires to look how we want.
      */
-    class CampFireHelper
+    public static class CampFireHelper
     {
-        private Campfire[] fires;
-
-        /**
-         * Make a new CampFireHelper
-         */
-        public CampFireHelper()
-        {
-            this.fires = Component.FindObjectsOfType<Campfire>();
-        }
-
         /**
          * Enact all of our changes on the fires
          */
-        public void PrepFires()
+        public static void PrepFires()
         {
             //Go through each fire
-            foreach(Campfire fire in this.fires) {
+            Campfire[] fires = UnityEngine.Object.FindObjectsOfType<Campfire>();
+            foreach (Campfire fire in fires)
+            {
                 //Unlight each one
                 fire.SetInitialState(Campfire.State.UNLIT);
 

@@ -14,6 +14,7 @@ using DeepBramble.Triggers;
 using DeepBramble.MiscBehaviours;
 using System.Linq;
 using DeepBramble.Ditylum;
+using DeepBramble.Helpers;
 
 namespace DeepBramble
 {
@@ -28,9 +29,6 @@ namespace DeepBramble
 
         //Miscellanious variables
         public INewHorizons NewHorizonsAPI;
-        private SignalHelper signalHelper;
-        private EntryLocationHelper entryHelper;
-        private DecorHelper decorHelper;
         public static float recallTimer = -999;
 
         //Only needed for debug
@@ -65,11 +63,6 @@ namespace DeepBramble
             //Do stuff when the system finishes loading
             UnityEvent<string> loadCompleteEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
             loadCompleteEvent.AddListener(PrepSystem);
-
-            //Make our helpers
-            this.signalHelper = new SignalHelper();
-            this.entryHelper = new EntryLocationHelper();
-            this.decorHelper = new DecorHelper();
 
             //Make all of the patches
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
@@ -111,16 +104,15 @@ namespace DeepBramble
                 }
 
                 //Fix the parents of all of the signals
-                this.signalHelper.PrepDictionary();
-                this.signalHelper.FixSignalParents();
+                SignalHelper.PrepDictionary();
+                SignalHelper.FixSignalParents();
 
                 //Fix the fog warps for every ship log entry location
-                this.entryHelper.PrepDictionary();
-                this.entryHelper.FixEntryOuterWarps();
+                EntryLocationHelper.PrepDictionary();
+                EntryLocationHelper.FixEntryOuterWarps();
 
                 //Fix the campfires
-                CampFireHelper cfHelper = new CampFireHelper();
-                cfHelper.PrepFires();
+                CampFireHelper.PrepFires();
 
                 //Prime the ship drift fix
                 this.fixShipDrift = true;
