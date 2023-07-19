@@ -271,6 +271,10 @@ namespace DeepBramble
                             ScrollTextSwitcher scrollSwitcher = sectorTransform.Find("quantumTrickScroll").gameObject.AddComponent<ScrollTextSwitcher>();
                             scrollSwitcher.RegisterTrigger(quantumFadeTrigger.gameObject.GetComponent<OWTriggerVolume>());
 
+                            //Make the exit beam toggleable
+                            Lever outLever = sectorTransform.Find("lava_planet/entry_zone/tractor_out/lever").gameObject.AddComponent<Lever>();
+                            outLever.RegisterBeam(sectorTransform.Find("lava_planet/entry_zone/tractor_out/BeamVolume").gameObject);
+
                             break;
 
                         case "Heart Planet":
@@ -381,6 +385,10 @@ namespace DeepBramble
             //The vines & walls
             Transform geometryRoot = sectorRoot.Find("Geometry/OtherComponentsGroup");
             foreach(MeshRenderer i in geometryRoot.GetComponentsInChildren<MeshRenderer>())
+                i.material = mat;
+
+            //The central node
+            foreach (MeshRenderer i in sectorRoot.Find("Heart Node/Terrain_DB_BrambleSphere_Inner_v2").gameObject.GetComponentsInChildren<MeshRenderer>())
                 i.material = mat;
         }
 
@@ -547,10 +555,10 @@ namespace DeepBramble
             //Teleport to a specific point when n is pressed
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
-                Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
+                //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
                 //Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
                 //Vector3 point = new Vector3(9559.7f, 9920.6f, -99.4f); //Language Dimension
-                //Vector3 point = new Vector3(-24.7f, 10043.4f, -244.6f); //Lava planet start
+                Vector3 point = new Vector3(-24.7f, 10043.4f, -244.6f); //Lava planet start
                 //Vector3 point = new Vector3(-257.3f, 9950.4f, 39.4f); //Quantum cave
                 //Vector3 point = new Vector3(85.7f, -3.3f, -9960.4f); //Poison planet
                 Transform absCenter = null;
@@ -568,7 +576,7 @@ namespace DeepBramble
                 FogWarpDetector shipDetector = Locator.GetShipDetector().GetComponent<FogWarpDetector>();
                 if (shipDetector.GetOuterFogWarpVolume() != null) {
                     Patches.fogRepositionHandled = true;
-                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("LargeDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
+                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("HotDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
                 }
 
                 Locator._shipBody.SetPosition(point);

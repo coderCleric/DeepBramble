@@ -125,6 +125,7 @@
       {
         "rename": "CommunionRecorderContainer",
         "hasPhysics": true,
+        "physicsRadius": 0,
         "position": {
           "x": 100.0,
           "y": -201.0,
@@ -139,6 +140,7 @@
       {
         "rename": "ReinvigorationRecorderContainer",
         "hasPhysics": true,
+        "physicsRadius": 0,
         "position": {
           "x": 389.3,
           "y": 311.0,

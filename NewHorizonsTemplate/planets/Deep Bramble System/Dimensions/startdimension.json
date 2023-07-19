@@ -30,6 +30,7 @@
       {
         "rename": "StartDimensionFlare",
         "hasPhysics": true,
+        "physicsRadius": 0,
         "position": {
           "x": 7.7,
           "y": 5.6,
@@ -40,6 +41,7 @@
       {
         "rename": "StartDimensionRecorderContainer",
         "hasPhysics": true,
+        "physicsRadius": 0,
         "position": {
           "x": -0.1,
           "y": 4.7,
@@ -56,14 +58,15 @@
     "translatorText": [
       {
         "rename": "StartDimensionRecorder",
-        "position": {
-          "x": -0.1,
-          "y": 4.7,
-          "z": 10.3
-        },
         "type": "preCrashRecorder",
         "parentPath": "Sector/StartDimensionRecorderContainer",
-        "xmlFile": "planets/Deep Bramble System/Text/startdimensionrecorder.xml"
+        "isRelativeToParent": true,
+        "xmlFile": "planets/Deep Bramble System/Text/startdimensionrecorder.xml",
+        "position": {
+          "x": 0,
+          "y": -0.2,
+          "z": 0
+        }
       }
     ],
 

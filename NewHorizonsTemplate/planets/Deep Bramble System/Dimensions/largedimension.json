@@ -119,6 +119,7 @@
       {
         "rename": "RecursiveNodeRecorderContainer",
         "hasPhysics": true,
+        "physicsRadius": 0,
         "position": {
           "x": -12.5,
           "y": 93.6,

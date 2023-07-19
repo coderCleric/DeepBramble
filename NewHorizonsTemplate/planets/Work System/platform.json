@@ -192,7 +192,7 @@
     "playerSpawn": {
       "position": {
         "x": 5,
-        "y": 10,
+        "y": 5,
         "z": 0
       },
       "startWithSuit": true

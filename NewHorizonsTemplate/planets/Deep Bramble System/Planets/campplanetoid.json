@@ -39,6 +39,17 @@
   "Props": {
     "details": [
       {
+        "rename": "testflare",
+        "hasPhysics": true,
+        "physicsRadius": 0,
+        "position": {
+          "x": 0,
+          "y": 85,
+          "z": 0
+        },
+        "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare"
+      },
+      {
         "keepLoaded": true,
         "assetBundle": "assetbundles/camp_planetoid",
         "path": "Assets/Prefabs/large_planetoid.prefab",
