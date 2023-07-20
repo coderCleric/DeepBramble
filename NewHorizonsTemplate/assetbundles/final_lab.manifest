@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1447408199
+CRC: 1995672966
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f20ded8d881c392ddd822d12c88133d0
+    Hash: 69faa6865eb8fc7601eeaa455a38fa15
   TypeTreeHash:
     serializedVersion: 2
-    Hash: e9bff0550b50aec1177d12119d6a3eea
+    Hash: 47625d943a5da911328376a000850bb9
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -59,8 +59,9 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 135
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/buildings/final_lab.prefab
-Dependencies:
-- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/functional_doorway
+Dependencies: []

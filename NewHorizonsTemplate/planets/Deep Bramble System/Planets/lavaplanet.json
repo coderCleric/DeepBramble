@@ -50,6 +50,15 @@
           "y": 0,
           "z": 0
         }
+      },
+      {
+        "path": "DB_PioneerDimension_Body/Sector_PioneerDimension/Interactables_PioneerDimension/Prefab_HEA_Campfire",
+        "position": {
+          "x": 243.0434,
+          "y": 8.612677,
+          "z": -80.45509
+        },
+        "alignRadial": true
       }
     ],
     "translatorText": [
