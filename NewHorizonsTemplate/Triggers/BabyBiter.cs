@@ -53,6 +53,10 @@ namespace DeepBramble.Triggers
                 //Second, if it's the player, start hurting them
                 if (otherBody.CompareTag("Player"))
                     this.transform.parent.Find("HazardVolume").gameObject.SetActive(true);
+
+                //If it was the ship and this has a dialogue, enable the dialogue
+                if(otherBody.CompareTag("Ship") && fishTransform.GetComponent<BabyFishController>().dialogue != null)
+                    fishTransform.GetComponent<BabyFishController>().dialogue.gameObject.SetActive(true);
             }
         }
     }

@@ -49,6 +49,7 @@
       },
       {
         "assetBundle": "assetbundles/baby_fish",
+        "rename": "ernesto_fish",
         "keepLoaded": true,
         "path": "Assets/Prefabs/baby_fish.prefab",
         "position": {
@@ -643,6 +644,16 @@
             "zRotation": 209.2728
           }
         ]
+      }
+    ],
+    "dialogue": [
+      {
+        "parentPath": "Sector/ernesto_fish/baby_fish",
+        "rename": "ernesto_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.5,
+        "range": 3,
+        "xmlFile": "planets/Deep Bramble System/Dialogue/ernesto.xml"
       }
     ]
   }

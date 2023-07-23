@@ -1,0 +1,67 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Ernesto</NameField>
+
+  <!--First time intro-->
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Oh, hey, sorry about trying to bite you to death there, got a bit caught up in the mob mentality.</Page>
+    </Dialogue>
+    <SetCondition>ERNESTO_TALKED</SetCondition>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--The main hub of choices-->
+  <DialogueNode>
+    <Name>CHOICE_HUB</Name>
+    <EntryCondition>ERNESTO_TALKED</EntryCondition>
+    <Dialogue>
+      <Page>Was there something you wanted to talk about?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>If I come back on the next loop, are you gonna try and bite me again?</Text>
+        <DialogueTarget>BITE</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Are you gonna let go of my ship?</Text>
+        <DialogueTarget>LETGO</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Where’s Geswaldo?</Text>
+        <DialogueTarget>GESWALDO</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Nope.</Text>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <!--Asked about biting again-->
+  <DialogueNode>
+    <Name>BITE</Name>
+    <Dialogue>
+      <Page>Oh yeah, totally. It’s nothing personal, but everyone else was trying to eat you and it looked fun.</Page>
+    </Dialogue>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--Asked about letting go-->
+  <DialogueNode>
+    <Name>LETGO</Name>
+    <Dialogue>
+      <Page>I’m wedged in pretty good, I honestly don’t think that I can. Oh well.</Page>
+    </Dialogue>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+
+  <!--Asked about Geswaldo-->
+  <DialogueNode>
+    <Name>GESWALDO</Name>
+    <Dialogue>
+      <Page>Covering for me with the police. I got into a bit of trouble for beating people to death with rocks, you know how it is.</Page>
+    </Dialogue>
+    <DialogueTarget>CHOICE_HUB</DialogueTarget>
+  </DialogueNode>
+</DialogueTree>

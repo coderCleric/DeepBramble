@@ -12,6 +12,8 @@ namespace DeepBramble.BaseInheritors
 	 */
     class BabyFishController : AnglerfishController
     {
+		public CharacterDialogueTree dialogue = null;
+
 		public new void Awake()
 		{
 			//Not a clean way to call SectoredMonoBehaviour.Awake(), so just gonna copy+paste here
@@ -35,6 +37,11 @@ namespace DeepBramble.BaseInheritors
 			_stunTimer = 0f;
 			_consumeStartTime = -1f;
 			_consumeComplete = false;
+
+			//Grab & disable dialogue, if it's there
+			dialogue = GetComponentInChildren<CharacterDialogueTree>();
+			if(dialogue != null)
+				dialogue.gameObject.SetActive(false);
 		}
 
 		/**

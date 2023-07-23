@@ -62,9 +62,15 @@ namespace DeepBramble
                 ForgottenLocator.revealStartingRumor = false;
             }
 
-            //If we're in deep bramble, disable the bramble audio player
+            //If we're in deep bramble, do stuff
             if (ForgottenLocator.inBrambleSystem)
+            {
+                //Disable bramble music
                 Locator._globalMusicController._darkBrambleSource.gameObject.SetActive(false);
+
+                //Disable sun destruction volume
+                
+            }
 
             //Give the main class the player damage audio
             ForgottenLocator.playerAudioController = Locator.GetPlayerAudioController();
@@ -763,12 +769,11 @@ namespace DeepBramble
             }
         }
 
-        /*
         [HarmonyPostfix]
-        [HarmonyPatch(typeof(QuantumObject), nameof(QuantumObject.Collapse))]
-        public static void PrintTrace()
+        [HarmonyPatch(typeof(DestructionVolume), nameof(DestructionVolume.Vanish), new Type[] { typeof(OWRigidbody), typeof(RelativeLocationData) })]
+        public static void PrintVanishedThing(DestructionVolume __instance, OWRigidbody bodyToVanish)
         {
-            DeepBramble.debugPrint(Environment.StackTrace);
-        }*/
+            DeepBramble.debugPrint("Object " + bodyToVanish.gameObject.name + " was vanished by " + __instance.gameObject.name);
+        }
     }
 }
