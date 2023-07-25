@@ -136,6 +136,39 @@
           "z": 0
         },
         "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare"
+      },
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/injector",
+        "path": "Assets/Prefabs/props/injector.prefab",
+        "position": {
+          "x": 1.0938,
+          "y": 1.4268,
+          "z": 15.5809
+        },
+        "rotation": {
+          "x": 0,
+          "y": 221.6258,
+          "z": 0
+        }
+      },
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/injector_socket",
+        "path": "Assets/Prefabs/props/injector_socket.prefab",
+        "parentPath": "Sector/Dilation Node",
+        "isRelativeToParent": true,
+        "scale": 5,
+        "position": {
+          "x": -55.133,
+          "y": 33.2595,
+          "z": -35.486
+        },
+        "rotation": {
+          "x": 317.1364,
+          "y": 240.2596,
+          "z": 1.457
+        }
       }
     ],
     "translatorText": [

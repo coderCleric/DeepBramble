@@ -131,13 +131,17 @@ namespace DeepBramble
                 ForgottenLocator.dilationOuterWarp = GameObject.Find("DilationDimension_Body").transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
 
                 //Add the killer to the dilation node
-                ForgottenLocator.dilationOuterWarp._linkedInnerWarpVolume.gameObject.AddComponent<NodeKiller>();
+                ForgottenLocator.dilationNodeKiller = ForgottenLocator.dilationOuterWarp._linkedInnerWarpVolume.gameObject.AddComponent<NodeKiller>();
 
                 //Add the rotation controller to Ditylum
                 ForgottenLocator.dilatedDitylum = GameObject.Find("ditylum").AddComponent<DilatedDitylumManager>();
 
                 //Add the swim controller to outer ditylum
                 GameObject.Find("outerditylum").AddComponent<SwimmingDitylumManager>();
+
+                //Make the toxin injector
+                GameObject.Find("injector").AddComponent<InjectorItem>();
+                GameObject.Find("injector_socket").AddComponent<InjectorSocket>();
             }
         }
 

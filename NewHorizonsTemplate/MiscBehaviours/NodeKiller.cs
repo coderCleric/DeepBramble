@@ -82,7 +82,7 @@ namespace DeepBramble.MiscBehaviours
                 }
 
                 //Disable the Dree signal
-                GetComponentInChildren<AudioSignal>().gameObject.SetActive(false);
+                GetComponentInChildren<AudioSignal>().SetSignalActivation(false, 0);
             }
         }
     }

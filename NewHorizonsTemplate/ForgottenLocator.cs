@@ -46,5 +46,8 @@ namespace DeepBramble
 
         public static Material greenTreeMat = null;
         public static Transform heartDimensionSector = null;
+
+        //Things that are needed for other classes, but are hard for them to find normally
+        public static NodeKiller dilationNodeKiller = null;
     }
 }

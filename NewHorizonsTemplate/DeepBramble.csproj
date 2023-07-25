@@ -168,6 +168,18 @@
       <None Update="assetbundles\hollowplanet.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assetbundles\injector">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\injector.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\injector_socket">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assetbundles\injector_socket.manifest">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assetbundles\kevin">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
