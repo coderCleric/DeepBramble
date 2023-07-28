@@ -9,7 +9,7 @@ namespace DeepBramble.Triggers
 {
     internal class HeatWarningTrigger : MonoBehaviour
     {
-        private NotificationData heatNotification = new NotificationData(NotificationTarget.Player, "WARNING: EXCESSIVE HEAT DETECTED");
+        public static NotificationData heatNotification = new NotificationData(NotificationTarget.Player, "WARNING: EXCESSIVE HEAT DETECTED");
 
         /**
          * Put our events on the trigger volume
@@ -30,7 +30,6 @@ namespace DeepBramble.Triggers
         {
             if (other.CompareTag("PlayerDetector"))
             {
-                DeepBramble.debugPrint("notif posted");
                 //Post and pin the notification
                 NotificationManager.SharedInstance.PostNotification(heatNotification, true);
             }

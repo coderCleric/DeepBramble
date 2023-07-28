@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OWML.ModHelper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
@@ -10,7 +11,6 @@ namespace DeepBramble.Triggers
 {
     internal class CoolZone : MonoBehaviour
     {
-        private static int insideCount = 0;
 
         /**
          * Put our events on the trigger volume
@@ -29,11 +29,20 @@ namespace DeepBramble.Triggers
          */
         private void DisableHeat(GameObject other)
         {
-            if (other.CompareTag("PlayerDetector"))
+            DeepBramble.debugPrint(other.name + " entered the cool zone");
+
+            //Remove the hazard
+            if (other.CompareTag("PlayerDetector") || other.CompareTag("ProbeDetector"))
             {
-                insideCount++;
-                ForgottenLocator.hotNodeHazard.gameObject.SetActive(false);
+                DeepBramble.instance.ModHelper.Events.Unity.FireOnNextUpdate(() =>
+                {
+                    other.GetComponent<HazardDetector>().RemoveVolume(ForgottenLocator.hotNodeHazard);
+                });
             }
+
+            //Unpin the notification
+            if (other.CompareTag("PlayerDetector"))
+                NotificationManager.SharedInstance.UnpinNotification(HeatWarningTrigger.heatNotification);
         }
 
         /**
@@ -43,12 +52,20 @@ namespace DeepBramble.Triggers
          */
         private void EnableHeat(GameObject other)
         {
-            if (other.CompareTag("PlayerDetector"))
+            DeepBramble.debugPrint(other.name + " left the cool zone");
+
+            //Add the hazard back
+            if (other.CompareTag("PlayerDetector") || other.CompareTag("ProbeDetector"))
             {
-                insideCount--;
-                if(insideCount == 0)
-                    ForgottenLocator.hotNodeHazard.gameObject.SetActive(true);
+                DeepBramble.instance.ModHelper.Events.Unity.FireOnNextUpdate(() =>
+                {
+                    other.GetComponent<HazardDetector>().AddVolume(ForgottenLocator.hotNodeHazard);
+                });
             }
+
+            //Post and pin the notification
+            if (other.CompareTag("PlayerDetector"))
+                NotificationManager.SharedInstance.PostNotification(HeatWarningTrigger.heatNotification, true);
         }
 
         /**
