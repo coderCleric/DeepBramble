@@ -11,6 +11,8 @@ namespace DeepBramble.Triggers
 {
     internal class CoolZone : MonoBehaviour
     {
+        private bool probeJustEntered = false;
+        private bool playerJustEntered = false;
 
         /**
          * Put our events on the trigger volume
@@ -32,17 +34,12 @@ namespace DeepBramble.Triggers
             DeepBramble.debugPrint(other.name + " entered the cool zone");
 
             //Remove the hazard
-            if (other.CompareTag("PlayerDetector") || other.CompareTag("ProbeDetector"))
-            {
-                DeepBramble.instance.ModHelper.Events.Unity.FireOnNextUpdate(() =>
-                {
-                    other.GetComponent<HazardDetector>().RemoveVolume(ForgottenLocator.hotNodeHazard);
-                });
-            }
+            if (other.CompareTag("ProbeDetector"))
+                probeJustEntered = true;
 
-            //Unpin the notification
+            //Post and pin the notification
             if (other.CompareTag("PlayerDetector"))
-                NotificationManager.SharedInstance.UnpinNotification(HeatWarningTrigger.heatNotification);
+                playerJustEntered = true;
         }
 
         /**
@@ -57,10 +54,7 @@ namespace DeepBramble.Triggers
             //Add the hazard back
             if (other.CompareTag("PlayerDetector") || other.CompareTag("ProbeDetector"))
             {
-                DeepBramble.instance.ModHelper.Events.Unity.FireOnNextUpdate(() =>
-                {
-                    other.GetComponent<HazardDetector>().AddVolume(ForgottenLocator.hotNodeHazard);
-                });
+                other.GetComponent<HazardDetector>().AddVolume(ForgottenLocator.hotNodeHazard);
             }
 
             //Post and pin the notification
@@ -76,6 +70,25 @@ namespace DeepBramble.Triggers
             OWTriggerVolume trig = gameObject.GetComponent<OWTriggerVolume>();
             trig.OnEntry -= DisableHeat;
             trig.OnExit -= EnableHeat;
+        }
+
+        /**
+         * Need to do these here to avoid parenting bugs
+         */
+        private void LateUpdate()
+        {
+            if(playerJustEntered)
+            {
+                playerJustEntered = false;
+                Locator.GetPlayerDetector().GetComponent<HazardDetector>().RemoveVolume(ForgottenLocator.hotNodeHazard);
+                NotificationManager.SharedInstance.UnpinNotification(HeatWarningTrigger.heatNotification);
+            }
+
+            if(probeJustEntered)
+            {
+                probeJustEntered = false;
+                Locator.GetProbe().GetComponentInChildren<HazardDetector>().RemoveVolume(ForgottenLocator.hotNodeHazard);
+            }
         }
     }
 }
