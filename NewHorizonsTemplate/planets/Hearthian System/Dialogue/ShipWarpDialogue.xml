@@ -1,0 +1,26 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Ernesto</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL1</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Oh, hey! I almost forgot! You know how your ship is outfitted with a warp drive you can use from the ship log?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Yeah?</Text>
+        <DialogueTarget>INITIAL2</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>INITIAL2</Name>
+    <Dialogue>
+      <Page>Well, it's also able to analyze some warp signatures! So if you happen to come across any strange singularities, you might be able to go where they lead and back using your warp drive.</Page>
+      <Page>It's also able to pull data from your suit, so it can even let you warp your ship to locations that you could previously only access without it.</Page>
+    </Dialogue>
+    <SetPersistentCondition>ShipWarpTold</SetPersistentCondition>
+  </DialogueNode>
+</DialogueTree>

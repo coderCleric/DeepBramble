@@ -25,5 +25,7 @@ namespace DeepBramble
         UnityEvent<string> GetChangeStarSystemEvent();
 
         string GetCurrentStarSystem();
+
+        bool SetDefaultSystem(string name);
     }
 }

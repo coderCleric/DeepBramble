@@ -92,6 +92,13 @@ namespace DeepBramble
             //Do this stuff if we're in the bramble system
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("DeepBramble"))
             {
+                //Override the default system
+                if (!ForgottenLocator.vanishShip)
+                    NewHorizonsAPI.SetDefaultSystem("DeepBramble");
+
+                //Set the condition for finding the bramble
+                PlayerData._currentGameSave.SetPersistentCondition("DeepBrambleFound", true);
+
                 //Do some things to each astro object
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
@@ -112,9 +119,6 @@ namespace DeepBramble
 
                 //Fix the campfires
                 CampFireHelper.PrepFires();
-
-                //GameObject.Find("Sun_Body/Sector_SUN/Volumes_SUN/InnerDestructionVolume").SetActive(false);
-                //GameObject.Find("Sun_Body/Sector_SUN/Volumes_SUN/ScaledVolumesRoot/DestructionFluidVolume").SetActive(false);
             }
 
             //Do this stuff if we're in the hearthian system
@@ -122,6 +126,9 @@ namespace DeepBramble
             {
                 //If the player knows about the vessel, give them the first fact for our mod
                 ForgottenLocator.revealStartingRumor = true;
+
+                //Make sure they don't respawn in Deep Bramble
+                NewHorizonsAPI.SetDefaultSystem("SolarSystem");
             }
 
             //Debug thing, take out
@@ -576,6 +583,15 @@ namespace DeepBramble
                 }
 
                 Locator._shipBody.SetPosition(point);
+            }
+
+            //Clear some useful persistent conditions
+            if (Keyboard.current[Key.V].wasPressedThisFrame)
+            {
+                PlayerData._currentGameSave.SetPersistentCondition("DeepBrambleFound", false);
+                PlayerData._currentGameSave.SetPersistentCondition("LockableSignalFound", false);
+                PlayerData._currentGameSave.SetPersistentCondition("ShipWarpTold", false);
+                PlayerData._currentGameSave.SetPersistentCondition("SignalLockTold", false);
             }
         }
 

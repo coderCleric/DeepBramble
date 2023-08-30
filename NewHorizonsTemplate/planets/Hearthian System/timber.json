@@ -1,4 +1,56 @@
 {
   "name": "Timber Hearth",
-  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json"
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "Props": {
+    "dialogue": [
+      {
+        "rename": "ShipWarpDialogue",
+        "radius": 0,
+        "parentPath": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Slate_FocalPoint",
+        "isRelativeToParent": true,
+        "blockAfterPersistentCondition": "ShipWarpTold",
+        "pathToAnimController": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
+        "xmlFile": "planets/Hearthian System/Dialogue/ShipWarpDialogue.xml",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "remoteTrigger": {
+          "rename": "ShipWarpTrigger",
+          "prereqCondition": "ArgonDeepBrambleFound",
+          "position": {
+            "x": 11.40099,
+            "y": -42.22139,
+            "z": 186.0178
+          },
+          "radius": 2
+        }
+      },
+      {
+        "rename": "SignalLockDialogue",
+        "radius": 0,
+        "parentPath": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Slate_FocalPoint",
+        "isRelativeToParent": true,
+        "blockAfterPersistentCondition": "SignalLockTold",
+        "pathToAnimController": "Sector_TH/Sector_Village/Sector_StartingCamp/Characters_StartingCamp/Villager_HEA_Slate/Villager_HEA_Slate_ANIM_LogSit",
+        "xmlFile": "planets/Hearthian System/Dialogue/SignalLockDialogue.xml",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "remoteTrigger": {
+          "rename": "SignalLockTrigger",
+          "prereqCondition": "ArgonLockableSignalFound",
+          "position": {
+            "x": 10.01135,
+            "y": -42.2878,
+            "z": 186.2691
+          },
+          "radius": 2
+        }
+      }
+    ]
+  }
 }

@@ -1,0 +1,30 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Ernesto</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL1</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Wait! One more thing!</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Here we go again...</Text>
+        <DialogueTarget>INITIAL2</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>INITIAL2</Name>
+    <Dialogue>
+      <Page>We did some last-minute adjustments to your navigational equipment, and made a pretty nice improvement. If you have your signalscope focused on a signal and press your lock-on button, you can lock onto whatever the signal is coming from! That's assuming you’ve fully identified the signal, of course.</Page>
+    </Dialogue>
+    <SetPersistentCondition>SignalLockTold</SetPersistentCondition>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>That’s... weirdly good timing for you to bring that up. Thanks!</Text>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+</DialogueTree>

@@ -8,6 +8,7 @@ using DeepBramble.BaseInheritors;
 using DeepBramble.MiscBehaviours;
 using HarmonyLib;
 using DeepBramble.Ditylum;
+using NewHorizons;
 
 namespace DeepBramble
 {
@@ -67,13 +68,41 @@ namespace DeepBramble
             {
                 //Disable bramble music
                 Locator._globalMusicController._darkBrambleSource.gameObject.SetActive(false);
-
-                //Disable sun destruction volume
-                
             }
 
             //Give the main class the player damage audio
             ForgottenLocator.playerAudioController = Locator.GetPlayerAudioController();
+        }
+
+        //################################# Slate & Respawning #################################
+        /**
+         * Slate needs dialogue conditions set up properly at the start of the loop
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(DialogueConditionManager), nameof(DialogueConditionManager.ReadPlayerData))]
+        public static void PrepSlateDialogue(DialogueConditionManager __instance)
+        {
+            if (PlayerData._currentGameSave.GetPersistentCondition("DeepBrambleFound"))
+                __instance.SetConditionState("ArgonDeepBrambleFound", true);
+            if (PlayerData._currentGameSave.GetPersistentCondition("LockableSignalFound"))
+                __instance.SetConditionState("ArgonLockableSignalFound", true);
+        }
+
+        /**
+         * If the player is finding certain signals for the first time, set them to go back and tell Slate to yap
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(AudioSignal), nameof(AudioSignal.IdentifySignal))]
+        public static void TriggerSignalHint(AudioSignal __instance) 
+        {
+            if (!PlayerData._currentGameSave.GetPersistentCondition("LockableSignalFound") && 
+                (__instance.name.Equals("Camp_Marker_Signal") || __instance.name.Equals("Gravitation_Anomaly_Signal")))
+            {
+                DeepBramble.debugPrint("default system about to change");
+                PlayerData._currentGameSave.SetPersistentCondition("LockableSignalFound", true);
+                DeepBramble.instance.NewHorizonsAPI.SetDefaultSystem("SolarSystem");
+                DeepBramble.debugPrint("default system should be changed");
+            }
         }
 
         //################################# Do funky time dilation node stuff #################################
