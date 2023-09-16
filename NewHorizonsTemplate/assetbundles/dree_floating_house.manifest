@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 730184636
+CRC: 648473554
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: b9972b9a98dc79a70262da121b626a56
+    Hash: bc7d37aa088a572b5ab3d25dd5365243
   TypeTreeHash:
     serializedVersion: 2
     Hash: 59c18474563540ad13ffdbef2822d596
@@ -45,5 +45,6 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Prefabs/buildings/dree_floating_house_hidden.prefab
 - Assets/Prefabs/buildings/dree_floating_house.prefab
 Dependencies: []
