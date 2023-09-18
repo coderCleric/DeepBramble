@@ -46,6 +46,7 @@
         "path": "Assets/Prefabs/props/dead_node.prefab",
         "parentPath": "Sector/Dilation Node",
         "isRelativeToParent": true,
+        "scale": 0.2,
         "position": {
           "x": 0,
           "y": 0,
@@ -158,11 +159,11 @@
         "path": "Assets/Prefabs/props/injector_socket.prefab",
         "parentPath": "Sector/Dilation Node",
         "isRelativeToParent": true,
-        "scale": 5,
+        "scale": 1,
         "position": {
-          "x": -55.133,
-          "y": 33.2595,
-          "z": -35.486
+          "x": -11.0266,
+          "y": 6.6519,
+          "z": -7.0972
         },
         "rotation": {
           "x": 317.1364,
