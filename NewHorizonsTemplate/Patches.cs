@@ -74,6 +74,16 @@ namespace DeepBramble
             ForgottenLocator.playerAudioController = Locator.GetPlayerAudioController();
         }
 
+        /**
+         * When profiles are swapped, tell the title screen helper to take appropriate action
+         */
+        /*[HarmonyPostfix]
+        [HarmonyPatch(typeof(StandaloneProfileManager), nameof(StandaloneProfileManager.SwitchProfile))]
+        public static void ListenForProfileChange(bool __result)
+        {
+
+        }*/
+
         //################################# Slate & Respawning #################################
         /**
          * Slate needs dialogue conditions set up properly at the start of the loop

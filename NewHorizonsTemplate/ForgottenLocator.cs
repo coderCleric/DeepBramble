@@ -19,7 +19,6 @@ namespace DeepBramble
         public static bool inBrambleSystem = false;
         public static bool playerAttachedToKevin = false;
         public static bool probeDilated = false;
-        //public static bool goToOW = false;
 
         //Things that Patches needs to function
         public static GameObject brambleSingularity = null;
@@ -35,7 +34,6 @@ namespace DeepBramble
 
         //Things that the main class needs to know
         public static GameObject startDimensionObject = null;
-        public static AssetBundle titleBundle = null;
         public static PlayerAudioController playerAudioController = null;
 
         //Things that need to know each other to load properly

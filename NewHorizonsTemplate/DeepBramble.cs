@@ -15,6 +15,7 @@ using DeepBramble.MiscBehaviours;
 using System.Linq;
 using DeepBramble.Ditylum;
 using DeepBramble.Helpers;
+using UnityEngine.InputSystem.Utilities;
 
 namespace DeepBramble
 {
@@ -46,13 +47,13 @@ namespace DeepBramble
             NewHorizonsAPI.LoadConfigs(this);
 
             //Do stuff when the title screen loads
-            ForgottenLocator.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
-            this.MakeTitleEdits();
+            TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
+            TitleScreenHelper.FirstTimeTitleEdits();
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
                 debugPrint("Detecting scene load");
                 if (loadScene == OWScene.TitleScreen)
-                    this.MakeTitleEdits();
+                    TitleScreenHelper.FirstTimeTitleEdits();
             };
 
             //Do stuff when the system starts to load
@@ -403,45 +404,6 @@ namespace DeepBramble
         }
 
         /**
-         * Mess with the title screen
-         */
-        private void MakeTitleEdits()
-        {
-            debugPrint("Making title edits");
-
-            //Find the background object
-            GameObject backgroundObject = GameObject.Find("Scene/Background");
-            if(backgroundObject == null)
-            {
-                debugPrint("Couldn't find background object");
-                return;
-            }
-
-            //Load the custom effects bundle, make it a child of the background object
-            GameObject titleEffectsObject = ForgottenLocator.titleBundle.LoadAsset<GameObject>("Assets/Prefabs/titlescreeneffects.prefab");
-            if(titleEffectsObject == null)
-            {
-                debugPrint("Couldn't load title effects object");
-                return;
-            }
-            titleEffectsObject = GameObject.Instantiate(titleEffectsObject, backgroundObject.transform);
-            titleEffectsObject.name = "DB Title Effects Object";
-            titleEffectsObject.transform.position = new Vector3(116.455f, 368.8177f, -47.0909f);
-            titleEffectsObject.transform.rotation = Quaternion.Euler(327.4284f, 1.9997f, 340.8541f);
-            debugPrint("Title edits complete");
-
-            //Change the campfire appearance
-            CampFireHelper.ChangeFireAppearance(backgroundObject.transform.Find("PlanetPivot/Prefab_HEA_Campfire/Controller_Campfire").GetComponent<Campfire>());
-
-            //Disable the cricket noises
-            GameObject.Find("Scene/AudioSource_Ambience").SetActive(false);
-
-            //Find the animator & set it to play at a specific point
-            Animator animator = GameObject.Find("Scene").GetComponent<Animator>();
-            animator.Play(animator.GetCurrentAnimatorStateInfo(0).fullPathHash, 0, 0.6f);
-        }
-
-        /**
          * Do certain things every frame:
          * -Any debug presses
          * -Fix the ship drift
@@ -593,6 +555,15 @@ namespace DeepBramble
                 PlayerData._currentGameSave.SetPersistentCondition("ShipWarpTold", false);
                 PlayerData._currentGameSave.SetPersistentCondition("SignalLockTold", false);
             }
+        }
+
+        /**
+         * Retrieve settings for the mod
+         */
+        public override void Configure(IModConfig config)
+        {
+            //Whether to use the vanilla title screen or not
+            TitleScreenHelper.SetVanillaTitle(config.GetSettingsValue<bool>("Vanilla Title Screen"));
         }
 
         public static void debugPrint(string str)
