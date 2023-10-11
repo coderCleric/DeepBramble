@@ -19,7 +19,7 @@
   },
   "Bramble": {
     "dimension": {
-      "linksTo": "Hot Node",
+      "linksTo": "Main Hot Node",
       "fogDensity": 1.3,
       "radius": 750,
       "fogTint": {

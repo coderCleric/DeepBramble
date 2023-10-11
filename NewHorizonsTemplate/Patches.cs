@@ -74,6 +74,24 @@ namespace DeepBramble
             ForgottenLocator.playerAudioController = Locator.GetPlayerAudioController();
         }
 
+        /**
+         * Brake the player as they come out of the hot dimension
+         * 
+         * @param detector The warp detector being received
+         * @param __instance The calling warp volume
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
+        public static void HotNodeBrakes(ref FogWarpDetector detector, FogWarpVolume __instance)
+        {
+            if (__instance.gameObject.name.Equals("Main Hot Node") && detector.CompareName(FogWarpDetector.Name.Player))
+            {
+                OWRigidbody playerBody = Locator.GetPlayerBody();
+                Vector3 wantedVel = playerBody.GetVelocity().normalized * Mathf.Min(playerBody.GetVelocity().magnitude, 5);
+                playerBody.SetVelocity(wantedVel);
+            }
+        }
+
         //################################# Slate & Respawning #################################
         /**
          * Slate needs dialogue conditions set up properly at the start of the loop

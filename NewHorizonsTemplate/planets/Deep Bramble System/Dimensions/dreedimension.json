@@ -20,7 +20,7 @@
   "Bramble": {
     "nodes": [
       {
-        "name": "Hot Node",
+        "name": "Main Hot Node",
         "hasFogLight": false,
         "position": {
           "x": 0,
