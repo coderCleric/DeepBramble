@@ -656,5 +656,17 @@
         "xmlFile": "planets/Deep Bramble System/Dialogue/ernesto.xml"
       }
     ]
+  },
+  "Volumes": {
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 160,
+        "volume": 0.2,
+        "audio": "OW_DarkBramble_loop",
+        "track": "music",
+        "loop": true
+      }
+    ]
   }
 }
