@@ -99,7 +99,7 @@ namespace DeepBramble.MiscBehaviours
             if (playerSpooked)
                 return;
 
-            //Otherwise, do some stuff
+            //Otherwise, make all of the fish look
             playerSpooked = true;
             foreach (DomesticFishController controller in fishies)
             {
@@ -108,6 +108,9 @@ namespace DeepBramble.MiscBehaviours
                 controller.originalRotation = controller.transform.rotation;
             }
             longRangeSource.PlayOneShot(AudioType.DBAnglerfishDetectDisturbance);
+
+            //Enable the audio switching trigger
+            transform.parent.parent.Find("audio_switcher").gameObject.SetActive(true);
         }
 
         /**

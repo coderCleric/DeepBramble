@@ -335,25 +335,6 @@ namespace DeepBramble
                 if(body.GetComponent<AstroObject>()._customName != "Hot Dimension")
                     body.transform.Find("Sector/Atmosphere/AmbientLight_DB_Interior").gameObject.SetActive(false);
 
-                //Set up each dimension with the things it needs to grab
-                /*
-                if (body.GetComponent<AstroObject>()._name == AstroObject.Name.CustomString)
-                {
-                    switch (body.GetComponent<AstroObject>()._customName)
-                    {
-                        case "Start Dimension":
-                            BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "StartDimensionFlare", "StartDimensionRecorderContainer" }, true));
-                            break;
-                        case "Large Dimension":
-                            BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "RecursiveNodeRecorderContainer" }, false));
-                            break;
-                        case "Dree Dimension":
-                            BrambleContainer.containers.Add(new BrambleContainer(body, new string[] { "CommunionRecorderContainer", "ReinvigorationRecorderContainer" }, false));
-                            break;
-                    }
-                }
-                */
-
                 //Special actions for specific dimensions
                 switch(body.GetComponent<AstroObject>()._customName)
                 {
@@ -376,10 +357,14 @@ namespace DeepBramble
                         break;
 
                     case "Domestic Dimension":
+                        //Make the fish have some brains
                         foreach(Transform fish in body.transform.Find("Sector/observation_lab/fish"))
                         {
                             fish.gameObject.AddComponent<DomesticFishController>();
                         }
+
+                        //Set up the audio switch trigger
+                        body.transform.Find("Sector/observation_lab/audio_switcher").gameObject.AddComponent<AudioSwitchTrigger>();
                         break;
                 }
             }

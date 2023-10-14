@@ -49,5 +49,17 @@
         "linksTo": "Heart Dimension"
       }
     ]
+  },
+  "Volumes": {
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 350,
+        "volume": 0.5,
+        "audio": "TimeLoopDevice_Ambient",
+        "track": "music",
+        "loop": true
+      }
+    ]
   }
 }

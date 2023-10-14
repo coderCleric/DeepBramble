@@ -104,6 +104,17 @@
         "revealOn": "enter",
         "reveals": [ "CLUSTER_RUINS_FACT" ]
       }
+    ],
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 350,
+        "volume": 0.2,
+        "priority": 2,
+        "audio": "HT_City",
+        "track": "music",
+        "loop": true
+      }
     ]
   }
 }

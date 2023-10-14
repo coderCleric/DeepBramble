@@ -100,5 +100,17 @@
         }
       }
     ]
+  },
+  "Volumes": {
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 2500,
+        "volume": 0.3,
+        "audio": "OW_DarkBramble_loop",
+        "track": "music",
+        "loop": true
+      }
+    ]
   }
 }

@@ -327,6 +327,16 @@
           "z": 368.3324
         }
       }
+    ],
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 1200,
+        "volume": 0.5,
+        "audio": "OW_TH_Museum",
+        "track": "music",
+        "loop": true
+      }
     ]
   }
 }

@@ -94,5 +94,17 @@
         }
       }
     ]
+  },
+  "Volumes": {
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 350,
+        "volume": 0.4,
+        "audio": "OW Secret Loop 090121 AP muted",
+        "track": "music",
+        "loop": true
+      }
+    ]
   }
 }

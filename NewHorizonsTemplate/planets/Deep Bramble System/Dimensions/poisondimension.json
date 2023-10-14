@@ -23,5 +23,17 @@
       "fogDensity": 1.2,
       "radius": 500
     }
+  },
+  "Volumes": {
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 750,
+        "volume": 0.4,
+        "audio": "Ice_Cave_Amb_loop_v3_01",
+        "track": "music",
+        "loop": true
+      }
+    ]
   }
 }

@@ -662,7 +662,7 @@
       {
         "rename": "AmbientAudio",
         "radius": 160,
-        "volume": 0.2,
+        "volume": 0.3,
         "audio": "OW_DarkBramble_loop",
         "track": "music",
         "loop": true

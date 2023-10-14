@@ -75,6 +75,10 @@ namespace DeepBramble.MiscBehaviours
                 {
                     grav.gameObject.SetActive(false);
                 }
+
+                //Disable the fragile audio
+                transform.parent.Find("fragile_audios/core_audio").gameObject.SetActive(false);
+                transform.parent.Find("fragile_audios/planet_audio").GetComponent<OWAudioSource>().SetMaxVolume(0);
             }
         }
 
