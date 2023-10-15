@@ -108,9 +108,6 @@ namespace DeepBramble.MiscBehaviours
                 controller.originalRotation = controller.transform.rotation;
             }
             longRangeSource.PlayOneShot(AudioType.DBAnglerfishDetectDisturbance);
-
-            //Enable the audio switching trigger
-            transform.parent.parent.Find("audio_switcher").gameObject.SetActive(true);
         }
 
         /**
@@ -157,6 +154,9 @@ namespace DeepBramble.MiscBehaviours
                 {
                     lookedBack = true;
                     finalStareRotation = transform.rotation;
+
+                    //Enable the audio switching trigger
+                    transform.parent.parent.Find("audio_switcher").gameObject.SetActive(true);
                 }
                 float lookAmount = (Time.time - (lookStartTime + stareDuration)) / lookBackTime;
                 transform.rotation = Quaternion.Lerp(finalStareRotation, originalRotation, lookAmount);

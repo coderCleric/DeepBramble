@@ -365,6 +365,8 @@ namespace DeepBramble
 
                         //Set up the audio switch trigger
                         body.transform.Find("Sector/observation_lab/audio_switcher").gameObject.AddComponent<AudioSwitchTrigger>();
+                        body.transform.Find("Sector/observation_lab/audio_switcher").gameObject.SetActive(false);
+                        body.transform.Find("Sector/observation_lab/domestic_ambience_calm").gameObject.SetActive(false);
                         break;
                 }
             }

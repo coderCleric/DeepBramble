@@ -14,22 +14,23 @@ namespace DeepBramble.Triggers
         /**
          * When starting, need to prime the trigger
          */
-        private void Start()
+        private void Awake()
         {
-            GetComponent<OWTriggerVolume>().OnEntry += OnEntry;
+            gameObject.GetComponent<OWTriggerVolume>().OnEntry += SwitchAudio;
+            DeepBramble.debugPrint("audio switcher woke up");
         }
 
         /**
          * Switch the audio when we trigger
          */
-        private void OnEntry(GameObject other)
+        private void SwitchAudio(GameObject other)
         {
+            DeepBramble.debugPrint(other.name + " was detected by audio switcher");
             if (!audioSwitched && other.CompareTag("PlayerDetector"))
             {
                 DeepBramble.debugPrint("Switching audio");
                 audioSwitched = true;
-                OWAudioSource source = transform.parent.Find("domestic_ambience").GetComponent<OWAudioSource>();
-                source.AssignAudioLibraryClip(AudioType.Reel_2_Backdrop_A);
+                transform.parent.Find("domestic_ambience_calm").gameObject.SetActive(true);
             }
         }
 
@@ -38,7 +39,7 @@ namespace DeepBramble.Triggers
          */
         private void OnDestroy()
         {
-            GetComponent<OWTriggerVolume>().OnEntry -= OnEntry;
+            GetComponent<OWTriggerVolume>().OnEntry -= SwitchAudio;
         }
     }
 }
