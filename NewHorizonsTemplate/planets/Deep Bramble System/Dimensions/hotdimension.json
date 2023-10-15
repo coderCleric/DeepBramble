@@ -31,6 +31,33 @@
       "allowedEntrances": [ 4 ]
     }
   },
+  "Props": {
+    "signals": [
+      {
+        "rename": "dree_signal",
+        "audio": "OW_TravelerTheme_harmonica",
+        "identificationRadius": 3,
+        "sourceRadius": 0.3,
+        "detectionRadius": 10,
+        "position": {
+          "x": 112.9468,
+          "y": -142.5818,
+          "z": -97.57899
+        },
+        "frequency": "Echolocation Tones",
+        "name": "Alien Echolocation"
+      },
+      {
+        "rename": "lava_signal",
+        "audio": "OW_TravelerTheme_harmonica",
+        "identificationRadius": 250,
+        "sourceRadius": 220,
+        "detectionRadius": 500,
+        "frequency": "Natural Phenomena",
+        "name": "Geothermal Activity"
+      }
+    ]
+  },
   "Volumes": {
     "audioVolumes": [
       {
