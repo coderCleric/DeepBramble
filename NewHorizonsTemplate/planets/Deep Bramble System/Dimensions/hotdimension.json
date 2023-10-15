@@ -30,5 +30,17 @@
       },
       "allowedEntrances": [ 4 ]
     }
+  },
+  "Volumes": {
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 1200,
+        "volume": 0.5,
+        "audio": "assets/Audio/eye_signal_sound.ogg",
+        "track": "environment",
+        "loop": true
+      }
+    ]
   }
 }
