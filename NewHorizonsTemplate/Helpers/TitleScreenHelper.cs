@@ -11,6 +11,7 @@ namespace DeepBramble.Helpers
     {
         //The different objects needed for the title screen to work right
         public static AssetBundle titleBundle = null;
+        public static AudioClip titleMusic = null;
         private static bool vanillaTitle = false;
         private static GameObject titleEffectsObject = null;
         private static GameObject cricketAudio = null;
@@ -54,15 +55,24 @@ namespace DeepBramble.Helpers
             cricketAudio = GameObject.Find("Scene/AudioSource_Ambience");
             cricketAudio.SetActive(false);
 
-            //Find the animator & set it to play at a specific point
+            //Some changes should only be made if the title screen is altered
             if (editsNeeded)
             {
+                //Set the animator to play at a specific point
                 Animator animator = GameObject.Find("Scene").GetComponent<Animator>();
                 animator.Play(animator.GetCurrentAnimatorStateInfo(0).fullPathHash, 0, 0.6f);
+
+                //Set the custom audio
+                OWAudioSource musicSource = GameObject.Find("Scene/AudioSource_Music").GetComponent<OWAudioSource>();
+                musicSource._audioLibraryClip = (AudioType.None);
+                musicSource.GetAudioSource().clip = titleMusic;
+                musicSource.SetMaxVolume(0.2f);
             }
             else
             {
-                DisableTitleEdits();
+                titleEffectsObject.SetActive(false);
+                cricketAudio.SetActive(true);
+                cricketAudio.GetComponent<OWAudioSource>().Play();
             }
 
             //Subscribe to future changes
@@ -71,6 +81,9 @@ namespace DeepBramble.Helpers
             DeepBramble.debugPrint("Title edits complete");
         }
 
+        /**
+         * Alter the title screen when a profile is loaded
+         */
         private static void OnProfileLoaded(ProfileManagerSignInResult result)
         {
             //Error check for bad load or not having initialized
@@ -91,6 +104,13 @@ namespace DeepBramble.Helpers
             titleEffectsObject.SetActive(true);
             cricketAudio.SetActive(false);
             DeepBramble.debugPrint("Title edits enabled");
+
+            //Set the custom audio
+            OWAudioSource musicSource = GameObject.Find("Scene/AudioSource_Music").GetComponent<OWAudioSource>();
+            musicSource._audioLibraryClip = AudioType.None;
+            musicSource.GetAudioSource().clip = titleMusic;
+            musicSource.SetMaxVolume(0.2f);
+            musicSource.Play();
         }
 
         /**
@@ -102,6 +122,12 @@ namespace DeepBramble.Helpers
             cricketAudio.SetActive(true);
             cricketAudio.GetComponent<OWAudioSource>().Play();
             DeepBramble.debugPrint("Title edits disabled");
+
+            //Undo the custom audio
+            OWAudioSource musicSource = GameObject.Find("Scene/AudioSource_Music").GetComponent<OWAudioSource>();
+            musicSource.AssignAudioLibraryClip(AudioType.MainMenuTheme);
+            musicSource.SetMaxVolume(0.1f);
+            musicSource.Play();
         }
 
         /**

@@ -8,6 +8,7 @@ using UnityEngine.InputSystem;
 using HarmonyLib;
 using UnityEngine.Events;
 using System;
+using System.IO;
 using System.Reflection;
 using DeepBramble.BaseInheritors;
 using DeepBramble.Triggers;
@@ -45,6 +46,9 @@ namespace DeepBramble
             //NH setup stuff
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizonsAPI.LoadConfigs(this);
+
+            //Load the title screen music
+            TitleScreenHelper.titleMusic = NewHorizons.Utility.Files.AudioUtilities.LoadAudio(Path.Combine(ModHelper.Manifest.ModFolderPath, "assets", "Audio", "title_music.ogg"));
 
             //Do stuff when the title screen loads
             TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");

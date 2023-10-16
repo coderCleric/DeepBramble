@@ -267,6 +267,9 @@
       <None Update="assets\Audio\eye_signal_sound.ogg">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assets\Audio\title_music.ogg">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assets\Heightmaps\camp_planetoid_tree_heightmap.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
