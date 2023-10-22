@@ -79,7 +79,7 @@ namespace DeepBramble
          */
         private void UpdateSystemFlag(String s)
         {
-            ForgottenLocator.inBrambleSystem = s.Equals("DeepBramble");
+            ForgottenLocator.inBrambleSystem = s.Equals("DeepBramble") && TitleScreenHelper.titleEffectsObject == null;
         }
 
         /**
@@ -212,7 +212,6 @@ namespace DeepBramble
                         case "Magma's Recursion":
                             //Register the hazard with patches
                             ForgottenLocator.hotNodeHazard = sectorTransform.Find("lava_planet/heat_hazard").gameObject.GetComponent<HazardVolume>();
-                            ForgottenLocator.hotNodeHazard.gameObject.AddComponent<HeatWarningTrigger>();
 
                             //Make all of the cool zones
                             foreach(OWTriggerVolume trig in sectorTransform.gameObject.GetComponentsInChildren<OWTriggerVolume>())
@@ -539,13 +538,13 @@ namespace DeepBramble
             }
 
             //Clear some useful persistent conditions
-            if (Keyboard.current[Key.V].wasPressedThisFrame)
+            /*if (Keyboard.current[Key.V].wasPressedThisFrame)
             {
                 PlayerData._currentGameSave.SetPersistentCondition("DeepBrambleFound", false);
                 PlayerData._currentGameSave.SetPersistentCondition("LockableSignalFound", false);
                 PlayerData._currentGameSave.SetPersistentCondition("ShipWarpTold", false);
                 PlayerData._currentGameSave.SetPersistentCondition("SignalLockTold", false);
-            }
+            }*/
         }
 
         /**

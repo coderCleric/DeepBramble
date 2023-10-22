@@ -13,7 +13,7 @@ namespace DeepBramble.Helpers
         public static AssetBundle titleBundle = null;
         public static AudioClip titleMusic = null;
         private static bool vanillaTitle = false;
-        private static GameObject titleEffectsObject = null;
+        public static GameObject titleEffectsObject = null;
         private static GameObject cricketAudio = null;
 
         /**

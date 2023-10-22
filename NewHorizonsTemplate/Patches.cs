@@ -9,6 +9,7 @@ using DeepBramble.MiscBehaviours;
 using HarmonyLib;
 using DeepBramble.Ditylum;
 using NewHorizons;
+using DeepBramble.Triggers;
 
 namespace DeepBramble
 {
@@ -29,6 +30,10 @@ namespace DeepBramble
         //Needed for the baby angler & kevin
         public static Animator anglerAnimator = null;
 
+        //Needed for hot node hazard
+        private static bool heatNotifPosted = false;
+        private static NotificationData heatNotification = new NotificationData(NotificationTarget.Player, "WARNING: EXCESSIVE HEAT DETECTED");
+
         //################################# Miscellanious patches #################################
         /**
          * When the locator finishes loading, do a bunch of stuff to prep the game
@@ -42,6 +47,7 @@ namespace DeepBramble
             //Reset a couple of flags
             ForgottenLocator.playerAttachedToKevin = false;
             ForgottenLocator.probeDilated = false;
+            heatNotifPosted = false;
 
             //If needed, vanish the ship
             if (ForgottenLocator.vanishShip)
@@ -248,6 +254,39 @@ namespace DeepBramble
                 return false;
             }
             return true;
+        }
+
+        /**
+         * Cool the detector if it's in a coolzone
+         * 
+         * @param __instance The detector being checked
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(HazardDetector), nameof(HazardDetector.GetNetDamagePerSecond))]
+        public static void CoolDetector(HazardDetector __instance, ref float __result)
+        {
+            //Set some flags
+            bool inCoolZone = CoolZone.cooledDetectors.Contains(__instance);
+            bool isPlayerDetector = __instance.CompareTag("PlayerDetector");
+            bool inSpecialHazard = __instance._activeVolumes.Contains(ForgottenLocator.hotNodeHazard as EffectVolume);
+
+            //Make the cooling work
+            if (inCoolZone)
+                __result = Mathf.Max(0, __result - ForgottenLocator.hotNodeHazard._damagePerSecond);
+
+            //Do the notification if needed
+            else if(!heatNotifPosted && isPlayerDetector && inSpecialHazard)
+            {
+                heatNotifPosted = true;
+                NotificationManager.SharedInstance.PostNotification(heatNotification, true);
+            }
+
+            //Unpost the notif when needed
+            if(heatNotifPosted && (inCoolZone || !inSpecialHazard))
+            {
+                heatNotifPosted = false;
+                NotificationManager.SharedInstance.UnpinNotification(heatNotification);
+            }
         }
 
         //################################# Dree text stuff #################################

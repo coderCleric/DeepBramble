@@ -1,5 +1,6 @@
 ﻿using OWML.ModHelper;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
@@ -11,8 +12,7 @@ namespace DeepBramble.Triggers
 {
     internal class CoolZone : MonoBehaviour
     {
-        private bool probeJustEntered = false;
-        private bool playerJustEntered = false;
+        public static List<HazardDetector> cooledDetectors = new List<HazardDetector> ();
 
         /**
          * Put our events on the trigger volume
@@ -25,7 +25,7 @@ namespace DeepBramble.Triggers
         }
 
         /**
-         * When the player enters, up the count and disable the heat
+         * When a hazard detector enters, put them in the list
          * 
          * @param other The entering collider
          */
@@ -33,17 +33,14 @@ namespace DeepBramble.Triggers
         {
             DeepBramble.debugPrint(other.name + " entered the cool zone");
 
-            //Remove the hazard
-            if (other.CompareTag("ProbeDetector"))
-                probeJustEntered = true;
-
-            //Post and pin the notification
-            if (other.CompareTag("PlayerDetector"))
-                playerJustEntered = true;
+            //Add the detector
+            HazardDetector detector = other.GetComponent<HazardDetector>();
+            if(detector != null)
+                cooledDetectors.Add(detector);
         }
 
         /**
-         * When the player leaves, lower the count and enable the heat
+         * When a hazard detector enters, remove them from the list
          * 
          * @param other The entering collider
          */
@@ -51,15 +48,10 @@ namespace DeepBramble.Triggers
         {
             DeepBramble.debugPrint(other.name + " left the cool zone");
 
-            //Add the hazard back
-            if (other.CompareTag("PlayerDetector") || other.CompareTag("ProbeDetector"))
-            {
-                other.GetComponent<HazardDetector>().AddVolume(ForgottenLocator.hotNodeHazard);
-            }
-
-            //Post and pin the notification
-            if (other.CompareTag("PlayerDetector"))
-                NotificationManager.SharedInstance.PostNotification(HeatWarningTrigger.heatNotification, true);
+            //Remove the detector
+            HazardDetector detector = other.GetComponent<HazardDetector>();
+            if (detector != null)
+                cooledDetectors.Remove(detector);
         }
 
         /**
@@ -70,25 +62,6 @@ namespace DeepBramble.Triggers
             OWTriggerVolume trig = gameObject.GetComponent<OWTriggerVolume>();
             trig.OnEntry -= DisableHeat;
             trig.OnExit -= EnableHeat;
-        }
-
-        /**
-         * Need to do these here to avoid parenting bugs
-         */
-        private void LateUpdate()
-        {
-            if(playerJustEntered)
-            {
-                playerJustEntered = false;
-                Locator.GetPlayerDetector().GetComponent<HazardDetector>().RemoveVolume(ForgottenLocator.hotNodeHazard);
-                NotificationManager.SharedInstance.UnpinNotification(HeatWarningTrigger.heatNotification);
-            }
-
-            if(probeJustEntered)
-            {
-                probeJustEntered = false;
-                Locator.GetProbe().GetComponentInChildren<HazardDetector>().RemoveVolume(ForgottenLocator.hotNodeHazard);
-            }
         }
     }
 }
