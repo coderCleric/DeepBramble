@@ -30,12 +30,12 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/ditylum",
-        "path": "Assets/Prefabs/props/ditylum.prefab",
+        "assetBundle": "assetbundles/dilated_ditylum",
+        "path": "Assets/Prefabs/props/dilated_ditylum.prefab",
         "position": {
-          "x": -149.2,
-          "y": 346.9,
-          "z": -1209.3
+          "x": -150.1795,
+          "y": 348.6858,
+          "z": -1221.462
         },
         "rotation": {
           "x": 0,

@@ -86,6 +86,10 @@ namespace DeepBramble.MiscBehaviours
 
                 //Disable the Dree signal
                 GetComponentInChildren<AudioSignal>().SetSignalActivation(false, 0);
+
+                //Trigger Ditylum to get going
+                ForgottenLocator.swimmingDitylum.LockPlayerOn();
+                ForgottenLocator.swimmingDitylum.BeginSequence();
             }
         }
     }

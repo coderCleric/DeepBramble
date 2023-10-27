@@ -15,6 +15,7 @@ namespace DeepBramble.Ditylum
         public void LookAtPlayer()
         {
             transform.LookAt(Locator.GetPlayerTransform(), Locator.GetPlayerTransform().up);
+            gameObject.GetComponent<Animator>().SetTrigger("turn");
         }
     }
 }

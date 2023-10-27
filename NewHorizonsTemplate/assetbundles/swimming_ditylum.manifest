@@ -1,0 +1,41 @@
+ManifestFileVersion: 0
+CRC: 3090085129
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 55bbe2e5d3c38ca83b8a8fc7f2eccf17
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3029ed243f4eb852772cf8d0dd0079d4
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/props/swimming_ditylum.prefab
+Dependencies: []

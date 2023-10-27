@@ -59,13 +59,14 @@
         }
       },
       {
-        "assetBundle": "assetbundles/ditylum",
-        "path": "Assets/Prefabs/props/ditylum.prefab",
+        "assetBundle": "assetbundles/swimming_ditylum",
+        "path": "Assets/Prefabs/props/swimming_ditylum.prefab",
         "rename": "outerditylum",
-        "hasPhysics": true,
         "physicsRadius": 0,
+        "parentPath": "Sector/Dilation Node",
+        "isRelativeToParent": true,
         "position": {
-          "x": 100,
+          "x": 0,
           "y": 0,
           "z": 0
         },

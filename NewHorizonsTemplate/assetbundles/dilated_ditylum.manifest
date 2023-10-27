@@ -1,0 +1,37 @@
+ManifestFileVersion: 0
+CRC: 1802281313
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eaaaf77bbac34e5252b12c96afaa0d57
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0cd066314107cbfa8c92d92598ff1f5b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/props/dilated_ditylum.prefab
+Dependencies: []

@@ -48,5 +48,6 @@ namespace DeepBramble
 
         //Things that are needed for other classes, but are hard for them to find normally
         public static NodeKiller dilationNodeKiller = null;
+        public static SwimmingDitylumManager swimmingDitylum = null;
     }
 }

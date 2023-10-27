@@ -8,21 +8,44 @@ using UnityEngine;
 
 namespace DeepBramble.Ditylum
 {
+    public enum SwimState
+    {
+        TUMBLE, STEADY, SWIMMING, IMPULSE, GONE
+    }
+
     public class SwimmingDitylumManager : MonoBehaviour
     {
-        private OWRigidbody body = null;
+        private OWRigidbody thisBody = null;
+        private OWRigidbody dimensionBody = null;
         private PlayerLockOnTargeting lockOnThing = null;
-        private bool activated = false;
-        private float swimSpeed = 7f;
-        private bool isSwimming = false;
+        private float swimAccel = 7f;
         private float disableTime = -1;
+        private SwimState swimState = SwimState.TUMBLE;
 
         /**
          * Grab the player lock on thingy when we start up
          */
         private void Start()
         {
+            //Basic initialization
             lockOnThing = Locator.GetPlayerTransform().GetRequiredComponent<PlayerLockOnTargeting>();
+            thisBody = gameObject.GetComponent<OWRigidbody>();
+            ForgottenLocator.swimmingDitylum = this;
+            dimensionBody = thisBody.GetOrigParentBody();
+
+            //Adjust position
+            transform.position = Vector3.MoveTowards(transform.position, dimensionBody.transform.position, 15);
+
+            //Prime starting velocity
+            Vector3 move = dimensionBody.transform.position - transform.position;
+            move = move.normalized * 6;
+            thisBody.SetVelocity(move);
+
+            //Disable the object
+            thisBody.Suspend();
+            GetComponent<Animator>().speed = 0;
+            foreach(SkinnedMeshRenderer rend in GetComponentsInChildren<SkinnedMeshRenderer>())
+                rend.gameObject.SetActive(false);
         }
 
         /**
@@ -30,15 +53,6 @@ namespace DeepBramble.Ditylum
          */
         public void LockPlayerOn()
         {
-            activated = true;
-
-            //Grab the body, if we don't have it already
-            if(body == null)
-            {
-                body = transform.parent.gameObject.GetComponent<OWRigidbody>();
-                body.SetIsTargetable(false);
-            }
-
             //Actually lock the player on
             OWInput.ChangeInputMode(InputMode.None);
             Locator.GetPauseCommandListener().AddPauseCommandLock();
@@ -53,18 +67,31 @@ namespace DeepBramble.Ditylum
          */
         public void UnlockPlayer()
         {
-            activated = false;
             OWInput.ChangeInputMode(InputMode.Character);
             Locator.GetPauseCommandListener().RemovePauseCommandLock();
             lockOnThing.BreakLock();
+            Locator.GetPlayerCameraController().SnapToDegrees(0, 0, 60, true);
         }
 
         /**
-         * Starts it moving towards the center of its sector
+         * Begins the processes of Ditylum
          */
-        public void StartMoving()
+        public void BeginSequence()
         {
-            isSwimming = true;
+            foreach (SkinnedMeshRenderer rend in GetComponentsInChildren<SkinnedMeshRenderer>(true))
+                rend.gameObject.SetActive(true);
+            thisBody.Unsuspend(true);
+            GetComponent<Animator>().speed = 1;
+            transform.LookAt(dimensionBody.transform, Locator.GetPlayerTransform().up);
+        }
+
+        /**
+         * Used by the animations to set the state
+         */
+        public void SetState(int state)
+        {
+            if(swimState != SwimState.GONE)
+                swimState = (SwimState)state;
         }
 
         /**
@@ -72,30 +99,35 @@ namespace DeepBramble.Ditylum
          */
         private void Update()
         {
-            //Schmoovin' time
-            if (isSwimming)
+            //Have it move towards original parent body from rigidbody
+            switch(swimState)
             {
-                if (body != null)
-                {
-                    Vector3 move = body._origParent.transform.position - transform.position;
-                    move = move.normalized;
-                    move *= swimSpeed;
-                    body.AddAcceleration(move);
-                }
+                case SwimState.STEADY:
+                    thisBody.SetVelocity(Vector3.MoveTowards(thisBody.GetVelocity(), Vector3.zero, 3 * Time.deltaTime));
+                    break;
 
-                //If we get too far away, fade away and unlock the player
-                if(Vector3.Distance(transform.position, Locator.GetPlayerBody().transform.position) > 200)
-                {
-                    isSwimming = false;
-                    disableTime = Time.time + 5.0f;
-                    UnlockPlayer();
-                    GetComponent<SectorCullGroup>().SetVisible(false);
-                }
+                case SwimState.IMPULSE:
+                    thisBody.AddAcceleration(swimAccel * transform.forward);
+                    break;
             }
 
-            //If we should disable, do so
-            if(disableTime > 0 && Time.time  > disableTime)
-                transform.parent.gameObject.SetActive(false);
+            //If he's swimming and gets too far away, fade him out
+            if((swimState == SwimState.IMPULSE || swimState == SwimState.SWIMMING) && Vector3.Distance(transform.position, Locator.GetPlayerBody().transform.position) > 200)
+            {
+                disableTime = Time.time + 5.0f;
+                swimState = SwimState.GONE;
+                UnlockPlayer();
+                GetComponent<SectorCullGroup>().SetVisible(false);
+            }
+
+            //If it's time to disable him, do so
+            if (disableTime > 0 && Time.time > disableTime)
+            {
+                thisBody.Suspend();
+                GetComponent<Animator>().speed = 0;
+                foreach (SkinnedMeshRenderer rend in GetComponentsInChildren<SkinnedMeshRenderer>())
+                    rend.gameObject.SetActive(false);
+            }
         }
     }
 }
