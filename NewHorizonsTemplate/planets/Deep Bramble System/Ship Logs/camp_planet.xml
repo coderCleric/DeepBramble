@@ -1,0 +1,94 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>CAMP_PLANET</ID>
+
+  <!-- Entry for the campsite -->
+  <Entry>
+    <ID>CAMP_ENTRY_FC</ID>
+    <Name>Northern Campsite</Name>
+    <Curiosity>DREE</Curiosity>
+
+    <!--First rumor-->
+    <RumorFact>
+      <ID>CAMP_RUMOR_FC</ID>
+      <SourceID>PLANETOID_CLUSTER_ENTRY_FC</SourceID>
+      <RumorName>Strange Camp</RumorName>
+      <IgnoreMoreToExplore/>
+      <Text>One of the Nomai discovered a campsite on a large planetoid, which none of the Nomai constructed. They placed a signal beacon there so that they could easily find it again.</Text>
+    </RumorFact>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>CAMP_DISCOVERY_FACT_FC</ID>
+      <Text>I found an old campsite on the north pole of a large planetoid in Briar’s Hollow.</Text>
+    </ExploreFact>
+
+    <!--Okalis is dummy-->
+    <ExploreFact>
+      <ID>FIRST_SIGHTING_FACT_FC</ID>
+      <Text>One of the Nomai, against the wishes of the others, lurked near this campsite until a strange alien returned to it. The Nomai revealed himself, at which point the alien quickly fled, abandoning a stone tablet.</Text>
+    </ExploreFact>
+
+    <!--First real meeting-->
+    <ExploreFact>
+      <ID>FIRST_MEETING_FACT_FC</ID>
+      <Text>The Nomai decided to wait again, to see if the alien would return. The alien did, and the Nomai was able to return the stone tablet that the alien left behind.</Text>
+    </ExploreFact>
+
+    <!--Stalking time-->
+    <ExploreFact>
+      <ID>STALKING_FACT_FC</ID>
+      <Text>In the days after returning the tablet, the Nomai noticed shapes in the fog that seemed to be watching them.</Text>
+    </ExploreFact>
+
+    <!--Leading him away-->
+    <ExploreFact>
+      <ID>ALIEN_LEADING_FACT_FC</ID>
+      <Text>An alien appeared to a Nomai named Okalis, and led him through a node at the center of Briar's Hollow into a strange, enclosed area.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!-- Entry for the soil lab -->
+  <Entry>
+    <ID>SOIL_LAB_FC</ID>
+    <Name>Soil Lab</Name>
+
+    <!--Initial rumor-->
+    <RumorFact>
+      <ID>SOIL_LAB_RUMOR_FC</ID>
+      <SourceID>CAMP_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai constructed a lab to analyze the soil of the camp planetoid.</Text>
+    </RumorFact>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>SOIL_LAB_DISCOVERY_FACT_FC</ID>
+      <Text>I found a small lab near the equator of the camp planetoid</Text>
+    </ExploreFact>
+
+    <!--Soil analysis-->
+    <ExploreFact>
+      <ID>CAMP_PLANETOID_SOIL_FACT</ID>
+      <Text>The Nomai discovered that this planetoid seemed to be composed of the remnants of many planets.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the treehouse -->
+  <Entry>
+    <ID>TREEHOUSE_ENTRY_FC</ID>
+    <Name>Treehouse</Name>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>TREEHOUSE_FOUND_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>I found an old treehouse on Lover's Rock.</Text>
+    </ExploreFact>
+
+    <!--Conversation-->
+    <ExploreFact>
+      <ID>TREEHOUSE_RECORDER_FACT_FC</ID>
+      <Text>I found a recording of two individuals named Okalis and Amylax talking, before writing their names on the wall.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

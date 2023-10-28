@@ -1,0 +1,118 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>LANGUAGE_DIMENSTION</ID>
+
+  <!--Entry for the translation lab -->
+  <Entry>
+    <ID>TRANSLATION_LAB_ENTRY_FC</ID>
+    <Name>Translation Lab</Name>
+    <Curiosity>DREE</Curiosity>
+    <IsCuriosity/>
+
+    <!--Park rumor-->
+    <RumorFact>
+      <ID>LANGUAGE_LAB_RUMOR_FC</ID>
+      <SourceID>DREE_PARK_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>I read that one of the Nomai was studying the alien’s language in some sort of lab. It has an entrance near Shattered Hearth, above the park with the big tree.</Text>
+    </RumorFact>
+
+    <!--Can't fit ship-->
+    <RumorFact>
+      <ID>LANGUAGE_SMALL_ENTRANCE_RUMOR_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>The entrance seems to be too small for me to fit my ship.</Text>
+    </RumorFact>
+
+    <!--Baby fish in the way-->
+    <RumorFact>
+      <ID>SMALL_FISH_DISCOVERY_RUMOR_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>There are a bunch of baby anglerfish directly blocking the path to the lab.</Text>
+    </RumorFact>
+
+    <!--Should be a bigger way-->
+    <RumorFact>
+      <ID>LANGUAGE_LARGE_ENTRANCE_RUMOR_FC</ID>
+      <SourceID>QUARRY_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>I read that the translation lab has a larger, harder to find entrance somewhere in Briar's Hollow.</Text>
+    </RumorFact>
+
+    <!--Stupid fishies-->
+    <RumorFact>
+      <ID>ANGLER_DISTRACTION_RUMOR_FC</ID>
+      <SourceID>LANDING_ZONE_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai hypothesized that anglerfish might not be able to distinguish between organic and inorganic prey.</Text>
+    </RumorFact>
+
+    <!--Fish latched on-->
+    <ExploreFact>
+      <ID>ANGLER_DISTRACTION_SUCCESS_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>I was able to get the baby anglerfish to latch onto my ship so that I could get past.</Text>
+    </ExploreFact>
+
+    <!--Big fish note-->
+    <ExploreFact>
+      <ID>STARVED_FISH_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>One of the Nomai observed a massive anglerfish residing near the translation lab. He theorized that, due to its size, it would starve if the Dree did not continue to feed it.</Text>
+    </ExploreFact>
+
+    <!--Mourning call-->
+    <ExploreFact>
+      <ID>MOURNING_CALL_FACT_FC</ID>
+      <Text>One of the Nomai called the others together at Graviton’s Folly to discuss some important news.</Text>
+    </ExploreFact>
+
+    <!--Entry for the actual translations -->
+    <Entry>
+      <ID>TRANSLATIONS_ENTRY_FC</ID>
+      <Name>Translations</Name>
+      <Curiosity>DREE</Curiosity>
+
+      <!--Initial discovery-->
+      <ExploreFact>
+        <ID>TRANSLATION_DISCOVERY_FACT_FC</ID>
+        <Text>I found the work that the Nomai did to translate the alien’s language.</Text>
+      </ExploreFact>
+
+      <!--Dree name-->
+      <ExploreFact>
+        <ID>DREE_NAME_FACT_FC</ID>
+        <Text>The Nomai in charge of the translations, Sennetti, determined that the aliens referred to themselves as the Dree.</Text>
+      </ExploreFact>
+
+      <!--Ditylum name-->
+      <ExploreFact>
+        <ID>DITYLUM_NAME_FACT_FC</ID>
+        <Text>Sennetti worked heavily with a Dree who referred to himself as Ditylum, who was also the first Dree that the Nomai encountered.</Text>
+      </ExploreFact>
+
+      <!--Bramble name-->
+      <ExploreFact>
+        <ID>BRAMBLE_NAME_FACT_FC</ID>
+        <Text>The Dree referred to this whole area as the Deep Bramble, and the plant itself simply as the Bramble.</Text>
+      </ExploreFact>
+
+      <!--Druidcraft-->
+      <ExploreFact>
+        <ID>TRANSLATION_DRUIDCRAFT_FACT_FC</ID>
+        <Text>Apparently the Dree are talented in druidcraft, giving them some level of influence over the Bramble.</Text>
+      </ExploreFact>
+
+      <!--Dictionary-->
+      <ExploreFact>
+        <ID>TRANSLATOR_UPGRADE_FACT_FC</ID>
+        <Text>My translator was able to download a Dree dictionary that Sennetti translated.</Text>
+      </ExploreFact>
+
+      <!--No escape-->
+      <ExploreFact>
+        <ID>NO_ESCAPE_FACT_FC</ID>
+        <Text>The Dree revealed to the Nomai that they did not know of any way to escape the Deep Bramble.</Text>
+      </ExploreFact>
+    </Entry>
+  </Entry>
+</AstroObjectEntry>

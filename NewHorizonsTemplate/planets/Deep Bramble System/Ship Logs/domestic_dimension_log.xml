@@ -1,0 +1,100 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>DOMESTIC_DIMENSION</ID>
+
+  <!--Entry for the fish observation platform -->
+  <Entry>
+    <ID>FISH_PLATFORM_ENTRY_FC</ID>
+    <Name>Anglerfish Observation Platform</Name>
+    <Curiosity>DILATION_NODE</Curiosity>
+
+    <!--Hearing about the domestic fish-->
+    <RumorFact>
+        <ID>FRIENDLY_FISH_RUMOR_FC</ID>
+      <SourceID>TRANSLATIONS_ENTRY_FC</SourceID>
+      <RumorName>Friendly Fish</RumorName>
+        <IgnoreMoreToExplore/>
+        <Text>I found Nomai writing claiming that one of the areas accessible near Shattered Hearth contains tame anglerfish.</Text>
+    </RumorFact>
+
+    <!--First discovery-->
+    <ExploreFact>
+      <ID>PLATFORM_DISCOVERY_FACT_FC</ID>
+      <Text>I found an area with several anglerfish and a strange dome, accessible via a node near Shattered Hearth.</Text>
+    </ExploreFact>
+
+    <!--Learning about the missing tooth-->
+    <ExploreFact>
+      <ID>DOMESTIC_TOOTH_FACT_FC</ID>
+      <Text>A fish named Kevin lost a tooth in an accident while protecting baby fish in the nursery.</Text>
+    </ExploreFact>
+
+    <!--Learning about the eggs-->
+    <ExploreFact>
+      <ID>DOMESTIC_EGG_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>These fish are the main source that the Dree have for eggs.</Text>
+    </ExploreFact>
+
+    <!--Learning about reluctance-->
+    <ExploreFact>
+      <ID>DREE_RELUCTANCE_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai observed that the Dree seemed reluctant to take risks, even if it may improve their situation.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the enzyme lab -->
+  <Entry>
+    <ID>ENZYME_LAB_ENTRY_FC</ID>
+    <Name>Enzyme Lab</Name>
+    <Curiosity>DILATION_NODE</Curiosity>
+
+    <!--Existence rumor-->
+    <RumorFact>
+        <ID>MOUTH_LAB_RUMOR_FC</ID>
+        <SourceID>CORE_LAB_ENTRY_FC</SourceID>
+        <IgnoreMoreToExplore/>
+        <Text>I read about somewhere called the Enzyme Lab in the mouth of one of the domesticated fish. The Nomai decided to go there to discuss how to save someone named Ditylum.</Text>
+    </RumorFact>
+
+    <!--Eye petting rumor-->
+    <RumorFact>
+        <ID>EYE_PET_RUMOR_FC</ID>
+        <SourceID>CORE_LAB_ENTRY_FC</SourceID>
+        <IgnoreMoreToExplore/>
+        <Text>Apparently the lab can only be safely entered once the eye of the anglerfish has been pet.</Text>
+    </RumorFact>
+
+    <!--Learning about Kevin's use-->
+    <ExploreFact>
+      <ID>KEVIN_USAGE_FACT_FC</ID>
+      <Text>The Nomai decided to use an anglerfish named Kevin to cross the nursery. To make sure that it would carry them back, they trained it to react to being hit in the eye with a small object.</Text>
+    </ExploreFact>
+
+    <!--Learning about the lack of stomach-->
+    <ExploreFact>
+      <ID>FISH_STOMACH_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>The fish have no proper stomach; instead, they produce a free-floating digestive enzyme. It’s very thick, and sucks matter in before digesting it.</Text>
+    </ExploreFact>
+
+    <!--Noting the scroll wall-->
+    <ExploreFact>
+      <ID>SCROLL_WALL_FACT_FC</ID>
+      <Text>I found some Nomai scrolls and a scroll wall, but the harsh environment seems to have rendered the scrolls useless.</Text>
+    </ExploreFact>
+
+    <!--Reading that the rock can be blocked-->
+    <ExploreFact>
+      <ID>BLOCKABLE_ROCK_FOREIGN_FACT_FC</ID>
+      <Text>The Nomai discovered that the quantum rock on Magma's Recursion can be blocked, forcing it to travel to a secret, third location. The Nomai theorized that even a small object, such as a scroll, would be enough to trigger this behavior.</Text>
+    </ExploreFact>
+
+    <!--Learning the new quantum rule-->
+    <ExploreFact>
+      <ID>BLOCKABLE_ROCK_REASON_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai theorized that this occurred because, normally, there was an incredibly small chance for the rock to appear in the third location. However, by blocking one of the main two, an observer can force it to inhabit the more unlikely location. They called this the “Rule of Quantum Probability”</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

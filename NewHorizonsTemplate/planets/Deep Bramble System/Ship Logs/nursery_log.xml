@@ -1,0 +1,16 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>NURSERY</ID>
+
+  <!--Entry for the nursery -->
+  <Entry>
+    <ID>NURSERY_ENTRY_FC</ID>
+    <Name>The Nursery</Name>
+    <Curiosity>DILATION_NODE</Curiosity>
+
+    <!--The only fact-->
+    <ExploreFact>
+      <ID>NURSERY_FOUND_FACT_FC</ID>
+      <Text>I found a strange wooden corridor, made impassable by several fish. The dense fog of the area makes it impossible to drift through.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

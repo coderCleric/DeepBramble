@@ -1,0 +1,33 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>START_DIMENSION</ID>
+
+  <!--Entry for the start dimension -->
+  <Entry>
+    <ID>START_DIMENSION_ENTRY_FC</ID>
+    <Name>Bramble's Doorstep</Name>
+
+    <!--Entry-->
+    <ExploreFact>
+      <ID>ENTRY_FACT_FC</ID>
+      <Text>After going through the black hole in the Vessel, I appeared in another part of Dark Bramble.</Text>
+    </ExploreFact>
+
+    <!--The Nomai are here-->
+    <ExploreFact>
+      <ID>NOMAI_WARP_FACT_FC</ID>
+      <Text>Apparently, the four Nomai teleported to the same part of Dark Bramble that I did.</Text>
+    </ExploreFact>
+
+    <!--They split up-->
+    <ExploreFact>
+      <ID>OXYGEN_SPLITUP_FACT_FC</ID>
+      <Text>With no apparent landmarks, the Nomai decided to split up in search of oxygen.</Text>
+    </ExploreFact>
+
+    <!--Signal found-->
+    <ExploreFact>
+      <ID>BEACON_FREQUENCY_FACT_FC</ID>
+      <Text>I found a signal beacon broadcasting on the “Nomai Trailmarkers” frequency.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

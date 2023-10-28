@@ -1,0 +1,77 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>BRAMBLES_HEART</ID>
+
+  <!-- Entry for the distant node project -->
+  <Entry>
+    <ID>HEART_LAB_ENTRY_FC</ID>
+    <Name>Distant Node Project</Name>
+    <Curiosity>DISTANT_NODE_PROJECT</Curiosity>
+    <IsCuriosity/>
+
+    <!--Existence rumor-->
+    <RumorFact>
+        <ID>HEART_LAB_EXISTENCE_RUMOR_FC</ID>
+        <IgnoreMoreToExplore/>
+        <Text>I’ve heard of some sort of lab that was dedicated to something called the Distant Node Project.</Text>
+    </RumorFact>
+
+    <!--Purpose rumor-->
+    <RumorFact>
+        <ID>HEART_LAB_PURPOSE_RUMOR_FC</ID>
+        <SourceID>SIGNAL_LAB_ENTRY_FC</SourceID>
+        <IgnoreMoreToExplore/>
+        <Text>Apparently the Nomai were hopeful that the Distant Node Project would allow them to reach the Eye of the Universe.</Text>
+    </RumorFact>
+
+    <!--Rock is useful rumor-->
+    <RumorFact>
+        <ID>HEART_LAB_ACCESS_RUMOR_FC</ID>
+        <SourceID>QUANTUM_CAVE_ENTRY_FC</SourceID>
+        <IgnoreMoreToExplore/>
+        <Text>Apparently, the quantum rock on Magma’s Recursion served some utility for the Distant Node Project.</Text>
+    </RumorFact>
+
+    <!--First discovery-->
+    <ExploreFact>
+      <ID>HEART_LAB_DISCOVERY_FACT_FC</ID>
+      <Text>I was able to ride a quantum rock from Magma’s Recursion to Bramble’s Heart.</Text>
+    </ExploreFact>
+
+    <!--It's the heart-->
+    <ExploreFact>
+      <ID>BRAMBLE_HEART_DISCOVERY_FACT_FC</ID>
+      <Text>One of the Dree stated that this area is the heart of the Bramble.</Text>
+    </ExploreFact>
+
+    <!--The goal-->
+    <ExploreFact>
+      <ID>PROJECT_GOAL_FACT_FC</ID>
+      <Text>The Nomai wanted to combine the Dree’s druidcraft with the Eye’s signal to force a Bramble node to appear near the Eye of the Universe.</Text>
+    </ExploreFact>
+
+    <!--Everyone needs to be there-->
+    <ExploreFact>
+      <ID>PROJECT_TIMING_FACT_FC</ID>
+      <Text>All of the Dree would be needed to do this, as it would take all of their power to coax the Bramble into doing what they wanted. It would also have to be done at a time when the Bramble was the most aggreeable.</Text>
+    </ExploreFact>
+
+    <!--Everyone is dead-->
+    <ExploreFact>
+      <ID>DEAD_ALIENS_FACT_FC</ID>
+      <Text>I found the skeletons of the Nomai and Dree in a scorched room. It seems that something with the project went wrong, killing them all.</Text>
+    </ExploreFact>
+
+    <!--Ditylum wasn't here-->
+    <ExploreFact>
+      <ID>DITYLUM_MISSING_FACT_FC</ID>
+      <Text>A Dree named Ditylum was expected to be present for the experiment, but failed to return from an errand in time.</Text>
+    </ExploreFact>
+
+    <!--Sadboi hours-->
+    <ExploreFact>
+      <ID>DITYLUM_MOURNING_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>I encountered Ditylum, who mourned the loss of his people and the Nomai.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

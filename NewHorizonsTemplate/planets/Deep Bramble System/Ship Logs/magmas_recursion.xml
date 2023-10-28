@@ -1,0 +1,209 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>MAGMAS_RECURSION</ID>
+
+  <!--Entry for the landing zone -->
+  <Entry>
+    <ID>LANDING_ZONE_ENTRY_FC</ID>
+    <Name>Landing Zone</Name>
+
+    <!--There's a legend here-->
+    <RumorFact>
+        <ID>DREE_STORY_RUMOR_FC</ID>
+        <SourceID>ALIEN_STUDY_ENTRY_FC</SourceID>
+        <RumorName>Alien Story</RumorName>
+        <RumorNamePriority>1</RumorNamePriority>
+        <IgnoreMoreToExplore/>
+        <Text>One of the Nomai transcribed an old alien legend on a planet called Magma’s Recursion</Text>
+    </RumorFact>
+
+    <!--There might be the eye signal-->
+    <RumorFact>
+        <ID>EYE_SIGNAL_RUMOR_FC</ID>
+        <SourceID>POD_MEMORIAL_ENTRY_FC</SourceID>
+        <RumorName>Ancient Signal</RumorName>
+        <RumorNamePriority>2</RumorNamePriority>
+        <IgnoreMoreToExplore/>
+        <Text>Apparently, there is an ancient signal reverberating through the area surrounding Magma’s Recursion.</Text>
+    </RumorFact>
+
+    <!--Hearing the eye signal-->
+    <ExploreFact>
+      <ID>EYE_SIGNAL_DISCOVERY_FACT_FC</ID>
+      <Text>I can hear some sort of signal reverberating throughout the area that this planet resides in.</Text>
+    </ExploreFact>
+
+    <!--Reading about the rescue-->
+    <ExploreFact>
+      <ID>DREE_RESCUE_FACT_FC</ID>
+      <Text>The Nomai nearly died upon entering the vicinity of Magma’s Recursion, but a group of aliens came in and rescued them.</Text>
+    </ExploreFact>
+
+    <!--The old story-->
+    <ExploreFact>
+      <ID>EGG_STORY_FACT_FC</ID>
+      <Text>I found a transcription of an ancient alien story. According to it, the aliens were able to get an anglerfish to latch onto a giant rock while they stole its eggs.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the abandoned settlement -->
+  <Entry>
+    <ID>ABANDONED_SETTLEMENT_ENTRY_FC</ID>
+    <Name>Abandoned Settlement</Name>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>ABANDONED_SETTLEMENT_FOUND_FACT_FC</ID>
+      <Text>I found a cluster of abandoned Nomai buildings.</Text>
+    </ExploreFact>
+
+    <!--Nobody wants to live here-->
+    <ExploreFact>
+      <ID>HOT_PLANET_NO_CITY_FACT_FC</ID>
+      <Text>Due to how inhospitable this planet is, the Nomai decided not to settle here, and instead only set up a couple of labs.</Text>
+    </ExploreFact>
+
+    <!--They made an eye lab-->
+    <ExploreFact>
+      <ID>HOT_PLANET_EYE_LAB_FACTS_FC</ID>
+      <Text>The Nomai decided to set up a lab to study the Eye’s signal in a cave that they unearthed.</Text>
+    </ExploreFact>
+
+    <!--They found a wandering rock-->
+    <ExploreFact>
+      <ID>HOT_PLANET_WANDERING_ROCK_FACT_FC</ID>
+      <Text>The Nomai found a strange, wandering rock in the side of a hill.</Text>
+    </ExploreFact>
+
+    <!--They made a road-->
+    <ExploreFact>
+      <ID>HOT_ROAD_FACT_FC</ID>
+      <Text>To help with navigation, the Nomai constructed a road that leads to both of the landmarks that they found.</Text>
+    </ExploreFact>
+
+    <!--They theorized how the signal was here-->
+    <ExploreFact>
+      <ID>SIGNAL_FEEDBACK_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai thought that the excessive heat may be due to the many recursive seeds funneling heat back towards the already burning planet. They also believed that this may be what prevented the Eye of the Universe’s signal from fading away.</Text>
+    </ExploreFact>
+
+    <!--He's flirting with you dumbass-->
+    <ExploreFact>
+      <ID>FLIRTING_REVELATION_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>A Nomai named Sennetti informed a Nomai named Okalis that a gift he received from an alien was likely part of a courting ritual.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the gas cave -->
+  <Entry>
+    <ID>GAS_CAVE_ENTRY_FC</ID>
+    <Name>Gas Cave</Name>
+    <Curiosity>DISTANT_NODE_PROJECT</Curiosity>
+
+    <!--Hearing about the cave-->
+    <RumorFact>
+        <ID>SIGNAL_LAB_RUMOR_FC</ID>
+        <SourceID>ABANDONED_SETTLEMENT_ENTRY_FC</SourceID>
+        <IgnoreMoreToExplore/>
+        <Text>Supposedly, the Nomai set up a lab to study the Eye’s signal in a cave on Magma’s Recursion.</Text>
+    </RumorFact>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>GAS_CAVE_DISCOVERY_FACT_FC</ID>
+      <Text>I found a cave at the bottom of a long tunnel. My suit warns me that the gas inside is extremely flammable.</Text>
+    </ExploreFact>
+
+    <!--Learned about the crystals-->
+    <ExploreFact>
+      <ID>GAS_CRYSTALS_FACT_FC</ID>
+      <Text>In the interest of safety, the Nomai used portable gravity crystals to navigate up to the lab. Unfortunately, many of the crystals have broken, detaching from their sockets.</Text>
+    </ExploreFact>
+
+    <!--Nesia advice-->
+    <ExploreFact>
+      <ID>RELATIONSHIP_ADVICE_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>A Nomai named Okalis asked a Nomai named Nesia for advice regarding his romantic partnership with an alien.</Text>
+    </ExploreFact>
+
+      <!--Entry for the signal lab -->
+      <Entry>
+        <ID>SIGNAL_LAB_ENTRY_FC</ID>
+        <Name>Eye Signal Lab</Name>
+        <Curiosity>DISTANT_NODE_PROJECT</Curiosity>
+
+        <!--Signal wasn't super useful-->
+        <ExploreFact>
+          <ID>SIGNAL_LAB_USE_FACT_FC</ID>
+          <Text>Unfortunately, the signal did not tell the Nomai much more about the Eye of the Universe than what they already knew. However, they did mention that the signal may help something called the Distant Node Project bring them to the Eye.</Text>
+        </ExploreFact>
+
+        <!--There's a dangerous node-->
+        <ExploreFact>
+          <ID>SIGNAL_LAB_DANGER_NODE_FACT_FC</ID>
+          <Text>One of the Dree reported that a strange, dangerous node had been found in Briar's Hollow. At the insistence of the Dree, the Nomai decided to find a way to destroy it.</Text>
+        </ExploreFact>
+
+        <!--There's a dree recording-->
+        <ExploreFact>
+          <ID>DREE_ECHOLOCATION_STUDY_FACT_FC</ID>
+          <Text>One of the Nomai set up a recording of the tones that the Dree use to echolocate, so that he could study them while he worked on analyzing the Eye’s signal.</Text>
+        </ExploreFact>
+
+        <!--The player tuned to the signal-->
+        <ExploreFact>
+          <ID>DREE_SIGNAL_TUNE_FACT_FC</ID>
+          <Text>I was able to tune my signalscope to the “Alien Echolocation” frequency.</Text>
+        </ExploreFact>
+      </Entry>
+  </Entry>
+
+  <!--Entry for the quantum cave -->
+  <Entry>
+    <ID>QUANTUM_CAVE_ENTRY_FC</ID>
+    <Name>Quantum Cave</Name>
+    <Curiosity>DISTANT_NODE_PROJECT</Curiosity>
+
+    <!--Hearing about the cave-->
+    <RumorFact>
+        <ID>QUANTUM_CAVE_RUMOR_FC</ID>
+        <SourceID>ABANDONED_SETTLEMENT_ENTRY_FC</SourceID>
+        <IgnoreMoreToExplore/>
+        <Text>Supposedly, the Nomai discovered a strange, wandering rock in a cave on Magma’s Recursion.</Text>
+    </RumorFact>
+
+    <!--Hearing about the new rule-->
+    <RumorFact>
+        <ID>BLOCKABLE_ROCK_RUMOR_FC</ID>
+        <SourceID>ENZYME_LAB_ENTRY_FC</SourceID>
+        <IgnoreMoreToExplore/>
+        <Text>The Nomai discovered that the quantum rock in this cave can be blocked, forcing it to travel to a secret, third location. The Nomai theorized that even a small object, such as a scroll, would be enough to trigger this behavior.</Text>
+    </RumorFact>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>QUANTUM_CAVE_DISCOVERY_FACT_FC</ID>
+      <Text>I found a cave in the side of a hill on Magma’s Recursion. The cave has a quantum rock in it.</Text>
+    </ExploreFact>
+
+    <!--Reading the blocked text-->
+    <ExploreFact>
+      <ID>OBSTRUCTED_TEXT_FACT_FC</ID>
+      <Text>The Nomai discovered something about the rock’s behavior, but a cooled lava flow is obstructing the text.</Text>
+    </ExploreFact>
+
+    <!--It could be useful-->
+    <ExploreFact>
+      <ID>ROCK_UTILITY_FACT_FC</ID>
+      <Text>The rock was found to be useful for something called the Distant Node Project, which might help the Nomai reach the Eye.</Text>
+    </ExploreFact>
+
+    <!--I used it-->
+    <ExploreFact>
+      <ID>ROCK_USED_FACT_FC</ID>
+      <Text>I was able to ride the quantum rock to a third location.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

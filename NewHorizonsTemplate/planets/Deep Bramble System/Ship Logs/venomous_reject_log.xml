@@ -1,0 +1,65 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>VENOMOUS_REJECT</ID>
+
+  <!--Entry for the reject -->
+  <Entry>
+    <ID>REJECT_ENTRY_FC</ID>
+    <Name>The Venomous Reject</Name>
+    <Curiosity>DILATION_NODE</Curiosity>
+
+    <!--Stranded rumor-->
+    <RumorFact>
+      <ID>REJECT_EXISTENCE_RUMOR_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>I heard that one of the aliens became stranded in an area called the Venomous Reject, only accessible through somewhere called the nursery.</Text>
+    </RumorFact>
+
+    <!--Strategy-->
+    <RumorFact>
+      <ID>KEVIN_PURPOSE_FACT_FC</ID>
+      <SourceID>ENZYME_LAB_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai decided to mount a rescue operation by riding on the tooth of a fish named Kevin. To ensure success, they trained Kevin to react to being hit in the eye with a small object.</Text>
+    </RumorFact>
+
+    <!--Kevin's Accident-->
+    <RumorFact>
+      <ID>KEVIN_IDENTITY_FACT_FC</ID>
+      <SourceID>FISH_PLATFORM_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>Apparently, an anglerfish named Kevin lost one of his bottom teeth in an accident, while protecting one of the baby fish in the nursery.</Text>
+    </RumorFact>
+
+    <!--Origins-->
+    <ExploreFact>
+      <ID>REJECT_NATURE_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai noted that the Venomous Reject seems to just be a regular Bramble node that mutated to secrete a toxin, capable of killing other portions of the Bramble. The Nomai also noted that this seems to run in the face of the Bramble’s unique nature of growing via propagation.</Text>
+    </ExploreFact>
+
+    <!--Purpose confirmation-->
+    <ExploreFact>
+      <ID>KILL_DECISION_FACT_FC</ID>
+      <Text>The Nomai decided to use the toxin from the Venomous Reject to kill a dangerous Bramble node that the Dree had found.</Text>
+    </ExploreFact>
+
+    <!--Device description-->
+    <ExploreFact>
+      <ID>INJECTOR_PURPOSE_FACT_FC</ID>
+      <Text>The Nomai devised a specialized, two-part device to administer the toxin. It consisted of an injector full of the toxin, and a special mount to actually administer the substance.</Text>
+    </ExploreFact>
+
+    <!--Ditylum's duty-->
+    <ExploreFact>
+      <ID>DITYLUM_JOB_FACT_FC</ID>
+      <Text>A Dree named Ditylum was charged with administering the toxin to the node, as he was the most adventurous and capable Dree, and would be able to handle any unexpected circumstances that occurred.</Text>
+    </ExploreFact>
+
+    <!--Death hypothesis-->
+    <ExploreFact>
+      <ID>NODE_DEATH_IDEA_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai were curious what would happen if a Bramble node was destroyed when it was the only node leading into a given dimension. Some of them theorized that the pocket dimension would collapse entirely, ejecting any objects trapped inside.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

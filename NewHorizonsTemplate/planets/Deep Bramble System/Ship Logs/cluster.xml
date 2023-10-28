@@ -1,0 +1,45 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>PLANETOID_CLUSTER</ID>
+
+  <!-- Entry for the cluster -->
+  <Entry>
+    <ID>PLANETOID_CLUSTER_ENTRY_FC</ID>
+    <Name>Titan's Tears</Name>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>CLUSTER_DISCOVERY_FACT_FC</ID>
+      <Text>I found a small cluster of planetoids with Nomai structures on them.</Text>
+    </ExploreFact>
+
+    <!--Nomai settled here-->
+    <ExploreFact>
+      <ID>CLUSTER_SETTLEMENT_FACT_FC</ID>
+      <Text>The Nomai decided to use the planetoids to construct shelter, as the tree on the largest provided oxygen.</Text>
+    </ExploreFact>
+
+    <!--Found a distant campsite-->
+    <ExploreFact>
+      <ID>CAMPSITE_TEXT_FACT_FC</ID>
+      <Text>A Nomai noted an undocumented campsite on a planetoid near the center of Briar's Hollow. They placed a signal beacon near it so that it would be easy to find.</Text>
+    </ExploreFact>
+
+      <!--Entry for the overlook -->
+      <Entry>
+        <ID>HOLE_OVERLOOK_ENTRY_FC</ID>
+        <Name>Hole Overlook</Name>
+
+        <!--Discovery-->
+        <ExploreFact>
+          <ID>HOLE_OVERLOOK_DISCOVERY_FACT_FC</ID>
+          <Text>I found a spot on one of the planetoids overlooking a hole in the wall of Briar’s Hollow.</Text>
+        </ExploreFact>
+
+        <!--Possible escape-->
+        <ExploreFact>
+          <ID>HOLE_ESCAPE_FACT_FC</ID>
+          <Text>The Nomai wondered if this hole might lead them to an escape.</Text>
+        </ExploreFact>
+      </Entry>
+  </Entry>
+</AstroObjectEntry>

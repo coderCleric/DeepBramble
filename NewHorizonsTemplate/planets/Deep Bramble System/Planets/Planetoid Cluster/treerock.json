@@ -2,18 +2,11 @@
   "name": "Titan's Tears",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "DeepBramble",
+
   "ShipLog": {
-    "xmlFile": "planets/Deep Bramble System/Ship Logs/planetoidcluster.xml",
+    "xmlFile": "planets/Deep Bramble System/Ship Logs/cluster.xml",
     "mapMode": {
-      "invisibleWhenHidden": true,
-      "manualNavigationPosition": {
-        "x": 2,
-        "y": 1
-      },
-      "manualPosition": {
-        "x": 50,
-        "y": 0
-      }
+      "invisibleWhenHidden": true
     }
   },
   "Base": {
@@ -47,25 +40,6 @@
           "z": 0
         },
         "alignRadial": false
-      }
-    ],
-    "entryLocation": [
-      {
-        "id": "PLANETOID_CLUSTER_ENTRY",
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-
-        }
-      },
-      {
-        "id": "TREE_SHRINE_ENTRY",
-        "position": {
-          "x": -28.12181,
-          "y": -4.396057,
-          "z": 27.84976
-        }
       }
     ]
   },

@@ -1,0 +1,119 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>LARGE_DIMENSION</ID>
+
+  <!--Entry for the dilation node -->
+  <Entry>
+    <ID>DILATION_NODE_ENTRY_FC</ID>
+    <Name>Dangerous Node</Name>
+    <Curiosity>DILATION_NODE</Curiosity>
+    <IsCuriosity/>
+
+    <!--Inital rumor-->
+    <RumorFact>
+      <ID>DILATION_NODE_LOCATION_RUMOR_FC</ID>
+      <SourceID>SIGNAL_LAB_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>I heard about some sort of dangerous Bramble node in Briar's Hollow.</Text>
+    </RumorFact>
+
+    <!--Danger rumor-->
+    <RumorFact>
+      <ID>DILATION_NODE_DESTRUCTION_RUMOR_FC</ID>
+      <SourceID>SIGNAL_LAB_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>Apparently the Nomai and Aliens decided that this node was too dangerous, and needed to be destroyed.</Text>
+    </RumorFact>
+
+    <!--Ditylum's duty-->
+    <RumorFact>
+      <ID>DITYLUM_JOB_RUMOR_FC</ID>
+      <SourceID>REJECT_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>A Dree named Ditylum was charged with poisoning some dangerous node.</Text>
+    </RumorFact>
+
+    <!--Mount purpose-->
+    <RumorFact>
+      <ID>MOUNT_PURPOSE_FACT_FC</ID>
+      <SourceID>REJECT_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>The strange mount on the node is apparently for delivering a lethal toxin, a task that a Dree named Ditylum was charged with.</Text>
+    </RumorFact>
+
+    <!--Dilation effect-->
+    <RumorFact>
+      <ID>FASTFORWARD_RUMOR_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>Going into the node seems to end the loop instantly, although I can see some strange creature turn towards me just before my vision fades.</Text>
+    </RumorFact>
+
+    <!--Probe effect-->
+    <RumorFact>
+      <ID>SCOUT_DELAY_RUMOR_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>When I fire my scout into the node, it fails to acknowledge any recall requests for several seconds.</Text>
+    </RumorFact>
+
+    <!--After killing-->
+    <ExploreFact>
+      <ID>DITYLUM_EJECTION_FACT_FC</ID>
+      <Text>I was able to kill the node with the toxin injector. When I did so, a creature popped out and swam away, towards the center of Briar's Hollow.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the enclosed space -->
+  <Entry>
+    <ID>ENCLOSED_SPACE_ENTRY_FC</ID>
+    <Name>Enclosed Space</Name>
+    <Curiosity>DREE</Curiosity>
+
+    <!--First rumor-->
+    <RumorFact>
+      <ID>ENCLOSED_SPACE_EXISTENCE_RUMOR_FC</ID>
+      <SourceID>CAMP_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>One of the Nomai wrote that a strange creature led him through the recursive node at the center of Briar's Hollow into some sort of enclosed space, after which he turned back to not get lost.</Text>
+    </RumorFact>
+
+    <!--Logic-->
+    <RumorFact>
+      <ID>ENCLOSED_SPACE_ALIGNMENT_RUMOR_FC</ID>
+      <SourceID>CAMP_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai theorized that this had something to do with how the entrances to the recursive node line up with the entrances to Briar’s Hollow.</Text>
+    </RumorFact>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>ENCLOSED_SPACE_FOUND_FACT_FC</ID>
+      <Text>I was able to find my way into a strange, enclosed space. There seems to be a Bramble node tucked away inside.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the recursive node -->
+  <Entry>
+    <ID>RECURSIVE_NODE_ENTRY_FC</ID>
+    <Name>Recursive Node</Name>
+    <Curiosity>DREE</Curiosity>
+
+    <!--Initial rumor-->
+    <RumorFact>
+      <ID>RECURSIVE_NODE_RUMOR_FC</ID>
+      <SourceID>CAMP_ENTRY_FC</SourceID>
+      <IgnoreMoreToExplore/>
+      <Text>Supposedly, there is a node at the center of Briar’s Hollow that leads into itself.</Text>
+    </RumorFact>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>RECURSIVE_NODE_FOUND_FACT_FC</ID>
+      <Text>I found a node at the center of Briar’s Hollow that leads recursively into itself.</Text>
+    </ExploreFact>
+
+    <!--Signal-->
+    <ExploreFact>
+      <ID>RECURSIVE_NODE_SIGNAL_FACT_FC</ID>
+      <Text>I was able to pick up an amplified ambience signal on the “Natural Phenomena” frequency.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

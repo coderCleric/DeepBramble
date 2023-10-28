@@ -4,5 +4,299 @@
 	"startHere": false,
 	"mapRestricted": true,
 	"factRequiredForWarp": "WARP_TO_DB_FACT",
-	"initialReveal": [ "ON_WARP_FACT" ]
+	"initialReveal": [ "ENTRY_FACT_FC" ],
+	"curiosities": [
+		{
+			"id": "DILATION_NODE",
+			"color": {
+				"r": 38,
+				"b": 17,
+				"g": 16,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 48,
+				"b": 22,
+				"g": 20,
+				"a": 255
+			}
+		},
+		{
+			"id": "DISTANT_NODE_PROJECT",
+			"color": {
+				"r": 30,
+				"b": 66,
+				"g": 28,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 39,
+				"b": 79,
+				"g": 37,
+				"a": 255
+			}
+		},
+		{
+			"id": "DREE",
+			"color": {
+				"r": 59,
+				"b": 59,
+				"g": 59,
+				"a": 255
+			},
+			"highlightColor": {
+				"r": 69,
+				"b": 69,
+				"g": 69,
+				"a": 255
+			}
+		}
+	],
+	"entryPositions": [
+		{
+			"id": "START_DIMENSION_ENTRY_FC",
+			"position": {
+				"x": -716.6673,
+				"y": 572.9119
+			}
+		},
+		{
+			"id": "PLANETOID_CLUSTER_ENTRY_FC",
+			"position": {
+				"x": -524.7142,
+				"y": 810.3629
+			}
+		},
+		{
+			"id": "HOLE_OVERLOOK_ENTRY_FC",
+			"position": {
+				"x": -493.2728,
+				"y": 724.5465
+			}
+		},
+		{
+			"id": "TREEHOUSE_ENTRY_FC",
+			"position": {
+				"x": -705.453,
+				"y": 980.7267
+			}
+		},
+		{
+			"id": "CAMP_ENTRY_FC",
+			"position": {
+				"x": -313.4543,
+				"y": 1119.638
+			}
+		},
+		{
+			"id": "SOIL_LAB_FC",
+			"position": {
+				"x": -565.8179,
+				"y": 1285.451
+			}
+		},
+		{
+			"id": "RECURSIVE_NODE_ENTRY_FC",
+			"position": {
+				"x": -209.8179,
+				"y": 831.2719
+			}
+		},
+		{
+			"id": "ENCLOSED_SPACE_ENTRY_FC",
+			"position": {
+				"x": 34.5452,
+				"y": 1226.546
+			}
+		},
+		{
+			"id": "GRAVITONS_FOLLY_ENTRY_FC",
+			"position": {
+				"x": -84.7273,
+				"y": 1545.457
+			}
+		},
+		{
+			"id": "DREE_PARK_ENTRY_FC",
+			"position": {
+				"x": 300,
+				"y": 1527.273
+			}
+		},
+		{
+			"id": "CONCERT_HALL_ENTRY_FC",
+			"position": {
+				"x": 475,
+				"y": 1527.273
+			}
+		},
+		{
+			"id": "STORY_AREA_ENTRY_FC",
+			"position": {
+				"x": 650,
+				"y": 1527.273
+			}
+		},
+		{
+			"id": "AMYLAX_HOUSE_ENTRY_FC",
+			"position": {
+				"x": 475,
+				"y": 1309.818
+			}
+		},
+		{
+			"id": "KARENIA_HOUSE_ENTRY_FC",
+			"position": {
+				"x": 650,
+				"y": 1309.818
+			}
+		},
+		{
+			"id": "TRANSLATION_LAB_ENTRY_FC",
+			"position": {
+				"x": 382.1815,
+				"y": 1914.727
+			}
+		},
+		{
+			"id": "TRANSLATIONS_ENTRY_FC",
+			"position": {
+				"x": 507.6362,
+				"y": 1906.547
+			}
+		},
+		{
+			"id": "QUARRY_ENTRY_FC",
+			"position": {
+				"x": -235.4539,
+				"y": 1723.092
+			}
+		},
+		{
+			"id": "LANDING_ZONE_ENTRY_FC",
+			"position": {
+				"x": -151.2728,
+				"y": 1970.909
+			}
+		},
+		{
+			"id": "HEARTH_CORE_ENTRY_FC",
+			"position": {
+				"x": -336.5455,
+				"y": 2015.455
+			}
+		},
+		{
+			"id": "PILLAR_TOWN_ENTRY_FC",
+			"position": {
+				"x": 0,
+				"y": 2339.461
+			}
+		},
+		{
+			"id": "ALIEN_STUDY_ENTRY_FC",
+			"position": {
+				"x": 0,
+				"y": 2243.817
+			}
+		},
+		{
+			"id": "POD_MEMORIAL_ENTRY_FC",
+			"position": {
+				"x": 100,
+				"y": 2243.817
+			}
+		},
+		{
+			"id": "EYE_SHRINE_ENTRY_FC",
+			"position": {
+				"x": -100,
+				"y": 2243.817
+			}
+		},
+		{
+			"id": "ENZYME_LAB_ENTRY_FC",
+			"position": {
+				"x": 400,
+				"y": 2534.908
+			}
+		},
+		{
+			"id": "FISH_PLATFORM_ENTRY_FC",
+			"position": {
+				"x": 664.5454,
+				"y": 2310.553
+			}
+		},
+		{
+			"id": "REJECT_ENTRY_FC",
+			"position": {
+				"x": 699.4538,
+				"y": 2674.182
+			}
+		},
+		{
+			"id": "NURSERY_ENTRY_FC",
+			"position": {
+				"x": 872.5455,
+				"y": 2531.266
+			}
+		},
+		{
+			"id": "CORE_LAB_ENTRY_FC",
+			"position": {
+				"x": 399.0906,
+				"y": 2778.548
+			}
+		},
+		{
+			"id": "GRAV_CORE_ENTRY_FC",
+			"position": {
+				"x": 248.1819,
+				"y": 2900.368
+			}
+		},
+		{
+			"id": "DILATION_NODE_ENTRY_FC",
+			"position": {
+				"x": 1173.092,
+				"y": 3140.544
+			}
+		},
+		{
+			"id": "ABANDONED_SETTLEMENT_ENTRY_FC",
+			"position": {
+				"x": -103.2726,
+				"y": 2968.546
+			}
+		},
+		{
+			"id": "QUANTUM_CAVE_ENTRY_FC",
+			"position": {
+				"x": -438.3636,
+				"y": 2783.997
+			}
+		},
+		{
+			"id": "GAS_CAVE_ENTRY_FC",
+			"position": {
+				"x": -426.7272,
+				"y": 3165.455
+			}
+		},
+		{
+			"id": "SIGNAL_LAB_ENTRY_FC",
+			"position": {
+				"x": -351.6367,
+				"y": 3287.995
+			}
+		},
+		{
+			"id": "HEART_LAB_ENTRY_FC",
+			"position": {
+				"x": -1045.455,
+				"y": 3098.909
+			}
+		}
+	]
 }

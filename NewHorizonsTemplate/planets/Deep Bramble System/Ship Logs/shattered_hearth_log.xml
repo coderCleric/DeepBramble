@@ -1,0 +1,121 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>SHATTERED_HEARTH</ID>
+
+  <!--Entry for the concert hall -->
+  <Entry>
+    <ID>CONCERT_HALL_ENTRY_FC</ID>
+    <Name>Concert Hall</Name>
+    <Curiosity>DREE</Curiosity>
+
+    <!--Learn about the vocal organs-->
+    <ExploreFact>
+      <ID>DREE_SINGING_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>The Nomai theorized that the aliens may have specialized singing organs.</Text>
+    </ExploreFact>
+
+    <!--One of the Nomai be translating-->
+    <ExploreFact>
+      <ID>CONCERT_MISSED_FACT_FC</ID>
+      <Text>One of the Nomai did not attend the show, as he was busy translating the alien’s language in a lab.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the park -->
+  <Entry>
+    <ID>DREE_PARK_ENTRY_FC</ID>
+    <Name>Alien Park</Name>
+    <Curiosity>DREE</Curiosity>
+
+    <!--This is where they live-->
+    <ExploreFact>
+      <ID>DREE_HOME_FACT_FC</ID>
+      <Text>A Nomai recording made it seem like this planet is the main area that the aliens live in.</Text>
+    </ExploreFact>
+
+    <!--Learn about the translation lab construction-->
+    <ExploreFact>
+      <ID>PARK_LANGUAGE_LAB_FACT_FC</ID>
+      <Text>One of the Nomai thought about constructing a translation lab in the node hanging over the park.</Text>
+    </ExploreFact>
+
+    <!--Learn about Graviton's Folly-->
+    <ExploreFact>
+      <ID>FOLLY_PARK_FACT_FC</ID>
+      <Text>One of the Nomai detected a natural signal in Briar's Hollow, which they believed was gravitational in nature.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the story area -->
+  <Entry>
+    <ID>STORY_AREA_ENTRY_FC</ID>
+    <Name>Storytelling Area</Name>
+    <Curiosity>DREE</Curiosity>
+
+    <!--Finding it-->
+    <ExploreFact>
+      <ID>STORY_AREA_DISCOVERY_FACT_FC</ID>
+      <Text>I found a small area with a central podium and several places to sit.</Text>
+    </ExploreFact>
+
+    <!--Learning what it's for-->
+    <ExploreFact>
+      <ID>STORY_AREA_PURPOSE_FACT_FC</ID>
+      <Text>Apparently, this is a place that the aliens would use to tell stories, the main way that their history was preserved.</Text>
+    </ExploreFact>
+
+    <!--The funny interaction-->
+    <ExploreFact>
+      <ID>HELMET_REMOVED_FACT_FC</ID>
+      <Text>A Nomai named Okalis removed his helmet, frightening an alien named Amylax.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the core -->
+  <Entry>
+    <ID>HEARTH_CORE_ENTRY_FC</ID>
+    <Name>Hearth's Core</Name>
+
+    <!--Finding it-->
+    <ExploreFact>
+      <ID>HEARTH_CORE_DISCOVERY_FACT_FC</ID>
+      <Text>The core of the planet is accessible through the many cracks in the rock. There seems to be a bramble node at the center.</Text>
+    </ExploreFact>
+
+    <!--The warning-->
+    <ExploreFact>
+      <ID>HOT_NODE_RECORDING_FACT_FC</ID>
+      <Text>A Nomai recording warns that the node leads somewhere very hot.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for Karenia's house -->
+  <Entry>
+    <ID>KARENIA_HOUSE_ENTRY_FC</ID>
+    <Name>Karenia's House</Name>
+
+    <!--The recording-->
+    <ExploreFact>
+      <ID>COMMUNION_RECORDING_FACT_FC</ID>
+      <Text>I found a Nomai recording where one of the Nomai learns what happened to the Third Pod.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for Amylax's house -->
+  <Entry>
+    <ID>AMYLAX_HOUSE_ENTRY_FC</ID>
+    <Name>Amylax's House</Name>
+
+    <!--The recording-->
+    <ExploreFact>
+      <ID>REINVIGORATION_RECORDING_FACT_FC</ID>
+      <Text>One of the Nomai became excited when informed of a mysterious signal that became trapped somewhere called the feedback chamber.</Text>
+    </ExploreFact>
+
+    <!--The text-->
+    <ExploreFact>
+      <ID>DATING_START_FACT_FC</ID>
+      <Text>Apparently, one of the Nomai and one of the aliens became partners.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

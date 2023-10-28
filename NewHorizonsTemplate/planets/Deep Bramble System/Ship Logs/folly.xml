@@ -1,0 +1,271 @@
+<AstroObjectEntry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/shiplog_schema.xsd">
+  <ID>GRAVITONS_FOLLY</ID>
+
+  <!--Entry for the planet -->
+  <Entry>
+    <ID>GRAVITONS_FOLLY_ENTRY_FC</ID>
+    <Name>Graviton's Folly</Name>
+
+    <!--Initial rumor-->
+    <RumorFact>
+      <ID>FOLLY_RUMOR_FC</ID>
+      <SourceID>DREE_PARK_ENTRY_FC</SourceID>
+      <RumorName>Gravitational Signal</RumorName>
+      <IgnoreMoreToExplore/>
+      <Text>One of the Nomai detected a natural signal somewhere in Briar’s Hollow. The signal seemed to be gravitational in nature.</Text>
+    </RumorFact>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>FOLLY_DISCOVERY_FACT_FC</ID>
+      <Text>I found a planet in Briar’s Hollow. It seems to be hollow, with reversed gravity that pushes objects away.</Text>
+    </ExploreFact>
+
+    <!--Signal-->
+    <ExploreFact>
+      <ID>FOLLY_SIGNAL_FACT_FC</ID>
+      <Text>The planet emits a strange signal on the Natural Phenomena frequency.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the town -->
+  <Entry>
+    <ID>PILLAR_TOWN_ENTRY_FC</ID>
+    <Name>Pillar Town</Name>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>PILLAR_DISCOVERY_FACT_FC</ID>
+      <Text>I found a giant, smooth crystal on the inner surface of Graviton’s Folly. There are many Nomai buildings constructed on the sides of the pillar.</Text>
+    </ExploreFact>
+
+    <!--The gift-->
+    <ExploreFact>
+      <ID>GIFT_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
+      <Text>A Nomai named Okalis received a necklace as a gift from a Dree named Amylax.</Text>
+    </ExploreFact>
+
+      <!--Entry for the study -->
+      <Entry>
+        <ID>ALIEN_STUDY_ENTRY_FC</ID>
+        <Name>Alien Study</Name>
+        <Curiosity>DREE</Curiosity>
+
+        <!--Discovery-->
+        <ExploreFact>
+          <ID>ALIEN_STUDY_DISCOVERY_FACT_FC</ID>
+          <Text>I found an area that the Nomai seemed to use as a hub for discussion regarding their studies surrounding the aliens that they found.</Text>
+        </ExploreFact>
+
+        <!--No eyes-->
+        <ExploreFact>
+          <ID>ALIEN_SIGHT_FACT_FC</ID>
+          <Text>It seems like the aliens may have possessed eyes at one point, although they now navigated via echolocation.</Text>
+        </ExploreFact>
+
+        <!--Druids-->
+        <ExploreFact>
+          <ID>ALIEN_DRUIDCRAFT_FACT_FC</ID>
+          <Text>The aliens seemed to have influence over the Bramble, advancing by manipulating it, instead of via scientific pursuit.</Text>
+        </ExploreFact>
+
+        <!--Egg story teaser-->
+        <ExploreFact>
+          <ID>EGG_STORY_TEXT_FACT_FC</ID>
+          <Text>A Nomai wrote down an old Dree story of how they began harvesting anglerfish eggs somewhere on Magma’s Recursion.</Text>
+        </ExploreFact>
+
+        <!--Stranded text-->
+        <ExploreFact>
+          <ID>STRANDED_DREE_TEXT_FACT_FC</ID>
+          <Text>The Nomai noted that the aliens seemed stagnant to the point of self-sabotage, talking about how they quickly abandoned any attempts to rescue one of their own who became stranded somewhere called the Venomous Reject.</Text>
+        </ExploreFact>
+      </Entry>
+
+      <!--Entry for the shrine -->
+      <Entry>
+        <ID>EYE_SHRINE_ENTRY_FC</ID>
+        <Name>Eye Shrine</Name>
+
+        <!--Discovery-->
+        <ExploreFact>
+          <ID>EYE_SHRINE_DISCOVERY_FACT_FC</ID>
+          <Text>I found a strange shrine that seems to be dedicated to the Eye of the Universe.</Text>
+        </ExploreFact>
+
+        <!--No signal for them-->
+        <ExploreFact>
+          <ID>NO_SIGNAL_FACT_FC</ID>
+          <Text>The Nomai have not been able to detect the Eye’s signal ever since they warped into the Deep Bramble.</Text>
+        </ExploreFact>
+
+        <!--Purpose thoughts-->
+        <ExploreFact>
+          <ID>EYE_PURPOSE_FACT_FC</ID>
+          <Text>The Nomai came up with several hypotheses as to what the purpose of the Eye is.</Text>
+        </ExploreFact>
+
+        <!--Age thoughts-->
+        <ExploreFact>
+          <ID>EYE_AGE_FACT_FC</ID>
+          <Text>The Nomai came up with several hypotheses as to how the Eye’s signal might be so old.</Text>
+        </ExploreFact>
+      </Entry>
+
+      <!--Entry for the memorial -->
+      <Entry>
+        <ID>POD_MEMORIAL_ENTRY_FC</ID>
+        <Name>Third Pod Memorial</Name>
+
+        <!--Initial rumor-->
+        <RumorFact>
+          <ID>NOMAI_MEETING_RUMOR_FC</ID>
+          <SourceID>TRANSLATION_LAB_ENTRY_FC</SourceID>
+          <RumorName>Nomai Meeting</RumorName>
+          <IgnoreMoreToExplore/>
+          <Text>I found text calling the Nomai back to Graviton’s Folly to discuss some important news.</Text>
+        </RumorFact>
+
+        <!--Discovery-->
+        <ExploreFact>
+          <ID>POD_MEMORIAL_FACT_FC</ID>
+          <Text>I found a place where the Nomai constructed memorials for the third pod and its passengers.</Text>
+        </ExploreFact>
+
+        <!--The breakdown-->
+        <ExploreFact>
+          <ID>NOMAI_DISHEARTENED_FACT_FC</ID>
+          <Text>One of the Nomai, Nesia, suffered an emotional breakdown over the death of her partner, who was on the third pod. This seemed to greatly dishearten the other Nomai.</Text>
+        </ExploreFact>
+
+        <!--Revitalization-->
+        <ExploreFact>
+          <ID>NOMAI_REVITALIZED_FACT_FC</ID>
+          <Text>The Nomai seemed to be revitalized after hearing news that a strange signal had been reverberating through the area of Magma’s Recursion.</Text>
+        </ExploreFact>
+      </Entry>
+  </Entry>
+
+  <!--Entry for the core -->
+  <Entry>
+    <ID>GRAV_CORE_ENTRY_FC</ID>
+    <Name>Folly's Core</Name>
+
+    <!--Seen it-->
+    <ExploreFact>
+      <ID>GRAV_CORE_SEEN_FACT_FC</ID>
+      <Text>There is a large crystal that seems to be floating in the center of Graviton’s Folly.</Text>
+    </ExploreFact>
+
+    <!--Might be doing gravity-->
+    <ExploreFact>
+      <ID>CORE_THEORY_FACT_FC</ID>
+      <Text>The Nomai theorized that whatever’s at the center of the core might be responsible for the strange gravity of the planet.</Text>
+    </ExploreFact>
+
+    <!--Tunnels and spikes-->
+    <ExploreFact>
+      <ID>CORE_TUNNELS_FACT_FC</ID>
+      <Text>It seems like the Nomai tunneled into the core to try and reach the center, using tractor beams to maneuver. Most of the tunnels end in deadly spikes.</Text>
+    </ExploreFact>
+
+    <!--True core rumor-->
+    <ExploreFact>
+      <ID>GRAV_CRYSTAL_TEXT_FACT_FC</ID>
+      <Text>The Nomai discovered that the center of the core contains a small, delicate crystal. They decided not to study it too extensively, as almost any interference was likely to damage it.</Text>
+    </ExploreFact>
+
+    <!--Combination-->
+    <ExploreFact>
+      <ID>TRACTOR_COMBO_FACT_FC</ID>
+      <Text>To reach the center of the core, all of the beam switches need to be up, except for the second and the second-to-last.</Text>
+    </ExploreFact>
+
+    <!--Been inside-->
+    <ExploreFact>
+      <ID>CORE_ENTERED_FACT_FC</ID>
+      <Text>The center of the core is a hollow chamber, with a single, large crystal floating at its center.</Text>
+    </ExploreFact>
+
+    <!--Broke it-->
+    <ExploreFact>
+      <ID>CORE_BROKEN_FACT_FC</ID>
+      <Text>The crystal cracked when I interacted with it, which seemed to cause the entire planet to lose its gravity.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the core lab -->
+  <Entry>
+    <ID>CORE_LAB_ENTRY_FC</ID>
+    <Name>Core Lab</Name>
+    <Curiosity>DILATION_NODE</Curiosity>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>CORE_LAB_FOUND_FACT_FC</ID>
+      <Text>I found some sort of lab on the inner surface of Graviton’s Folly.</Text>
+    </ExploreFact>
+
+    <!--Lab purpose-->
+    <ExploreFact>
+      <ID>CORE_LAB_PURPOSE_FACT</ID>
+      <Text>The lab seems to have been built to study the massive crystalline core at the center of Graviton’s Folly.</Text>
+    </ExploreFact>
+
+    <!--Stranded-->
+    <ExploreFact>
+      <ID>CORE_DITYLUM_STRANDED_FACT_FC</ID>
+      <Text>A Dree named Ditylum became stranded at the Venomous Reject, an area accessible from the far side of the Nursery. The Nomai decided to discuss different rescue methods in the core lab.</Text>
+    </ExploreFact>
+
+    <!--Bad plans were made-->
+    <ExploreFact>
+      <ID>BAD_PLANS_FACT_FC</ID>
+      <Text>While the Nomai came up with a number of rescue plans, none of them seemed likely to work.</Text>
+    </ExploreFact>
+
+    <!--Broken stairs-->
+    <ExploreFact>
+      <ID>BROKEN_STAIRS_FACT_FC</ID>
+      <Text>There is some text higher in the lab, but the stairs are broken, so I can’t sit still while my translator is in range.</Text>
+    </ExploreFact>
+
+    <!--Better plan elsewhere-->
+    <ExploreFact>
+      <ID>ENZYME_LAB_PLAN_FACT_FC</ID>
+      <Text>One of the Nomai felt that he had a good rescue plan, and decided to explore it further at the Enzyme lab.</Text>
+    </ExploreFact>
+
+    <!--Pet the eye-->
+    <ExploreFact>
+      <ID>ENZYME_LAB_ACCESS_FACT</ID>
+      <Text>The enzyme lab can be found in the mouth of one of the fish near the Anglerfish Observation Platform. I should remember that, to avoid being immediately digested, I need to pet the eye of the anglerfish first.</Text>
+    </ExploreFact>
+  </Entry>
+
+  <!--Entry for the quarry -->
+  <Entry>
+    <ID>QUARRY_ENTRY_FC</ID>
+    <Name>Quarry</Name>
+    <Curiosity>DREE</Curiosity>
+
+    <!--Discovery-->
+    <ExploreFact>
+      <ID>QUARRY_DISCOVERY_FACT_FC</ID>
+      <Text>I found some sort of quarry on the inner surface of Graviton's Folly.</Text>
+    </ExploreFact>
+
+    <!--Use for lab-->
+    <ExploreFact>
+      <ID>QUARRY_TRANSLATION_FACT_FC</ID>
+      <Text>One of the Nomai decided to use material from Graviton’s Folly to build a translation lab.</Text>
+    </ExploreFact>
+
+    <!--Alternative entrance-->
+    <ExploreFact>
+      <ID>LARGE_TRANSLATION_ENTRANCE_FACT_FC</ID>
+      <Text>While the translation lab has an easy to find entrance near Shattered Hearth, there is also a larger, more hidden entrance somewhere in Briar’s Hollow.</Text>
+    </ExploreFact>
+  </Entry>
+</AstroObjectEntry>

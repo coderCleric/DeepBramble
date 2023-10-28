@@ -3,6 +3,20 @@
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "DeepBramble",
 
+  "ShipLog": {
+    "xmlFile": "planets/Deep Bramble System/Ship Logs/start_dim_log.xml",
+    "mapMode": {
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 1,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": 50,
+        "y": 0
+      }
+    }
+  },
   "Base": {
     "groundSize": 0,
     "surfaceSize": 0,
@@ -82,16 +96,6 @@
         "frequency": "Nomai Trailmarkers",
         "name": "First Marker",
         "reveals": "STARTING_SIGNAL_FACT"
-      }
-    ],
-    "entryLocation": [
-      {
-        "id": "STARTING_NODE_ENTRY",
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        }
       }
     ]
   },

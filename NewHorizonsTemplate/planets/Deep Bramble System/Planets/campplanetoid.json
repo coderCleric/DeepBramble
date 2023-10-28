@@ -3,18 +3,11 @@
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "DeepBramble",
   "canShowOnTitle": false,
+
   "ShipLog": {
-    "xmlFile": "planets/Deep Bramble System/Ship Logs/camp_planetoid.xml",
+    "xmlFile": "planets/Deep Bramble System/Ship Logs/camp_planet.xml",
     "mapMode": {
-      "invisibleWhenHidden": true,
-      "manualNavigationPosition": {
-        "x": 3,
-        "y": 1
-      },
-      "manualPosition": {
-        "x": 100,
-        "y": 0
-      }
+      "invisibleWhenHidden": true
     }
   },
   "Base": {
@@ -58,24 +51,6 @@
           "z": 0
         },
         "alignRadial": true
-      }
-    ],
-    "entryLocation": [
-      {
-        "id": "CAMPSITE_ENTRY",
-        "position": {
-          "x": 0,
-          "y": 75,
-          "z": 0
-        }
-      },
-      {
-        "id": "SOIL_LAB_ENTRY",
-        "position": {
-          "x": -101.3614,
-          "y": 2.6787,
-          "z": -0.128
-        }
       }
     ],
     "translatorText": [
