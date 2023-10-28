@@ -535,20 +535,5 @@
         ]
       }
     ]
-  },
-  "Volumes": {
-    "revealVolumes": [
-      {
-        "rename": "CampsiteReveal",
-        "position": {
-          "x": 0,
-          "y": 75,
-          "z": 0
-        },
-        "radius": 30,
-        "revealOn": "enter",
-        "reveals": [ "CAMPSITE_FOUND_FACT" ]
-      }
-    ]
   }
 }

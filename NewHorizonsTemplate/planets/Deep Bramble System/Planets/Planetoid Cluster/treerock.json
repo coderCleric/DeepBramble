@@ -44,41 +44,6 @@
     ]
   },
   "Volumes": {
-    "revealVolumes": [
-      {
-        "rename": "PresenceReveal",
-        "position": {
-          "x": 0,
-          "y": 0,
-          "z": 0
-        },
-        "radius": 350,
-        "revealOn": "enter",
-        "reveals": [ "CLUSTER_FOUND_FACT" ]
-      },
-      {
-        "rename": "RuinReveal1",
-        "position": {
-          "x": 8.395194,
-          "y": -21.76041,
-          "z": 17.41858
-        },
-        "radius": 20,
-        "revealOn": "enter",
-        "reveals": [ "CLUSTER_RUINS_FACT" ]
-      },
-      {
-        "rename": "RuinReveal2",
-        "position": {
-          "x": -27.32322,
-          "y": -14.62039,
-          "z": -15.99103
-        },
-        "radius": 20,
-        "revealOn": "enter",
-        "reveals": [ "CLUSTER_RUINS_FACT" ]
-      }
-    ],
     "audioVolumes": [
       {
         "rename": "AmbientAudio",

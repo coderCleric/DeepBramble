@@ -102,6 +102,23 @@
         },
         "possibleExits": [ 1 ],
         "linksTo": "Language Dimension"
+      },
+      {
+        "name": "Dilation Node",
+        "hasFogLight": false,
+        "scale": 0.2,
+        "preventRecursionCrash": true,
+        "position": {
+          "x": 364.8494,
+          "y": -364.4816,
+          "z": 1785.246
+        },
+        "rotation": {
+          "x": 22.3103,
+          "y": 276.5786,
+          "z": 0.5796
+        },
+        "linksTo": "Dilation Dimension"
       }
     ]
   },
@@ -137,6 +154,59 @@
           "PointLight_NOM_Lamp",
           "Props_NOM_Lamp_EscapePodFlare"
         ]
+      },
+      {
+        "keepLoaded": true,
+        "assetBundle": "assetbundles/dead_node",
+        "path": "Assets/Prefabs/props/dead_node.prefab",
+        "parentPath": "Sector/Dilation Node",
+        "isRelativeToParent": true,
+        "scale": 0.2,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "assetBundle": "assetbundles/swimming_ditylum",
+        "path": "Assets/Prefabs/props/swimming_ditylum.prefab",
+        "rename": "outerditylum",
+        "physicsRadius": 0,
+        "parentPath": "Sector/Dilation Node",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "assetBundle": "assetbundles/injector_socket",
+        "path": "Assets/Prefabs/props/injector_socket.prefab",
+        "parentPath": "Sector/Dilation Node",
+        "isRelativeToParent": true,
+        "scale": 1,
+        "position": {
+          "x": -11.0266,
+          "y": 6.6519,
+          "z": -7.0972
+        },
+        "rotation": {
+          "x": 311.1425,
+          "y": 246.182,
+          "z": 180
+        }
       }
     ],
     "translatorText": [
@@ -191,6 +261,22 @@
         },
         "frequency": "Natural Phenomena",
         "name": "Gravitational Anomaly"
+      },
+      {
+        "rename": "dilation_signal",
+        "audio": "OW_TravelerTheme_harmonica",
+        "parentPath": "Sector/Dilation Node",
+        "identificationRadius": 0,
+        "sourceRadius": 1,
+        "detectionRadius": 0,
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "frequency": "Echolocation Tones",
+        "name": "Warped Echolocation"
       }
     ]
   },

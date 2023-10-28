@@ -44,12 +44,12 @@ namespace DeepBramble.MiscBehaviours
                 return;
 
             //Flicker the screen and set up the death
-            GlobalMessenger<float, float>.FireEvent("FlickerOffAndOn", 1f, 2f);
-            dieTime = Time.time + 1f;
+            GlobalMessenger<float, float>.FireEvent("FlickerOffAndOn", 3f, 4f);
+            dieTime = Time.time + 3f;
             waitingToDie = true; 
             
             //Rumble the controller
-            RumbleManager.Pulse(0.5f, 0.5f, 2.3f);
+            RumbleManager.Pulse(0.5f, 0.5f, 4.3f);
 
             //Emergency recall the scout
             if (ForgottenLocator.probeDilated)

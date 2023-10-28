@@ -169,6 +169,8 @@ namespace DeepBramble
             Transform sectorTransform = body.transform.Find("Sector");
             if (volume != null && sectorTransform != null)
             {
+                debugPrint("Applying fixes for " + body.name);
+
                 //Increase the priority of the gravity volume
                 volume._priority = 2;
 
@@ -312,6 +314,10 @@ namespace DeepBramble
                                 ForgottenLocator.quantumRock.specialSocket = ForgottenLocator.specialSocket;
 
                             break;
+
+                        case "The Venomous Reject":
+                            sectorTransform.Find("poison_planet/poison_lab/building/decor/injector").gameObject.AddComponent<InjectorItem>();
+                            break;
                     }
                 }
             }
@@ -326,6 +332,7 @@ namespace DeepBramble
         {
             //Only do anything if it's a bramble dimension added by a mod
             if (body.GetComponentInChildren<DarkBrambleRepelVolume>() != null && body.transform.Find("Sector") != null) {
+                debugPrint("Applying fixes for " + body.name);
 
                 //Disable lock-on for the dimension body
                 body.GetComponent<OWRigidbody>()._isTargetable = false;
@@ -344,6 +351,14 @@ namespace DeepBramble
                     case "Start Dimension":
                         ForgottenLocator.startDimensionObject = body;
                         this.ensureStarterLoad = true;
+                        break;
+
+                    case "Large Dimension":
+                        //Add the swim controller to outer ditylum
+                        GameObject.Find("outerditylum").gameObject.AddComponent<SwimmingDitylumManager>();
+
+                        //Make the toxin injector
+                        body.transform.Find("Sector/Dilation Node/injector_socket").gameObject.AddComponent<InjectorSocket>();
                         break;
 
                     case "The Nursery":
@@ -370,6 +385,17 @@ namespace DeepBramble
                         body.transform.Find("Sector/observation_lab/audio_switcher").gameObject.AddComponent<AudioSwitchTrigger>();
                         body.transform.Find("Sector/observation_lab/audio_switcher").gameObject.SetActive(false);
                         body.transform.Find("Sector/observation_lab/domestic_ambience_calm").gameObject.SetActive(false);
+                        break;
+
+                    case "Dilation Dimension":
+                        //Register this as the dilation dimension
+                        ForgottenLocator.dilationOuterWarp = body.transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
+
+                        //Add the killer to the dilation node
+                        ForgottenLocator.dilationNodeKiller = ForgottenLocator.dilationOuterWarp._linkedInnerWarpVolume.gameObject.AddComponent<NodeKiller>();
+
+                        //Add the rotation controller to dilated Ditylum
+                        ForgottenLocator.dilatedDitylum = body.transform.Find("Sector/dilated_ditylum").gameObject.AddComponent<DilatedDitylumManager>();
                         break;
                 }
             }
@@ -511,11 +537,12 @@ namespace DeepBramble
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
                 //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
-                Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
+                //Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
                 //Vector3 point = new Vector3(9559.7f, 9920.6f, -99.4f); //Language Dimension
                 //Vector3 point = new Vector3(-24.7f, 10043.4f, -244.6f); //Lava planet start
                 //Vector3 point = new Vector3(-257.3f, 9950.4f, 39.4f); //Quantum cave
                 //Vector3 point = new Vector3(85.7f, -3.3f, -9960.4f); //Poison planet
+                Vector3 point = new Vector3(349.8f, -322.1f, 31738.1f); //Dilation node
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
@@ -531,7 +558,7 @@ namespace DeepBramble
                 FogWarpDetector shipDetector = Locator.GetShipDetector().GetComponent<FogWarpDetector>();
                 if (shipDetector.GetOuterFogWarpVolume() != null) {
                     Patches.fogRepositionHandled = true;
-                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("DreeDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
+                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("LargeDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
                 }
 
                 Locator._shipBody.SetPosition(point);

@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 1964185634
+CRC: 1752492649
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 8603ae0ef205eb39fdc2bf4f46be4f2a
+    Hash: 79c98e44c8982a739edd882823e87fed
   TypeTreeHash:
     serializedVersion: 2
-    Hash: ea1a3dfd835f43a75a269cdd2aae6152
+    Hash: 269d8c3f3963800486e87d9c577151c2
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -29,17 +29,30 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
 - Class: 115
   Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/poison_planet.prefab
-Dependencies: []
+Dependencies:
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/injector
