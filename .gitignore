@@ -3,3 +3,5 @@ packages
 .vs
 bin
 obj
+/NewHorizonsTemplate/assetbundles/castaways
+/NewHorizonsTemplate/assetbundles/castaways.manifest

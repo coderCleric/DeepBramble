@@ -36,7 +36,7 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/lava_planet",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/lava_planet.prefab",
         "position": {
           "x": 0,
@@ -50,7 +50,7 @@
         }
       },
       {
-        "assetBundle": "assetbundles/player_explosion",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/player_explosion.prefab",
         "position": {
           "x": 0,

@@ -42,7 +42,7 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/dead_node",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/dead_node.prefab",
         "parentPath": "Sector/Dilation Node",
         "isRelativeToParent": true,
@@ -59,7 +59,7 @@
         }
       },
       {
-        "assetBundle": "assetbundles/swimming_ditylum",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/swimming_ditylum.prefab",
         "rename": "outerditylum",
         "physicsRadius": 0,
@@ -99,26 +99,6 @@
         "removeChildren": [ "whiteboard_brokenTiles" ]
       },
       {
-        "keepLoaded": true,
-        "assetBundle": "assetbundles/stilt_building_1",
-        "path": "Assets/Prefabs/buildings/stilt_building_1.prefab",
-        "position": {
-          "x": -15.54034,
-          "y": 1.125,
-          "z": 22.7511
-        }
-      },
-      {
-        "keepLoaded": true,
-        "assetBundle": "assetbundles/stilt_building_2",
-        "path": "Assets/Prefabs/buildings/stilt_building_2.prefab",
-        "position": {
-          "x": -28.43664,
-          "y": 1.125,
-          "z": -6.25235
-        }
-      },
-      {
         "rename": "Oxygen",
         "path": "BrittleHollow_Body/Sector_BH/Sector_Crossroads/Volumes_Crossroads/OxygenVolume",
         "position": {
@@ -141,7 +121,7 @@
       },
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/injector",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/injector.prefab",
         "position": {
           "x": 1.0938,
@@ -156,7 +136,7 @@
       },
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/injector_socket",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/injector_socket.prefab",
         "parentPath": "Sector/Dilation Node",
         "isRelativeToParent": true,

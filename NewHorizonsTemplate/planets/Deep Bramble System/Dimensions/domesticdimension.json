@@ -34,7 +34,7 @@
   "Props": {
     "details": [
       {
-        "assetBundle": "assetbundles/observation_lab",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/buildings/observation_lab.prefab",
         "rotation": {
           "x": 44.0179,

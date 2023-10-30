@@ -22,7 +22,7 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/final_lab",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/buildings/final_lab.prefab"
       }
     ]

@@ -92,7 +92,7 @@
     "details": [
       {
         "rename": "karenia_house",
-        "assetBundle": "assetbundles/dree_floating_house",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/buildings/dree_floating_house.prefab",
         "scale": 2,
         "position": {
@@ -108,7 +108,7 @@
       },
       {
         "rename": "amylax_house",
-        "assetBundle": "assetbundles/dree_floating_house",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/buildings/dree_floating_house.prefab",
         "scale": 2,
         "position": {

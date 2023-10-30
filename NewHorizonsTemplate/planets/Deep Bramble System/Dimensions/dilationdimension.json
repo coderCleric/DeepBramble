@@ -30,7 +30,7 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/dilated_ditylum",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/dilated_ditylum.prefab",
         "position": {
           "x": -150.1795,

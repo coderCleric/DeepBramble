@@ -35,7 +35,7 @@
   "Props": {
     "details": [
       {
-        "assetBundle": "assetbundles/language_lab",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/buildings/language_lab.prefab",
         "rotation": {
           "x": 355.3274,
@@ -44,7 +44,7 @@
         }
       },
       {
-        "assetBundle": "assetbundles/angler_skeleton",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/angler_skeleton.prefab",
         "rotation": {
           "x": 0,
@@ -54,7 +54,7 @@
         "scale": 1.2
       },
       {
-        "assetBundle": "assetbundles/baby_fish",
+        "assetBundle": "assetbundles/castaways",
         "rename": "ernesto_fish",
         "keepLoaded": true,
         "path": "Assets/Prefabs/baby_fish.prefab",
@@ -70,7 +70,7 @@
         }
       },
       {
-        "assetBundle": "assetbundles/baby_fish",
+        "assetBundle": "assetbundles/castaways",
         "keepLoaded": true,
         "path": "Assets/Prefabs/baby_fish.prefab",
         "position": {
@@ -85,7 +85,7 @@
         }
       },
       {
-        "assetBundle": "assetbundles/baby_fish",
+        "assetBundle": "assetbundles/castaways",
         "keepLoaded": true,
         "path": "Assets/Prefabs/baby_fish.prefab",
         "position": {
@@ -100,7 +100,7 @@
         }
       },
       {
-        "assetBundle": "assetbundles/baby_fish",
+        "assetBundle": "assetbundles/castaways",
         "keepLoaded": true,
         "path": "Assets/Prefabs/baby_fish.prefab",
         "position": {

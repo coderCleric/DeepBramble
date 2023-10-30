@@ -25,7 +25,7 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/asteroid4",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/asteroid4.prefab",
         "position": {
           "x": 0,

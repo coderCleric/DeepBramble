@@ -33,7 +33,7 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/camp_planetoid",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/large_planetoid.prefab",
         "position": {
           "x": 0,

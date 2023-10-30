@@ -47,7 +47,7 @@
   "Props": {
     "details": [
       {
-        "assetBundle": "assetbundles/nursery_tube",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/nursery_tube.prefab",
         "position": {
           "x": 450.9088,

@@ -34,7 +34,7 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/hollowplanet",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/hollowplanet.prefab",
         "position": {
           "x": 0,

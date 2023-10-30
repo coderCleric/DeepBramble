@@ -126,7 +126,7 @@
     "details": [
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/bramblecap",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/bramblecap.prefab",
         "position": {
           "x": -199.1523,
@@ -157,7 +157,7 @@
       },
       {
         "keepLoaded": true,
-        "assetBundle": "assetbundles/dead_node",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/dead_node.prefab",
         "parentPath": "Sector/Dilation Node",
         "isRelativeToParent": true,
@@ -174,7 +174,7 @@
         }
       },
       {
-        "assetBundle": "assetbundles/swimming_ditylum",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/swimming_ditylum.prefab",
         "rename": "outerditylum",
         "physicsRadius": 0,
@@ -192,7 +192,7 @@
         }
       },
       {
-        "assetBundle": "assetbundles/injector_socket",
+        "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/injector_socket.prefab",
         "parentPath": "Sector/Dilation Node",
         "isRelativeToParent": true,
