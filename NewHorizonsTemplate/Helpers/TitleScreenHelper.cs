@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using NewHorizons.Utility;
+using NewHorizons.Utility.Files;
 using UnityEngine;
 
 namespace DeepBramble.Helpers
@@ -43,6 +45,7 @@ namespace DeepBramble.Helpers
                 return;
             }
             titleEffectsObject = GameObject.Instantiate(titleEffectsObject, backgroundObject.transform);
+            AssetBundleUtilities.ReplaceShaders(titleEffectsObject);
             titleEffectsObject.name = "DB Title Effects Object";
             titleEffectsObject.transform.position = new Vector3(116.455f, 368.8177f, -47.0909f);
             titleEffectsObject.transform.rotation = Quaternion.Euler(327.4284f, 1.9997f, 340.8541f);
