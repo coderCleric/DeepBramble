@@ -1,0 +1,38 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: Update: I have translated the Dree name for the area we find ourselves in. Apparently, the Dree refer to everywhere enclosed by this plant as the <![CDATA[<color=purple>Deep Bramble</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: Keep up the good work, Sennetti. We all appreciate your efforts, both towards deciphering the Dree language and keeping us updated.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: Interesting. Do you suppose the existence of a â€œDeepâ€? Bramble implies the existence of a â€œShallowâ€? Bramble?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			OKALIS: Perhaps the Shallow Bramble is where the <![CDATA[<color=orange>Vessel</color>]]> was stranded?
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			AZOLLA: Sennetti, have you had any luck asking the Dree how to leave the <![CDATA[<color=purple>Deep Bramble</color>]]>?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: I have asked many people about how to leave, but so far they all seem certain that escape is impossible.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: I am sorry to report my investigations have not uncovered an escape. I have scoured <![CDATA[<color=orange>Briar’s Hollow</color>]]>, but have been thoroughly unable to find any new passageways.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AZOLLA: This is troubling news. If we are unable to locate an exit, we will not be capable of reuniting with the rest of our clan or locating the <![CDATA[<color=orange>Eye of the Universe</color>]]>. We should all continue searching for an exit. I refuse to believe we are entirely ensnared by the <![CDATA[<color=purple>Bramble</color>]]>.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: That is… troubling. Suppose they simply haven’t found a suitable exit yet?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			SENNETTI: I find that to be very unlikely. The Dree have been here for thousands of years, the idea they would overlook an exit for that long is improbable.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

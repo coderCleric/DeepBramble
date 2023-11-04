@@ -1,0 +1,78 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: I am happy to report our relations with the Dree seem to be going well! In fact, Amylax saw fit to deliver a gift to me!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: That is good to hear! However, I have to wonder… Okalis, may I ask what the nature of this gift is?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: It is a lovely necklace, woven from several small vines which seem to have been made to grow around one another. I am honestly unsure how he must have made it. Perhaps he used the druidic influence the Dree seem to have? Whatever the case, it must have taken some time to create.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			SENNETTI: Hm, yes, I suspected that might be the case. Okalis, I feel I should inform you that, based on my studies of Dree culture, a necklace such as that is a key component of the traditional courting ritual. Usually, the intended recipient will either refuse the necklace, indicating a lack of interest, or accept it and gift the initiator with a similar necklace.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			OKALIS: Are you certain? A courting ritual?! That would imply… was Amylax asking me to be his partner!?! How do I properly respond to that!?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			SENNETTI: Well, I would guess by either refusing or accepting the offer. Which one you choose is up to you, though I would strongly suggest you make a decision soon. I suspect that you have left Amylax quite confused.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			OKALIS: Refuse or accept… If that is the case, then Sennetti, would you be willing to help me gain a better understanding of the Dree language? I believe I have a message important enough that it must be written by hand.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			NESIA: That is quite a situation. Okalis, may I ask how you responded to the gift?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			OKALIS: How I responded… oh no! I stated I took it as a “surefire token of the continued friendship between ourselves and our species�?! He extended an offer of partnership and I, for all intents and purposes, called him a very good friend! This is disastrous!
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

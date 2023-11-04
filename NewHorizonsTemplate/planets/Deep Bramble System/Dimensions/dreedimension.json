@@ -172,67 +172,13 @@
         "alignRadial": false
       }
     ],
+
     "translatorText": [
-      {
-        "rename": "KareniaNameplate",
-        "parentPath": "Sector/karenia_house",
-        "type": "wall",
-        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/karenianametag.xml",
-        "seed": 9876,
-        "position": {
-          "x": 96.95987,
-          "y": -201.9804,
-          "z": -538.0757
-        },
-        "normal": {
-          "x": -0.3454304,
-          "y": 0.5197192,
-          "z": 0.7813898
-        },
-        "arcInfo": [
-          {
-            "type": "stranger",
-            "position": {
-              "x": -0.6218,
-              "y": -0.2218
-            },
-            "zRotation": 0
-          }
-        ]
-      },
-      {
-        "rename": "AmylaxNameplate",
-        "parentPath": "Sector/amylax_house",
-        "type": "wall",
-        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/amylaxnametag.xml",
-        "seed": 987,
-        "isRelativeToParent": true,
-        "position": {
-          "x": 0.5918,
-          "y": 4.366,
-          "z": 1.5251
-        },
-        "normal": {
-          "x": -0.5859225,
-          "y": -0.7801077,
-          "z": -0.2193783
-        },
-        "arcInfo": [
-          {
-            "type": "stranger",
-            "position": {
-              "x": -0.9745449,
-              "y": 0.6909086
-            },
-            "zRotation": 318.2283
-          }
-        ]
-      },
       {
         "rename": "CommunionRecorder",
         "type": "preCrashRecorder",
         "parentPath": "Sector/CommunionRecorderContainer",
-        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/communionrecording.xml",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/communion_recording.xml",
         "isRelativeToParent": true,
         "position": {
           "x": 0,
@@ -244,57 +190,13 @@
         "rename": "ReinvigorationRecorder",
         "type": "preCrashRecorder",
         "parentPath": "Sector/ReinvigorationRecorderContainer",
-        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/reinvigorationrecording.xml",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/reinvigoration_recording.xml",
         "isRelativeToParent": true,
         "position": {
           "x": 0,
           "y": 0,
           "z": 0
         }
-      },
-      {
-        "rename": "AcceptanceText",
-        "parentPath": "Sector/amylax_house/AcceptanceWall",
-        "isRelativeToParent": true,
-        "type": "wall",
-        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/acceptancetext.xml",
-        "seed": 1246,
-        "position": {
-          "x": 0.0344,
-          "y": 1.5494,
-          "z": 0.007
-        },
-        "normal": {
-          "x": -0.786125,
-          "y": 0.3426968,
-          "z": 0.5143601
-        },
-        "arcInfo": [
-          {
-            "type": "stranger",
-            "position": {
-              "x": 0.4327277,
-              "y": 1.34909
-            },
-            "zRotation": 334.7994
-          },
-          {
-            "type": "stranger",
-            "position": {
-              "x": -0.3072729,
-              "y": 0.05272716
-            },
-            "zRotation": 333.5271
-          },
-          {
-            "type": "stranger",
-            "position": {
-              "x": -0.8509086,
-              "y": -1.18909
-            },
-            "zRotation": 335.6577
-          }
-        ]
       }
     ]
   },

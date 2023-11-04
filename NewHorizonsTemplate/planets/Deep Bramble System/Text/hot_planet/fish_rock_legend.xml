@@ -1,0 +1,80 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: I am quite thankful our friends mounted that rescue operation. When my pack lost thrust, I was certain we were to be cooked!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: I am very thankful as well. Honestly, we should have considered the possibility of equipment failure under this heat, especially after we saw how it was used to cook anglerfish eggs.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: I cannot help but wonder how they first started stealing those eggs. The anglerfish hardly seem like the kind of beasts you would want to approach.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			SENNETTI: Actually, one of the language samples I analyzed during my translation is an old story that seeks to explain exactly that. As the story goes, they had found a massive anglerfish keeping watch over a clutch of eggs. The ancient Dree were starving, as they had failed to find food for days, and began devising a plan to steal the eggs.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			SENNETTI: They ultimately decided to distract the mother with a massive rock that was in the vicinity, hoping that slamming it into a nearby wall would lure the mother away for long enough to grab a few of the eggs and flee under pursuit. However, when the mother reached the rock, she did not turn around and pursue the thieves. Instead, she sank her teeth into the rock and stayed there, drifting with it. This distracted the fish long enough for the Dree to take as many eggs as they wanted. Supposedly, the fish was still latched onto the rock as they left.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			NESIA: What an interesting tale! Why do you suppose the mother behaved like that? Are the fish unable to distinguish between organic and inorganic prey?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			OKALIS: An interesting hypothesis, Nesia! I would love to test it, if it were not for the fact our friends would likely not appreciate us feeding rocks to their fish.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: It was certainly a miscalculation on my part.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			OKALIS: I sincerely hope that this turns out to be a story of triumph, rather than one of starvation!
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

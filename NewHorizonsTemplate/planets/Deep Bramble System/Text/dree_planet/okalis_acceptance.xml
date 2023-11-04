@@ -1,0 +1,28 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: Hello Amylax! I apologize for not reacting properly to the gift you left in my home in <![CDATA[<color=orange>Graviton’s Folly</color>]]>, I did not understand at the time that it was part of a courting ritual!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			OKALIS: As for my response, I wholeheartedly accept your offer of partnership! I have left the appropriate necklace in your home, as per the second half of the ritual. I hope you don’t mind, but I was unable to construct it from the traditional vines as I lack the talents shared by your people.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: I also sincerely hope the wall I had to construct to write this message is unobstructive. It should be fairly easy to disassemble, which we could even do together if you so wished!
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

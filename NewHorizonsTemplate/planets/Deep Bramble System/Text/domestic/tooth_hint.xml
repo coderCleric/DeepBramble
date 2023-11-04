@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: Friends, Amylax has informed me of an unfortunate event! The anglerfish guarding the juveniles in the nursery lost one of his bottom teeth in an accident.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: Did he mention what the nature of the accident was?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: Not in detail. From what I understood, it seems as if two of the juvenile fish got into an altercation, and Kevin hit the wall in the process of separating them. It seems that none of the Dree were present for the altercation, so that is simply their best guess.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			SENNETTI: It is fortunate that the Dree have him there then, I imagine one of the juvenile fish could have been seriously injured had Kevin not intervened.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: Are you referring to Kevin? That is unfortunate, I hope it does not leave any permanent effects.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			OKALIS: It seems as if he should make a full recovery, except for the permanent mark left by the missing tooth.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

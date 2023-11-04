@@ -153,41 +153,6 @@
         }
       }
     ],
-    "translatorText": [
-      {
-        "seed": 72446,
-        "type": "wall",
-        "xmlFile": "planets/Deep Bramble System/Text/planetoid_cluster/missinglover.xml",
-        "position": {
-          "x": -49.875,
-          "y": 4.090255,
-          "z": 9.293717
-        },
-        "normal": {
-          "x": 1,
-          "y": 0,
-          "z": 0
-        },
-        "arcInfo": [
-          {
-            "type": "adult",
-            "position": {
-              "x": -0.1743637,
-              "y": -0.08399999
-            },
-            "zRotation": 0
-          },
-          {
-            "type": "adult",
-            "position": {
-              "x": -0.09628716,
-              "y": 0.7024161
-            },
-            "zRotation": 327.0455
-          }
-        ]
-      }
-    ],
     "signals": [
       {
         "rename": "dilation_signal",

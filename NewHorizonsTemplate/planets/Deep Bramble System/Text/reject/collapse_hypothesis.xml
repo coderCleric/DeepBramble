@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: With our current goal of destroying the dangerous node, I cannot help but wonder what will happen when the node dies?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: I would imagine it will be similar to when the node leading from <![CDATA[<color=orange>Shattered Hearth</color>]]> to here perished, and it will simply re-link to somewhere else.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: Perhaps, but this area already had an additional entrance in the <![CDATA[<color=orange>Nursery</color>]]>. What if the area the dangerous node leads to does not have any other entrances? Will the area itself die and be cut off?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: Hm, a fair point. I suppose we shall see. Perhaps the pocket dimension will collapse entirely, ejecting any objects inside?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			OKALIS: That would be interesting! I only hope that, if that is the case, there isn’t anything inside causing the apparent peril.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

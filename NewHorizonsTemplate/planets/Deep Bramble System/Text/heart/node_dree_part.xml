@@ -1,0 +1,20 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			The part of the Dree will be to commune with the <![CDATA[<color=purple>Bramble</color>]]>, to convince it to grow a distant node that will bring us to our destination. To do this, the <![CDATA[<color=purple>Bramble</color>]]> will be primed for communion, and the Dree themselves will attempt to attune themselves to the signal left behind by the <![CDATA[<color=orange>Eye</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			This will be the carrier that allows the gate to function.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

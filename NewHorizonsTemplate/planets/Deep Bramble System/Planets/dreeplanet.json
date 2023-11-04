@@ -42,64 +42,6 @@
           "z": 0
         }
       }
-    ],
-    "translatorText": [
-      {
-        "rename": "ParkRecorder",
-        "type": "preCrashRecorder",
-        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/parkrecorder.xml",
-        "position": {
-          "x": -16.29771,
-          "y": -34.54479,
-          "z": -147.7892
-        },
-        "normal": {
-          "x": -0.1319809,
-          "y": -0.2490982,
-          "z": -0.9594432
-        }
-      },
-      {
-        "rename": "ConcertHallRecorder",
-        "type": "preCrashRecorder",
-        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/concerthallrecorder.xml",
-        "position": {
-          "x": -104.5982,
-          "y": 98.32596,
-          "z": 19.132
-        },
-        "normal": {
-          "x": -0.722499,
-          "y": 0.6680542,
-          "z": 0.1780418
-        }
-      },
-      {
-        "rename": "ConcertHallSign",
-        "type": "wall",
-        "seed": 156239,
-        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/concerthallsign.xml",
-        "position": {
-          "x": -98.78665,
-          "y": 41.05299,
-          "z": 27.25233
-        },
-        "normal": {
-          "x": -0.07297857,
-          "y": 0.8399116,
-          "z": -0.5377941
-        },
-        "arcInfo": [
-          {
-            "type": "stranger",
-            "position": {
-              "x": 0.3818,
-              "y": 0
-            },
-            "zRotation": 8.1528
-          }
-        ]
-      }
     ]
   }
 }

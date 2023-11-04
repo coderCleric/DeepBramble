@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: Interesting. It seems that the majority of the anglerfish’s internal volume is taken up by this central cavity, rather than organs.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			OKALIS: But how can that be? They seem to be large predators that have evolved to swallow prey whole. How could they have such a small space for their stomach?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: I do not believe that they have any stomach at all. Instead, this interior cavity is normally flooded with a free-floating digestive enzyme, allowing the fish to entrap and consume any organic matter that it can fit inside its mouth.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: Additionally, the fact that the enzyme disperses upon petting the eye of the fish is likely not a trained behavior, as it seems unlikely that the Dree would have had any need for such a thing. I believe that, instead, this may allow juvenile fish to brush against the eye of an adult to gain access to their prey.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			AZOLLA: Interesting! It’s rather odd a species that are normally so territorial can become such social creatures once their young are involved.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -1,0 +1,72 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: This is the place I mentioned, friends, the strange chamber that the wandering rock has seen fit to bring us. It is my intention to bring Karenia here as well, I cannot help but feel this is a location of significance to the <![CDATA[<color=purple>Bramble</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			KARENIA: Nesia, how did you find this? This is incredible! I can hardly believe… I didn’t think any living creature would ever be allowed to lay eyes on it…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: Karenia, what are you talking about? You never thought anyone would be <![CDATA[<i>]]>allowed<![CDATA[</i>]]> to lay eyes on it? What even <![CDATA[<i>]]>is<![CDATA[</i>]]> it?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			KARENIA: This is the heart. The heart of the <![CDATA[<color=purple>Bramble</color>]]>. I know it, I can feel it deep, deep in my bones. The entire plant grows from this node, this very spot, below our feet! Can you feel it? Can you feel its life, concentrated here, growing from here?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			KARENIA: In this place, I could commune with the <![CDATA[<color=purple>Bramble</color>]]> so directly! I could speak to it, and hear and be heard as I never have been before. This may be the most significant discovery for my species since… well, in all of our barely recorded history!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			NESIA: Commune with the <![CDATA[<color=purple>Bramble</color>]]> as you never have before? Karenia! You’ve given me an amazing idea! I will visit you when I can to discuss it, but I need to make sure it is all correct in my own head first. I will speak with you shortly!
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: I would have to agree, Nesia. I do not recall ever seeing a place where the plant looked quite this… <![CDATA[<i>]]>alive<![CDATA[</i>]]>.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			SENNETTI: I believe so? I cannot be sure, but this place does feel different.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

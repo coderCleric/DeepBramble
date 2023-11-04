@@ -1,0 +1,82 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: Okay, Karenia and I have been discussing a plan of mine to see if it is feasible, and we seem to be in agreement that it is worth an attempt. Friends, I believe it may finally be time for us to make our way to the <![CDATA[<color=orange>Eye</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			KARENIA: We believe that, utilizing the better communion granted by the <![CDATA[<color=purple>Heart</color>]]>, we can get the <![CDATA[<color=purple>Bramble</color>]]> to grow a node near the <![CDATA[<color=orange>Eye of the Universe</color>]]>. Then, we would be able to cross through a linked node here and arrive there instantly.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: Nesia, Karenia, this is quite a bold plan. Much of the foundation seems to be based on unsure concepts with which we have not been able to properly experiment. Do you truly believe this can work?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: Yes.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			KARENIA: We do.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			AZOLLA: Then it sounds as if we have much work ahead. Everyone, begin preparations! It is time to construct the <![CDATA[<color=orange>Distant Node Project</color>]]>!
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			OKALIS: Are you certain? It is time to reunite with our lost friends?
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: I am relieved to hear your words, friend. Please, explain your plan.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 3-->
+	<TextBlock>
+		<ID>301</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: That is a bold claim, Nesia. But knowing you, it is not one you would make lightly.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

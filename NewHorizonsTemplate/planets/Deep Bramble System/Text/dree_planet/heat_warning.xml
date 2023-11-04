@@ -1,0 +1,20 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			Be wary friends, the space that lies beyond this node is filled with an extreme heat. If you must enter, be prepared to move quickly. The temperature is sufficient to cook you inside of your suit.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			We have erected a gravity lift to bring you down to the planet’s surface. Find your way into it and you will be brought into an area where the heat is somewhat dissipated. Simply keep watch for it, it is plainly visible as you approach.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -1,0 +1,84 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: Thank you for aiding me in testing this, Ditylum. I believe it should work, but it is always best to do some manner of test.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			DITYLUM: No problem, although I do want to ask what exactly we’re testing
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: This recorder. I have modified it in such a way that it should be able to transcribe your spoken language in Nomai.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			DITYLUM: Ah, alright! So, we just need to talk about something for a bit and make sure it’s picking me up properly?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			SENNETTI: Precisely,. We just need a topic to talk about such that we generate a sufficiently large conversation. Let me see… Ah! I have always wondered Ditylum, what was that stone tablet that Okalis returned to you?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			DITYLUM: Oh! Um, it’s honestly kinda embarrassing, but it’s a poem that I made for my partner, Lioloma. Turns out that she wanted to keep it, but I had accidentally left it at that camp and had to go back for it.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			SENNETTI: That’s very sweet! I am sure you were quite flattered she valued it so highly.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			DITYLUM: Yeah! I’m not the best writer, so it really meant a lot that she wanted to keep it. Was that all, or do we need to keep talking for a bit?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>
+			SENNETTI: I believe that should be sufficient. I will need to review the transcription to ensure its accuracy. Although… Would you allow me to borrow your poem? That is a type of text I have not yet encountered in your language, so it may aid in ensuring the accuracy of my translation.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>
+			DITYLUM: Absolutely not.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -1,0 +1,108 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			AZOLLA: Nesia, you said you had something to discuss with me?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: Yes, it is a matter of gra… of utmost importance, and I thought it best to bring it up to you before the others.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: Is this regarding your discussion with the Dree druid? I must confess that your change in demeanor after that conversation has piqued my curiosity… Nesia, are you crying?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: I-I’m sorry Azolla, my grief is overwhelming me. I knew that our Dree friends possess strange abilities, so I decided to speak with one regarding the rest of our clan, to try and determine their fate, and…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			NESIA: The <![CDATA[<color=orange>Third Escape Pod</color>]]> did not escape the <![CDATA[<color=purple>Bramble</color>]]>. Apparently, the pod became ensnared in the vines and, stranded away from the <![CDATA[<color=orange>Vessel</color>]]>, our friends, they…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			AZOLLA: What are you saying, Nesia?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			NESIA: They perished! They had no source of oxygen and all asphyxiated! Din is dead! Escall is dead! Even… even…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			AZOLLA: …And you’re certain of this? The Dree you spoke with couldn’t have made some sort of mistake?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>
+			NESIA: I… no, she was quite certain. She believed that the other two pods escaped to relative safety, but she was certain that the Bramble had claimed the third pod.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>
+			AZOLLA: I will leave a note at the <![CDATA[<color=orange>Language Lab</color>]]> to notify Sennetti and Okalis that we need to meet. I do not wish to ruin their good mood so shortly after Sennetti’s translation, but they deserve to know.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>
+			AZOLLA: …Nesia, I know that you and Secca were partners. While we are all deeply affected by the loss of our friends, I know that you must be especially hurt by this news.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>
+			AZOLLA: Be gentle with yourself, okay?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>
+			NESIA: …Thank you, Azolla, I will ensure I take the proper time to mourn.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

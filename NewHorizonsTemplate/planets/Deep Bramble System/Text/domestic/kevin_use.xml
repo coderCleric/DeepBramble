@@ -1,0 +1,62 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			AZOLLA: Okalis, you had said that you had an idea of how to rescue Ditylum?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			OKALIS: Yes! I wanted to visit here quickly to confirm my suspicions, but I believe that we can use Kevin to cross the <![CDATA[<color=orange>Nursery</color>]]> and retrieve Ditylum.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: An interesting idea! Kevin’s teeth are large enough that we should be able to graft handles to them without causing him harm. Then, we could have him carry us across the nursery, and none of the juveniles would suspect anything due to his presence!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AZOLLA: It sounds as if this will be our plan to rescue Ditylum then. Kevin has proven easy to train in the past, so it should be doable in a reasonable time frame.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			AZOLLA: I will be glad when this is done. Primarily because it will mean that Ditylum is back to safety, but also it will be recompense for the incident when we first approached <![CDATA[<color=orange>Magma’s Recursion</color>]]>.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: This does sound promising, but how do we get to Kevin without being attacked? Even worse, what do we do if Kevin brings us to the other side, and then wanders away?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			OKALIS: A sensible concern, friend! But remember, the Dree have already trained Kevin to come when hit in the eye with a small object. I am sure that we will be able to construct some sort of launcher to take advantage of this behavior from a distance.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

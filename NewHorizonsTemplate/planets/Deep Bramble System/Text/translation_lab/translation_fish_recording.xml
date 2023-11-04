@@ -1,0 +1,28 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: Goodness, Okalis was not lying when he remarked on the terrible beast in this area. That anglerfish is massive!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: Fortunately, it seems the creature is thoroughly domesticated, so it should be no real threat. From what I can gather, this fish is the mother of all others domesticated by the Dree.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: From the size of it, it must consume a massive quantity of food just to sustain itself. Even with its sedentary lifestyle, I suspect it would starve if the Dree did not feed it.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

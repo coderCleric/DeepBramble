@@ -219,7 +219,7 @@
         },
         "type": "preCrashRecorder",
         "parentPath": "Sector/RecursiveNodeRecorderContainer",
-        "xmlFile": "planets/Deep Bramble System/Text/recursivenodediscovery.xml"
+        "xmlFile": "planets/Deep Bramble System/Text/large_dim/recursive_node_recording.xml"
       }
     ],
     "signals": [

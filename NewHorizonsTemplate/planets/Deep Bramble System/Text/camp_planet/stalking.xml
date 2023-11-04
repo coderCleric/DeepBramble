@@ -1,0 +1,56 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: On my way over here this morning, I felt certain that I saw shapes flitting about in the fog. Has anybody else observed this phenomenon?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			OKALIS: I too have noticed this, friend. They seem to be the same species as the person I made contact with recently. They have been quite bold with me. One was stationed directly outside my window this morning, but ran off as soon as I stirred!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: What should we do? They do not yet appear hostile, but our stalker’s behavior is very concerning.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AZOLLA: I suspect that they will be the ones to make the first move. Remember, stay with one another, and do not behave aggressively.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: I have noticed this as well Sennetti, I believe that our strange neighbors may be keeping an eye on us.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: I noticed some shapes in the fog when I stepped out of my abode last night as well.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

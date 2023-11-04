@@ -1,0 +1,108 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: Is this the place you wanted to show me Amylax?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AMYLAX: Yeah! It’s a little place Ditylum and I set up when we were kids. It was our secret hideout whenever things got scary, like when the adults would feed the anglerfish.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: It feels… meaningful, that you would bring me here, so close to where our species first made contact.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AMYLAX: Heh, I guess so, huh.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			OKALIS: I’m really grateful you gave me this necklace. I truly am incapable of expressing how much it means to me.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			AMYLAX: I’m glad that you’re glad! Ever since I first met you I’ve thought that you were really… well… just great all around I guess! I know the necklace you made me isn’t super traditional, but you know what, I love it! I think it symbolizes us really well!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			OKALIS: Amylax, you are too kind!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>
+			…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>
+			AMYLAX: You know, ever since we became adults, Ditylum kinda stopped coming out here, and, well, this is somewhere that I’ve shared with you now, so, maybe we could make it our secret hideout? If that sounds okay with you? Sorry, I know that’s kind of childish, especially for a big scientist like yourself.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>
+			OKALIS: I don’t think it would be childish at all Amylax, and I’d be thrilled to do so! Was there something you had in mind?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>
+			AMYLAX: Well, I was thinking that we could write our names on the wall? After all, what’s a secret hideout without a mark to let any trespassers know who it belongs to?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>
+			OKALIS: I think that is a wonderful idea, Amylax.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

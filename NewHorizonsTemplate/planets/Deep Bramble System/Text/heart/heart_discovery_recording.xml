@@ -1,0 +1,92 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: Meditation log 134, setting up now, just need to put my writing staff somewhere… here will do. Okay, sitting down, closing my eyes, and… breathing…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA:In… and… out…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: Ahh. I was skeptical at first, but this truly was a brilliant suggestion on Karenia’s part. These meditation sessions are making everything that’s occurred much more bearable.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			NESIA: Though she <![CDATA[<i>]]>does<![CDATA[</i>]]> find my choice of location strange, I cannot help that it is the best for this exercise. I am convinced this stone has something to do with the <![CDATA[<color=orange>Eye</color>]]>. Meditating atop it makes me feel closer to the Eye and, by extension, the rest of our clan.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			NESIA: Ah, it’s hardly been any time at all, and I can already feel my body ignoring the stifling heat of this planet.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			NESIA: Wait, no, I am certain that it is noticeably cooler in this cave than it normally is. What’s going on?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>
+			NESIA: Ah! I’m not in the cave anymore! It seems that I have somehow managed to find myself somewhere else entirely!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>
+			NESIA: Incredible… it’s so green, in a way that I have never seen the <![CDATA[<color=purple>Bramble</color>]]>. Just what is this place? Did you bring me here, my wandering friend? Is this place… important somehow? I cannot help but feel that it is… significant.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>
+			NESIA: I must find a way out and tell the others, something tells me that this is a very crucial discovery.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

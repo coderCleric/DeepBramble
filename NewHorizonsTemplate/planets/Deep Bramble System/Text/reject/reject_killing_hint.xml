@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			AZOLLA: The Dree have found a hazardous node and, at their request, we are to develop a delivery method for the toxin produced by the <![CDATA[<color=orange>Venomous Reject</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: This should not be difficult in and of itself, but who should deliver the toxin? We cannot ignore the possibility of the <![CDATA[<color=purple>Bramble</color>]]> reacting in some violent manner.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			DITYLUM: I can do it. I know my way around the <![CDATA[<color=purple>Deep Bramble</color>]]>, and I’m sure I can handle whatever happens.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AZOLLA: If you are certain, then that will be our plan. We will create a specialized mount and injector. The mount will be installed on the node to aid in administering the toxin, and you will be charged with the actual delivery.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: I am still hesitant to destroy this node. Its behavior sounds unique.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			AZOLLA: We all are, but if the Dree believe it to be a significant threat, then I am inclined to be rid of it.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -1,0 +1,84 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: With the Dree’s language translated, we can begin assembling a better understanding of their physiology. I have erected this text wall to serve as a location for recording our findings.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			OKALIS: Nesia, Azolla, and myself had the pleasure of attending a Dree concert recently. We posited that they may have different vocal organs than us, allowing them to produce the otherworldly sounds we observed.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			SENNETTI: From what I’ve gathered, the Dree have inhabited the <![CDATA[<color=purple>Deep Bramble</color>]]> in all of their stories, so it is very likely that they developed enhanced vocal organs as an adaptation to the environment.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: The Dree possess many adaptations that make them well-suited towards the environment of the <![CDATA[<color=purple>Deep Bramble</color>]]>. Most noteworthy is their sensitive hearing and the thin webs between their fingers and toes.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>202</ID>
+		<ParentID>201</ParentID>
+		<Text>
+			AZOLLA: It should be noted that certain traits suggest they may originate from somewhere with more light, such as their shallow, likely vestigial eye sockets. Suppose they were not originally from the <![CDATA[<color=purple>Deep Bramble</color>]]>?
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 3-->
+	<TextBlock>
+		<ID>301</ID>
+		<ParentID>201</ParentID>
+		<Text>
+			SENNETTI: Especially impressive, their hearing even allows them to read by detecting the differences in sound reflecting off different textures. This seems to be why they write with such a thick, soft substance, and how they can read the chalky lines written by ourselves.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>302</ID>
+		<ParentID>301</ParentID>
+		<Text>
+			OKALIS: It seems that this hearing is even sensitive enough to detect certain biological signals. Amylax seems to use my pulse to determine when I am tense or nervous. This may have helped them avoid predators in the past, such as the anglerfish.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 4-->
+	<TextBlock>
+		<ID>401</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: The Dree seem to navigate entirely through echolocation, emitting a high-pitched tone that they use to measure their distance to solid objects in their environment.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>402</ID>
+		<ParentID>401</ParentID>
+		<Text>
+			AZOLLA: Notably, this tone is also outside of the hearing range of all but the youngest anglerfish, as we learned when Ditylum became trapped on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, unable to return without his tone alerting the juvenile fish in that area.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

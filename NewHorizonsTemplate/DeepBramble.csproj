@@ -465,79 +465,310 @@
       <None Update="planets\Deep Bramble System\Text\camp_planetoid\wallhideaway.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\Deep Bramble System\Text\dree_planet\acceptancetext.xml">
+      <None Update="planets\Deep Bramble System\Text\camp_planet\after_first_stakeout.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\camp_planet\after_second_stakeout.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\camp_planet\camp_discovery.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\camp_planet\enclosed_space_hint.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\camp_planet\soil_lab.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\camp_planet\stalking.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\camp_planet\treehouse_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\cluster\camp_hint.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\cluster\hole_overlook.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\cluster\planetoid_sad_note.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\cluster\tree_base_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\cluster\tree_shrine.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\domestic\eggs_lore.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\domestic\kevin_use.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\domestic\rock_blocking_full.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\domestic\sedentary_fish_lore.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\domestic\stomach_lore.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\domestic\tooth_hint.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Text\dree_planet\amylaxnametag.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\Deep Bramble System\Text\dree_planet\communionrecording.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\dree_planet\concerthallrecorder.xml">
+      <None Update="planets\Deep Bramble System\Text\dree_planet\communion_recording.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Text\dree_planet\concerthallsign.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Deep Bramble System\Text\dree_planet\concert_hall_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\dree_planet\dilation_warning_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\dree_planet\heat_warning.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\dree_planet\helmet_off_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Deep Bramble System\Text\dree_planet\karenianametag.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\Deep Bramble System\Text\dree_planet\parkrecorder.xml">
+      <None Update="planets\Deep Bramble System\Text\dree_planet\okalis_acceptance.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\Deep Bramble System\Text\dree_planet\reinvigorationrecording.xml">
+      <None Update="planets\Deep Bramble System\Text\dree_planet\park_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\dree_planet\reinvigoration_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\amylax_gift_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\AN_pod_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\azolla_struggle_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\bad_idea_1.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\bad_idea_2.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\breakdown_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\call_to_action.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\core_combo_hint.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\core_lab_intro.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\core_scanner_broken.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\core_scanner_intact.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\core_study.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\culture_notes.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\dead_wife_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\din_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\escall_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\eye_origin.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\eye_purpose.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\eye_shrine_intro.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\folly_intro.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\good_idea_hint.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\large_entrance_hint.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\memorial_misc_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\memorial_official_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\physiology_notes.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\pod_fate_reveal_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\pod_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\secca_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\folly\trapped_dree.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\distant_node_proposal.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\ditylum_grief_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\dree_heart_intro.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\final_computer.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\final_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\heart_discovery_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\node_dree_part.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\node_final_statement.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\node_general_plan.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\node_nomai_part.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\heart\node_plan_amendment.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Text\holeoverlooktext.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\burning_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\courting_reveal.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\dree_tone.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\fish_rock_legend.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\gas_dilation_discovery.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\gas_goal_hint.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\gas_warning.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\hot_locations_hint.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\hot_planet_intro_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\recursive_heat_lore.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\rock_blocking_obscured.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\romantic_advice_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\hot_planet\signal_analysis.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Deep Bramble System\Text\janktext.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\Deep Bramble System\Text\language_lab\calltomourn.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\language_lab\culturenotes.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\language_lab\deepnamediscovery.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\language_lab\dictionary.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\language_lab\domesticfishdiscovery.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\language_lab\dreenamediscovery.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\language_lab\fishobservationrecorder.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\language_lab\noexittext.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\planetoid_cluster\bigplanetoidhint.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\planetoid_cluster\holeoverlooktext.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\planetoid_cluster\missinglover.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\planetoid_cluster\treerecorder.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\planetoid_cluster\treeshrinetext.xml">
+      <None Update="planets\Deep Bramble System\Text\large_dim\recursive_node_recording.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Text\recursivenodediscovery.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Deep Bramble System\Text\reject\collapse_hypothesis.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\reject\ditylum_diary.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\reject\reject_genetics.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\reject\reject_killing_hint.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\reject\reject_violation.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Deep Bramble System\Text\startdimensionrecorder.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\start_dim\start_dimension_recorder.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\translation_lab\bramble_name_reveal.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\translation_lab\call_to_mourn.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\translation_lab\dictionary_text.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\translation_lab\domestic_fish_reveal.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\translation_lab\species_name_reveal.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\translation_lab\translation_culture_notes.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\translation_lab\translation_fish_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\translation_lab\translation_funny_recording.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="planets\Deep Bramble System\Text\translation_lab\translation_no_exit.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Text\treerecorder.xml">

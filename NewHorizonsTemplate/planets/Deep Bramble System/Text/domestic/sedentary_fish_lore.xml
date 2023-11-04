@@ -1,0 +1,30 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: At first I was quite confused how these fish could survive with the stark absence of viable prey, but after observing them, I believe I understand. They live very sedentary lives, only moving to ambush potential prey. This allows them to expend very little energy. In fact, I believe that only ones as large as the mother near the <![CDATA[<color=orange>Translation Lab</color>]]> require larger prey. Smaller ones can simply subside on the smaller creatures that float throughout the <![CDATA[<color=purple>Bramble</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: An interesting idea, Nesia. This would explain why the Dree are able to rely on the anglerfish staying away. There is no need to worry about an encroaching predator when that predator never moves.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: This may even explain how that anglerfish grew to that size. Perhaps they grow proportionally to their nutritional intake.Thus the extra food the Dree give her has caused her to grow to such an exceedingly massive size.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -1,0 +1,108 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: Fascinating, I wonder what the purpose of this area could be? It could be some manner of social area, but we have already observed a park and a concert hall. I wonder how many social areas these people have?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AMYLAX: Um, hey, Okalis was it? I just wanted to come say hi and introduce myself, since that’s something that we can do now. My name’s Amylax.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: Oh! Hello! I must confess, I had somewhat forgotten that Sennetti had completed his translation, and that we would be able to fully understand one another. Yes, I’m Okalis, it’s a pleasure to meet you properly!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AMYLAX: Were you wondering what this little podium is? It’s actually where we come to tell stories and such. Most of our history is kept track of through oral tradition, so we have this place to tell all of the old stories from our ancestors.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			OKALIS: Interesting! Although, why not use the concert hall for that purpose? I am certain that it would have the acoustics for it. Ah, also, if you’ll excuse me, it’s getting a bit stuffy in here, so I’m going to remove this while the oxygen of this planet allows me to do so.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			AMYLAX: Oh, um, yeah, sure. The concert hall is really for large performances, so it’s not really pract-BY THE <![CDATA[<color=purple>BRAMBLE</color>]]> WHAT ARE YOU DOING!?!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			OKALIS: Taking my helmet off? It’s stuffy in this suit, so I prefer not to wear it when it can be avoided.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			AMYLAX:But, but, you just pulled off your head! And you have a second, smaller, fuzzier head inside of it?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>
+			OKALIS: Oh! This is not my head, it’s a helmet! It protects my head from impacts, as well as allowing some degree of environmental regulation, such as providing me with oxygen. Did you believe that we all have the appearance of our helmets and masks?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>
+			AMYLAX: Kinda, yeah. So, I guess that’s not your skin either? It’s actually just something you have… surrounding your real skin?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>
+			OKALIS: Yes! We Nomai are actually covered in a layer of fur as well, but that is also underneath the suit. I hope my true appearance isn’t too disconcerting to you, you appeared quite distressed a moment ago.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>
+			AMYLAX: I thought that you had somehow pulled your head off, that’s why I was concerned. Your actual face isn’t bad at all though! It actually kinda suits you, I like the softer feel about you. Wait, sorry, was that a weird thing to say?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>
+			OKALIS: Not at all, friend! I’m quite flattered, to be honest, I can’t say I have had many people compliment my appearance before, especially people who can not truly see me. I look forward to seeing you around, Amylax, especially now that we are able to communicate!
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

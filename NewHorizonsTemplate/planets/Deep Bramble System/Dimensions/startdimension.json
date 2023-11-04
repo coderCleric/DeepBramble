@@ -75,7 +75,7 @@
         "type": "preCrashRecorder",
         "parentPath": "Sector/StartDimensionRecorderContainer",
         "isRelativeToParent": true,
-        "xmlFile": "planets/Deep Bramble System/Text/startdimensionrecorder.xml",
+        "xmlFile": "planets/Deep Bramble System/Text/start_dim/start_dimension_recorder.xml",
         "position": {
           "x": 0,
           "y": -0.2,

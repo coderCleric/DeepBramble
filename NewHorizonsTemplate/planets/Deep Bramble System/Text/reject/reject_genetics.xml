@@ -1,0 +1,72 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: Genetic testing has confirmed my previous suspicion; this node, unlike other nodes, is a distinctly different plant from the <![CDATA[<color=purple>Bramble</color>]]>. The only thing that remains unclear is how this could have occurred.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: Perhaps Karenia could shed light on its origin? She is the head druid of the Dree, so she may be capable of communicating with this node as well.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: I have tried to bring her here, but anytime she approaches this chamber she recoils and refuses to go nearer. On our first attempt I encouraged her to try and approach more and, after attempting to satisfy my request, she vomited, began spasming, and I was forced to drag her away.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AZOLLA: Goodness. Based on that, it seems to be of the utmost importance that we keep this plant <![CDATA[<i>]]>far away<![CDATA[</i>]]> from the Dree. Fortunately, the node seems to constantly be on the verge of starvation, so I highly doubt we will need to contend with any propagations from it.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: Could it simply be a random mutation? Perhaps even something with the strange propagation habits of the <![CDATA[<color=purple>Bramble</color>]]> needs to maintain the possibility of evolution.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			NESIA: That is possible, though this would be quite a strange mutation. We are yet to see any nodes with significant mutations, and all others at least have genetic code indicating them to be of the same plant.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			OKALIS: Perhaps this node did not originate from the <![CDATA[<color=purple>Bramble</color>]]> at all. Is it possible that a similar plant could have inserted a seed into this one?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>202</ID>
+		<ParentID>201</ParentID>
+		<Text>
+			NESIA: This is possible, but quite alarming. I struggle to imagine the sort of spatial anomalies that multiple plants like the <![CDATA[<color=purple>Bramble</color>]]> could cause.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

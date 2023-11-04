@@ -1,0 +1,64 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: I cannot help but feel unnerved by this place. Even given the nature of the <![CDATA[<color=purple>Bramble</color>]]>, I cannot help but feel this place is… unnatural.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: That may actually be fairly accurate. My analysis of that fluid seems to indicate it is a potent toxin, capable even of killing sections of the <![CDATA[<color=purple>Bramble</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: Based on our observations and the stories of the Dree, the nature of the <![CDATA[<color=purple>Bramble</color>]]> is not like other plants. Where other plants spread seeds to propagate offspring, our thorny friend spreads seeds to propagate <![CDATA[<i>]]>itself<![CDATA[</i>]]>. This node, however, seems to exist in direct contradiction to that.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: In short, this node is <![CDATA[<i>]]>another Bramble<![CDATA[</i>]]>. This is visible not just in its continued production of the toxin, but also in how the rest of the <![CDATA[<color=purple>Bramble</color>]]> is starving it. The implications of this are… unclear, but we should certainly study this plant.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: I also have that feeling, Okalis. Something here feels definitively different from other locations in this plant.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: Why would a node capable of producing such a toxin even develop?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>202</ID>
+		<ParentID>201</ParentID>
+		<Text>
+			NESIA: It may simply be a random mutation. Still, if such a mutation can create a node that is toxic to the rest of the plant, who knows what other mutations could exist.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

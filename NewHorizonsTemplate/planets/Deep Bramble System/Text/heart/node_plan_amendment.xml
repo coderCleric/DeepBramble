@@ -1,0 +1,36 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			KARENIA: Ditylum, I think you might want to wait to kill that dangerous node until later.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			DITYLUM: Why?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			KARENIA: I think it might be some sort of parasite on the <![CDATA[<color=purple>Bramble</color>]]>, although I can’t be sure. I think waiting to kill it until just before putting the project into motion may put us in the <![CDATA[<color=purple>Bramble</color>]]>’s good graces.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			DITYLUM: Okay, sounds like a plan. Once we’re ready to grow the node, I’ll go and kill the dangerous one, then come right back.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: Why do you suppose the Dree chose to go through the trouble of taming these fish? I can’t imagine that their domestication was something easily achieved.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: From what we have observed, the eggs of these very fish are the main source that the Dree have for nutrition. Perhaps this is what led them to tame the creatures?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: Perhaps, but I suspect that it had more to do with their proximity. The Dree do not seem to appreciate looming threats, and generally take measures to either move away or neutralize them.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: Do you suppose that this may also be why they refuse to spread? They are very localized, and their population is quite low, given how long they’ve been here.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			SENNETTI: It very well could be. They seem much more content to leave things as they are, rather than take risks in the name of more comfortable living conditions.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

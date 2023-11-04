@@ -1,0 +1,140 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: Hello. My name is Nesia. It’s my understanding that you are the head druid of the Dree. Is that correct?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			KARENIA: Yes, why do you ask?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: I was hoping you may be able to give some insight on the circumstances surrounding the rest of our clan. Is that within your capabilities?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			KARENIA: Maybe. I can commune with the <![CDATA[<color=purple>Bramble</color>]]> enough to figure out their fates within its walls, but I won’t be able to figure out what might’ve happened outside.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			NESIA: I believe that will be sufficient. Three pods were launched from the <![CDATA[<color=orange>Vessel</color>]]>.Can you ascertain what happened to them?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			KARENIA: Let me see… okay, I have the vines talking about your vessel and… yes! They’re saying that objects escaped! They actually seem a little confused, that doesn’t happen often.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			KARENIA: Wait… oh. Oh no. I’m so sorry, but it seems like one of the pods didn’t make it, I’m hearing talk of a captured object.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>8</ID>
+		<ParentID>7</ParentID>
+		<Text>
+			NESIA: No… Can you determine which pod it was? Who was aboard?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>9</ID>
+		<ParentID>8</ParentID>
+		<Text>
+			KARENIA: I’m sorry, but it’s all jumbled, I can’t tell anything specific without knowing something about the peop-
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>10</ID>
+		<ParentID>9</ParentID>
+		<Text>
+			NESIA: Secca. Please, please, I need to know if Secca is unharmed!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>11</ID>
+		<ParentID>10</ParentID>
+		<Text>
+			KARENIA: Hold on, I’ll ask.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>12</ID>
+		<ParentID>11</ParentID>
+		<Text>
+			…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>13</ID>
+		<ParentID>12</ParentID>
+		<Text>
+			KARENIA: I… I’m so sorry, but I’m hearing echoes of that name. The <![CDATA[<color=purple>Bramble</color>]]> only ever learns a name when it claims the person it belongs to. It seems that they were caught without air and asphyxiated.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>14</ID>
+		<ParentID>13</ParentID>
+		<Text>
+			NESIA: No. No, please, are you certain that she perished? There is no mistaking it?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>15</ID>
+		<ParentID>14</ParentID>
+		<Text>
+			KARENIA: I’m sorry, but the vines are very clear. Was she someone that you knew?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>16</ID>
+		<ParentID>15</ParentID>
+		<Text>
+			NESIA: She is… She was my love. I’m sorry, I. I can’t…
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>17</ID>
+		<ParentID>16</ParentID>
+		<Text>
+			KARENIA: Wait! Nesia! Where are you going?!
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>
