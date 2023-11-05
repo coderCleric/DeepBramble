@@ -456,6 +456,9 @@
       <None Update="planets\Deep Bramble System\Text\camp_planet\camp_discovery.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Deep Bramble System\Text\camp_planet\couple_names.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Deep Bramble System\Text\camp_planet\enclosed_space_hint.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

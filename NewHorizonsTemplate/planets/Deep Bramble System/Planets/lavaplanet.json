@@ -73,7 +73,7 @@
         "rename": "quantumTrickScroll",
         "seed": 85368,
         "type": "scroll",
-        "xmlFile": "planets/Deep Bramble System/Text/hot_planet/rock_blocking_obscured.xml",
+        "xmlFile": "planets/Deep Bramble System/Text/domestic/rock_blocking_full.xml",
         "position": {
           "x": -260.3688,
           "y": -8.4077,
@@ -91,7 +91,7 @@
         "isRelativeToParent": true,
         "seed": 85368,
         "type": "wall",
-        "xmlFile": "planets/Deep Bramble System/Text/domestic/rock_blocking_full.xml"
+        "xmlFile": "planets/Deep Bramble System/Text/hot_planet/rock_blocking_obscured.xml"
       }
     ]
   }

@@ -52,6 +52,595 @@
         },
         "alignRadial": true
       }
+    ],
+    "translatorText": [
+      {
+        "rename": "camp_discovery_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planet/camp_discovery.xml",
+        "type": "wall",
+        "seed": 18755,
+        "position": {
+          "x": -22.93731,
+          "y": 72.32407,
+          "z": -8.782606
+        },
+        "normal": {
+          "x": 0.8748431,
+          "y": 0.3214575,
+          "z": 0.3623734
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 354.6292
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.03754491,
+              "y": 0.5784464
+            },
+            "zRotation": 286.9255
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.7439625,
+              "y": 0.4319753
+            },
+            "zRotation": 313.7683
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.6708416,
+              "y": 1.450599
+            },
+            "zRotation": 343.371
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.711195,
+              "y": 1.693547
+            },
+            "zRotation": 285.1373
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.9144699,
+              "y": 1.193329
+            },
+            "zRotation": 16.52259
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.8199912,
+              "y": 2.216088
+            },
+            "zRotation": 54.65808
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -2.112926,
+              "y": 1.773989
+            },
+            "zRotation": 107.7921
+          }
+        ]
+      },
+      {
+        "rename": "first_stakeout_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planet/after_first_stakeout.xml",
+        "type": "wall",
+        "seed": 48654,
+        "position": {
+          "x": -22.7972,
+          "y": 72.3086,
+          "z": 9.107103
+        },
+        "normal": {
+          "x": 0.8748443,
+          "y": 0.3214579,
+          "z": -0.3623704
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 354.8651
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.005910356,
+              "y": 0.3008625
+            },
+            "zRotation": 275.131
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.09273,
+              "y": -0.224931
+            },
+            "zRotation": 291.2115
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.576662,
+              "y": -0.1117587
+            },
+            "zRotation": 2.330252
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.816598,
+              "y": 0.6342213
+            },
+            "zRotation": 3.444877
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.820813,
+              "y": 1.093769
+            },
+            "zRotation": 357.4355
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.520317,
+              "y": 1.774852
+            },
+            "zRotation": 347.364
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.04591019,
+              "y": 0.5615042
+            },
+            "zRotation": 287.5013
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.2818768,
+              "y": 1.946443
+            },
+            "zRotation": 26.33446
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.059822,
+              "y": 1.122967
+            },
+            "zRotation": 87.40429
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.899968,
+              "y": 1.600525
+            },
+            "zRotation": 45.26078
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -3.162294,
+              "y": 1.38145
+            },
+            "zRotation": 132.0076
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -2.851881,
+              "y": 0.2688026
+            },
+            "zRotation": 244.6225
+          }
+        ]
+      },
+      {
+        "rename": "second_stakeout_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planet/after_second_stakeout.xml",
+        "type": "wall",
+        "seed": 34839,
+        "position": {
+          "x": -9.566339,
+          "y": 72.20798,
+          "z": 22.57
+        },
+        "normal": {
+          "x": 0.3623722,
+          "y": 0.3214573,
+          "z": -0.8748437
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 359.8264
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.03993003,
+              "y": 0.3738433
+            },
+            "zRotation": 74.55956
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.9471598,
+              "y": 0.09236956
+            },
+            "zRotation": 60.78309
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.451039,
+              "y": 0.2739224
+            },
+            "zRotation": 352.925
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -2.128061,
+              "y": 1.498002
+            },
+            "zRotation": 281.7699
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.272215,
+              "y": 2.560931
+            },
+            "zRotation": 300.8318
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.600653,
+              "y": 1.117917
+            },
+            "zRotation": 302.0351
+          }
+        ]
+      },
+      {
+        "rename": "stalking_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planet/stalking.xml",
+        "type": "wall",
+        "seed": 39546,
+        "position": {
+          "x": 8.857577,
+          "y": 72.02341,
+          "z": 22.79575
+        },
+        "normal": {
+          "x": -0.3623723,
+          "y": 0.3214572,
+          "z": -0.8748438
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 358.1103
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.7848817,
+              "y": 1.022764
+            },
+            "zRotation": 3.050646
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.227708,
+              "y": 1.701024
+            },
+            "zRotation": 342.285
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.088943,
+              "y": 2.033674
+            },
+            "zRotation": 59.60029
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.01312079,
+              "y": 0.2865079
+            },
+            "zRotation": 279.6484
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.2450092,
+              "y": 0.7797836
+            },
+            "zRotation": 312.0826
+          }
+        ]
+      },
+      {
+        "rename": "space_hint_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planet/enclosed_space_hint.xml",
+        "type": "wall",
+        "seed": 40198,
+        "position": {
+          "x": 23.01355,
+          "y": 72.0593,
+          "z": 8.363647
+        },
+        "normal": {
+          "x": -0.8748431,
+          "y": 0.3214573,
+          "z": -0.3623737
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 357.3936
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.07136067,
+              "y": 0.367743
+            },
+            "zRotation": 65.80451
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.8512251,
+              "y": -0.1060797
+            },
+            "zRotation": 99.89444
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.384463,
+              "y": 0.8468645
+            },
+            "zRotation": 331.7881
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.09727859,
+              "y": 1.218018
+            },
+            "zRotation": 320.248
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.375223,
+              "y": 1.142072
+            },
+            "zRotation": 280.9606
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.766944,
+              "y": 0.7898659
+            },
+            "zRotation": 33.3132
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.572429,
+              "y": 1.742486
+            },
+            "zRotation": 353.8994
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.452305,
+              "y": 2.140368
+            },
+            "zRotation": 34.02786
+          },
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": 0.3815331,
+              "y": 1.501183
+            },
+            "zRotation": 14.28961
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.2889504,
+              "y": 2.005356
+            },
+            "zRotation": 336.1198
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.458521,
+              "y": 2.013641
+            },
+            "zRotation": 215.5809
+          }
+        ]
+      },
+      {
+        "rename": "soil_lab_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planet/soil_lab.xml",
+        "type": "wall",
+        "seed": 12343,
+        "position": {
+          "x": -100.2216,
+          "y": 2.602323,
+          "z": 1.621264
+        },
+        "normal": {
+          "x": 0.001228509,
+          "y": -0.003975765,
+          "z": -0.9999914
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 16
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.324882,
+              "y": 0.2958758
+            },
+            "zRotation": 90.82579
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.579816,
+              "y": 1.215986
+            },
+            "zRotation": 337.6911
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.3847205,
+              "y": 1.27832
+            },
+            "zRotation": 291.5465
+          }
+        ]
+      },
+      {
+        "rename": "date_recording",
+        "alignRadial": false,
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planet/treehouse_recording.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": -2.6617,
+          "y": -104.9325,
+          "z": -2.8388
+        },
+        "rotation": {
+          "x": 0,
+          "y": 54.891,
+          "z": 180
+        }
+      },
+      {
+        "rename": "date_signatures",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planet/couple_names.xml",
+        "seed": 74982,
+        "type": "wall",
+        "position": {
+          "x": 0.009644389,
+          "y": -105.7055,
+          "z": 3.600001
+        },
+        "normal": {
+          "x": 0,
+          "y": 0,
+          "z": -1
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.6636362,
+              "y": 0
+            },
+            "zRotation": 0.7089291
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 0,
+              "y": 1.603635
+            },
+            "zRotation": 182.6543
+          }
+        ]
+      }
     ]
   }
 }
