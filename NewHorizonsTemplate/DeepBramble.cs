@@ -542,7 +542,8 @@ namespace DeepBramble
                 //Vector3 point = new Vector3(-24.7f, 10043.4f, -244.6f); //Lava planet start
                 //Vector3 point = new Vector3(-257.3f, 9950.4f, 39.4f); //Quantum cave
                 //Vector3 point = new Vector3(85.7f, -3.3f, -9960.4f); //Poison planet
-                Vector3 point = new Vector3(349.8f, -322.1f, 31738.1f); //Dilation node
+                //Vector3 point = new Vector3(349.8f, -322.1f, 31738.1f); //Dilation node
+                Vector3 point = new Vector3(1296.0f, -235.1f, 30832.0f); //Campsite
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {

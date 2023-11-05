@@ -447,24 +447,6 @@
       <None Update="planets\Deep Bramble System\Text\bigplanetoidhint.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\Deep Bramble System\Text\camp_planetoid\discoverytext.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\camp_planetoid\firststakeout.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\camp_planetoid\secondstakeout.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\camp_planetoid\soillabtext.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\camp_planetoid\stalkingtext.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Text\camp_planetoid\wallhideaway.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
       <None Update="planets\Deep Bramble System\Text\camp_planet\after_first_stakeout.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

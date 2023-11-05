@@ -861,5 +861,16 @@ namespace DeepBramble
         {
             DeepBramble.debugPrint("Object " + bodyToVanish.gameObject.name + " was vanished by " + __instance.gameObject.name);
         }
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(Renderer), nameof(Renderer.enabled), MethodType.Setter)]
+        public static void PrintRenderSet(Renderer __instance, bool __0)
+        {
+            if(__instance.name.Contains("Child of -1") && !__0)
+            {
+                DeepBramble.debugPrint(__instance.transform.parent.name);
+                DeepBramble.debugPrint(new System.Diagnostics.StackTrace().ToString());
+            }
+        }
     }
 }
