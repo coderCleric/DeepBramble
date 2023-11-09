@@ -390,6 +390,9 @@
       <None Update="planets\Deep Bramble System\Planets\Planetoid Cluster\asteroid3.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Deep Bramble System\Planets\Planetoid Cluster\asteroid3.nhcache">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Deep Bramble System\Planets\Planetoid Cluster\treerock.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

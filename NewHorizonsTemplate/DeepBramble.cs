@@ -543,7 +543,8 @@ namespace DeepBramble
                 //Vector3 point = new Vector3(-257.3f, 9950.4f, 39.4f); //Quantum cave
                 //Vector3 point = new Vector3(85.7f, -3.3f, -9960.4f); //Poison planet
                 //Vector3 point = new Vector3(349.8f, -322.1f, 31738.1f); //Dilation node
-                Vector3 point = new Vector3(1296.0f, -235.1f, 30832.0f); //Campsite
+                //Vector3 point = new Vector3(1296.0f, -235.1f, 30832.0f); //Campsite
+                Vector3 point = new Vector3(-10031.3f, 10.4f, -10035.9f); //Domestic dimension
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
@@ -559,7 +560,7 @@ namespace DeepBramble
                 FogWarpDetector shipDetector = Locator.GetShipDetector().GetComponent<FogWarpDetector>();
                 if (shipDetector.GetOuterFogWarpVolume() != null) {
                     Patches.fogRepositionHandled = true;
-                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("LargeDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
+                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("DomesticDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
                 }
 
                 Locator._shipBody.SetPosition(point);

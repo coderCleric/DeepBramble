@@ -41,6 +41,216 @@
         },
         "alignRadial": false
       }
+    ],
+    "translatorText": [
+      {
+        "rename": "camp_hint_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/cluster/camp_hint.xml",
+        "type": "wall",
+        "seed": 84353,
+        "position": {
+          "x": -30.10012,
+          "y": -18.57648,
+          "z": -21.29238
+        },
+        "normal": {
+          "x": -0.6187089,
+          "y": 0.4585688,
+          "z": 0.6378982
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 359.128
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.02605814,
+              "y": 0.3713623
+            },
+            "zRotation": 343.5985
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.8332087,
+              "y": 1.176207
+            },
+            "zRotation": 359.3736
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.8828651,
+              "y": 1.571954
+            },
+            "zRotation": 7.557955
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.3799918,
+              "y": 2.316087
+            },
+            "zRotation": 35.72033
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.481384,
+              "y": 2.026445
+            },
+            "zRotation": 139.5685
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.083906,
+              "y": 0.8511605
+            },
+            "zRotation": 45.98117
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.3424204,
+              "y": 0.841306
+            },
+            "zRotation": 322.1544
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 2.016251,
+              "y": 1.887067
+            },
+            "zRotation": 237.8192
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.967683,
+              "y": 0.6755935
+            },
+            "zRotation": 186.9966
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.39483,
+              "y": 2.208002
+            },
+            "zRotation": 329.6274
+          }
+        ]
+      },
+      {
+        "rename": "sad_note_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/cluster/planetoid_sad_note.xml",
+        "type": "wall",
+        "seed": 95562,
+        "position": {
+          "x": -38.58183,
+          "y": -20.17878,
+          "z": -22.55918
+        },
+        "normal": {
+          "x": -0.05716211,
+          "y": 0.7835383,
+          "z": -0.6187085
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 14.09089
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.5423571,
+              "y": 0.7525647
+            },
+            "zRotation": 346.3774
+          }
+        ]
+      },
+      {
+        "rename": "tree_base_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/cluster/tree_base_recording.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": -27.0524,
+          "y": -14.5078,
+          "z": 37.2127
+        },
+        "rotation": {
+          "x": 271.6544,
+          "y": 330.2803,
+          "z": 178.4839
+        }
+      },
+      {
+        "rename": "tree_shrine_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/cluster/tree_shrine.xml",
+        "type": "wall",
+        "seed": 49164,
+        "position": {
+          "x": -28.11948,
+          "y": -4.904049,
+          "z": 36.32241
+        },
+        "normal": {
+          "x": -0.2238249,
+          "y": 0.9741912,
+          "z": 0.02922463
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 355
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.075119,
+              "y": 0.889105
+            },
+            "zRotation": 349.3688
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.4169799,
+              "y": 0.8127322
+            },
+            "zRotation": 11.15637
+          }
+        ]
+      }
     ]
   },
   "Volumes": {

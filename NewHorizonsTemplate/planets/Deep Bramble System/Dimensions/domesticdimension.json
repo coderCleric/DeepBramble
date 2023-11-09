@@ -42,6 +42,329 @@
           "z": 0
         }
       }
+    ],
+    "translatorText": [
+      {
+        "rename": "egg_lore_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/domestic/eggs_lore.xml",
+        "type": "wall",
+        "seed": 81274,
+        "position": {
+          "x": -10.39677,
+          "y": -9.814999,
+          "z": 4.59172
+        },
+        "normal": {
+          "x": 0.6545107,
+          "y": 0.6948831,
+          "z": -0.2979149
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 356.2706
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.1978814,
+              "y": 0.6359522
+            },
+            "zRotation": 314.6171
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.1026545,
+              "y": 0.8801742
+            },
+            "zRotation": 30.37712
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.1320945,
+              "y": 1.21291
+            },
+            "zRotation": 351.1212
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.1399902,
+              "y": 1.732487
+            },
+            "zRotation": 29.88741
+          }
+        ]
+      },
+      {
+        "rename": "tooth_hint_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/domestic/tooth_hint.xml",
+        "type": "wall",
+        "seed": 12309,
+        "position": {
+          "x": 5.762865,
+          "y": 0.4529219,
+          "z": 13.85
+        },
+        "normal": {
+          "x": -0.4142753,
+          "y": 0,
+          "z": -0.9101517
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 357.5366
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.9035185,
+              "y": 0.7508827
+            },
+            "zRotation": 4.472728
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.025926,
+              "y": 1.235335
+            },
+            "zRotation": 7.621824
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.9490514,
+              "y": 1.917188
+            },
+            "zRotation": 24.9699
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.2706512,
+              "y": 0.7306896
+            },
+            "zRotation": 260.5723
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.443749,
+              "y": 0.7919694
+            },
+            "zRotation": 292.7162
+          }
+        ]
+      },
+      {
+        "rename": "sedentary_lore_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/domestic/sedentary_fish_lore.xml",
+        "type": "wall",
+        "seed": 75938,
+        "position": {
+          "x": 9.390221,
+          "y": 10.89607,
+          "z": -4.281495
+        },
+        "normal": {
+          "x": -0.6545107,
+          "y": -0.6948832,
+          "z": 0.2979145
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 352.4177
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.09926348,
+              "y": 0.6583308
+            },
+            "zRotation": 344.9044
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.7164338,
+              "y": 1.066669
+            },
+            "zRotation": 17.24194
+          }
+        ]
+      },
+      {
+        "rename": "kevin_use_text",
+        "alignRadial": false,
+        "xmlFile": "planets/Deep Bramble System/Text/domestic/kevin_use.xml",
+        "type": "wall",
+        "seed": 74512,
+        "parentPath": "Sector/observation_lab/fish/domestic_fish/enzyme_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 9.75,
+          "y": 0.8171,
+          "z": 2.0672
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 40
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.07711443,
+              "y": 1.276199
+            },
+            "zRotation": 41.35101
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.3750685,
+              "y": 1.528425
+            },
+            "zRotation": 333.0354
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.7832108,
+              "y": 2.021136
+            },
+            "zRotation": 284.7222
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 2.007546,
+              "y": 1.184559
+            },
+            "zRotation": 222.9505
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.242057,
+              "y": 1.050746
+            },
+            "zRotation": 103.8652
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.646129,
+              "y": 1.042399
+            },
+            "zRotation": 164.5093
+          }
+        ]
+      },
+      {
+        "rename": "stomach_lore_text",
+        "alignRadial": false,
+        "xmlFile": "planets/Deep Bramble System/Text/domestic/stomach_lore.xml",
+        "type": "wall",
+        "seed": 19090,
+        "parentPath": "Sector/observation_lab/fish/domestic_fish/enzyme_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": -9.75,
+          "y": 0.6398,
+          "z": 1.8492
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 358.4078
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.2059227,
+              "y": 0.7029429
+            },
+            "zRotation": 51.58471
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.2793774,
+              "y": 0.8959738
+            },
+            "zRotation": 0.0618515
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.2508399,
+              "y": 1.956112
+            },
+            "zRotation": 25.97447
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.8630605,
+              "y": 1.882628
+            },
+            "zRotation": 104.9887
+          }
+        ]
+      }
     ]
   }
 }

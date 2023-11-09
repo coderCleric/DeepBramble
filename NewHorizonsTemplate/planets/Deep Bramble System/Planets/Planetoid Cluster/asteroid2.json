@@ -34,6 +34,71 @@
         },
         "alignRadial": false
       }
+    ],
+    "translatorText": [
+      {
+        "rename": "hole_overlook_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/cluster/hole_overlook.xml",
+        "type": "wall",
+        "seed": 85408,
+        "position": {
+          "x": 18.82664,
+          "y": 2.072419,
+          "z": 13.10669
+        },
+        "normal": {
+          "x": -0.4444591,
+          "y": -0.529102,
+          "z": 0.7228466
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 0.9021949
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.5353579,
+              "y": 0.886798
+            },
+            "zRotation": 16.75215
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.3872666,
+              "y": 1.219014
+            },
+            "zRotation": 305.4811
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.5839904,
+              "y": 1.360103
+            },
+            "zRotation": 50.90044
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.745059,
+              "y": 0.9562964
+            },
+            "zRotation": 167.5408
+          }
+        ]
+      }
     ]
   }
 }
