@@ -1,0 +1,56 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			AZOLLA: Forgive me if the answer is obvious, but what is preventing Ditylum from simply crossing back through the nursery? I cannot imagine his swimming would generate enough noise to alert the fish.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: While this would ordinarily be true, the fish in the nursery are young enough to hear the high-pitched tones the Dree use for echolocation.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: Perhaps he could cross the nursery anyways? It seems that it would be possible if he simply didn’t use his echolocation.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: Even if he were to attempt that, the viscosity of the fog would require him to constantly swim forward. When combined with an inability to observe his surroundings, an accidental, noisy collision becomes all but assured.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: I see. So as soon as he attempted to get his bearings, they would be alerted and attack.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			SENNETTI: Consider the fear that would come for us from navigating the nursery blind. Under those circumstances, I know that I may not be able to keep my eyes closed. We cannot expect Ditylum wouldn’t attempt to echolocate, even if involuntarily.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

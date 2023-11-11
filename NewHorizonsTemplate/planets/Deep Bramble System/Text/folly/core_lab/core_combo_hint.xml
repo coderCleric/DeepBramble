@@ -1,0 +1,36 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: I have not yet had the chance to visit the gravity core at the center of the crystal. Would somebody be willing to remind me what sequence of levers need to be turned on to reach the center?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			OKALIS: Of course! If I remember correctly, all of the levers should be on, except for the second and the second-to-last.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: Thank you Okalis! May I ask why you wrote that in their language though? I find it unlikely any of our new friends will visit this planet. It is my understanding the inverted gravity makes them quite uncomfortable.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			OKALIS: Of course! I am attempting to gain practice with their language, as I am preparing to make a more proper response to the gift Amylax left in my home.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

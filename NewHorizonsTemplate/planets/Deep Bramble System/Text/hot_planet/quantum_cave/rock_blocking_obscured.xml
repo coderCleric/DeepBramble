@@ -1,0 +1,70 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: How do you suppose this rock achieves its behavior? It appears to move exclusively when it is unobserved.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: Perhaps it is some form of macroscopic quantum behavior? It may exist in all locations at the same time, but collapses to a single possibility once observed by a conscious being.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: An interesting idea! This may indeed be the case, I can think of no other explanation for how it may relocate itself so dramatically.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			AZOLLA: While this is an interesting find, it is a shame that it does not seem to be useful to our current goals. I had hoped that this would help us locate the <![CDATA[<color=orange>Eye of the Universe</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When <![CDATA[<color=red>TEXT OBSCURED</color>]]> it seems that <![CDATA[<color=red>TEXT OBSCURED</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>6</ID>
+		<ParentID>5</ParentID>
+		<Text>
+			AZOLLA: Even more interesting, but I still fail to understand how this would aid us in reaching the <![CDATA[<color=orange>Eye</color>]]>.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>7</ID>
+		<ParentID>6</ParentID>
+		<Text>
+			NESIA: I am still putting together the details (in particular, I want to bring Karenia to observe this phenomenon), but I believe that this may be useful to a proposal of mine that I am calling the <![CDATA[<color=orange>Distant Node Project</color>]]>. I encourage you all to join me here sometime when I have more of the details worked out. I will be able to explain the idea in full then.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: If this is the case, it may hint at the nature of the <![CDATA[<color=orange>Eye</color>]]> as well. This rock seems to emanate a signal similar to the one reverberating through this area.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

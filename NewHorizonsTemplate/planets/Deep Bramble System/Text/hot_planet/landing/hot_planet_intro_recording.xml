@@ -1,0 +1,36 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			AZOLLA: Is everybody alright?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: Yes, I believe so. I have taken the liberty of deploying portable life support, so this crater should remain cool and oxygen-rich, at least relatively speaking.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: Excellent. We should begin exploring once we have our bearings. Our top priority should be finding somewhere with shelter from this heat. Our equipment will not survive long enough to analyze the signal in this environment.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			OKALIS: I believe it is possible to hear the signal without equipment, which would suggest reception will not be an issue.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

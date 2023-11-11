@@ -1,0 +1,44 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: I believe this cave should prove to be an adequate location for any equipment we might use to study the signal of the <![CDATA[<color=orange>Eye</color>]]>. In particular, the upper chamber across the ceiling looks well insulated. With some environmental regulation, the overheating of our equipment should be a non-issue.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: A good find, Nesia, but how do you propose we get up there? The gas in this cave prohibits the use of our thrusters.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: I believe gravity crystals constructed from the material of <![CDATA[<color=orange>Graviton’s Folly</color>]]> should be useful. We could make specialized mounts to place the crystals in, amplifying their effect to the level we would need.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			SENNETTI: In my experience, the collection and application of that material will be time-consuming, and there may be other portions of the ceiling that are worth exploring. I propose these mounts should allow for the removal and replacement of these crystals. Then we may explore more while additional crystals are fabricated.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			AZOLLA: Good idea, both of you. A series of removable gravity crystals would allow us to explore the full area while resources are relatively low. We should begin construction of this system immediately.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

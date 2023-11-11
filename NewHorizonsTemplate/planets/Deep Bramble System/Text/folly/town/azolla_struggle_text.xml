@@ -1,0 +1,46 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			AZOLLA: Escall, I’m sorry, but I feel my leadership fails to reach the standard of your memory.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: Regardless of what I attempt, I am unable to maintain morale among our small crew, and this depressive miasma seems to be claiming me as well.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: I am trying to utilize the leadership skills you gifted me, but they are proving ineffective. I can only hope I make a breakthrough soon.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: I am clueless as to how to locate an escape that the Dree have been unable to find for thousands of years.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			AZOLLA: I am clueless as to how to motivate them in the face of such insurmountable odds.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

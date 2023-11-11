@@ -18,7 +18,12 @@
   },
   "AmbientLights": [
     {
-      "intensity": 2
+      "intensity": 2,
+      "tint": {
+        "r": 21,
+        "g": 8,
+        "b": 47
+      }
     }
   ],
   "Orbit": {
@@ -40,6 +45,534 @@
           "x": 0,
           "y": 0,
           "z": 0
+        }
+      }
+    ],
+    "translatorText": [
+      {
+        "rename": "quarry_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/quarry/large_entrance_hint.xml",
+        "parentPath": "Sector/hollowplanet/ground_building_2",
+        "isRelativeToParent": true,
+        "type": "wall",
+        "seed": 45298,
+        "position": {
+          "x": 3.75,
+          "y": 0.2167185,
+          "z": -1.117782
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 1.010411
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.4945362,
+              "y": 0.9210181
+            },
+            "zRotation": 333.6723
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.234894,
+              "y": 1.497833
+            },
+            "zRotation": 324.0684
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.965246,
+              "y": 1.949424
+            },
+            "zRotation": 22.5818
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.7371159,
+              "y": 2.403193
+            },
+            "zRotation": 52.37689
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.2364983,
+              "y": 1.986687
+            },
+            "zRotation": 107.3564
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.4136274,
+              "y": 2.579294
+            },
+            "zRotation": 8.154974
+          }
+        ]
+      },
+      {
+        "rename": "core_lab_intro_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/core_lab_intro.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": -38.80286,
+          "y": -104.1581,
+          "z": 32.069
+        },
+        "rotation": {
+          "x": 333.0352,
+          "y": 315.147,
+          "z": 358.5802
+        }
+      },
+      {
+        "rename": "combo_hint_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/core_combo_hint.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
+        "isRelativeToParent": true,
+        "seed": 67834,
+        "position": {
+          "x": 5.749996,
+          "y": 0.60411,
+          "z": -0.5851279
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 6.618194
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": -1.967114,
+              "y": 2.550339
+            },
+            "zRotation": 202.6271
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.551492,
+              "y": 1.711831
+            },
+            "zRotation": 333.2242
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 1.629709,
+              "y": 1.487103
+            },
+            "zRotation": 71.27766
+          }
+        ]
+      },
+      {
+        "rename": "bad_idea_1_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/bad_idea_1.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
+        "isRelativeToParent": true,
+        "seed": 37196,
+        "position": {
+          "x": -5.75001,
+          "y": 0.3852875,
+          "z": 2.417135
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 357.0964
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.8046269,
+              "y": 1.031042
+            },
+            "zRotation": 2.991332
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.3676139,
+              "y": 1.636842
+            },
+            "zRotation": 76.54424
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.082708,
+              "y": 0.7399082
+            },
+            "zRotation": 156.2619
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.5221435,
+              "y": 1.747691
+            },
+            "zRotation": 316.7819
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.7441558,
+              "y": 1.670158
+            },
+            "zRotation": 8.201752
+          }
+        ]
+      },
+      {
+        "rename": "bad_idea_2_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/bad_idea_2.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
+        "isRelativeToParent": true,
+        "seed": 94518,
+        "position": {
+          "x": -5.749985,
+          "y": 3.648299,
+          "z": -0.9090406
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.9636357,
+              "y": 0
+            },
+            "zRotation": 356.5273
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.3744242,
+              "y": 1.033638
+            },
+            "zRotation": 354.2854
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.4840399,
+              "y": 2.043849
+            },
+            "zRotation": 337.3931
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.08038949,
+              "y": 1.937214
+            },
+            "zRotation": 20.31685
+          }
+        ]
+      },
+      {
+        "rename": "good_idea_hint_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/good_idea_hint.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
+        "isRelativeToParent": true,
+        "seed": 85097,
+        "position": {
+          "x": -5.7482,
+          "y": 9.2553,
+          "z": 0.24911
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 4.672588
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.797989,
+              "y": 0.7035364
+            },
+            "zRotation": 27.52622
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.911234,
+              "y": 1.370377
+            },
+            "zRotation": 13.90256
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -2.335661,
+              "y": 2.005231
+            },
+            "zRotation": 343.6874
+          }
+        ]
+      },
+      {
+        "rename": "trapped_dree_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/trapped_dree.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
+        "isRelativeToParent": true,
+        "seed": 12985,
+        "position": {
+          "x": -1.538337,
+          "y": 0.2635084,
+          "z": 5.750004
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.5,
+              "y": 0
+            },
+            "zRotation": 0
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.2299,
+              "y": 0.6717
+            },
+            "zRotation": 40.20362
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.4863,
+              "y": 0.9863
+            },
+            "zRotation": 18.31277
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.7099,
+              "y": 1.379
+            },
+            "zRotation": 326.0762
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.7808,
+              "y": 1.9281
+            },
+            "zRotation": 320.4762
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.4356997,
+              "y": 2.245
+            },
+            "zRotation": 275.6341
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -2.1676,
+              "y": 1.5227
+            },
+            "zRotation": 14.00916
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.9847,
+              "y": 1.9374
+            },
+            "zRotation": 15.39056
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.2517,
+              "y": 2.4154
+            },
+            "zRotation": 348.6945
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.2647697,
+              "y": 2.337772
+            },
+            "zRotation": 354.4704
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.567596,
+              "y": 3.086703
+            },
+            "zRotation": 263.0861
+          }
+        ]
+      },
+      {
+        "rename": "core_study_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/core_study.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
+        "isRelativeToParent": true,
+        "seed": 29756,
+        "position": {
+          "x": 0.2268172,
+          "y": 0.5220869,
+          "z": -5.750009
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 1
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.4306189,
+              "y": 0.7515434
+            },
+            "zRotation": 337.2325
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.8336442,
+              "y": 1.839837
+            },
+            "zRotation": 43.37798
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -2.306604,
+              "y": 1.85092
+            },
+            "zRotation": 105.8544
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -2.544453,
+              "y": 1.751474
+            },
+            "zRotation": 57.35813
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.791235,
+              "y": 2.235698
+            },
+            "zRotation": 340.5977
+          }
+        ]
+      },
+      {
+        "rename": "core_scanner_computer",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/core_scanner_intact.xml",
+        "type": "preCrashComputer",
+        "position": {
+          "x": -23.55485,
+          "y": -93.08205,
+          "z": 25.99493
+        },
+        "rotation": {
+          "x": 9.071843,
+          "y": 201.573,
+          "z": 20.31575
         }
       }
     ]

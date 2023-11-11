@@ -153,6 +153,21 @@
         ]
       },
       {
+        "rename": "HeatWarningRecorderContainer",
+        "hasPhysics": true,
+        "physicsRadius": 0,
+        "position": {
+          "x": -19.5,
+          "y": 10.9,
+          "z": -45.2
+        },
+        "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
+        "removeChildren": [
+          "PointLight_NOM_Lamp",
+          "Props_NOM_Lamp_EscapePodFlare"
+        ]
+      },
+      {
         "rename": "AcceptanceWall",
         "parentPath": "Sector/amylax_house",
         "isRelativeToParent": true,
@@ -197,6 +212,107 @@
           "y": 0,
           "z": 0
         }
+      },
+      {
+        "rename": "HeatWarningRecorder",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/HeatWarningRecorderContainer",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/heat_warning.xml",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "rename": "karenia_nameplate",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/karenianametag.xml",
+        "type": "wall",
+        "seed": 49164,
+        "position": {
+          "x": 97.20509,
+          "y": -201.9466,
+          "z": -537.9897
+        },
+        "normal": {
+          "x": -0.3454304,
+          "y": 0.5197192,
+          "z": 0.7813898
+        },
+        "arcInfo": [
+          {
+            "type": "stranger",
+            "zRotation": 39.1638
+          }
+        ]
+      },
+      {
+        "rename": "amylax_nameplate",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/amylaxnametag.xml",
+        "type": "wall",
+        "seed": 49164,
+        "position": {
+          "x": 389.6519,
+          "y": 301.1436,
+          "z": -318.2742
+        },
+        "normal": {
+          "x": -0.5859225,
+          "y": -0.7801077,
+          "z": -0.2193783
+        },
+        "arcInfo": [
+          {
+            "type": "stranger",
+            "zRotation": 317.8356
+          }
+        ]
+      },
+      {
+        "rename": "okalis_acceptance_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/okalis_acceptance.xml",
+        "type": "wall",
+        "seed": 49164,
+        "position": {
+          "x": 395.9577,
+          "y": 309.2112,
+          "z": -317.2797
+        },
+        "normal": {
+          "x": -0.9445984,
+          "y": -0.1889756,
+          "z": 0.2683696
+        },
+        "arcInfo": [
+          {
+            "type": "stranger",
+            "position": {
+              "x": 1.198181,
+              "y": 0.5818182
+            },
+            "zRotation": 24.76364
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 0.0346207,
+              "y": 0.05963951
+            },
+            "zRotation": 23.20113
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": -1.443553,
+              "y": -0.6561015
+            },
+            "zRotation": 22.86201
+          }
+        ]
       }
     ]
   },

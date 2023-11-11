@@ -1,0 +1,38 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: From what I understand, the smaller size of the juvenile fish renders them slower than the adults. Would we be able to simply rush past them?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: Unfortunately, the thick fog in that area would hinder our movement to the point they would be able to catch us, especially since they use the fog itself to propel their movement.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: Even if that were not the case, disturbing them on the way there would likely position them into an impassable barrier, stranding us as well.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: I imagine this effect would also be worsened on the return trip, as we would need to bring Ditylum back with us.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

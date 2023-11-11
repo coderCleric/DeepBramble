@@ -42,6 +42,76 @@
           "z": 0
         }
       }
+    ],
+    "translatorText": [
+      {
+        "rename": "park_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/park_recording.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": -10.57302,
+          "y": -28.26798,
+          "z": -150.2063
+        },
+        "rotation": {
+          "x": 297.6281,
+          "y": 129.4839,
+          "z": 233.0719
+        }
+      },
+      {
+        "rename": "concert_hall_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/concert_hall_recording.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": -103.4834,
+          "y": 97.49371,
+          "z": 25.13068
+        },
+        "rotation": {
+          "x": 309.196,
+          "y": 120.8973,
+          "z": 350.8019
+        }
+      },
+      {
+        "rename": "concert_hall_sign",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/concerthallsign.xml",
+        "type": "wall",
+        "seed": 49164,
+        "position": {
+          "x": -98.32104,
+          "y": 41.06886,
+          "z": 27.21394
+        },
+        "normal": {
+          "x": -0.07297857,
+          "y": 0.8399116,
+          "z": -0.5377941
+        },
+        "arcInfo": [
+          {
+            "type": "stranger",
+            "zRotation": 349.0728
+          }
+        ]
+      },
+      {
+        "rename": "story_area_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/dree_planet/helmet_off_recording.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": -12.10765,
+          "y": -64.28088,
+          "z": 122.1672
+        },
+        "rotation": {
+          "x": 330.5032,
+          "y": 281.4478,
+          "z": 236.9056
+        }
+      }
     ]
   }
 }

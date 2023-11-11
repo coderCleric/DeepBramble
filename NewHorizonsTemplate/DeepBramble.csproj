@@ -42,6 +42,11 @@
         <Content Include="DeepBramble.csproj.user" />
     </ItemGroup>
     <ItemGroup>
+      <Compile Update="MiscBehaviours\GravCore.cs">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </Compile>
+    </ItemGroup>
+    <ItemGroup>
       <None Update="assetbundles\angler_skeleton">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
@@ -519,7 +524,7 @@
       <None Update="planets\Deep Bramble System\Text\dree_planet\concert_hall_recording.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\Deep Bramble System\Text\dree_planet\dilation_warning_recording.xml">
+      <None Update="planets\Deep Bramble System\Text\large_dim\dilation_warning_recording.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Text\dree_planet\heat_warning.xml">

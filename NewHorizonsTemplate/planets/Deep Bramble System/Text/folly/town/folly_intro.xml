@@ -1,0 +1,46 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: This planet appears to be the source of the gravitational anomaly. The signal has been detected in every direction since we entered and, well, there is also the obviously abnormal behavior of the planet.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: I am thankful that you noticed this place, it will be an excellent environment to set up a more permanent settlement. In particular, that giant crystal extending from the inner surface should provide remarkably flat ground for construction.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			NESIA: Remember, our ultimate goal is to escape from here, not to establish permanent residence.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: It may be worthwhile to investigate whether or not this gravitational anomaly may be utilized elsewhere. Suppose it is inherent to the crystal composing the ground?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			NESIA: Hypothesis: If this property is inherent to the material, it may allow us to create constructions in zero gravity environments.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

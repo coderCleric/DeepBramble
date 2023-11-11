@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: Azolla and I made a notable discovery when we ventured into the crystal suspended above our heads. It seems to contain a small, delicate core that emanates a strange energy.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: Interesting, do you have a hypothesis as to what this core may be?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: We aren’t certain yet, but we’ve noted that the energy emitted by the core is similar to that which comes from the internal surface of the planet.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			OKALIS: Interesting, suppose that this core is what allows the strong gravitational anomaly of this planet?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			AZOLLA: That is our current hypothesis. Unfortunately, we will be unable to test this hypothesis, as that would likely involve damaging the delicate crystalline structure of the core. Doing this may prove our hypothesis correct, but it would also be likely to irreversibly destabilize the gravity of the planet.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: More specifically, the core’s energy seems able to combine with the surface energy in a way that enhances it.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

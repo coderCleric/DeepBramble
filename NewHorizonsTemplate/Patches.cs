@@ -98,6 +98,29 @@ namespace DeepBramble
             }
         }
 
+        /**
+         * Prevent the player from reading text if they're not grounded
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(NomaiWallText), nameof(NomaiWallText.CheckAllowFocus))]
+        public static bool AirReadCancel(ref bool __result)
+        {
+            //Don't alter behaviour out of mod
+            if (!ForgottenLocator.inBrambleSystem)
+                return true;
+
+            //If player is ungrounded and isn't floating, no reading for them
+            PlayerCharacterController charController = Locator.GetPlayerBody().GetComponent<PlayerCharacterController>();
+            if(!charController.IsGrounded() && charController._isAlignedToForce)
+            {
+                __result = false;
+                return false;
+            }
+
+            //By default, run normal stuff
+            return true;
+        }
+
         //################################# Slate & Respawning #################################
         /**
          * Slate needs dialogue conditions set up properly at the start of the loop
@@ -860,17 +883,6 @@ namespace DeepBramble
         public static void PrintVanishedThing(DestructionVolume __instance, OWRigidbody bodyToVanish)
         {
             DeepBramble.debugPrint("Object " + bodyToVanish.gameObject.name + " was vanished by " + __instance.gameObject.name);
-        }
-
-        [HarmonyPostfix]
-        [HarmonyPatch(typeof(Renderer), nameof(Renderer.enabled), MethodType.Setter)]
-        public static void PrintRenderSet(Renderer __instance, bool __0)
-        {
-            if(__instance.name.Contains("Child of -1") && !__0)
-            {
-                DeepBramble.debugPrint(__instance.transform.parent.name);
-                DeepBramble.debugPrint(new System.Diagnostics.StackTrace().ToString());
-            }
         }
     }
 }
