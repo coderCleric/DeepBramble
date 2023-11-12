@@ -132,6 +132,7 @@
         "rename": "core_lab_intro_recording",
         "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/core_lab_intro.xml",
         "type": "preCrashRecorder",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
         "position": {
           "x": -38.80286,
           "y": -104.1581,
@@ -564,6 +565,7 @@
         "rename": "core_scanner_computer",
         "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/core_scanner_intact.xml",
         "type": "preCrashComputer",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
         "position": {
           "x": -23.55485,
           "y": -93.08205,
@@ -574,6 +576,931 @@
           "y": 201.573,
           "z": 20.31575
         }
+      },
+
+
+      {
+        "rename": "secca_plaque_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/secca_text.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "seed": 84634,
+        "position": {
+          "x": 16.22116,
+          "y": 53.86024,
+          "z": 55.2802
+        },
+        "normal": {
+          "x": 0.8964011,
+          "y": 0.3328444,
+          "z": -0.2927108
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.05818146,
+              "y": 0.2618181
+            },
+            "zRotation": 292.4728
+          }
+        ]
+      },
+      {
+        "rename": "escall_plaque_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/escall_text.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "seed": 84634,
+        "position": {
+          "x": 23.28395,
+          "y": 57.38073,
+          "z": 62.13271
+        },
+        "normal": {
+          "x": 0.8688191,
+          "y": 0.1407764,
+          "z": -0.474695
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 320.7454
+          }
+        ]
+      },
+      {
+        "rename": "misc_plaque_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/memorial_misc_text.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "seed": 84634,
+        "position": {
+          "x": 20.47833,
+          "y": 43.74217,
+          "z": 48.74632
+        },
+        "normal": {
+          "x": 0.5656795,
+          "y": 0.8234653,
+          "z": -0.04372269
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 243.8181
+          }
+        ]
+      },
+      {
+        "rename": "pod_plaque_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/pod_text.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "seed": 84634,
+        "position": {
+          "x": 30.03038,
+          "y": 42.54881,
+          "z": 52.80013
+        },
+        "normal": {
+          "x": 0.1939858,
+          "y": 0.9745619,
+          "z": -0.112244
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 190.9637
+          }
+        ]
+      },
+      {
+        "rename": "din_plaque_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/din_text.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "seed": 84634,
+        "position": {
+          "x": 33.31209,
+          "y": 47.90501,
+          "z": 59.37406
+        },
+        "normal": {
+          "x": -0.1822544,
+          "y": 0.9109598,
+          "z": -0.3700483
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 149.5819
+          }
+        ]
+      },
+      {
+        "rename": "breakdown_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/breakdown_recording.xml",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "position": {
+          "x": 28.40789,
+          "y": 47.58312,
+          "z": 56.69439
+        },
+        "rotation": {
+          "x": 322.6348,
+          "y": 25.90089,
+          "z": 319.935
+        }
+      },
+      {
+        "rename": "pod_reveal_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/pod_fate_reveal_recording.xml",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 6.4477,
+          "y": -0.001,
+          "z": 2.3449
+        },
+        "rotation": {
+          "x": 0,
+          "y": 317.4254,
+          "z": 0
+        }
+      },
+      {
+        "rename": "azolla_struggle_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/azolla_struggle_text.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "isRelativeToParent": true,
+        "seed": 12768,
+        "position": {
+          "x": 0.1347,
+          "y": -0.001,
+          "z": -8.3235
+        },
+        "rotation": {
+          "x": 270,
+          "y": 136.7986,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.4145456,
+              "y": -0.8799995
+            },
+            "zRotation": 300.4726
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.05622513,
+              "y": -0.1403432
+            },
+            "zRotation": 286.8222
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.5149746,
+              "y": 0.7268405
+            },
+            "zRotation": 317.4979
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.6063086,
+              "y": 0.6041262
+            },
+            "zRotation": 295.5779
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.814588,
+              "y": 0.4873293
+            },
+            "zRotation": 312.1551
+          }
+        ]
+      },
+      {
+        "rename": "call_to_action_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/call_to_action.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "isRelativeToParent": true,
+        "seed": 94730,
+        "position": {
+          "x": -0.7632,
+          "y": 0.629,
+          "z": -0.82
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 358.5833
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.5318229,
+              "y": 0.9775378
+            },
+            "zRotation": 357.4378
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.4722517,
+              "y": 1.330145
+            },
+            "zRotation": 296.9943
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.228354,
+              "y": 1.482745
+            },
+            "zRotation": 353.1827
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.2722042,
+              "y": 2.292702
+            },
+            "zRotation": 124.9896
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.9404998,
+              "y": 2.130641
+            },
+            "zRotation": 118.7237
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.123455,
+              "y": 0.8439357
+            },
+            "zRotation": 78.91225
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.707518,
+              "y": 1.93632
+            },
+            "zRotation": 96.36703
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -2.159914,
+              "y": 2.127544
+            },
+            "zRotation": 117.6539
+          }
+        ]
+      },
+      {
+        "rename": "dead_wife_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/dead_wife_text.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "isRelativeToParent": true,
+        "seed": 12856,
+        "position": {
+          "x": -4.154,
+          "y": -0.001,
+          "z": -16.1566
+        },
+        "rotation": {
+          "x": 270,
+          "y": 141.5273,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 317
+          }
+        ]
+      },
+      {
+        "rename": "memorial_official_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/memorial_official_text.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "isRelativeToParent": true,
+        "seed": 89567,
+        "position": {
+          "x": -0.0566,
+          "y": 0.7352,
+          "z": 0.007
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 45
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 330
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.9425232,
+              "y": 0.2894627
+            },
+            "zRotation": 320.4374
+          }
+        ]
+      },
+
+
+      {
+        "rename": "gift_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/amylax_gift_text.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/okalis_house",
+        "seed": 57368,
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0.9439,
+          "y": 0.4187,
+          "z": -1.75
+        },
+        "arcInfo": [
+          {
+            "type": "stranger",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 0.01661861
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.09227179,
+              "y": 1.814328
+            },
+            "zRotation": 344.2655
+          },
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": -1.672727,
+              "y": 0
+            },
+            "zRotation": 0
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.775974,
+              "y": 1.804025
+            },
+            "zRotation": 25.80302
+          }
+        ]
+      },
+      {
+        "rename": "AN_pod_reveal_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/AN_pod_recording.xml",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/hollowplanet/pillar_town/azolla_house",
+        "position": {
+          "x": 31.59309,
+          "y": 19.90588,
+          "z": 70.16882
+        },
+        "rotation": {
+          "x": 31.03637,
+          "y": 348.2367,
+          "z": 227.4314
+        }
+      },
+      {
+        "rename": "folly_intro_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/folly_intro.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/azolla_house",
+        "isRelativeToParent": true,
+        "seed": 39157,
+        "position": {
+          "x": -4.9382,
+          "y": 0.07,
+          "z": -15.3749
+        },
+        "rotation": {
+          "x": 270,
+          "y": 180,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 0.3627748
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.9198638,
+              "y": 0.84503
+            },
+            "zRotation": 27.53872
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.525254,
+              "y": 1.361499
+            },
+            "zRotation": 349.7752
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.06614748,
+              "y": 0.432827
+            },
+            "zRotation": 291.9511
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.8472214,
+              "y": 0.211428
+            },
+            "zRotation": 297.3529
+          }
+        ]
+      },
+      {
+        "rename": "physiology_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/physiology_notes.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/dree_study",
+        "isRelativeToParent": true,
+        "seed": 57836,
+        "position": {
+          "x": -0.9569,
+          "y": 1.2512,
+          "z": 10.753
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 357.13
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.113237,
+              "y": 0.6349012
+            },
+            "zRotation": 129.9277
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.454695,
+              "y": 0.07709342
+            },
+            "zRotation": 84.35728
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.06679273,
+              "y": 0.5902859
+            },
+            "zRotation": 291.6902
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.5264707,
+              "y": 0.6451322
+            },
+            "zRotation": 344.2625
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.9795316,
+              "y": 0.00353086
+            },
+            "zRotation": 257.7632
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 2.004929,
+              "y": 1.043249
+            },
+            "zRotation": 5.929352
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.6550816,
+              "y": 1.100676
+            },
+            "zRotation": 351.1614
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.421985,
+              "y": 1.975146
+            },
+            "zRotation": 18.68698
+          }
+        ]
+      },
+      {
+        "rename": "culture_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/culture_notes.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/dree_study",
+        "isRelativeToParent": true,
+        "seed": 32534,
+        "position": {
+          "x": -0.7632,
+          "y": 1.1023,
+          "z": -6.4895
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 356.0992
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.979183,
+              "y": 0.4145238
+            },
+            "zRotation": 92.7354
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.716954,
+              "y": 0.05120039
+            },
+            "zRotation": 56.6579
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.5230652,
+              "y": 0.7769456
+            },
+            "zRotation": 353.6605
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.3245337,
+              "y": 1.294859
+            },
+            "zRotation": 49.89735
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.7511125,
+              "y": 1.884918
+            },
+            "zRotation": 106.1437
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.6982031,
+              "y": 2.481034
+            },
+            "zRotation": 60.96849
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.01898819,
+              "y": 0.3103566
+            },
+            "zRotation": 285.0699
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.004738,
+              "y": 0.2230714
+            },
+            "zRotation": 327.6777
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 2.103569,
+              "y": 0.8744
+            },
+            "zRotation": 350.2955
+          }
+        ]
+      },
+
+
+      {
+        "rename": "eye_intro_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/eye_shrine_intro.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/eyeshrine",
+        "isRelativeToParent": true,
+        "seed": 53574,
+        "position": {
+          "x": 0.1738,
+          "y": 0.8872,
+          "z": -3.84
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 359.3854
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.5327904,
+              "y": 1.065427
+            },
+            "zRotation": 333.3788
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.2829195,
+              "y": 1.574084
+            },
+            "zRotation": 350.8463
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.5287247,
+              "y": 2.147441
+            },
+            "zRotation": 48.19962
+          }
+        ]
+      },
+      {
+        "rename": "eye_purpose_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/eye_purpose.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/eyeshrine",
+        "isRelativeToParent": true,
+        "seed": 35287,
+        "position": {
+          "x": -7.214,
+          "y": 0.7051,
+          "z": -0.041
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 359.8383
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.04134183,
+              "y": 0.3870271
+            },
+            "zRotation": 33.57623
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.292597,
+              "y": 0.7541172
+            },
+            "zRotation": 84.08545
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.9400313,
+              "y": 1.109557
+            },
+            "zRotation": 349.496
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.493958,
+              "y": 1.754271
+            },
+            "zRotation": 10.65541
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.3435736,
+              "y": 0.9103981
+            },
+            "zRotation": 4.033986
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.1929829,
+              "y": 1.714466
+            },
+            "zRotation": 348.8471
+          }
+        ]
+      },
+      {
+        "rename": "eye_origin_text",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/town/eye_origin.xml",
+        "type": "wall",
+        "parentPath": "Sector/hollowplanet/pillar_town/eyeshrine",
+        "isRelativeToParent": true,
+        "seed": 95739,
+        "position": {
+          "x": 5.9132,
+          "y": 1.2083,
+          "z": 0.2729
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 13
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.6842356,
+              "y": 0.9867479
+            },
+            "zRotation": 346.3727
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.03644857,
+              "y": 0.3634302
+            },
+            "zRotation": 84.27006
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.8011081,
+              "y": -0.1672019
+            },
+            "zRotation": 124.1647
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.01804642,
+              "y": 0.4723248
+            },
+            "zRotation": 76.73943
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.7744403,
+              "y": 1.521175
+            },
+            "zRotation": 66.39359
+          }
+        ]
       }
     ]
   }
