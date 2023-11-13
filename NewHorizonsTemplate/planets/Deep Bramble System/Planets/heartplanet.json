@@ -25,6 +25,518 @@
         "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/buildings/final_lab.prefab"
       }
+    ],
+    "translatorText": [
+      {
+        "rename": "heart_discovery_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/heart/heart_discovery_recording.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": 6.46669,
+          "y": 99.7645,
+          "z": 3.543327
+        },
+        "rotation": {
+          "x": 3.939555,
+          "y": 110.9976,
+          "z": 1.510545
+        }
+      },
+      {
+        "rename": "final_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/heart/final_recording.xml",
+        "type": "preCrashRecorder",
+        "position": {
+          "x": -4.243391,
+          "y": -99.85869,
+          "z": 4.11802
+        },
+        "rotation": {
+          "x": 0,
+          "y": 74.39902,
+          "z": 180
+        }
+      },
+      {
+        "rename": "lab_computer",
+        "xmlFile": "planets/Deep Bramble System/Text/heart/final_computer.xml",
+        "type": "preCrashComputer",
+        "position": {
+          "x": 6.486343,
+          "y": -99.76306,
+          "z": -3.518656
+        },
+        "rotation": {
+          "x": 356.445,
+          "y": 57.37478,
+          "z": 182.2731
+        }
+      },
+      {
+        "rename": "heart_intro_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/heart/dree_heart_intro.xml",
+        "type": "wall",
+        "seed": 84451,
+        "position": {
+          "x": 36.4433,
+          "y": 94.06533,
+          "z": 4.411577
+        },
+        "normal": {
+          "x": 0.01976164,
+          "y": 0.05056321,
+          "z": -0.9985253
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 359.1839
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 1.549044,
+              "y": 2.81159
+            },
+            "zRotation": 162.1712
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.075593,
+              "y": 1.947958
+            },
+            "zRotation": 26.73554
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 0.3069155,
+              "y": 2.467386
+            },
+            "zRotation": 44.97887
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": -0.4290504,
+              "y": 3.166174
+            },
+            "zRotation": 118.2718
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.339381,
+              "y": 2.427912
+            },
+            "zRotation": 201.492
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.09730151,
+              "y": 0.4864895
+            },
+            "zRotation": 11.26733
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.08147985,
+              "y": 2.858175
+            },
+            "zRotation": 358.9366
+          }
+        ]
+      },
+      {
+        "rename": "proposal_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/heart/distant_node_proposal.xml",
+        "type": "wall",
+        "seed": 12623,
+        "position": {
+          "x": 74.49153,
+          "y": 67.91511,
+          "z": -4.579175
+        },
+        "normal": {
+          "x": -0.03862643,
+          "y": -0.03559738,
+          "z": 0.9986195
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 359.1583
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 0.9881001,
+              "y": 1.077279
+            },
+            "zRotation": 341.0681
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.298566,
+              "y": 2.201131
+            },
+            "zRotation": 18.77033
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.0258393,
+              "y": 2.851557
+            },
+            "zRotation": 47.45013
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": -1.116474,
+              "y": 2.457513
+            },
+            "zRotation": 141.9521
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.931454,
+              "y": 1.858752
+            },
+            "zRotation": 92.72835
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.01273811,
+              "y": 0.3377133
+            },
+            "zRotation": 63.62626
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.1308707,
+              "y": 0.6532214
+            },
+            "zRotation": 16.75447
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.4529722,
+              "y": 1.042496
+            },
+            "zRotation": 352.3034
+          }
+        ]
+      },
+      {
+        "rename": "general_plan_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/heart/node_general_plan.xml",
+        "type": "wall",
+        "seed": 51987,
+        "position": {
+          "x": 93.66193,
+          "y": 37.05122,
+          "z": 4.593348
+        },
+        "normal": {
+          "x": -0.05211794,
+          "y": -0.02047646,
+          "z": -0.998431
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 6.163658
+          },
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": 0.6221814,
+              "y": 2.148422
+            },
+            "zRotation": 155.4373
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.04368022,
+              "y": 1.402538
+            },
+            "zRotation": 72.14444
+          }
+        ]
+      },
+      {
+        "rename": "nomai_part_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/heart/node_nomai_part.xml",
+        "type": "wall",
+        "seed": 48576,
+        "position": {
+          "x": 93.95068,
+          "y": -36.98708,
+          "z": -4.555519
+        },
+        "normal": {
+          "x": -0.05211755,
+          "y": 0.02047559,
+          "z": 0.998431
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 0.4545672
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.4785669,
+              "y": 0.8292143
+            },
+            "zRotation": 10.50919
+          }
+        ]
+      },
+      {
+        "rename": "dree_part_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/heart/node_dree_part.xml",
+        "type": "wall",
+        "seed": 93857,
+        "position": {
+          "x": 74.80154,
+          "y": -67.71194,
+          "z": 4.560038
+        },
+        "normal": {
+          "x": -0.03862643,
+          "y": 0.03559732,
+          "z": -0.9986195
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": 0.2970909,
+              "y": 2.239089
+            },
+            "zRotation": 180
+          },
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": -1.069339,
+              "y": 2.231431
+            },
+            "zRotation": 180
+          }
+        ]
+      },
+      {
+        "rename": "final_statement_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/heart/node_final_statement.xml",
+        "type": "wall",
+        "seed": 12456,
+        "position": {
+          "x": 36.37688,
+          "y": -94.11934,
+          "z": -4.438121
+        },
+        "normal": {
+          "x": 0.01976178,
+          "y": -0.05056415,
+          "z": 0.9985252
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 2.090544,
+              "y": 0
+            },
+            "zRotation": 0.6908427
+          },
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": -1.75709,
+              "y": -0.3389089
+            },
+            "zRotation": 0
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": -0.2172726,
+              "y": 1.661999
+            },
+            "zRotation": 180
+          }
+        ]
+      },
+      {
+        "rename": "amendment_text",
+        "alignRadial": true,
+        "xmlFile": "planets/Deep Bramble System/Text/heart/node_plan_amendment.xml",
+        "type": "wall",
+        "seed": 64576,
+        "position": {
+          "x": 5.200001,
+          "y": -100.677,
+          "z": 3.793536
+        },
+        "normal": {
+          "x": 1,
+          "y": 0,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": 1.415635,
+              "y": 0
+            },
+            "zRotation": 0
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 0.5296361,
+              "y": 1.98709
+            },
+            "zRotation": 180
+          },
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": -0.4213409,
+              "y": 2.002413
+            },
+            "zRotation": 180
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": -1.316908,
+              "y": 0
+            },
+            "zRotation": 0
+          }
+        ]
+      },
+      {
+        "rename": "grief_text",
+        "xmlFile": "planets/Deep Bramble System/Text/heart/ditylum_grief_text.xml",
+        "type": "wall",
+        "seed": 98574,
+        "position": {
+          "x": 3.738787,
+          "y": -99.93048,
+          "z": 0.2468593
+        },
+        "rotation": {
+          "x": 90,
+          "y": 273.2227,
+          "z": 0
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": -2.350543,
+              "y": 1.306
+            },
+            "zRotation": 313.0907
+          },
+          {
+            "mirror": true,
+            "type": "stranger",
+            "position": {
+              "x": -1.243708,
+              "y": 0.6439196
+            },
+            "zRotation": 337.7782
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": -0.02314373,
+              "y": 2.282689
+            },
+            "zRotation": 167.9027
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 0.4685215,
+              "y": 2.384661
+            },
+            "zRotation": 203.3699
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 2.1375,
+              "y": 1.054
+            },
+            "zRotation": 40.27085
+          },
+          {
+            "type": "stranger",
+            "position": {
+              "x": 2.912871,
+              "y": 1.827309
+            },
+            "zRotation": 59.86522
+          }
+        ]
+      }
     ]
   }
 }
