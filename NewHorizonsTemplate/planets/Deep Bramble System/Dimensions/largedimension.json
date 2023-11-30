@@ -156,6 +156,21 @@
         ]
       },
       {
+        "rename": "DilationNodeRecorderContainer",
+        "hasPhysics": true,
+        "physicsRadius": 0,
+        "position": {
+          "x": 372.5,
+          "y": -351.6,
+          "z": 1769.1
+        },
+        "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
+        "removeChildren": [
+          "PointLight_NOM_Lamp",
+          "Props_NOM_Lamp_EscapePodFlare"
+        ]
+      },
+      {
         "keepLoaded": true,
         "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/dead_node.prefab",
@@ -220,6 +235,13 @@
         "type": "preCrashRecorder",
         "parentPath": "Sector/RecursiveNodeRecorderContainer",
         "xmlFile": "planets/Deep Bramble System/Text/large_dim/recursive_node_recording.xml"
+      },
+      {
+        "rename": "DilationNodeRecorder",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/DilationNodeRecorderContainer",
+        "isRelativeToParent": true,
+        "xmlFile": "planets/Deep Bramble System/Text/large_dim/dilation_warning_recording.xml"
       }
     ],
     "signals": [

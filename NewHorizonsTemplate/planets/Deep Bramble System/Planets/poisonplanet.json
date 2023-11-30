@@ -40,6 +40,336 @@
 				"assetBundle": "assetbundles/castaways",
 				"path": "Assets/Prefabs/poison_planet.prefab"
 			}
+		],
+		"translatorText": [
+			{
+				"rename": "collapse_hypothesis_recording",
+				"xmlFile": "planets/Deep Bramble System/Text/reject/collapse_hypothesis.xml",
+				"type": "preCrashRecorder",
+				"position": {
+					"x": 66.9189,
+					"y": 3.417794,
+					"z": 40.71012
+				},
+				"rotation": {
+					"x": 54.24283,
+					"y": 161.7773,
+					"z": 96.42617
+				}
+			},
+			{
+				"rename": "diary_text",
+				"xmlFile": "planets/Deep Bramble System/Text/reject/ditylum_diary.xml",
+				"parentPath": "Sector/poison_planet/poison_lab",
+				"isRelativeToParent": true,
+				"type": "wall",
+				"seed": 49164,
+				"position": {
+					"x": -3.1266,
+					"y": 8.0501,
+					"z": 10.0855
+				},
+				"rotation": {
+					"x": 270,
+					"y": 92.1116,
+					"z": 0
+				},
+				"arcInfo": [
+					{
+						"type": "stranger",
+						"position": {
+							"x": 1.556002,
+							"y": 0
+						},
+						"zRotation": 358.6752
+					},
+					{
+						"type": "stranger",
+						"position": {
+							"x": 0.8014536,
+							"y": 0
+						},
+						"zRotation": 0
+					},
+					{
+						"mirror": true,
+						"type": "stranger",
+						"position": {
+							"x": 0.01997143,
+							"y": 1.9205
+						},
+						"zRotation": 180
+					},
+					{
+						"mirror": true,
+						"type": "stranger",
+						"position": {
+							"x": -0.6156471,
+							"y": 0
+						},
+						"zRotation": 0
+					},
+					{
+						"mirror": true,
+						"type": "stranger",
+						"position": {
+							"x": -1.480545,
+							"y": 1.93491
+						},
+						"zRotation": 180
+					},
+					{
+						"type": "stranger",
+						"position": {
+							"x": -2.24018,
+							"y": 0
+						},
+						"zRotation": 0
+					},
+					{
+						"type": "stranger",
+						"position": {
+							"x": -3.044696,
+							"y": 0
+						},
+						"zRotation": 0
+					}
+				]
+			},
+			{
+				"rename": "genetic_text",
+				"alignRadial": true,
+				"xmlFile": "planets/Deep Bramble System/Text/reject/reject_genetics.xml",
+				"type": "wall",
+				"seed": 143523,
+				"position": {
+					"x": 69.87015,
+					"y": 4.41312,
+					"z": 34.93694
+				},
+				"normal": {
+					"x": -0.07976734,
+					"y": -0.9966178,
+					"z": 0.01975791
+				},
+				"arcInfo": [
+					{
+						"mirror": true,
+						"type": "adult",
+						"position": {
+							"x": 0,
+							"y": 0
+						},
+						"zRotation": 359.4768
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": -0.5903994,
+							"y": 0.806628
+						},
+						"zRotation": 355.6307
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": 0.06106162,
+							"y": 1.495875
+						},
+						"zRotation": 351.037
+					},
+					{
+						"mirror": true,
+						"type": "adult",
+						"position": {
+							"x": 0.4364062,
+							"y": 2.1648
+						},
+						"zRotation": 34.70669
+					},
+					{
+						"mirror": true,
+						"type": "adult",
+						"position": {
+							"x": -1.031652,
+							"y": 0.3496668
+						},
+						"zRotation": 42.06053
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": -1.961897,
+							"y": 0.7890406
+						},
+						"zRotation": 13.0827
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": -0.04692138,
+							"y": 0.3607011
+						},
+						"zRotation": 315.1462
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": 1.099768,
+							"y": 0.6874185
+						},
+						"zRotation": 318.2903
+					}
+				]
+			},
+			{
+				"rename": "killing_text",
+				"alignRadial": true,
+				"xmlFile": "planets/Deep Bramble System/Text/reject/reject_killing_hint.xml",
+				"type": "wall",
+				"seed": 412345,
+				"position": {
+					"x": 65.77765,
+					"y": -1.470724,
+					"z": 43.33419
+				},
+				"normal": {
+					"x": 0.3943813,
+					"y": -0.0497568,
+					"z": -0.9175988
+				},
+				"arcInfo": [
+					{
+						"mirror": true,
+						"type": "adult",
+						"position": {
+							"x": 0,
+							"y": 0
+						},
+						"zRotation": 359.8187
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": -0.0627336,
+							"y": 0.374436
+						},
+						"zRotation": 346.7444
+					},
+					{
+						"mirror": true,
+						"type": "adult",
+						"position": {
+							"x": 0.7704,
+							"y": 1.286926
+						},
+						"zRotation": 11.95128
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": 0.5158237,
+							"y": 1.781879
+						},
+						"zRotation": 338.0178
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": -0.9106253,
+							"y": 0.54882
+						},
+						"zRotation": 55.46028
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": -0.9915951,
+							"y": 1.731329
+						},
+						"zRotation": 1.338508
+					}
+				]
+			},
+			{
+				"rename": "violation_text",
+				"alignRadial": true,
+				"xmlFile": "planets/Deep Bramble System/Text/reject/reject_violation.xml",
+				"type": "wall",
+				"seed": 143533,
+				"position": {
+					"x": 75.27137,
+					"y": -1.491256,
+					"z": 21.80536
+				},
+				"normal": {
+					"x": -0.3943813,
+					"y": 0.04975677,
+					"z": 0.9175989
+				},
+				"arcInfo": [
+					{
+						"type": "adult",
+						"position": {
+							"x": 0,
+							"y": 0
+						},
+						"zRotation": 359.9073
+					},
+					{
+						"mirror": true,
+						"type": "adult",
+						"position": {
+							"x": 0.4284568,
+							"y": 0.8974388
+						},
+						"zRotation": 22.05193
+					},
+					{
+						"mirror": true,
+						"type": "adult",
+						"position": {
+							"x": -0.7048171,
+							"y": 1.6231
+						},
+						"zRotation": 36.24645
+					},
+					{
+						"mirror": true,
+						"type": "adult",
+						"position": {
+							"x": -1.590489,
+							"y": 1.940632
+						},
+						"zRotation": 44.02494
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": 1.01306,
+							"y": 0.9348357
+						},
+						"zRotation": 331.2404
+					},
+					{
+						"type": "adult",
+						"position": {
+							"x": 0.2343395,
+							"y": 1.261397
+						},
+						"zRotation": 3.05748
+					},
+					{
+						"mirror": true,
+						"type": "adult",
+						"position": {
+							"x": 0.4780144,
+							"y": 1.987879
+						},
+						"zRotation": 15.20451
+					}
+				]
+			}
 		]
 	}
 }
