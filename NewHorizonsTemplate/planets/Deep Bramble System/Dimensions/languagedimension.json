@@ -124,6 +124,562 @@
         "range": 3,
         "xmlFile": "planets/Deep Bramble System/Dialogue/ernesto.xml"
       }
+    ],
+    "translatorText": [
+      {
+        "rename": "fish_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/translation_lab/translation_fish_recording.xml",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/language_lab",
+        "position": {
+          "x": -4.771393,
+          "y": -8.113327,
+          "z": -0.303326
+        },
+        "rotation": {
+          "x": 1.220616,
+          "y": 112.4598,
+          "z": 355.2644
+        }
+      },
+      {
+        "rename": "funny_recording",
+        "xmlFile": "planets/Deep Bramble System/Text/translation_lab/translation_funny_recording.xml",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector/language_lab",
+        "position": {
+          "x": 6.089112,
+          "y": 7.22199,
+          "z": -10.40442
+        },
+        "rotation": {
+          "x": 358.3257,
+          "y": 298.016,
+          "z": 184.5952
+        }
+      },
+      {
+        "rename": "dree_name_text",
+        "xmlFile": "planets/Deep Bramble System/Text/translation_lab/species_name_reveal.xml",
+        "type": "wall",
+        "seed": 23464,
+        "parentPath": "Sector/language_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 5.75,
+          "y": -7.5911,
+          "z": -0.486
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 13.9914
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 0.5598801
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.05507239,
+              "y": 0.5085744
+            },
+            "zRotation": 72.96274
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.6442773,
+              "y": 1.258537
+            },
+            "zRotation": 25.76788
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -1.786892,
+              "y": 1.936119
+            },
+            "zRotation": 37.0218
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.056897,
+              "y": 1.134834
+            },
+            "zRotation": 333.6825
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.045318,
+              "y": 2.194487
+            },
+            "zRotation": 306.8455
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.046008,
+              "y": 1.749546
+            },
+            "zRotation": 0.06347614
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.8854014,
+              "y": 2.345577
+            },
+            "zRotation": 5.650971
+          }
+        ]
+      },
+      {
+        "rename": "bramble_name_text",
+        "xmlFile": "planets/Deep Bramble System/Text/translation_lab/bramble_name_reveal.xml",
+        "type": "wall",
+        "seed": 14522,
+        "parentPath": "Sector/language_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": -5.5771,
+          "y": -7.7647,
+          "z": 11.75
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 3.1609
+        },
+        "arcInfo": [
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 359.1559
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.028175,
+              "y": 0.8951274
+            },
+            "zRotation": 36.34252
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.0323765,
+              "y": 0.3588751
+            },
+            "zRotation": 284.5977
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.5599506,
+              "y": 1.215981
+            },
+            "zRotation": 292.127
+          }
+        ]
+      },
+      {
+        "rename": "domestic_fish_text",
+        "xmlFile": "planets/Deep Bramble System/Text/translation_lab/domestic_fish_reveal.xml",
+        "type": "wall",
+        "seed": 85636,
+        "parentPath": "Sector/language_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": -4.0434,
+          "y": -7.7525,
+          "z": -11.75
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 20.4364
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 0.3168007
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.3577108,
+              "y": 0.6637942
+            },
+            "zRotation": 28.52735
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.01366503,
+              "y": 1.082627
+            },
+            "zRotation": 343.7163
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.2317418,
+              "y": 1.508107
+            },
+            "zRotation": 0.8896618
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.7445662,
+              "y": 1.821501
+            },
+            "zRotation": 40.17284
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.9426003,
+              "y": 0.4993337
+            },
+            "zRotation": 311.6397
+          }
+        ]
+      },
+      {
+        "rename": "dree_culture_text",
+        "xmlFile": "planets/Deep Bramble System/Text/translation_lab/translation_culture_notes.xml",
+        "type": "wall",
+        "seed": 58924,
+        "parentPath": "Sector/language_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": -9.75,
+          "y": 7.7271,
+          "z": 8.4395
+        },
+        "rotation": {
+          "x": 0,
+          "y": 90,
+          "z": 177.0366
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 357.352
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.811975,
+              "y": 1.120103
+            },
+            "zRotation": 12.37572
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.4810909,
+              "y": 1.797453
+            },
+            "zRotation": 24.4291
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": -0.5248642,
+              "y": 2.553891
+            },
+            "zRotation": 43.03909
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -1.076197,
+              "y": 2.919187
+            },
+            "zRotation": 341.1282
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": -0.1166047,
+              "y": 3.365694
+            },
+            "zRotation": 299.8124
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.05500411,
+              "y": 0.3966296
+            },
+            "zRotation": 18.94389
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.7352583,
+              "y": 1.346653
+            },
+            "zRotation": 346.5834
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 2.091464,
+              "y": 1.893633
+            },
+            "zRotation": 240.9824
+          }
+        ]
+      },
+      {
+        "rename": "no_exit_text",
+        "xmlFile": "planets/Deep Bramble System/Text/translation_lab/translation_no_exit.xml",
+        "type": "wall",
+        "seed": 95836,
+        "parentPath": "Sector/language_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 5.75,
+          "y": 7.7732,
+          "z": -0.3663
+        },
+        "rotation": {
+          "x": 0,
+          "y": 270,
+          "z": 207.6798
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 342
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.7948449,
+              "y": 0.8249448
+            },
+            "zRotation": 305.1561
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.765694,
+              "y": 1.020087
+            },
+            "zRotation": 313.6118
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 2.764095,
+              "y": 1.232384
+            },
+            "zRotation": 339.7322
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.675062,
+              "y": 1.063889
+            },
+            "zRotation": 359.3298
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.170294,
+              "y": 2.078218
+            },
+            "zRotation": 4.92488
+          }
+        ]
+      },
+      {
+        "rename": "call_to_mourn_text",
+        "xmlFile": "planets/Deep Bramble System/Text/translation_lab/call_to_mourn.xml",
+        "type": "wall",
+        "seed": 25644,
+        "parentPath": "Sector/language_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": -5.0801,
+          "y": 7.8153,
+          "z": -11.75
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 199.1883
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 1.198964
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.9003728,
+              "y": 0.5973601
+            },
+            "zRotation": 307.8119
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.473873,
+              "y": 0.8117641
+            },
+            "zRotation": 355.0936
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.07443286,
+              "y": 0.4308055
+            },
+            "zRotation": 62.66632
+          }
+        ]
+      },
+      {
+        "rename": "dictionary_text",
+        "xmlFile": "planets/Deep Bramble System/Text/translation_lab/dictionary_text.xml",
+        "type": "wall",
+        "seed": 65986,
+        "parentPath": "Sector/language_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": -4.541,
+          "y": 7.8095,
+          "z": 11.75
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 198.2054
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 1.169052
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.9384577,
+              "y": 0.6213309
+            },
+            "zRotation": 313.7472
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 1.990468,
+              "y": 0.9252461
+            },
+            "zRotation": 339.4221
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.6544982,
+              "y": 0.7994307
+            },
+            "zRotation": 354.5073
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.18468,
+              "y": 1.741804
+            },
+            "zRotation": 358.1872
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.06389356,
+              "y": 0.4221891
+            },
+            "zRotation": 13.57386
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.649213,
+              "y": 0.9712934
+            },
+            "zRotation": 347.9512
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 1.148118,
+              "y": 2.075917
+            },
+            "zRotation": 353.1509
+          }
+        ]
+      }
     ]
   },
   "Volumes": {
