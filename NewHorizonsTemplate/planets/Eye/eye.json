@@ -1,0 +1,94 @@
+{
+  "name": "Eye Of The Universe",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "EyeOfTheUniverse",
+
+  "Props": {
+    "details": [
+      {
+        "assetBundle": "assetbundles/eye_bundle",
+        "path": "Assets/Prefabs/eye/forest_new_ground.prefab",
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Terrain_Campfire/Terrain_EYE_ForestFloor_Tomb",
+        "isRelativeToParent": true,
+        "keepLoaded": true
+      },
+      {
+        "assetBundle": "assetbundles/eye_bundle",
+        "path": "Assets/Prefabs/eye/DitylumZone.prefab",
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones",
+        "isRelativeToParent": true,
+        "keepLoaded": true,
+        "position": {
+          "x": -11.96,
+          "y": 0,
+          "z": -35.04
+        }
+      },
+      {
+        "assetBundle": "assetbundles/eye_bundle",
+        "path": "Assets/Prefabs/eye/Ditylum.prefab",
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+        "isRelativeToParent": true,
+        "keepLoaded": true,
+        "position": {
+          "x": 0.58,
+          "y": 0.0839994,
+          "z": -3.529785
+        },
+        "rotation": {
+          "x": 0,
+          "y": -7.52,
+          "z": 0
+        }
+      },
+      {
+        "assetBundle": "assetbundles/eye_bundle",
+        "path": "Assets/Prefabs/eye/FCAltTravelerSockets.prefab",
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
+        "isRelativeToParent": true,
+        "keepLoaded": true
+      }
+    ],
+    "dialogue": [
+      {
+        "rename": "DitylumDialogue",
+        "radius": 0.7,
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Ditylum",
+        "isRelativeToParent": true,
+        "xmlFile": "planets/Eye/DitylumDialogue.xml",
+        "position": {
+          "x": 0,
+          "y": 2,
+          "z": 0
+        }
+      }
+    ],
+    "signals": [
+      {
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Ditylum",
+        "isRelativeToParent": true,
+        "audio": "OW_TravelerTheme_harmonica",
+        "frequency": "Traveler",
+        "onlyAudibleToScope": false,
+        "name": "Ditylum",
+        "position": {
+          "x": 0,
+          "y": 2,
+          "z": 0
+        }
+      },
+      {
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/DitylumZone",
+        "isRelativeToParent": true,
+        "audio": "OW_TravelerTheme_harmonica",
+        "frequency": "Traveler",
+        "name": "Ditylum",
+        "position": {
+          "x": 0,
+          "y": 4.5,
+          "z": 0
+        }
+      }
+    ]
+  }
+}

@@ -102,6 +102,12 @@ namespace DeepBramble
                 BaseSystemHelper.FixBaseSystem();
             }
 
+            //Do this stuff if we're in the hearthian system
+            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("EyeOfTheUniverse"))
+            {
+                EyeSystemHelper.FixEyeSystem();
+            }
+
             //Debug thing, take out
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("WorkSystem"))
             {

@@ -1,0 +1,52 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Ditylum</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Still got people to get dumbass</Page>
+    </Dialogue>
+  </DialogueNode>
+  
+  <DialogueNode>
+    <Name>READY_TO_PLAY</Name>
+    <EntryCondition>AllTravelersGathered</EntryCondition>
+    <Dialogue>
+      <Page>Everyone's here, ready to go?</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>sure</Text>
+        <DialogueTarget>START_PLAYING</DialogueTarget>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>no</Text>
+        <DialogueTarget>NOT_YET</DialogueTarget>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>START_PLAYING</Name>
+    <Dialogue>
+      <Page>finally</Page>
+    </Dialogue>
+    <SetCondition>IsDitylumPlaying</SetCondition>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>NOT_YET</Name>
+    <Dialogue>
+      <Page>hurry up</Page>
+    </Dialogue>
+  </DialogueNode>
+
+  <DialogueNode>
+    <Name>FAREWELL</Name>
+    <EntryCondition>JamSessionIsOver</EntryCondition>
+    <Dialogue>
+      <Page>that's all folks</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

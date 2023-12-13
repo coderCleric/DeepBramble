@@ -10,6 +10,7 @@ using HarmonyLib;
 using DeepBramble.Ditylum;
 using NewHorizons;
 using DeepBramble.Triggers;
+using DeepBramble.Helpers;
 
 namespace DeepBramble
 {
@@ -818,6 +819,24 @@ namespace DeepBramble
                 return false;
             else
                 return true;
+        }
+
+        //################################# Eye Things #################################
+        /**
+         * When other instrument zone's are activated, also activate Ditylum's
+         * 
+         * @param __instance The calling campsite controller
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.ActivateRemainingInstrumentZones))]
+        public static void DityZoneFix(QuantumCampsiteController __instance)
+        {
+            if(EyeSystemHelper.doEyeStuff)
+            {
+                __instance._instrumentZones[6].SetActive(true);
+                __instance.transform.Find("Terrain_Campfire/Terrain_EYE_ForestFloor_Tomb/forest_new_ground/actual_ground/ditylum_patch")
+                    .gameObject.SetActive(false); //Need to also deactivate the hole cover
+            }
         }
 
         //################################# Debug Things #################################
