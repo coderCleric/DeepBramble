@@ -100,5 +100,21 @@
         ]
       }
     ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "rename": "hole_reveal_vol",
+        "radius": 15,
+        "revealOn": "enter",
+        "revealFor": "player",
+        "reveals": [ "HOLE_OVERLOOK_DISCOVERY_FACT_FC" ],
+        "position": {
+          "x": 18.48814,
+          "y": 1.881974,
+          "z": 13.10501
+        }
+      }
+    ]
   }
 }

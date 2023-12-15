@@ -101,4 +101,28 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>ALIEN_LEADING_FACT_FC</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>ENCLOSED_SPACE_EXISTENCE_RUMOR_FC</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>RECURSIVE_NODE_RUMOR_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>ENCLOSED_SPACE_ALIGNMENT_RUMOR_FC</FactID>
+      <Condition>103</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -67,7 +67,7 @@
       {
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Ditylum",
         "isRelativeToParent": true,
-        "audio": "OW_TravelerTheme_harmonica",
+        "audio": "ElectricShock",
         "frequency": "Traveler",
         "onlyAudibleToScope": false,
         "name": "Ditylum",
@@ -80,7 +80,7 @@
       {
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/DitylumZone",
         "isRelativeToParent": true,
-        "audio": "OW_TravelerTheme_harmonica",
+        "audio": "ElectricShock",
         "frequency": "Traveler",
         "name": "Ditylum",
         "position": {

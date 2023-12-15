@@ -113,5 +113,28 @@
         }
       }
     ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "rename": "story_area_reveal_vol",
+        "radius": 30,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "STORY_AREA_DISCOVERY_FACT_FC" ],
+        "position": {
+          "x": -12.41139,
+          "y": -69.93356,
+          "z": 121.713
+        }
+      },
+      {
+        "rename": "core_reveal_vol",
+        "radius": 100,
+        "revealOn": "observe",
+        "revealFor": "both",
+        "reveals": [ "HEARTH_CORE_DISCOVERY_FACT_FC" ]
+      }
+    ]
   }
 }

@@ -57,4 +57,34 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>DREE_HOME_FACT_FC</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>PARK_LANGUAGE_LAB_FACT_FC</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>FOLLY_PARK_FACT_FC</FactID>
+      <Condition>7</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>LANGUAGE_LAB_RUMOR_FC</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>FOLLY_RUMOR_FC</FactID>
+      <Condition>7</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

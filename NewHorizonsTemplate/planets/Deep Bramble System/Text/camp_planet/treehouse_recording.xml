@@ -105,4 +105,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>TREEHOUSE_RECORDER_FACT_FC</FactID>
+      <Condition>13</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -264,6 +264,15 @@
         "track": "music",
         "loop": true
       }
+    ],
+    "revealVolumes": [
+      {
+        "rename": "cluster_reveal_vol",
+        "radius": 366,
+        "revealOn": "enter",
+        "revealFor": "player",
+        "reveals": [ "CLUSTER_DISCOVERY_FACT_FC" ]
+      }
     ]
   }
 }

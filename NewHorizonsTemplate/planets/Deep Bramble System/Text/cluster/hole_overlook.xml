@@ -43,4 +43,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HOLE_ESCAPE_FACT_FC</FactID>
+      <Condition>2</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

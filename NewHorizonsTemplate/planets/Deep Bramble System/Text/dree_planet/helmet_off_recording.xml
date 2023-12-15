@@ -105,4 +105,16 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>STORY_AREA_PURPOSE_FACT_FC</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HELMET_REMOVED_FACT_FC</FactID>
+      <Condition>13</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			AZOLLA: Interesting hypothesis, Nesia.We will have to see what Sennetti can discover once he completes his analysis of these people’s language.
+			AZOLLA: Interesting hypothesis, Nesia. We will have to see what Sennetti can discover once he completes his analysis of these people’s language.
 		</Text>
 	</TextBlock>
 
@@ -41,4 +41,16 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>DREE_SINGING_FACT_FC</FactID>
+      <Condition>2</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CONCERT_MISSED_FACT_FC</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

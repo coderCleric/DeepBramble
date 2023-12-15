@@ -88,6 +88,7 @@
       {
         "parentPath": "Sector/StartDimensionFlare",
         "audio": "OW_TravelerTheme_harmonica",
+        "reveals": "BEACON_FREQUENCY_FACT_FC",
         "position": {
           "x": 7.7,
           "y": 5.6,

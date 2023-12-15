@@ -137,4 +137,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>COMMUNION_RECORDING_FACT_FC</FactID>
+      <Condition>14</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

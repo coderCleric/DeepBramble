@@ -129,4 +129,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>REINVIGORATION_RECORDING_FACT_FC</FactID>
+      <Condition>16</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -73,4 +73,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CLUSTER_SETTLEMENT_FACT_FC</FactID>
+      <Condition>9</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

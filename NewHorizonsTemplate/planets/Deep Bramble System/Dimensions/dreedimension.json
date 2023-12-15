@@ -355,6 +355,17 @@
         "track": "music",
         "loop": true
       }
+    ],
+    "revealVolumes": [
+      {
+        "rename": "too_small_reveal_vol",
+        "parentPath": "Sector/Language Node",
+        "isRelativeToParent": true,
+        "radius": 30,
+        "revealOn": "enter",
+        "revealFor": "player",
+        "reveals": [ "LANGUAGE_SMALL_ENTRANCE_RUMOR_FC" ]
+      }
     ]
   }
 }

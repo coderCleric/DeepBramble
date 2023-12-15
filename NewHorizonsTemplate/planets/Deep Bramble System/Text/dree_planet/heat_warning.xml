@@ -17,4 +17,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HOT_NODE_RECORDING_FACT_FC</FactID>
+      <Condition>2</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

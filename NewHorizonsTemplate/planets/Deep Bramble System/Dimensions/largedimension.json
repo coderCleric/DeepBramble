@@ -262,6 +262,7 @@
         "sourceRadius": 67,
         "identificationRadius": 224,
         "detectionRadius": 300,
+        "reveals": "RECURSIVE_NODE_SIGNAL_FACT_FC",
         "position": {
           "x": 0,
           "y": 0,
@@ -311,6 +312,27 @@
         "audio": "OW Aquatic Exploration 050318 AP LOOP",
         "track": "music",
         "loop": true
+      }
+    ],
+    "revealVolumes": [
+      {
+        "rename": "recursive_reveal_vol",
+        "radius": 600,
+        "revealOn": "enter",
+        "revealFor": "player",
+        "reveals": [ "RECURSIVE_NODE_FOUND_FACT_FC" ]
+      },
+      {
+        "rename": "enclosed_reveal_vol",
+        "radius": 100,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "ENCLOSED_SPACE_FOUND_FACT_FC" ],
+        "position": {
+          "x": -39.4,
+          "y": -3427.6,
+          "z": 193.2
+        }
       }
     ]
   }

@@ -43,13 +43,13 @@
       <ID>SOIL_LAB_RUMOR</ID>
       <SourceID>CAMPSITE_ENTRY</SourceID>
       <IgnoreMoreToExplore/>
-      <Text>I found some text that says there should be a soil lab somewhere on the camp planetoid</Text>      
+      <Text>I found some text that says there should be a soil lab somewhere on Lover's Rock</Text>      
     </RumorFact>
 
     <ExploreFact>
       <ID>SOIL_LAB_ANALYSIS_FACT</ID>
       <IgnoreMoreToExplore/>
-      <Text>I found some text remarking that the camp planetoid seems to be made of the remains of many planets.</Text>
+      <Text>I found some text remarking that Lover's Rock seems to be made of the remains of many planets.</Text>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>

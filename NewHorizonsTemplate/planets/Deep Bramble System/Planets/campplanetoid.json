@@ -642,5 +642,45 @@
         ]
       }
     ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "rename": "camp_reveal_vol",
+        "radius": 48,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "CAMP_DISCOVERY_FACT_FC" ],
+        "position": {
+          "x": -0.3938739,
+          "y": 75.60889,
+          "z": -0.1373607
+        }
+      },
+      {
+        "rename": "soil_lab_reveal_vol",
+        "radius": 25,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "SOIL_LAB_DISCOVERY_FACT_FC" ],
+        "position": {
+          "x": -99.50437,
+          "y": 2.783077,
+          "z": -0.5414426
+        }
+      },
+      {
+        "rename": "treehouse_reveal_vol",
+        "radius": 50,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "TREEHOUSE_FOUND_FACT_FC" ],
+        "position": {
+          "x": -0.01716805,
+          "y": -104.5835,
+          "z": -0.200305
+        }
+      }
+    ]
   }
 }

@@ -67,4 +67,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>SOIL_LAB_RUMOR_FC</FactID>
+      <Condition>103</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

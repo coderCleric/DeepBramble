@@ -12,8 +12,7 @@
     <ID>2</ID>
     <ParentID>1</ParentID>
     <Text>
-      SENNETTI: What are we going to do? We have neither the means to return to the <![CDATA[<color=orange>Vessel</color>]]>, nor a source of oxygen. If we do not act quickly, this will almost
-      certainly be our final resting place!
+      SENNETTI: What are we going to do? We have neither the means to return to the <![CDATA[<color=orange>Vessel</color>]]>, nor a source of oxygen. If we do not act quickly, this will almost certainly be our final resting place!
     </Text>
   </TextBlock>
 
@@ -43,10 +42,21 @@
     <ID>6</ID>
     <ParentID>5</ParentID>
     <Text>
-      NESIA: Visibility in this place is far from optimal, so I will leave a signal beacon here to ensure that we can find our way back. If luck is on our side, it may also lead other Nomai to our
-      current location.
+      NESIA: Visibility in this place is far from optimal, so I will leave a signal beacon here to ensure that we can find our way back. If luck is on our side, it may also lead other Nomai to our current location.
     </Text>
   </TextBlock>
 
   <!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>NOMAI_WARP_FACT_FC</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>OXYGEN_SPLITUP_FACT_FC</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>
