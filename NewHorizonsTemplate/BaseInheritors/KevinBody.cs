@@ -22,8 +22,14 @@ namespace DeepBramble.BaseInheritors
 
             //Do the base behaviour
             base.Awake();
+        }
 
-            //Restore the parent
+        /**
+         * NH broke this so gotta shove this in start instead
+         */
+        public override void Start()
+        {
+            base.Start();
             transform.parent = _origParent;
         }
     }

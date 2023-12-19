@@ -43,7 +43,7 @@
     </ItemGroup>
     <ItemGroup>
       <Compile Update="MiscBehaviours\GravCore.cs">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       </Compile>
     </ItemGroup>
     <ItemGroup>
