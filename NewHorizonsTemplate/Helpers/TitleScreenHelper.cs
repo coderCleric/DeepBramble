@@ -1,10 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using NewHorizons.Utility;
 using NewHorizons.Utility.Files;
+using OWML.ModHelper;
 using UnityEngine;
 
 namespace DeepBramble.Helpers
@@ -24,6 +26,9 @@ namespace DeepBramble.Helpers
         public static void FirstTimeTitleEdits()
         {
             DeepBramble.debugPrint("First time title edits");
+
+            //Load the title screen music
+            titleMusic = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "title_music.ogg"));
 
             //Determine if we'll actually want to use this stuff (need to load data early to do this)
             StandaloneProfileManager.SharedInstance.Initialize();

@@ -43,9 +43,6 @@ namespace DeepBramble
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizonsAPI.LoadConfigs(this);
 
-            //Load the title screen music
-            TitleScreenHelper.titleMusic = NewHorizons.Utility.Files.AudioUtilities.LoadAudio(Path.Combine(ModHelper.Manifest.ModFolderPath, "assets", "Audio", "title_music.ogg"));
-
             //Do stuff when the title screen loads
             TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
             TitleScreenHelper.FirstTimeTitleEdits();

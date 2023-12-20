@@ -48,6 +48,16 @@ namespace DeepBramble.Helpers
 
             //Fix the campfires
             CampFireHelper.PrepFires();
+
+            //Fix all of the nomai text
+            foreach(NomaiTextLine line in GameObject.FindObjectsOfType<NomaiTextLine>())
+            {
+                OWRenderer rend = line.GetComponent<OWRenderer>();
+                if(rend != null)
+                {
+                    rend.GetRenderer().enabled = rend._gameplayActive && rend._lodActive;
+                }
+            }
         }
 
         /**
