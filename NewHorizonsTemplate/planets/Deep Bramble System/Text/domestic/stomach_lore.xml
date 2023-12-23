@@ -41,4 +41,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>FISH_STOMACH_FACT_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -18,12 +18,6 @@
       <Text>The Nomai decided to use the planetoids to construct shelter, as the tree on the largest provided oxygen.</Text>
     </ExploreFact>
 
-    <!--Found a distant campsite-->
-    <ExploreFact>
-      <ID>CAMPSITE_TEXT_FACT_FC</ID>
-      <Text>A Nomai noted an undocumented campsite on a planetoid near the center of Briar's Hollow. They placed a signal beacon near it so that it would be easy to find.</Text>
-    </ExploreFact>
-
       <!--Entry for the overlook -->
       <Entry>
         <ID>HOLE_OVERLOOK_ENTRY_FC</ID>

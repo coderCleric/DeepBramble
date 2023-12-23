@@ -77,4 +77,16 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>EGG_STORY_FACT_FC</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>ANGLER_DISTRACTION_RUMOR_FC</FactID>
+      <Condition>7</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -366,5 +366,27 @@
         ]
       }
     ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "rename": "domestic_reveal_vol",
+        "radius": 615,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "PLATFORM_DISCOVERY_FACT_FC" ]
+      },
+      {
+        "rename": "scroll_reveal_vol",
+        "radius": 8,
+        "revealOn": "observe",
+        "reveals": [ "SCROLL_WALL_FACT_FC" ],
+        "position": {
+          "x": 26.62601,
+          "y": 33.62971,
+          "z": 176.2975
+        }
+      }
+    ]
   }
 }

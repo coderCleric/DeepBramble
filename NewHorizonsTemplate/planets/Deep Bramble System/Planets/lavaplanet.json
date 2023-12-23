@@ -777,14 +777,14 @@
         "xmlFile": "planets/Deep Bramble System/Text/hot_planet/gas_cave/romantic_advice_recording.xml",
         "type": "preCrashRecorder",
         "position": {
-          "x": 137.5455,
-          "y": -128.1785,
-          "z": -75.85468
+          "x": 123.017,
+          "y": -140.9433,
+          "z": -80.15974
         },
         "rotation": {
-          "x": 306.8993,
-          "y": 152.3606,
-          "z": 332.241
+          "x": 19.07408,
+          "y": 221.5332,
+          "z": 124.2063
         }
       },
       {
@@ -839,6 +839,46 @@
             "zRotation": 302.8984
           }
         ]
+      }
+    ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "rename": "ruins_reveal_vol",
+        "radius": 45,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "ABANDONED_SETTLEMENT_FOUND_FACT_FC" ],
+        "position": {
+          "x": 36.51416,
+          "y": 244.535,
+          "z": -62.7384
+        }
+      },
+      {
+        "rename": "gas_reveal_vol",
+        "radius": 10,
+        "revealOn": "enter",
+        "revealFor": "player",
+        "reveals": [ "GAS_CAVE_DISCOVERY_FACT_FC" ],
+        "position": {
+          "x": 144.2023,
+          "y": -102.6957,
+          "z": -79.16667
+        }
+      },
+      {
+        "rename": "quantum_reveal_vol",
+        "radius": 3,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "QUANTUM_CAVE_DISCOVERY_FACT_FC" ],
+        "position": {
+          "x": -259.8391,
+          "y": -17.49122,
+          "z": 51.56717
+        }
       }
     ]
   }

@@ -33,4 +33,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CORE_LAB_PURPOSE_FACT</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

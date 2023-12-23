@@ -81,4 +81,16 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>ALIEN_STUDY_DISCOVERY_FACT_FC</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>ALIEN_SIGHT_FACT_FC</FactID>
+      <Condition>201</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

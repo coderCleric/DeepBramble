@@ -32,18 +32,6 @@
       <ID>DREE_HOME_FACT_FC</ID>
       <Text>A Nomai recording made it seem like this planet is the main area that the aliens live in.</Text>
     </ExploreFact>
-
-    <!--Learn about the translation lab construction-->
-    <ExploreFact>
-      <ID>PARK_LANGUAGE_LAB_FACT_FC</ID>
-      <Text>One of the Nomai thought about constructing a translation lab in the node hanging over the park.</Text>
-    </ExploreFact>
-
-    <!--Learn about Graviton's Folly-->
-    <ExploreFact>
-      <ID>FOLLY_PARK_FACT_FC</ID>
-      <Text>One of the Nomai detected a natural signal in Briar's Hollow, which they believed was gravitational in nature.</Text>
-    </ExploreFact>
   </Entry>
 
   <!--Entry for the story area -->

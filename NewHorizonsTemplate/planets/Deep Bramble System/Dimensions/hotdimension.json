@@ -45,6 +45,7 @@
           "z": -97.57899
         },
         "frequency": "Echolocation Tones",
+        "reveals": "DREE_SIGNAL_TUNE_FACT_FC",
         "name": "Alien Echolocation"
       },
       {
@@ -67,6 +68,15 @@
         "audio": "assets/Audio/eye_signal_sound.ogg",
         "track": "environment",
         "loop": true
+      }
+    ],
+    "revealVolumes": [
+      {
+        "rename": "eye_signal_reveal_vol",
+        "radius": 1200,
+        "revealOn": "enter",
+        "revealFor": "player",
+        "reveals": [ "EYE_SIGNAL_DISCOVERY_FACT_FC" ]
       }
     ]
   }

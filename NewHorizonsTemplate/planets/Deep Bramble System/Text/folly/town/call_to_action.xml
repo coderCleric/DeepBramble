@@ -79,4 +79,16 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>EYE_SIGNAL_RUMOR_FC</FactID>
+      <Condition>6</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>NOMAI_REVITALIZED_FACT_FC</FactID>
+      <Condition>6</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

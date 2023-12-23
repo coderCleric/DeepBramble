@@ -49,4 +49,16 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>DILATION_NODE_LOCATION_RUMOR_FC</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>DILATION_NODE_DESTRUCTION_RUMOR_FC</FactID>
+      <Condition>6</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

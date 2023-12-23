@@ -65,18 +65,6 @@
   </ShipLogConditions>
   <ShipLogConditions>
     <RevealFact>
-      <FactID>PARK_LANGUAGE_LAB_FACT_FC</FactID>
-      <Condition>4</Condition>
-    </RevealFact>
-  </ShipLogConditions>
-  <ShipLogConditions>
-    <RevealFact>
-      <FactID>FOLLY_PARK_FACT_FC</FactID>
-      <Condition>7</Condition>
-    </RevealFact>
-  </ShipLogConditions>
-  <ShipLogConditions>
-    <RevealFact>
       <FactID>LANGUAGE_LAB_RUMOR_FC</FactID>
       <Condition>4</Condition>
     </RevealFact>

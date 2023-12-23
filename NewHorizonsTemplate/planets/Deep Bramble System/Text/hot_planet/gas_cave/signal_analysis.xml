@@ -33,4 +33,22 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>SIGNAL_LAB_USE_FACT_FC</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HEART_LAB_EXISTENCE_RUMOR_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HEART_LAB_PURPOSE_RUMOR_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

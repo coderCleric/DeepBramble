@@ -11,7 +11,6 @@
       <ID>FOLLY_RUMOR_FC</ID>
       <SourceID>DREE_PARK_ENTRY_FC</SourceID>
       <RumorName>Gravitational Signal</RumorName>
-      <IgnoreMoreToExplore/>
       <Text>One of the Nomai detected a natural signal somewhere in Briar’s Hollow. The signal seemed to be gravitational in nature.</Text>
     </RumorFact>
 
@@ -70,12 +69,6 @@
           <Text>The aliens seemed to have influence over the Bramble, advancing by manipulating it, instead of via scientific pursuit.</Text>
         </ExploreFact>
 
-        <!--Egg story teaser-->
-        <ExploreFact>
-          <ID>EGG_STORY_TEXT_FACT_FC</ID>
-          <Text>A Nomai wrote down an old Dree story of how they began harvesting anglerfish eggs somewhere on Magma’s Recursion.</Text>
-        </ExploreFact>
-
         <!--Stranded text-->
         <ExploreFact>
           <ID>STRANDED_DREE_TEXT_FACT_FC</ID>
@@ -123,7 +116,6 @@
           <ID>NOMAI_MEETING_RUMOR_FC</ID>
           <SourceID>TRANSLATION_LAB_ENTRY_FC</SourceID>
           <RumorName>Nomai Meeting</RumorName>
-          <IgnoreMoreToExplore/>
           <Text>I found text calling the Nomai back to Graviton’s Folly to discuss some important news.</Text>
         </RumorFact>
 
@@ -230,18 +222,6 @@
       <ID>BROKEN_STAIRS_FACT_FC</ID>
       <Text>There is some text higher in the lab, but the stairs are broken, so I can’t sit still while my translator is in range.</Text>
     </ExploreFact>
-
-    <!--Better plan elsewhere-->
-    <ExploreFact>
-      <ID>ENZYME_LAB_PLAN_FACT_FC</ID>
-      <Text>One of the Nomai felt that he had a good rescue plan, and decided to explore it further at the Enzyme lab.</Text>
-    </ExploreFact>
-
-    <!--Pet the eye-->
-    <ExploreFact>
-      <ID>ENZYME_LAB_ACCESS_FACT</ID>
-      <Text>The enzyme lab can be found in the mouth of one of the fish near the Anglerfish Observation Platform. I should remember that, to avoid being immediately digested, I need to pet the eye of the anglerfish first.</Text>
-    </ExploreFact>
   </Entry>
 
   <!--Entry for the quarry -->
@@ -260,12 +240,6 @@
     <ExploreFact>
       <ID>QUARRY_TRANSLATION_FACT_FC</ID>
       <Text>One of the Nomai decided to use material from Graviton’s Folly to build a translation lab.</Text>
-    </ExploreFact>
-
-    <!--Alternative entrance-->
-    <ExploreFact>
-      <ID>LARGE_TRANSLATION_ENTRANCE_FACT_FC</ID>
-      <Text>While the translation lab has an easy to find entrance near Shattered Hearth, there is also a larger, more hidden entrance somewhere in Briar’s Hollow.</Text>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>

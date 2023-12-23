@@ -19,7 +19,6 @@
     <RumorFact>
         <ID>HEART_LAB_PURPOSE_RUMOR_FC</ID>
         <SourceID>SIGNAL_LAB_ENTRY_FC</SourceID>
-        <IgnoreMoreToExplore/>
         <Text>Apparently the Nomai were hopeful that the Distant Node Project would allow them to reach the Eye of the Universe.</Text>
     </RumorFact>
 
@@ -27,7 +26,6 @@
     <RumorFact>
         <ID>HEART_LAB_ACCESS_RUMOR_FC</ID>
         <SourceID>QUANTUM_CAVE_ENTRY_FC</SourceID>
-        <IgnoreMoreToExplore/>
         <Text>Apparently, the quantum rock on Magma’s Recursion served some utility for the Distant Node Project.</Text>
     </RumorFact>
 

@@ -67,4 +67,22 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>OBSTRUCTED_TEXT_FACT_FC</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HEART_LAB_ACCESS_RUMOR_FC</FactID>
+      <Condition>7</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HEART_LAB_EXISTENCE_RUMOR_FC</FactID>
+      <Condition>7</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

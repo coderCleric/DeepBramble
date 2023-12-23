@@ -41,4 +41,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>GAS_CRYSTALS_FACT_FC</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

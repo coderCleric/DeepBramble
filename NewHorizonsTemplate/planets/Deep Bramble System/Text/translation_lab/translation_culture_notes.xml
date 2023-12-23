@@ -77,4 +77,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>TRANSLATION_DRUIDCRAFT_FACT_FC</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

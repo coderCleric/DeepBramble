@@ -12,7 +12,6 @@
     <RumorFact>
       <ID>LANGUAGE_LAB_RUMOR_FC</ID>
       <SourceID>DREE_PARK_ENTRY_FC</SourceID>
-      <IgnoreMoreToExplore/>
       <Text>I read that one of the Nomai was studying the alien’s language in some sort of lab. It has an entrance near Shattered Hearth, above the park with the big tree.</Text>
     </RumorFact>
 
@@ -34,7 +33,6 @@
     <RumorFact>
       <ID>LANGUAGE_LARGE_ENTRANCE_RUMOR_FC</ID>
       <SourceID>QUARRY_ENTRY_FC</SourceID>
-      <IgnoreMoreToExplore/>
       <Text>I read that the translation lab has a larger, harder to find entrance somewhere in Briar's Hollow.</Text>
     </RumorFact>
 
@@ -42,7 +40,6 @@
     <RumorFact>
       <ID>ANGLER_DISTRACTION_RUMOR_FC</ID>
       <SourceID>LANDING_ZONE_ENTRY_FC</SourceID>
-      <IgnoreMoreToExplore/>
       <Text>The Nomai hypothesized that anglerfish might not be able to distinguish between organic and inorganic prey.</Text>
     </RumorFact>
 
@@ -60,23 +57,11 @@
       <Text>One of the Nomai observed a massive anglerfish residing near the translation lab. He theorized that, due to its size, it would starve if the Dree did not continue to feed it.</Text>
     </ExploreFact>
 
-    <!--Mourning call-->
-    <ExploreFact>
-      <ID>MOURNING_CALL_FACT_FC</ID>
-      <Text>One of the Nomai called the others together at Graviton’s Folly to discuss some important news.</Text>
-    </ExploreFact>
-
     <!--Entry for the actual translations -->
     <Entry>
       <ID>TRANSLATIONS_ENTRY_FC</ID>
       <Name>Translations</Name>
       <Curiosity>DREE</Curiosity>
-
-      <!--Initial discovery-->
-      <ExploreFact>
-        <ID>TRANSLATION_DISCOVERY_FACT_FC</ID>
-        <Text>I found the work that the Nomai did to translate the alien’s language.</Text>
-      </ExploreFact>
 
       <!--Dree name-->
       <ExploreFact>

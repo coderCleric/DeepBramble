@@ -99,12 +99,6 @@
 	<!--Ship log reveals go here-->
   <ShipLogConditions>
     <RevealFact>
-      <FactID>CAMPSITE_TEXT_FACT_FC</FactID>
-      <Condition>5</Condition>
-    </RevealFact>
-  </ShipLogConditions>
-  <ShipLogConditions>
-    <RevealFact>
       <FactID>CAMP_RUMOR_FC</FactID>
       <Condition>5</Condition>
     </RevealFact>

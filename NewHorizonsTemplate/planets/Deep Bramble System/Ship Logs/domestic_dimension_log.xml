@@ -12,7 +12,6 @@
         <ID>FRIENDLY_FISH_RUMOR_FC</ID>
       <SourceID>TRANSLATIONS_ENTRY_FC</SourceID>
       <RumorName>Friendly Fish</RumorName>
-        <IgnoreMoreToExplore/>
         <Text>I found Nomai writing claiming that one of the areas accessible near Shattered Hearth contains tame anglerfish.</Text>
     </RumorFact>
 
@@ -53,7 +52,6 @@
     <RumorFact>
         <ID>MOUTH_LAB_RUMOR_FC</ID>
         <SourceID>CORE_LAB_ENTRY_FC</SourceID>
-        <IgnoreMoreToExplore/>
         <Text>I read about somewhere called the Enzyme Lab in the mouth of one of the domesticated fish. The Nomai decided to go there to discuss how to save someone named Ditylum.</Text>
     </RumorFact>
 
@@ -61,7 +59,6 @@
     <RumorFact>
         <ID>EYE_PET_RUMOR_FC</ID>
         <SourceID>CORE_LAB_ENTRY_FC</SourceID>
-        <IgnoreMoreToExplore/>
         <Text>Apparently the lab can only be safely entered once the eye of the anglerfish has been pet.</Text>
     </RumorFact>
 

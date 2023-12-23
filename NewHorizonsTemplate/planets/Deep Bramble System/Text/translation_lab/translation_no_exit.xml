@@ -51,4 +51,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>NO_ESCAPE_FACT_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

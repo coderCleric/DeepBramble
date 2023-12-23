@@ -12,7 +12,6 @@
       <ID>CAMP_RUMOR_FC</ID>
       <SourceID>PLANETOID_CLUSTER_ENTRY_FC</SourceID>
       <RumorName>Strange Camp</RumorName>
-      <IgnoreMoreToExplore/>
       <Text>One of the Nomai discovered a campsite on a large planetoid, which none of the Nomai constructed. They placed a signal beacon there so that they could easily find it again.</Text>
     </RumorFact>
 

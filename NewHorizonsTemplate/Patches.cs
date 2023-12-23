@@ -75,6 +75,10 @@ namespace DeepBramble
             {
                 //Disable bramble music
                 Locator._globalMusicController._darkBrambleSource.gameObject.SetActive(false);
+
+                //Stop that weird "ship landed" bug
+                foreach(LandingPadSensor sensor in Locator.GetShipBody().GetComponentsInChildren<LandingPadSensor>())
+                    sensor._contactBody = null;
             }
 
             //Give the main class the player damage audio
@@ -120,6 +124,19 @@ namespace DeepBramble
 
             //By default, run normal stuff
             return true;
+        }
+
+        /**
+         * Stop the ship from randomly thinking it's on TH
+         * 
+         * @param __instance The calling sensor
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(LandingPadSensor), nameof(LandingPadSensor.GetContactBody))]
+        public static void ShipGroundedCorrection(LandingPadSensor __instance)
+        {
+            if(ForgottenLocator.inBrambleSystem && __instance._contactBody != null && __instance._contactBody.name.Equals("TimberHearth_Body"))
+                __instance._contactBody = null;
         }
 
         //################################# Slate & Respawning #################################

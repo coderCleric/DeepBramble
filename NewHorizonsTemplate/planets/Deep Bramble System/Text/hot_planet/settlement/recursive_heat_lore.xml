@@ -33,4 +33,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>SIGNAL_FEEDBACK_FACT_FC</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

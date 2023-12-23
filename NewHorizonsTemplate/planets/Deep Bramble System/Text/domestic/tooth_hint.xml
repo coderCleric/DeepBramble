@@ -51,4 +51,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>DOMESTIC_TOOTH_FACT_FC</FactID>
+      <Condition>102</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

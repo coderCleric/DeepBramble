@@ -95,4 +95,16 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>REJECT_EXISTENCE_RUMOR_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CORE_DITYLUM_STRANDED_FACT_FC</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

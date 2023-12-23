@@ -1503,5 +1503,109 @@
         ]
       }
     ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "rename": "folly_reveal_vol",
+        "radius": 500,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "FOLLY_DISCOVERY_FACT_FC" ]
+      },
+      {
+        "rename": "pillar_reveal_vol",
+        "radius": 80,
+        "revealOn": "observe",
+        "revealFor": "both",
+        "reveals": [ "PILLAR_DISCOVERY_FACT_FC" ],
+        "position": {
+          "x": 10.10685,
+          "y": 27.08734,
+          "z": 52.42056
+        }
+      },
+      {
+        "rename": "quarry_reveal_vol",
+        "radius": 80,
+        "revealOn": "observe",
+        "revealFor": "both",
+        "reveals": [ "QUARRY_DISCOVERY_FACT_FC" ],
+        "position": {
+          "x": -61.98087,
+          "y": -78.01241,
+          "z": -102.2783
+        }
+      },
+      {
+        "rename": "eye_shrine_reveal_vol",
+        "radius": 15,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "EYE_SHRINE_DISCOVERY_FACT_FC" ],
+        "position": {
+          "x": 10.67421,
+          "y": 27.14692,
+          "z": 52.272
+        }
+      },
+      {
+        "rename": "memorial_reveal_vol",
+        "radius": 25,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "POD_MEMORIAL_FACT_FC" ],
+        "position": {
+          "x": 25.20515,
+          "y": 51.02551,
+          "z": 57.96663
+        }
+      },
+      {
+        "rename": "core_reveal_vol",
+        "radius": 115,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "GRAV_CORE_SEEN_FACT_FC" ]
+      },
+      {
+        "rename": "tunnels_reveal_vol",
+        "radius": 35,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "CORE_TUNNELS_FACT_FC" ]
+      },
+      {
+        "rename": "crystal_reveal_vol",
+        "radius": 15,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "CORE_ENTERED_FACT_FC" ]
+      },
+      {
+        "rename": "lab_reveal_vol",
+        "radius": 30,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "CORE_LAB_FOUND_FACT_FC" ],
+        "position": {
+          "x": -31.75199,
+          "y": -106.6859,
+          "z": 30.5243
+        }
+      },
+      {
+        "rename": "high_text_reveal_vol",
+        "radius": 5,
+        "revealOn": "observe",
+        "revealFor": "both",
+        "reveals": [ "BROKEN_STAIRS_FACT_FC" ],
+        "position": {
+          "x": -23.821,
+          "y": -100.7203,
+          "z": 26.55841
+        }
+      }
+    ]
   }
 }

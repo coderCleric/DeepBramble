@@ -89,4 +89,34 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>DREE_STORY_RUMOR_FC</FactID>
+      <Condition>203</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>ALIEN_STUDY_DISCOVERY_FACT_FC</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>ALIEN_DRUIDCRAFT_FACT_FC</FactID>
+      <Condition>102</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>STRANDED_DREE_TEXT_FACT_FC</FactID>
+      <Condition>403</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>REJECT_EXISTENCE_RUMOR_FC</FactID>
+      <Condition>403</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

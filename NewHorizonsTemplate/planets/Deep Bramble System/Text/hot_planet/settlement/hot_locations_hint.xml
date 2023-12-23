@@ -61,4 +61,28 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HOT_PLANET_NO_CITY_FACT_FC</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HOT_ROAD_FACT_FC</FactID>
+      <Condition>202</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>SIGNAL_LAB_RUMOR_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>QUANTUM_CAVE_RUMOR_FC</FactID>
+      <Condition>102</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -113,4 +113,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>RELATIONSHIP_ADVICE_FACT_FC</FactID>
+      <Condition>14</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -12,7 +12,6 @@
         <SourceID>ALIEN_STUDY_ENTRY_FC</SourceID>
         <RumorName>Alien Story</RumorName>
         <RumorNamePriority>1</RumorNamePriority>
-        <IgnoreMoreToExplore/>
         <Text>One of the Nomai transcribed an old alien legend on a planet called Magma’s Recursion</Text>
     </RumorFact>
 
@@ -22,7 +21,6 @@
         <SourceID>POD_MEMORIAL_ENTRY_FC</SourceID>
         <RumorName>Ancient Signal</RumorName>
         <RumorNamePriority>2</RumorNamePriority>
-        <IgnoreMoreToExplore/>
         <Text>Apparently, there is an ancient signal reverberating through the area surrounding Magma’s Recursion.</Text>
     </RumorFact>
 
@@ -62,19 +60,7 @@
       <Text>Due to how inhospitable this planet is, the Nomai decided not to settle here, and instead only set up a couple of labs.</Text>
     </ExploreFact>
 
-    <!--They made an eye lab-->
-    <ExploreFact>
-      <ID>HOT_PLANET_EYE_LAB_FACTS_FC</ID>
-      <Text>The Nomai decided to set up a lab to study the Eye’s signal in a cave that they unearthed.</Text>
-    </ExploreFact>
-
-    <!--They found a wandering rock-->
-    <ExploreFact>
-      <ID>HOT_PLANET_WANDERING_ROCK_FACT_FC</ID>
-      <Text>The Nomai found a strange, wandering rock in the side of a hill.</Text>
-    </ExploreFact>
-
-    <!--They made a road-->
+    <!--They built a road-->
     <ExploreFact>
       <ID>HOT_ROAD_FACT_FC</ID>
       <Text>To help with navigation, the Nomai constructed a road that leads to both of the landmarks that they found.</Text>
@@ -105,7 +91,6 @@
     <RumorFact>
         <ID>SIGNAL_LAB_RUMOR_FC</ID>
         <SourceID>ABANDONED_SETTLEMENT_ENTRY_FC</SourceID>
-        <IgnoreMoreToExplore/>
         <Text>Supposedly, the Nomai set up a lab to study the Eye’s signal in a cave on Magma’s Recursion.</Text>
     </RumorFact>
 
@@ -140,12 +125,6 @@
           <Text>Unfortunately, the signal did not tell the Nomai much more about the Eye of the Universe than what they already knew. However, they did mention that the signal may help something called the Distant Node Project bring them to the Eye.</Text>
         </ExploreFact>
 
-        <!--There's a dangerous node-->
-        <ExploreFact>
-          <ID>SIGNAL_LAB_DANGER_NODE_FACT_FC</ID>
-          <Text>One of the Dree reported that a strange, dangerous node had been found in Briar's Hollow. At the insistence of the Dree, the Nomai decided to find a way to destroy it.</Text>
-        </ExploreFact>
-
         <!--There's a dree recording-->
         <ExploreFact>
           <ID>DREE_ECHOLOCATION_STUDY_FACT_FC</ID>
@@ -170,7 +149,6 @@
     <RumorFact>
         <ID>QUANTUM_CAVE_RUMOR_FC</ID>
         <SourceID>ABANDONED_SETTLEMENT_ENTRY_FC</SourceID>
-        <IgnoreMoreToExplore/>
         <Text>Supposedly, the Nomai discovered a strange, wandering rock in a cave on Magma’s Recursion.</Text>
     </RumorFact>
 
@@ -178,7 +156,6 @@
     <RumorFact>
         <ID>BLOCKABLE_ROCK_RUMOR_FC</ID>
         <SourceID>ENZYME_LAB_ENTRY_FC</SourceID>
-        <IgnoreMoreToExplore/>
         <Text>The Nomai discovered that the quantum rock in this cave can be blocked, forcing it to travel to a secret, third location. The Nomai theorized that even a small object, such as a scroll, would be enough to trigger this behavior.</Text>
     </RumorFact>
 
@@ -192,12 +169,6 @@
     <ExploreFact>
       <ID>OBSTRUCTED_TEXT_FACT_FC</ID>
       <Text>The Nomai discovered something about the rock’s behavior, but a cooled lava flow is obstructing the text.</Text>
-    </ExploreFact>
-
-    <!--It could be useful-->
-    <ExploreFact>
-      <ID>ROCK_UTILITY_FACT_FC</ID>
-      <Text>The rock was found to be useful for something called the Distant Node Project, which might help the Nomai reach the Eye.</Text>
     </ExploreFact>
 
     <!--I used it-->

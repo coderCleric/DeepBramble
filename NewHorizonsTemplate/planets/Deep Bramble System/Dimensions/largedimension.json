@@ -283,7 +283,8 @@
           "z": 0
         },
         "frequency": "Natural Phenomena",
-        "name": "Gravitational Anomaly"
+        "name": "Gravitational Anomaly",
+        "reveals": "FOLLY_SIGNAL_FACT_FC"
       },
       {
         "rename": "dilation_signal",

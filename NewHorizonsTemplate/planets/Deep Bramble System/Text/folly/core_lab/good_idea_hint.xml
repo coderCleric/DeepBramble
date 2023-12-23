@@ -33,4 +33,16 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>MOUTH_LAB_RUMOR_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>EYE_PET_RUMOR_FC</FactID>
+      <Condition>4</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

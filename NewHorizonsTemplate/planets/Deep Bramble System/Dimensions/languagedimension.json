@@ -692,6 +692,20 @@
         "track": "music",
         "loop": true
       }
+    ],
+    "revealVolumes": [
+      {
+        "rename": "baby_fish_reveal_vol",
+        "radius": 70,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "SMALL_FISH_DISCOVERY_RUMOR_FC" ],
+        "position": {
+          "x": -58.7,
+          "y": -0.6,
+          "z": -12.7
+        }
+      }
     ]
   }
 }

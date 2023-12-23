@@ -117,6 +117,15 @@
         "track": "music",
         "loop": true
       }
+    ],
+    "revealVolumes": [
+      {
+        "rename": "nursery_reveal_vol",
+        "radius": 2500,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "NURSERY_FOUND_FACT_FC" ]
+      }
     ]
   }
 }

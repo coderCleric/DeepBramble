@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			SENNETTI: That is good to hear! However, I have to wonder… Okalis, may I ask what the nature of this gift is?
+			SENNETTI: That is good to hear! However, I have to wonderâ€¦ Okalis, may I ask what the nature of this gift is?
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			OKALIS: Are you certain? A courting ritual?! That would imply… was Amylax asking me to be his partner!?! How do I properly respond to that!?
+			OKALIS: Are you certain? A courting ritual?! That would implyâ€¦ was Amylax asking me to be his partner!?! How do I properly respond to that!?
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			OKALIS: Refuse or accept… If that is the case, then Sennetti, would you be willing to help me gain a better understanding of the Dree language? I believe I have a message important enough that it must be written by hand.
+			OKALIS: Refuse or acceptâ€¦ If that is the case, then Sennetti, would you be willing to help me gain a better understanding of the Dree language? I believe I have a message important enough that it must be written by hand.
 		</Text>
 	</TextBlock>
 
@@ -70,9 +70,15 @@
 		<ID>102</ID>
 		<ParentID>101</ParentID>
 		<Text>
-			OKALIS: How I responded… oh no! I stated I took it as a “surefire token of the continued friendship between ourselves and our species�?! He extended an offer of partnership and I, for all intents and purposes, called him a very good friend! This is disastrous!
+			OKALIS: How I respond... oh no! I stated I took it as a "surefire token of the continued friendship between ourselves and our species" He extended an offer of partnership and I, for all intents and purposes, called him a very good friend! This is disastrous!
 		</Text>
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>FLIRTING_REVELATION_FACT_FC</FactID>
+      <Condition>6</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

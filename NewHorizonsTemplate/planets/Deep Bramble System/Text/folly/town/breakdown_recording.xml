@@ -65,4 +65,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>NOMAI_DISHEARTENED_FACT_FC</FactID>
+      <Condition>8</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

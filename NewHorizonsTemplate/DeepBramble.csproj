@@ -413,9 +413,6 @@
       <None Update="planets\Deep Bramble System\Ship Logs\camp_planet.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\Deep Bramble System\Ship Logs\camp_planetoid.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
       <None Update="planets\Deep Bramble System\Ship Logs\cluster.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
@@ -437,13 +434,7 @@
       <None Update="planets\Deep Bramble System\Ship Logs\nursery_log.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
-      <None Update="planets\Deep Bramble System\Ship Logs\planetoidcluster.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
       <None Update="planets\Deep Bramble System\Ship Logs\shattered_hearth_log.xml">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
-      <None Update="planets\Deep Bramble System\Ship Logs\startdimension.xml">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="planets\Deep Bramble System\Ship Logs\start_dim_log.xml">

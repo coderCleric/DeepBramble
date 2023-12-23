@@ -63,4 +63,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>EYE_PURPOSE_FACT_FC</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -243,7 +243,7 @@ namespace DeepBramble
             //Teleport to a specific point when n is pressed
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
-                //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
+                Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
                 //Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
                 //Vector3 point = new Vector3(9559.7f, 9920.6f, -99.4f); //Language Dimension
                 //Vector3 point = new Vector3(-24.7f, 10043.4f, -244.6f); //Lava planet start
@@ -251,7 +251,7 @@ namespace DeepBramble
                 //Vector3 point = new Vector3(85.7f, -3.3f, -9960.4f); //Poison planet
                 //Vector3 point = new Vector3(349.8f, -322.1f, 31738.1f); //Dilation node
                 //Vector3 point = new Vector3(1296.0f, -235.1f, 30832.0f); //Campsite
-                Vector3 point = new Vector3(-10031.3f, 10.4f, -10035.9f); //Domestic dimension
+                //Vector3 point = new Vector3(-10031.3f, 10.4f, -10035.9f); //Domestic dimension
                 //Vector3 point = new Vector3(1.6f, 121.1f, 0.2f); //Heart
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
@@ -268,7 +268,7 @@ namespace DeepBramble
                 FogWarpDetector shipDetector = Locator.GetShipDetector().GetComponent<FogWarpDetector>();
                 if (shipDetector.GetOuterFogWarpVolume() != null) {
                     Patches.fogRepositionHandled = true;
-                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("DomesticDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
+                    shipDetector.GetOuterFogWarpVolume().WarpDetector(shipDetector, GameObject.Find("LargeDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>());
                 }
 
                 Locator._shipBody.SetPosition(point);

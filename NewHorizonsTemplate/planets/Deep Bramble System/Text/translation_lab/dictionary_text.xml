@@ -66,9 +66,15 @@
 		<ID>302</ID>
 		<ParentID>301</ParentID>
 		<Text>
-			SENNETTI: They can, actually. It seems they are able to detect the differences in the materials via echolocation, allowing them to “read�? our writing.
+			SENNETTI: They can, actually. It seems they are able to detect the differences in the materials via echolocation, allowing them to â€œreadâ€? our writing.
 		</Text>
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>TRANSLATOR_UPGRADE_FACT_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>
