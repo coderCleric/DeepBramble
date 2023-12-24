@@ -50,5 +50,8 @@ namespace DeepBramble
         public static NodeKiller dilationNodeKiller = null;
         public static SwimmingDitylumManager swimmingDitylum = null;
         public static NomaiWallText griefText = null;
+        public static SadDitylumManager sadDitylum = null;
+        public static GameObject permaBlockRock = null;
+        public static BlockableQuantumSocket permaBlockableSocket = null;
     }
 }

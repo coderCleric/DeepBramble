@@ -12,6 +12,7 @@ namespace DeepBramble.BaseInheritors
         public OWItem blockingDrop = null;
         private bool scoutIsBlocking = false;
         public OuterFogWarpVolume outerFogWarp = null;
+        public bool isPermaBlocked = false;
 
         /**
          * Need to do stuff to prevent a null ref in the standard awake
@@ -54,7 +55,7 @@ namespace DeepBramble.BaseInheritors
         public override bool IsOccupied()
         {
             bool baseOccupied = base.IsOccupied();
-            return baseOccupied || blockingDrop != null || scoutIsBlocking;
+            return baseOccupied || blockingDrop != null || scoutIsBlocking || isPermaBlocked;
         }
 
         /**
@@ -62,7 +63,7 @@ namespace DeepBramble.BaseInheritors
          */
         public bool OccupiedByScoutOnly()
         {
-            return scoutIsBlocking && !base.IsOccupied() && blockingDrop == null;
+            return scoutIsBlocking && !base.IsOccupied() && blockingDrop == null && !isPermaBlocked;
         }
 
         /**

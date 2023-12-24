@@ -186,6 +186,11 @@ namespace DeepBramble.Helpers
                             if (ForgottenLocator.specialSocket != null)
                                 ForgottenLocator.quantumRock.specialSocket = ForgottenLocator.specialSocket;
 
+                            //Grab the special things for Ditylum's sequence
+                            ForgottenLocator.permaBlockRock = quantumCaveRoot.Find("perma_block_rock").gameObject;
+                            ForgottenLocator.permaBlockRock.SetActive(false);
+                            ForgottenLocator.permaBlockableSocket = quantumCaveRoot.Find("quantum_socket (1)").GetComponent<BlockableQuantumSocket>();
+
                             //Set up the swapping text on the scroll
                             ScrollTextSwitcher scrollSwitcher = sectorTransform.Find("quantumTrickScroll").gameObject.AddComponent<ScrollTextSwitcher>();
                             scrollSwitcher.RegisterTrigger(quantumFadeTrigger.gameObject.GetComponent<OWTriggerVolume>());
@@ -220,6 +225,9 @@ namespace DeepBramble.Helpers
                             ForgottenLocator.griefText = sectorTransform.Find("grief_text").gameObject.GetComponent<NomaiWallText>();
                             ForgottenLocator.griefText.HideTextOnStart();
                             ForgottenLocator.griefText.HideImmediate();
+
+                            //Add the controller to ditylum
+                            ForgottenLocator.sadDitylum = sectorTransform.Find("final_lab/final_lab_room/sad_ditylum").gameObject.AddComponent<SadDitylumManager>();
 
                             break;
 

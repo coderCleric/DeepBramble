@@ -139,6 +139,25 @@ namespace DeepBramble
                 __instance._contactBody = null;
         }
 
+        /**
+         * Listen for when the player finishes reading Ditylum's stuff
+         * 
+         * @param id The id of the learned fact
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(ShipLogManager), nameof(ShipLogManager.RevealFact))]
+        public static bool ListenForReveal(string id)
+        {
+            //If it's the dummy fact, do things and stop
+            if(id.Equals("READ_DITYLUM_STUFF"))
+            {
+                ForgottenLocator.sadDitylum.EnableSitting();
+                return false;
+            }
+
+            return true;
+        }
+
         //################################# Slate & Respawning #################################
         /**
          * Slate needs dialogue conditions set up properly at the start of the loop

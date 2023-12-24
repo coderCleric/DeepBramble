@@ -90,6 +90,14 @@ namespace DeepBramble.MiscBehaviours
                 //Trigger Ditylum to get going
                 ForgottenLocator.swimmingDitylum.LockPlayerOn();
                 ForgottenLocator.swimmingDitylum.BeginSequence();
+
+                //Enable the Ditylum at the lab
+                ForgottenLocator.sadDitylum.gameObject.SetActive(true);
+
+                //Perma-block the quantum rock
+                ForgottenLocator.permaBlockRock.SetActive(true);
+                ForgottenLocator.permaBlockableSocket.isPermaBlocked = true;
+                ForgottenLocator.quantumRock.Collapse();
             }
         }
     }
