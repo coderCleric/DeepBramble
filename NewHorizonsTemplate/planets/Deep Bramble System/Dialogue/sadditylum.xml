@@ -1,0 +1,23 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>Ditylum</NameField>
+
+  <!--Talking to him-->
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>...</Page>
+    </Dialogue>
+    <DialogueOptionsList>
+      <DialogueOption>
+        <Text>Hello?</Text>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Who are you?</Text>
+      </DialogueOption>
+      <DialogueOption>
+        <Text>Are you okay?</Text>
+      </DialogueOption>
+    </DialogueOptionsList>
+  </DialogueNode>
+</DialogueTree>

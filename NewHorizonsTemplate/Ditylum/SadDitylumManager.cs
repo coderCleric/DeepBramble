@@ -71,6 +71,7 @@ namespace DeepBramble.Ditylum
             receiver.SetInteractionEnabled(false);
             anchor.AttachPlayer();
             PlayerData.SetPersistentCondition("MET_DITYLUM", true);
+            Locator.GetShipLogManager().RevealFact("DITYLUM_MOURNING_FACT_FC");
 
             //Set them to meditate
             sitTime = Time.time;

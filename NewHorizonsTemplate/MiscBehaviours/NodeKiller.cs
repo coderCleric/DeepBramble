@@ -64,6 +64,9 @@ namespace DeepBramble.MiscBehaviours
 
             //Set it to be dead
             dead = true;
+
+            //Reveal ship log fact
+            Locator.GetShipLogManager().RevealFact("DITYLUM_EJECTION_FACT_FC");
         }
 
         /**

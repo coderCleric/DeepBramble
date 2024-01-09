@@ -49,4 +49,10 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>READ_DITYLUM_STUFF</FactID>
+      <Condition>6</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

@@ -54,8 +54,12 @@ namespace DeepBramble.Triggers
                 if (otherBody.CompareTag("Player"))
                     this.transform.parent.Find("HazardVolume").gameObject.SetActive(true);
 
+                //If it was the ship, do the ship log reveal
+                else
+                    Locator.GetShipLogManager().RevealFact("ANGLER_DISTRACTION_SUCCESS_FACT_FC");
+
                 //If it was the ship and this has a dialogue, enable the dialogue
-                if(otherBody.CompareTag("Ship") && fishTransform.GetComponent<BabyFishController>().dialogue != null)
+                if (otherBody.CompareTag("Ship") && fishTransform.GetComponent<BabyFishController>().dialogue != null)
                     fishTransform.GetComponent<BabyFishController>().dialogue.gameObject.SetActive(true);
             }
         }

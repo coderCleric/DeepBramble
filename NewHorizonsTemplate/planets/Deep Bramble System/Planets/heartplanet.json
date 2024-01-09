@@ -475,9 +475,9 @@
         "type": "wall",
         "seed": 98574,
         "position": {
-          "x": 3.738787,
-          "y": -99.93048,
-          "z": 0.2468593
+          "x": 3.7388,
+          "y": -99.9305,
+          "z": -0.204
         },
         "rotation": {
           "x": 90,
@@ -536,6 +536,49 @@
             "zRotation": 59.86522
           }
         ]
+      }
+    ],
+    "dialogue": [
+      {
+        "parentPath": "Sector/final_lab/final_lab_room/sad_ditylum",
+        "rename": "ditylum_dialogue",
+        "isRelativeToParent": true,
+        "radius": 0.7,
+        "range": 2,
+        "xmlFile": "planets/Deep Bramble System/Dialogue/sadditylum.xml",
+        "position": {
+          "x": 0,
+          "y": 0.5636,
+          "z": 0.4873
+        }
+      }
+    ]
+  },
+  "Volumes": {
+    "revealVolumes": [
+      {
+        "rename": "entry_reveal_vol",
+        "radius": 50,
+        "revealOn": "enter",
+        "revealFor": "player",
+        "reveals": [ "HEART_LAB_DISCOVERY_FACT_FC", "ROCK_USED_FACT_FC" ],
+        "position": {
+          "x": 1.222616,
+          "y": 99.85869,
+          "z": 0.01895571
+        }
+      },
+      {
+        "rename": "death_reveal_vol",
+        "radius": 6,
+        "revealOn": "enter",
+        "revealFor": "player",
+        "reveals": [ "DEAD_ALIENS_FACT_FC" ],
+        "position": {
+          "x": -3.2175,
+          "y": -99.85869,
+          "z": 0.07316947
+        }
       }
     ]
   }

@@ -65,4 +65,10 @@
       <Condition>4</Condition>
     </RevealFact>
   </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>KEVIN_PURPOSE_FACT_FC</FactID>
+      <Condition>102</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

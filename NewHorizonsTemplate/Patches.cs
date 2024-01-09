@@ -207,6 +207,7 @@ namespace DeepBramble
                 //If it's the player, kill them
                 if (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip()))
                 {
+                    Locator.GetShipLogManager().RevealFact("FASTFORWARD_RUMOR_FC");
                     Locator.GetDeathManager().KillPlayer(DeathType.TimeLoop);
                     OWRigidbody playerBody = Locator.GetPlayerBody();
                     Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
@@ -259,6 +260,7 @@ namespace DeepBramble
                     DeepBramble.recallTimer = 3;
                 NotificationData data = new NotificationData(NotificationTarget.All, "RECALL REQUEST UNACKNOWLEDGED");
                 NotificationManager.SharedInstance.PostNotification(data);
+                Locator.GetShipLogManager().RevealFact("SCOUT_DELAY_RUMOR_FC");
                 return false;
             }
 

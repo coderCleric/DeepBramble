@@ -33,7 +33,7 @@
     <RumorFact>
       <ID>MOUNT_PURPOSE_FACT_FC</ID>
       <SourceID>REJECT_ENTRY_FC</SourceID>
-      <Text>The strange mount on the node is apparently for delivering a lethal toxin, a task that a Dree named Ditylum was charged with.</Text>
+      <Text>A mount on the node is apparently for delivering a lethal toxin, a task that a Dree named Ditylum was charged with.</Text>
     </RumorFact>
 
     <!--Dilation effect-->

@@ -79,4 +79,10 @@
       <Condition>5</Condition>
     </RevealFact>
   </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>BLOCKABLE_ROCK_RUMOR_FC</FactID>
+      <Condition>5</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>
