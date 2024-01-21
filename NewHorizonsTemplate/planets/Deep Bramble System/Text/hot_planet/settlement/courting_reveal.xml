@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			OKALIS: I am happy to report our relations with the Dree seem to be going well! In fact, Amylax saw fit to deliver a gift to me!
+			OKALIS: I am happy to report our relations with our new friends seem to be going well! In fact, Amylax saw fit to deliver a gift to me!
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			OKALIS: It is a lovely necklace, woven from several small vines which seem to have been made to grow around one another. I am honestly unsure how he must have made it. Perhaps he used the druidic influence the Dree seem to have? Whatever the case, it must have taken some time to create.
+			OKALIS: It is a lovely necklace, woven from several small vines which seem to have been made to grow around one another. I am honestly unsure how he must have made it. Perhaps he used the druidic influence his people seem to have? Whatever the case, it must have taken some time to create.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			SENNETTI: Hm, yes, I suspected that might be the case. Okalis, I feel I should inform you that, based on my studies of Dree culture, a necklace such as that is a key component of the traditional courting ritual. Usually, the intended recipient will either refuse the necklace, indicating a lack of interest, or accept it and gift the initiator with a similar necklace.
+			SENNETTI: Hm, yes, I suspected that might be the case. Okalis, I feel I should inform you that, based on my studies of these alien's culture, a necklace such as that is a key component of the traditional courting ritual. Usually, the intended recipient will either refuse the necklace, indicating a lack of interest, or accept it and gift the initiator with a similar necklace.
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			OKALIS: Refuse or acceptâ€¦ If that is the case, then Sennetti, would you be willing to help me gain a better understanding of the Dree language? I believe I have a message important enough that it must be written by hand.
+			OKALIS: Refuse or accept... If that is the case, then Sennetti, would you be willing to help me gain a better understanding of his language? I believe I have a message important enough that it must be written by hand.
 		</Text>
 	</TextBlock>
 

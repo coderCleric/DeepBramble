@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			SENNETTI: While Nesia heads the study of the Dree’s physiology, I would like to take the opportunity to share aspects of their culture that I learned of during my translation of their language.
+			SENNETTI: While Nesia heads the study of our new friend’s physiology, I would like to take the opportunity to share aspects of their culture that I learned of during my translation of their language.
 		</Text>
 	</TextBlock>
 
@@ -14,7 +14,7 @@
 		<ID>101</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			SENNETTI: Rather than engaging in scientific pursuits, the Dree seem to have certain… influences over the <![CDATA[<color=purple>Bramble</color>]]>. This includes influencing the growth of the vines (as demonstrated by those holding together <![CDATA[<color=orange>Shattered Hearth</color>]]>) and even some level of communication with the plant.
+			SENNETTI: Rather than engaging in scientific pursuits, they seem to excercise certain… influences over the <![CDATA[<color=purple>Bramble</color>]]>. This includes influencing the growth of the vines (as demonstrated by those holding together <![CDATA[<color=orange>Shattered Hearth</color>]]>) and even some level of communication with the plant.
 		</Text>
 	</TextBlock>
 
@@ -32,7 +32,7 @@
 		<ID>201</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			OKALIS: Resuming our studies, the Dree seem to gain most of their nutrition from anglerfish eggs, domesticating and breeding the fish to do so.
+			OKALIS: Resuming our studies, they seem to gain most of their nutrition from anglerfish eggs, domesticating and breeding the fish to do so.
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<ID>203</ID>
 		<ParentID>202</ParentID>
 		<Text>
-			SENNETTI: I believe I do actually have the answer to this question, as an old Dree story may explain it. The story is too long to transcribe here, but I had previously recorded it on <![CDATA[<color=orange>Magma’s Recursion</color>]]>.
+			SENNETTI: I believe I do actually have the answer to this question, as an old story may explain it. The story is too long to transcribe here, but I had previously recorded it on <![CDATA[<color=orange>Magma’s Recursion</color>]]>.
 		</Text>
 	</TextBlock>
 
@@ -58,7 +58,7 @@
 		<ID>301</ID>
 		<ParentID>202</ParentID>
 		<Text>
-			NESIA: Agreed. Even now the Dree continue to keep lights on their homes to ward off any wandering fish.
+			NESIA: Agreed. Even now they continue to keep lights on their homes to ward off any wandering fish.
 		</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<ID>401</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			NESIA: I have observed that the Dree seem rather… stagnant. They seem uninterested in exploring beyond their immediate vicinity and appear to have entirely accepted their current situation.
+			NESIA: I have observed that our friends seem rather… stagnant. They seem uninterested in exploring beyond their immediate vicinity and appear to have entirely accepted their current situation.
 		</Text>
 	</TextBlock>
 

@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			AZOLLA: Is this regarding your discussion with the Dree druid? I must confess that your change in demeanor after that conversation has piqued my curiosity… Nesia, are you crying?
+			AZOLLA: Is this regarding your discussion with Karenia? I must confess that your change in demeanor after that conversation has piqued my curiosity… Nesia, are you crying?
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			NESIA: I-I’m sorry Azolla, my grief is overwhelming me. I knew that our Dree friends possess strange abilities, so I decided to speak with one regarding the rest of our clan, to try and determine their fate, and…
+			NESIA: I-I’m sorry Azolla, my grief is overwhelming me. I knew that our new friends possess strange abilities, so I decided to speak with one regarding the rest of our clan, to try and determine their fate, and…
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<Text>
-			AZOLLA: …And you’re certain of this? The Dree you spoke with couldn’t have made some sort of mistake?
+			AZOLLA: …And you’re certain of this? Karenia couldn’t have made some sort of mistake?
 		</Text>
 	</TextBlock>
 

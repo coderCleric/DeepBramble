@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			SENNETTI: The Dree were not exaggerating, this area is quite hot. I will be quite relieved when we set up the portable life support.
+			SENNETTI: Our new friends were not exaggerating, this area is quite hot. I will be quite relieved when we set up the portable life support.
 		</Text>
 	</TextBlock>
 
@@ -76,7 +76,7 @@
 		<ID>10</ID>
 		<ParentID>9</ParentID>
 		<Text>
-			OKALIS: There is! It seems the Dree have noticed our plight, and have come to retrieve us!
+			OKALIS: There is! It seems our friends have noticed our plight, and have come to retrieve us!
 		</Text>
 	</TextBlock>
 
