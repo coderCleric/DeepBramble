@@ -39,7 +39,6 @@
     }
   },
   "Props": {
-
     "details": [
       {
         "rename": "StartDimensionFlare",
@@ -96,6 +95,16 @@
         },
         "frequency": "Nomai Trailmarkers",
         "name": "First Marker"
+      }
+    ],
+    "entryLocation": [
+      {
+        "id": "START_DIMENSION_ENTRY_FC",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
       }
     ]
   },

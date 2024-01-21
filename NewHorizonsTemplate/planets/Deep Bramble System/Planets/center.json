@@ -23,12 +23,22 @@
     "shipSpawn": {
       "position": {
         "x": 0,
+        "y": 3,
+        "z": -25
+      },
+      "rotation": {
+        "x": 0,
         "y": 0,
         "z": 0
       }
     },
     "playerSpawn": {
       "position": {
+        "x": 0,
+        "y": 0,
+        "z": -25
+      },
+      "rotation": {
         "x": 0,
         "y": 0,
         "z": 0

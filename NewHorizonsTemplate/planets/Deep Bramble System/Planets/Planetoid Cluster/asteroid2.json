@@ -35,6 +35,16 @@
         "alignRadial": false
       }
     ],
+    "entryLocation": [
+      {
+        "id": "HOLE_OVERLOOK_ENTRY_FC",
+        "position": {
+          "x": 21.18692,
+          "y": 1.784723,
+          "z": 14.69323
+        }
+      }
+    ],
     "translatorText": [
       {
         "rename": "hole_overlook_text",

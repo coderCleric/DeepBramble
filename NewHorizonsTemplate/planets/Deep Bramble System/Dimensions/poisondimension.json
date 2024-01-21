@@ -24,6 +24,18 @@
       "radius": 500
     }
   },
+  "Props": {
+    "entryLocation": [
+      {
+        "id": "REJECT_ENTRY_FC",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
+    ]
+  },
   "Volumes": {
     "audioVolumes": [
       {

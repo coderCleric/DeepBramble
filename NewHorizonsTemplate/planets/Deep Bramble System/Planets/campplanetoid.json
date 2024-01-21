@@ -641,6 +641,38 @@
           }
         ]
       }
+    ],
+    "entryLocation": [
+      {
+        "id": "CAMP_ENTRY_FC",
+        "parentPath": "Sector/Prefab_HEA_Campfire",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 20,
+          "z": 0
+        }
+      },
+      {
+        "id": "SOIL_LAB_FC",
+        "parentPath": "Sector/large_planetoid/soil_lab_building",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 5,
+          "z": 0
+        }
+      },
+      {
+        "id": "TREEHOUSE_ENTRY_FC",
+        "parentPath": "Sector/large_planetoid/treehouse_area",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 19,
+          "z": 0
+        }
+      }
     ]
   },
   "Volumes": {

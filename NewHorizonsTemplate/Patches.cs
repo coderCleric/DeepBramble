@@ -770,7 +770,7 @@ namespace DeepBramble
         }
 
         /**
-         * If the AudioSignalDetectionTrigger asks whether the player has their helmet on, say yes
+         * If the AudioSignalDetectionTrigger or SuitNotificationDisplay asks whether the player has their helmet on, say yes
          * 
          * @param __result The return value of the original call
          * @return False if the signal is asking, true otherwise
@@ -784,8 +784,10 @@ namespace DeepBramble
             String callerMethodName = trace.GetFrame(2).GetMethod().Name;
             String callerClassName = trace.GetFrame(2).GetMethod().DeclaringType.FullName;
 
-            //Always say we're not in the ship if the signal trigger asks
-            if (callerClassName.Contains("AudioSignalDetectionTrigger") && callerMethodName.Contains("Update"))
+            //Lie and say we have our helmet on
+            if ((callerClassName.Contains("AudioSignalDetectionTrigger") && callerMethodName.Contains("Update")) || 
+                (callerClassName.Contains("SuitNotificationDisplay") && callerMethodName.Contains("PushNotification") && 
+                Locator.GetShipBody().transform.Find("Module_Cockpit/Systems_Cockpit/ShipCockpitController").GetComponent<ShipCockpitController>()._playerAtFlightConsole))
             {
                 __result = true;
                 return false;

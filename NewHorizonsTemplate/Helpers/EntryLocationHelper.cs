@@ -30,13 +30,40 @@ namespace DeepBramble.Helpers
                 {
                     switch (i._customName)
                     {
-                        //We're in the large dimension
-                        case "Large Dimension":
+                        //We're on the dree planet
+                        case "Dree Dimension":
                             OuterFogWarpVolume warpVolume = i.transform.Find("Sector").Find("OuterWarp").GetComponent<OuterFogWarpVolume>();
-                            entryDictionary.Add("PLANETOID_CLUSTER_ENTRY", warpVolume);
-                            entryDictionary.Add("TREE_SHRINE_ENTRY", warpVolume);
-                            entryDictionary.Add("CAMPSITE_ENTRY", warpVolume);
-                            entryDictionary.Add("SOIL_LAB_ENTRY", warpVolume);
+                            entryDictionary.Add("CONCERT_HALL_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("DREE_PARK_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("STORY_AREA_ENTRY_FC", warpVolume);
+                            break;
+
+                        //We're on the hot planet
+                        case "Hot Dimension":
+                            warpVolume = i.transform.Find("Sector").Find("OuterWarp").GetComponent<OuterFogWarpVolume>();
+                            entryDictionary.Add("LANDING_ZONE_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("ABANDONED_SETTLEMENT_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("GAS_CAVE_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("SIGNAL_LAB_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("QUANTUM_CAVE_ENTRY_FC", warpVolume);
+                            break;
+
+                        //We're on the camp planet
+                        case "Large Dimension":
+                            warpVolume = i.transform.Find("Sector").Find("OuterWarp").GetComponent<OuterFogWarpVolume>();
+                            entryDictionary.Add("CAMP_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("SOIL_LAB_FC", warpVolume);
+                            entryDictionary.Add("TREEHOUSE_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("PLANETOID_CLUSTER_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("HOLE_OVERLOOK_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("GRAVITONS_FOLLY_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("PILLAR_TOWN_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("ALIEN_STUDY_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("EYE_SHRINE_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("POD_MEMORIAL_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("GRAV_CORE_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("CORE_LAB_ENTRY_FC", warpVolume);
+                            entryDictionary.Add("QUARRY_ENTRY_FC", warpVolume);
                             break;
                     }
                 }

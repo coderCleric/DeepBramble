@@ -365,6 +365,28 @@
           }
         ]
       }
+    ],
+    "entryLocation": [
+      {
+        "id": "FISH_PLATFORM_ENTRY_FC",
+        "parentPath": "Sector/observation_lab/main_building",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 20
+        }
+      },
+      {
+        "id": "ENZYME_LAB_ENTRY_FC",
+        "parentPath": "Sector/observation_lab/fish/domestic_fish/enzyme_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 15,
+          "z": 0
+        }
+      }
     ]
   },
   "Volumes": {

@@ -112,6 +112,38 @@
           "z": 236.9056
         }
       }
+    ],
+    "entryLocation": [
+      {
+        "id": "CONCERT_HALL_ENTRY_FC",
+        "parentPath": "Sector/shattered_planet/concert_hall_area/concert_cover",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 1.2
+        }
+      },
+      {
+        "id": "DREE_PARK_ENTRY_FC",
+        "parentPath": "Sector/shattered_planet/park_area/dree_table",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 25,
+          "z": 0
+        }
+      },
+      {
+        "id": "STORY_AREA_ENTRY_FC",
+        "parentPath": "Sector/shattered_planet/story_area/big_stump",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 12,
+          "z": 0
+        }
+      }
     ]
   },
   "Volumes": {

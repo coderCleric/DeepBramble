@@ -251,6 +251,16 @@
           }
         ]
       }
+    ],
+    "entryLocation": [
+      {
+        "id": "PLANETOID_CLUSTER_ENTRY_FC",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
     ]
   },
   "Volumes": {

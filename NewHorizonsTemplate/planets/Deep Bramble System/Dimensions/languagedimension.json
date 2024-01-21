@@ -680,6 +680,18 @@
           }
         ]
       }
+    ],
+    "entryLocation": [
+      {
+        "id": "TRANSLATION_LAB_ENTRY_FC",
+        "parentPath": "Sector/language_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
     ]
   },
   "Volumes": {

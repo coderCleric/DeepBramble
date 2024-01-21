@@ -56,6 +56,18 @@
       }
     ]
   },
+  "Props": {
+    "entryLocation": [
+      {
+        "id": "HEART_LAB_ENTRY_FC",
+        "position": {
+          "x": 0,
+          "y": -120,
+          "z": 0
+        }
+      }
+    ]
+  },
   "Volumes": {
     "audioVolumes": [
       {

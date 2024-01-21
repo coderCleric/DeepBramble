@@ -105,6 +105,18 @@
           "z": -25.074
         }
       }
+    ],
+    "entryLocation": [
+      {
+        "id": "NURSERY_ENTRY_FC",
+        "parentPath": "Sector/nursery_tube",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
     ]
   },
   "Volumes": {

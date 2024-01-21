@@ -840,6 +840,58 @@
           }
         ]
       }
+    ],
+    "entryLocation": [
+      {
+        "id": "LANDING_ZONE_ENTRY_FC",
+        "parentPath": "Sector/lava_planet/entry_zone",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 30,
+          "z": 0
+        }
+      },
+      {
+        "id": "ABANDONED_SETTLEMENT_ENTRY_FC",
+        "parentPath": "Sector/lava_planet/settlement/ground_building_4",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 30,
+          "y": 25,
+          "z": 0
+        }
+      },
+      {
+        "id": "GAS_CAVE_ENTRY_FC",
+        "parentPath": "Sector/lava_planet/crystal_cave/room_grav_coolzone",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 1.7673,
+          "z": 14.1237
+        }
+      },
+      {
+        "id": "SIGNAL_LAB_ENTRY_FC",
+        "parentPath": "Sector/lava_planet/crystal_cave/room_grav_coolzone",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "QUANTUM_CAVE_ENTRY_FC",
+        "parentPath": "Sector/lava_planet/quantum_cave/coolzone",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      }
     ]
   },
   "Volumes": {

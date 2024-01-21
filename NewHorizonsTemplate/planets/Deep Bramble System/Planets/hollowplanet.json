@@ -562,8 +562,24 @@
         ]
       },
       {
-        "rename": "core_scanner_computer",
+        "rename": "core_scanner_computer_intact",
         "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/core_scanner_intact.xml",
+        "type": "preCrashComputer",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
+        "position": {
+          "x": -23.55485,
+          "y": -93.08205,
+          "z": 25.99493
+        },
+        "rotation": {
+          "x": 9.071843,
+          "y": 201.573,
+          "z": 20.31575
+        }
+      },
+      {
+        "rename": "core_scanner_computer_broken",
+        "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/core_scanner_broken.xml",
         "type": "preCrashComputer",
         "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
         "position": {
@@ -1501,6 +1517,84 @@
             "zRotation": 66.39359
           }
         ]
+      }
+    ],
+    "entryLocation": [
+      {
+        "id": "GRAVITONS_FOLLY_ENTRY_FC",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "PILLAR_TOWN_ENTRY_FC",
+        "parentPath": "Sector/hollowplanet/pillar_town/eyeshrine",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "ALIEN_STUDY_ENTRY_FC",
+        "parentPath": "Sector/hollowplanet/pillar_town/dree_study",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 7,
+          "z": 2
+        }
+      },
+      {
+        "id": "EYE_SHRINE_ENTRY_FC",
+        "parentPath": "Sector/hollowplanet/pillar_town/eyeshrine",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 10,
+          "z": 0
+        }
+      },
+      {
+        "id": "POD_MEMORIAL_ENTRY_FC",
+        "parentPath": "Sector/hollowplanet/pillar_town/third_pod_memorial",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 5,
+          "z": -10
+        }
+      },
+      {
+        "id": "GRAV_CORE_ENTRY_FC",
+        "position": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        }
+      },
+      {
+        "id": "CORE_LAB_ENTRY_FC",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 18,
+          "z": 0
+        }
+      },
+      {
+        "id": "QUARRY_ENTRY_FC",
+        "parentPath": "Sector/hollowplanet/ground_building_2",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 0,
+          "y": 5,
+          "z": 0
+        }
       }
     ]
   },

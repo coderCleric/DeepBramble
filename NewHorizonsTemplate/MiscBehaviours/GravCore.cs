@@ -42,6 +42,9 @@ namespace DeepBramble.MiscBehaviours
             Transform planetTransform = gameObject.GetAttachedOWRigidbody().transform;
             planetGrav = planetTransform.GetComponentInChildren<GravityVolume>();
             artificialGravs = planetTransform.GetComponentsInChildren<DirectionalForceVolume>();
+
+            //Disable the broken computer
+            transform.parent.Find("crystal_lab/core_scanner_computer_broken").gameObject.SetActive(false);
         }
 
         /**
@@ -79,6 +82,10 @@ namespace DeepBramble.MiscBehaviours
                 //Disable the fragile audio
                 transform.parent.Find("fragile_audios/core_audio").gameObject.SetActive(false);
                 transform.parent.Find("fragile_audios/planet_audio").GetComponent<OWAudioSource>().SetMaxVolume(0);
+
+                //Swap the scanner computer
+                transform.parent.Find("crystal_lab/core_scanner_computer_intact").gameObject.SetActive(false);
+                transform.parent.Find("crystal_lab/core_scanner_computer_broken").gameObject.SetActive(true);
 
                 //Reveal the ship log fact
                 Locator.GetShipLogManager().RevealFact("CORE_BROKEN_FACT_FC");
