@@ -271,6 +271,10 @@ namespace DeepBramble.Helpers
                         break;
 
                     case "Large Dimension":
+                        //Turn off the stacking recursive signals
+                        foreach(AudioSignal sig in body.transform.Find("Sector/Loop Node").gameObject.GetComponentsInChildren<AudioSignal>())
+                            sig.gameObject.SetActive(false);
+
                         //Add the swim controller to outer ditylum
                         GameObject.Find("outerditylum").gameObject.AddComponent<SwimmingDitylumManager>();
 
