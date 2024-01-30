@@ -213,7 +213,7 @@ namespace DeepBramble.Helpers
                             DoorButtonGroup.MakeOnDoor(sectorTransform.Find("final_lab/final_lab_room/room/walls/functional_doorway").gameObject);
 
                             //Find and activate the quantum socket
-                            OuterFogWarpVolume heartFogWarp = GameObject.Find("HeartDimension_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
+                            OuterFogWarpVolume heartFogWarp = GameObject.Find("BramblesHeart_Body/Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
                             ForgottenLocator.specialSocket = sectorTransform.Find("final_lab/quantum_room/quantum_socket").gameObject.AddComponent<BlockableQuantumSocket>();
                             ForgottenLocator.specialSocket.outerFogWarp = heartFogWarp;
                             Light[] lightArray = new Light[] { quantumDoorGroup.doorLights[0], quantumDoorGroup.doorLights[1] };
@@ -265,12 +265,12 @@ namespace DeepBramble.Helpers
                 //Special actions for specific dimensions
                 switch (body.GetComponent<AstroObject>()._customName)
                 {
-                    case "Start Dimension":
+                    case "Bramble's Doorstep":
                         ForgottenLocator.startDimensionObject = body;
                         ensureStarterLoad = true;
                         break;
 
-                    case "Large Dimension":
+                    case "Briar's Hollow":
                         //Turn off the stacking recursive signals
                         foreach(AudioSignal sig in body.transform.Find("Sector/Loop Node").gameObject.GetComponentsInChildren<AudioSignal>())
                             sig.gameObject.SetActive(false);
@@ -289,13 +289,13 @@ namespace DeepBramble.Helpers
                         body.GetComponentInChildren<SimpleFluidVolume>()._density = 8;
                         break;
 
-                    case "Heart Dimension":
+                    case "Bramble's Heart":
                         ForgottenLocator.heartDimensionSector = body.transform.Find("Sector");
                         if (ForgottenLocator.greenTreeMat != null)
                             ReskinHeartDimension(ForgottenLocator.greenTreeMat, ForgottenLocator.heartDimensionSector);
                         break;
 
-                    case "Domestic Dimension":
+                    case "Bright Hollow":
                         //Make the fish have some brains
                         foreach (Transform fish in body.transform.Find("Sector/observation_lab/fish"))
                         {

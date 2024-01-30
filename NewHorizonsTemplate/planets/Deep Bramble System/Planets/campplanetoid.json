@@ -7,7 +7,15 @@
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/camp_planet.xml",
     "mapMode": {
-      "invisibleWhenHidden": true
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 4,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": 300,
+        "y": 0
+      }
     }
   },
   "Base": {

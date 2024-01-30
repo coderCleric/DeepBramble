@@ -6,7 +6,15 @@
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/cluster.xml",
     "mapMode": {
-      "invisibleWhenHidden": true
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 2,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": 100,
+        "y": 0
+      }
     }
   },
   "Base": {

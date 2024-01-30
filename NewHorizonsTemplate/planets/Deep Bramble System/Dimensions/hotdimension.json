@@ -35,7 +35,7 @@
     "signals": [
       {
         "rename": "dree_signal",
-        "audio": "OW_TravelerTheme_harmonica",
+        "audio": "Creature Voice Test 1 Short",
         "identificationRadius": 3,
         "sourceRadius": 0.3,
         "detectionRadius": 10,
@@ -50,7 +50,7 @@
       },
       {
         "rename": "lava_signal",
-        "audio": "OW_TravelerTheme_harmonica",
+        "audio": "Sun_Ambience_LP",
         "identificationRadius": 250,
         "sourceRadius": 220,
         "detectionRadius": 500,

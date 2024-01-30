@@ -7,7 +7,15 @@
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/folly.xml",
     "mapMode": {
-      "invisibleWhenHidden": true
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 5,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": 400,
+        "y": 0
+      }
     }
   },
   "Base": {

@@ -6,7 +6,15 @@
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/nursery_log.xml",
     "mapMode": {
-      "invisibleWhenHidden": true
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 9,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": 800,
+        "y": 0
+      }
     }
   },
   "Base": {

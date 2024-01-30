@@ -1,12 +1,20 @@
 {
-  "name": "Large Dimension",
+  "name": "Briar's Hollow",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "DeepBramble",
 
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/large_dim_log.xml",
     "mapMode": {
-      "invisibleWhenHidden": true
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 3,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": 200,
+        "y": 0
+      }
     }
   },
   "Base": {
@@ -43,7 +51,7 @@
           "y": 358.1138,
           "z": 24.2412
         },
-        "linksTo": "Large Dimension"
+        "linksTo": "Briar's Hollow"
       },
       {
         "name": "Entrance Node",
@@ -58,7 +66,7 @@
           "y": 8.66,
           "z": 55.0598
         },
-        "linksTo": "Start Dimension",
+        "linksTo": "Bramble's Doorstep",
         "possibleExits": [
           0
         ]
@@ -101,7 +109,7 @@
           "z": 287.1636
         },
         "possibleExits": [ 1 ],
-        "linksTo": "Language Dimension"
+        "linksTo": "Parent's Rest"
       },
       {
         "name": "Dilation Node",
@@ -247,7 +255,7 @@
     "signals": [
       {
         "rename": "Camp_Marker_Signal",
-        "audio": "OW_TravelerTheme_harmonica",
+        "audio": "NomaiEscapePodDistressSignal_LP",
         "position": {
           "x": -35.3206,
           "y": 77.7988,
@@ -258,7 +266,7 @@
       },
       {
         "rename": "Amplified_Ambience_Signal",
-        "audio": "OW_TravelerTheme_harmonica",
+        "audio": "TH_CanyonAmbienceNight_LP",
         "sourceRadius": 67,
         "identificationRadius": 224,
         "detectionRadius": 300,
@@ -273,7 +281,7 @@
       },
       {
         "rename": "Gravitation_Anomaly_Signal",
-        "audio": "OW_TravelerTheme_harmonica",
+        "audio": "NomaiGravCrystalAmbient_LP",
         "sourceRadius": 275,
         "identificationRadius": 0,
         "detectionRadius": 0,
@@ -288,7 +296,7 @@
       },
       {
         "rename": "dilation_signal",
-        "audio": "OW_TravelerTheme_harmonica",
+        "audio": "Creature Voice Test 1 Short",
         "parentPath": "Sector/Dilation Node",
         "identificationRadius": 0,
         "sourceRadius": 1,

@@ -1,12 +1,20 @@
 {
-  "name": "Heart Dimension",
+  "name": "Bramble's Heart",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "DeepBramble",
 
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/brambles_heart_log.xml",
     "mapMode": {
-      "invisibleWhenHidden": true
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 11,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": 1000,
+        "y": 0
+      }
     }
   },
   "Base": {
@@ -52,7 +60,7 @@
           "y": 358.1138,
           "z": 24.2412
         },
-        "linksTo": "Heart Dimension"
+        "linksTo": "Bramble's Heart"
       }
     ]
   },

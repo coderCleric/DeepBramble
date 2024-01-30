@@ -49,7 +49,7 @@ namespace DeepBramble.Helpers
                             break;
 
                         //We're on the camp planet
-                        case "Large Dimension":
+                        case "Briar's Hollow":
                             warpVolume = i.transform.Find("Sector").Find("OuterWarp").GetComponent<OuterFogWarpVolume>();
                             entryDictionary.Add("CAMP_ENTRY_FC", warpVolume);
                             entryDictionary.Add("SOIL_LAB_FC", warpVolume);

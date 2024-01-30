@@ -45,7 +45,7 @@
           "y": 15.6635,
           "z": 180
         },
-        "linksTo": "Language Dimension"
+        "linksTo": "Parent's Rest"
       },
       {
         "name": "Nursery Node",
@@ -73,7 +73,7 @@
           "y": 23.909,
           "z": 58.3818
         },
-        "linksTo": "Domestic Dimension"
+        "linksTo": "Bright Hollow"
       }
     ],
     "dimension": {

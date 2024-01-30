@@ -7,7 +7,15 @@
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/magmas_recursion.xml",
     "mapMode": {
-      "invisibleWhenHidden": true
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 10,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": 900,
+        "y": 0
+      }
     }
   },
   "Base": {

@@ -7,7 +7,15 @@
 	"ShipLog": {
 		"xmlFile": "planets/Deep Bramble System/Ship Logs/venomous_reject_log.xml",
 		"mapMode": {
-			"invisibleWhenHidden": true
+			"invisibleWhenHidden": true,
+			"manualNavigationPosition": {
+				"x": 12,
+				"y": 0
+			},
+			"manualPosition": {
+				"x": 1100,
+				"y": 0
+			}
 		}
 	},
 	"Base": {

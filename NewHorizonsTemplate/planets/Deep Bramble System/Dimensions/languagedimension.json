@@ -1,12 +1,20 @@
 {
-  "name": "Language Dimension",
+  "name": "Parent's Rest",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "DeepBramble",
 
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/language_dim_log.xml",
     "mapMode": {
-      "invisibleWhenHidden": true
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 8,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": 700,
+        "y": 0
+      }
     }
   },
   "Base": {

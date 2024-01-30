@@ -1,5 +1,5 @@
 {
-  "name": "Start Dimension",
+  "name": "Bramble's Doorstep",
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "DeepBramble",
 
@@ -12,7 +12,7 @@
         "y": 0
       },
       "manualPosition": {
-        "x": 50,
+        "x": 0,
         "y": 0
       }
     }
@@ -85,16 +85,16 @@
 
     "signals": [
       {
+        "name": "First Marker",
         "parentPath": "Sector/StartDimensionFlare",
-        "audio": "OW_TravelerTheme_harmonica",
+        "audio": "NomaiEscapePodDistressSignal_LP",
         "reveals": "BEACON_FREQUENCY_FACT_FC",
         "position": {
           "x": 7.7,
           "y": 5.6,
           "z": 16.6
         },
-        "frequency": "Nomai Trailmarkers",
-        "name": "First Marker"
+        "frequency": "Nomai Trailmarkers"
       }
     ],
     "entryLocation": [

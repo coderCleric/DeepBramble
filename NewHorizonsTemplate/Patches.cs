@@ -586,7 +586,7 @@ namespace DeepBramble
                 }
 
                 //If it's the dimension, just save it
-                if (__instance.transform.parent.parent.name.Equals("LanguageDimension_Body"))
+                if (__instance.transform.parent.parent.name.Equals("ParentsRest_Body"))
                 {
                     ForgottenLocator.languageOuterWarp = __instance as OuterFogWarpVolume;
                     DeepBramble.debugPrint("Saving language outer warp.");
