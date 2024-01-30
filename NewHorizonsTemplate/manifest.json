@@ -2,8 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/amazingalek/owml/master/schemas/manifest_schema.json",
   "filename": "DeepBramble.dll",
   "author": "coderCleric",
-  "name": "Deep Bramble",
-  "uniqueName": "cleric.DeepBramble",
+  "name": "Forgotten Castaways",
+  "uniqueName": "cleric.ForgottenCastaways",
   "version": "0.1.0",
   "owmlVersion": "2.5.2",
   "dependencies": [ "xen.NewHorizons" ]
