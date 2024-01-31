@@ -29,7 +29,153 @@
         "a": 255
       },
       "allowedEntrances": [ 4 ]
-    }
+    },
+    "nodes": [
+      {
+        "hasFogLight": false,
+        "isSeed": true,
+        "scale": 2,
+        "linksTo": "Hot Dimension",
+        "fogTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
+        "alignRadial": true,
+        "position": {
+          "x": -73.63004,
+          "y": 428.9084,
+          "z": -325.8451
+        }
+      },
+      {
+        "hasFogLight": false,
+        "isSeed": true,
+        "scale": 2,
+        "linksTo": "Hot Dimension",
+        "fogTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
+        "alignRadial": true,
+        "position": {
+          "x": 246.6995,
+          "y": 144.9546,
+          "z": 5.301319
+        }
+      },
+      {
+        "hasFogLight": false,
+        "isSeed": true,
+        "scale": 2,
+        "linksTo": "Hot Dimension",
+        "fogTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
+        "alignRadial": true,
+        "position": {
+          "x": 140.3989,
+          "y": -183.1943,
+          "z": 270.0092
+        }
+      },
+      {
+        "hasFogLight": false,
+        "isSeed": true,
+        "scale": 2,
+        "linksTo": "Hot Dimension",
+        "fogTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
+        "alignRadial": true,
+        "position": {
+          "x": 278.4311,
+          "y": 99.20772,
+          "z": -9.064737
+        }
+      },
+      {
+        "hasFogLight": false,
+        "isSeed": true,
+        "scale": 2,
+        "linksTo": "Hot Dimension",
+        "fogTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
+        "alignRadial": true,
+        "position": {
+          "x": -144.2714,
+          "y": -78.40795,
+          "z": 260.1595
+        }
+      },
+      {
+        "hasFogLight": false,
+        "isSeed": true,
+        "scale": 2,
+        "linksTo": "Hot Dimension",
+        "fogTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
+        "alignRadial": true,
+        "position": {
+          "x": 83.24448,
+          "y": -203.3461,
+          "z": -291.1435
+        }
+      },
+      {
+        "hasFogLight": false,
+        "isSeed": true,
+        "scale": 2,
+        "linksTo": "Hot Dimension",
+        "fogTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
+        "alignRadial": true,
+        "position": {
+          "x": -165.093,
+          "y": -295.753,
+          "z": -65.60309
+        }
+      },
+      {
+        "hasFogLight": false,
+        "isSeed": true,
+        "scale": 2,
+        "linksTo": "Hot Dimension",
+        "fogTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
+        "alignRadial": true,
+        "position": {
+          "x": -35.72985,
+          "y": -207.8994,
+          "z": -341.0172
+        }
+      }
+    ]
   },
   "Props": {
     "signals": [
