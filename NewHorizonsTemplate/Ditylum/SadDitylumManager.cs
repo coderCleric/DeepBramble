@@ -1,5 +1,7 @@
-﻿using System;
+﻿using NewHorizons.Utility.Files;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +16,7 @@ namespace DeepBramble.Ditylum
         private InteractReceiver receiver;
         private CharacterDialogueTree dialogue;
         private float sitTime = -1;
+        private AudioClip cryClip = null;
 
         /**
          * On awake, do some prep
@@ -33,6 +36,9 @@ namespace DeepBramble.Ditylum
             dialogue = GetComponentInChildren<CharacterDialogueTree>();
             dialogue.OnEndConversation += Scream;
 
+            //Get the scream audio
+            cryClip = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "ditylum_cry.ogg"));
+
             //Disable the GO
             gameObject.SetActive(false);
         }
@@ -44,6 +50,14 @@ namespace DeepBramble.Ditylum
         {
             dialogue.gameObject.SetActive(false);
             GetComponent<Animator>().SetTrigger("cry");
+        }
+
+        /**
+         * Play the cry audio
+         */
+        public void PlayCryAudio()
+        {
+            GetComponent<OWAudioSource>().PlayOneShot(cryClip);
         }
 
         /**
