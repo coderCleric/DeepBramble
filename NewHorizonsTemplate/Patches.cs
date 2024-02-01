@@ -11,6 +11,8 @@ using DeepBramble.Ditylum;
 using NewHorizons;
 using DeepBramble.Triggers;
 using DeepBramble.Helpers;
+using System.Reflection.Emit;
+using System.Reflection;
 
 namespace DeepBramble
 {
@@ -735,58 +737,84 @@ namespace DeepBramble
         }
 
         //################################# AudioSignalDetectionTrigger stuff, so the player can pick up signals while in their ship #################################
-        /**
-         * If the AudioSignalDetectionTrigger asks whether the player is in the ship, say no
-         * 
-         * @param __result The return value of the original call
-         * @return False if the signal is asking, true otherwise
-         */
-        [HarmonyPrefix]
-        [HarmonyPatch(typeof(PlayerState), nameof(PlayerState.IsInsideShip))]
-        public static bool ShipLieToSignal(ref bool __result)
-        {
-            //Get the name of the calling function & class
-            System.Diagnostics.StackTrace trace = new System.Diagnostics.StackTrace();
-            String callerMethodName = trace.GetFrame(2).GetMethod().Name;
-            String callerClassName = trace.GetFrame(2).GetMethod().DeclaringType.FullName;
+        
 
-            //Always say we're not in the ship if the signal trigger asks
-            if(callerClassName.Contains("AudioSignalDetectionTrigger") && callerMethodName.Contains("Update"))
+        /**
+         * If the detection trigger finds that the player is in the ship, make them not need the suit
+         */
+        [HarmonyTranspiler]
+        [HarmonyPatch(typeof(AudioSignalDetectionTrigger), nameof(AudioSignalDetectionTrigger.Update))]
+        public static IEnumerable<CodeInstruction> DetectPlayerInShip(IEnumerable<CodeInstruction> instructions, ILGenerator il)
+        {
+            //First, load the list of instructions
+            List<CodeInstruction> code = new List<CodeInstruction>(instructions);
+
+            //Next, find where we need to insert
+            int jumpIndex = -1;
+            for (int i = 0; i < code.Count - 1; i++)
             {
-                __result = false;
-                return false;
+                //Count it as a good spot when we recognize the string being loaded
+                if (code[i].opcode == OpCodes.Call && ((MethodInfo)code[i].operand).Name.Equals("IsInsideShip"))
+                {
+                    DeepBramble.debugPrint("Found expected structure for transpiler of AudioSignalDetectionTrigger.Update");
+                    jumpIndex = i + 1;
+
+                    break;
+                }
             }
 
-            //Otherwise, let the actual method run
-            return true;
+            //Error check
+            if (jumpIndex == -1)
+                return code;
+
+            //Change the code so being in the ship skips the next check
+            Label nextConLabel = il.DefineLabel();
+            code[jumpIndex].operand = nextConLabel;
+            code[jumpIndex + 4].labels.Add(nextConLabel);
+
+            return code;
         }
 
         /**
-         * If the AudioSignalDetectionTrigger or SuitNotificationDisplay asks whether the player has their helmet on, say yes
-         * 
-         * @param __result The return value of the original call
-         * @return False if the signal is asking, true otherwise
+         * If the detection trigger finds that the player is in the ship, make them not need the suit
          */
-        [HarmonyPrefix]
-        [HarmonyPatch(typeof(PlayerSpacesuit), nameof(PlayerSpacesuit.IsWearingHelmet))]
-        public static bool SuitLieToSignal(ref bool __result)
+        [HarmonyTranspiler]
+        [HarmonyPatch(typeof(SuitNotificationDisplay), nameof(SuitNotificationDisplay.PushNotification))]
+        public static IEnumerable<CodeInstruction> PushNotifInShip(IEnumerable<CodeInstruction> instructions, ILGenerator il)
         {
-            //Get the name of the calling function & class
-            System.Diagnostics.StackTrace trace = new System.Diagnostics.StackTrace();
-            String callerMethodName = trace.GetFrame(2).GetMethod().Name;
-            String callerClassName = trace.GetFrame(2).GetMethod().DeclaringType.FullName;
+            //First, load the list of instructions
+            List<CodeInstruction> code = new List<CodeInstruction>(instructions);
 
-            //Lie and say we have our helmet on
-            if ((callerClassName.Contains("AudioSignalDetectionTrigger") && callerMethodName.Contains("Update")) || 
-                (callerClassName.Contains("SuitNotificationDisplay") && callerMethodName.Contains("PushNotification") && 
-                Locator.GetShipBody().transform.Find("Module_Cockpit/Systems_Cockpit/ShipCockpitController").GetComponent<ShipCockpitController>()._playerAtFlightConsole))
+            //Next, find where we need to insert
+            int insertIndex = -1;
+            Label successLabel = il.DefineLabel();
+            for (int i = 0; i < code.Count - 1; i++)
             {
-                __result = true;
-                return false;
+                //Count it as a good spot when we recognize the string being loaded
+                if (code[i].opcode == OpCodes.Call && ((MethodInfo)code[i].operand).Name.Equals("GetPlayerSuit"))
+                {
+                    DeepBramble.debugPrint("Found expected structure for transpiler of SuitNotificationDisplay.PushNotification");
+                    insertIndex = i;
+
+                    //Add the label
+                    code[i + 3].labels.Add(successLabel);
+
+                    break;
+                }
             }
 
-            //Otherwise, let the actual method run
-            return true;
+            //Make code to skip the check
+            List<CodeInstruction> insertion = new List<CodeInstruction>();
+            insertion.Add(new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(PlayerState), nameof(PlayerState.IsInsideShip))));
+            insertion.Add(new CodeInstruction(OpCodes.Brtrue_S, successLabel));
+
+            //Insert the code
+            if (insertIndex != -1)
+            {
+                code.InsertRange(insertIndex, insertion);
+            }
+
+            return code;
         }
 
         //################################# Baby angler stuff #################################
