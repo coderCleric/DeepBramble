@@ -50,14 +50,6 @@ namespace DeepBramble
             ForgottenLocator.probeDilated = false;
             heatNotifPosted = false;
 
-            //If needed, vanish the ship
-            if (ForgottenLocator.vanishShip)
-            {
-                DeepBramble.debugPrint("Vanishing the ship");
-                Locator.GetShipBody().SetPosition(new Vector3(0, 0, -999999f));
-                ForgottenLocator.vanishShip = false;
-            }
-
             //If needed, check if we need to reveal the starting rumor of the mod
             if(ForgottenLocator.revealStartingRumor)
             {

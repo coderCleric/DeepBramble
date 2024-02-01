@@ -146,7 +146,7 @@ namespace DeepBramble
             }
 
             //Lower the damage audio if the player is hurt only by the hot node
-            if(ForgottenLocator.playerAudioController != null)
+            if (ForgottenLocator.playerAudioController != null)
             {
                 if (Patches.DamagedByAmbientHeatOnly())
                     ForgottenLocator.playerAudioController._damageAudioSource.SetMaxVolume(0.15f);
@@ -168,6 +168,37 @@ namespace DeepBramble
                 recallTimer = -999;
             }
 
+            //Lock onto the body that a signal is attached to
+            if (OWInput.IsNewlyPressed(InputLibrary.lockOn))
+            {
+                //Go through each audio signal
+                foreach (AudioSignal i in Component.FindObjectsOfType<AudioSignal>())
+                {
+                    //If it's known and strong enough, try to lock onto it's parent body
+                    if (i.GetSignalStrength() == 1 && PlayerData.KnowsSignal(i._name))
+                    {
+                        //Loop through each parent
+                        Transform tf = i.transform;
+                        while (tf != null)
+                        {
+                            OWRigidbody body = tf.gameObject.GetComponent<OWRigidbody>();
+
+                            //If this parent is lockable, lock onto it
+                            if (body != null && body.IsTargetable())
+                            {
+                                Locator.GetPlayerBody().gameObject.GetComponent<ReferenceFrameTracker>().TargetReferenceFrame(body.GetReferenceFrame());
+                                Patches.forbidUnlock = true;
+                                break;
+                            }
+
+                            //Otherwise, move another level up
+                            tf = tf.parent;
+                        }
+                    }
+                }
+            }
+
+            /* Debug stuff
             //Print the player's absolute and relative positions when k is pressed
             if (Keyboard.current[Key.K].wasPressedThisFrame)
             {
@@ -196,35 +227,6 @@ namespace DeepBramble
 
                 //Print stuff
                 debugPrint("Absolute position: " + absObject.transform.localPosition);
-            }
-
-            //Lock onto the body that a signal is attached to
-            if (OWInput.IsNewlyPressed(InputLibrary.lockOn))
-            {
-                //Go through each audio signal
-                foreach(AudioSignal i in Component.FindObjectsOfType<AudioSignal>())
-                {
-                    //If it's known and strong enough, try to lock onto it's parent body
-                    if(i.GetSignalStrength() == 1 && PlayerData.KnowsSignal(i._name))
-                    {
-                        //Loop through each parent
-                        Transform tf = i.transform;
-                        while(tf != null)
-                        {
-                            OWRigidbody body = tf.gameObject.GetComponent<OWRigidbody>();
-
-                            //If this parent is lockable, lock onto it
-                            if(body != null && body.IsTargetable()) {
-                                Locator.GetPlayerBody().gameObject.GetComponent<ReferenceFrameTracker>().TargetReferenceFrame(body.GetReferenceFrame());
-                                Patches.forbidUnlock = true;
-                                break;
-                            }
-
-                            //Otherwise, move another level up
-                            tf = tf.parent;
-                        }
-                    }
-                }
             }
 
             //Tell the distance from the player to the thing they're looking at
@@ -281,7 +283,8 @@ namespace DeepBramble
                 PlayerData._currentGameSave.SetPersistentCondition("LockableSignalFound", false);
                 PlayerData._currentGameSave.SetPersistentCondition("ShipWarpTold", false);
                 PlayerData._currentGameSave.SetPersistentCondition("SignalLockTold", false);
-            }*/
+            }
+            */            
         }
 
         /**

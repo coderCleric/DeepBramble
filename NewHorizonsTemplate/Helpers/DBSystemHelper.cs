@@ -70,12 +70,13 @@ namespace DeepBramble.Helpers
             //Check if it has a gravity volume and a child named "Sector" to find if it's a custom planet
             GravityVolume volume = body.GetComponentInChildren<GravityVolume>();
             Transform sectorTransform = body.transform.Find("Sector");
-            if (volume != null && sectorTransform != null)
+            if ((volume != null || body.name.Equals("TheFirstDimension_Body")) && sectorTransform != null)
             {
                 DeepBramble.debugPrint("Applying fixes for " + body.name);
 
                 //Increase the priority of the gravity volume
-                volume._priority = 2;
+                if(volume != null)
+                    volume._priority = 2;
 
                 //Disable the supernova controller (won't be needing it & it messes stuff up)
                 sectorTransform.Find("SupernovaController").gameObject.SetActive(false);
@@ -85,6 +86,16 @@ namespace DeepBramble.Helpers
                 {
                     switch (body.GetComponent<AstroObject>().GetCustomName())
                     {
+                        case "The First Dimension":
+                            //If needed, vanish the ship
+                            if (ForgottenLocator.vanishShip)
+                            {
+                                DeepBramble.debugPrint("Vanishing the ship");
+                                body.transform.Find("ShipSpawnPoint").position = new Vector3(0, 0, -999999f);
+                                ForgottenLocator.vanishShip = false;
+                            }
+                            break;
+
                         case "Graviton's Folly":
                             //Reverse the gravity since it doesn't work in the config
                             volume._gravitationalMass *= -1;
