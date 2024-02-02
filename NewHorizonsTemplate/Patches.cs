@@ -251,7 +251,7 @@ namespace DeepBramble
             if(!forcedRetrieval && ForgottenLocator.probeDilated)
             {
                 if (DeepBramble.recallTimer == -999)
-                    DeepBramble.recallTimer = 3;
+                    DeepBramble.recallTimer = 30;
                 NotificationData data = new NotificationData(NotificationTarget.All, "RECALL REQUEST UNACKNOWLEDGED");
                 NotificationManager.SharedInstance.PostNotification(data);
                 Locator.GetShipLogManager().RevealFact("SCOUT_DELAY_RUMOR_FC");
@@ -737,8 +737,6 @@ namespace DeepBramble
         }
 
         //################################# AudioSignalDetectionTrigger stuff, so the player can pick up signals while in their ship #################################
-        
-
         /**
          * If the detection trigger finds that the player is in the ship, make them not need the suit
          */
@@ -776,7 +774,7 @@ namespace DeepBramble
         }
 
         /**
-         * If the detection trigger finds that the player is in the ship, make them not need the suit
+         * If the suit display finds that the player is in the ship, make them not need the suit
          */
         [HarmonyTranspiler]
         [HarmonyPatch(typeof(SuitNotificationDisplay), nameof(SuitNotificationDisplay.PushNotification))]

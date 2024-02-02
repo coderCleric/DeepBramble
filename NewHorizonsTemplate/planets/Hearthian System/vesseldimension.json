@@ -13,15 +13,17 @@
         "rename": "BrambleSystemWarpSocket",
         "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/props/WarpCoreSocket.prefab",
+        "parentPath": "Sector_VesselDimension/Sector_VesselBridge",
+        "isRelativeToParent": true,
         "position": {
-          "x": 149.41,
-          "y": 7.677947,
-          "z": -37.40828
+          "x": 19.566,
+          "y": -13.2339,
+          "z": -29.7039
         },
         "rotation": {
-          "x": 5.8364,
-          "y": 275.6723,
-          "z": 357.0182
+          "x": 0,
+          "y": 180,
+          "z": 0
         }
       }
     ],
@@ -56,29 +58,33 @@
       {
         "xmlFile": "planets/Hearthian System/Text/mainbridgetext.xml",
         "type": "preCrashRecorder",
+        "parentPath": "Sector_VesselDimension/Sector_VesselBridge",
+        "isRelativeToParent": true,
         "position": {
-          "x": 146.5829,
-          "y": 15.2791,
-          "z": -35.9635
+          "x": 20.119,
+          "y": -5.2937,
+          "z": -31.8277
         },
         "rotation": {
-          "x": 342.3813,
-          "y": 310.5994,
-          "z": 275.8649
+          "x": 330.5459,
+          "y": 210.9486,
+          "z": 283.423
         }
       },
       {
         "xmlFile": "planets/Hearthian System/Text/lowerbridgetext.xml",
         "type": "preCrashRecorder",
+        "parentPath": "Sector_VesselDimension/Sector_VesselBridge",
+        "isRelativeToParent": true,
         "position": {
-          "x": 147.0509,
-          "y": 5.3025,
-          "z": -36.4737
+          "x": 18.4513,
+          "y": -15.1382,
+          "z": -32.3893
         },
         "rotation": {
-          "x": 359.0599,
-          "y": 11.6987,
-          "z": 17.6079
+          "x": 0,
+          "y": 275.9607,
+          "z": 0
         }
       }
     ]
@@ -110,6 +116,7 @@
         "reveals": [ "WARP_TO_DB_FACT" ],
         "radius": 2,
         "revealOn": "enter",
+        "revealFor": "player",
         "position": {
           "x": 146.8333,
           "y": 2.799,

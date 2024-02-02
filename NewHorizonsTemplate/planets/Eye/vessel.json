@@ -1,0 +1,61 @@
+{
+  "name": "Vessel",
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
+  "starSystem": "EyeOfTheUniverse",
+
+  "Props": {
+    "details": [
+      {
+        "rename": "BrambleSystemWarpSocket",
+        "assetBundle": "assetbundles/eye_bundle",
+        "path": "Assets/Prefabs/props/WarpCoreSocket_Eye.prefab",
+        "parentPath": "Sector_VesselBridge",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 19.566,
+          "y": -13.2339,
+          "z": -29.7039
+        },
+        "rotation": {
+          "x": 0,
+          "y": 180,
+          "z": 0
+        }
+      }
+    ],
+    "translatorText": [
+      {
+        "xmlFile": "planets/Hearthian System/Text/mainbridgetext.xml",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector_VesselBridge",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 20.119,
+          "y": -5.2937,
+          "z": -31.8277
+        },
+        "rotation": {
+          "x": 330.5459,
+          "y": 210.9486,
+          "z": 283.423
+        }
+      },
+      {
+        "xmlFile": "planets/Hearthian System/Text/lowerbridgetext.xml",
+        "type": "preCrashRecorder",
+        "parentPath": "Sector_VesselBridge",
+        "isRelativeToParent": true,
+        "position": {
+          "x": 18.4513,
+          "y": -15.1382,
+          "z": -32.3893
+        },
+        "rotation": {
+          "x": 0,
+          "y": 275.9607,
+          "z": 0
+        }
+      }
+    ]
+  }
+}

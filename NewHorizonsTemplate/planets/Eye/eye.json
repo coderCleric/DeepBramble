@@ -83,6 +83,8 @@
         "audio": "ElectricShock",
         "frequency": "Traveler",
         "name": "Ditylum",
+        "detectionRadius": 0,
+        "identificationRadius": 0,
         "position": {
           "x": 0,
           "y": 4.5,
