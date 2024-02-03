@@ -7,6 +7,23 @@
     "details": [
       {
         "assetBundle": "assetbundles/eye_bundle",
+        "path": "Assets/Prefabs/eye/dree_exhibit.prefab",
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Geo_Observatory/ObservatoryPivot",
+        "isRelativeToParent": true,
+        "keepLoaded": true,
+        "position": {
+          "x": -6.0429,
+          "y": -1.3422,
+          "z": 0.6957
+        },
+        "rotation": {
+          "x": 0,
+          "y": 87.8546,
+          "z": 90
+        }
+      },
+      {
+        "assetBundle": "assetbundles/eye_bundle",
         "path": "Assets/Prefabs/eye/forest_new_ground.prefab",
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Terrain_Campfire/Terrain_EYE_ForestFloor_Tomb",
         "isRelativeToParent": true,
@@ -50,6 +67,17 @@
       }
     ],
     "dialogue": [
+      {
+        "rename": "DreePlaque",
+        "radius": 0.7,
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Observatory/Geo_Observatory/ObservatoryPivot/dree_exhibit",
+        "xmlFile": "planets/Eye/PlaqueText.xml",
+        "position": {
+          "x": -1399.17,
+          "y": 0.9016539,
+          "z": 6007.77
+        }
+      },
       {
         "rename": "DitylumDialogue",
         "radius": 0.7,

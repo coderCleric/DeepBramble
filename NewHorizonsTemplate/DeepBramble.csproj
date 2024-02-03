@@ -776,6 +776,9 @@
       <None Update="planets\Eye\eye.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="planets\Eye\PlaqueText.xml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="planets\Eye\vessel.json">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

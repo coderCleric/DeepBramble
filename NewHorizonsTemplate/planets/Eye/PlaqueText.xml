@@ -1,0 +1,13 @@
+<DialogueTree xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/dialogue_schema.xsd">
+  <NameField>SIGN</NameField>
+
+  <DialogueNode>
+    <Name>INITIAL</Name>
+    <EntryCondition>DEFAULT</EntryCondition>
+    <Dialogue>
+      <Page>Not all of the Nomai made it onto one of the three escape pods. While many perished in the initial crash of the Vessel, four ended up warping deeper into the Bramble.</Page>
+      <Page>They met another species named the Dree, and the two groups shared their cultures with one another. Together, they made a plan to reach the Eye of the Universe.</Page>
+      <Page>Unfortunately, this plan failed, killing the four Nomai and all of the Dree, save one who was not present at the time.</Page>
+    </Dialogue>
+  </DialogueNode>
+</DialogueTree>

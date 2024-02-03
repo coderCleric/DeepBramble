@@ -30,6 +30,7 @@ namespace DeepBramble.Helpers
                 GameObject.Destroy(campRoot.Find("Campsite/Ditylum").gameObject);
                 GameObject.Destroy(campRoot.Find("Campsite/FCAltTravelerSockets").gameObject);
                 GameObject.Destroy(campRoot.Find("InstrumentZones/DitylumZone").gameObject);
+                GameObject.Destroy(campRoot.parent.Find("Sector_Observatory/Geo_Observatory/ObservatoryPivot/dree_exhibit").gameObject);
                 return;
             }
 
