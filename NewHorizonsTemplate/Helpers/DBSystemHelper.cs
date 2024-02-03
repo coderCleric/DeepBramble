@@ -123,6 +123,9 @@ namespace DeepBramble.Helpers
                             ForgottenLocator.greenTreeMat = sectorTransform.Find("shattered_planet/park_area/GEO_NomaiTree_1_Trunk").gameObject.GetComponent<MeshRenderer>().material;
                             if (ForgottenLocator.heartDimensionSector != null)
                                 ReskinHeartDimension(ForgottenLocator.greenTreeMat, ForgottenLocator.heartDimensionSector);
+
+                            //Set up the gravity triggers for the concert hall
+                            sectorTransform.Find("shattered_planet/concert_hall_area/concert_hall_gravity").gameObject.AddComponent<EntranceGravTrigger>();
                             break;
 
                         case "Magma's Recursion":
