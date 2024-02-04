@@ -305,11 +305,18 @@ namespace DeepBramble
         [HarmonyPatch(typeof(PlayerCameraEffectController), nameof(PlayerCameraEffectController.ApplyExposureDamage))]
         public static bool SuppressPhosphenes()
         {
-            if(DamagedByAmbientHeatOnly())
-            {
-                return false;
-            }
-            return true;
+            return !DamagedByAmbientHeatOnly();
+        }
+
+        /**
+         * Suppress the controller rumble caused by the hot node hazard
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(RumbleManager), nameof(RumbleManager.UpdateHazardDamage))]
+        public static void AvoidHotNodeRumble(ref float damage)
+        {
+            if (DamagedByAmbientHeatOnly())
+                damage = 0;
         }
 
         /**

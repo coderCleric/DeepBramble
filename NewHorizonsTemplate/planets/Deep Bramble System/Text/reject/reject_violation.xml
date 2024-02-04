@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			OKALIS: I cannot help but feel unnerved by this place. Even given the nature of the <![CDATA[<color=purple>Bramble</color>]]>, I cannot help but feel this place is… unnatural.
+			OKALIS: I cannot help but feel unnerved by this place. Even given the nature of the <![CDATA[<color=purple>Bramble</color>]]>, I cannot help but feel this place is... unnatural.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			NESIA: In short, this node is <![CDATA[<i>]]>another Bramble<![CDATA[</i>]]>. This is visible not just in its continued production of the toxin, but also in how the rest of the <![CDATA[<color=purple>Bramble</color>]]> is starving it. The implications of this are… unclear, but we should certainly study this plant.
+			NESIA: In short, this node is <![CDATA[<i>]]>another Bramble<![CDATA[</i>]]>. This is visible not just in its continued production of the toxin, but also in how the rest of the <![CDATA[<color=purple>Bramble</color>]]> is starving it. The implications of this are... unclear, but we should certainly study this plant.
 		</Text>
 	</TextBlock>
 

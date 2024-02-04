@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			KARENIA: Let me see… okay, I have the vines talking about your vessel and… yes! They’re saying that objects escaped! They actually seem a little confused, that doesn’t happen often.
+			KARENIA: Let me see... okay, I have the vines talking about your vessel and... yes! They’re saying that objects escaped! They actually seem a little confused, that doesn’t happen often.
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			KARENIA: Wait… oh. Oh no. I’m so sorry, but it seems like one of the pods didn’t make it, I’m hearing talk of a captured object.
+			KARENIA: Wait... oh. Oh no. I’m so sorry, but it seems like one of the pods didn’t make it, I’m hearing talk of a captured object.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<Text>
-			NESIA: No… Can you determine which pod it was? Who was aboard?
+			NESIA: No... Can you determine which pod it was? Who was aboard?
 		</Text>
 	</TextBlock>
 
@@ -92,7 +92,7 @@
 		<ID>12</ID>
 		<ParentID>11</ParentID>
 		<Text>
-			…
+			...
 		</Text>
 	</TextBlock>
 
@@ -100,7 +100,7 @@
 		<ID>13</ID>
 		<ParentID>12</ParentID>
 		<Text>
-			KARENIA: I… I’m so sorry, but I’m hearing echoes of that name. The <![CDATA[<color=purple>Bramble</color>]]> only ever learns a name when it claims the person it belongs to. It seems that they were caught without air and asphyxiated.
+			KARENIA: I... I’m so sorry, but I’m hearing echoes of that name. The <![CDATA[<color=purple>Bramble</color>]]> only ever learns a name when it claims the person it belongs to. It seems that they were caught without air and asphyxiated.
 		</Text>
 	</TextBlock>
 
@@ -124,7 +124,7 @@
 		<ID>16</ID>
 		<ParentID>15</ParentID>
 		<Text>
-			NESIA: She is… She was my love. I’m sorry, I. I can’t…
+			NESIA: She is... She was my love. I’m sorry, I. I can’t...
 		</Text>
 	</TextBlock>
 

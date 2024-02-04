@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			AZOLLA: Yes. Sennetti, Okalis, it seems… it seems that our friends on the <![CDATA[<color=orange>Third Escape Pod</color>]]> have perished.
+			AZOLLA: Yes. Sennetti, Okalis, it seems... it seems that our friends on the <![CDATA[<color=orange>Third Escape Pod</color>]]> have perished.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			OKALIS: I cannot believe…
+			OKALIS: I cannot believe...
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			…
+			...
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			AZOLLA: …I understand tensions are elevated in light of these events. I would suggest we take a moment to mourn, after which we will construct a memorial in their memory.
+			AZOLLA: ...I understand tensions are elevated in light of these events. I would suggest we take a moment to mourn, after which we will construct a memorial in their memory.
 		</Text>
 	</TextBlock>
 

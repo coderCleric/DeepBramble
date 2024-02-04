@@ -266,7 +266,7 @@
 					},
 					{
 						"mirror": true,
-						"type": "adult",
+						"type": "stranger",
 						"position": {
 							"x": 0.7704,
 							"y": 1.286926
@@ -276,8 +276,8 @@
 					{
 						"type": "adult",
 						"position": {
-							"x": 0.5158237,
-							"y": 1.781879
+							"x": 0.7849,
+							"y": 2.2146
 						},
 						"zRotation": 338.0178
 					},

@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			OKALIS: …I actually seem to have lost all thrust, I may require assistance to return.
+			OKALIS: ...I actually seem to have lost all thrust, I may require assistance to return.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<Text>
-			…
+			...
 		</Text>
 	</TextBlock>
 
@@ -124,7 +124,7 @@
 		<ID>16</ID>
 		<ParentID>15</ParentID>
 		<Text>
-			…
+			...
 		</Text>
 	</TextBlock>
 
@@ -132,7 +132,7 @@
 		<ID>17</ID>
 		<ParentID>16</ParentID>
 		<Text>
-			DITYLUM: By the <![CDATA[<color=purple>Bramble</color>]]>, you’re serious aren’t you…
+			DITYLUM: By the <![CDATA[<color=purple>Bramble</color>]]>, you’re serious aren’t you...
 		</Text>
 	</TextBlock>
 

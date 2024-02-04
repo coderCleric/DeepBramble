@@ -38,7 +38,7 @@
         <DialogueTarget>WHY_TALKING</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
-        <Text>About the song…</Text>
+        <Text>About the song...</Text>
         <DialogueTarget>READY_TO_PLAY</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
@@ -146,8 +146,8 @@
     <Name>FAREWELL</Name>
     <EntryCondition>JamSessionIsOver</EntryCondition>
     <Dialogue>
-      <Page>Wow… so many possibilities, just waiting for someone to decide which one gets to come true.</Page>
-      <Page>Do you think… do you think there’ll be a lot of people in the next one? Do you think they’ll get the chance to meet, to talk, to share ideas?</Page>
+      <Page>Wow... so many possibilities, just waiting for someone to decide which one gets to come true.</Page>
+      <Page>Do you think... do you think there’ll be a lot of people in the next one? Do you think they’ll get the chance to meet, to talk, to share ideas?</Page>
     </Dialogue>
     <DialogueOptionsList>
       <DialogueOption>

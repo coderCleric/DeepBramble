@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			NESIA: Meditation log 134, setting up now, just need to put my writing staff somewhere… here will do. Okay, sitting down, closing my eyes, and… breathing…
+			NESIA: Meditation log 134, setting up now, just need to put my writing staff somewhere... here will do. Okay, sitting down, closing my eyes, and... breathing...
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			NESIA:In… and… out…
+			NESIA:In... and... out...
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			…
+			...
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			…
+			...
 		</Text>
 	</TextBlock>
 
@@ -76,7 +76,7 @@
 		<ID>10</ID>
 		<ParentID>9</ParentID>
 		<Text>
-			NESIA: Incredible… it’s so green, in a way that I have never seen the <![CDATA[<color=purple>Bramble</color>]]>. Just what is this place? Did you bring me here, my wandering friend? Is this place… important somehow? I cannot help but feel that it is… significant.
+			NESIA: Incredible... it’s so green, in a way that I have never seen the <![CDATA[<color=purple>Bramble</color>]]>. Just what is this place? Did you bring me here, my wandering friend? Is this place... important somehow? I cannot help but feel that it is... significant.
 		</Text>
 	</TextBlock>
 

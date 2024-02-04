@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			OKALIS: Amylax, can I converse with you for a moment? There have been recent… developments that have been troubling me.
+			OKALIS: Amylax, can I converse with you for a moment? There have been recent... developments that have been troubling me.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			…
+			...
 		</Text>
 	</TextBlock>
 
@@ -84,7 +84,7 @@
 		<ID>11</ID>
 		<ParentID>10</ParentID>
 		<Text>
-			OKALIS: That’s… actually a very solid argument. At this point it has become clear that escape is not easily achievable. Perhaps investigating the phenomena surrounding us would be the most efficient use of our time!
+			OKALIS: That’s... actually a very solid argument. At this point it has become clear that escape is not easily achievable. Perhaps investigating the phenomena surrounding us would be the most efficient use of our time!
 		</Text>
 	</TextBlock>
 
@@ -124,7 +124,7 @@
 		<ID>16</ID>
 		<ParentID>15</ParentID>
 		<Text>
-			AMYLAX: Wait! Okalis! Don’t run off so fast! That whole area is super… hot… oh <![CDATA[<color=purple>Bramble</color>]]>, I hope the other Nomai are more careful than he is, or they’re gonna get themselves killed.
+			AMYLAX: Wait! Okalis! Don’t run off so fast! That whole area is super... dangerous... oh <![CDATA[<color=purple>Bramble</color>]]>, I hope the other Nomai are more careful than he is, or they’re gonna get themselves killed.
 		</Text>
 	</TextBlock>
 
