@@ -17,6 +17,7 @@ namespace DeepBramble.BaseInheritors
             base.Awake();
             this._localDropNormal = new Vector3(0, 0, -1);
             this._localDropOffset = new Vector3(0, 0, -0.0698f);
+            _type = ItemType.Lantern;
         }
 
         /**
