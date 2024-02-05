@@ -10,6 +10,15 @@ namespace DeepBramble.BaseInheritors
     class GravCrystalItem : OWItem
     {
         /**
+         * Need to give it some type or it can be placed anywhere
+         */
+        public override void Awake()
+        {
+            base.Awake();
+            _type = ItemType.Lantern;
+        }
+
+        /**
          * Gives the display name of the item
          * 
          * @return The display name, as a string
@@ -17,16 +26,6 @@ namespace DeepBramble.BaseInheritors
         public override string GetDisplayName()
         {
             return "Gravity Crystal";
-        }
-
-        /**
-         * Check if the item can be dropped (it can't)
-         * 
-         * @return False, because you can't drop is, cheater
-         */
-        public override bool CheckIsDroppable()
-        {
-            return false;
         }
 
         /**
