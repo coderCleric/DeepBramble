@@ -54,7 +54,7 @@ namespace DeepBramble.MiscBehaviours
             attachPoint = GetComponentInChildren<PlayerAttachPoint>();
             attachPoint.SetAttachOffset(new Vector3(1, 0, 0));
             handleReceiver = attachPoint.gameObject.GetComponent<InteractReceiver>();
-            handleReceiver.OnPressInteract += MoveToEnd;
+            handleReceiver.OnPressInteract += HandleGrab;
             handleReceiver.ChangePrompt("Grab");
             handleReceiver.DisableInteraction();
 
@@ -89,6 +89,17 @@ namespace DeepBramble.MiscBehaviours
         }
 
         /**
+         * Handles what happens when the player grabs on
+         */
+        private void HandleGrab()
+        {
+            if (state == KevinState.ATSTART)
+                MoveToEnd();
+            else if(state == KevinState.ATEND)
+                MoveToStart();
+        }
+
+        /**
          * Does everything needed for Kevin to start moving from the start to the end. Should be called when the handles are grabbed
          */
         private void MoveToEnd()
@@ -109,15 +120,22 @@ namespace DeepBramble.MiscBehaviours
         }
 
         /**
-         * Does the stuff necessary for Kevin to warp back to the start
+         * Does everything needed for Kevin to start moving from the end to the start. Should be called when the handles are grabbed
          */
-        public void TeleportBack()
+        private void MoveToStart()
         {
-            if(state == KevinState.ATEND)
+            if (state == KevinState.ATEND)
             {
-                state = KevinState.ATSTART;
-                travelAnimator.SetTrigger("teleport_back");
-                handleReceiver.EnableInteraction();
+                state = KevinState.MOVING;
+
+                //Connect the player and disable the interaction
+                attachPoint.AttachPlayer();
+                handleReceiver.DisableInteraction();
+                Locator.GetPlayerBody().GetComponent<PlayerCharacterController>().EnableZeroGMovement(); //This allows the player to look horizontally, for some reason
+                ForgottenLocator.playerAttachedToKevin = true;
+
+                //Then, get Kevin moving
+                travelAnimator.SetTrigger("begin_travel_back");
             }
         }
 
@@ -130,6 +148,7 @@ namespace DeepBramble.MiscBehaviours
             ForgottenLocator.playerAttachedToKevin = false;
             attachPoint.DetachPlayer();
             Locator.GetPlayerBody().GetComponent<PlayerCharacterController>().DisableZeroGMovement();
+            handleReceiver.EnableInteraction();
         }
 
         /**
@@ -137,6 +156,15 @@ namespace DeepBramble.MiscBehaviours
          */
         public void ArriveAtStart()
         {
+            //Need to account for if the player rode him here
+            if(ForgottenLocator.playerAttachedToKevin)
+            {
+                ForgottenLocator.playerAttachedToKevin = false;
+                attachPoint.DetachPlayer();
+                Locator.GetPlayerBody().GetComponent<PlayerCharacterController>().DisableZeroGMovement();
+            }
+
+            //These happen regardless
             state = KevinState.ATSTART;
             handleReceiver.EnableInteraction();
         }

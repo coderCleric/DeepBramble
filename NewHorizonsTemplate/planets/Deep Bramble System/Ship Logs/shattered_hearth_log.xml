@@ -103,6 +103,7 @@
     <!--The text-->
     <ExploreFact>
       <ID>DATING_START_FACT_FC</ID>
+      <IgnoreMoreToExplore/>
       <Text>Apparently, one of the Nomai and one of the aliens became partners.</Text>
     </ExploreFact>
   </Entry>

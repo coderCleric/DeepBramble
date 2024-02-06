@@ -48,6 +48,7 @@
           "z": -38.80038
         },
         "hasFogLight": false,
+        "possibleExits": [3],
         "linksTo": "Antrum of the Cyst"
       }
     ]

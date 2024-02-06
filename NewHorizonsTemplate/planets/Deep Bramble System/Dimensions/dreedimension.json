@@ -91,6 +91,16 @@
   "Props": {
     "details": [
       {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/props/old_dead_node.prefab",
+        "scale": 0.5,
+        "position": {
+          "x": -533.6209,
+          "y": 126.9867,
+          "z": 383.0572
+        }
+      },
+      {
         "rename": "karenia_house",
         "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/buildings/dree_floating_house.prefab",

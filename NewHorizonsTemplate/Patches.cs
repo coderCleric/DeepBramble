@@ -451,22 +451,6 @@ namespace DeepBramble
             return !ForgottenLocator.playerAttachedToKevin;
         }
 
-        /**
-         * Warp Kevin back to the start when the player leaves the nursery
-         * 
-         * @param __instance The fog warp volume the player is leaving
-         * @param detector The detector being warped
-         */
-        [HarmonyPostfix]
-        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.WarpDetector))]
-        public static void ResetKevin(FogWarpVolume __instance, FogWarpDetector detector)
-        {
-            if (ForgottenLocator.inBrambleSystem && (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip())))
-            {
-                ForgottenLocator.registeredKevin.TeleportBack();
-            }
-        }
-
         //################################# Between dimension teleportation #################################
         /**
          * Ignores the request to reposition a body if we have been told to do so

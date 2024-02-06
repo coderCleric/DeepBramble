@@ -19,7 +19,7 @@
   },
   "Bramble": {
     "dimension": {
-      "linksTo": "Nursery Node",
+      "linksTo": "Cyst Node",
       "fogDensity": 1.2,
       "radius": 500
     }
