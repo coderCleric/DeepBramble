@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			AZOLLA: Since the heat of this planet does not seem to relent on the surface, it seems inadvisable to establish a permanent residence here. Therefore, I would suggest we simply construct a lab to study the <![CDATA[<color=orange>Eye</color>]]>’s signal.
+			AZOLLA: Since the heat of this planet does not seem to relent on the surface, it seems inadvisable to establish a permanent residence here. Therefore, I would suggest we simply construct a lab to study the <![CDATA[<color=orange>Eye</color>]]>'s signal.
 		</Text>
 	</TextBlock>
 
@@ -56,7 +56,7 @@
 		<ID>202</ID>
 		<ParentID>201</ParentID>
 		<Text>
-			AZOLLA: Good idea Sennetti, we don’t want anyone to become lost with the constant heat of this planet.
+			AZOLLA: Good idea Sennetti, we don't want anyone to become lost with the constant heat of this planet.
 		</Text>
 	</TextBlock>
 

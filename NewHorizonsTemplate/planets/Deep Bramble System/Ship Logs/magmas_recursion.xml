@@ -12,7 +12,7 @@
         <SourceID>ALIEN_STUDY_ENTRY_FC</SourceID>
         <RumorName>Alien Story</RumorName>
         <RumorNamePriority>1</RumorNamePriority>
-        <Text>One of the Nomai transcribed an old alien legend on a planet called Magma’s Recursion</Text>
+        <Text>One of the Nomai transcribed an old alien legend on a planet called Magma's Recursion</Text>
     </RumorFact>
 
     <!--There might be the eye signal-->
@@ -21,7 +21,7 @@
         <SourceID>POD_MEMORIAL_ENTRY_FC</SourceID>
         <RumorName>Ancient Signal</RumorName>
         <RumorNamePriority>2</RumorNamePriority>
-        <Text>Apparently, there is an ancient signal reverberating through the area surrounding Magma’s Recursion.</Text>
+        <Text>Apparently, there is an ancient signal reverberating through the area surrounding Magma's Recursion.</Text>
     </RumorFact>
 
     <!--Hearing the eye signal-->
@@ -33,7 +33,7 @@
     <!--Reading about the rescue-->
     <ExploreFact>
       <ID>DREE_RESCUE_FACT_FC</ID>
-      <Text>The Nomai nearly died upon entering the vicinity of Magma’s Recursion, but a group of aliens came in and rescued them.</Text>
+      <Text>The Nomai nearly died upon entering the vicinity of Magma's Recursion, but a group of aliens came in and rescued them.</Text>
     </ExploreFact>
 
     <!--The old story-->
@@ -70,7 +70,7 @@
     <ExploreFact>
       <ID>SIGNAL_FEEDBACK_FACT_FC</ID>
       <IgnoreMoreToExplore/>
-      <Text>The Nomai thought that the excessive heat may be due to the many recursive seeds funneling heat back towards the already burning planet. They also believed that this may be what prevented the Eye of the Universe’s signal from fading away.</Text>
+      <Text>The Nomai thought that the excessive heat may be due to the many recursive seeds funneling heat back towards the already burning planet. They also believed that this may be what prevented the Eye of the Universe's signal from fading away.</Text>
     </ExploreFact>
 
     <!--He's flirting with you dumbass-->
@@ -91,7 +91,7 @@
     <RumorFact>
         <ID>SIGNAL_LAB_RUMOR_FC</ID>
         <SourceID>ABANDONED_SETTLEMENT_ENTRY_FC</SourceID>
-        <Text>Supposedly, the Nomai set up a lab to study the Eye’s signal in a cave on Magma’s Recursion.</Text>
+        <Text>Supposedly, the Nomai set up a lab to study the Eye's signal in a cave on Magma's Recursion.</Text>
     </RumorFact>
 
     <!--Discovery-->
@@ -128,13 +128,13 @@
         <!--There's a dree recording-->
         <ExploreFact>
           <ID>DREE_ECHOLOCATION_STUDY_FACT_FC</ID>
-          <Text>One of the Nomai set up a recording of the tones that the Dree use to echolocate, so that he could study them while he worked on analyzing the Eye’s signal.</Text>
+          <Text>One of the Nomai set up a recording of the tones that the Dree use to echolocate, so that he could study them while he worked on analyzing the Eye's signal.</Text>
         </ExploreFact>
 
         <!--The player tuned to the signal-->
         <ExploreFact>
           <ID>DREE_SIGNAL_TUNE_FACT_FC</ID>
-          <Text>I was able to tune my signalscope to the “Alien Echolocation” frequency.</Text>
+          <Text>I was able to tune my signalscope to the "Alien Echolocation" frequency.</Text>
         </ExploreFact>
       </Entry>
   </Entry>
@@ -149,7 +149,7 @@
     <RumorFact>
         <ID>QUANTUM_CAVE_RUMOR_FC</ID>
         <SourceID>ABANDONED_SETTLEMENT_ENTRY_FC</SourceID>
-        <Text>Supposedly, the Nomai discovered a strange, wandering rock in a cave on Magma’s Recursion.</Text>
+        <Text>Supposedly, the Nomai discovered a strange, wandering rock in a cave on Magma's Recursion.</Text>
     </RumorFact>
 
     <!--Hearing about the new rule-->
@@ -162,13 +162,13 @@
     <!--Discovery-->
     <ExploreFact>
       <ID>QUANTUM_CAVE_DISCOVERY_FACT_FC</ID>
-      <Text>I found a cave in the side of a hill on Magma’s Recursion. The cave has a quantum rock in it.</Text>
+      <Text>I found a cave in the side of a hill on Magma's Recursion. The cave has a quantum rock in it.</Text>
     </ExploreFact>
 
     <!--Reading the blocked text-->
     <ExploreFact>
       <ID>OBSTRUCTED_TEXT_FACT_FC</ID>
-      <Text>The Nomai discovered something about the rock’s behavior, but a cooled lava flow is obstructing the text.</Text>
+      <Text>The Nomai discovered something about the rock's behavior, but a cooled lava flow is obstructing the text.</Text>
     </ExploreFact>
 
     <!--I used it-->

@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			I don’t understand, how could this happen? The recording... did the <![CDATA[<color=purple>Bramble</color>]]> do this? Was it lured in by the heat of the star, thinking that it could feed on it?
+			I don't understand, how could this happen? The recording... did the <![CDATA[<color=purple>Bramble</color>]]> do this? Was it lured in by the heat of the star, thinking that it could feed on it?
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			Everyone... I counted them, and everyone’s gone. My people, the Nomai, I’m the <![CDATA[<i>]]>only<![CDATA[</i>]]> one that was spared. Even Lioloma, she still has my poem...
+			Everyone... I counted them, and everyone's gone. My people, the Nomai, I'm the <![CDATA[<i>]]>only<![CDATA[</i>]]> one that was spared. Even Lioloma, she still has my poem...
     </Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			The buildings on <![CDATA[<color=orange>Magma’s Recursion</color>]]> were only ruins. Why were they ruins? How long has it been? I thought that I was only gone for a few minutes.
+			The buildings on <![CDATA[<color=orange>Magma's Recursion</color>]]> were only ruins. Why were they ruins? How long has it been? I thought that I was only gone for a few minutes.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			I don’t understand. Please, please, I can’t be the only one left! I can’t be alone.
+			I don't understand. Please, please, I can't be the only one left! I can't be alone.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			I don’t want to be alone.
+			I don't want to be alone.
 		</Text>
 	</TextBlock>
 

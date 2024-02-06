@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			DITYLUM: Hey, since you all have been working down here for so long, I thought I would come and let you know about a strange node I found the other day in <![CDATA[<color=orange>Briar’s Hollow</color>]]>. I tried to send one of those probes that you made in, but it seemed to lose signal immediately. I even tried tying a rope to one, but when I pulled on it the rope snapped, and I barely dodged the shrapnel from the destroyed probe.
+			DITYLUM: Hey, since you all have been working down here for so long, I thought I would come and let you know about a strange node I found the other day in <![CDATA[<color=orange>Briar's Hollow</color>]]>. I tried to send one of those probes that you made in, but it seemed to lose signal immediately. I even tried tying a rope to one, but when I pulled on it the rope snapped, and I barely dodged the shrapnel from the destroyed probe.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			DITYLUM: It almost looked like it had been destroyed by the rope itself, but I know I didn’t pull hard enough to cause that. I don’t know if I <![CDATA[<i>]]>could<![CDATA[</i>]]> pull hard enough to cause that!
+			DITYLUM: It almost looked like it had been destroyed by the rope itself, but I know I didn't pull hard enough to cause that. I don't know if I <![CDATA[<i>]]>could<![CDATA[</i>]]> pull hard enough to cause that!
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			DITYLUM: Karenia’s really unnerved by it, she’s calling for the node to be destroyed using poison from the <![CDATA[<color=orange>Venomous Reject</color>]]>. Nobody can remember any story of such a node in all of our history, and nobody feels safe with it around.
+			DITYLUM: Karenia's really unnerved by it, she's calling for the node to be destroyed using poison from the <![CDATA[<color=orange>Venomous Reject</color>]]>. Nobody can remember any story of such a node in all of our history, and nobody feels safe with it around.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			DITYLUM: Thanks, I’ll let Karenia know that you’ll take care of it.
+			DITYLUM: Thanks, I'll let Karenia know that you'll take care of it.
 		</Text>
 	</TextBlock>
 

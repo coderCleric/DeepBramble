@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			NESIA: Interesting. It seems that the majority of the anglerfish’s internal volume is taken up by this central cavity, rather than organs.
+			NESIA: Interesting. It seems that the majority of the anglerfish's internal volume is taken up by this central cavity, rather than organs.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			AZOLLA: Interesting! It’s rather odd a species that are normally so territorial can become such social creatures once their young are involved.
+			AZOLLA: Interesting! It's rather odd a species that are normally so territorial can become such social creatures once their young are involved.
 		</Text>
 	</TextBlock>
 

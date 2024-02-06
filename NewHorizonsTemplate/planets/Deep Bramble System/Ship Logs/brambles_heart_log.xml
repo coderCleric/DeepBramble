@@ -12,7 +12,7 @@
     <RumorFact>
         <ID>HEART_LAB_EXISTENCE_RUMOR_FC</ID>
         <IgnoreMoreToExplore/>
-        <Text>I’ve heard of some sort of lab that was dedicated to something called the Distant Node Project.</Text>
+        <Text>I've heard of some sort of lab that was dedicated to something called the Distant Node Project.</Text>
     </RumorFact>
 
     <!--Purpose rumor-->
@@ -26,13 +26,13 @@
     <RumorFact>
         <ID>HEART_LAB_ACCESS_RUMOR_FC</ID>
         <SourceID>QUANTUM_CAVE_ENTRY_FC</SourceID>
-        <Text>Apparently, the quantum rock on Magma’s Recursion served some utility for the Distant Node Project.</Text>
+        <Text>Apparently, the quantum rock on Magma's Recursion served some utility for the Distant Node Project.</Text>
     </RumorFact>
 
     <!--First discovery-->
     <ExploreFact>
       <ID>HEART_LAB_DISCOVERY_FACT_FC</ID>
-      <Text>I was able to ride a quantum rock from Magma’s Recursion to Bramble’s Heart.</Text>
+      <Text>I was able to ride a quantum rock from Magma's Recursion to Bramble's Heart.</Text>
     </ExploreFact>
 
     <!--It's the heart-->
@@ -44,7 +44,7 @@
     <!--The goal-->
     <ExploreFact>
       <ID>PROJECT_GOAL_FACT_FC</ID>
-      <Text>The Nomai wanted to combine the Dree’s druidcraft with the Eye’s signal to force a Bramble node to appear near the Eye of the Universe.</Text>
+      <Text>The Nomai wanted to combine the Dree's druidcraft with the Eye's signal to force a Bramble node to appear near the Eye of the Universe.</Text>
     </ExploreFact>
 
     <!--Everyone needs to be there-->

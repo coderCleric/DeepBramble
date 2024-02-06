@@ -11,13 +11,13 @@
       <ID>FOLLY_RUMOR_FC</ID>
       <SourceID>DREE_PARK_ENTRY_FC</SourceID>
       <RumorName>Gravitational Signal</RumorName>
-      <Text>One of the Nomai detected a natural signal somewhere in Briar’s Hollow. The signal seemed to be gravitational in nature.</Text>
+      <Text>One of the Nomai detected a natural signal somewhere in Briar's Hollow. The signal seemed to be gravitational in nature.</Text>
     </RumorFact>
 
     <!--Discovery-->
     <ExploreFact>
       <ID>FOLLY_DISCOVERY_FACT_FC</ID>
-      <Text>I found a planet in Briar’s Hollow. It seems to be hollow, with reversed gravity that pushes objects away.</Text>
+      <Text>I found a planet in Briar's Hollow. It seems to be hollow, with reversed gravity that pushes objects away.</Text>
     </ExploreFact>
 
     <!--Signal-->
@@ -35,7 +35,7 @@
     <!--Discovery-->
     <ExploreFact>
       <ID>PILLAR_DISCOVERY_FACT_FC</ID>
-      <Text>I found a giant, smooth crystal on the inner surface of Graviton’s Folly. There are many Nomai buildings constructed on the sides of the pillar.</Text>
+      <Text>I found a giant, smooth crystal on the inner surface of Graviton's Folly. There are many Nomai buildings constructed on the sides of the pillar.</Text>
     </ExploreFact>
 
     <!--The gift-->
@@ -90,7 +90,7 @@
         <!--No signal for them-->
         <ExploreFact>
           <ID>NO_SIGNAL_FACT_FC</ID>
-          <Text>The Nomai have not been able to detect the Eye’s signal ever since they warped into the Deep Bramble.</Text>
+          <Text>The Nomai have not been able to detect the Eye's signal ever since they warped into the Deep Bramble.</Text>
         </ExploreFact>
 
         <!--Purpose thoughts-->
@@ -102,7 +102,7 @@
         <!--Age thoughts-->
         <ExploreFact>
           <ID>EYE_AGE_FACT_FC</ID>
-          <Text>The Nomai came up with several hypotheses as to how the Eye’s signal might be so old.</Text>
+          <Text>The Nomai came up with several hypotheses as to how the Eye's signal might be so old.</Text>
         </ExploreFact>
       </Entry>
 
@@ -116,7 +116,7 @@
           <ID>NOMAI_MEETING_RUMOR_FC</ID>
           <SourceID>TRANSLATION_LAB_ENTRY_FC</SourceID>
           <RumorName>Nomai Meeting</RumorName>
-          <Text>I found text calling the Nomai back to Graviton’s Folly to discuss some important news.</Text>
+          <Text>I found text calling the Nomai back to Graviton's Folly to discuss some important news.</Text>
         </RumorFact>
 
         <!--Discovery-->
@@ -134,7 +134,7 @@
         <!--Revitalization-->
         <ExploreFact>
           <ID>NOMAI_REVITALIZED_FACT_FC</ID>
-          <Text>The Nomai seemed to be revitalized after hearing news that a strange signal had been reverberating through the area of Magma’s Recursion.</Text>
+          <Text>The Nomai seemed to be revitalized after hearing news that a strange signal had been reverberating through the area of Magma's Recursion.</Text>
         </ExploreFact>
       </Entry>
   </Entry>
@@ -147,13 +147,13 @@
     <!--Seen it-->
     <ExploreFact>
       <ID>GRAV_CORE_SEEN_FACT_FC</ID>
-      <Text>There is a large crystal that seems to be floating in the center of Graviton’s Folly.</Text>
+      <Text>There is a large crystal that seems to be floating in the center of Graviton's Folly.</Text>
     </ExploreFact>
 
     <!--Might be doing gravity-->
     <ExploreFact>
       <ID>CORE_THEORY_FACT_FC</ID>
-      <Text>The Nomai theorized that whatever’s at the center of the core might be responsible for the strange gravity of the planet.</Text>
+      <Text>The Nomai theorized that whatever's at the center of the core might be responsible for the strange gravity of the planet.</Text>
     </ExploreFact>
 
     <!--Tunnels and spikes-->
@@ -196,13 +196,13 @@
     <!--Discovery-->
     <ExploreFact>
       <ID>CORE_LAB_FOUND_FACT_FC</ID>
-      <Text>I found some sort of lab on the inner surface of Graviton’s Folly.</Text>
+      <Text>I found some sort of lab on the inner surface of Graviton's Folly.</Text>
     </ExploreFact>
 
     <!--Lab purpose-->
     <ExploreFact>
       <ID>CORE_LAB_PURPOSE_FACT</ID>
-      <Text>The lab seems to have been built to study the massive crystalline core at the center of Graviton’s Folly.</Text>
+      <Text>The lab seems to have been built to study the massive crystalline core at the center of Graviton's Folly.</Text>
     </ExploreFact>
 
     <!--Stranded-->
@@ -220,7 +220,7 @@
     <!--Broken stairs-->
     <ExploreFact>
       <ID>BROKEN_STAIRS_FACT_FC</ID>
-      <Text>There is some text higher in the lab, but the stairs are broken, so I can’t sit still while my translator is in range.</Text>
+      <Text>There is some text higher in the lab, but the stairs are broken, so I can't sit still while my translator is in range.</Text>
     </ExploreFact>
   </Entry>
 
@@ -239,7 +239,7 @@
     <!--Use for lab-->
     <ExploreFact>
       <ID>QUARRY_TRANSLATION_FACT_FC</ID>
-      <Text>One of the Nomai decided to use material from Graviton’s Folly to build a translation lab.</Text>
+      <Text>One of the Nomai decided to use material from Graviton's Folly to build a translation lab.</Text>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>

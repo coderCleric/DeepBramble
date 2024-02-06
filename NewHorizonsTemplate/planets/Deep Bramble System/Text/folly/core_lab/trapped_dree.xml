@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			NESIA: Unfortunately, the nutrient-rich fog of the <![CDATA[<color=orange>Nursery</color>]]> is quite thick, swiftly halting any movement that isn’t supported by a constant force.
+			NESIA: Unfortunately, the nutrient-rich fog of the <![CDATA[<color=orange>Nursery</color>]]> is quite thick, swiftly halting any movement that isn't supported by a constant force.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			SENNETTI: I’ve spoken to the his people about possible rescue methods, but they seem convinced all attempts would either fail or result in many deaths. When I spoke to them, they were already preparing for a period of mourning.
+			SENNETTI: I've spoken to the his people about possible rescue methods, but they seem convinced all attempts would either fail or result in many deaths. When I spoke to them, they were already preparing for a period of mourning.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			AZOLLA: Friends, if our friends do not believe it possible to save Ditylum, then it is up to us to do so. We cannot simply allow him to perish without attempting rescue, especially after how his people pulled us from the heat of <![CDATA[<color=orange>Magma’s Recursion</color>]]>.
+			AZOLLA: Friends, if our friends do not believe it possible to save Ditylum, then it is up to us to do so. We cannot simply allow him to perish without attempting rescue, especially after how his people pulled us from the heat of <![CDATA[<color=orange>Magma's Recursion</color>]]>.
 		</Text>
 	</TextBlock>
 

@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			NESIA: With the our friend’s language translated, we can begin assembling a better understanding of their physiology. I have erected this text wall to serve as a location for recording our findings.
+			NESIA: With the our friend's language translated, we can begin assembling a better understanding of their physiology. I have erected this text wall to serve as a location for recording our findings.
 		</Text>
 	</TextBlock>
 
@@ -22,7 +22,7 @@
 		<ID>102</ID>
 		<ParentID>101</ParentID>
 		<Text>
-			SENNETTI: From what I’ve gathered, they have inhabited the <![CDATA[<color=purple>Deep Bramble</color>]]> in all of their stories, so it is very likely that they developed enhanced vocal organs as an adaptation to the environment.
+			SENNETTI: From what I've gathered, they have inhabited the <![CDATA[<color=purple>Deep Bramble</color>]]> in all of their stories, so it is very likely that they developed enhanced vocal organs as an adaptation to the environment.
 		</Text>
 	</TextBlock>
 

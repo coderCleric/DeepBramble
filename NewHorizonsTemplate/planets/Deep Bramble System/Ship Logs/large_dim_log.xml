@@ -74,7 +74,7 @@
     <RumorFact>
       <ID>ENCLOSED_SPACE_ALIGNMENT_RUMOR_FC</ID>
       <SourceID>CAMP_ENTRY_FC</SourceID>
-      <Text>The Nomai theorized that this had something to do with how the entrances to the recursive node line up with the entrances to Briar’s Hollow.</Text>
+      <Text>The Nomai theorized that this had something to do with how the entrances to the recursive node line up with the entrances to Briar's Hollow.</Text>
     </RumorFact>
 
     <!--Discovery-->
@@ -94,19 +94,19 @@
     <RumorFact>
       <ID>RECURSIVE_NODE_RUMOR_FC</ID>
       <SourceID>CAMP_ENTRY_FC</SourceID>
-      <Text>Supposedly, there is a node at the center of Briar’s Hollow that leads into itself.</Text>
+      <Text>Supposedly, there is a node at the center of Briar's Hollow that leads into itself.</Text>
     </RumorFact>
 
     <!--Discovery-->
     <ExploreFact>
       <ID>RECURSIVE_NODE_FOUND_FACT_FC</ID>
-      <Text>I found a node at the center of Briar’s Hollow that leads recursively into itself.</Text>
+      <Text>I found a node at the center of Briar's Hollow that leads recursively into itself.</Text>
     </ExploreFact>
 
     <!--Signal-->
     <ExploreFact>
       <ID>RECURSIVE_NODE_SIGNAL_FACT_FC</ID>
-      <Text>I was able to pick up an amplified ambience signal on the “Natural Phenomena” frequency.</Text>
+      <Text>I was able to pick up an amplified ambience signal on the "Natural Phenomena" frequency.</Text>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>

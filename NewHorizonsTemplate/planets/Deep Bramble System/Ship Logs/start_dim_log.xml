@@ -27,7 +27,7 @@
     <!--Signal found-->
     <ExploreFact>
       <ID>BEACON_FREQUENCY_FACT_FC</ID>
-      <Text>I found a signal beacon broadcasting on the “Nomai Trailmarkers” frequency.</Text>
+      <Text>I found a signal beacon broadcasting on the "Nomai Trailmarkers" frequency.</Text>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>

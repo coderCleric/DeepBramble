@@ -72,7 +72,7 @@
     <ExploreFact>
       <ID>FISH_STOMACH_FACT_FC</ID>
       <IgnoreMoreToExplore/>
-      <Text>The fish have no proper stomach; instead, they produce a free-floating digestive enzyme. It’s very thick, and sucks matter in before digesting it.</Text>
+      <Text>The fish have no proper stomach; instead, they produce a free-floating digestive enzyme. It's very thick, and sucks matter in before digesting it.</Text>
     </ExploreFact>
 
     <!--Noting the scroll wall-->
@@ -91,7 +91,7 @@
     <ExploreFact>
       <ID>BLOCKABLE_ROCK_REASON_FACT_FC</ID>
       <IgnoreMoreToExplore/>
-      <Text>The Nomai theorized that this occurred because, normally, there was an incredibly small chance for the rock to appear in the third location. However, by blocking one of the main two, an observer can force it to inhabit the more unlikely location. They called this the “Rule of Quantum Probability”</Text>
+      <Text>The Nomai theorized that this occurred because, normally, there was an incredibly small chance for the rock to appear in the third location. However, by blocking one of the main two, an observer can force it to inhabit the more unlikely location. They called this the "Rule of Quantum Probability"</Text>
     </ExploreFact>
   </Entry>
 </AstroObjectEntry>

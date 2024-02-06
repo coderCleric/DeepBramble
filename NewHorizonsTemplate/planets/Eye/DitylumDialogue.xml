@@ -6,7 +6,7 @@
     <Name>INITIAL</Name>
     <EntryCondition>DEFAULT</EntryCondition>
     <Dialogue>
-      <Page>Thanks for remembering me, but I don’t think we’re ready yet, I can still hear music coming from the trees. Go on, make sure you get everyone.</Page>
+      <Page>Thanks for remembering me, but I don't think we're ready yet, I can still hear music coming from the trees. Go on, make sure you get everyone.</Page>
     </Dialogue>
   </DialogueNode>
   
@@ -18,7 +18,7 @@
     <Name>MAIN_BRANCH</Name>
     <EntryCondition>AllTravelersGathered</EntryCondition>
     <Dialogue>
-      <Page>I’m ready to join in whenever you are, but I understand if you have some questions first. Someone as curious as you, it’s the least you deserve.</Page>
+      <Page>I'm ready to join in whenever you are, but I understand if you have some questions first. Someone as curious as you, it's the least you deserve.</Page>
     </Dialogue>
     <DialogueOptionsList>
       <DialogueOption>
@@ -26,7 +26,7 @@
         <DialogueTarget>REGRETS</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
-        <Text>I’m sorry about what happened to your people.</Text>
+        <Text>I'm sorry about what happened to your people.</Text>
         <DialogueTarget>SORRY</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
@@ -42,7 +42,7 @@
         <DialogueTarget>READY_TO_PLAY</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
-        <Text>I’ll be back in a second.</Text>
+        <Text>I'll be back in a second.</Text>
         <DialogueTarget>EXIT</DialogueTarget>
       </DialogueOption>
     </DialogueOptionsList>
@@ -52,10 +52,10 @@
   <DialogueNode>
     <Name>REGRETS</Name>
     <Dialogue>
-      <Page>I don’t think so. Seeing how it ended, it would be easy to say that we never should have met them, that, if it weren’t for those four, my species might still be alive.</Page>
+      <Page>I don't think so. Seeing how it ended, it would be easy to say that we never should have met them, that, if it weren't for those four, my species might still be alive.</Page>
       <Page>At the same time though, I think they brought out a side of us that we needed. Their curiosity and tenacity rubbed off on us, and I like to think that the best parts of us rubbed off on them. We made each other better, in a lot of ways.</Page>
-      <Page>Plus, the alternative to meeting them would be them dying alone, far, far away from home. They wouldn’t have deserved that.</Page>
-      <Page>So no, I’m certain that I don’t regret meeting them.</Page>
+      <Page>Plus, the alternative to meeting them would be them dying alone, far, far away from home. They wouldn't have deserved that.</Page>
+      <Page>So no, I'm certain that I don't regret meeting them.</Page>
     </Dialogue>
     <DialogueTarget>MAIN_BRANCH</DialogueTarget>
   </DialogueNode>
@@ -64,8 +64,8 @@
   <DialogueNode>
     <Name>SORRY</Name>
     <Dialogue>
-      <Page>It’s okay. Don’t get me wrong, it still hurts a lot, but I guess we had to go eventually. Just happened to be a bit sooner than you Hearthians.</Page>
-      <Page>For what it’s worth, I’m sorry about what happened to your people too.</Page>
+      <Page>It's okay. Don't get me wrong, it still hurts a lot, but I guess we had to go eventually. Just happened to be a bit sooner than you Hearthians.</Page>
+      <Page>For what it's worth, I'm sorry about what happened to your people too.</Page>
     </Dialogue>
     <DialogueTarget>MAIN_BRANCH</DialogueTarget>
   </DialogueNode>
@@ -74,7 +74,7 @@
   <DialogueNode>
     <Name>STARS</Name>
     <Dialogue>
-      <Page>Heh, afraid not, kinda hard to do that without eyes, y’know?</Page>
+      <Page>Heh, afraid not, kinda hard to do that without eyes, y'know?</Page>
       <Page>The Nomai described them a lot though, like billions of deafeningly loud noises, dulled down to gentle whispers by inconceivable distances.</Page>
       <Page>Even if they did ultimately do us in, they sound like they were quite a wonder to behold.</Page>
     </Dialogue>
@@ -85,9 +85,9 @@
   <DialogueNode>
     <Name>WHY_TALKING</Name>
     <Dialogue>
-      <Page>I’m not sure, honestly. Maybe it has something to do with you not knowing me as much as the others, so there are more blanks to fill in.</Page>
+      <Page>I'm not sure, honestly. Maybe it has something to do with you not knowing me as much as the others, so there are more blanks to fill in.</Page>
       <Page>Maybe I was the only one technically alive when you entered the Eye, so I came here in a more complete state.</Page>
-      <Page>I think it’s fitting though. You stayed and kept me company when I was the last of my people, and now I get to return the favor.</Page>
+      <Page>I think it's fitting though. You stayed and kept me company when I was the last of my people, and now I get to return the favor.</Page>
     </Dialogue>
     <DialogueTarget>MAIN_BRANCH</DialogueTarget>
   </DialogueNode>
@@ -96,7 +96,7 @@
   <DialogueNode>
     <Name>READY_TO_PLAY</Name>
     <Dialogue>
-      <Page>You ready for me to start? I’ve been waiting quite a while to get to sing with others again.</Page>
+      <Page>You ready for me to start? I've been waiting quite a while to get to sing with others again.</Page>
     </Dialogue>
     <DialogueOptionsList>
       <DialogueOption>
@@ -114,7 +114,7 @@
   <DialogueNode>
     <Name>START_PLAYING</Name>
     <Dialogue>
-      <Page>Sounds good. Let’s see what happens next!</Page>
+      <Page>Sounds good. Let's see what happens next!</Page>
     </Dialogue>
     <SetCondition>IsDitylumPlaying</SetCondition>
   </DialogueNode>
@@ -132,7 +132,7 @@
   <DialogueNode>
     <Name>EXIT</Name>
     <Dialogue>
-      <Page>No worries, I’ve got nowhere to be.</Page>
+      <Page>No worries, I've got nowhere to be.</Page>
     </Dialogue>
   </DialogueNode>
   
@@ -147,7 +147,7 @@
     <EntryCondition>JamSessionIsOver</EntryCondition>
     <Dialogue>
       <Page>Wow... so many possibilities, just waiting for someone to decide which one gets to come true.</Page>
-      <Page>Do you think... do you think there’ll be a lot of people in the next one? Do you think they’ll get the chance to meet, to talk, to share ideas?</Page>
+      <Page>Do you think... do you think there'll be a lot of people in the next one? Do you think they'll get the chance to meet, to talk, to share ideas?</Page>
     </Dialogue>
     <DialogueOptionsList>
       <DialogueOption>
@@ -169,7 +169,7 @@
   <DialogueNode>
     <Name>YES_PEOPLE</Name>
     <Dialogue>
-      <Page>Heh, I bet you’re right. Wouldn’t be a very lively universe without that, right?</Page>
+      <Page>Heh, I bet you're right. Wouldn't be a very lively universe without that, right?</Page>
     </Dialogue>
     <DialogueTarget>FINAL_GOODBYE</DialogueTarget>
   </DialogueNode>
@@ -178,7 +178,7 @@
   <DialogueNode>
     <Name>NO_PEOPLE</Name>
     <Dialogue>
-      <Page>That’s fair. I don’t think I agree though. I think they’ll find each other, one way or another.</Page>
+      <Page>That's fair. I don't think I agree though. I think they'll find each other, one way or another.</Page>
     </Dialogue>
     <DialogueTarget>FINAL_GOODBYE</DialogueTarget>
   </DialogueNode>
@@ -187,7 +187,7 @@
   <DialogueNode>
     <Name>HOPE_PEOPLE</Name>
     <Dialogue>
-      <Page>Me too. Guess there’s only one way for them to find out, huh?</Page>
+      <Page>Me too. Guess there's only one way for them to find out, huh?</Page>
     </Dialogue>
     <DialogueTarget>FINAL_GOODBYE</DialogueTarget>
   </DialogueNode>

@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			OKALIS: Nesia, do you mind if I ask a potentially sensitive question? It’s about Amylax and I, so I understand if your recent loss is still too sore. I ask because you are the only one of us who has any experience with relationships.
+			OKALIS: Nesia, do you mind if I ask a potentially sensitive question? It's about Amylax and I, so I understand if your recent loss is still too sore. I ask because you are the only one of us who has any experience with relationships.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			OKALIS: I don’t know if it is a concern, or... well, I suppose it is a concern, though I struggle to think of any concrete foundation for it. It’s just that, while everything seems to be going well between Amylax and I, I cannot help but worry.
+			OKALIS: I don't know if it is a concern, or... well, I suppose it is a concern, though I struggle to think of any concrete foundation for it. It's just that, while everything seems to be going well between Amylax and I, I cannot help but worry.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			OKALIS: We are so fundamentally different, Nesia. Not in our interests, but on a very foundational level. We’re different species, with different histories and customs, habits and-
+			OKALIS: We are so fundamentally different, Nesia. Not in our interests, but on a very foundational level. We're different species, with different histories and customs, habits and-
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			NESIA: Slow down, Okalis, I’m a bit lost.
+			NESIA: Slow down, Okalis, I'm a bit lost.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			OKALIS: Apologies. I suppose I simply have never heard of such a pairing, and fear that it may be something that fundamentally cannot work. Even the way our relationship began was, ultimately, the result of my failing to understand him and his customs. I’m just... worried.
+			OKALIS: Apologies. I suppose I simply have never heard of such a pairing, and fear that it may be something that fundamentally cannot work. Even the way our relationship began was, ultimately, the result of my failing to understand him and his customs. I'm just... worried.
 		</Text>
 	</TextBlock>
 
@@ -92,7 +92,7 @@
 		<ID>12</ID>
 		<ParentID>11</ParentID>
 		<Text>
-			NESIA: Secca and I had many moments where we struggled to come to an understanding. At the start of our relationship, we both thought ourselves quite clever, and it took some time to realize our interpretation of the other’s words and actions were not always correct. Over time, we learned to do better, and to struggle to understand each other, as you and Amylax are doing. It took conscious effort to do so, but the mere fact that you came for advice shows you are already committing that effort.
+			NESIA: Secca and I had many moments where we struggled to come to an understanding. At the start of our relationship, we both thought ourselves quite clever, and it took some time to realize our interpretation of the other's words and actions were not always correct. Over time, we learned to do better, and to struggle to understand each other, as you and Amylax are doing. It took conscious effort to do so, but the mere fact that you came for advice shows you are already committing that effort.
 		</Text>
 	</TextBlock>
 

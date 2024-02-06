@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			NESIA: I-I’m sorry Azolla, my grief is overwhelming me. I knew that our new friends possess strange abilities, so I decided to speak with one regarding the rest of our clan, to try and determine their fate, and...
+			NESIA: I-I'm sorry Azolla, my grief is overwhelming me. I knew that our new friends possess strange abilities, so I decided to speak with one regarding the rest of our clan, to try and determine their fate, and...
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<Text>
-			AZOLLA: ...And you’re certain of this? Karenia couldn’t have made some sort of mistake?
+			AZOLLA: ...And you're certain of this? Karenia couldn't have made some sort of mistake?
 		</Text>
 	</TextBlock>
 
@@ -76,7 +76,7 @@
 		<ID>10</ID>
 		<ParentID>9</ParentID>
 		<Text>
-			AZOLLA: I will leave a note at the <![CDATA[<color=orange>Language Lab</color>]]> to notify Sennetti and Okalis that we need to meet. I do not wish to ruin their good mood so shortly after Sennetti’s translation, but they deserve to know.
+			AZOLLA: I will leave a note at the <![CDATA[<color=orange>Language Lab</color>]]> to notify Sennetti and Okalis that we need to meet. I do not wish to ruin their good mood so shortly after Sennetti's translation, but they deserve to know.
 		</Text>
 	</TextBlock>
 

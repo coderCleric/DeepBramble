@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			DITYLUM: Yikes, I see what Karenia was getting so worked up about, this place is really creepy. It feels unnatural, like the <![CDATA[<color=purple>Bramble</color>]]> doesn’t want it here. I’m just going to poke around a little bit and then leave. I can’t believe that the Nomai can stand to be here for more than a few minutes.
+			DITYLUM: Yikes, I see what Karenia was getting so worked up about, this place is really creepy. It feels unnatural, like the <![CDATA[<color=purple>Bramble</color>]]> doesn't want it here. I'm just going to poke around a little bit and then leave. I can't believe that the Nomai can stand to be here for more than a few minutes.
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			DITYLUM: Okay, that’s probably not good. There was a massive creaking sound a few minutes ago, like wood splintering. Probably about time for me to take my leave.
+			DITYLUM: Okay, that's probably not good. There was a massive creaking sound a few minutes ago, like wood splintering. Probably about time for me to take my leave.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			DITYLUM: Okay, definitely not good. When I exit this dimension, it seems like I end up on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, instead of near <![CDATA[<color=orange>Shattered Hearth</color>]]>. I don’t really have any way to get across with all of the baby fish there, so I guess I’ll sit here and wait for rescue.
+			DITYLUM: Okay, definitely not good. When I exit this dimension, it seems like I end up on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, instead of near <![CDATA[<color=orange>Shattered Hearth</color>]]>. I don't really have any way to get across with all of the baby fish there, so I guess I'll sit here and wait for rescue.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			DITYLUM: Okay, so, it’s been a few hours now, and nobody’s come. Are they not able to get across the <![CDATA[<color=orange>Nursery</color>]]>? I hadn’t even considered that. Am I going to die here?
+			DITYLUM: Okay, so, it's been a few hours now, and nobody's come. Are they not able to get across the <![CDATA[<color=orange>Nursery</color>]]>? I hadn't even considered that. Am I going to die here?
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			DITYLUM: It’s been a couple of days now, and still no sign of anyone. I’m starting to lose hope. Maybe the Nomai are trying to find a way, but after this long, I’m probably already being mourned back home. Maybe I should chance it with the fish? I know that I won’t starve for another week or so, but it’s hard to tell if starvation is better than being eaten alive.
+			DITYLUM: It's been a couple of days now, and still no sign of anyone. I'm starting to lose hope. Maybe the Nomai are trying to find a way, but after this long, I'm probably already being mourned back home. Maybe I should chance it with the fish? I know that I won't starve for another week or so, but it's hard to tell if starvation is better than being eaten alive.
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			DITYLUM: No, no, I know that they won’t give up, I just need to give them time.
+			DITYLUM: No, no, I know that they won't give up, I just need to give them time.
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			DITYLUM: I’m really starting to get desperate now, I’ve been in here for about a week and nobody is coming. I think it’s time, I’m either going to make it across in one piece now, or not at all. Wait, hold on... is that somebody? Four somebodies?! The Nomai! By the <![CDATA[<color=purple>Bramble</color>]]>, they actually figured out a way across!
+			DITYLUM: I'm really starting to get desperate now, I've been in here for about a week and nobody is coming. I think it's time, I'm either going to make it across in one piece now, or not at all. Wait, hold on... is that somebody? Four somebodies?! The Nomai! By the <![CDATA[<color=purple>Bramble</color>]]>, they actually figured out a way across!
 		</Text>
 	</TextBlock>
 

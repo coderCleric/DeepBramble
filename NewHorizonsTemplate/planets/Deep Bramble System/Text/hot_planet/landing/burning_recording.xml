@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			OKALIS: Hm, I don’t seem to be able to fire my portside thrusters, which is making maneuvering difficult.
+			OKALIS: Hm, I don't seem to be able to fire my portside thrusters, which is making maneuvering difficult.
 		</Text>
 	</TextBlock>
 
@@ -100,7 +100,7 @@
 		<ID>13</ID>
 		<ParentID>12</ParentID>
 		<Text>
-			DITYLUM: We told you it was a bad idea to come far in here, weird signal or not. Come on, let’s get you out of here.
+			DITYLUM: We told you it was a bad idea to come far in here, weird signal or not. Come on, let's get you out of here.
 		</Text>
 	</TextBlock>
 
@@ -116,7 +116,7 @@
 		<ID>15</ID>
 		<ParentID>14</ParentID>
 		<Text>
-			DITYLUM: Hah! And here I thought you couldn’t tell a joke without the science of it going over my head.
+			DITYLUM: Hah! And here I thought you couldn't tell a joke without the science of it going over my head.
 		</Text>
 	</TextBlock>
 
@@ -132,7 +132,7 @@
 		<ID>17</ID>
 		<ParentID>16</ParentID>
 		<Text>
-			DITYLUM: By the <![CDATA[<color=purple>Bramble</color>]]>, you’re serious aren’t you...
+			DITYLUM: By the <![CDATA[<color=purple>Bramble</color>]]>, you're serious aren't you...
 		</Text>
 	</TextBlock>
 

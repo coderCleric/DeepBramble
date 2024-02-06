@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			AZOLLA: Okalis, Sennetti, meet Nesia and I at <![CDATA[<color=orange>Graviton’s Folly</color>]]> as soon as you can.
+			AZOLLA: Okalis, Sennetti, meet Nesia and I at <![CDATA[<color=orange>Graviton's Folly</color>]]> as soon as you can.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			AZOLLA: We have news, but it is news best delivered in person. I’m sorry, but that is all I can say.
+			AZOLLA: We have news, but it is news best delivered in person. I'm sorry, but that is all I can say.
 		</Text>
 	</TextBlock>
 

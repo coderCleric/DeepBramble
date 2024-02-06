@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			OKALIS: I am sorry to report my investigations have not uncovered an escape. I have scoured <![CDATA[<color=orange>Briar’s Hollow</color>]]>, but have been thoroughly unable to find any new passageways.
+			OKALIS: I am sorry to report my investigations have not uncovered an escape. I have scoured <![CDATA[<color=orange>Briar's Hollow</color>]]>, but have been thoroughly unable to find any new passageways.
 		</Text>
 	</TextBlock>
 
@@ -38,7 +38,7 @@
 		<ID>101</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			NESIA: That is... troubling. Suppose they simply haven’t found a suitable exit yet?
+			NESIA: That is... troubling. Suppose they simply haven't found a suitable exit yet?
 		</Text>
 	</TextBlock>
 

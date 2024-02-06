@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			OKALIS: The other Nomai and I have recently learned that a large portion of our clan perished in the <![CDATA[<color=purple>Bramble</color>]]>, one of them being Nesia’s partner. Naturally, everyone has found themselves demoralized, and I am unsure what I can do to remedy the situation.
+			OKALIS: The other Nomai and I have recently learned that a large portion of our clan perished in the <![CDATA[<color=purple>Bramble</color>]]>, one of them being Nesia's partner. Naturally, everyone has found themselves demoralized, and I am unsure what I can do to remedy the situation.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			AMYLAX: Oh Bramble, I’m so sorry!
+			AMYLAX: Oh Bramble, I'm so sorry!
 		</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<ID>9</ID>
 		<ParentID>8</ParentID>
 		<Text>
-			AMYLAX: Hold on, hold on, hear me out. Ever since you guys showed up, you’ve made comments on two main things. One, that you Nomai are intensely curious, and two, that the <![CDATA[<color=purple>Deep Bramble</color>]]> is probably the weirdest place that your people have ever found.
+			AMYLAX: Hold on, hold on, hear me out. Ever since you guys showed up, you've made comments on two main things. One, that you Nomai are intensely curious, and two, that the <![CDATA[<color=purple>Deep Bramble</color>]]> is probably the weirdest place that your people have ever found.
 		</Text>
 	</TextBlock>
 
@@ -76,7 +76,7 @@
 		<ID>10</ID>
 		<ParentID>9</ParentID>
 		<Text>
-			AMYLAX: However, you also keep saying a third thing, which seems to contradict those two, and that’s that you <![CDATA[<i>]]>desperately<![CDATA[</i>]]> want to leave. I know that you all want to see the rest of your people again, but if that’s not possible right now, why not make the best of the situation?
+			AMYLAX: However, you also keep saying a third thing, which seems to contradict those two, and that's that you <![CDATA[<i>]]>desperately<![CDATA[</i>]]> want to leave. I know that you all want to see the rest of your people again, but if that's not possible right now, why not make the best of the situation?
 		</Text>
 	</TextBlock>
 
@@ -84,7 +84,7 @@
 		<ID>11</ID>
 		<ParentID>10</ParentID>
 		<Text>
-			OKALIS: That’s... actually a very solid argument. At this point it has become clear that escape is not easily achievable. Perhaps investigating the phenomena surrounding us would be the most efficient use of our time!
+			OKALIS: That's... actually a very solid argument. At this point it has become clear that escape is not easily achievable. Perhaps investigating the phenomena surrounding us would be the most efficient use of our time!
 		</Text>
 	</TextBlock>
 
@@ -92,7 +92,7 @@
 		<ID>12</ID>
 		<ParentID>11</ParentID>
 		<Text>
-			AMYLAX: That’s the spirit! I mean, there are so many things you guys could try and figure out, like how the space inside of the nodes works, how things end up in the <![CDATA[<color=purple>Deep Bramble</color>]]> in the first place, and that signal that came through a while back and ended up stuck in the area around <![CDATA[<color=orange>Magma’s Recursion</color>]]>.
+			AMYLAX: That's the spirit! I mean, there are so many things you guys could try and figure out, like how the space inside of the nodes works, how things end up in the <![CDATA[<color=purple>Deep Bramble</color>]]> in the first place, and that signal that came through a while back and ended up stuck in the area around <![CDATA[<color=orange>Magma's Recursion</color>]]>.
 		</Text>
 	</TextBlock>
 
@@ -116,7 +116,7 @@
 		<ID>15</ID>
 		<ParentID>14</ParentID>
 		<Text>
-			OKALIS: The <![CDATA[<color=orange>Eye</color>]]>! That’s the only explanation! The signal from the <![CDATA[<color=orange>Eye of the Universe</color>]]> must have passed through here! You said it is still reverberating throughout the area surrounding <![CDATA[<color=orange>Magma’s Recursion</color>]]>? I must notify the others immediately, this is sure to spark their curiosity!
+			OKALIS: The <![CDATA[<color=orange>Eye</color>]]>! That's the only explanation! The signal from the <![CDATA[<color=orange>Eye of the Universe</color>]]> must have passed through here! You said it is still reverberating throughout the area surrounding <![CDATA[<color=orange>Magma's Recursion</color>]]>? I must notify the others immediately, this is sure to spark their curiosity!
 		</Text>
 	</TextBlock>
 
@@ -124,7 +124,7 @@
 		<ID>16</ID>
 		<ParentID>15</ParentID>
 		<Text>
-			AMYLAX: Wait! Okalis! Don’t run off so fast! That whole area is super... dangerous... oh <![CDATA[<color=purple>Bramble</color>]]>, I hope the other Nomai are more careful than he is, or they’re gonna get themselves killed.
+			AMYLAX: Wait! Okalis! Don't run off so fast! That whole area is super... dangerous... oh <![CDATA[<color=purple>Bramble</color>]]>, I hope the other Nomai are more careful than he is, or they're gonna get themselves killed.
 		</Text>
 	</TextBlock>
 

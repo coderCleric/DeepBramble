@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			KARENIA: Okay, the <![CDATA[<color=purple>Bramble</color>]]> is primed, it’s now or never.
+			KARENIA: Okay, the <![CDATA[<color=purple>Bramble</color>]]> is primed, it's now or never.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			KARENIA: I would really like to, but I can’t guarantee how long the <![CDATA[<color=purple>Bramble</color>]]> is going to stay in this state. If we don’t do this now, we might never get another chance.
+			KARENIA: I would really like to, but I can't guarantee how long the <![CDATA[<color=purple>Bramble</color>]]> is going to stay in this state. If we don't do this now, we might never get another chance.
 		</Text>
 	</TextBlock>
 
@@ -68,7 +68,7 @@
 		<ID>9</ID>
 		<ParentID>8</ParentID>
 		<Text>
-			KARENIA: I think it’s working! The <![CDATA[<color=purple>Bramble</color>]]> is heeding our calls! I can feel it probing, searching for the source of the signal!
+			KARENIA: I think it's working! The <![CDATA[<color=purple>Bramble</color>]]> is heeding our calls! I can feel it probing, searching for the source of the signal!
 		</Text>
 	</TextBlock>
 
@@ -84,7 +84,7 @@
 		<ID>11</ID>
 		<ParentID>10</ParentID>
 		<Text>
-			OKALIS: Big and hot? No aspect of the <![CDATA[<color=orange>Eye</color>]]>’s signal suggests it should have either of those qualities. Unless... <![CDATA[<i>]]>a star!<![CDATA[</i>]]> Azolla! We need to shut off the project now! The <![CDATA[<color=purple>Bramble</color>]]> is attempting to grow the distant node in the core of a star!
+			OKALIS: Big and hot? No aspect of the <![CDATA[<color=orange>Eye</color>]]>'s signal suggests it should have either of those qualities. Unless... <![CDATA[<i>]]>a star!<![CDATA[</i>]]> Azolla! We need to shut off the project now! The <![CDATA[<color=purple>Bramble</color>]]> is attempting to grow the distant node in the core of a star!
 		</Text>
 	</TextBlock>
 

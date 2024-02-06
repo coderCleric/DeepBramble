@@ -29,7 +29,7 @@
         <DialogueTarget>LETGO</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
-        <Text>Where’s Geswaldo?</Text>
+        <Text>Where's Geswaldo?</Text>
         <DialogueTarget>GESWALDO</DialogueTarget>
       </DialogueOption>
       <DialogueOption>
@@ -42,7 +42,7 @@
   <DialogueNode>
     <Name>BITE</Name>
     <Dialogue>
-      <Page>Oh yeah, totally. It’s nothing personal, but everyone else was trying to eat you and it looked fun.</Page>
+      <Page>Oh yeah, totally. It's nothing personal, but everyone else was trying to eat you and it looked fun.</Page>
     </Dialogue>
     <DialogueTarget>CHOICE_HUB</DialogueTarget>
   </DialogueNode>
@@ -51,7 +51,7 @@
   <DialogueNode>
     <Name>LETGO</Name>
     <Dialogue>
-      <Page>I’m wedged in pretty good, I honestly don’t think that I can. Oh well.</Page>
+      <Page>I'm wedged in pretty good, I honestly don't think that I can. Oh well.</Page>
     </Dialogue>
     <DialogueTarget>CHOICE_HUB</DialogueTarget>
   </DialogueNode>

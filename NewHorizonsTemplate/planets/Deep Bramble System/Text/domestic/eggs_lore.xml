@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			NESIA: Why do you suppose the Dree chose to go through the trouble of taming these fish? I can’t imagine that their domestication was something easily achieved.
+			NESIA: Why do you suppose the Dree chose to go through the trouble of taming these fish? I can't imagine that their domestication was something easily achieved.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			NESIA: Do you suppose that this may also be why they refuse to spread? They are very localized, and their population is quite low, given how long they’ve been here.
+			NESIA: Do you suppose that this may also be why they refuse to spread? They are very localized, and their population is quite low, given how long they've been here.
 		</Text>
 	</TextBlock>
 

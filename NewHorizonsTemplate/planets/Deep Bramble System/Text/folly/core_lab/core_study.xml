@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			AZOLLA: We aren’t certain yet, but we’ve noted that the energy emitted by the core is similar to that which comes from the internal surface of the planet.
+			AZOLLA: We aren't certain yet, but we've noted that the energy emitted by the core is similar to that which comes from the internal surface of the planet.
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ID>101</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			NESIA: More specifically, the core’s energy seems able to combine with the surface energy in a way that enhances it.
+			NESIA: More specifically, the core's energy seems able to combine with the surface energy in a way that enhances it.
 		</Text>
 	</TextBlock>
 

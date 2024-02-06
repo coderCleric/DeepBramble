@@ -18,12 +18,12 @@
   <DialogueNode>
     <Name>INITIAL2</Name>
     <Dialogue>
-      <Page>We did some last-minute adjustments to your navigational equipment, and made a pretty nice improvement. If you have your signalscope focused on a signal and press your lock-on button, you can lock onto whatever the signal is coming from! That's assuming you’ve fully identified the signal, of course.</Page>
+      <Page>We did some last-minute adjustments to your navigational equipment, and made a pretty nice improvement. If you have your signalscope focused on a signal and press your lock-on button, you can lock onto whatever the signal is coming from! That's assuming you've fully identified the signal, of course.</Page>
     </Dialogue>
     <SetPersistentCondition>SignalLockTold</SetPersistentCondition>
     <DialogueOptionsList>
       <DialogueOption>
-        <Text>That’s... weirdly good timing for you to bring that up. Thanks!</Text>
+        <Text>That's... weirdly good timing for you to bring that up. Thanks!</Text>
       </DialogueOption>
     </DialogueOptionsList>
   </DialogueNode>

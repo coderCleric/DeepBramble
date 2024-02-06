@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			DITYLUM: No problem, although I do want to ask what exactly we’re testing
+			DITYLUM: No problem, although I do want to ask what exactly we're testing
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			DITYLUM: Ah, alright! So, we just need to talk about something for a bit and make sure it’s picking me up properly?
+			DITYLUM: Ah, alright! So, we just need to talk about something for a bit and make sure it's picking me up properly?
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			DITYLUM: Oh! Um, it’s honestly kinda embarrassing, but it’s a poem that I made for my partner, Lioloma. Turns out that she wanted to keep it, but I had accidentally left it at that camp and had to go back for it.
+			DITYLUM: Oh! Um, it's honestly kinda embarrassing, but it's a poem that I made for my partner, Lioloma. Turns out that she wanted to keep it, but I had accidentally left it at that camp and had to go back for it.
 		</Text>
 	</TextBlock>
 
@@ -52,7 +52,7 @@
 		<ID>7</ID>
 		<ParentID>6</ParentID>
 		<Text>
-			SENNETTI: That’s very sweet! I am sure you were quite flattered she valued it so highly.
+			SENNETTI: That's very sweet! I am sure you were quite flattered she valued it so highly.
 		</Text>
 	</TextBlock>
 
@@ -60,7 +60,7 @@
 		<ID>8</ID>
 		<ParentID>7</ParentID>
 		<Text>
-			DITYLUM: Yeah! I’m not the best writer, so it really meant a lot that she wanted to keep it. Was that all, or do we need to keep talking for a bit?
+			DITYLUM: Yeah! I'm not the best writer, so it really meant a lot that she wanted to keep it. Was that all, or do we need to keep talking for a bit?
 		</Text>
 	</TextBlock>
 
