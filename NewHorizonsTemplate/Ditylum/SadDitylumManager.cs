@@ -94,6 +94,11 @@ namespace DeepBramble.Ditylum
             Locator.GetDeathManager().FinishedDLC();
             DeepBramble.instance.NewHorizonsAPI.SetDefaultSystem("SolarSystem");
             GameObject.Find("FlashbackCamera").transform.Find("Canvas_EchoesOver/EchoesOfTheEye").GetComponent<Text>().text = "Forgotten Castaways";
+
+            //Disable certain effects
+            Locator.GetToolModeSwapper().UnequipTool();
+            Locator.GetFlashlight().TurnOff(playAudio: false);
+            transform.parent.Find("lab_music").gameObject.GetComponent<OWAudioSource>().FadeOut(1);
         }
 
         /**
