@@ -20,6 +20,12 @@ namespace DeepBramble.Helpers
         public static GameObject titleEffectsObject = null;
         private static GameObject cricketAudio = null;
 
+        //Campfire stuff
+        private static Material fireMat = null;
+        private static Color baseFireColor = Color.black;
+        private static Transform fireRoot = null;
+        private static Material ashMat = null;
+
         /**
          * Creates all of the objects when the title screen first loads, and disables them if they're not yet needed
          */
@@ -63,6 +69,12 @@ namespace DeepBramble.Helpers
             cricketAudio = GameObject.Find("Scene/AudioSource_Ambience");
             cricketAudio.SetActive(false);
 
+            //Find and save the campfire mat/base color
+            fireRoot = backgroundObject.transform.Find("PlanetPivot/Prefab_HEA_Campfire/Props_HEA_Campfire");
+            fireMat = fireRoot.Find("Campfire_Flames").gameObject.GetComponent<MeshRenderer>().material;
+            ashMat = fireRoot.Find("Campfire_Ash").GetComponent<MeshRenderer>().material;
+            baseFireColor = fireMat.color;
+
             //Some changes should only be made if the title screen is altered
             if (editsNeeded)
             {
@@ -75,6 +87,12 @@ namespace DeepBramble.Helpers
                 musicSource._audioLibraryClip = (AudioType.None);
                 musicSource.GetAudioSource().clip = titleMusic;
                 musicSource.SetMaxVolume(0.2f);
+
+                //Change the fire
+                fireMat.color = new Color(0.03f, 0.1f, 0.6f, 7f);
+                fireRoot.Find("Campfire_Embers").gameObject.SetActive(false);
+                fireRoot.Find("Campfire_Logs").gameObject.SetActive(true);
+                ashMat.DisableKeyword("_EMISSION");
             }
             else
             {
@@ -119,6 +137,12 @@ namespace DeepBramble.Helpers
             musicSource.GetAudioSource().clip = titleMusic;
             musicSource.SetMaxVolume(0.2f);
             musicSource.Play();
+
+            //Change the fire
+            fireMat.color = new Color(0.03f, 0.1f, 0.6f, 7f);
+            fireRoot.Find("Campfire_Embers").gameObject.SetActive(false);
+            fireRoot.Find("Campfire_Logs").gameObject.SetActive(true);
+            ashMat.DisableKeyword("_EMISSION");
         }
 
         /**
@@ -136,6 +160,12 @@ namespace DeepBramble.Helpers
             musicSource.AssignAudioLibraryClip(AudioType.MainMenuTheme);
             musicSource.SetMaxVolume(0.1f);
             musicSource.Play();
+
+            //Change the fire
+            fireMat.color = baseFireColor;
+            fireRoot.Find("Campfire_Embers").gameObject.SetActive(true);
+            fireRoot.Find("Campfire_Logs").gameObject.SetActive(false);
+            ashMat.EnableKeyword("_EMISSION");
         }
 
         /**
