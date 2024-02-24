@@ -308,10 +308,115 @@
       <None Update="assets\Map Mode Images\start_dimension.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assets\Ship Log Entry Sprites\camp_planet\CAMP_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\camp_planet\SOIL_LAB_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\camp_planet\TREEHOUSE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\cluster\HOLE_OVERLOOK_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\cluster\PLANETOID_CLUSTER_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\domestic\ENZYME_LAB_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\domestic\FISH_PLATFORM_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\dree_planet\AMYLAX_HOUSE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\dree_planet\CONCERT_HALL_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\dree_planet\DREE_PARK_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\dree_planet\HEARTH_CORE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\dree_planet\KARENIA_HOUSE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\dree_planet\STORY_AREA_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\folly\ALIEN_STUDY_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\folly\CORE_LAB_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\folly\EYE_SHRINE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\folly\GRAVITONS_FOLLY_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\folly\GRAV_CORE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\folly\PILLAR_TOWN_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\folly\POD_MEMORIAL_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\folly\QUARRY_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\heart\HEART_LAB_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\hollow\DILATION_NODE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\hollow\ENCLOSED_SPACE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\hollow\RECURSIVE_NODE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\lava_planet\ABANDONED_SETTLEMENT_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\lava_planet\GAS_CAVE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\lava_planet\LANDING_ZONE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\lava_planet\QUANTUM_CAVE_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\lava_planet\SIGNAL_LAB_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\nursery\NURSERY_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\reject\REJECT_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assets\Ship Log Entry Sprites\STARTING_NODE_ENTRY.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assets\Ship Log Entry Sprites\start\START_DIMENSION_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assets\Ship Log Entry Sprites\STRANDED_NOMAI_ENTRY.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\translation\TRANSLATIONS_ENTRY_FC.png">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="assets\Ship Log Entry Sprites\translation\TRANSLATION_LAB_ENTRY_FC.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
       <None Update="assets\tree rock heightmap.jpg">

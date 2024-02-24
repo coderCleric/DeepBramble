@@ -5,10 +5,11 @@
 
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/start_dim_log.xml",
+    "spriteFolder": "assets/Ship Log Entry Sprites/start",
     "mapMode": {
       "invisibleWhenHidden": true,
       "manualNavigationPosition": {
-        "x": 1,
+        "x": 0,
         "y": 0
       },
       "manualPosition": {
@@ -22,6 +23,7 @@
     "surfaceSize": 0,
     "surfaceGravity": 0,
     "hasMapMarker": false,
+    "centerOfSolarSystem": true,
     "showMinimap": false
   },
   "Orbit": {

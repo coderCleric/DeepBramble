@@ -3,12 +3,24 @@
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "DeepBramble",
 
+  "ShipLog": {
+    "mapMode": {
+      "invisibleWhenHidden": true,
+      "manualNavigationPosition": {
+        "x": 1,
+        "y": 0
+      },
+      "manualPosition": {
+        "x": -40,
+        "y": 0
+      }
+    }
+  },
   "Base": {
     "groundSize": 0,
     "surfaceSize": 0,
     "surfaceGravity": 0,
     "hasMapMarker": false,
-    "centerOfSolarSystem": true,
     "showMinimap": false
   },
   "Orbit": {

@@ -6,6 +6,7 @@
 
 	"ShipLog": {
 		"xmlFile": "planets/Deep Bramble System/Ship Logs/venomous_reject_log.xml",
+		"spriteFolder": "assets/Ship Log Entry Sprites/reject",
 		"mapMode": {
 			"invisibleWhenHidden": true,
 			"manualNavigationPosition": {

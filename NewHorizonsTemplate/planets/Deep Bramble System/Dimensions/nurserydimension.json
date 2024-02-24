@@ -5,6 +5,7 @@
 
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/nursery_log.xml",
+    "spriteFolder": "assets/Ship Log Entry Sprites/nursery",
     "mapMode": {
       "invisibleWhenHidden": true,
       "manualNavigationPosition": {

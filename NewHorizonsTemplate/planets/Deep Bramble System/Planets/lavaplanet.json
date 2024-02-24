@@ -6,6 +6,7 @@
 
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/magmas_recursion.xml",
+    "spriteFolder": "assets/Ship Log Entry Sprites/lava_planet",
     "mapMode": {
       "invisibleWhenHidden": true,
       "manualNavigationPosition": {

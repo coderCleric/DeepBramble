@@ -6,6 +6,7 @@
 
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/shattered_hearth_log.xml",
+    "spriteFolder": "assets/Ship Log Entry Sprites/dree_planet",
     "mapMode": {
       "invisibleWhenHidden": true,
       "manualNavigationPosition": {

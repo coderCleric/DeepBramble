@@ -45,13 +45,13 @@
         "xmlFile": "planets/Hearthian System/Text/tangledtext.xml",
         "type": "preCrashRecorder",
         "position": {
-          "x": 50.1233,
-          "y": -5.2315,
-          "z": 18.8356
+          "x": 50.5813,
+          "y": -5.2305,
+          "z": 18.8355
         },
         "rotation": {
           "x": 14.37,
-          "y": 344.5871,
+          "y": 62.6963,
           "z": 248.7125
         }
       },

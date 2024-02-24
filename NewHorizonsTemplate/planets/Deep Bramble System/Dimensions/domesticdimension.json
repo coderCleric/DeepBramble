@@ -5,6 +5,7 @@
 
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/domestic_dimension_log.xml",
+    "spriteFolder": "assets/Ship Log Entry Sprites/domestic",
     "mapMode": {
       "invisibleWhenHidden": true,
       "manualNavigationPosition": {

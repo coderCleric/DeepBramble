@@ -3,6 +3,12 @@
   "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/body_schema.json",
   "starSystem": "DeepBramble",
 
+  "ShipLog": {
+    "mapMode": {
+      "remove": true
+    }
+  },
+
   "Base": {
     "groundSize": 0,
     "surfaceSize": 0,
@@ -195,6 +201,96 @@
         "removeChildren": [ "whiteboard_brokenTiles" ],
         "scale": 0.7,
         "alignRadial": false
+      },
+      {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/buildings/dree_floating_house_hidden.prefab",
+        "scale": 2,
+        "position": {
+          "x": 70.34818,
+          "y": -249.78,
+          "z": -575.6403
+        },
+        "rotation": {
+          "x": 325.2048,
+          "y": 32.95507,
+          "z": 55.4373
+        }
+      },
+      {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/buildings/dree_floating_house_hidden.prefab",
+        "scale": 2,
+        "position": {
+          "x": 195.8452,
+          "y": 19.1856,
+          "z": -657.1561
+        },
+        "rotation": {
+          "x": 75.3738,
+          "y": 317.8544,
+          "z": 18.91922
+        }
+      },
+      {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/buildings/dree_floating_house_hidden.prefab",
+        "scale": 2,
+        "position": {
+          "x": 433.373,
+          "y": 247.069,
+          "z": -339.329
+        },
+        "rotation": {
+          "x": 334.499,
+          "y": 220.9312,
+          "z": 228.054
+        }
+      },
+      {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/buildings/dree_floating_house_hidden.prefab",
+        "scale": 2,
+        "position": {
+          "x": 233.6732,
+          "y": 421.6086,
+          "z": -203.0906
+        },
+        "rotation": {
+          "x": 329.6238,
+          "y": 220.8796,
+          "z": 193.6851
+        }
+      },
+      {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/buildings/dree_floating_house_hidden.prefab",
+        "scale": 2,
+        "position": {
+          "x": -149.774,
+          "y": 438.0406,
+          "z": -172.5556
+        },
+        "rotation": {
+          "x": 356.993,
+          "y": 43.03538,
+          "z": 183.6203
+        }
+      },
+      {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/buildings/dree_floating_house_hidden.prefab",
+        "scale": 2,
+        "position": {
+          "x": 26.23458,
+          "y": 186.2363,
+          "z": 419.1607
+        },
+        "rotation": {
+          "x": 66.69965,
+          "y": 112.3019,
+          "z": 271.8951
+        }
       }
     ],
 

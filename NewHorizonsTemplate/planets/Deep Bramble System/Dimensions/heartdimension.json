@@ -5,6 +5,7 @@
 
   "ShipLog": {
     "xmlFile": "planets/Deep Bramble System/Ship Logs/brambles_heart_log.xml",
+    "spriteFolder": "assets/Ship Log Entry Sprites/heart",
     "mapMode": {
       "invisibleWhenHidden": true,
       "manualNavigationPosition": {
