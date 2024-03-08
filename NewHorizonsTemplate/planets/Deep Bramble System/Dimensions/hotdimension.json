@@ -187,9 +187,10 @@
     "signals": [
       {
         "rename": "dree_signal",
-        "audio": "Creature Voice Test 1 Short",
+        "audio": "assets/Audio/dree_echolocation.ogg",
         "identificationRadius": 3,
         "sourceRadius": 0.3,
+        "volume": 2,
         "detectionRadius": 10,
         "position": {
           "x": 112.9468,

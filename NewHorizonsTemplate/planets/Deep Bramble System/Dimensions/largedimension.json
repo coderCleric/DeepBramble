@@ -298,6 +298,7 @@
       {
         "rename": "dilation_signal",
         "audio": "Creature Voice Test 1 Short",
+        "volume": 2,
         "parentPath": "Sector/Dilation Node",
         "identificationRadius": 0,
         "sourceRadius": 1,
