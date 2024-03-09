@@ -96,6 +96,7 @@
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Ditylum",
         "isRelativeToParent": true,
         "audio": "ElectricShock",
+        "detectionRadius": 0,
         "frequency": "Traveler",
         "onlyAudibleToScope": false,
         "name": "Ditylum",

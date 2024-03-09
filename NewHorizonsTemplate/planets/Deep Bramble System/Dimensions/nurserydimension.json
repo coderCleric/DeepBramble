@@ -37,6 +37,12 @@
       "linksTo": "Nursery Node",
       "fogDensity": 1.2,
       "allowedEntrances": [ 3 ],
+      "fogTint": {
+        "r": 87,
+        "g": 84,
+        "b": 64,
+        "a": 255
+      },
       "vinePrefab": "none",
       "radius": 1500
     },
@@ -48,8 +54,20 @@
           "y": 23.15699,
           "z": -38.80038
         },
+        "fogTint": {
+          "r": 77,
+          "g": 120,
+          "b": 51,
+          "a": 255
+        },
+        "lightTint": {
+          "r": 77,
+          "g": 120,
+          "b": 51,
+          "a": 255
+        },
         "hasFogLight": false,
-        "possibleExits": [3],
+        "possibleExits": [ 3 ],
         "linksTo": "Antrum of the Cyst"
       }
     ]

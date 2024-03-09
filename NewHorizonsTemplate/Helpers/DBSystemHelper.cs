@@ -332,6 +332,11 @@ namespace DeepBramble.Helpers
                         //Add the rotation controller to dilated Ditylum
                         ForgottenLocator.dilatedDitylum = body.transform.Find("Sector/dilated_ditylum").gameObject.AddComponent<DilatedDitylumManager>();
                         break;
+
+                    case "Dree Dimension":
+                        //Suppress the fog override of the hot node
+                        body.transform.Find("Sector/Main Hot Node/Effects/FogOverrideVolume").gameObject.SetActive(false);
+                        break;
                 }
             }
         }

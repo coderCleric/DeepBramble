@@ -26,7 +26,13 @@
   "Bramble": {
     "dimension": {
       "linksTo": "Cyst Node",
-      "fogDensity": 1.2,
+      "fogDensity": 0.6,
+      "fogTint": {
+        "r": 77,
+        "g": 120,
+        "b": 51,
+        "a": 255
+      },
       "radius": 500
     }
   },

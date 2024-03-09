@@ -91,6 +91,12 @@
           "b": 51,
           "a": 255
         },
+        "lightTint": {
+          "r": 51,
+          "g": 51,
+          "b": 51,
+          "a": 255
+        },
         "linksTo": "Dree Dimension",
         "possibleExits": [
           0

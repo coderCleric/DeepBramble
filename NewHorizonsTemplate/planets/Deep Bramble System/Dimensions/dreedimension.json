@@ -33,6 +33,18 @@
           "y": 0,
           "z": 0
         },
+        "fogTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
+        "lightTint": {
+          "r": 128,
+          "g": 51,
+          "b": 0,
+          "a": 255
+        },
         "scale": 0.4,
         "linksTo": "Hot Dimension"
       },
@@ -58,6 +70,18 @@
         "hasFogLight": false,
         "scale": 0.5,
         "possibleExits": [ 3, 4, 5 ],
+        "fogTint": {
+          "r": 252,
+          "g": 244,
+          "b": 186,
+          "a": 255
+        },
+        "lightTint": {
+          "r": 252,
+          "g": 244,
+          "b": 186,
+          "a": 255
+        },
         "position": {
           "x": -346.0553,
           "y": 176.3459,
