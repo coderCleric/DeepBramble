@@ -29,6 +29,7 @@ namespace DeepBramble
 
         //Other variables
         public static Vector3 lastCOTUCachedVel = Vector3.zero;
+        public static EffectVolume nurseryDragVol = null;
 
         //Needed for the baby angler & kevin
         public static Animator anglerAnimator = null;
@@ -51,6 +52,7 @@ namespace DeepBramble
             ForgottenLocator.playerAttachedToKevin = false;
             ForgottenLocator.probeDilated = false;
             heatNotifPosted = false;
+
 
             //If needed, check if we need to reveal the starting rumor of the mod
             if(ForgottenLocator.revealStartingRumor)
@@ -449,6 +451,18 @@ namespace DeepBramble
         public static bool MufflePlayer()
         {
             return !ForgottenLocator.playerAttachedToKevin;
+        }
+
+        /**
+         * Make the probe unaffected by Nursery drag
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(FluidDetector), nameof(FluidDetector.AddVolume))]
+        [HarmonyPatch(typeof(FluidDetector), nameof(FluidDetector.RemoveVolume))]
+        public static bool PreventProbeDrag(EffectVolume eVol, FluidDetector __instance)
+        {
+            return !(eVol != null && eVol == nurseryDragVol && 
+                __instance == (Locator.GetProbe().transform.Find("ProbeDetector").gameObject.GetComponent<ProbeFluidDetector>() as FluidDetector));
         }
 
         //################################# Between dimension teleportation #################################

@@ -297,10 +297,14 @@ namespace DeepBramble.Helpers
                         break;
 
                     case "The Nursery":
+                        //Set up Kevin
                         GameObject kevin = body.transform.Find("Sector/nursery_tube/kevin").gameObject;
                         kevin.AddComponent<KevinBody>();
                         kevin.AddComponent<KevinController>();
                         body.GetComponentInChildren<SimpleFluidVolume>()._density = 8;
+
+                        //Save the drag volume
+                        Patches.nurseryDragVol = body.transform.Find("Sector/Volumes/ZeroG_Fluid_Audio_Volume").gameObject.GetComponent<SimpleFluidVolume>();
                         break;
 
                     case "Bramble's Heart":
