@@ -154,6 +154,22 @@ namespace DeepBramble
             return true;
         }
 
+        /**
+         * Have the end scene creature come in
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(PostCreditsManager), nameof(PostCreditsManager.Update))]
+        public static void ActivateLeviathan(PostCreditsManager __instance)
+        {
+            //Only show the leviathan if it hasn't shown up and we've met Ditylum
+            if(PlayerData.GetPersistentCondition("MET_DITYLUM") && __instance._fadeOutAfterDelay && 
+                EndSceneAddition.instance != null && !EndSceneAddition.instance.activated)
+            {
+                EndSceneAddition.instance.Activate();
+                __instance._delayedFadeTime = Time.time + 5;
+            }
+        }
+
         //################################# Slate & Respawning #################################
         /**
          * Slate needs dialogue conditions set up properly at the start of the loop

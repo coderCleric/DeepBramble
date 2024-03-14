@@ -31,6 +31,7 @@ namespace DeepBramble
         //Only needed for debug
         public static Transform relBody = null;
         public static DeepBramble instance;
+        private static bool manualLoadEnd = false;
 
         /**
          * Do NH setup stuff and patch certain methods
@@ -45,10 +46,16 @@ namespace DeepBramble
 
             //Do stuff when the title screen loads
             TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
+            PostCreditsHelper.leviathanBundle = ModHelper.Assets.LoadBundle("assetbundles/end_bundle");
             TitleScreenHelper.FirstTimeTitleEdits();
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {
                 debugPrint("Detecting scene load");
+                debugPrint("Scene: " + scene + " | Loadscene: " + loadScene);
+                if (loadScene == OWScene.PostCreditsScene)
+                    PostCreditsHelper.LoadEndingAdditions();
+                else
+                    manualLoadEnd = false;
                 if (loadScene == OWScene.TitleScreen)
                     TitleScreenHelper.FirstTimeTitleEdits();
             };
@@ -275,15 +282,22 @@ namespace DeepBramble
                 Locator._shipBody.SetPosition(point);
             }
 
-            //Clear some useful persistent conditions
-            /*if (Keyboard.current[Key.V].wasPressedThisFrame)
+            //Load the post-credit scene
+            if (!manualLoadEnd && Keyboard.current[Key.Backslash].wasPressedThisFrame)
             {
-                PlayerData._currentGameSave.SetPersistentCondition("DeepBrambleFound", false);
-                PlayerData._currentGameSave.SetPersistentCondition("LockableSignalFound", false);
-                PlayerData._currentGameSave.SetPersistentCondition("ShipWarpTold", false);
-                PlayerData._currentGameSave.SetPersistentCondition("SignalLockTold", false);
+                LoadManager.LoadScene(OWScene.PostCreditsScene);
+                manualLoadEnd = true;
             }
-            */            
+
+            //Clear some useful persistent conditions
+                /*if (Keyboard.current[Key.V].wasPressedThisFrame)
+                {
+                    PlayerData._currentGameSave.SetPersistentCondition("DeepBrambleFound", false);
+                    PlayerData._currentGameSave.SetPersistentCondition("LockableSignalFound", false);
+                    PlayerData._currentGameSave.SetPersistentCondition("ShipWarpTold", false);
+                    PlayerData._currentGameSave.SetPersistentCondition("SignalLockTold", false);
+                }
+                */
         }
 
         /**
