@@ -359,6 +359,8 @@ namespace DeepBramble
             else if(!heatNotifPosted && isPlayerDetector && inSpecialHazard)
             {
                 heatNotifPosted = true;
+                if(NotificationManager.SharedInstance.IsPinnedNotification(heatNotification))
+                    NotificationManager.SharedInstance.UnpinNotification(heatNotification);
                 NotificationManager.SharedInstance.PostNotification(heatNotification, true);
             }
 
