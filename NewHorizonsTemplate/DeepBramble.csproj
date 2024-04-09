@@ -293,6 +293,9 @@
       <None Update="assetbundles\warp_core_holder.manifest">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+      <None Update="assets\Audio\ditylum_cry.mp3">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
       <None Update="assets\Audio\ditylum_cry.ogg">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>

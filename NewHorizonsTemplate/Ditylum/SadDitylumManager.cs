@@ -37,7 +37,7 @@ namespace DeepBramble.Ditylum
             dialogue.OnEndConversation += Scream;
 
             //Get the scream audio
-            cryClip = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "ditylum_cry.ogg"));
+            cryClip = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "ditylum_cry.mp3"));
 
             //Disable the GO
             gameObject.SetActive(false);
