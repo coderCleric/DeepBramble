@@ -58,6 +58,7 @@ namespace DeepBramble.Ditylum
         public void PlayCryAudio()
         {
             GetComponent<OWAudioSource>().PlayOneShot(cryClip);
+            RumbleManager.Pulse(0.5f, 0.5f, 3f);
         }
 
         /**
