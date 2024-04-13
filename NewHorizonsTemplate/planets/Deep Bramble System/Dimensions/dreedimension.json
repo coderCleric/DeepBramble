@@ -302,6 +302,7 @@
         }
       },
       {
+        "rename": "easter_egg_house",
         "assetBundle": "assetbundles/castaways",
         "path": "Assets/Prefabs/buildings/dree_floating_house_hidden.prefab",
         "scale": 2,
@@ -314,6 +315,23 @@
           "x": 66.69965,
           "y": 112.3019,
           "z": 271.8951
+        }
+      },
+      {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/props/cake_topper.prefab",
+        "parentPath": "Sector/easter_egg_house",
+        "scale": 3,
+        "isRelativeToParent": true,
+        "position": {
+          "x": 3.63,
+          "y": 1.3,
+          "z": 0
+        },
+        "rotation": {
+          "x": -90,
+          "y": 90,
+          "z": 0
         }
       }
     ],
@@ -514,6 +532,22 @@
         "audio": "OW_TH_Museum",
         "track": "music",
         "loop": true
+      },
+      {
+        "rename": "EasterEggAudio",
+        "parentPath": "Sector/easter_egg_house",
+        "isRelativeToParent": true,
+        "radius": 8.8,
+        "priority": 10,
+        "volume": 0.2,
+        "audio": "TravelerNomai",
+        "track": "music",
+        "loop": true,
+        "position": {
+          "x": 0,
+          "y": 1.77,
+          "z": 0
+        }
       }
     ],
     "revealVolumes": [
