@@ -9,13 +9,14 @@
     "spriteFolder": "assets/Ship Log Entry Sprites/camp_planet",
     "mapMode": {
       "invisibleWhenHidden": true,
+      "revealedSprite": "assets/Map Mode Images/ln_campplanet.png",
       "manualNavigationPosition": {
-        "x": 4,
-        "y": 0
+        "x": 2,
+        "y": 1
       },
       "manualPosition": {
-        "x": 300,
-        "y": 0
+        "x": 565,
+        "y": 185
       }
     }
   },

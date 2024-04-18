@@ -9,14 +9,31 @@
 		"spriteFolder": "assets/Ship Log Entry Sprites/reject",
 		"mapMode": {
 			"invisibleWhenHidden": true,
+			"revealedSprite": "assets/Map Mode Images/poison_dimension.png",
 			"manualNavigationPosition": {
-				"x": 12,
-				"y": 0
+				"x": 0,
+				"y": 2
 			},
 			"manualPosition": {
-				"x": 1100,
-				"y": 0
-			}
+				"x": -140,
+				"y": 700
+			},
+			"scale": 1.5,
+			"details": [
+				{
+					"revealedSprite": "assets/Map Mode Images/connect_vine.png",
+					"invisibleWhenHidden": true,
+					"rotation": 265.981,
+					"position": {
+						"x": 59.0728,
+						"y": -7.9273
+					},
+					"scale": {
+						"x": 0.5455,
+						"y": 0.2981
+					}
+				}
+			]
 		}
 	},
 	"Base": {

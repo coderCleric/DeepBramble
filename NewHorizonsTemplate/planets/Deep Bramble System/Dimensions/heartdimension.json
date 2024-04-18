@@ -8,14 +8,16 @@
     "spriteFolder": "assets/Ship Log Entry Sprites/heart",
     "mapMode": {
       "invisibleWhenHidden": true,
+      "revealedSprite": "assets/Map Mode Images/heart_dimension.png",
       "manualNavigationPosition": {
-        "x": 11,
-        "y": 0
+        "x": 3,
+        "y": 3
       },
       "manualPosition": {
-        "x": 1000,
-        "y": 0
-      }
+        "x": 730,
+        "y": 900
+      },
+      "scale": 3
     }
   },
   "Base": {

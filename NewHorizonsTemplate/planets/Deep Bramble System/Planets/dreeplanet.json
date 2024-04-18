@@ -9,14 +9,30 @@
     "spriteFolder": "assets/Ship Log Entry Sprites/dree_planet",
     "mapMode": {
       "invisibleWhenHidden": true,
+      "revealedSprite": "assets/Map Mode Images/dree_dimension.png",
       "manualNavigationPosition": {
-        "x": 6,
-        "y": 0
+        "x": 2,
+        "y": 2
       },
       "manualPosition": {
-        "x": 500,
-        "y": 0
-      }
+        "x": 400,
+        "y": 700
+      },
+      "scale": 3,
+      "details": [
+        {
+          "revealedSprite": "assets/Map Mode Images/connect_vine.png",
+          "invisibleWhenHidden": true,
+          "position": {
+            "x": 0,
+            "y": -66.0729
+          },
+          "scale": {
+            "x": 0.6473,
+            "y": 0.5163
+          }
+        }
+      ]
     }
   },
   "Base": {

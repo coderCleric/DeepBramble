@@ -8,14 +8,50 @@
     "spriteFolder": "assets/Ship Log Entry Sprites/cluster",
     "mapMode": {
       "invisibleWhenHidden": true,
+      "revealedSprite": "assets/Map Mode Images/empty.png",
       "manualNavigationPosition": {
-        "x": 2,
+        "x": 1,
         "y": 0
       },
       "manualPosition": {
-        "x": 100,
+        "x": 200,
         "y": 0
-      }
+      },
+      "details": [
+        {
+          "revealedSprite": "assets/Map Mode Images/ln_fogring.png",
+          "invisibleWhenHidden": true,
+          "position": {
+            "x": 155,
+            "y": 155
+          },
+          "scale": {
+            "x": 6,
+            "y": 6
+          }
+        },
+        {
+          "revealedSprite": "assets/Map Mode Images/ln_planetoidcluster.png",
+          "invisibleWhenHidden": true,
+          "scale": {
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "revealedSprite": "assets/Map Mode Images/connect_vine.png",
+          "invisibleWhenHidden": true,
+          "rotation": 287.4363,
+          "position": {
+            "x": -178.8728,
+            "y": 0
+          },
+          "scale": {
+            "x": 1.3637,
+            "y": 1.7345
+          }
+        }
+      ]
     }
   },
   "Base": {

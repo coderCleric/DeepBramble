@@ -8,13 +8,14 @@
     "spriteFolder": "assets/Ship Log Entry Sprites/start",
     "mapMode": {
       "invisibleWhenHidden": true,
+      "revealedSprite": "assets/Map Mode Images/starting_dimension.png",
       "manualNavigationPosition": {
         "x": 0,
         "y": 0
       },
       "manualPosition": {
-        "x": 0,
-        "y": 0
+        "x": -100,
+        "y": -35
       }
     }
   },

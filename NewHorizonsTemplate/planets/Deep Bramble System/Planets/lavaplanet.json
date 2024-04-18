@@ -9,14 +9,30 @@
     "spriteFolder": "assets/Ship Log Entry Sprites/lava_planet",
     "mapMode": {
       "invisibleWhenHidden": true,
+      "revealedSprite": "assets/Map Mode Images/hot_dimension.png",
       "manualNavigationPosition": {
-        "x": 10,
-        "y": 0
+        "x": 2,
+        "y": 3
       },
       "manualPosition": {
-        "x": 900,
-        "y": 0
-      }
+        "x": 400,
+        "y": 1000
+      },
+      "scale": 3,
+      "details": [
+        {
+          "revealedSprite": "assets/Map Mode Images/connect_vine.png",
+          "invisibleWhenHidden": true,
+          "position": {
+            "x": 0,
+            "y": -49.1273
+          },
+          "scale": {
+            "x": 0.3637,
+            "y": 0.1745
+          }
+        }
+      ]
     }
   },
   "Base": {

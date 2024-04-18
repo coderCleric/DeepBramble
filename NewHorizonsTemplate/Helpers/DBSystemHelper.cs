@@ -58,6 +58,8 @@ namespace DeepBramble.Helpers
                     rend.GetRenderer().enabled = rend._gameplayActive && rend._lodActive;
                 }
             }
+
+            
         }
 
         /**

@@ -8,14 +8,51 @@
     "spriteFolder": "assets/Ship Log Entry Sprites/hollow",
     "mapMode": {
       "invisibleWhenHidden": true,
+      "revealedSprite": "assets/Map Mode Images/empty.png",
       "manualNavigationPosition": {
-        "x": 3,
-        "y": 0
+        "x": 1,
+        "y": 1
       },
       "manualPosition": {
-        "x": 200,
-        "y": 0
-      }
+        "x": 355,
+        "y": 155
+      },
+      "details": [
+        {
+          "revealedSprite": "assets/Map Mode Images/ln_centernode.png",
+          "invisibleWhenHidden": true,
+          "scale": {
+            "x": 1,
+            "y": 1
+          }
+        },
+        {
+          "revealedSprite": "assets/Map Mode Images/ln_enclosed.png",
+          "invisibleWhenHidden": true,
+          "rotation": 19.8363,
+          "position": {
+            "x": 81.5272,
+            "y": 247.8727
+          },
+          "scale": {
+            "x": 2,
+            "y": 2
+          }
+        },
+        {
+          "revealedSprite": "assets/Map Mode Images/ln_dilation.png",
+          "invisibleWhenHidden": true,
+          "rotation": 175.3637,
+          "position": {
+            "x": -261.0909,
+            "y": -38.7636
+          },
+          "scale": {
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ]
     }
   },
   "Base": {

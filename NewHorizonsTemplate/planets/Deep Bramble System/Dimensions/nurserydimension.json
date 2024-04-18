@@ -8,14 +8,31 @@
     "spriteFolder": "assets/Ship Log Entry Sprites/nursery",
     "mapMode": {
       "invisibleWhenHidden": true,
+      "revealedSprite": "assets/Map Mode Images/nursery_dimension.png",
       "manualNavigationPosition": {
-        "x": 9,
-        "y": 0
+        "x": 1,
+        "y": 2
       },
       "manualPosition": {
-        "x": 800,
-        "y": 0
-      }
+        "x": 90,
+        "y": 675
+      },
+      "scale": 2.5,
+      "details": [
+        {
+          "revealedSprite": "assets/Map Mode Images/connect_vine.png",
+          "invisibleWhenHidden": true,
+          "rotation": 282.3451,
+          "position": {
+            "x": 60.1091,
+            "y": 0
+          },
+          "scale": {
+            "x": 0.3673,
+            "y": 0.2618
+          }
+        }
+      ]
     }
   },
   "Base": {

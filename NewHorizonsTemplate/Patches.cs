@@ -13,6 +13,7 @@ using DeepBramble.Triggers;
 using DeepBramble.Helpers;
 using System.Reflection.Emit;
 using System.Reflection;
+using NewHorizons.Components.ShipLog;
 
 namespace DeepBramble
 {
@@ -168,6 +169,86 @@ namespace DeepBramble
                 EndSceneAddition.instance.Activate();
                 __instance._delayedFadeTime = Time.time + 5;
             }
+        }
+
+        //################################# Map Mode Management #################################
+
+        /**
+         * Manage map mode details when the player enters the computer
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(ShipLogAstroObject), nameof(ShipLogAstroObject.OnEnterComputer))]
+        public static void HideHiddenDetails(ShipLogAstroObject __instance)
+        {
+            if (__instance.name.Contains("Briar's Hollow"))
+            {
+                Transform detailRoot = Locator.GetShipBody().transform
+                    .Find("Module_Cabin/Systems_Cabin/ShipLogPivot/ShipLog/ShipLogPivot/ShipLogCanvas/MapMode/ScaleRoot/PanRoot/Briar's Hollow_ShipLog/Details");
+                int detailIndex = 0;
+                foreach (Transform tf in detailRoot)
+                {
+                    switch (detailIndex)
+                    {
+                        case 0: //The recursive node
+                            tf.name = "CenterNodeDetail";
+                            tf.gameObject.SetActive(Locator.GetShipLogManager().IsFactRevealed("RECURSIVE_NODE_FOUND_FACT_FC"));
+                            break;
+                        case 1: //The enclosed space
+                            tf.name = "EnclosedDetail";
+                            tf.gameObject.SetActive(Locator.GetShipLogManager().IsFactRevealed("ENCLOSED_SPACE_FOUND_FACT_FC"));
+                            break;
+                        case 2: //The dilation node
+                            tf.name = "DilationDetail";
+                            tf.gameObject.SetActive(Locator.GetShipLogManager().IsFactRevealed("FASTFORWARD_RUMOR_FC") ||
+                                Locator.GetShipLogManager().IsFactRevealed("SCOUT_DELAY_RUMOR_FC"));
+                            break;
+                    }
+
+                    detailIndex++;
+                }
+            }
+        }
+
+        /**
+         * Prevent the selection of rumored planets
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(ShipLogAstroObject), nameof(ShipLogAstroObject.IsVisible))]
+        public static bool ForbigRumoredPlanetSelect(ShipLogAstroObject __instance, bool __result)
+        {
+            if (ForgottenLocator.inBrambleSystem && __instance._state == ShipLogEntry.State.Rumored)
+            {
+                __result = false;
+                return false;
+            }
+            return true;
+        }
+
+        /**
+         * Hide rumored planets
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(ShipLogAstroObject), nameof(ShipLogAstroObject.UpdateState))]
+        public static void HideRumoredPlanets(ShipLogAstroObject __instance)
+        {
+            if (ForgottenLocator.inBrambleSystem && __instance._state == ShipLogEntry.State.Rumored)
+            {
+                __instance._imageObj.SetActive(false);
+                __instance._unviewedObj.SetActive(false);
+            }
+        }
+
+        /**
+         * Hide rumored details
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(ShipLogDetail), nameof(ShipLogDetail.UpdateState))]
+        public static void HideRumoredDetails(ShipLogDetail __instance, ShipLogEntry.State parentState)
+        {
+            if (ForgottenLocator.inBrambleSystem && parentState == ShipLogEntry.State.Rumored)
+                __instance.gameObject.SetActive(false);
+            else if(ForgottenLocator.inBrambleSystem)
+                __instance.gameObject.SetActive(true);
         }
 
         //################################# Slate & Respawning #################################

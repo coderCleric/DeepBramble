@@ -5,15 +5,7 @@
 
   "ShipLog": {
     "mapMode": {
-      "invisibleWhenHidden": true,
-      "manualNavigationPosition": {
-        "x": 1,
-        "y": 0
-      },
-      "manualPosition": {
-        "x": -40,
-        "y": 0
-      }
+      "remove": true
     }
   },
   "Base": {
