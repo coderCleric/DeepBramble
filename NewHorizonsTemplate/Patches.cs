@@ -1001,6 +1001,31 @@ namespace DeepBramble
             }
         }
 
+        /**
+         * Make sure that we fetch the correct audio clip
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.GetTravelerMusicEndClip))]
+        public static bool GetEndMusic(QuantumCampsiteController __instance, AudioClip __result)
+        {
+            //Ditylum isn't there, don't change anything
+            if (!EyeSystemHelper.doEyeStuff)
+                return true;
+
+            //Otherwise, use flags to determine what clip to use
+            bool prisonerPresent = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
+            __result = EyeSystemHelper.onlyDity; //Default is only Ditylum is there
+            if (__instance._hasMetSolanum && prisonerPresent) //Both others are there
+                __result = EyeSystemHelper.withBoth;
+            else if (__instance._hasMetSolanum) //Only Solanum made it
+                __result = EyeSystemHelper.withSol;
+            else
+                __result = EyeSystemHelper.withPrisoner;
+
+            //Don't run the original method
+            return false;
+        }
+
         //################################# Debug Things #################################
 
         /**

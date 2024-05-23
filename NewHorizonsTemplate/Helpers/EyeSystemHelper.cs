@@ -1,7 +1,9 @@
 ﻿using DeepBramble.Triggers;
 using NAudio.Wave;
+using NewHorizons.Utility.Files;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +14,21 @@ namespace DeepBramble.Helpers
     public static class EyeSystemHelper
     {
         public static bool doEyeStuff = false;
+        public static AudioClip onlyDity = null;
+        public static AudioClip withSol = null;
+        public static AudioClip withPrisoner = null;
+        public static AudioClip withBoth = null;
+
+        /**
+         * Loads the different songs for the ending
+         */
+        public static void LoadSongs()
+        {
+            onlyDity = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_only_ditylum_added.ogg"));
+            withSol = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_no_prisoner.ogg"));
+            withPrisoner = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_no_solanum.ogg"));
+            withBoth = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_with_everyone.ogg"));
+        }
 
         /**
          * Does the fixes for the eye system

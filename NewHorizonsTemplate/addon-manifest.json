@@ -1,0 +1,14 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/Outer-Wilds-New-Horizons/new-horizons/main/NewHorizons/Schemas/addon_manifest_schema.json",
+  "credits": [
+    "coderCleric#Code\n#Story\n#Writing\n#Design\n#Modeling",
+    "The Spouse#2D assets\n#Feedback\n#Editing\n#Puzzles\n#Story\n#Ditylum's song",
+    "Repcon#Character modeling\n#Rigging\n#Animating\n#Texturing\n#Playtesting",
+    "Raime000#Audio editing\n#Playtesting",
+    "Evorox#Playtesting\n#Story\n#Feedback\n#Puzzles",
+    "Ceryus#Playtesting\n#Story\n#Feedback\n#Puzzles",
+    "OW Modding Discord#General help and support",
+    "Title screen music derived from The Lost Reels by Andrew Prahlow",
+    "Ditylum’s song made using INSERTHERE with sounds from INSERTHERE"
+  ]
+}
