@@ -167,7 +167,7 @@ namespace DeepBramble
                 EndSceneAddition.instance != null && !EndSceneAddition.instance.activated)
             {
                 EndSceneAddition.instance.Activate();
-                __instance._delayedFadeTime = Time.time + 5;
+                __instance._delayedFadeTime = Time.time + EndSceneAddition.totalTime;
             }
         }
 

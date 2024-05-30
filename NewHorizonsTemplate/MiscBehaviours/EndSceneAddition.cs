@@ -9,19 +9,27 @@ namespace DeepBramble.MiscBehaviours
 {
     public class EndSceneAddition : MonoBehaviour
     {
+        //Allows easy editing, should be removed
+        public static float speed = 50;
+        public static float x = 600;
+        public static float y = 100;
+        public static float z = 556;
+        public static float totalTime = 8;
+        public static float delay = 0.5f;
+
         public static EndSceneAddition instance;
         public bool activated = false;
-        private float delay = 2;
-        private float speed = 5;
         
         private void Awake()
         {
             instance = this;
+            gameObject.SetActive(false);
         }
 
         public void Activate()
         {
             activated = true;
+            gameObject.SetActive(true);
         }
 
         private void LateUpdate()
