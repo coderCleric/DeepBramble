@@ -12,10 +12,11 @@ namespace DeepBramble.MiscBehaviours
         //Allows easy editing, should be removed
         public static float speed = 50;
         public static float x = 600;
-        public static float y = 100;
+        public static float y = 20;
         public static float z = 556;
         public static float totalTime = 8;
         public static float delay = 0.5f;
+        public static float zRot = -10;
 
         public static EndSceneAddition instance;
         public bool activated = false;
@@ -24,6 +25,7 @@ namespace DeepBramble.MiscBehaviours
         {
             instance = this;
             gameObject.SetActive(false);
+            transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y, zRot);
         }
 
         public void Activate()
