@@ -68,9 +68,6 @@ namespace DeepBramble
             UnityEvent<string> loadCompleteEvent = NewHorizonsAPI.GetStarSystemLoadedEvent();
             loadCompleteEvent.AddListener(PrepSystem);
 
-            //Load necessary audio for the ending sequence
-            EyeSystemHelper.LoadSongs();
-
             //Make all of the patches
             Harmony.CreateAndPatchAll(Assembly.GetExecutingAssembly());
         }

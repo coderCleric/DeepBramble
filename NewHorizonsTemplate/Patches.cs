@@ -1006,21 +1006,35 @@ namespace DeepBramble
          */
         [HarmonyPrefix]
         [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.GetTravelerMusicEndClip))]
-        public static bool GetEndMusic(QuantumCampsiteController __instance, AudioClip __result)
+        public static bool GetEndMusic(QuantumCampsiteController __instance, ref AudioClip __result)
         {
             //Ditylum isn't there, don't change anything
             if (!EyeSystemHelper.doEyeStuff)
+            {
+                DeepBramble.debugPrint("No Ditylum, doing default method");
                 return true;
+            }
 
             //Otherwise, use flags to determine what clip to use
             bool prisonerPresent = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
             __result = EyeSystemHelper.onlyDity; //Default is only Ditylum is there
             if (__instance._hasMetSolanum && prisonerPresent) //Both others are there
+            {
+                DeepBramble.debugPrint("Playing music for everyone");
                 __result = EyeSystemHelper.withBoth;
+            }
             else if (__instance._hasMetSolanum) //Only Solanum made it
+            {
+                DeepBramble.debugPrint("Sol and dity");
                 __result = EyeSystemHelper.withSol;
-            else
+            }
+            else if (prisonerPresent) //Only prisoner made it
+            {
+                DeepBramble.debugPrint("Pris and dity");
                 __result = EyeSystemHelper.withPrisoner;
+            }
+            else
+                DeepBramble.debugPrint("Playing music for only dity");
 
             //Don't run the original method
             return false;

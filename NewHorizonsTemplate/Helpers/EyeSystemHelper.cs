@@ -53,6 +53,9 @@ namespace DeepBramble.Helpers
 
             doEyeStuff = true;
 
+            //Load the custom songs
+            LoadSongs();
+
             //Disable the original ground
             campRoot.Find("Terrain_Campfire/Terrain_EYE_ForestFloor_Tomb/ForestOfGalaxies_Center_new").gameObject.SetActive(false);
 
