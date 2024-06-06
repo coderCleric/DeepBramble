@@ -1,12 +1,6 @@
 ﻿using DeepBramble.Triggers;
-using NAudio.Wave;
 using NewHorizons.Utility.Files;
-using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace DeepBramble.Helpers

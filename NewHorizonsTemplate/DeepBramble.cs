@@ -1,22 +1,16 @@
 ﻿using OWML.ModHelper;
 using OWML.Common;
 using UnityEngine;
-using UnityEngine.PostProcessing;
-using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using HarmonyLib;
 using UnityEngine.Events;
 using System;
-using System.IO;
 using System.Reflection;
 using DeepBramble.BaseInheritors;
-using DeepBramble.Triggers;
 using DeepBramble.MiscBehaviours;
-using System.Linq;
 using DeepBramble.Ditylum;
 using DeepBramble.Helpers;
-using UnityEngine.InputSystem.Utilities;
 
 namespace DeepBramble
 {

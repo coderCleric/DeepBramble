@@ -1,14 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 using DeepBramble.BaseInheritors;
 using DeepBramble.MiscBehaviours;
 using HarmonyLib;
-using DeepBramble.Ditylum;
-using NewHorizons;
 using DeepBramble.Triggers;
 using DeepBramble.Helpers;
 using System.Reflection.Emit;
