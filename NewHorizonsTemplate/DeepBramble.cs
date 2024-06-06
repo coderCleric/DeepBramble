@@ -200,7 +200,7 @@ namespace DeepBramble
             }
 
             //Print the player's absolute and relative positions when k is pressed
-            if (Keyboard.current[Key.K].wasPressedThisFrame)
+            /*if (Keyboard.current[Key.K].wasPressedThisFrame)
             {
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())

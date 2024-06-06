@@ -185,17 +185,26 @@ namespace DeepBramble
                     switch (detailIndex)
                     {
                         case 0: //The recursive node
+                            bool flag = Locator.GetShipLogManager().IsFactRevealed("RECURSIVE_NODE_FOUND_FACT_FC");
                             tf.name = "CenterNodeDetail";
-                            tf.gameObject.SetActive(Locator.GetShipLogManager().IsFactRevealed("RECURSIVE_NODE_FOUND_FACT_FC"));
+                            tf.Find("Detail Revealed").gameObject.SetActive(flag);
+                            tf.Find("Detail Outline").gameObject.SetActive(flag);
+                            DeepBramble.debugPrint("Showing center node detail: " + flag);
                             break;
                         case 1: //The enclosed space
+                            flag = Locator.GetShipLogManager().IsFactRevealed("ENCLOSED_SPACE_FOUND_FACT_FC");
                             tf.name = "EnclosedDetail";
-                            tf.gameObject.SetActive(Locator.GetShipLogManager().IsFactRevealed("ENCLOSED_SPACE_FOUND_FACT_FC"));
+                            tf.Find("Detail Revealed").gameObject.SetActive(flag);
+                            tf.Find("Detail Outline").gameObject.SetActive(flag);
+                            DeepBramble.debugPrint("Showing enclosed space detail: " + flag);
                             break;
                         case 2: //The dilation node
+                            flag = Locator.GetShipLogManager().IsFactRevealed("FASTFORWARD_RUMOR_FC") ||
+                                Locator.GetShipLogManager().IsFactRevealed("SCOUT_DELAY_RUMOR_FC");
                             tf.name = "DilationDetail";
-                            tf.gameObject.SetActive(Locator.GetShipLogManager().IsFactRevealed("FASTFORWARD_RUMOR_FC") ||
-                                Locator.GetShipLogManager().IsFactRevealed("SCOUT_DELAY_RUMOR_FC"));
+                            tf.Find("Detail Revealed").gameObject.SetActive(flag);
+                            tf.Find("Detail Outline").gameObject.SetActive(flag);
+                            DeepBramble.debugPrint("Showing dilation node detail: " + flag);
                             break;
                     }
 
