@@ -73,7 +73,7 @@ namespace DeepBramble
                     sensor._contactBody = null;
             }
 
-            //Give the main class the player damage audio
+            //Give the locator the player damage audio
             ForgottenLocator.playerAudioController = Locator.GetPlayerAudioController();
         }
 
@@ -167,7 +167,6 @@ namespace DeepBramble
         }
 
         //################################# Map Mode Management #################################
-
         /**
          * Manage map mode details when the player enters the computer
          */
@@ -970,7 +969,7 @@ namespace DeepBramble
                 //Add the baby biter to the bite trigger
                 Transform biteTrigger = fishTransform.Find("BiteTrigger");
                 if (biteTrigger != null)
-                    biteTrigger.gameObject.AddComponent<Triggers.BabyBiter>();
+                    biteTrigger.gameObject.AddComponent<BabyBiter>();
             }
         }
 

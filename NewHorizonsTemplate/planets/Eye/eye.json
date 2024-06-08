@@ -95,7 +95,7 @@
       {
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite/Ditylum",
         "isRelativeToParent": true,
-        "audio": "assets/Audio/ditylum_singing.wav",
+        "audio": "assets/Audio/ditylum_singing.ogg",
         "detectionRadius": 0.01,
         "frequency": "Traveler",
         "onlyAudibleToScope": false,
@@ -109,7 +109,7 @@
       {
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InstrumentZones/DitylumZone",
         "isRelativeToParent": true,
-        "audio": "assets/Audio/ditylum_singing.wav",
+        "audio": "assets/Audio/ditylum_singing.ogg",
         "frequency": "Traveler",
         "name": "Ditylum",
         "detectionRadius": 0.01,
