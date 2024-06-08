@@ -242,7 +242,7 @@ namespace DeepBramble.Helpers
                             break;
 
                         case "The Venomous Reject":
-                            sectorTransform.Find("poison_planet/poison_lab/building/decor/injector").gameObject.AddComponent<InjectorItem>();
+                            sectorTransform.Find("poison_planet/injector").gameObject.AddComponent<InjectorItem>();
                             break;
                     }
                 }
