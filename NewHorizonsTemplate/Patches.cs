@@ -354,7 +354,7 @@ namespace DeepBramble
             if(!forcedRetrieval && ForgottenLocator.probeDilated)
             {
                 if (DeepBramble.recallTimer == -999)
-                    DeepBramble.recallTimer = 30;
+                    DeepBramble.recallTimer = 10;
                 NotificationData data = new NotificationData(NotificationTarget.All, "RECALL REQUEST UNACKNOWLEDGED");
                 NotificationManager.SharedInstance.PostNotification(data);
                 Locator.GetShipLogManager().RevealFact("SCOUT_DELAY_RUMOR_FC");

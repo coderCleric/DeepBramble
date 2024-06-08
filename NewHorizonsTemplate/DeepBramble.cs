@@ -243,7 +243,7 @@ namespace DeepBramble
             }
 
             //Teleport to a specific point when n is pressed
-            if (Keyboard.current[Key.N].wasPressedThisFrame)
+            */if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
                 //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
                 Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet

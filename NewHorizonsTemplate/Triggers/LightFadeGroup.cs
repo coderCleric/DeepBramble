@@ -12,7 +12,8 @@ namespace DeepBramble.Triggers
         private int dimCount = 0;
         private float minDimTime = 0;
         private float changeStartTime = 0;
-        private bool playerNewlyExited = false;
+        private float changeDelay = 0; //Need this to have a grace period after exiting
+        bool fading = false;
 
         /**
          * Adds the given light to the group
@@ -61,10 +62,13 @@ namespace DeepBramble.Triggers
             else
             {
                 minDimTime = trigger.fadetime;
-                if(!playerNewlyExited)
+                if (changeDelay <= 0) //Only update the change time if we're outside of the delay
+                {
                     changeStartTime = Time.time;
+                    fading = true;
+                    DeepBramble.debugPrint("Light time changed by entering");
+                }
             }
-            playerNewlyExited = false;
         }
 
         /**
@@ -88,7 +92,7 @@ namespace DeepBramble.Triggers
                 minDimTime = min;
             }
             else
-                playerNewlyExited = true;
+                changeDelay = 5;
         }
 
         /**
@@ -96,16 +100,21 @@ namespace DeepBramble.Triggers
          */
         private void LateUpdate()
         {
-            if (playerNewlyExited)
+            if (changeDelay > 0 && dimCount <= 0)
             {
-                playerNewlyExited = false;
+                changeDelay--;
+            }
+            if(changeDelay <= 0 && fading && dimCount <= 0)
+            {
                 changeStartTime = Time.time;
+                fading = false;
+                DeepBramble.debugPrint("Light time changed by exiting");
             }
 
             float changeAmount = (Time.time - changeStartTime) / minDimTime;
 
             //Dim them if we're fading
-            if (dimCount > 0)
+            if (fading)
             {
                 for (int i = 0; i < this.lights.Count(); i++)
                 {
@@ -114,7 +123,7 @@ namespace DeepBramble.Triggers
             }
 
             //Bring them back otherwise
-            else
+            else if(changeDelay <= 0)
             {
                 for (int i = 0; i < this.lights.Count(); i++)
                 {
