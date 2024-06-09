@@ -51,7 +51,12 @@ namespace DeepBramble
                 else
                     manualLoadEnd = false;
                 if (loadScene == OWScene.TitleScreen)
+                {
                     TitleScreenHelper.FirstTimeTitleEdits();
+                    ForgottenLocator.inBrambleSystem = false;
+                }
+
+                //Set whether or not we're in the bramble system
             };
 
             //Do stuff when the system starts to load
@@ -87,6 +92,7 @@ namespace DeepBramble
             //Do this stuff no matter where we are
             ForgottenLocator.blockableSockets = new List<BlockableQuantumSocket>();
             DomesticFishController.Reset();
+            ForgottenLocator.inBrambleSystem = s.Equals("DeepBramble") && TitleScreenHelper.titleEffectsObject == null;
 
             //Do this stuff if we're in the bramble system
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("DeepBramble"))
