@@ -166,6 +166,16 @@ namespace DeepBramble
             }
         }
 
+        /**
+         * Prevent the recursive node location marker from doing recursive things
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(OuterFogWarpVolume), nameof(OuterFogWarpVolume.PropagateCanvasMarkerOutwards))]
+        public static bool PreventRecursiveLocation(CanvasMarker marker)
+        {
+            return !marker._label.Equals("RECURSIVE NODE");
+        }
+
         //################################# Map Mode Management #################################
         /**
          * Manage map mode details when the player enters the computer
