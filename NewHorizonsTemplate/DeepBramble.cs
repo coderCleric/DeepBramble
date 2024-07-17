@@ -21,6 +21,7 @@ namespace DeepBramble
         //Miscellanious variables
         public INewHorizons NewHorizonsAPI;
         public static float recallTimer = -999;
+        public static Material textMat = null;
 
         //Only needed for debug
         public static Transform relBody = null;
@@ -38,9 +39,12 @@ namespace DeepBramble
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizonsAPI.LoadConfigs(this);
 
-            //Do stuff when the title screen loads
+            //Load assetbundles
             TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
             PostCreditsHelper.leviathanBundle = ModHelper.Assets.LoadBundle("assetbundles/end_bundle");
+            textMat = ModHelper.Assets.LoadBundle("assetbundles/text_bundle").LoadAsset<Material>("Assets/Materials/dree_text.mat");
+
+            //Do title screen stuff
             TitleScreenHelper.FirstTimeTitleEdits();
             LoadManager.OnCompleteSceneLoad += (scene, loadScene) =>
             {

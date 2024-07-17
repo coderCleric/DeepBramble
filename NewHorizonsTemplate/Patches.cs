@@ -9,6 +9,7 @@ using DeepBramble.Helpers;
 using System.Reflection.Emit;
 using System.Reflection;
 using NewHorizons.Components.ShipLog;
+using NewHorizons.Utility.Files;
 
 namespace DeepBramble
 {
@@ -51,7 +52,7 @@ namespace DeepBramble
 
 
             //If needed, check if we need to reveal the starting rumor of the mod
-            if(ForgottenLocator.revealStartingRumor)
+            if (ForgottenLocator.revealStartingRumor)
             {
                 ShipLogManager logManager = Locator.GetShipLogManager();
                 if (logManager.IsFactRevealed("DB_VESSEL_X1"))
@@ -69,7 +70,7 @@ namespace DeepBramble
                 Locator._globalMusicController._darkBrambleSource.gameObject.SetActive(false);
 
                 //Stop that weird "ship landed" bug
-                foreach(LandingPadSensor sensor in Locator.GetShipBody().GetComponentsInChildren<LandingPadSensor>())
+                foreach (LandingPadSensor sensor in Locator.GetShipBody().GetComponentsInChildren<LandingPadSensor>())
                     sensor._contactBody = null;
             }
 
@@ -108,7 +109,7 @@ namespace DeepBramble
 
             //If player is ungrounded and isn't floating, no reading for them
             PlayerCharacterController charController = Locator.GetPlayerBody().GetComponent<PlayerCharacterController>();
-            if(!charController.IsGrounded() && charController._isAlignedToForce)
+            if (!charController.IsGrounded() && charController._isAlignedToForce)
             {
                 __result = false;
                 return false;
@@ -127,7 +128,7 @@ namespace DeepBramble
         [HarmonyPatch(typeof(LandingPadSensor), nameof(LandingPadSensor.GetContactBody))]
         public static void ShipGroundedCorrection(LandingPadSensor __instance)
         {
-            if(ForgottenLocator.inBrambleSystem && __instance._contactBody != null && __instance._contactBody.name.Equals("TimberHearth_Body"))
+            if (ForgottenLocator.inBrambleSystem && __instance._contactBody != null && __instance._contactBody.name.Equals("TimberHearth_Body"))
                 __instance._contactBody = null;
         }
 
@@ -141,7 +142,7 @@ namespace DeepBramble
         public static bool ListenForReveal(string id)
         {
             //If it's the dummy fact, do things and stop
-            if(id.Equals("READ_DITYLUM_STUFF"))
+            if (id.Equals("READ_DITYLUM_STUFF"))
             {
                 ForgottenLocator.sadDitylum.EnableSitting();
                 return false;
@@ -158,7 +159,7 @@ namespace DeepBramble
         public static void ActivateLeviathan(PostCreditsManager __instance)
         {
             //Only show the leviathan if it hasn't shown up and we've met Ditylum
-            if(PlayerData.GetPersistentCondition("MET_DITYLUM") && __instance._fadeOutAfterDelay && 
+            if (PlayerData.GetPersistentCondition("MET_DITYLUM") && __instance._fadeOutAfterDelay &&
                 EndSceneAddition.instance != null && !EndSceneAddition.instance.activated)
             {
                 EndSceneAddition.instance.Activate();
@@ -174,6 +175,32 @@ namespace DeepBramble
         public static bool PreventRecursiveLocation(CanvasMarker marker)
         {
             return !marker._label.Equals("RECURSIVE NODE");
+        }
+
+        /**
+         * Swap dree text material out for the proper material
+         */
+
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(NomaiTextLine), nameof(NomaiTextLine.StartColorChangeAnim), new Type[] {typeof(Color), typeof(Color), typeof(float)})]
+        public static void RematDreeText(NomaiTextLine __instance)
+        {
+            if(ForgottenLocator.inBrambleSystem)
+            {
+                DeepBramble.debugPrint("Checking text for replace");
+                //Check and see if this is Dree text
+                MeshRenderer rend = __instance.gameObject.GetComponent<MeshRenderer>();
+                DeepBramble.debugPrint("text renderer is " + rend);
+                DeepBramble.debugPrint("text mat matches IP: " + rend.sharedMaterial.name.Contains("IP"));
+                if (rend != null && rend.sharedMaterial.name.Contains("IP"))
+                {
+                    DeepBramble.debugPrint("Replacing text mat");
+
+                    //If it is, give it the correct mat
+                    rend.material = DeepBramble.textMat;
+                    AssetBundleUtilities.ReplaceShaders(__instance.gameObject);
+                }
+            }
         }
 
         //################################# Map Mode Management #################################
