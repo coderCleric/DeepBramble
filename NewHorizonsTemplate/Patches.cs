@@ -535,7 +535,7 @@ namespace DeepBramble
                 switch(state)
                 {
                     case NomaiTextLine.VisualState.UNREAD:
-                        __result = new Color(0.25f, 0.3f, 0.25f, 7f);
+                        __result = new Color(0.5238f, 0.2374f, 1, 1);
                         break;
                     case NomaiTextLine.VisualState.TRANSLATED:
                         __result = new Color(0.25f, 0.3f, 0.25f, 1f);
