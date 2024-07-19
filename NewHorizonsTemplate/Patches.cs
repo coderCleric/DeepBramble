@@ -177,32 +177,6 @@ namespace DeepBramble
             return !marker._label.Equals("RECURSIVE NODE");
         }
 
-        /**
-         * Swap dree text material out for the proper material
-         */
-
-        [HarmonyPostfix]
-        [HarmonyPatch(typeof(NomaiTextLine), nameof(NomaiTextLine.StartColorChangeAnim), new Type[] {typeof(Color), typeof(Color), typeof(float)})]
-        public static void RematDreeText(NomaiTextLine __instance)
-        {
-            if(ForgottenLocator.inBrambleSystem)
-            {
-                DeepBramble.debugPrint("Checking text for replace");
-                //Check and see if this is Dree text
-                MeshRenderer rend = __instance.gameObject.GetComponent<MeshRenderer>();
-                DeepBramble.debugPrint("text renderer is " + rend);
-                DeepBramble.debugPrint("text mat matches IP: " + rend.sharedMaterial.name.Contains("IP"));
-                if (rend != null && rend.sharedMaterial.name.Contains("IP"))
-                {
-                    DeepBramble.debugPrint("Replacing text mat");
-
-                    //If it is, give it the correct mat
-                    rend.material = DeepBramble.textMat;
-                    AssetBundleUtilities.ReplaceShaders(__instance.gameObject);
-                }
-            }
-        }
-
         //################################# Map Mode Management #################################
         /**
          * Manage map mode details when the player enters the computer
@@ -505,7 +479,7 @@ namespace DeepBramble
         public static bool HideDreeText(NomaiTranslatorProp __instance)
         {
             //This flag checks if the targeted text is Dree text
-            bool flag = __instance._scanBeams[0]._nomaiTextLine != null && __instance._scanBeams[0]._nomaiTextLine.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("IP");
+            bool flag = __instance._scanBeams[0]._nomaiTextLine != null && __instance._scanBeams[0]._nomaiTextLine.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("dree");
 
             //If the text is dree, and the player lacks the upgrade, hide the text
             if (flag && ForgottenLocator.inBrambleSystem && !Locator.GetShipLogManager().IsFactRevealed("TRANSLATOR_UPGRADE_FACT_FC"))
@@ -530,15 +504,24 @@ namespace DeepBramble
         public static void RecolorDreeText(NomaiTextLine __instance, NomaiTextLine.VisualState state, ref Color __result)
         {
             //Only recolor if it's active, in the bramble system, and is Dree
-            if(ForgottenLocator.inBrambleSystem && __instance._active && __instance.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("IP"))
+            if(ForgottenLocator.inBrambleSystem && __instance._active && (__instance.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("IP")
+                || __instance.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("dree")))
             {
-                switch(state)
+                //First, change the material if needed
+                if (__instance.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("IP"))
+                {
+                    __instance.gameObject.GetComponent<MeshRenderer>().material = DeepBramble.textMat;
+                    AssetBundleUtilities.ReplaceShaders(__instance.gameObject);
+                }
+
+                //Then determine the color
+                switch (state)
                 {
                     case NomaiTextLine.VisualState.UNREAD:
                         __result = new Color(0.5238f, 0.2374f, 1, 1);
                         break;
                     case NomaiTextLine.VisualState.TRANSLATED:
-                        __result = new Color(0.25f, 0.3f, 0.25f, 1f);
+                        __result = new Color(0.345f, 0.3f, 0.533f, 1);
                         break;
                 }
             }
