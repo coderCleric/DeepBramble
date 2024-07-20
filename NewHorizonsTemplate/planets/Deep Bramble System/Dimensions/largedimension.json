@@ -197,15 +197,26 @@
         "hasPhysics": true,
         "physicsRadius": 0,
         "position": {
-          "x": -12.5,
-          "y": 93.6,
-          "z": 0.2
+          "x": 69,
+          "y": 70.2,
+          "z": 19.11
         },
         "path": "BrittleHollow_Body/Sector_BH/Sector_EscapePodCrashSite/Sector_NorthFragment/Interactables_NorthFragment/VisibleFrom_EscapePodCrashSite/Prefab_NOM_Lamp_EscapePodFlare",
         "removeChildren": [
           "PointLight_NOM_Lamp",
           "Props_NOM_Lamp_EscapePodFlare"
         ]
+      },
+      {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/props/light_flare.prefab",
+        "hasPhysics": true,
+        "physicsRadius": 0,
+        "position": {
+          "x": 69,
+          "y": 70.2,
+          "z": 22.11
+        }
       },
       {
         "rename": "DilationNodeRecorderContainer",
@@ -279,10 +290,11 @@
     "translatorText": [
       {
         "rename": "RecursiveNodeRecorder",
+        "isRelativeToParent": true,
         "position": {
-          "x": -12.5,
-          "y": 93.6,
-          "z": 0.2
+          "x": 0,
+          "y": 0,
+          "z": 0
         },
         "type": "preCrashRecorder",
         "parentPath": "Sector/RecursiveNodeRecorderContainer",

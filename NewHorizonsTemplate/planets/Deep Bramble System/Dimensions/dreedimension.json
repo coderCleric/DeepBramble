@@ -208,6 +208,17 @@
         ]
       },
       {
+        "assetBundle": "assetbundles/castaways",
+        "path": "Assets/Prefabs/props/light_flare.prefab",
+        "hasPhysics": true,
+        "physicsRadius": 0,
+        "position": {
+          "x": -19.5,
+          "y": 7.9,
+          "z": -45.2
+        }
+      },
+      {
         "rename": "AcceptanceWall",
         "parentPath": "Sector/amylax_house",
         "isRelativeToParent": true,
