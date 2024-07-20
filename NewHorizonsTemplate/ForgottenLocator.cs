@@ -27,6 +27,7 @@ namespace DeepBramble
         public static HazardVolume hotNodeHazard = null;
         public static OuterFogWarpVolume dilationOuterWarp = null;
         public static DilatedDitylumManager dilatedDitylum = null;
+        public static AudioSignal dilatedSignal = null;
 
         //Things that the main class needs to know
         public static GameObject startDimensionObject = null;

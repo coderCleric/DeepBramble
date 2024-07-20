@@ -290,6 +290,10 @@ namespace DeepBramble.Helpers
 
                         //Make the toxin injector
                         body.transform.Find("Sector/Dilation Node/injector_socket").gameObject.AddComponent<InjectorSocket>();
+
+                        //Grab the dilated signal
+                        ForgottenLocator.dilatedSignal = body.transform.Find("Sector/Dilation Node/dilation_signal")
+                            .gameObject.GetComponent<AudioSignal>();
                         break;
 
                     case "The Nursery":

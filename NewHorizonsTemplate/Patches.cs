@@ -10,6 +10,7 @@ using System.Reflection.Emit;
 using System.Reflection;
 using NewHorizons.Components.ShipLog;
 using NewHorizons.Utility.Files;
+using static NomaiWarpPlatform;
 
 namespace DeepBramble
 {
@@ -320,6 +321,16 @@ namespace DeepBramble
                     Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
                     playerBody.SetVelocity(wantedVel);
                     ForgottenLocator.dilatedDitylum.LookAtPlayer();
+
+                    //Also, reveal the signal
+                    if (!PlayerData.KnowsFrequency(ForgottenLocator.dilatedSignal._frequency))
+                    {
+                        ForgottenLocator.dilatedSignal.IdentifyFrequency();
+                    }
+                    if (!PlayerData.KnowsSignal(ForgottenLocator.dilatedSignal._name))
+                    {
+                        ForgottenLocator.dilatedSignal.IdentifySignal();
+                    }
                 }
 
                 //If it's the probe, engage the lock
