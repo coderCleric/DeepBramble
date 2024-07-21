@@ -149,7 +149,7 @@
       {
         "rename": "amylax_house",
         "assetBundle": "assetbundles/castaways",
-        "path": "Assets/Prefabs/buildings/dree_floating_house.prefab",
+        "path": "Assets/Prefabs/buildings/amylax_floating_house.prefab",
         "scale": 2,
         "position": {
           "x": 392.102,
