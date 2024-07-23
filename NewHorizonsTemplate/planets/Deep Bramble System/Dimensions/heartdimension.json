@@ -68,6 +68,23 @@
     ]
   },
   "Props": {
+    "signals": [
+      {
+        "rename": "ditylum_signal",
+        "audio": "assets/Audio/dree_echolocation.ogg",
+        "identificationRadius": 3,
+        "sourceRadius": 0.1,
+        "volume": 2,
+        "detectionRadius": 10,
+        "position": {
+          "x": 0,
+          "y": 1,
+          "z": 0.57
+        },
+        "frequency": "Echolocation Tones",
+        "name": "Ditylum Echolocation"
+      }
+    ],
     "entryLocation": [
       {
         "id": "HEART_LAB_ENTRY_FC",

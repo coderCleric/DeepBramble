@@ -34,6 +34,9 @@ namespace DeepBramble.Helpers
                             signalDictionary.Add("Gravitation_Anomaly_Signal", i);
                             break;
 
+                        case "Heart Planet":
+                            signalDictionary.Add("ditylum_signal", i);
+                            break;
                     }
                 }
             }
@@ -54,6 +57,17 @@ namespace DeepBramble.Helpers
                     string name = i.gameObject.name;
                     if (signalDictionary.ContainsKey(name))
                     {
+                        //Special case for Ditylum's signal
+                        if(name.Equals("ditylum_signal"))
+                        {
+                            //First, find and remove the propogated signal
+                            i.transform.parent.Find("Heart Node/ditylum_signal").gameObject.SetActive(false);
+
+                            //Then reparent Ditylum's signal
+                            i.transform.SetParent(signalDictionary[name].transform.Find("Sector/final_lab/final_lab_room/sad_ditylum"), false);
+                            continue;
+                        }
+
                         //If it is, make it a child of the astro object it leads to in the dictionary
                         i.transform.SetParent(signalDictionary[name].transform, false);
                     }

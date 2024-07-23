@@ -178,6 +178,18 @@ namespace DeepBramble
             return !marker._label.Equals("RECURSIVE NODE");
         }
 
+        /**
+         * Make marshmallows cook faster in the hot node
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(Campfire), nameof(Campfire.GetHeatAtPosition))]
+        public static void FastCookMallows(ref float __result, Campfire __instance)
+        {
+            //If in the bramble system and on the right planet, double the result
+            if(ForgottenLocator.inBrambleSystem && __instance.gameObject.GetAttachedOWRigidbody().gameObject.name.Equals("MagmasRecursion_Body"))
+                __result *= 2;
+        }
+
         //################################# Map Mode Management #################################
         /**
          * Manage map mode details when the player enters the computer

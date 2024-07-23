@@ -14,6 +14,14 @@ namespace DeepBramble.BaseInheritors
         }
 
         /**
+         * Play the socketing animation
+         */
+        public override void PlaySocketAnimation()
+        {
+            GetComponentInChildren<Animator>().SetTrigger("insert");
+        }
+
+        /**
          * Gives the display name of the item
          * 
          * @return The display name, as a string

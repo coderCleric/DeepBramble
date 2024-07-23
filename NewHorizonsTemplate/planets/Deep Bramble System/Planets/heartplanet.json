@@ -24,7 +24,6 @@
     "isStatic": true
   },
   "Props": {
-
     "details": [
       {
         "keepLoaded": true,
