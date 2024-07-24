@@ -585,6 +585,17 @@
           "z": 0.07316947
         }
       }
+    ],
+    "audioVolumes": [
+      {
+        "rename": "AmbientAudio",
+        "radius": 350,
+        "volume": 0.5,
+        "priority": 1,
+        "audio": "TimeLoopDevice_Ambient",
+        "track": "music",
+        "loop": true
+      }
     ]
   }
 }

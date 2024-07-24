@@ -239,6 +239,12 @@ namespace DeepBramble.Helpers
                             //Add the controller to ditylum
                             ForgottenLocator.sadDitylum = sectorTransform.Find("final_lab/final_lab_room/sad_ditylum").gameObject.AddComponent<SadDitylumManager>();
 
+                            //Make the music switch trigger
+                            SadMusicSwitch musicSwitch = sectorTransform.Find("final_lab/final_lab_room/sad_music_trigger").gameObject.AddComponent<SadMusicSwitch>();
+
+                            //Give the music switcher the sad music
+                            musicSwitch.audioVol = sectorTransform.Find("AmbientAudio").GetComponent<AudioVolume>();
+
                             break;
 
                         case "The Venomous Reject":
