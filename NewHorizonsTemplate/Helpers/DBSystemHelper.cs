@@ -122,6 +122,9 @@ namespace DeepBramble.Helpers
 
                             //Set up the gravity triggers for the concert hall
                             sectorTransform.Find("shattered_planet/concert_hall_area/concert_hall_gravity").gameObject.AddComponent<EntranceGravTrigger>();
+
+                            //Set up the chime puzzle
+                            sectorTransform.Find("shattered_planet/concert_hall_area/chime_puzzle").gameObject.AddComponent<ChimePuzzleController>();
                             break;
 
                         case "Magma's Recursion":
