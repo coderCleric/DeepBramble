@@ -59,8 +59,6 @@ namespace DeepBramble
                     TitleScreenHelper.FirstTimeTitleEdits();
                     ForgottenLocator.inBrambleSystem = false;
                 }
-
-                //Set whether or not we're in the bramble system
             };
 
             //Do stuff when the system starts to load
