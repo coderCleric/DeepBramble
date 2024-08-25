@@ -774,6 +774,18 @@
           "y": -104.5835,
           "z": -0.200305
         }
+      },
+      {
+        "rename": "crystal_reveal_vol",
+        "radius": 3,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "SOIL_LAB_CRYSTAL_FACT_FC" ],
+        "position": {
+          "x": -100.616,
+          "y": 5.3168,
+          "z": -0.8596558
+        }
       }
     ]
   }

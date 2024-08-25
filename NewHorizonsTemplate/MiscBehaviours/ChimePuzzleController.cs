@@ -116,6 +116,7 @@ namespace DeepBramble.MiscBehaviours
             {
                 DeepBramble.debugPrint("Player did the chime puzzle");
                 (sockets[targetSocket].GetSocketedItem() as GravCrystalItem).SetIntact(true);
+                Locator.GetShipLogManager().RevealFact("CONCERT_SUCCESS_FACT_FC");
             }
         }
 

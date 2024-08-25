@@ -51,4 +51,16 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CONCERT_DREE_TEXT_FACT_FC</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CONCERT_COMBO_FACT_FC</FactID>
+      <Condition>2</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>

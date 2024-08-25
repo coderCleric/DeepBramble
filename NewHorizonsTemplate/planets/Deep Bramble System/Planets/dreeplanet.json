@@ -641,6 +641,18 @@
         "revealOn": "observe",
         "revealFor": "both",
         "reveals": [ "HEARTH_CORE_DISCOVERY_FACT_FC" ]
+      },
+      {
+        "rename": "bells_reveal_vol",
+        "radius": 30,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "CONCERT_BELLS_FACT_FC" ],
+        "position": {
+          "x": -76.51789,
+          "y": 5.62484,
+          "z": 23.45538
+        }
       }
     ]
   }

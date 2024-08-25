@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			SENNETTI: During my most recent trip to the <![CDATA[<color=orange>Eye Signal Lab</color>]]>, I noticed that one of the gravity crystals had fallen from its mount and cracked. Due to the high cost of production for these crystals, it may be worthwhile to develop a means by which they can be repaired. I have brought the crystal here for study.
+			SENNETTI: During my most recent trip to the <![CDATA[<color=orange>Eye Signal Lab</color>]]> on <![CDATA[<color=orange>Magma's Recursion</color>]]>, I noticed that one of the gravity crystals had fallen from its mount and cracked. Due to the high cost of production for these crystals, it may be worthwhile to develop a means by which they can be repaired. I have brought the crystal here for study.
 		</Text>
 	</TextBlock>
 
@@ -35,4 +35,28 @@
 	</TextBlock>
 
 	<!--Ship log reveals go here-->
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>SIGNAL_LAB_RUMOR_FC</FactID>
+      <Condition>1</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>CONCERT_HALL_SOIL_RUMOR</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>SOIL_LAB_REPAIR_FACT_FC</FactID>
+      <Condition>3</Condition>
+    </RevealFact>
+  </ShipLogConditions>
+  <ShipLogConditions>
+    <RevealFact>
+      <FactID>HEART_LAB_EXISTENCE_RUMOR_FC</FactID>
+      <Condition>2</Condition>
+    </RevealFact>
+  </ShipLogConditions>
 </NomaiObject>
