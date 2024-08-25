@@ -1,0 +1,48 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			AZOLLA: Good news friends! We have been given approval to take part in the tradition of sharing our culture in this concert hall! Our new neighbors state that, so long as we refrain from constructing walls which interfere with the concert hall’s acoustics, we are free to write in here!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			SENNETTI: That is good news! I imagine us writing here will also allow for our new friends to leave thoughts of their own.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			DITYLUM: Since you all decided (willingly or not) to stay here, we figured that it only made sense for you to participate in some of our traditions.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			NESIA: It is much appreciated, friend! While I am generally accustomed to studying from afar, it will be much more pleasant to fully engage with you and the other Dree.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 2-->
+	<TextBlock>
+		<ID>201</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: I look forward to seeing the similarities and differences between our cultures! I imagine it will be quite interesting to observe.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -25,7 +25,7 @@ namespace DeepBramble.Helpers
 
             //Make sure it's visible and in the right location
             AssetBundleUtilities.ReplaceShaders(leviathan);
-            leviathan.transform.localPosition = new Vector3(EndSceneAddition.x, EndSceneAddition.y, EndSceneAddition.z); //This might not work, double check
+            leviathan.transform.localPosition = new Vector3(EndSceneAddition.x, EndSceneAddition.y, EndSceneAddition.z);
 
             //Need to make sure it's in the right spot of the hierachy to render properly
             leviathan.transform.SetSiblingIndex(4);

@@ -66,6 +66,34 @@
         "keepLoaded": true
       }
     ],
+    "translatorText": [
+      {
+        "rename": "grave_text",
+        "xmlFile": "planets/Eye/EyeGraveText.xml",
+        "type": "wall",
+        "seed": 84634,
+        "position": {
+          "x": -11.95348,
+          "y": -147.585,
+          "z": 7458.558
+        },
+        "normal": {
+          "x": -0.007383815,
+          "y": 0.7954891,
+          "z": -0.6059229
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 232.4099
+          }
+        ]
+      }
+    ],
     "dialogue": [
       {
         "rename": "DreePlaque",

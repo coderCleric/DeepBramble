@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			KARENIA: Nesia, how did you find this? This is incredible! I can hardly believe... I didn't think any living creature would ever be allowed to lay eyes on it...
+			KARENIA: Nesia, how did you find this? This is incredible! I can hardly believe... I didn't think any living creature would ever be allowed to find it...
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			NESIA: Karenia, what are you talking about? You never thought anyone would be <![CDATA[<i>]]>allowed<![CDATA[</i>]]> to lay eyes on it? What even <![CDATA[<i>]]>is<![CDATA[</i>]]> it?
+			NESIA: Karenia, what are you talking about? You never thought anyone would be <![CDATA[<i>]]>allowed<![CDATA[</i>]]> to find it? What even <![CDATA[<i>]]>is<![CDATA[</i>]]> it?
 		</Text>
 	</TextBlock>
 

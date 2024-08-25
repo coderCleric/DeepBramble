@@ -1,0 +1,38 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: During my most recent trip to the <![CDATA[<color=orange>Eye Signal Lab</color>]]>, I noticed that one of the gravity crystals had fallen from its mount and cracked. Due to the high cost of production for these crystals, it may be worthwhile to develop a means by which they can be repaired. I have brought the crystal here for study.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			NESIA: I would help, but I am currently fully occupied working on the <![CDATA[<color=orange>Distant Node Project</color>]]>. Unfortunately, I suspect this is true for all of us, so it may take some time to develop a means to repair this crystal.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: I have good news! It seems our friends may have found a way to repair the gravity crystal! If you are interested in learning more, I suggest making your way to the <![CDATA[<color=orange>Concert Hall</color>]]>.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			SENNETTI: I understand. I hope we have time to develop a method of repairs soon, however, as I worry other crystals may also fall.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

@@ -115,6 +115,7 @@ namespace DeepBramble.MiscBehaviours
             if (success)
             {
                 DeepBramble.debugPrint("Player did the chime puzzle");
+                (sockets[targetSocket].GetSocketedItem() as GravCrystalItem).SetIntact(true);
             }
         }
 

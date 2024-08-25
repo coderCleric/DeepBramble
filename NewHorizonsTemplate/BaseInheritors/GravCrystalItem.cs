@@ -2,8 +2,15 @@
 
 namespace DeepBramble.BaseInheritors
 {
-    class GravCrystalItem : OWItem
+    public class GravCrystalItem : OWItem
     {
+        public bool intact { get; private set; } = true;
+
+        //Components
+        private MeshRenderer intactRenderer;
+        private MeshRenderer crackedRenderer;
+        private Light light;
+
         /**
          * Need to give it some type or it can be placed anywhere
          */
@@ -11,6 +18,38 @@ namespace DeepBramble.BaseInheritors
         {
             base.Awake();
             _type = ItemType.Lantern;
+
+            //Grab components
+            intactRenderer = transform.Find("intact_renderer").GetComponent<MeshRenderer>();
+            crackedRenderer = transform.Find("cracked_renderer").GetComponent<MeshRenderer>();
+            light = GetComponentInChildren<Light>();
+        }
+
+        /**
+         * Sets whether or not it's intact
+         */
+        public void SetIntact(bool intact)
+        {
+            //May not need to do anything
+            if (intact == this.intact)
+                return;
+            this.intact = intact;
+
+            //If false, disable stuff
+            if(!intact)
+            {
+                intactRenderer.gameObject.SetActive(false);
+                crackedRenderer.gameObject.SetActive(true);
+                light.enabled = false;
+            }
+
+            //If true, enable stuff
+            if (intact)
+            {
+                intactRenderer.gameObject.SetActive(true);
+                crackedRenderer.gameObject.SetActive(false);
+                light.enabled = true;
+            }
         }
 
         /**

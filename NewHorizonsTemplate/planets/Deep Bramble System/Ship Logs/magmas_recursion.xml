@@ -90,7 +90,6 @@
     <!--Hearing about the cave-->
     <RumorFact>
         <ID>SIGNAL_LAB_RUMOR_FC</ID>
-        <SourceID>ABANDONED_SETTLEMENT_ENTRY_FC</SourceID>
         <Text>Supposedly, the Nomai set up a lab to study the Eye's signal in a cave on Magma's Recursion.</Text>
     </RumorFact>
 
@@ -103,7 +102,7 @@
     <!--Learned about the crystals-->
     <ExploreFact>
       <ID>GAS_CRYSTALS_FACT_FC</ID>
-      <Text>In the interest of safety, the Nomai used portable gravity crystals to navigate up to the lab. Unfortunately, many of the crystals have broken, detaching from their sockets.</Text>
+      <Text>In the interest of safety, the Nomai used portable gravity crystals to navigate up to the lab. Unfortunately, many of the crystals have broken, detaching from their sockets. I don't think enough are intact to let me cross.</Text>
     </ExploreFact>
 
     <!--Nesia advice-->

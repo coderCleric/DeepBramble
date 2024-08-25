@@ -1,0 +1,28 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: I’ve been curious about something, if any of our new neighbors are able to answer. Where do you originate from? Do your people originate from the <![CDATA[<color=purple>Bramble</color>]]>, or do you have a record from outside?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AMYLAX: We’re honestly not sure. There are some stories of a time before the <![CDATA[<color=purple>Bramble</color>]]>, but we’re not sure if they’re true or not.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			KARENIA: Some stories even claim that <![CDATA[<color=orange>Shattered Hearth</color>]]> is actually the planet we used to live on outside, until the <![CDATA[<color=purple>Bramble</color>]]> tore it apart and swallowed it.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

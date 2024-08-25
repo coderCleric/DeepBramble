@@ -92,6 +92,11 @@ namespace DeepBramble.Helpers
                             }
                             break;
 
+                        case "Lover's Rock":
+                            GravCrystalItem crystal = sectorTransform.Find("large_planetoid/soil_lab_building/crystal").gameObject.AddComponent<GravCrystalItem>();
+                            crystal.SetIntact(false);
+                            break;
+
                         case "Graviton's Folly":
                             //Reverse the gravity since it doesn't work in the config
                             volume._gravitationalMass *= -1;

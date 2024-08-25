@@ -1,0 +1,46 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			OKALIS: Amylax, one thing we have noticed, especially given recent events, is how your people seem to be a bit too accepting of circumstances. While this has been changing some, I was curious what brought about this attitude in the first place?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AMYLAX: It’s an artifact from when things weren’t so peaceful, before we had tamed the anglerfish and things like that. As I’m sure you’re all aware, the <![CDATA[<color=purple>Bramble</color>]]> is not exactly safe, and there was a time where death was pretty commonplace. During that time, we learned that taking tragedy in stride would be more or less necessary for our survival.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: I see. I fear we Nomai may suffer from the opposite problem as you Dree. I am sure you have noticed our species’ eagerness to explore. It is one of our greatest prides, but it can also lead to some rash decision making. We Nomai are no strangers to these rash decisions claiming lives, and sometimes need to purposefully slow ourselves down to avoid it.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			KARENIA: That makes sense. Nesia was telling me that your clan’s discovery of the <![CDATA[<color=orange>Eye</color>]]> is actually what led to the tragedy that befell your clan. Your leader, Escall, was too quick to follow the Eye’s signal, which led to your ship getting stuck in the <![CDATA[<color=purple>Bramble</color>]]>.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			KARENIA: That danger also led to our attitude towards expansion. We found a corner of the <![CDATA[<color=purple>Bramble</color>]]> that was decently safe, so we just… stayed here. It’s cramped, and not terribly comfortable, but at least we’re not having people go missing every other day.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

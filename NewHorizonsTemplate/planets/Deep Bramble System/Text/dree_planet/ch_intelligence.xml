@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			KARENIA: I’ve been kinda concerned about something, if one of you would be willing to discuss it with me. Do you Nomai find us Dree… unintelligent? It’s no secret that you guys have way more technology than we do, and I just wanted to make sure you don’t see us as inferior or something like that.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			AZOLLA: Of course not! You all are no less intelligent than us, it’s just that the different demands of our species caused us to develop different areas of expertise.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			KARENIA: Can you elaborate?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			NESIA: We Nomai are defined by our nomadic lifestyle and inquisitive nature. Because of this, our species put a high priority on the development of advanced technology that would allow us to travel to faraway places. You Dree, on the other hand, had to contend with the hostile environment of the <![CDATA[<color=purple>Bramble</color>]]>, so you focused on developments that facilitated your survival. This led to several impressive developments, chief among them your ability to commune with the plant on a level we Nomai have never observed in all of our travels.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>5</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			OKALIS: If it weren’t for you all and your carefully developed relationship with the <![CDATA[<color=purple>Bramble</color>]]>, the four of us would not have survived.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>4</ParentID>
+		<Text>
+			KARENIA: I really appreciate your honesty Nesia. I guess it’s just another difference between our people that we can use to help each other out.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

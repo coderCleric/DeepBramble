@@ -650,6 +650,58 @@
             "zRotation": 182.6543
           }
         ]
+      },
+      {
+        "rename": "sl_crack_text",
+        "xmlFile": "planets/Deep Bramble System/Text/camp_planet/sl_cracked_crystal.xml",
+        "type": "wall",
+        "seed": 19835,
+        "position": {
+          "x": -99.63013,
+          "y": -1.084168,
+          "z": -0.1781015
+        },
+        "rotation": {
+          "x": 272.1209,
+          "y": 263.8484,
+          "z": 219.9219
+        },
+        "arcInfo": [
+          {
+            "type": "adult",
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "zRotation": 336
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.414871,
+              "y": 0.4260376
+            },
+            "zRotation": 339.6181
+          },
+          {
+            "type": "adult",
+            "position": {
+              "x": 0.4787056,
+              "y": 0.8463453
+            },
+            "zRotation": 301.7358
+          },
+          {
+            "mirror": true,
+            "type": "adult",
+            "position": {
+              "x": 0.2465541,
+              "y": 1.231983
+            },
+            "zRotation": 325.5025
+          }
+        ]
       }
     ],
     "entryLocation": [

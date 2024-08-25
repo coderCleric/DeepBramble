@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			We construct this memorial in remembrance of those aboard the third pod, whose lives were lost as they attempted to flee from the Bramble.
+			We construct this memorial in remembrance of those aboard the third pod, whose lives were lost as they attempted to flee from the <![CDATA[<color=purple>Bramble</color>]]>.
 		</Text>
 	</TextBlock>
 

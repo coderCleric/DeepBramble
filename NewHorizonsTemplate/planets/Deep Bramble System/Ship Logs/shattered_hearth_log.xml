@@ -7,6 +7,13 @@
     <Name>Concert Hall</Name>
     <Curiosity>DREE</Curiosity>
 
+    <!--Soil lab rumor-->
+    <RumorFact>
+      <ID>CONCERT_HALL_SOIL_RUMOR</ID>
+      <SourceID>SOIL_LAB_FC</SourceID>
+      <Text>I read that I can repair the broken crystal in the Soil Lab in some sort of concert hall.</Text>
+    </RumorFact>
+
     <!--Learn about the vocal organs-->
     <ExploreFact>
       <ID>DREE_SINGING_FACT_FC</ID>
@@ -18,6 +25,30 @@
     <ExploreFact>
       <ID>CONCERT_MISSED_FACT_FC</ID>
       <Text>One of the Nomai did not attend the show, as he was busy translating the alien's language in a lab.</Text>
+    </ExploreFact>
+
+    <!--There sure do be bells-->
+    <ExploreFact>
+      <ID>CONCERT_BELLS_FACT_FC</ID>
+      <Text>There are five large bells near the stage, with a slot above each. The leftmost bell is broken on the ground.</Text>
+    </ExploreFact>
+
+    <!--I'm illiterate-->
+    <ExploreFact>
+      <ID>CONCERT_DREE_TEXT_FACT_FC</ID>
+      <Text>There is text alluding to a way to fix gravity crystals, but not all of the text is written in Nomai.</Text>
+    </ExploreFact>
+
+    <!--Combination-->
+    <ExploreFact>
+      <ID>CONCERT_COMBO_FACT_FC</ID>
+      <Text>To fix the gravity crystal, it needs to be put into one of the slots. Then three bells need to be rung: the one two spots to the left, the one directly to the right, and finally the one directly below.</Text>
+    </ExploreFact>
+
+    <!--Success!-->
+    <ExploreFact>
+      <ID>CONCERT_SUCCESS_FACT_FC</ID>
+      <Text>I was able to fix a gravity crystal.</Text>
     </ExploreFact>
   </Entry>
 

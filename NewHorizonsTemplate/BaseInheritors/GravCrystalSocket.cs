@@ -49,7 +49,7 @@
         public override bool PlaceIntoSocket(OWItem item)
         {
             bool ret = base.PlaceIntoSocket(item);
-            if (ret)
+            if (ret && (item as GravCrystalItem).intact)
             {
                 foreach (DirectionalForceVolume field in gravFields)
                     field.gameObject.SetActive(true);

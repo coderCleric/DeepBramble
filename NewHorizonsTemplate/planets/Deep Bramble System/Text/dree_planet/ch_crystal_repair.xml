@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			NESIA: I have heard that a method has been developed to repair gravity crystals and that I should come here to find out more. Does it have something to do with the new bells lining the stage?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			KARENIA: Observant as always! All you need to do is take your cracked crystal, place it in one of the slots, and ring the correct bells! Specifically, you need to ring the bell two places left of the crystal, then directly to the right, and finally directly below.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			OKALIS: That seems fairly simple! Does it matter what slot the crystal is placed in, or do any work?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			KARENIA: Any slots should work, as long as you’re able to ring the correct bells.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: I’m quite impressed with your ability to find a repair method so quickly. It never occurred to me that harmonics could be used as a viable method!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			KARENIA: Thanks! Music is very important to us, so we’re always excited when we hear a problem that it might solve. I should clarify though that this method is only able to repair minor damage, like cracks. If part of the crystal is outright missing then it won’t work.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>

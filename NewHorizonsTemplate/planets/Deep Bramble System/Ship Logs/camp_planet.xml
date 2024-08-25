@@ -55,14 +55,25 @@
     <RumorFact>
       <ID>SOIL_LAB_RUMOR_FC</ID>
       <SourceID>CAMP_ENTRY_FC</SourceID>
-      <IgnoreMoreToExplore/>
       <Text>The Nomai constructed a lab to analyze the soil of the camp planetoid.</Text>
     </RumorFact>
 
     <!--Discovery-->
     <ExploreFact>
       <ID>SOIL_LAB_DISCOVERY_FACT_FC</ID>
-      <Text>I found a small lab near the equator of the camp planetoid</Text>
+      <Text>I found a small lab near the equator of the camp planetoid.</Text>
+    </ExploreFact>
+
+    <!--Crystal Presence-->
+    <ExploreFact>
+      <ID>SOIL_LAB_CRYSTAL_FACT_FC</ID>
+      <Text>There's some sort of broken crystal on the table.</Text>
+    </ExploreFact>
+
+    <!--Repair fact-->
+    <ExploreFact>
+      <ID>SOIL_LAB_REPAIR_FACT_FC</ID>
+      <Text>Some Nomai text says there may be a way to repair the crystal in some sort of concert hall.</Text>
     </ExploreFact>
 
     <!--Soil analysis-->

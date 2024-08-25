@@ -1,0 +1,54 @@
+<NomaiObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/text_schema.xsd">
+
+	<!--Main NomaiText.Branch-->
+	<TextBlock>
+		<ID>1</ID>
+		<Text>
+			SENNETTI: During my discussions with Ditylum, I have noted our new friends do not seem to record their history. If anyone who knows more finds this, would they please explain how your people’s history is tracked?
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>2</ID>
+		<ParentID>1</ParentID>
+		<Text>
+			LIOLOMA: Happy to explain! Basically, while we don’t really write stuff down very often, we are always sharing our stories with each other and making sure that they get passed down to the next generation!
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>3</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			AZOLLA: I see! So your people rely on a rich oral history, rather than writing it down. I do question how you ensure your stories aren’t lost to time, however.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>4</ID>
+		<ParentID>3</ParentID>
+		<Text>
+			KARENIA: Well, we don’t really move around terribly much, and there aren’t that many of us either. That makes it so everyone knows everyone, which makes our oral tradition much easier to practice.
+		</Text>
+	</TextBlock>
+
+
+	<!--NomaiText.Branch 1-->
+	<TextBlock>
+		<ID>101</ID>
+		<ParentID>2</ParentID>
+		<Text>
+			DITYLUM: If you don’t mind me asking, why do you Nomai write things down so often? I mean, you even write out or record pretty normal conversations.
+		</Text>
+	</TextBlock>
+
+	<TextBlock>
+		<ID>102</ID>
+		<ParentID>101</ParentID>
+		<Text>
+			NESIA: It is a byproduct of our nomadic lifestyle. Traditionally, Nomai clans are constantly moving from place to place, so writing out and recording our conversations became our way of sharing knowledge with others. If at some point another clan were to stumble upon somewhere we had been, they would find our writing and have a head start on understanding their surroundings.
+		</Text>
+	</TextBlock>
+
+	<!--Ship log reveals go here-->
+</NomaiObject>
