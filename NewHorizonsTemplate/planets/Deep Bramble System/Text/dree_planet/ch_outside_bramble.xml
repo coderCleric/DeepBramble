@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			OKALIS: I’ve been curious about something, if any of our new neighbors are able to answer. Where do you originate from? Do your people originate from the <![CDATA[<color=purple>Bramble</color>]]>, or do you have a record from outside?
+			OKALIS: I've been curious about something, if any of our new neighbors are able to answer. Where do you originate from? Do your people originate from the <![CDATA[<color=purple>Bramble</color>]]>, or do you have a record from outside?
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			AMYLAX: We’re honestly not sure. There are some stories of a time before the <![CDATA[<color=purple>Bramble</color>]]>, but we’re not sure if they’re true or not.
+			AMYLAX: We're honestly not sure. There are some stories of a time before the <![CDATA[<color=purple>Bramble</color>]]>, but we're not sure if they're true or not.
 		</Text>
 	</TextBlock>
 

@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			KARENIA: Any slots should work, as long as you’re able to ring the correct bells.
+			KARENIA: Any slots should work, as long as you're able to ring the correct bells.
 		</Text>
 	</TextBlock>
 
@@ -38,7 +38,7 @@
 		<ID>101</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			AZOLLA: I’m quite impressed with your ability to find a repair method so quickly. It never occurred to me that harmonics could be used as a viable method!
+			AZOLLA: I'm quite impressed with your ability to find a repair method so quickly. It never occurred to me that harmonics could be used as a viable method!
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ID>102</ID>
 		<ParentID>101</ParentID>
 		<Text>
-			KARENIA: Thanks! Music is very important to us, so we’re always excited when we hear a problem that it might solve. I should clarify though that this method is only able to repair minor damage, like cracks. If part of the crystal is outright missing then it won’t work.
+			KARENIA: Thanks! Music is very important to us, so we're always excited when we hear a problem that it might solve. I should clarify though that this method is only able to repair minor damage, like cracks. If part of the crystal is outright missing then it won't work.
 		</Text>
 	</TextBlock>
 

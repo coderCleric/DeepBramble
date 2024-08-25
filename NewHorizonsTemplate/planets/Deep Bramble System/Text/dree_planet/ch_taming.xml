@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			NESIA: I’m curious how you all managed to deal with the proximity of the anglerfish? I cannot imagine they are ideal neighbors.
+			NESIA: I'm curious how you all managed to deal with the proximity of the anglerfish? I cannot imagine they are ideal neighbors.
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			DITYLUM: It’s actually pretty easy to live with them, especially since they’re all tamed now. Except for the babies of course.
+			DITYLUM: It's actually pretty easy to live with them, especially since they're all tamed now. Except for the babies of course.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			NESIA: I’ve actually wondered about that some myself. How does the taming process work, and why is it ineffective on the juveniles?
+			NESIA: I've actually wondered about that some myself. How does the taming process work, and why is it ineffective on the juveniles?
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			KARENIA: Basically, we just feed them a bunch. The anglerfish are simple creatures; they want to get food and they want to move as little as possible to do it. That means, if you consistently bring them food, they’ll understand that the best way to get easy food is by not killing you.
+			KARENIA: Basically, we just feed them a bunch. The anglerfish are simple creatures; they want to get food and they want to move as little as possible to do it. That means, if you consistently bring them food, they'll understand that the best way to get easy food is by not killing you.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			KARENIA: The babies, on the other hand, don’t care as much about staying still as they care about getting a lot of food. This means they’ll still attack whoever gets close, so we have to wait until they’re a good deal larger before they can be tamed.
+			KARENIA: The babies, on the other hand, don't care as much about staying still as they care about getting a lot of food. This means they'll still attack whoever gets close, so we have to wait until they're a good deal larger before they can be tamed.
 		</Text>
 	</TextBlock>
 
@@ -54,7 +54,7 @@
 		<ID>102</ID>
 		<ParentID>101</ParentID>
 		<Text>
-			DITYLUM: If you read that again, that might tell you why that’s not a problem for us Dree.
+			DITYLUM: If you read that again, that might tell you why that's not a problem for us Dree.
 		</Text>
 	</TextBlock>
 

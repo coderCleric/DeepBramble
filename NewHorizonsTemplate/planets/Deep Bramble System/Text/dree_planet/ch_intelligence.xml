@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			KARENIA: I’ve been kinda concerned about something, if one of you would be willing to discuss it with me. Do you Nomai find us Dree… unintelligent? It’s no secret that you guys have way more technology than we do, and I just wanted to make sure you don’t see us as inferior or something like that.
+			KARENIA: I've been kinda concerned about something, if one of you would be willing to discuss it with me. Do you Nomai find us Dree... unintelligent? It's no secret that you guys have way more technology than we do, and I just wanted to make sure you don't see us as inferior or something like that.
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			AZOLLA: Of course not! You all are no less intelligent than us, it’s just that the different demands of our species caused us to develop different areas of expertise.
+			AZOLLA: Of course not! You all are no less intelligent than us, it's just that the different demands of our species caused us to develop different areas of expertise.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			OKALIS: If it weren’t for you all and your carefully developed relationship with the <![CDATA[<color=purple>Bramble</color>]]>, the four of us would not have survived.
+			OKALIS: If it weren't for you all and your carefully developed relationship with the <![CDATA[<color=purple>Bramble</color>]]>, the four of us would not have survived.
 		</Text>
 	</TextBlock>
 
@@ -46,7 +46,7 @@
 		<ID>101</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			KARENIA: I really appreciate your honesty Nesia. I guess it’s just another difference between our people that we can use to help each other out.
+			KARENIA: I really appreciate your honesty Nesia. I guess it's just another difference between our people that we can use to help each other out.
 		</Text>
 	</TextBlock>
 

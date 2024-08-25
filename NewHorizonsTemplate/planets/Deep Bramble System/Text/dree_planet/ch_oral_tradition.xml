@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			SENNETTI: During my discussions with Ditylum, I have noted our new friends do not seem to record their history. If anyone who knows more finds this, would they please explain how your people’s history is tracked?
+			SENNETTI: During my discussions with Ditylum, I have noted our new friends do not seem to record their history. If anyone who knows more finds this, would they please explain how your people's history is tracked?
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			LIOLOMA: Happy to explain! Basically, while we don’t really write stuff down very often, we are always sharing our stories with each other and making sure that they get passed down to the next generation!
+			LIOLOMA: Happy to explain! Basically, while we don't really write stuff down very often, we are always sharing our stories with each other and making sure that they get passed down to the next generation!
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			AZOLLA: I see! So your people rely on a rich oral history, rather than writing it down. I do question how you ensure your stories aren’t lost to time, however.
+			AZOLLA: I see! So your people rely on a rich oral history, rather than writing it down. I do question how you ensure your stories aren't lost to time, however.
 		</Text>
 	</TextBlock>
 
@@ -28,7 +28,7 @@
 		<ID>4</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			KARENIA: Well, we don’t really move around terribly much, and there aren’t that many of us either. That makes it so everyone knows everyone, which makes our oral tradition much easier to practice.
+			KARENIA: Well, we don't really move around terribly much, and there aren't that many of us either. That makes it so everyone knows everyone, which makes our oral tradition much easier to practice.
 		</Text>
 	</TextBlock>
 
@@ -38,7 +38,7 @@
 		<ID>101</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			DITYLUM: If you don’t mind me asking, why do you Nomai write things down so often? I mean, you even write out or record pretty normal conversations.
+			DITYLUM: If you don't mind me asking, why do you Nomai write things down so often? I mean, you even write out or record pretty normal conversations.
 		</Text>
 	</TextBlock>
 
