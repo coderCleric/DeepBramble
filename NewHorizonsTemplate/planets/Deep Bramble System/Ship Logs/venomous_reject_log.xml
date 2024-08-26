@@ -25,6 +25,7 @@
     <RumorFact>
       <ID>KEVIN_IDENTITY_FACT_FC</ID>
       <SourceID>FISH_PLATFORM_ENTRY_FC</SourceID>
+      <RumorName>Missing Tooth</RumorName>
       <Text>Apparently, an anglerfish named Kevin lost one of his bottom teeth in an accident, while protecting one of the baby fish in the nursery.</Text>
     </RumorFact>
 
