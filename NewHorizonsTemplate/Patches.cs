@@ -502,7 +502,8 @@ namespace DeepBramble
         public static bool HideDreeText(NomaiTranslatorProp __instance)
         {
             //This flag checks if the targeted text is Dree text
-            bool flag = __instance._scanBeams[0]._nomaiTextLine != null && __instance._scanBeams[0]._nomaiTextLine.gameObject.GetComponent<OWRenderer>().sharedMaterial.name.Contains("dree");
+            bool flag = __instance._scanBeams[0]._nomaiTextLine != null && __instance._scanBeams[0]._nomaiTextLine.gameObject
+                .GetComponent<OWRenderer>().sharedMaterial.name.Contains("dree");
 
             //If the text is dree, and the player lacks the upgrade, hide the text
             if (flag && ForgottenLocator.inBrambleSystem && !Locator.GetShipLogManager().IsFactRevealed("TRANSLATOR_UPGRADE_FACT_FC"))
@@ -513,6 +514,25 @@ namespace DeepBramble
 
             //Otherwise, run normally
             return true;
+        }
+
+        /**
+         * Change the untranslated prompt for Dree text
+         * 
+         * @param __instance The calling translator prop
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(NomaiTranslatorProp), nameof(NomaiTranslatorProp.DisplayTextNode))]
+        public static void ChangeDreeUnreadMessage(NomaiTranslatorProp __instance)
+        {
+            //This flag checks if the targeted text is Dree text
+            bool flag = __instance._scanBeams[0]._nomaiTextLine != null && __instance._scanBeams[0]._nomaiTextLine.gameObject
+                .GetComponent<OWRenderer>().sharedMaterial.name.Contains("dree");
+
+            if(flag && __instance._translationTimeElapsed == 0f && !__instance._nomaiTextComponent.IsTranslated(__instance._currentTextID))
+            {
+                __instance._textField.text = "<!> Untranslated Dree writing <!>";
+            }
         }
 
         /**

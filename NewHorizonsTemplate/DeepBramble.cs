@@ -250,7 +250,7 @@ namespace DeepBramble
                     debugPrint("Raycast hit nothing");
             }
 
-            */
+            
             //Teleport to a specific point when n is pressed
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
@@ -284,7 +284,7 @@ namespace DeepBramble
 
                 Locator._shipBody.SetPosition(point);
             }
-            /*
+            
 
             //Load the post-credit scene
             if (!manualLoadEnd && Keyboard.current[Key.Backslash].wasPressedThisFrame)
