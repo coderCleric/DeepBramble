@@ -22,14 +22,14 @@
         {
           "revealedSprite": "assets/Map Mode Images/connect_vine.png",
           "invisibleWhenHidden": true,
-          "rotation": 285.5819,
+          "rotation": 226.8365,
           "position": {
             "x": 58.3091,
-            "y": 6.2909
+            "y": -46.9855
           },
           "scale": {
-            "x": 0.4037,
-            "y": 0.2581
+            "x": 0.6255,
+            "y": 0.6255
           }
         }
       ]
