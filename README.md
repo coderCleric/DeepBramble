@@ -1,4 +1,5 @@
 # Forgotten Castaways
+# ![Forgotten Castaways](FC_banner.png)
 
 *This is a story mod that takes place almost entirely inside of Dark Bramble. Be aware that the description ahead features some spoilers for the base game of Outer Wilds. There are also some small, very early game spoilers for the mod itself.*
 
