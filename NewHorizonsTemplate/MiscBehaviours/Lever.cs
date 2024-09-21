@@ -8,6 +8,9 @@ namespace DeepBramble.MiscBehaviours
         private GameObject spikeObject = null;
         private InteractReceiver interactor = null;
         private Animator animator = null;
+        private OWAudioSource powerOnAudio = null;
+        private OWAudioSource powerOffAudio = null;
+
         private bool permaDisable = false;
 
         /**
@@ -58,6 +61,10 @@ namespace DeepBramble.MiscBehaviours
             this.beamObject = beamObject;
             if(beamObject.transform.parent.Find("spikes") != null)
                 this.spikeObject = beamObject.transform.parent.Find("spikes").gameObject;
+
+            //Also grab the audio
+            powerOnAudio = beamObject.transform.parent.Find("PowerOnAudio").gameObject.GetComponent<OWAudioSource>();
+            powerOffAudio = beamObject.transform.parent.Find("PowerOffAudio").gameObject.GetComponent<OWAudioSource>();
         }
 
         /**
@@ -74,6 +81,15 @@ namespace DeepBramble.MiscBehaviours
             {
                 spikeObject.transform.Find("collider").gameObject.SetActive(!flipBool);
                 spikeObject.transform.Find("killzone").gameObject.SetActive(flipBool);
+            }
+
+            //If not permanently disabled, play beam audio
+            if(!permaDisable)
+            {
+                if(flipBool)
+                    powerOnAudio.PlayOneShot();
+                else
+                    powerOffAudio.PlayOneShot();
             }
         }
 

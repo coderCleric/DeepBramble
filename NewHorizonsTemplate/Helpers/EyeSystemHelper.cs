@@ -18,10 +18,10 @@ namespace DeepBramble.Helpers
          */
         public static void LoadSongs()
         {
-            onlyDity = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_only_ditylum_added.ogg"));
-            withSol = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_no_prisoner.ogg"));
-            withPrisoner = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_no_solanum.ogg"));
-            withBoth = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_with_everyone.ogg"));
+            onlyDity = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_only_ditylum_added.mp3"));
+            withSol = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_no_prisoner.mp3"));
+            withPrisoner = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_no_solanum.mp3"));
+            withBoth = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_with_everyone.mp3"));
         }
 
         /**

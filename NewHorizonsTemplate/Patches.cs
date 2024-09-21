@@ -492,7 +492,7 @@ namespace DeepBramble
 
         //################################# Dree text stuff #################################
         /**
-         * Hide Dree text, unless the player has the translator upgrade
+         * Hide Dree text, unless the player has the translator upgrade. Otherwise, display a special unread message
          * 
          * @param __instance The actual translator prop
          * @return True if the text shouldn't be hidden, false otherwise
@@ -529,7 +529,8 @@ namespace DeepBramble
             bool flag = __instance._scanBeams[0]._nomaiTextLine != null && __instance._scanBeams[0]._nomaiTextLine.gameObject
                 .GetComponent<OWRenderer>().sharedMaterial.name.Contains("dree");
 
-            if(flag && __instance._translationTimeElapsed == 0f && !__instance._nomaiTextComponent.IsTranslated(__instance._currentTextID))
+            if(flag && __instance._translationTimeElapsed == 0f && Locator.GetShipLogManager().IsFactRevealed("TRANSLATOR_UPGRADE_FACT_FC") 
+                && !__instance._nomaiTextComponent.IsTranslated(__instance._currentTextID))
             {
                 __instance._textField.text = "<!> Untranslated Dree writing <!>";
             }
