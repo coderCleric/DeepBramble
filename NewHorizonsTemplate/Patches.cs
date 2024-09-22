@@ -10,7 +10,6 @@ using System.Reflection.Emit;
 using System.Reflection;
 using NewHorizons.Components.ShipLog;
 using NewHorizons.Utility.Files;
-using static NomaiWarpPlatform;
 
 namespace DeepBramble
 {
@@ -28,6 +27,7 @@ namespace DeepBramble
         //Other variables
         public static Vector3 lastCOTUCachedVel = Vector3.zero;
         public static EffectVolume nurseryDragVol = null;
+        public static bool muteMusic = false;
 
         //Needed for the baby angler & kevin
         public static Animator anglerAnimator = null;
@@ -50,6 +50,7 @@ namespace DeepBramble
             ForgottenLocator.playerAttachedToKevin = false;
             ForgottenLocator.probeDilated = false;
             heatNotifPosted = false;
+            muteMusic = false;
 
 
             //If needed, check if we need to reveal the starting rumor of the mod
@@ -187,7 +188,18 @@ namespace DeepBramble
         {
             //If in the bramble system and on the right planet, double the result
             if(ForgottenLocator.inBrambleSystem && __instance.gameObject.GetAttachedOWRigidbody().gameObject.name.Equals("MagmasRecursion_Body"))
-                __result *= 2;
+                __result = Mathf.Max(15, __result);
+        }
+
+        /**
+         * Kill music for rest of loop when entering the corpse room
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(OWAudioSource), nameof(OWAudioSource.Update))]
+        public static void PermaMuteMusic(OWAudioSource __instance)
+        {
+            if(ForgottenLocator.inBrambleSystem && muteMusic && __instance.GetTrack() == OWAudioMixer.TrackName.Music)
+                __instance.SetMaxVolume(0);
         }
 
         //################################# Map Mode Management #################################

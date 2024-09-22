@@ -51,8 +51,7 @@ namespace DeepBramble.Triggers
             if(fadeComplete > 0 && Time.time > fadeComplete)
             {
                 fadeComplete = -1;
-                audioVol._owAudioSrc.AssignAudioLibraryClip(AudioType.SadNomaiTheme);
-                audioVol._owAudioSrc.FadeIn(1);
+                Patches.muteMusic = true;
             }
         }
     }

@@ -313,9 +313,9 @@
       {
         "rename": "AmbientAudio",
         "radius": 350,
-        "volume": 0.2,
+        "volume": 0.5,
         "priority": 2,
-        "audio": "HT_City",
+        "audio": "NomaiRuinsOverlayTracks",
         "track": "music",
         "loop": true
       }
