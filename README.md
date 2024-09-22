@@ -1,7 +1,7 @@
 # Forgotten Castaways
 # ![Forgotten Castaways](FC_banner.png)
 
-*This is a story mod that takes place almost entirely inside of Dark Bramble. Be aware that the description ahead features some spoilers for the base game of Outer Wilds. There are also some small, very early game spoilers for the mod itself. Expected playtime is roughly 4-8 hours.*
+*This is a story mod that takes place almost entirely inside of Dark Bramble. Be aware that the description ahead features some spoilers for the base game of Outer Wilds. There are also some small, very early game spoilers for the mod itself. Expected playtime is roughly 6-8 hours.*
 
 Follow the trail of four Nomai who, when their escape pods were rendered inoperable, were forced to retreat farther into the Bramble in search of shelter and resources. Read their logs, rediscover what they found, and uncover the secrets of the Deep Bramble.
 
