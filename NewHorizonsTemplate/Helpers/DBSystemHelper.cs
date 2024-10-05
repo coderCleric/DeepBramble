@@ -204,6 +204,10 @@ namespace DeepBramble.Helpers
                             if (ForgottenLocator.specialSocket != null)
                                 ForgottenLocator.quantumRock.specialSocket = ForgottenLocator.specialSocket;
 
+                            //If available, register the signal with the rock
+                            if(ForgottenLocator.rockSignal != null)
+                                ForgottenLocator.quantumRock.RegisterSignal(ForgottenLocator.rockSignal);
+
                             //Grab the special things for Ditylum's sequence
                             ForgottenLocator.permaBlockRock = quantumCaveRoot.Find("perma_block_rock").gameObject;
                             ForgottenLocator.permaBlockRock.SetActive(false);
@@ -354,6 +358,13 @@ namespace DeepBramble.Helpers
                     case "Dree Dimension":
                         //Suppress the fog override of the hot node
                         body.transform.Find("Sector/Main Hot Node/Effects/FogOverrideVolume").gameObject.SetActive(false);
+                        break;
+
+                    case "Hot Dimension":
+                        //Grab the original quantum rock signal
+                        ForgottenLocator.rockSignal = body.transform.Find("Sector/rock_signal").GetComponent<AudioSignal>();
+                        if (ForgottenLocator.quantumRock != null)
+                            ForgottenLocator.quantumRock.RegisterSignal(ForgottenLocator.rockSignal);
                         break;
                 }
             }

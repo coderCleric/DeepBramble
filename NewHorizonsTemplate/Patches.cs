@@ -198,7 +198,8 @@ namespace DeepBramble
         [HarmonyPatch(typeof(OWAudioSource), nameof(OWAudioSource.Update))]
         public static void PermaMuteMusic(OWAudioSource __instance)
         {
-            if(ForgottenLocator.inBrambleSystem && muteMusic && __instance.GetTrack() == OWAudioMixer.TrackName.Music)
+            if(ForgottenLocator.inBrambleSystem && muteMusic && __instance.GetTrack() == OWAudioMixer.TrackName.Music 
+                && !__instance.gameObject.name.Equals("EndTimesSource"))
                 __instance.SetMaxVolume(0);
         }
 

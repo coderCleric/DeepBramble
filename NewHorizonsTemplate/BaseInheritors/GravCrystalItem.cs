@@ -48,6 +48,7 @@ namespace DeepBramble.BaseInheritors
             {
                 intactRenderer.gameObject.SetActive(true);
                 crackedRenderer.gameObject.SetActive(false);
+                GetComponentInChildren<ParticleSystem>().Play();
                 light.enabled = true;
             }
         }

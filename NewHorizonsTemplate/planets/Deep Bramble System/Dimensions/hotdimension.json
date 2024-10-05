@@ -209,6 +209,15 @@
         "detectionRadius": 500,
         "frequency": "Natural Phenomena",
         "name": "Geothermal Activity"
+      },
+      {
+        "rename": "rock_signal",
+        "audio": "QuantumAmbience_LP",
+        "identificationRadius": 5,
+        "sourceRadius": 1,
+        "detectionRadius": 10,
+        "frequency": "Quantum",
+        "name": "Hot Shard"
       }
     ]
   },

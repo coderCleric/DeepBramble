@@ -36,6 +36,7 @@ namespace DeepBramble
         //Things that need to know each other to load properly
         public static BlockableQuantumObject quantumRock = null;
         public static BlockableQuantumSocket specialSocket = null;
+        public static AudioSignal rockSignal = null;
 
         public static LightFadeGroup lavaLightFadeGroup = null;
         public static LightFadeTrigger heartLightFadeTrigger = null;

@@ -24,7 +24,8 @@
     "groundSize": 0,
     "surfaceSize": 235,
     "surfaceGravity": 14,
-    "hasMapMarker": true
+    "hasMapMarker": true,
+    "soiOverride": 700
   },
   "AmbientLights": [
     {

@@ -83,6 +83,15 @@
         },
         "frequency": "Echolocation Tones",
         "name": "Ditylum Echolocation"
+      },
+      {
+        "rename": "rock_signal_alt",
+        "audio": "QuantumAmbience_LP",
+        "identificationRadius": 0,
+        "sourceRadius": 0,
+        "detectionRadius": 0,
+        "frequency": "Quantum",
+        "name": "Hot Shard"
       }
     ],
     "entryLocation": [
