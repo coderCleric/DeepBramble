@@ -55,6 +55,13 @@ This mod features a few QOL changes to make navigation inside of Dark Bramble ea
 ## Acknowledgements
 
 - Thank you to the members of the Outer Wilds modding Discord server for your support, this mod would never have been possible without the help of you lovely people!
+- Thank you to the following for their help with late development playtesting
+  - JohnCorby
+  - Etherpod
+  - GameWyrm
+  - Pikpik
+  - Shoe
+  - MushMash
 - Title screen music derived from The Lost Reels by Andrew Prahlow
 - Ditylum's song made using Waveform 13 with sounds from Spitfire Audio
 
