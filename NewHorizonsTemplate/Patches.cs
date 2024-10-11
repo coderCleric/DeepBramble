@@ -36,6 +36,27 @@ namespace DeepBramble
         private static bool heatNotifPosted = false;
         private static NotificationData heatNotification = new NotificationData(NotificationTarget.Player, "WARNING: EXCESSIVE HEAT DETECTED");
 
+        //Dictionaries of dimension and node speeds
+        private static Dictionary<string, float> enterSpeeds = new Dictionary<string, float> {
+            {"BrightHollow_Body", 25},
+            {"DreeDimension_Body", 60},
+            {"BramblesHeart_Body", 10},
+            {"ParentsRest_Body", 5},
+            {"BriarsHollow_Body", 80},
+            {"BramblesDoorstep_Body", 25}
+        };
+        private static Dictionary<string, float> exitSpeeds = new Dictionary<string, float>
+        {
+            {"Main Hot Node", 5},
+            {"Language Node", 5},
+            {"Domestic Node", 20},
+            {"Heart Node", 10},
+            {"Loop Node", 40},
+            {"Entrance Node", 45},
+            {"Dree Node", 40},
+            {"Large Language Node", 15},
+        };
+
         //################################# Miscellanious patches #################################
         /**
          * When the locator finishes loading, do a bunch of stuff to prep the game
@@ -201,6 +222,33 @@ namespace DeepBramble
             if(ForgottenLocator.inBrambleSystem && muteMusic && __instance.GetTrack() == OWAudioMixer.TrackName.Music 
                 && !__instance.gameObject.name.Equals("EndTimesSource"))
                 __instance.SetMaxVolume(0);
+        }
+
+        //################################# Doing node braking #################################
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
+        public static void NodeBraking(ref FogWarpDetector detector, FogWarpVolume __instance)
+        {
+            InnerFogWarpVolume innerVolume = __instance as InnerFogWarpVolume;
+            OuterFogWarpVolume outerVolume = __instance as OuterFogWarpVolume;
+            float maxSpeed = -1;
+
+            //If it's an inner volume, check that dictionary
+            if (innerVolume != null && exitSpeeds.ContainsKey(innerVolume.gameObject.name) &&
+                (detector.CompareName(FogWarpDetector.Name.Player) || detector.CompareName(FogWarpDetector.Name.Ship)))
+                maxSpeed = exitSpeeds[innerVolume.gameObject.name];
+
+            //If it's an outer volume, check that dictionary
+            else if (outerVolume != null && enterSpeeds.ContainsKey(outerVolume._attachedBody.gameObject.name) &&
+                (detector.CompareName(FogWarpDetector.Name.Player) || detector.CompareName(FogWarpDetector.Name.Ship)))
+                maxSpeed = enterSpeeds[outerVolume._attachedBody.gameObject.name];
+
+            //Actually apply the speed
+            OWRigidbody detectorBody = detector.GetAttachedOWRigidbody();
+            if(maxSpeed > 0 && detectorBody.GetVelocity().magnitude > maxSpeed)
+            {
+                detectorBody.SetVelocity(detectorBody.GetVelocity().normalized * maxSpeed);
+            }
         }
 
         //################################# Map Mode Management #################################

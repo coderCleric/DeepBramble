@@ -235,22 +235,18 @@ namespace DeepBramble
 
                 //Print stuff
                 debugPrint("Absolute position: " + absObject.transform.localPosition);
-            }
+            }*/
 
-            //Tell the distance from the player to the thing they're looking at
+            //Tell the speed of the player and ship
             if (Keyboard.current[Key.L].wasPressedThisFrame)
             {
-                RaycastHit hit;
-                OWCamera cam = Locator.GetPlayerCamera();
-                if (Physics.Raycast(cam.transform.position, cam.transform.forward, out hit))
-                {
-                    debugPrint("Distance to object is " + hit.distance);
-                }
-                else
-                    debugPrint("Raycast hit nothing");
+                string msg = "";
+                msg += "Player speed: " + Locator.GetPlayerBody().GetVelocity().magnitude.ToString();
+                msg += "\nShip speed: " + Locator.GetShipBody().GetVelocity().magnitude.ToString();
+                DeepBramble.debugPrint(msg);
             }
 
-            */
+            
             //Teleport to a specific point when n is pressed
             if (Keyboard.current[Key.N].wasPressedThisFrame)
             {
