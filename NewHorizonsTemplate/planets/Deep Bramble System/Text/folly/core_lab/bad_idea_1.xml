@@ -4,7 +4,7 @@
 	<TextBlock>
 		<ID>1</ID>
 		<Text>
-			AZOLLA: Forgive me if the answer is obvious, but what is preventing Ditylum from simply crossing back through the nursery? I cannot imagine his swimming would generate enough noise to alert the fish.
+			AZOLLA: Forgive me if the answer is obvious, but what is preventing Ditylum from simply crossing back through the <![CDATA[<color=orange>Nursery</color>]]>? I cannot imagine his swimming would generate enough noise to alert the fish.
 		</Text>
 	</TextBlock>
 
@@ -12,7 +12,7 @@
 		<ID>2</ID>
 		<ParentID>1</ParentID>
 		<Text>
-			NESIA: While this would ordinarily be true, the fish in the nursery are young enough to hear the high-pitched tones he uses for echolocation.
+			NESIA: While this would ordinarily be true, the fish in the <![CDATA[<color=orange>Nursery</color>]]> are young enough to hear the high-pitched tones he uses for echolocation.
 		</Text>
 	</TextBlock>
 
@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			OKALIS: Perhaps he could cross the nursery anyways? It seems that it would be possible if he simply didn't use his echolocation.
+			OKALIS: Perhaps he could cross the <![CDATA[<color=orange>Nursery</color>]]> anyways? It seems that it would be possible if he simply didn't use his echolocation.
 		</Text>
 	</TextBlock>
 
@@ -48,7 +48,7 @@
 		<ID>201</ID>
 		<ParentID>3</ParentID>
 		<Text>
-			SENNETTI: Consider the fear that would come for us from navigating the nursery blind. Under those circumstances, I know that I may not be able to keep my eyes closed. We cannot expect Ditylum wouldn't attempt to echolocate, even if involuntarily.
+			SENNETTI: Consider the fear that would come for us from navigating the <![CDATA[<color=orange>Nursery</color>]]> blind. Under those circumstances, I know that I may not be able to keep my eyes closed. We cannot expect Ditylum wouldn't attempt to echolocate, even if involuntarily.
 		</Text>
 	</TextBlock>
 

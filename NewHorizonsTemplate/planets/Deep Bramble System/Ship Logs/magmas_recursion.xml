@@ -167,7 +167,7 @@
     <!--Reading the blocked text-->
     <ExploreFact>
       <ID>OBSTRUCTED_TEXT_FACT_FC</ID>
-      <Text>The Nomai discovered something about the rock's behavior, but a cooled lava flow is obstructing the text.</Text>
+      <Text>The Nomai discovered something about the rock's behavior and wrote it on a scroll, but a cooled lava flow is obstructing part of the scroll wall.</Text>
     </ExploreFact>
 
     <!--I used it-->

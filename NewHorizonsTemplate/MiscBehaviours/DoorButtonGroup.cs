@@ -12,6 +12,7 @@ namespace DeepBramble.MiscBehaviours
         private bool doorOpen = false;
         private bool controlsLights = false;
         public float lightFadeTime = 2;
+        public float closeTime = -1;
 
         /**
          * Sets whether or not the door should control the lights
@@ -36,6 +37,7 @@ namespace DeepBramble.MiscBehaviours
         private void ToggleDoor()
         {
             doorOpen = !doorOpen;
+            closeTime = Time.time + 30;
             if (doorAnimator != null)
             {
                 doorAnimator.SetBool("isOpen", doorOpen);
@@ -112,6 +114,16 @@ namespace DeepBramble.MiscBehaviours
                         light.intensity -= Time.deltaTime / lightFadeTime;
                         light.intensity = Mathf.Max(light.intensity, 0);
                     }
+                }
+            }
+
+            //Auto close after 30 seconds
+            if(closeTime > 0 && Time.time > closeTime)
+            {
+                closeTime = -1;
+                if(doorOpen)
+                {
+                    ToggleDoor();
                 }
             }
         }

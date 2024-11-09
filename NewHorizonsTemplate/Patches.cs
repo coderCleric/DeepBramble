@@ -339,6 +339,21 @@ namespace DeepBramble
                 __instance.gameObject.SetActive(true);
         }
 
+        /**
+         * Prevent "locate in map mode" if target entry is not explored 
+         */
+        [HarmonyPrefix]
+        [HarmonyPatch(typeof(ShipLogEntryDescriptionField), nameof(ShipLogEntryDescriptionField.GetDisplayedEntryID))]
+        public static bool PreventMapModeCheese(ShipLogEntryDescriptionField __instance, ref string __result)
+        {
+            if(ForgottenLocator.inBrambleSystem && __instance._visible && __instance._entry != null && __instance._entry.GetState() != ShipLogEntry.State.Explored)
+            {
+                __result = "";
+                return false;
+            }
+            return true;
+        }
+
         //################################# Slate & Respawning #################################
         /**
          * Slate needs dialogue conditions set up properly at the start of the loop

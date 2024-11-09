@@ -12,7 +12,6 @@ namespace DeepBramble.Triggers
         private bool playerIn = false;
         private bool shouldExplode = false;
         private bool exploded = false;
-        private float thrustTime = 0;
         private float explodeTime = 1;
 
         /**
@@ -60,12 +59,6 @@ namespace DeepBramble.Triggers
         {
             if(playerIn)
             {
-                //If they're thrusting normally, get closer to exploding
-                if (playerPack.IsTranslationalThrusterFiring())
-                    thrustTime += Time.deltaTime;
-                else //Otherwise, reset the time
-                    thrustTime = 0;
-
                 //Actually explode them
                 if(shouldExplode && !exploded)
                 {
@@ -75,7 +68,7 @@ namespace DeepBramble.Triggers
                 }
 
                 //Check if they should make the explosion
-                if((thrustTime >= explodeTime || playerPack.IsBoosterFiring()) && !exploded)
+                if(playerPack.IsBoosterFiring() && !exploded)
                 {
                     DeepBramble.debugPrint("Player explosion primed.");
 

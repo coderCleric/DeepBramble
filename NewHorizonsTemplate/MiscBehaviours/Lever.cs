@@ -76,12 +76,6 @@ namespace DeepBramble.MiscBehaviours
             bool flipBool = !beamObject.activeSelf;
             if (permaDisable)
                 flipBool = false;
-            beamObject.SetActive(flipBool);
-            if (spikeObject != null)
-            {
-                spikeObject.transform.Find("collider").gameObject.SetActive(!flipBool);
-                spikeObject.transform.Find("killzone").gameObject.SetActive(flipBool);
-            }
 
             //If not permanently disabled, play beam audio
             if(!permaDisable)
