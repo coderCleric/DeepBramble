@@ -12,7 +12,6 @@ namespace DeepBramble.Triggers
         private bool playerIn = false;
         private bool shouldExplode = false;
         private bool exploded = false;
-        private float explodeTime = 1;
 
         /**
          * Need to grab the player pack on start

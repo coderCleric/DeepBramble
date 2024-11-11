@@ -186,6 +186,9 @@ namespace DeepBramble.Helpers
             switchTrigger.signalTransform = signal.transform;
             switchTrigger.originalTransform = campRoot.Find("InstrumentZones/DitylumZone/signal_start_socket");
             switchTrigger.poemTransform = campRoot.Find("InstrumentZones/DitylumZone/poem");
+
+            //Make the quantum seed not eat the player
+            campRoot.Find("InstrumentZones/DitylumZone/quantum_bramble/player_block_trigger").gameObject.AddComponent<QuantumBlockTrigger>();
         }
 
         /**
