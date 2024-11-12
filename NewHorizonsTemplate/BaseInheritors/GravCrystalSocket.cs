@@ -1,8 +1,11 @@
-﻿namespace DeepBramble.BaseInheritors
+﻿using UnityEngine;
+
+namespace DeepBramble.BaseInheritors
 {
     class GravCrystalSocket : OWItemSocket
     {
         private DirectionalForceVolume[] gravFields = null;
+        private ParticleSystem[] gravParticles = null;
 
         /**
          * Need to give the transform before the base awake method (it'll always be the active transform)
@@ -22,12 +25,27 @@
             base.Start();
 
             gravFields = GetComponentsInChildren<DirectionalForceVolume>();
+            gravParticles = GetComponentsInChildren<ParticleSystem>();
             if (gravFields.Length == 0)
                 DeepBramble.debugPrint("Grav Crystal Socket failed to find gravity field!");
 
             //Need to disable it if we have no crystal
-            foreach(DirectionalForceVolume field in gravFields)
-                field.gameObject.SetActive(_socketedItem != null);
+            if (_socketedItem == null)
+            {
+                foreach (DirectionalForceVolume field in gravFields)
+                    field.gameObject.SetActive(false);
+                foreach (ParticleSystem particleSystem in gravParticles)
+                    particleSystem.Stop();
+            }
+
+            //Otherwise, enable it
+            else
+            {
+                foreach (DirectionalForceVolume field in gravFields)
+                    field.gameObject.SetActive(true);
+                foreach (ParticleSystem particleSystem in gravParticles)
+                    particleSystem.Play();
+            }
         }
 
         /**
@@ -53,6 +71,8 @@
             {
                 foreach (DirectionalForceVolume field in gravFields)
                     field.gameObject.SetActive(true);
+                foreach (ParticleSystem particleSystem in gravParticles)
+                    particleSystem.Play();
             }
             return ret;
         }
@@ -67,6 +87,8 @@
             {
                 foreach (DirectionalForceVolume field in gravFields)
                     field.gameObject.SetActive(false);
+                foreach (ParticleSystem particleSystem in gravParticles)
+                    particleSystem.Stop();
             }
             return ret;
         }
