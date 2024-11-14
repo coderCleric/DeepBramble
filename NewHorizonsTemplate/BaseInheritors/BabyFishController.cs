@@ -8,6 +8,9 @@ namespace DeepBramble.BaseInheritors
     class BabyFishController : AnglerfishController
     {
 		public CharacterDialogueTree dialogue = null;
+		private static float turnSpeed = 180;
+		private static float speed = 30;
+		private static float accel = 30;
 
 		public new void Awake()
 		{
@@ -67,10 +70,10 @@ namespace DeepBramble.BaseInheritors
         {
 			BabyFishController controller = target.AddComponent<BabyFishController>();
 			controller._mouthOffset = new Vector3(0, 0, 0.5f);
-			controller._acceleration = 15;
+			controller._acceleration = accel;
 			controller._investigateSpeed = 5;
-			controller._chaseSpeed = 20;
-			controller._turnSpeed = 90;
+			controller._chaseSpeed = speed;
+			controller._turnSpeed = turnSpeed;
 			controller._quickTurnSpeed = 360;
 			controller._arrivalDistance = 1;
 			controller._pursueDistance = 45;

@@ -62,6 +62,7 @@ This mod features a few QOL changes to make navigation inside of Dark Bramble ea
   - Pikpik
   - Shoe
   - MushMash
+  - Anon
 - Title screen music derived from The Lost Reels by Andrew Prahlow
 - Ditylum's song made using Waveform 13 with sounds from Spitfire Audio
 

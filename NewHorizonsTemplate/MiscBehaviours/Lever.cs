@@ -59,8 +59,12 @@ namespace DeepBramble.MiscBehaviours
         {
             //Grab the beam, then the spikes
             this.beamObject = beamObject;
-            if(beamObject.transform.parent.Find("spikes") != null)
+            if (beamObject.transform.parent.Find("spikes") != null)
+            {
                 this.spikeObject = beamObject.transform.parent.Find("spikes").gameObject;
+                spikeObject.transform.Find("collider").gameObject.SetActive(false);
+                spikeObject.transform.Find("killzone").gameObject.SetActive(true);
+            }
 
             //Also grab the audio
             powerOnAudio = beamObject.transform.parent.Find("PowerOnAudio").gameObject.GetComponent<OWAudioSource>();
@@ -84,6 +88,9 @@ namespace DeepBramble.MiscBehaviours
                     powerOnAudio.PlayOneShot();
                 else
                     powerOffAudio.PlayOneShot();
+
+                //Change the beam activation
+                beamObject.SetActive(flipBool);
             }
         }
 
@@ -120,12 +127,12 @@ namespace DeepBramble.MiscBehaviours
             }
 
             //Map them to the beams
-            levComponents[0].RegisterBeam(beams[0].gameObject);
-            levComponents[1].RegisterBeam(beams[4].gameObject);
-            levComponents[2].RegisterBeam(beams[1].gameObject);
-            levComponents[3].RegisterBeam(beams[2].gameObject);
-            levComponents[4].RegisterBeam(beams[5].gameObject);
-            levComponents[5].RegisterBeam(beams[3].gameObject);
+            levComponents[0].RegisterBeam(beams[3].gameObject);
+            levComponents[1].RegisterBeam(beams[5].gameObject);
+            levComponents[2].RegisterBeam(beams[2].gameObject);
+            levComponents[3].RegisterBeam(beams[0].gameObject);
+            levComponents[4].RegisterBeam(beams[4].gameObject);
+            levComponents[5].RegisterBeam(beams[1].gameObject);
         }
     }
 }
