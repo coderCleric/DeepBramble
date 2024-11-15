@@ -4,7 +4,7 @@
   "author": "coderCleric",
   "name": "Forgotten Castaways",
   "uniqueName": "cleric.ForgottenCastaways",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "owmlVersion": "2.5.2",
   "dependencies": [ "xen.NewHorizons" ]
 }
