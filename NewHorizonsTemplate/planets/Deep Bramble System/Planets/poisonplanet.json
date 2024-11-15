@@ -397,5 +397,18 @@
 				]
 			}
 		]
+	},
+	"Volumes": {
+		"revealVolumes": [
+			{
+				"rename": "syringe_reveal_vol",
+				"parentPath": "Sector/poison_planet/injector",
+				"radius": 1.5,
+				"revealOn": "enter",
+				"revealFor": "player",
+				"reveals": [ "SYRING_FOUND_FACT_FC" ],
+				"isRelativeToParent": true
+			}
+		]
 	}
 }

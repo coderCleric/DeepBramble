@@ -77,6 +77,13 @@
       <Text>The Nomai theorized that this had something to do with how the entrances to the recursive node line up with the entrances to Briar's Hollow.</Text>
     </RumorFact>
 
+    <!--Finding the outside-->
+    <RumorFact>
+      <ID>ENCLOSED_SPACE_EXTERNAL_RUMOR_FC</ID>
+      <RumorName>Big Lump</RumorName>
+      <Text>I found a massive lump on the wall of the Bramble. It seems to have grown out from the wall, with no way around.</Text>
+    </RumorFact>
+
     <!--Discovery-->
     <ExploreFact>
       <ID>ENCLOSED_SPACE_FOUND_FACT_FC</ID>

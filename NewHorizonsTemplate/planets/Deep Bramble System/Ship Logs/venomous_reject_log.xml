@@ -42,5 +42,11 @@
       <IgnoreMoreToExplore/>
       <Text>The Nomai were curious what would happen if a Bramble node was destroyed when it was the only node leading into a given dimension. Some of them theorized that the pocket dimension would collapse entirely, ejecting any objects trapped inside.</Text>
     </ExploreFact>
+
+    <!--Syringe fact-->
+    <ExploreFact>
+      <ID>SYRING_FOUND_FACT_FC</ID>
+      <Text>I found a very large syringe on a table in the lab.</Text>
+    </ExploreFact>
   </Entry>
 </AstroObjectEntry>

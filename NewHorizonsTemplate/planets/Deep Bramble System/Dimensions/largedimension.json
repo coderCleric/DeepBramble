@@ -419,6 +419,18 @@
         "reveals": [ "RECURSIVE_NODE_FOUND_FACT_FC" ]
       },
       {
+        "rename": "lump_reveal_vol",
+        "radius": 400,
+        "revealOn": "enter",
+        "revealFor": "both",
+        "reveals": [ "ENCLOSED_SPACE_EXTERNAL_RUMOR_FC" ],
+        "position": {
+          "x": -267.2253,
+          "y": -2456.087,
+          "z": 202.5454
+        }
+      },
+      {
         "rename": "enclosed_reveal_vol",
         "radius": 100,
         "revealOn": "enter",

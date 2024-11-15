@@ -16,5 +16,13 @@
 		</Text>
 	</TextBlock>
 
+  <TextBlock>
+    <ID>3</ID>
+    <ParentID>2</ParentID>
+    <Text>
+      If you're here to destroy the node, insert the poison into the receptacle attached to the side of the node.
+    </Text>
+  </TextBlock>
+
 	<!--Ship log reveals go here-->
 </NomaiObject>
