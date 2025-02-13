@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			NESIA: Interesting, do you suppose we have arrived in the same area that we previously left?
+      NESIA: Interesting, do you suppose we have arrived back into <![CDATA[<color=orange>Briar's Hollow</color>]]>?
 		</Text>
 	</TextBlock>
 
@@ -44,7 +44,7 @@
 		<ID>6</ID>
 		<ParentID>5</ParentID>
 		<Text>
-			OKALIS: I suppose so. How exciting! Even seeing the spatial anomaly from when we first arrived, I never would have expected leaving this area may bring us directly back into it!
+			OKALIS: I suppose so. How exciting! Even seeing the spatial anomaly from when we first arrived, I never would have expected leaving <![CDATA[<color=orange>Briar's Hollow</color>]]> may bring us directly back into it!
 		</Text>
 	</TextBlock>
 

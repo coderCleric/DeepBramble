@@ -72,6 +72,22 @@
 		</Text>
 	</TextBlock>
 
+  <TextBlock>
+    <ID>10</ID>
+    <ParentID>9</ParentID>
+    <Text>
+      NESIA: Based on what we have seen thus far, it may be worthwhile to establish names for the wooden cavities we find ourselves in. Does anybody have a suggestion for this one? It seems quite spacious.
+    </Text>
+  </TextBlock>
+
+  <TextBlock>
+    <ID>11</ID>
+    <ParentID>10</ParentID>
+    <Text>
+      AZOLLA: We should keep it simple but descriptive. I believe that the name <![CDATA[<color=orange>Briar's Hollow</color>]]> should work well.
+    </Text>
+  </TextBlock>
+
 	<!--Ship log reveals go here-->
   <ShipLogConditions>
     <RevealFact>

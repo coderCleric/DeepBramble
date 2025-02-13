@@ -30,7 +30,7 @@
 		<ID>101</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			SENNETTI: Okalis might be correct! Looking past this wall, I can just barely make out a place where the wooden wall seems to end!
+			SENNETTI: Okalis might be correct! Looking past this wall, I can just barely make out a place where the wooden enclosure seems to end!
 		</Text>
 	</TextBlock>
 
@@ -38,7 +38,7 @@
 		<ID>102</ID>
 		<ParentID>101</ParentID>
 		<Text>
-			AZOLLA: If this is true, we should investigate  immediately. Escaping this place is our first step towards finding the <![CDATA[<color=orange>Eye</color>]]>.
+			AZOLLA: If this is true, we should investigate  immediately. Escaping <![CDATA[<color=orange>Briar's Hollow</color>]]> is our first step towards finding the <![CDATA[<color=orange>Eye</color>]]>.
 		</Text>
 	</TextBlock>
 

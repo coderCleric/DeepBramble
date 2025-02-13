@@ -48,7 +48,7 @@
     <!--Success!-->
     <ExploreFact>
       <ID>CONCERT_SUCCESS_FACT_FC</ID>
-      <Text>I was able to fix a gravity crystal.</Text>
+      <Text>I was able to fix a gravity crystal!</Text>
     </ExploreFact>
   </Entry>
 

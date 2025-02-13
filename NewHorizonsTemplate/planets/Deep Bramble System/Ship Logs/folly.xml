@@ -42,7 +42,7 @@
     <ExploreFact>
       <ID>GIFT_FACT_FC</ID>
       <IgnoreMoreToExplore/>
-      <Text>A Nomai named Okalis received a necklace as a gift from a Dree named Amylax.</Text>
+      <Text>A Nomai named Okalis received a necklace as a gift from an alien named Amylax.</Text>
     </ExploreFact>
 
       <!--Entry for the study -->
@@ -208,7 +208,7 @@
     <!--Stranded-->
     <ExploreFact>
       <ID>CORE_DITYLUM_STRANDED_FACT_FC</ID>
-      <Text>A Dree named Ditylum became stranded at the Venomous Reject, an area accessible from the far side of the Nursery. The Nomai decided to discuss different rescue methods in the core lab.</Text>
+      <Text>An alien named Ditylum became stranded at the Venomous Reject, an area accessible from the far side of the Nursery. The Nomai decided to discuss different rescue methods in the core lab.</Text>
     </ExploreFact>
 
     <!--Bad plans were made-->

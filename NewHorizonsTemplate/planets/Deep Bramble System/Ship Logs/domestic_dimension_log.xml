@@ -31,14 +31,14 @@
     <ExploreFact>
       <ID>DOMESTIC_EGG_FACT_FC</ID>
       <IgnoreMoreToExplore/>
-      <Text>These fish are the main source that the Dree have for eggs.</Text>
+      <Text>These fish are the main source that the aliens have for eggs.</Text>
     </ExploreFact>
 
     <!--Learning about reluctance-->
     <ExploreFact>
       <ID>DREE_RELUCTANCE_FACT_FC</ID>
       <IgnoreMoreToExplore/>
-      <Text>The Nomai observed that the Dree seemed reluctant to take risks, even if it may improve their situation.</Text>
+      <Text>The Nomai observed that the aliens seemed reluctant to take risks, even if it may improve their situation.</Text>
     </ExploreFact>
   </Entry>
 

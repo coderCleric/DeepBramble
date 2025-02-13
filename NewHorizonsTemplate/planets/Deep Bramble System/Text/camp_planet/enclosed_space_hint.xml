@@ -20,7 +20,7 @@
 		<ID>3</ID>
 		<ParentID>2</ParentID>
 		<Text>
-			OKALIS: As a matter of fact, they led me to somewhere quite interesting. Do you know of the wooden knot that lies in the center of this area, the one that leads back in through an infinite loop? They took me through there and, contrary to what normally happens, we arrived in an enclosed space.
+			OKALIS: As a matter of fact, they led me to somewhere quite interesting. Do you know of the wooden knot that lies in the center of <![CDATA[<color=orange>Briar's Hollow</color>]]>, the one that leads back in through an infinite loop? They took me through there and, contrary to what normally happens, we arrived in an enclosed space.
 		</Text>
 	</TextBlock>
 
@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			OKALIS: It seemed to be a completely overgrown entrance to this area. They beckoned me through another node, although I did not follow them through for fear of being unable to find my way back.
+			OKALIS: It seemed to be a completely overgrown entrance to <![CDATA[<color=orange>Briar's Hollow</color>]]>. They beckoned me through another node, although I did not follow them through for fear of being unable to find my way back.
 		</Text>
 	</TextBlock>
 

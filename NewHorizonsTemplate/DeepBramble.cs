@@ -235,7 +235,7 @@ namespace DeepBramble
 
                 //Print stuff
                 debugPrint("Absolute position: " + absObject.transform.localPosition);
-            }*/
+            }
 
             //Tell the speed of the player and ship
             if (Keyboard.current[Key.L].wasPressedThisFrame)
