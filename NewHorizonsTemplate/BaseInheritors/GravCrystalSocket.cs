@@ -88,7 +88,10 @@ namespace DeepBramble.BaseInheritors
                 foreach (DirectionalForceVolume field in gravFields)
                     field.gameObject.SetActive(false);
                 foreach (ParticleSystem particleSystem in gravParticles)
+                {
                     particleSystem.Stop();
+                    particleSystem.Clear();
+                }
             }
             return ret;
         }

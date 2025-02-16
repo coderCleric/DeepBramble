@@ -53,7 +53,13 @@
     <!--After killing-->
     <ExploreFact>
       <ID>DITYLUM_EJECTION_FACT_FC</ID>
-      <Text>I was able to kill the node with the toxin injector. When I did so, a creature popped out and swam away, towards the center of Briar's Hollow.</Text>
+      <Text>I was able to kill the node with the toxin injector. When I did so, a creature popped out and swam away, towards the center of Briar's Hollow. I wonder where it might have gone?</Text>
+    </ExploreFact>
+
+    <!--After finding dity-->
+    <ExploreFact>
+      <ID>DITYLUM_FOUND_FACT_FC</ID>
+      <Text>I was able to find the creature in the Distant Node Project.</Text>
     </ExploreFact>
   </Entry>
 

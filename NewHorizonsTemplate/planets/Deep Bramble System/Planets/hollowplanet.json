@@ -159,17 +159,17 @@
         "rename": "combo_hint_text",
         "xmlFile": "planets/Deep Bramble System/Text/folly/core_lab/core_combo_hint.xml",
         "type": "wall",
-        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab",
+        "parentPath": "Sector/hollowplanet/planet/crystal_core/crystal_lab/Props_NOM_Whiteboard_Shared",
         "isRelativeToParent": true,
         "seed": 67834,
         "position": {
-          "x": 5.749996,
-          "y": 0.60411,
-          "z": -0.5851279
+          "x": 0.1344,
+          "y": 0.4734,
+          "z": 0.007
         },
         "rotation": {
           "x": 0,
-          "y": 270,
+          "y": 0,
           "z": 0
         },
         "arcInfo": [

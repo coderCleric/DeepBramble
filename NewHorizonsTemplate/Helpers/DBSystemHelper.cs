@@ -117,6 +117,9 @@ namespace DeepBramble.Helpers
 
                             //Make the core
                             sectorTransform.Find("hollowplanet/planet/crystal_core/grav_core").gameObject.AddComponent<GravCore>();
+
+                            //Override the autopilot arrival distance
+                            body.GetComponentInChildren<ReferenceFrameVolume>().GetReferenceFrame()._autopilotArrivalDistance = 450;
                             break;
 
                         case "Shattered Hearth":
