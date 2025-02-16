@@ -8,6 +8,8 @@ Follow the trail of four Nomai who, when their escape pods were rendered inopera
 This mod is made by someone who has already beaten the base game, and is therefore tailored to that experience. However, I have attempted to make it also playable alongside the base game. **If you have an existing save file, I would suggest using that, as the first hint as to where to go will only appear if certain base-game facts are known.**
 
 **This mod does require the DLC for Outer Wilds, Echoes of the Eye.**
+
+**Caution when using with the Light Bramble mod. It makes the dimensions pitch black and may reveal several hidden things, breaking progression.**
 ## Credits
 
 - coderCleric
