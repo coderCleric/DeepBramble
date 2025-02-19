@@ -245,7 +245,7 @@ namespace DeepBramble
                 msg += "\nShip speed: " + Locator.GetShipBody().GetVelocity().magnitude.ToString();
                 DeepBramble.debugPrint(msg);
             }
-            */
+            
             
             //Teleport to a specific point when n is pressed
             if (Keyboard.current[Key.N].wasPressedThisFrame)
