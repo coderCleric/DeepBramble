@@ -1,0 +1,491 @@
+ManifestFileVersion: 0
+CRC: 1838536181
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 90dc100fdf39bf4d77ef894508a8cb2d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 737fca9c5803a3e4c94b8f7dc19cbd98
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b3891590690609c69465a648b6c178e6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cc6b7c1133e875fc7b5e5ea2817aa5a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a00a4b529366e7a35af5046cca370e8e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0a5bc582e4f904dcec905aaf2f0c035a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5d1885e24b4d5412e2a3d963831eaff8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eecfc1b39ba9e0000e410dc9ec32a8ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 08a907445969531385ba02ae6b921077, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9ed8e5f4680aef3fe2d198924bac0650, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 094908c5e449faf8394b88faf7ab2730, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 53fe1f971c08db1945e16add52db7b68, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f031b2a1450f8281d8cd055b417bf4b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d99a1d5a37a3af6ec7bf327c138b0a77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cfd736a3952486c93e9a5d8f58c79c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 82d6ff9ac3325b114213581627497e75, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f3014da1c89ce2573a27c371d8ccd9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 606fff1e570be47c0db66f6c3ccd8591, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1baab1be2365418212ecfb0e7844d02e, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 117
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_R.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_d.png
+- Assets/Prefabs/props/spikes.prefab
+- Assets/Texture2D/Character_NOM_Skeletonv2_d.png
+- Assets/wesley_anims/lever/flip_up.anim
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintRed_d.png
+- Assets/Shader/Outer Wilds_Particles_Cutoff.shader
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Corner_L.prefab
+- Assets/Material/Terrain_BH_RockPlain_v2_mat.mat
+- Assets/Materials/environment/timberHearth/props/Tree_TH_Stump_ao.png
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_mat.mat
+- Assets/AnimationClip/anglernew swim.anim
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDirt_mat.mat
+- Assets/AnimatorController/Anglerfish.controller
+- Assets/Material/Effects_NOM_TractorBeamRing_Dithered_mat.mat
+- Assets/Material/Tree_TH_Stump_mat.mat
+- Assets/Texture2D/Props_NOM_NomaiTree_t.png
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_GrassDetailV1_normal.png
+- Assets/Material/Effects_TH_GeyserParticles_mat.mat
+- Assets/Material/Structure_NOM_WarpReceiverGlass_mat.mat
+- Assets/Texture2D/Structure_NOM_SilverPorcelain_n.png
+- Assets/Shader/Custom_OW_Explosion.asset
+- Assets/Nomai Ruins/Prefabs/WallTorch.prefab
+- Assets/Materials/Modified OW Mats/burntsilver.mat
+- Assets/Texture2D/Props_NOM_SmalTractorBeam_mask.png
+- Assets/Nomai Ruins/Prefabs/Floor.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_n.png
+- Assets/Material/Terrain_DB_VineSurface_mat.mat
+- Assets/Materials/environment/eyeOfTheUniverse/structures/Structure_EYE_Silver_s.png
+- Assets/Nomai Ruins/Prefabs/NOMTree2 Dry.prefab
+- Assets/Texture2D/Structure_NOM_WarpReceiverGlass_s.png
+- Assets/wesley_anims/dree/float_loop.anim
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_GravityCrystal_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_Red_mat.mat
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_GrassV2_diffuse.png
+- Assets/Shader/Legacy Shaders_VertexLit.asset
+- Assets/Material/Terrain_BH_RockGeode_v2_mat.mat
+- Assets/Materials/Modified OW Mats/melted_mats/Melted_Structure_NOM_SandStone_mat.mat
+- Assets/Texture2D/Structure_NOM_PorcelainBroken_d.png
+- Assets/Materials/environment/brittleHollow/terrain/Terrain_BH_RockTop_d.png
+- Assets/Material/Structure_NOM_Porcelain_mat.mat
+- Assets/Prefabs/props/crystal.prefab
+- Assets/Material/Effects_NOM_TractorBeamRingReverse_mat.mat
+- Assets/wesley_anims/kevin/idle_at_end.anim
+- Assets/Texture2D/Effects_NOM_TimeLoopDeviceCable_e.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallOutside_mat.mat
+- Assets/Texture2D/Effects_DB_Lure_d.png
+- Assets/Material/Props_NOM_SmallTractorBeam_Emissive_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_Lamp_mat.mat
+- Assets/Materials/Modified OW Mats/melted_mats/Melted_Structure_NOM_Ceiling_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_mat.mat
+- Assets/Nomai Ruins/Prefabs/Window_Corner_R_Broken.prefab
+- Assets/Prefabs/props/biggrass.prefab
+- Assets/PhysicMaterial/Frictionless.physicMaterial
+- Assets/Shader/Outer Wilds_Effects_Nomai Vessel Computer Text.asset
+- Assets/Nomai Ruins/Prefabs/Stairs_L.prefab
+- Assets/Texture2D/Terrain_THM_Moon_d.png
+- Assets/Texture2D/Effects_NOM_TextAdult_Shadow_d.png
+- Assets/Prefabs/props/signal_flare.prefab
+- Assets/Texture2D/LOD_Tree_TH_Stump_s.png
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineSurface_o.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_mask.png
+- Assets/Texture2D/Props_NOM_LargeTractorBeam_mask.png
+- Assets/Prefabs/props/nom_skeleton.prefab
+- Assets/Materials/bell_resin.mat
+- Assets/wesley_anims/door/button_controller.controller
+- Assets/Texture2D/NoiseWarm_d.png
+- Assets/Materials/Modified OW Mats/melted_mats/Melted_Structure_NOM_StarHexagon_Glow_mat.mat
+- Assets/Material/Props_NOM_LargeTractorBeam_mat.mat
+- Assets/Material/Props_IP_LightBulb_Green_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_n.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDirt_d.png
+- Assets/Texture2D/Structure_NOM_Grooves_n.png
+- Assets/Materials/Modified OW Mats/burntvine.mat
+- Assets/Materials/cake_topper.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_d.png
+- Assets/Materials/gas_sphere.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDirt_n.png
+- Assets/Material/dead_vine.mat
+- Assets/Prefabs/props/Lava Geyser.prefab
+- Assets/Nomai Ruins/Prefabs/Window_Corner_L_Broken.prefab
+- Assets/Materials/Modified OW Mats/melted_mats/Melted_Structure_NOM_Whiteboard_mat.mat
+- Assets/Material/newgrass.mat
+- Assets/AudioClip/Custom/ditylum_cry.mp3
+- Assets/Texture2D/Structure_NOM_WovenGrooves_d.png
+- Assets/Texture2D/Effects_SplashParticles_n.png
+- Assets/Material/Structure_NOM_SilverPorcelain_mat.mat
+- Assets/wesley_anims/lever/hold_up.anim
+- Assets/wesley_anims/injector/socketing.anim
+- Assets/Material/Props_NOM_Lamp_OFF_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPatternLines_mat.mat
+- Assets/Shader/Outer Wilds_Particles_Additive.asset
+- Assets/Avatar/Beast_AnglerfishAvatar.asset
+- Assets/Texture2D/Effects_ExplosionRamp_d.png
+- Assets/Material/Props_NOM_NomaiTreeBark_mat.mat
+- Assets/Prefabs/props/dree_skeleton.prefab
+- Assets/Texture2D/LOD_Terrain_DB_VineSurface_d.png
+- Assets/Cubemap/AmbientLight_SUN_d.png
+- Assets/Shader/Outer Wilds_Effects_Tractor Beam.asset
+- Assets/Material/brace_rubber.mat
+- Assets/Texture2D/LOD_Terrain_DB_VineDetail_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_n.png
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B_Corner_Mir.prefab
+- Assets/Prefabs/props/grav_core.prefab
+- Assets/Material/Terrain_DB_AnglerfishSkeleton_mat.mat
+- Assets/Material/Props_NOM_VesselLamp_mat.mat
+- Assets/AnimationClip/anglernew look left.anim
+- Assets/Shader/Outer Wilds_Effects_Tractor Beam Glow Ring (Decal).asset
+- Assets/Prefabs/buildings/stilt_building_1.prefab
+- Assets/Prefabs/Lure_FogLight.prefab
+- Assets/Prefabs/props/quantum_socket.prefab
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineSurface_s.png
+- Assets/wesley_anims/kevin/end_to_start.anim
+- Assets/Nomai Ruins/Prefabs/Divider.prefab
+- Assets/Nomai Ruins/Prefabs/NOMTree1 Dry.prefab
+- Assets/Nomai Ruins/Prefabs/Doorway.prefab
+- Assets/Texture2D/Structure_NOM_Whiteboard_mask.png
+- Assets/Texture2D/Effects_NOM_TractorBeamSprite_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Glass_Opaque_mat.mat
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HCT_Cave_Floor_d.png
+- Assets/Prefabs/props/dree_recorder.prefab
+- Assets/wesley_anims/dree/tumble.anim
+- Assets/Texture2D/Structure_NOM_Whiteboard_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_HexagonTile_mat.mat
+- Assets/AudioClip/Custom/chime.ogg
+- Assets/Prefabs/buildings/stilt_building_2.prefab
+- Assets/Material/Structure_NOM_StarHexagon_Glow_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_mat.mat
+- Assets/Materials/environment/invisiblePlanet/Props/Props_IP_LightBulb_e.png
+- Assets/Material/Terrain_HCT_CaveTunnel_mat.mat
+- Assets/Prefabs/buildings/ground_building_2.prefab
+- Assets/Material/Effects_NOM_MonolithPulseCentral_mat.mat
+- Assets/Material/Props_NOM_SmallTractorBeam_mat.mat
+- Assets/Materials/Modified OW Mats/cool_orb_glow.mat
+- Assets/Texture2D/Terrain_BH_RockTop_n.png
+- Assets/Nomai Ruins/Prefabs/Doorway_Corner_R.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_R.prefab
+- Assets/wesley_anims/grav_crystal/grav_crystal.controller
+- Assets/Shader/Outer Wilds_Effects_Tractor Beam Particles (Dithered).asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_mat Mir.mat
+- Assets/Material/Structure_NOM_Glass_ObservatorySP_mat.mat
+- Assets/Material/Terrain_DB_SeedCore_mat.mat
+- Assets/Texture2D/Grain_n.png
+- Assets/Nomai Ruins/Prefabs/Shelf.prefab
+- Assets/Texture2D/Structure_NOM_Copper_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_s.png
+- Assets/Prefabs/buildings/ground_building_3.prefab
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineThorn_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_s.png
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A.prefab
+- Assets/Texture2D/Structure_NOM_TrimPattern_s.png
+- Assets/Nomai Ruins/Prefabs/Floor_Half.prefab
+- Assets/Material/Structure_NOM_SandStone_mat.mat
+- Assets/wesley_anims/kevin/move_to_start.anim
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_C.prefab
+- Assets/Prefabs/buildings/soil_lab_building.prefab
+- Assets/Materials/Textures/cleric_plank.png
+- Assets/Texture2D/LOD_Terrain_DB_SeedFlower_n.png
+- Assets/Material/Effects_NOM_VesselRecorderRing_mat.mat
+- Assets/Nomai Ruins/Prefabs/Doorway_Corner_L.prefab
+- Assets/Material/Structure_EYE_Silver_mat.mat
+- Assets/Materials/Modified OW Mats/tall_support_mat.mat
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_AnglerfishSkeleton_e.png
+- Assets/Nomai Ruins/Prefabs/Doorway_Corner_BOTH.prefab
+- Assets/Material/Structure_NOM_WovenGrooves_mat.mat
+- Assets/Material/Structure_NOM_Whiteboard_mat.mat
+- Assets/Prefabs/props/tablet.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_L.prefab
+- Assets/Materials/Textures/Dree_skin_tex_N.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_mat.mat
+- Assets/Materials/Textures/Dree_skin_Stylized_tex_green_d.png
+- Assets/Prefabs/props/Prefab_TH_Sapling.prefab
+- Assets/wesley_anims/door/door_controller.controller
+- Assets/Nomai Ruins/Prefabs/NOMTree3.prefab
+- Assets/Materials/Modified OW Mats/burntthorn.mat
+- Assets/wesley_anims/lever/hold_down.anim
+- Assets/Wesley Made Prefabs/rock.prefab
+- Assets/Texture2D/Structure_NOM_Silver_n.png
+- Assets/Material/brace_sandstone.mat
+- Assets/Nomai Ruins/Prefabs/Window_Broken.prefab
+- Assets/wesley_anims/door/post_open.anim
+- Assets/Wesley Made Prefabs/Terrain_DB_BrambleSphere_Seed_V2.prefab
+- Assets/wesley_anims/dree/dilated_ditylum.controller
+- Assets/AnimationClip/anglernew look up.anim
+- Assets/Material/Tree_TH_RedwoodLeaves_mat.mat
+- Assets/Prefabs/buildings/third_pod_memorial.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintOrange_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_d.png
+- Assets/Prefabs/props/quantum_rock.prefab
+- Assets/Prefabs/props/full_crystal_socket.prefab
+- Assets/Material/Terrain_DB_VineThorn_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_d.png
+- Assets/Material/Effects_NOM_WarpParticles_mat.mat
+- Assets/Nomai Ruins/Prefabs/Window_Corner_BOTH_Broken.prefab
+- Assets/Prefabs/props/cool_emitter.prefab
+- Assets/Material/modified_hex_floor.mat
+- Assets/Material/Rock_QM_Shard_mat.mat
+- Assets/Materials/environment/eyeOfTheUniverse/structures/Structure_EYE_Silver_d.png
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_F.prefab
+- Assets/Materials/environment/timberHearth/props/Tree_TH_Redwood_02_n.png
+- Assets/Shader/Outer Wilds_Effects_Tractor Beam (Dithered).asset
+- Assets/Prefabs/props/dree_table.prefab
+- Assets/wesley_anims/door/button_click.anim
+- Assets/Material/Structure_NOM_Copper_mat.mat
+- Assets/Texture3D/Fog_DB_Interior.asset
+- Assets/Prefabs/props/Lava Geyser with geo.prefab
+- Assets/Prefabs/props/gravity_flipper.prefab
+- Assets/Texture2D/Structure_NOM_CopperOld_n.png
+- Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_R.prefab
+- Assets/Materials/Modified OW Mats/post_copper.mat
+- Assets/Material/Props_NOM_Lamp_mat.mat
+- Assets/Material/Props_NOM_GravityCrystal_mat.mat
+- Assets/Prefabs/props/lever.prefab
+- Assets/Texture2D/NoiseRGB_d.png
+- Assets/Nomai Ruins/Prefabs/Thick Vase.prefab
+- Assets/Material/Structure_NOM_PorcelainBroken_mat.mat
+- Assets/wesley_anims/door/post_close.anim
+- Assets/Texture2D/Structure_NOM_Silver_s.png
+- Assets/wesley_anims/grav_crystal/insert.anim
+- Assets/Nomai Ruins/Prefabs/Bowl.prefab
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_t.png
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_CT_CliffGradient_d.png
+- Assets/Material/Effects_NOM_TractorBeamRing_mat.mat
+- Assets/Materials/Modified OW Mats/burntcore.mat
+- Assets/wesley_anims/door/door_close.anim
+- Assets/Texture2D/Structure_NOM_Whiteboard_d.png
+- Assets/wesley_anims/lever/flip_down.anim
+- Assets/Materials/environment/timberHearth/terrain/Terrain_Th_Cave_star_n.png
+- Assets/Nomai Ruins/Prefabs/Bed.prefab
+- Assets/Materials/environment/brittleHollow/terrain/Terrain_BH_RockTop_n.png
+- Assets/Prefabs/buildings/ground_building_4.prefab
+- Assets/Materials/environment/timberHearth/props/Tree_TH_Stump_d.png
+- Assets/Material/Foliage_TH_Crater_mat.mat
+- Assets/Material/Effects_NOM_TractorBeam_Dithered_mat.mat
+- Assets/Nomai Ruins/Prefabs/BrokenWall_B.prefab
+- Assets/Nomai Ruins/Prefabs/Wall_Half_Corner_L.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallInside_mat.mat
+- Assets/Prefabs/props/bad_scroll1.prefab
+- Assets/wesley_anims/kevin/kevin.controller
+- Assets/Texture2D/Props_NOM_GravityCrystal_n.png
+- Assets/Shader/Outer Wilds_Atmospherics_Fog (Far).asset
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeBarkDEAD_mat.mat
+- Assets/Nomai Ruins/Prefabs/CeilingLamp.prefab
+- Assets/Texture2D/Structure_NOM_CopperOld_d.png
+- Assets/Materials/environment/eyeOfTheUniverse/structures/Structure_EYE_Porcelain_n.png
+- Assets/Materials/Modified OW Mats/short_support_mat 1.mat
+- Assets/Nomai Ruins/Prefabs/Tablet.prefab
+- Assets/AnimationClip/anglernew mouth closed.anim
+- Assets/wesley_anims/dree/swimming_ditylum.controller
+- Assets/Materials/Modified OW Mats/burntsandstone.mat
+- Assets/Texture2D/Structure_NOM_SilverPorcelain_d.png
+- Assets/Nomai Ruins/Prefabs/Container.prefab
+- Assets/Nomai Ruins/Prefabs/Broken Box.prefab
+- Assets/Nomai Ruins/Prefabs/Cracked Vase.prefab
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeLeaves_mat.mat
+- Assets/Prefabs/props/nom_fuel_tank.prefab
+- Assets/Material/Character_NOM_Skeletonv2_mat.mat
+- Assets/Texture2D/LOD_Terrain_DB_VineSurface_n.png
+- Assets/Texture2D/Structure_NOM_Porcelain_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_s.png
+- Assets/Materials/Modified OW Mats/melted_mats/Melted_Props_NOM_Lamp_mat.mat
+- Assets/Material/Effects_DB_AnglerNestDimension_FogGlow_mat.mat
+- Assets/Nomai Ruins/Prefabs/Box.prefab
+- Assets/Prefabs/props/bad_scroll4.prefab
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_e.png
+- Assets/Nomai Ruins/Resources/Materials/NoiseWarm_d.png
+- Assets/wesley_anims/door/door_open.anim
+- Assets/Nomai Ruins/Prefabs/NOMTree3 Dry.prefab
+- Assets/Material/Tree_TH_Redwood_mat.mat
+- Assets/Material/Effects_DB_HubDimension_FogGlow_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_mat.mat
+- Assets/wesley_anims/kevin/idle_at_start.anim
+- Assets/Materials/Modified OW Mats/melted_mats/bad_scroll_mat.mat
+- Assets/Resources/textures/White_d.png
+- Assets/Prefabs/props/broken_stairs.prefab
+- Assets/Material/Foliage_TH_Crater_Grass_mat.mat
+- Assets/Nomai Ruins/Prefabs/Wall.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallOutside_mat Mir.mat
+- Assets/Texture2D/Props_NOM_Scroll_mask.png
+- Assets/Material/Effects_Explosion_mat.mat
+- Assets/Material/Beast_Anglerfish_mat.mat
+- Assets/Texture2D/LOD_Terrain_DB_SeedFlower_d.png
+- Assets/Texture2D/Rock_QM_Shard_d.png
+- Assets/Material/Terrain_QM_Geyser_mat.mat
+- Assets/Prefabs/props/empty_crystal_socket.prefab
+- Assets/Material/Structure_NOM_Glass_Opaque_mat.mat
+- Assets/Nomai Ruins/Prefabs/Wall_Corner_BOTH.prefab
+- Assets/Materials/environment/timberHearth/props/Tree_TH_Stump_h.png
+- Assets/wesley_anims/kevin/hidden.anim
+- Assets/Material/Effects_NOM_VesselRecorderGlow_mat.mat
+- Assets/Materials/glowrock.mat
+- Assets/Material/Terrain_TH_Cave_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WallInside_mat Mir.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPatternLines_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Ceiling_mat.mat
+- Assets/wesley_anims/lever/lever.controller
+- Assets/Shader/Outer Wilds_Effects_Volumetric Light.asset
+- Assets/Nomai Ruins/Prefabs/Floor_Broken_D.prefab
+- Assets/Nomai Ruins/Prefabs/ShortColumn.prefab
+- Assets/AnimationClip/anglernew look down.anim
+- Assets/Texture2D/Props_NOM_SmallTractorBeam_EmissiveMap.png
+- Assets/Material/Structure_NOM_BlueGlow_mat.mat
+- Assets/Texture2D/Effects_NOM_TextAdult_d.png
+- Assets/Prefabs/props/Tree_TH_Stump.prefab
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_Cave_e.png
+- Assets/Materials/environment/eyeOfTheUniverse/structures/Structure_EYE_Silver_n.png
+- Assets/Nomai Ruins/Prefabs/Vase.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_White_d.png
+- Assets/Prefabs/props/Props_NOM_Whiteboard_Shared.prefab
+- Assets/wesley_anims/injector/idle.anim
+- Assets/Material/Effects_NOM_VesselComputerVolLight_mat.mat
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HCT_Cave_Floor_n.png
+- Assets/Prefabs/buildings/ground_building_1.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_d.png
+- Assets/wesley_anims/injector/injector_controller.controller
+- Assets/Material/Props_NOM_NomaiTreeLeaves_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_GravityCrystal_n.png
+- Assets/AnimationClip/anglernew mouth open.anim
+- Assets/Nomai Ruins/Prefabs/RailingPost.prefab
+- Assets/Material/Structure_NOM_TrimPattern_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintWhite_d.png
+- Assets/wesley_anims/grav_crystal/idle.anim
+- Assets/Nomai Ruins/Prefabs/Table.prefab
+- Assets/Texture2D/Structure_NOM_SilverPorcelain_s.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeBark_mat.mat
+- Assets/Prefabs/props/scroll_wall.prefab
+- Assets/Materials/Textures/Dree_skin_tex_m.png
+- Assets/Prefabs/props/bad_scroll2.prefab
+- Assets/Nomai Ruins/Prefabs/BrokenWall_A_Mir.prefab
+- Assets/Texture2D/Structure_NOM_Silver_d.png
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HT_SandVariant_d.png
+- Assets/Material/Terrain_HCT_Surface_mat.mat
+- Assets/wesley_anims/dree/defeated_ditylum.controller
+- Assets/Prefabs/buildings/eyeshrine.prefab
+- Assets/Prefabs/props/Structure_NOM_EyeSymbol_Geo.prefab
+- Assets/Prefabs/buildings/destroyed_building.prefab
+- Assets/Material/Decal_HEA_PlayerShip_Cracks_mat.mat
+- Assets/Materials/soot.mat
+- Assets/Materials/Modified OW Mats/purple_flare.mat
+- Assets/AnimationClip/anglernew look right.anim
+- Assets/Material/Props_IP_LightBulb_Dim_mat.mat
+- Assets/Prefabs/props/Prefab_NOM_Lamp_Glow_Diamond_Wall.prefab
+- Assets/Shader/Outer Wilds_Effects_Fog Glow.asset
+- Assets/Texture2D/AlphaSmoothRadialMask.png
+- Assets/Material/Terrain_TH_Dirt_mat.mat
+- Assets/Nomai Ruins/Prefabs/Staff.prefab
+- Assets/Materials/dree_skin.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WhiteBoardTile_mat.mat
+- Assets/Texture2D/FogColorRamp_DB.png
+- Assets/Materials/Modified OW Mats/melted_mats/Melted_Structure_NOM_PropTile_Color_mat.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Floor_mat.mat
+- Assets/Nomai Ruins/Prefabs/Chair.prefab
+- Assets/AnimationClip/anglernew idle.anim
+- Assets/Prefabs/props/GEO_NomaiTree_1_Trunk.prefab
+- Assets/Material/Structure_NOM_CopperOld_mat.mat
+- Assets/wesley_anims/kevin/start_to_end.anim
+- Assets/Material/Effects_NOM_TractorBeam_mat.mat
+- Assets/Materials/Modified OW Mats/dree_skeleton.mat
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_HexagonTile_n.png
+- Assets/Wesley Made Prefabs/Terrain_TH_SurfaceGeyser_Small.prefab
+- Assets/Material/Structure_NOM_Silver_mat.mat
+- Assets/Prefabs/props/bad_scroll3.prefab
+- Assets/wesley_anims/dree/swim_loop.anim
+- Assets/Material/Structure_EYE_Porcelain_mat.mat
+- Assets/Material/Props_HEA_CampfireRocks_mat.mat
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HCT_Surface_Wall_v2_d.png
+Dependencies:
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets1
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets2

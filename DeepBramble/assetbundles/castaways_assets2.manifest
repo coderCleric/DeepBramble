@@ -1,0 +1,46 @@
+ManifestFileVersion: 0
+CRC: 1407033315
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 65136b6efc2a99a27ef99b846507b969
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 992d0af666fb473935fefb961caff663
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AudioClip/Custom/language_lab.wav
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintOrange_n.png
+- Assets/AudioClip/Custom/eye_lab.wav
+- Assets/Material/Props_HEA_Lightbulb_mat.mat
+- Assets/Texture2D/Structure_HEA_VillageCloth_d.png
+- Assets/Material/ObservatoryInterior_HEA_VillagePlanks_mat.mat
+- Assets/Texture2D/Structure_HEA_VillageMetal_n.png
+- Assets/AudioClip/Custom/domestic.wav
+- Assets/Texture2D/LOD_ObservatoryInterior_AO.png
+- Assets/Texture2D/Structure_HEA_VillageMetal_d.png
+- Assets/AudioClip/Custom/enzyme_lab.wav
+- Assets/Shader/Outer Wilds_Environment_Ship_Interior.asset
+- Assets/Material/ObservatoryInterior_HEA_VillageMetal_mat.mat
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HT_Sand_n.png
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineSurface_d.png
+- Assets/AudioClip/Custom/concert_hall.wav
+- Assets/Shader/Standard_0.asset
+- Assets/Texture2D/Terrain_DB_VineSurface_n.png
+- Assets/Texture2D/Structure_HEA_VillagePlanks_d.png
+- Assets/Texture2D/Structure_HEA_VillagePlanks_n.png
+- Assets/Texture2D/Structure_HEA_VillageMetal_s.png
+- Assets/Material/Props_HEA_MuseumWords_mat.mat
+- Assets/Texture2D/Props_HEA_MuseumWords_d.png
+Dependencies:
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets3
