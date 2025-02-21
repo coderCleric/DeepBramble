@@ -20,7 +20,7 @@
         <PackageReference Include="OuterWildsGameLibs" Version="1.1.15.1018" />
 
         <Reference Include="NewHorizons">
-          <HintPath>$(OuterWildsModsDirectory)\xen.NewHorizons\NewHorizons.dll</HintPath>
+          <HintPath>nh_dll\NewHorizons.dll</HintPath>
           <Private>False</Private>
         </Reference>
     </ItemGroup>
