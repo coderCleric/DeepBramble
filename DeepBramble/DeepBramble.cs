@@ -43,6 +43,9 @@ namespace DeepBramble
             TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
             PostCreditsHelper.leviathanBundle = ModHelper.Assets.LoadBundle("assetbundles/end_bundle");
             textMat = ModHelper.Assets.LoadBundle("assetbundles/text_bundle").LoadAsset<Material>("Assets/Materials/dree_text.mat");
+            ModHelper.Assets.LoadBundle("assetbundles/castaways_assets1");
+            ModHelper.Assets.LoadBundle("assetbundles/castaways_assets2");
+            ModHelper.Assets.LoadBundle("assetbundles/castaways_assets3");
 
             //Do title screen stuff
             TitleScreenHelper.FirstTimeTitleEdits();
