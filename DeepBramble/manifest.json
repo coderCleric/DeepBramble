@@ -3,7 +3,7 @@
   "filename": "DeepBramble.dll",
   "author": "coderCleric",
   "name": "Forgotten Castaways",
-  "uniqueName": "cleric.ForgottenCastaways",
+  "uniqueName": "cleric.DeepBramble",
   "version": "1.0.0",
   "owmlVersion": "2.15.1",
   "dependencies": [ "xen.NewHorizons" ]
