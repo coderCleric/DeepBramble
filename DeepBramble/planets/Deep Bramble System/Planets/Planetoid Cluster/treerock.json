@@ -313,9 +313,9 @@
       {
         "rename": "AmbientAudio",
         "radius": 350,
-        "volume": 0.5,
+        "volume": 0.35,
         "priority": 2,
-        "audio": "NomaiRuinsOverlayTracks",
+        "audio": "assets/Audio/area_music/cluster.wav",
         "track": "music",
         "loop": true
       }

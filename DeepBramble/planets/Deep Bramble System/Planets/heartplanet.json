@@ -592,7 +592,7 @@
         "radius": 350,
         "volume": 0.5,
         "priority": 1,
-        "audio": "TimeLoopDevice_Ambient",
+        "audio": "assets/Audio/area_music/heart.wav",
         "track": "music",
         "loop": true
       }

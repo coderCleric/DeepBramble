@@ -539,8 +539,9 @@
       {
         "rename": "AmbientAudio",
         "radius": 1200,
-        "volume": 0.5,
-        "audio": "OW_TH_Museum",
+        "volume": 0.12,
+        "priority": 1,
+        "audio": "assets/Audio/area_music/dree_dimension.wav",
         "track": "music",
         "loop": true
       },

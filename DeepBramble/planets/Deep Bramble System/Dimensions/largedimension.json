@@ -404,8 +404,8 @@
       {
         "rename": "AmbientAudio",
         "radius": 3000,
-        "volume": 0.15,
-        "audio": "OW Aquatic Exploration 050318 AP LOOP",
+        "volume": 0.4,
+        "audio": "assets/Audio/area_music/brambles_hollow.wav",
         "track": "music",
         "loop": true
       }

@@ -54,7 +54,7 @@
         "rename": "AmbientAudio",
         "radius": 750,
         "volume": 0.4,
-        "audio": "Ice_Cave_Amb_loop_v3_01",
+        "audio": "assets/Audio/area_music/reject.wav",
         "track": "music",
         "loop": true
       }
