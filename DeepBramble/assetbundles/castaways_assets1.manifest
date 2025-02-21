@@ -1,0 +1,207 @@
+ManifestFileVersion: 0
+CRC: 3258272682
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: eb57ed8d4405d4a7d77b1d80adf4d44f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5f2f34ea50f80d2008b8b9e727ee20ba
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 08a907445969531385ba02ae6b921077, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f3014da1c89ce2573a27c371d8ccd9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Texture2D/Props_HEA_CampfireRocks_d.png
+- Assets/Nomai Ruins/Resources/Shaders/Standard (BRDF Lookup).asset
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_n.png
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_AO.png
+- Assets/Materials/environment/brittleHollow/terrain/Terrain_BH_RockSide_d.png
+- Assets/Texture2D/Structure_NOM_Porcelain_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDry_d.png
+- Assets/Texture2D/Effects_SplashParticles_d.png
+- Assets/AudioClip/Custom/lovers_rock.wav
+- Assets/Materials/environment/quantumMoon/terrain/Terrain_QM_Geyser_n.png
+- Assets/Shader/Outer Wilds_Blended_Detail_Mask 3x.asset
+- Assets/Texture2D/Terrain_BH_Cracks_n.png
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HCT_Cave_Wall_n.png
+- Assets/Texture2D/Tree_TH_Redwood_02_AO.png
+- Assets/Texture2D/Structure_NOM_GlassDirtGradient_s.png
+- Assets/Texture2D/Terrain_BH_CraterCliffsDetail_n.png
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_s.png
+- Assets/Nomai Ruins/Resources/Shaders/Standard.asset
+- Assets/Texture2D/Props_NOM_NomaiTree_n.png
+- Assets/wesley_anims/dree/scream.anim
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_ao.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Foliage.asset
+- Assets/Materials/character/beasts/anglerfish/Beast_Anglerfish_d.png
+- Assets/Prefabs/buildings/enzyme_lab.prefab
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_s.png
+- Assets/Texture2D/Effects_Explosion_n.png
+- Assets/Shader/Outer Wilds_Environment_Timber Hearth_Caves.asset
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HCT_Cave_Wall_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Whiteboard_n.png
+- Assets/Shader/Outer Wilds_Environment_Foliage.asset
+- Assets/Texture2D/Terrain_THM_Moon_n.png
+- Assets/Materials/environment/brittleHollow/terrain/Terrain_BH_Faceted_n.png
+- Assets/Texture2D/Props_Nom_GavityCrystal_h.png
+- Assets/Shader/Outer Wilds_Blended_Angle+Altitude (Detail).asset
+- Assets/Materials/environment/brittleHollow/terrain/Terrain_BH_Cracks_n.png
+- Assets/Texture2D/Structure_NOM_StarHexagon_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_s.png
+- Assets/AnimationClip/anglernew swim start.anim
+- Assets/Texture2D/Props_NOM_NomaiTreeDetail_n.png
+- Assets/Texture2D/Structure_NOM_TrimPattern_n.png
+- Assets/Texture2D/Structure_NOM_SandStone_d.png
+- Assets/Texture2D/Structure_NOM_Grooves_Red_d.png
+- Assets/Nomai Ruins/Resources/Shaders/Standard (Detail Blend).asset
+- Assets/Texture2D/Structure_NOM_StarHexagon_d.png
+- Assets/Asset_Bundles/timberhearth/textures/terrain/Materials/environment/timberHearth/terrain/Terrain_TH_Grass_d.png
+- Assets/Prefabs/buildings/crystal_lab.prefab
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDry_m.png
+- Assets/Prefabs/buildings/poison_lab.prefab
+- Assets/Texture2D/Rock_QM_Shard_s.png
+- Assets/Texture2D/Structure_NOM_Copper_s.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTreeDetail_n.png
+- Assets/Texture2D/Structure_NOM_TrimPattern_d.png
+- Assets/Texture2D/Props_HEA_CampfireRocks_n.png
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineDetail_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_n.png
+- Assets/Texture2D/Structure_NOM_Grooves_d.png
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HCT_Surface_Floor_v2_d.png
+- Assets/Materials/environment/eyeOfTheUniverse/structures/Structure_EYE_Porcelain_s.png
+- Assets/Shader/Outer Wilds_Environment_Hourglass Twins_Energy Cable.asset
+- Assets/Texture2D/Structure_NOM_PorcelainBroken_n.png
+- Assets/Texture2D/Rock_QM_Shard_Detail_n.png
+- Assets/Prefabs/props/tractor_in.prefab
+- Assets/Prefabs/props/tractor_out.prefab
+- Assets/Texture2D/Props_NOM_NomaiTree_d.png
+- Assets/Nomai Ruins/Resources/Shaders/Outer Wilds_Environment_Gravity Crystal.asset
+- Assets/Texture2D/Structure_NOM_WovenGrooves_s.png
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_CraterDirt_n.png
+- Assets/Shader/Outer Wilds_Environment_Hourglass Twins_Rocks.asset
+- Assets/Texture2D/Structure_NOM_Grooves_s.png
+- Assets/Texture2D/Props_NOM_NomaiTree_ao.png
+- Assets/Texture2D/Props_NOM_NomaiTree_m.png
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HT_CaveStriations_n.png
+- Assets/wesley_anims/dree/stabilize.anim
+- Assets/Materials/environment/timberHearth/props/Tree_TH_Redwood_02_d.png
+- Assets/Texture2D/Structure_NOM_Porcelain_s.png
+- Assets/wesley_anims/dree/sitting_loop.anim
+- Assets/wesley_anims/dree/float_turn.anim
+- Assets/Materials/environment/brittleHollow/terrain/Terrain_BH_CraterCliffsDetail_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PropTile_Color_d.png
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_AnglerfishSkeleton_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_HexagonTile_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_TrimPattern_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_SandStone_d.png
+- Assets/Shader/Outer Wilds_Blended_Angle+Altitude.asset
+- Assets/Materials/environment/quantumMoon/terrain/Terrain_QM_Grass_d.png
+- Assets/Nomai Ruins/Resources/Materials/Props_Nom_GavityCrystal_h.png
+- Assets/Texture2D/Noise_d.png
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_Grass_d.png
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_AnglerfishSkeleton_d.png
+- Assets/Texture2D/Structure_NOM_Copper_n.png
+- Assets/Shader/Outer Wilds_Blended_Detail_Mask 4x.asset
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_Cave_n.png
+- Assets/Texture2D/Structure_NOM_WovenGrooves_n.png
+- Assets/Materials/environment/timberHearth/props/Foliage_TH_Crater_d.png
+- Assets/Texture2D/Structure_NOM_SandStone_s.png
+- Assets/Texture2D/Structure_NOM_CopperOld_s.png
+- Assets/Texture2D/Structure_NOM_WarpReceiverGlass_d.png
+- Assets/Materials/environment/quantumMoon/terrain/Terrain_QM_Geyser_s.png
+- Assets/Materials/environment/quantumMoon/terrain/Terrain_QM_Geyser_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_White_n.png
+- Assets/Texture2D/Structure_NOM_SandStone_n.png
+- Assets/Shader/Outer Wilds_Environment_Brittle Hollow_Geode Fragment.asset
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_Red_d.png
+- Assets/Texture2D/Terrain_TH_CraterDirt_d.png
+- Assets/Texture2D/Rock_QM_Shard_ao.png
+- Assets/Materials/environment/timberHearth/props/Tree_TH_RedwoodLeaves_d.png
+- Assets/Texture2D/Terrain_THM_Moon_s.png
+- Assets/Texture2D/Structure_NOM_Whiteboard_n.png
+- Assets/Nomai Ruins/Resources/Materials/Props_NOM_NomaiTree_m.png
+- Assets/Materials/environment/timberHearth/terrain/Terrain_TH_Cave_d.png
+- Assets/Materials/environment/timberHearth/props/Foliage_TH_Crater_t.png
+- Assets/Shader/Outer Wilds_Environment_Dark Bramble_Blended Vine.asset
+- Assets/Materials/Textures/soot.png
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HT_CaveStriations_d.png
+- Assets/Texture2D/Structure_NOM_StarHexagon_Glow_s.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_s.png
+- Assets/Materials/environment/timberHearth/props/Tree_TH_Stump_n.png
+- Assets/Shader/Outer Wilds_Environment_Brittle Hollow_Rock Fragment.asset
+- Assets/Materials/environment/timberHearth/props/Tree_TH_RedwoodLeaves_t.png
+- Assets/Shader/Standard (Translucent).asset
+- Assets/Shader/Standard (Detail Blend).asset
+- Assets/Materials/environment/eyeOfTheUniverse/structures/Structure_EYE_Porcelain_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_n.png
+- Assets/Shader/Outer Wilds_Environment_Gravity Crystal.asset
+Dependencies:
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets2
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets3
