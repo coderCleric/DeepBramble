@@ -1,0 +1,204 @@
+ManifestFileVersion: 0
+CRC: 1218977161
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: feae56757ce5dc35574e48aa91f776aa
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5bd4ec296a6fa823827238173bbac3d2
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e2cd530bcd6ab93471c4405ca1c5b6a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b3891590690609c69465a648b6c178e6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 64039fd011e32da2cb514e5e004fb9d0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: cc6b7c1133e875fc7b5e5ea2817aa5a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c40262156d82f34a77fd77af5176011, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fbb2498122f7e23a2e87544333cb528f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dab2fbc1d63988697a57c20e75208116, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8c3c17f1d275118dd06774c7aba85a9e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 80818142ed7b755f9ecef4a391e63964, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a00a4b529366e7a35af5046cca370e8e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0a5bc582e4f904dcec905aaf2f0c035a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5d1885e24b4d5412e2a3d963831eaff8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3bfd83f28489a24bc69cb526ff54d468, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a7ad6e0311c8ca7b147e5004c87f0987, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b446aa63b809cb3da1921800cd416866, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b409018305dd6f6cfaa650800ebec19a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eecfc1b39ba9e0000e410dc9ec32a8ec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d3e77ae3309b6f323de07b456da83fb0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 567b10f3592a22d2bef7141ba8f84acb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 08a907445969531385ba02ae6b921077, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dfadbb74703c0fc4f9e7c128dffd97ac, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae101e74c1ac7ac7f3867d7e18597ede, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a223d69493f03f4a8e6bda998c52d250, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9ed8e5f4680aef3fe2d198924bac0650, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 094908c5e449faf8394b88faf7ab2730, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9d66ead59999cdfde1b85ce808a55225, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1beb2a46e0dd133c749d1f6530e10662, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2ca598178f775e7dc1b937bc0b32aae7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1dcb8b570234015f281c1774637aeaf1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6cd941772c39872be9d9611da76f777c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 53fe1f971c08db1945e16add52db7b68, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f913c288c393f80a7e923fc1c775f4fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b8880e8825af4fcbf1dab71021f8c869, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0053d129d589d30957bcc3b1958fc878, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 25b7e56961bf1df33ed31b8c786ab1c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 651bf6a97f095be1000b67022b3d85c7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f031b2a1450f8281d8cd055b417bf4b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2145ed3a866d4bd5a94d98ee05d0fa4f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7b80504a0aa9946ddb29be5e95e7256c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d99a1d5a37a3af6ec7bf327c138b0a77, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cfd736a3952486c93e9a5d8f58c79c3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 82d6ff9ac3325b114213581627497e75, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b881cca0a4f51aa22e82eb3e1338126, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1f3014da1c89ce2573a27c371d8ccd9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7aba6c2ce49844631cfc871c69533e25, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 505bf95c7870cd0659dac2b264f2d8df, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7f2e3f7cc6baeb3499f9963353d7b458, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4d37ab8d4d1e425918e8172c84cb8288, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 606fff1e570be47c0db66f6c3ccd8591, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1baab1be2365418212ecfb0e7844d02e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4a48b88f467c80c6358045d3edb1268f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 117
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/buildings/language_lab.prefab
+- Assets/Prefabs/props/injector_socket.prefab
+- Assets/Prefabs/props/dead_node.prefab
+- Assets/Prefabs/buildings/final_lab.prefab
+- Assets/Prefabs/lava_planet.prefab
+- Assets/Prefabs/asteroid4.prefab
+- Assets/Prefabs/props/dree_chime.prefab
+- Assets/Prefabs/hollowplanet.prefab
+- Assets/Prefabs/large_planetoid.prefab
+- Assets/Prefabs/bramblecap.prefab
+- Assets/Prefabs/shattered_planet.prefab
+- Assets/Prefabs/props/WarpCoreSocket.prefab
+- Assets/Prefabs/props/old_dead_node.prefab
+- Assets/Prefabs/props/swimming_ditylum.prefab
+- Assets/Prefabs/props/cake_topper.prefab
+- Assets/Prefabs/props/dilated_ditylum.prefab
+- Assets/Prefabs/props/angler_skeleton.prefab
+- Assets/Prefabs/poison_planet.prefab
+- Assets/Prefabs/asteroid3.prefab
+- Assets/Prefabs/baby_fish.prefab
+- Assets/Prefabs/asteroid2.prefab
+- Assets/Prefabs/player_explosion.prefab
+- Assets/Prefabs/buildings/dree_floating_house_hidden.prefab
+- Assets/Prefabs/buildings/observation_lab.prefab
+- Assets/Prefabs/domestic_fish.prefab
+- Assets/Prefabs/bigasteroid.prefab
+- Assets/Prefabs/nursery_tube.prefab
+- Assets/Prefabs/buildings/dree_floating_house.prefab
+- Assets/Prefabs/kevin.prefab
+- Assets/Prefabs/buildings/amylax_floating_house.prefab
+- Assets/Prefabs/props/light_flare.prefab
+- Assets/Prefabs/props/injector.prefab
+- Assets/Prefabs/props/sad_ditylum.prefab
+Dependencies:
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets1
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets2
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets3
