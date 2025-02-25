@@ -33,7 +33,7 @@
     <RumorFact>
       <ID>LANGUAGE_LARGE_ENTRANCE_RUMOR_FC</ID>
       <SourceID>QUARRY_ENTRY_FC</SourceID>
-      <Text>I read that the translation lab has a larger, harder to find entrance somewhere in Briar's Hollow.</Text>
+      <Text>I read that the translation lab has a larger entrance somewhere in Briar's Hollow. A Nomai who needed to find it left a temporary beacon at the lab, which then guided them to the larger entrance.</Text>
     </RumorFact>
 
     <!--Stupid fishies-->

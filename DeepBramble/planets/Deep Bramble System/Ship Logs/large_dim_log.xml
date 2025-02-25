@@ -73,6 +73,8 @@
     <RumorFact>
       <ID>ENCLOSED_SPACE_EXISTENCE_RUMOR_FC</ID>
       <SourceID>CAMP_ENTRY_FC</SourceID>
+      <RumorName>Enclosed Space</RumorName>
+      <RumorNamePriority>3</RumorNamePriority>
       <Text>One of the Nomai wrote that a strange creature led him through the recursive node at the center of Briar's Hollow into some sort of enclosed space, after which he turned back to not get lost.</Text>
     </RumorFact>
 
@@ -80,13 +82,14 @@
     <RumorFact>
       <ID>ENCLOSED_SPACE_ALIGNMENT_RUMOR_FC</ID>
       <SourceID>CAMP_ENTRY_FC</SourceID>
-      <Text>The Nomai theorized that this had something to do with how the entrances to the recursive node line up with the entrances to Briar's Hollow.</Text>
+      <Text>The Nomai theorized that this space could be entered using the node at the center of Briar's Hollow. They noted how the hole one uses to enter the node lines up directly with where they re-enter the larger space.</Text>
     </RumorFact>
 
     <!--Finding the outside-->
     <RumorFact>
       <ID>ENCLOSED_SPACE_EXTERNAL_RUMOR_FC</ID>
       <RumorName>Big Lump</RumorName>
+      <RumorNamePriority>2</RumorNamePriority>
       <Text>I found a massive lump on the wall of the Bramble. It seems to have grown out from the wall, with no way around.</Text>
     </RumorFact>
 

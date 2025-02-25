@@ -167,7 +167,7 @@
     <!--Reading the blocked text-->
     <ExploreFact>
       <ID>OBSTRUCTED_TEXT_FACT_FC</ID>
-      <Text>The Nomai discovered something about the rock's behavior and wrote it on a scroll, but a cooled lava flow is obstructing part of the scroll wall.</Text>
+      <Text>Apparently a behavior of the rock is useful to something called the Distant Node Project. There's more details on a scroll in the cave, but a cooled lava flow is making it impossible to read fully. Despite the condition of the wall, the scroll itself appears undamaged.</Text>
     </ExploreFact>
 
     <!--I used it-->

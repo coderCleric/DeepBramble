@@ -10,6 +10,8 @@
     <!--Stranded rumor-->
     <RumorFact>
       <ID>REJECT_EXISTENCE_RUMOR_FC</ID>
+      <RumorName>Stranded Alien</RumorName>
+      <RumorNamePriority>3</RumorNamePriority>
       <IgnoreMoreToExplore/>
       <Text>I heard that one of the aliens became stranded in an area called the Venomous Reject, only accessible through somewhere called the Nursery.</Text>
     </RumorFact>
@@ -18,6 +20,8 @@
     <RumorFact>
       <ID>KEVIN_PURPOSE_FACT_FC</ID>
       <SourceID>ENZYME_LAB_ENTRY_FC</SourceID>
+      <RumorName>Rescue Mission</RumorName>
+      <RumorNamePriority>4</RumorNamePriority>
       <Text>The Nomai decided to mount a rescue operation by mounting handles on the top teeth of a fish named Kevin, letting them ride it across the Nursery. To ensure success, they trained Kevin to react to being hit in the eye with any object.</Text>
     </RumorFact>
 
@@ -26,6 +30,7 @@
       <ID>KEVIN_IDENTITY_FACT_FC</ID>
       <SourceID>FISH_PLATFORM_ENTRY_FC</SourceID>
       <RumorName>Missing Tooth</RumorName>
+      <RumorNamePriority>2</RumorNamePriority>
       <Text>Apparently, an anglerfish named Kevin lost one of his bottom teeth in an accident, while protecting one of the baby fish in the Nursery.</Text>
     </RumorFact>
 

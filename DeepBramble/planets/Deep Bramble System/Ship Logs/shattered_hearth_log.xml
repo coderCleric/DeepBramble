@@ -30,7 +30,7 @@
     <!--There sure do be bells-->
     <ExploreFact>
       <ID>CONCERT_BELLS_FACT_FC</ID>
-      <Text>There are five large bells near the stage, with a slot above each. The leftmost bell is broken on the ground.</Text>
+      <Text>There are five large bells near the stage, with a hexagonal slot above each. The leftmost bell is broken on the ground.</Text>
     </ExploreFact>
 
     <!--I'm illiterate-->
@@ -42,7 +42,7 @@
     <!--Combination-->
     <ExploreFact>
       <ID>CONCERT_COMBO_FACT_FC</ID>
-      <Text>To fix the gravity crystal, it needs to be put into one of the slots. Then three bells need to be rung: the one two spots to the left, the one directly to the right, and finally the one directly below.</Text>
+      <Text>To fix the gravity crystal, it needs to be socketed into one of the hexagonal slots. Then three bells need to be rung: the one two spots to the left, the one directly to the right, and finally the one directly below.</Text>
     </ExploreFact>
 
     <!--Success!-->

@@ -36,7 +36,7 @@
 		<ID>5</ID>
 		<ParentID>4</ParentID>
 		<Text>
-			NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When <![CDATA[<color=red>TEXT OBSCURED</color>]]> it seems that <![CDATA[<color=red>TEXT OBSCURED</color>]]>.
+			NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]> it seems that <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]>.
 		</Text>
 	</TextBlock>
 
