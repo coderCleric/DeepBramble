@@ -1,6 +1,6 @@
 ﻿<Project>
   <PropertyGroup>
-    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\Cleric.ForgottenCastaways</OutputPath>
+    <OutputPath>$(AppData)\OuterWildsModManager\OWML\Mods\cleric.DeepBramble</OutputPath>
     <OuterWildsModsDirectory>$(AppData)\OuterWildsModManager\OWML\Mods</OuterWildsModsDirectory>
   </PropertyGroup>
 </Project>
