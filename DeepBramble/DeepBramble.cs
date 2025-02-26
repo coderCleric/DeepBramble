@@ -27,6 +27,7 @@ namespace DeepBramble
         public static Transform relBody = null;
         public static DeepBramble instance;
         private static bool manualLoadEnd = false;
+        private static bool useDebugKeybinds = false;
 
         /**
          * Do NH setup stuff and patch certain methods
@@ -211,7 +212,7 @@ namespace DeepBramble
             }
 
             //Print the player's absolute and relative positions when k is pressed
-            /*if (Keyboard.current[Key.K].wasPressedThisFrame)
+            if (useDebugKeybinds && Keyboard.current[Key.K].wasPressedThisFrame)
             {
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
@@ -241,7 +242,7 @@ namespace DeepBramble
             }
 
             //Tell the speed of the player and ship
-            if (Keyboard.current[Key.L].wasPressedThisFrame)
+            if (useDebugKeybinds && Keyboard.current[Key.L].wasPressedThisFrame)
             {
                 string msg = "";
                 msg += "Player speed: " + Locator.GetPlayerBody().GetVelocity().magnitude.ToString();
@@ -251,7 +252,7 @@ namespace DeepBramble
             
             
             //Teleport to a specific point when n is pressed
-            if (Keyboard.current[Key.N].wasPressedThisFrame)
+            if (useDebugKeybinds && Keyboard.current[Key.N].wasPressedThisFrame)
             {
                 //Vector3 point = new Vector3(18.1f, -108.8f, 28770.3f); //Graviton's Folly
                 Vector3 point = new Vector3(9968.0f, -7.1f, -158.7f); //Dree planet
@@ -310,6 +311,9 @@ namespace DeepBramble
         {
             //Whether to use the vanilla title screen or not
             TitleScreenHelper.SetVanillaTitle(config.GetSettingsValue<bool>("Vanilla Title Screen"));
+
+            //Whether to use the vanilla title screen or not
+            useDebugKeybinds = config.GetSettingsValue<bool>("Debug Keybinds (DON'T ENABLE)");
         }
 
         public static void debugPrint(string str)
