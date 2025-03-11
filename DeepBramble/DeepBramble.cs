@@ -11,6 +11,7 @@ using DeepBramble.BaseInheritors;
 using DeepBramble.MiscBehaviours;
 using DeepBramble.Ditylum;
 using DeepBramble.Helpers;
+using NewHorizons.Utility;
 
 namespace DeepBramble
 {
@@ -22,6 +23,7 @@ namespace DeepBramble
         public INewHorizons NewHorizonsAPI;
         public static float recallTimer = -999;
         public static Material textMat = null;
+        public static GameObject signalBodyObject= null;
 
         //Only needed for debug
         public static Transform relBody = null;
@@ -44,6 +46,9 @@ namespace DeepBramble
             TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
             PostCreditsHelper.leviathanBundle = ModHelper.Assets.LoadBundle("assetbundles/end_bundle");
             textMat = ModHelper.Assets.LoadBundle("assetbundles/text_bundle").LoadAsset<Material>("Assets/Materials/dree_text.mat");
+            signalBodyObject= ModHelper.Assets.LoadBundle("assetbundles/signal_body").LoadAsset<GameObject>("Assets/Prefabs/props/signal_body.prefab");
+            signalBodyObject.DontDestroyOnLoad<GameObject>();
+            signalBodyObject.AddComponent<SignalBody>();
             ModHelper.Assets.LoadBundle("assetbundles/castaways_assets1");
             ModHelper.Assets.LoadBundle("assetbundles/castaways_assets2");
             ModHelper.Assets.LoadBundle("assetbundles/castaways_assets3");
@@ -190,6 +195,18 @@ namespace DeepBramble
                     //If it's known and strong enough, try to lock onto it's parent body
                     if (i.GetSignalStrength() == 1 && PlayerData.KnowsSignal(i._name))
                     {
+                        //Find the OWRigidBody just under the signal
+                        OWRigidbody body = i.GetComponentInChildren<OWRigidbody>();
+
+                        //If this parent is lockable, lock onto it
+                        if (body != null && body.IsTargetable())
+                        {
+                            Locator.GetPlayerBody().gameObject.GetComponent<ReferenceFrameTracker>().TargetReferenceFrame(body.GetReferenceFrame());
+                            Patches.forbidUnlock = true;
+                            break;
+                        }
+
+                        /*
                         //Loop through each parent
                         Transform tf = i.transform;
                         while (tf != null)
@@ -207,6 +224,7 @@ namespace DeepBramble
                             //Otherwise, move another level up
                             tf = tf.parent;
                         }
+                        */
                     }
                 }
             }

@@ -22,6 +22,10 @@ namespace DeepBramble.Helpers
             //Set the condition for finding the bramble
             PlayerData._currentGameSave.SetPersistentCondition("DeepBrambleFound", true);
 
+            //Fix the parents of all of the signals
+            SignalHelper.PrepDictionary();
+            SignalHelper.FixSignalParents();
+
             //Do some things to each astro object
             foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
             {
@@ -31,10 +35,6 @@ namespace DeepBramble.Helpers
                 //If it's a dimension, do some fixes
                 FixDimension(i.gameObject);
             }
-
-            //Fix the parents of all of the signals
-            SignalHelper.PrepDictionary();
-            SignalHelper.FixSignalParents();
 
             //Fix the fog warps for every ship log entry location
             EntryLocationHelper.PrepDictionary();
@@ -93,8 +93,12 @@ namespace DeepBramble.Helpers
                             break;
 
                         case "Lover's Rock":
+                            //Make the broken crystal
                             GravCrystalItem crystal = sectorTransform.Find("large_planetoid/soil_lab_building/crystal").gameObject.AddComponent<GravCrystalItem>();
                             crystal.SetIntact(false);
+
+                            //Update the arrival distance of the signal
+                            body.GetComponentInChildren<SignalBody>().GetReferenceFrame()._autopilotArrivalDistance = 250;
                             break;
 
                         case "Graviton's Folly":
@@ -120,6 +124,9 @@ namespace DeepBramble.Helpers
 
                             //Override the autopilot arrival distance
                             body.GetComponentInChildren<ReferenceFrameVolume>().GetReferenceFrame()._autopilotArrivalDistance = 450;
+
+                            //Update the arrival distance of the signal
+                            body.GetComponentInChildren<SignalBody>().GetReferenceFrame()._autopilotArrivalDistance = 450;
                             break;
 
                         case "Shattered Hearth":

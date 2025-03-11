@@ -222,7 +222,7 @@ namespace DeepBramble
             if(ForgottenLocator.inBrambleSystem && muteMusic && __instance.GetTrack() == OWAudioMixer.TrackName.Music 
                 && !__instance.gameObject.name.Equals("EndTimesSource"))
                 __instance.SetMaxVolume(0);
-        }
+        } 
 
         //################################# Doing node braking #################################
         [HarmonyPostfix]
@@ -981,6 +981,32 @@ namespace DeepBramble
         public static bool UnlockSuppressor()
         {
             return !forbidUnlock;
+        }
+
+        /**
+         * Add a little kinematic rigidbody to every audio signal
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(AudioSignal), nameof(AudioSignal.Awake))]
+        public static void AddSignalBody(AudioSignal __instance)
+        {
+            GameObject signalObject = GameObject.Instantiate(DeepBramble.signalBodyObject, __instance.transform);
+            signalObject.transform.localPosition = Vector3.zero;
+        }
+
+        /**
+         * Make the lock-on show the signal name
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(ReferenceFrame), nameof(ReferenceFrame.GetHUDDisplayName))]
+        public static void DisplaySignalName(ReferenceFrame __instance, ref string __result)
+        {
+            //If the parent exists and has a signal, just need to put the signal name
+            Transform p = __instance.GetOWRigidBody().transform.parent;
+            if(p != null && p.GetComponent<AudioSignal>() != null)
+            {
+                __result = "Signal: " + AudioSignal.SignalNameToString(p.GetComponent<AudioSignal>().GetName());
+            }
         }
 
         //################################# AudioSignalDetectionTrigger stuff, so the player can pick up signals while in their ship #################################
