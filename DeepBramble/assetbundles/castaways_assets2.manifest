@@ -1,46 +1,53 @@
 ManifestFileVersion: 0
-CRC: 1407033315
+CRC: 3718547114
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 65136b6efc2a99a27ef99b846507b969
+    Hash: aec76fb20333aa2fef77bb11452331c9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 992d0af666fb473935fefb961caff663
+    Hash: 389c920602652145c8b9c32a965b707b
 HashAppended: 0
 ClassTypes:
-- Class: 21
-  Script: {instanceID: 0}
 - Class: 28
   Script: {instanceID: 0}
 - Class: 48
+  Script: {instanceID: 0}
+- Class: 74
   Script: {instanceID: 0}
 - Class: 83
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/AudioClip/Custom/language_lab.wav
+- Assets/Materials/environment/brittleHollow/terrain/Terrain_BH_RockSide_d.png
 - Assets/Nomai Ruins/Resources/Materials/Structure_NOM_PaintOrange_n.png
+- Assets/AudioClip/Custom/lovers_rock.wav
 - Assets/AudioClip/Custom/eye_lab.wav
-- Assets/Material/Props_HEA_Lightbulb_mat.mat
-- Assets/Texture2D/Structure_HEA_VillageCloth_d.png
-- Assets/Material/ObservatoryInterior_HEA_VillagePlanks_mat.mat
-- Assets/Texture2D/Structure_HEA_VillageMetal_n.png
 - Assets/AudioClip/Custom/domestic.wav
-- Assets/Texture2D/LOD_ObservatoryInterior_AO.png
-- Assets/Texture2D/Structure_HEA_VillageMetal_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Silver_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_WovenGrooves_s.png
 - Assets/AudioClip/Custom/enzyme_lab.wav
-- Assets/Shader/Outer Wilds_Environment_Ship_Interior.asset
-- Assets/Material/ObservatoryInterior_HEA_VillageMetal_mat.mat
+- Assets/Texture2D/Structure_NOM_Grooves_Red_d.png
 - Assets/Materials/environment/hourglassTwins/terrain/Terrain_HT_Sand_n.png
-- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineSurface_d.png
+- Assets/Materials/environment/hourglassTwins/terrain/Terrain_HCT_Surface_Floor_v2_d.png
+- Assets/Texture2D/Rock_QM_Shard_Detail_n.png
+- Assets/Texture2D/Structure_NOM_WovenGrooves_s.png
+- Assets/Texture2D/Structure_NOM_Grooves_s.png
+- Assets/Materials/environment/eyeOfTheUniverse/structures/Structure_EYE_Silver_d.png
+- Assets/wesley_anims/dree/stabilize.anim
 - Assets/AudioClip/Custom/concert_hall.wav
+- Assets/wesley_anims/dree/float_turn.anim
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_CopperOld_s.png
 - Assets/Shader/Standard_0.asset
-- Assets/Texture2D/Terrain_DB_VineSurface_n.png
-- Assets/Texture2D/Structure_HEA_VillagePlanks_d.png
-- Assets/Texture2D/Structure_HEA_VillagePlanks_n.png
-- Assets/Texture2D/Structure_HEA_VillageMetal_s.png
-- Assets/Material/Props_HEA_MuseumWords_mat.mat
-- Assets/Texture2D/Props_HEA_MuseumWords_d.png
+- Assets/Texture2D/Structure_NOM_CopperOld_s.png
+- Assets/Texture2D/Structure_NOM_WarpReceiverGlass_d.png
+- Assets/Materials/environment/quantumMoon/terrain/Terrain_QM_Geyser_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_White_n.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_Red_d.png
+- Assets/Texture2D/Rock_QM_Shard_ao.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Spiral_n.png
+- Assets/Texture2D/Structure_NOM_Silver_d.png
+- Assets/Nomai Ruins/Resources/Materials/Structure_NOM_Grooves_s.png
 Dependencies:
-- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets3
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets1
