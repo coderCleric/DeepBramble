@@ -33,6 +33,7 @@ namespace DeepBramble.MiscBehaviours
         private PlayerAttachPoint attachPoint = null;
         private InteractReceiver handleReceiver = null;
         private OWTriggerVolume[] eyeTriggers;
+        private InteractReceiver[] eyeInteractors;
 
         /**
          * Need to grab necessary components and initialize a proper starting state
@@ -58,6 +59,14 @@ namespace DeepBramble.MiscBehaviours
             foreach(OWTriggerVolume trigger in eyeTriggers)
             {
                 trigger.OnEntry += EyeHitDetected;
+            }
+
+            //Grab & set up the eye pet interactors
+            eyeInteractors = transform.Find("Beast_Anglerfish/B_angler_root/B_angler_body01/B_angler_body02/eye_interacts").gameObject.GetComponentsInChildren<InteractReceiver>();
+            foreach (InteractReceiver interactor in eyeInteractors)
+            {
+                interactor.OnPressInteract += OnPet;
+                interactor.ChangePrompt("Pet");
             }
 
             //Grab the audio source
@@ -92,6 +101,15 @@ namespace DeepBramble.MiscBehaviours
                 MoveToEnd();
             else if(state == KevinState.ATEND)
                 MoveToStart();
+        }
+
+        /**
+         * When the player pets the eye, make a noise to make them feel better
+         */
+        private void OnPet()
+        {
+            longRangeSource.pitch = UnityEngine.Random.Range(0.8f, 1f);
+            longRangeSource.PlayOneShot(AudioType.DBAnglerfishDetectDisturbance);
         }
 
         /**
@@ -222,6 +240,10 @@ namespace DeepBramble.MiscBehaviours
             foreach (OWTriggerVolume trigger in eyeTriggers)
             {
                 trigger.OnEntry -= EyeHitDetected;
+            }
+            foreach (InteractReceiver interactor in eyeInteractors)
+            {
+                interactor.OnPressInteract -= OnPet;
             }
         }
     }
