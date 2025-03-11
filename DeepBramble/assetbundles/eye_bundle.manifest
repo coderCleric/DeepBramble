@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3312003171
+CRC: 824122582
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 7bf665b4d9d40865707063c91b2d4680
+    Hash: ab6326c393099b38a6a85ccf0fd3de52
   TypeTreeHash:
     serializedVersion: 2
     Hash: 32c77f230aeb0fd574c6f77322e574e6
@@ -97,4 +97,4 @@ Dependencies:
 - C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways
 - C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets1
 - C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets2
-- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets3
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/titlescreeneffects
