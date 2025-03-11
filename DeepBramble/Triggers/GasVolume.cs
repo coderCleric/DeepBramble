@@ -12,6 +12,7 @@ namespace DeepBramble.Triggers
         private bool playerIn = false;
         private bool shouldExplode = false;
         private bool exploded = false;
+        private float explodeTimer = 1;
 
         /**
          * Need to grab the player pack on start
@@ -66,8 +67,14 @@ namespace DeepBramble.Triggers
                     exploded = true;
                 }
 
+                //Handle the explosion timer
+                if (playerPack.IsTranslationalThrusterFiring() && Mathf.Abs(playerPack._localAcceleration.y) > 1)
+                    explodeTimer -= Time.deltaTime;
+                else
+                    explodeTimer = 1;
+
                 //Check if they should make the explosion
-                if(playerPack.IsBoosterFiring() && !exploded)
+                if((playerPack.IsBoosterFiring() || explodeTimer <= 0) && !exploded)
                 {
                     DeepBramble.debugPrint("Player explosion primed.");
 
