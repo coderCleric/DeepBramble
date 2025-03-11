@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 809591771
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dfc93688dd7aad1a48d9f886a6bc608d
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f3a401cc1a76002be054921202c88d1b
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Prefabs/props/signal_body.prefab
+Dependencies: []

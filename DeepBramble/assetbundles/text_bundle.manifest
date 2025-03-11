@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 1278097003
+CRC: 599575381
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 46acf665dec98b9207b1c5201677608a
+    Hash: 8af6094eb56f7065bac3df4cad82c43b
   TypeTreeHash:
     serializedVersion: 2
     Hash: 22357172b8cea85847937e8f62d0c077
@@ -19,5 +19,5 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Materials/dree_text.mat
 Dependencies:
+- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets1
 - C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets2
-- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets3

@@ -49,9 +49,6 @@ namespace DeepBramble
             signalBodyObject= ModHelper.Assets.LoadBundle("assetbundles/signal_body").LoadAsset<GameObject>("Assets/Prefabs/props/signal_body.prefab");
             signalBodyObject.DontDestroyOnLoad<GameObject>();
             signalBodyObject.AddComponent<SignalBody>();
-            ModHelper.Assets.LoadBundle("assetbundles/castaways_assets1");
-            ModHelper.Assets.LoadBundle("assetbundles/castaways_assets2");
-            ModHelper.Assets.LoadBundle("assetbundles/castaways_assets3");
 
             //Do title screen stuff
             TitleScreenHelper.FirstTimeTitleEdits();

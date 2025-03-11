@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 642668571
+CRC: 2134114402
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a9fea952c305451ace257adad3b1c6b7
+    Hash: a61933c533b20709864ed5decb063315
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 5af8289f90efc6883e30be24c78d1afc
+    Hash: 658240edce21db83fede9884d6bc0a35
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -23,6 +23,8 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 43
   Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
 - Class: 114
   Script: {fileID: 11500000, guid: 505bf95c7870cd0659dac2b264f2d8df, type: 3}
 - Class: 115
@@ -31,6 +33,17 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/Material/Terrain_DB_VineSurface_mat.mat
+- Assets/Nomai Ruins/Resources/Shaders/Standard.asset
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineSurface_o.png
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineSurface_s.png
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineDetail_d.png
 - Assets/Prefabs/titlescreeneffects.prefab
-Dependencies:
-- C:/Users/wesca/NH Asset Bundle Template/outer-wilds-unity-assets-main/StreamingAssets/castaways_assets3
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineThorn_d.png
+- Assets/Prefabs/single_vine.prefab
+- Assets/Materials/environment/darkBramble/terrain/Terrain_DB_VineSurface_d.png
+- Assets/Material/Terrain_DB_VineThorn_mat.mat
+- Assets/Texture3D/Fog_DB_Interior.asset
+- Assets/Texture2D/Terrain_DB_VineSurface_n.png
+- Assets/Texture2D/FogColorRamp_DB.png
+Dependencies: []
