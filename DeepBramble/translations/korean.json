@@ -356,10 +356,10 @@
 
     //core_scanner_broken
     "Ambient gravitational disturbance detected.": "중력 교란이 감지되었습니다.",
-    "Gravitational level negligible.": "중력 무시 가능.",
+    "Gravitational level negligible.": "무중력 감지됨.",
 
     //core_scanner_intact
-    "Gravitational disturbance detected at core.": "코어에서 중력 교란이 감지되었습니다.",
+    "Gravitational disturbance detected at core.": "코어에서 중력 현상이 감지되었습니다.",
     "Gravitational level stable.": "중력 안정적.",
 
     //core_study
@@ -493,7 +493,7 @@
 
     //folly_intro
     "NESIA: This planet appears to be the source of the gravitational anomaly. The signal has been detected in every direction since we entered and, well, there is also the obviously abnormal behavior of the planet.": "네시아: 이 행성이 중력 이상 현상의 근원지로 보입니다. 우리가 진입한 이후 모든 방향에서 신호가 감지되었고, 행성의 비정상적인 행동도 나타나고 있습니다.",
-    "AZOLLA: I am thankful that you noticed this place, it will be an excellent environment to set up a more permanent settlement. In particular, this giant crystal should provide remarkably flat ground for construction.": "아졸라: 이곳을 주목해 주셔서 감사합니다. 이곳은 보다 영구적인 정착지를 세우기에 훌륭한 환경이 될 것입니다. 특히 이 거대한 수정은 건설에 매우 평평한 땅을 제공할 겁니다.",
+    "AZOLLA: I am thankful that you noticed this place, it will be an excellent environment to set up a more permanent settlement. In particular, this giant crystal should provide remarkably flat ground for construction.": "아졸라: 이곳을 주목해 주셔서 감사합니다. 이곳은 보다 영구적인 정착지를 세우기에 훌륭한 환경이 될 것입니다. 특히 이 거대한 수정은 건물을 세우기에 충분히 평평한 땅을 제공할 겁니다.",
     "NESIA: Remember, our ultimate goal is to escape from here, not to establish permanent residence.": "네시아: 우리의 궁극적인 목표는 이곳에서 살아남는 것이 아니라 이곳에서 탈출하는 것임을 기억하세요.",
     "AZOLLA: It may be worthwhile to investigate whether or not this gravitational anomaly may be utilized elsewhere. Suppose it is inherent to the crystal composing the ground?": "아졸라: 이 중력 이상 현상이 다른 곳에서도 활용될 수 있는지 조사해 볼 가치가 있을 것 같습니다. 중력이 행성을 구성하는 결정에 내재되어 있다고 가정해 보면 어떨까요?",
     "NESIA: Hypothesis: If this property is inherent to the material, it may allow us to create constructions in zero gravity environments.": "네시아: 가설: 이 속성이 광물에 내재되어 있다면 무중력 환경에서도 구조물을 만들 수 있을 것입니다.",
@@ -588,11 +588,11 @@
     "NESIA: I must find a way out and tell the others, something tells me that this is a very crucial discovery.": "네시아: 탈출구를 찾아서 다른 친구들에게 알려야 해요, 뭔가 매우 중요한 발견이라는 생각이 들어요.",
 
     //node_dree_part
-    "The part of the Dree will be to commune with the <![CDATA[<color=purple>Bramble</color>]]>, to convince it to grow a distant node that will bring us to our destination. To do this, the <![CDATA[<color=purple>Bramble</color>]]> will be primed for communion, and the Dree themselves will attempt to attune themselves to the signal left behind by the <![CDATA[<color=orange>Eye</color>]]>.": "드리들은 <![CDATA[<color=purple>가시덤불</color>]]>과 교감하여 우리를 목적지로 데려다줄 장거리 노드를 성장시키도록 설득하는 것입니다. 이를 위해 <![CDATA[<color=purple>가시덤불</color>]]>은 교감을 위한 준비를 하고, 드리는 <![CDATA[<color=orange>눈</color>]]>이 남긴 신호에 자신을 조율하려고 시도할 것입니다.",
+    "The part of the Dree will be to commune with the <![CDATA[<color=purple>Bramble</color>]]>, to convince it to grow a distant node that will bring us to our destination. To do this, the <![CDATA[<color=purple>Bramble</color>]]> will be primed for communion, and the Dree themselves will attempt to attune themselves to the signal left behind by the <![CDATA[<color=orange>Eye</color>]]>.": "드리들은 <![CDATA[<color=purple>가시덤불</color>]]>과 교감하여 우리를 목적지로 데려다줄 노드를 성장시키도록 설득하는 것입니다. 이를 위해 <![CDATA[<color=purple>가시덤불</color>]]>은 교감을 위한 준비를 하고, 드리는 <![CDATA[<color=orange>눈</color>]]>이 남긴 신호에 자신을 조율하려고 시도할 것입니다.",
     "This will be the carrier that allows the gate to function.": "이것은 관문이 작동할 수 있도록 하는 운반체가 될 것입니다.",
 
     //node_final_statement
-    "We are the Nomai, and we will no longer wallow in misery at every discovery we cannot make.": "우리는 노마이이며, 더 이상 이루지 못한 발견에 대해 비탄에 빠지지 않을 겁니다.",
+    "We are the Nomai, and we will no longer wallow in misery at every discovery we cannot make.": "우리는 노마이이며, 더 이상 이루지 못한 발견에 대해서 비탄에 빠지지 않을 겁니다.",
     "We are the Dree, and we will not fade to dust while the means to improve our lot is within our grasp.": "우리는 드리이며, 우리의 운명을 개선할 수단이 손안에 있는 한, 먼지로 사라지지 않을 겁니다.",
     "We are the conjoined clan, two species as one. We will go forth unto new wilds together.": "우리는 두 종족이 하나가 된 부족입니다. 우리는 함께 새로운 우주로 나아갈 것입니다.",
 
@@ -660,13 +660,13 @@
     "SENNETTI: Our new friends were not exaggerating, this area is quite hot. I will be quite relieved when we set up the portable life support.": "세네티: 새 친구들의 말이 과장이 아니었어요. 이 지역은 꽤 온도가 높습니다. 이동식 생명 유지 장치를 설치하면 안심할 수 있을 것 같아요.",
     "AZOLLA: I will as well, I fear we would not survive long in this heat otherwise.": "아졸라: 저도 그래요. 아니면 이 더위 속에서 오래 버티지 못할 것 같아요.",
     "OKALIS: Hm, I don't seem to be able to fire my portside thrusters, which is making maneuvering difficult.": "오커러스: 음, 왼쪽 추진기가 작동하기 않는 것 같군요. 움직이기 어려워요.",
-    "NESIA: I seem to have lost vertical thrust. I believe the excessive heat may be interfering with our propulsion systems. I would advise we retreat for the moment.": "네시아: 수직 추진기가 고장난 것 같아요. 과도한 열이 추진 시스템을 방해하는 것 같아요. 당분간 물러나는 게 좋겠습니다.",
+    "NESIA: I seem to have lost vertical thrust. I believe the excessive heat may be interfering with our propulsion systems. I would advise we retreat for the moment.": "네시아: 수직 추진기가 고장난 것 같아요. 과도한 열이 추진 시스템을 방해하는 것 같네요. 당분간은 물러나는 게 좋겠습니다.",
     "OKALIS: ...I actually seem to have lost all thrust, I may require assistance to return.": "오커러스: ...저는 모든 추진력가 고장나서, 돌아가려면 도움이 필요할 것 같습니다.",
-    "AZOLLA: Unfortunately, that seems to be the case for all of us. It seems that we are trapped here, for the time being.": "아졸라: 안타깝게도, 우리 모두가 그런 것 같습니다. 당분간은 여기에 갇힌 것 같습니다.",
+    "AZOLLA: Unfortunately, that seems to be the case for all of us. It seems that we are trapped here, for the time being.": "아졸라: 안타깝게도, 우리 모두가 그런 것 같습니다. 당분간은 여기에 갇힌 것 같군요.",
     "SENNETTI: The temperature here is entirely inhospitable, if we are unable to find a way to propel ourselves soon, we aren't going to make it out!": "세네티: 이곳의 기온은 생존할 수 없는 수준이에요. 빨리 탈출할 방법을 찾지 못하면, 여기서 살아 나갈 수 없을 거예요!",
     "NESIA: Is the heat affecting my vision, or is there movement coming from the entrance?": "네시아: 제가 환각을 보는 건가요, 아니면 입구 방향에서 움직임이 있는 건가요?",
     "OKALIS: There is! It seems our friends have noticed our plight, and have come to retrieve us!": "오커러스: 저기 누군가 있어요! 친구들이 우리의 곤경을 알아채고 우리를 구하러 온 것 같아요!",
-    "DITYLUM: Hey, we noticed that you stopped moving, I thought you were going to go to the surface to set up life support?": "디트룸: 움직이지 않는 거 봤어요. 생명 유지 장치를 설치하러 지상으로 가는거 아니었어요?",
+    "DITYLUM: Hey, we noticed that you stopped moving, I thought you were going to go to the surface to set up life support?": "디트룸: 움직이지 않는 걸 봤어요. 생명 유지 장치를 설치하러 지상으로 가는거 아니었어요?",
     "AZOLLA: We were, but it appears our propulsion systems failed due to the heat.": "아졸라: 그러려고 했지만, 더위로 인해 추진 시스템이 고장 난 것 같네요.",
     "DITYLUM: We told you it was a bad idea to come far in here, weird signal or not. Come on, let's get you out of here.": "디트룸: 신호가 이상하든 아니든, 여기까지 오는 건 좋지 않다고 했잖아요. 어서 여기서 나가자고요.",
     "AZOLLA: Thank you. Once you get us out of here, we should be entirely able to modify our propulsion systems to handle the heat, making our return trip much more successful.": "아졸라: 고마워요. 일단 여기서 나가면, 추진 시스템이 고온에서도 작동할 수 있도록 완전히 개조할 거예요. 그러면 돌아오는 여정이 훨씬 성공적이겠죠 .",
@@ -731,7 +731,7 @@
     "OKALIS: My apologies for the interruption, Nesia, but I am also detecting their signals in that direction.": "오커러스: 방해해서 미안해요, 네시아, 하지만 저 방향으로도 신호가 감지되고 있습니다.",
     "NESIA: Interesting, do you suppose we have arrived back into <![CDATA[<color=orange>Briar's Hollow</color>]]>?": "네시아: 흥미롭네요, 우리가 다시 <![CDATA[<color=orange>가시덤불 공동</color>]]>에 도착한 것 같나요?",
     "OKALIS: I suppose so. How exciting! Even seeing the spatial anomaly from when we first arrived, I never would have expected leaving <![CDATA[<color=orange>Briar's Hollow</color>]]> may bring us directly back into it!": "오커러스: 그런 것 같아요. 정말 신나네요! 처음 도착했을 때만 해도 <![CDATA[<color=orange>가시덤불 공동</color>]]>를 떠나도 바로 돌아올 줄은 꿈에도 몰랐어요!",
-    "NESIA: Suppose this node is recursive in some way? That would explain the curious signal I am detecting coming from it. If it truly is recursive, then this signal may simply be the ambience of this chamber, amplified through multiple passings through this node!": "네시아: 이 노드가 어떤 식으로든 반복적이라고 가정해 봅시다. 그렇다면 제가 감지한 이상한 신호도 설명이 되겠네요. 이 공간이 정말로 반복적이라면 이 신호는 단순히 이 노드를 여러 번 통과하면서 증폭된 이 공동의 소리일 수도 있습니다!",
+    "NESIA: Suppose this node is recursive in some way? That would explain the curious signal I am detecting coming from it. If it truly is recursive, then this signal may simply be the ambience of this chamber, amplified through multiple passings through this node!": "네시아: 이 노드가 어떤 식으로든 반복적이라고 가정해 봅시다. 그렇다면 제가 감지한 이상한 신호도 설명이 되겠네요. 이 공간이 정말로 반복적이라면 신호는 단순히 이 노드를 여러 번 통과하면서 증폭된 이 공동의 소리일 수도 있습니다!",
     "OKALIS: I propose we inform the others of this immediately. A recursive node/dimension pair is certainly an important scientific discovery!": "오커러스: 이 사실을 다른 동료들에게 즉시 알릴 것을 제안합니다. 반복적 노드/차원 쌍은 확실히 중요한 과학적 발견입니다!",
 
     //collapse_hypothesis
@@ -751,11 +751,11 @@
     "DITYLUM: I'm really starting to get desperate now, I've been in here for about a week and nobody is coming. I think it's time, I'm either going to make it across in one piece now, or not at all. Wait, hold on... is that somebody? Four somebodies?! The Nomai! By the <![CDATA[<color=purple>Bramble</color>]]>, they actually figured out a way across!": "디트룸: 이제 정말 절박해지기 시작했어요. 여기 일주일 정도 있었는데 아무도 오지 않았어요. 이제 무사히 건너가던가 아니면 산채로 잡아먹히던가 해야 할 것 같아요. 잠깐만요... 저기 누군가 있나요? 네 명이라고?! 노마이족이야! 오 <![CDATA[<color=purple>가시덤불</color>]]>이시어, 그들이 건너올 방법을 알아냈어!",
 
     //reject_genetics
-    "NESIA: Genetic testing has confirmed my previous suspicion; this node, unlike other nodes, is a distinctly different plant from the <![CDATA[<color=purple>Bramble</color>]]>. The only thing that remains unclear is how this could have occurred.": "네시아: 유전자 검사 결과, 이 노드는 다른 노드와 달리 <![CDATA[<color=purple>가시덤불</color>]]>과는 분명히 다른 식물이라는 것이 제 이전 가설이 확인되었습니다. 다만 어떻게 이런 일이 일어날 수 있었는지가 불분명합니다.",
-    "AZOLLA: Perhaps Karenia could shed light on its origin? She is the head druid of the Dree, so she may be capable of communicating with this node as well.": "아졸라: 카레니아가 그 기원을 밝혀줄 수 있을까요? 그녀는 드리의 수장 드루이드라서 이 노드와도 소통할 수 있을지도 몰라요.",
-    "NESIA: I have tried to bring her here, but anytime she approaches this chamber she recoils and refuses to go nearer. On our first attempt I encouraged her to try and approach more and, after attempting to satisfy my request, she vomited, began spasming, and I was forced to drag her away.": "네시아: 이 공간으로 데려오려고 시도했지만, 이 공간에 다가올 때마다 반발하며 가까이 가기를 거부했습니다. 첫 번째 시도에서 저는 그녀에게 더 가까이 다가가 보라고 권유했고, 제 요청을 들어주려고 시도한 후 그녀는 구토를 하고 경련을 일으키기 시작했고, 저는 그녀를 끌고 돌아갈 수밖에 없었습니다.",
-    "AZOLLA: Goodness. Based on that, it seems to be of the utmost importance that we keep this plant <![CDATA[<i>]]>far away<![CDATA[</i>]]> from the Dree. Fortunately, the node seems to constantly be on the verge of starvation, so I highly doubt we will need to contend with any propagations from it.": "아졸라: 다행이네요. 그런 점에서 이 식물을 드리들에게서 <![CDATA[<i>]]>멀리<![CDATA[</i>]]> 떨어뜨리는 게 가장 중요할 것 같습니다. 다행히도 이 노드는 계속 굶어 죽기 직전인 것 같아서, 이 노드가 성장하는걸 막을 필요는 없어 보여요.",
-    "SENNETTI: Could it simply be a random mutation? Perhaps even something with the strange propagation habits of the <![CDATA[<color=purple>Bramble</color>]]> needs to maintain the possibility of evolution.": "세네티: 단순히 우연한 돌연변이일 수도 있지 않을까요? 아마도 이상한 성장 습관을 가진 <![CDATA[<color=purple>가시덤불</color>]]> 조차도 진화의 가능성을 유지해야 하는 걸지도 모릅니다.",
+    "NESIA: Genetic testing has confirmed my previous suspicion; this node, unlike other nodes, is a distinctly different plant from the <![CDATA[<color=purple>Bramble</color>]]>. The only thing that remains unclear is how this could have occurred.": "네시아: 유전자 검사 결과, 이 노드는 이 공간의 <![CDATA[<color=purple>가시덤불</color>]]>과는 분명히 다른 식물이라는 것이 제 이전 가설이 확인되었습니다. 다만 어떻게 이런 일이 일어날 수 있었는지가 불분명합니다.",
+    "AZOLLA: Perhaps Karenia could shed light on its origin? She is the head druid of the Dree, so she may be capable of communicating with this node as well.": "아졸라: 카레니아가 그 기원을 밝혀줄 수 있을까요? 그녀가 드루이드의 능력으로 이 노드와도 소통할 수 있을지도 몰라요.",
+    "NESIA: I have tried to bring her here, but anytime she approaches this chamber she recoils and refuses to go nearer. On our first attempt I encouraged her to try and approach more and, after attempting to satisfy my request, she vomited, began spasming, and I was forced to drag her away.": "네시아: 그녀를 이 공간으로 데려오려고 시도했지만, 이 공간에 다가올 때마다 반발하며 가까이 가기를 거부했습니다. 첫 번째 시도에서 저는 그녀에게 더 가까이 다가가 보라고 권유했고, 제 요청을 들어주려고 시도한 후 그녀는 구토를 하고 경련을 일으키기 시작했고, 저는 그녀를 끌고 돌아갈 수밖에 없었습니다.",
+    "AZOLLA: Goodness. Based on that, it seems to be of the utmost importance that we keep this plant <![CDATA[<i>]]>far away<![CDATA[</i>]]> from the Dree. Fortunately, the node seems to constantly be on the verge of starvation, so I highly doubt we will need to contend with any propagations from it.": "아졸라: 다행이네요. 이 식물을 드리들에게서 <![CDATA[<i>]]>멀리<![CDATA[</i>]]> 떨어뜨리는 게 가장 중요할 것 같습니다. 다행히도 이 노드는 계속 굶어 죽기 직전인 것 같으니, 이 노드가 성장하는걸 막을 필요는 없어 보입니다.",
+    "SENNETTI: Could it simply be a random mutation? Perhaps even something with the strange propagation habits of the <![CDATA[<color=purple>Bramble</color>]]> needs to maintain the possibility of evolution.": "세네티: 단순히 우연한 돌연변이일 수도 있지 않을까요? 이상한 성장 습관을 가진 <![CDATA[<color=purple>가시덤불</color>]]>조차도 진화의 가능성을 유지해야 하는 걸지도 모릅니다.",
     "NESIA: That is possible, though this would be quite a strange mutation. We are yet to see any nodes with significant mutations, and all others at least have genetic code indicating them to be of the same plant.": "네시아: 그럴 수도 있지만, 이는 매우 이상한 돌연변이입니다. 아직 심각한 돌연변이가 있는 노드는 발견되지 않았고, 다른 모든 노드는 적어도 동일한 식물임을 나타내는 유전자 코드를 가지고 있었습니다.",
     "OKALIS: Perhaps this node did not originate from the <![CDATA[<color=purple>Bramble</color>]]> at all. Is it possible that a similar plant could have inserted a seed into this one?": "오커러스: 아마도 이 노드는 <![CDATA[<color=purple>가시덤불</color>]]>에서 유래한 것이 아닐 수도 있습니다. 비슷한 식물이 씨앗과 합쳐저서 생겼을 가능성이 있을까요?",
     "NESIA: This is possible, but quite alarming. I struggle to imagine the sort of spatial anomalies that multiple plants like the <![CDATA[<color=purple>Bramble</color>]]> could cause.": "네시아: 가능성은 있지만, 상당히 우려스러운 일입니다. <![CDATA[<color=purple>가시덤불</color>]]>과 같은 여러 식물이 모여서 어떤 공간적 변칙을 일으킬지 상상하기 어렵습니다.",
@@ -769,7 +769,7 @@
     "AZOLLA: We all are, but if the Dree believe it to be a significant threat, then I am inclined to be rid of it.": "아졸라: 우리 모두 그렇지만, 드리들이 심각한 위협이라고 판단한다면, 저도 제거해야 한다는 입장입니다.",
 
     //reject_violation
-    "OKALIS: I cannot help but feel unnerved by this place. Even given the nature of the <![CDATA[<color=purple>Bramble</color>]]>, I cannot help but feel this place is... unnatural.": "오커러스: 이곳이 불안하게 느껴집니다. <![CDATA[<color=purple>가시덤불</color>]]>의 특성을 감안하더라도 이곳은 부자연스럽다는 느낌을 지울 수가 없습니다.",
+    "OKALIS: I cannot help but feel unnerved by this place. Even given the nature of the <![CDATA[<color=purple>Bramble</color>]]>, I cannot help but feel this place is... unnatural.": "오커러스: 이곳이 불안하게 느껴집니다. <![CDATA[<color=purple>가시덤불</color>]]>의 특성을 감안하더라도 이곳이 부자연스럽다는 느낌을 지울 수가 없습니다.",
     "NESIA: That may actually be fairly accurate. My analysis of that fluid seems to indicate it is a potent toxin, capable even of killing sections of the <![CDATA[<color=purple>Bramble</color>]]>.": "네시아: 사실 그 말이 꽤 정확한 것 같습니다. 이 액체를 분석한 결과, <![CDATA[<color=purple>가시덤불</color>]]>의 일부까지 죽일 수 있는 강력한 독소인 것 같습니다.",
     "NESIA: Based on our observations and the stories of the Dree, the nature of the <![CDATA[<color=purple>Bramble</color>]]> is not like other plants. Where other plants spread seeds to propagate offspring, our thorny friend spreads seeds to propagate <![CDATA[<i>]]>itself<![CDATA[</i>]]>. This node, however, seems to exist in direct contradiction to that.": "네시아: 우리의 관찰과 드리의 이야기에 따르면 <![CDATA[<color=purple>가시덤불</color>]]>의 특성은 다른 식물과 다릅니다. 다른 식물은 자손을 번식시키기 위해 씨앗을 퍼뜨리지만, <![CDATA[<color=purple>가시덤불</color>]]>은 <![CDATA[<i>]]>자기 자신<![CDATA[</i>]]>을 번식시키기 위해 씨앗을 퍼뜨립니다. 그러나 이 노드는 이와는 정반대의 목적을 위해 존재하고 있는 것 같습니다.",
     "NESIA: In short, this node is <![CDATA[<i>]]>another Bramble<![CDATA[</i>]]>. This is visible not just in its continued production of the toxin, but also in how the rest of the <![CDATA[<color=purple>Bramble</color>]]> is starving it. The implications of this are... unclear, but we should certainly study this plant.": "네시아: 간단히 말해, 이 노드는 <또 다른 <![CDATA[<color=purple>가시덤불</color>]]>>입니다. 이 노드의 지속적인 독소 생산뿐만 아니라, 나머지 <![CDATA[<color=purple>가시덤불</color>]]>이 이 노드를 굶기고 있다는 점을 통해서도 알 수 있습니다. 이것이 의미하는 바는... 불분명하지만, 우리는 확실히 이 식물을 연구해야 합니다.",
@@ -939,7 +939,7 @@
     "AZOLLA: What are you all still doing here? You should be on an escape pod and leaving!": "아졸라: 다들 아직 여기서 뭐 하는 거예요? 탈출 포드를 타고 어서 떠나야 해요!",
     "SENNETTI: We tried, but the pod on the far side of the ship is entirely blocked off. We can not reach it.": "세네티: 시도는 해봤지만, 우주선 반대편에 있는 포드로 가는 길이 막혀 있습니다. 가까이 다가갈 수 없어요.",
     "NESIA: Unfortunately, that seems to also be true of the pod on this side. We seem to be stranded.": "네시아: 안타깝게도 이쪽의 포드도 마찬가지인 것 같습니다. 고립된 것 같군요.",
-    "OKALIS: How are we going to escape from this place? The <![CDATA[<color=orange>Vessel</color>]]> is our only source of oxygen, so we are unable to just fly away from it.": "오커러스: 여기서 어떻게 탈출하죠? <![CDATA[<color=orange>함선</color>]]>이 우리의 유일한 산소 공급원이므로, 그냥 날아서 탈출할 수는 없어요.",
+    "OKALIS: How are we going to escape from this place? The <![CDATA[<color=orange>Vessel</color>]]> is our only source of oxygen, so we are unable to just fly away from it.": "오커러스: 여기서 어떻게 탈출하죠? <![CDATA[<color=orange>함선</color>]]>이 우리의 유일한 산소 공급원이므로, 그냥 날아서 탈출하다가는 질식할 거예요.",
     "AZOLLA: Despite the frightful appearance of our environment, we do not seem to be in any immediate danger. We should regroup on the bridge and come up with a plan from there.": "아졸라: 우리가 처한 환경이 끔찍해 보이기는 하지만, 당장 위험하지는 않은 것 같습니다. 함교에서 전열을 재정비하고 거기서부터 계획을 세워 보도록 하죠."
   },
 
@@ -949,7 +949,7 @@
     "Distant Node Project": "원격 노드 프로젝트",
     "I've heard of some sort of lab that was dedicated to something called the Distant Node Project.": "원격 노드 프로젝트라는 것을 연구하던 연구소에 대해 들어본 적 있다.",
     "Apparently the Nomai were hopeful that the Distant Node Project would allow them to reach the Eye of the Universe.": "노마이는 원격 노드 프로젝트를 통해 우주의 눈에 도달할 수 있기를 바랐던 것 같다.",
-    "Apparently, the quantum rock on Magma's Recursion served some utility for the Distant Node Project.": "마그마의 메아리에 있는 양자 암석은 원격 노드 프로젝트에 어느 정도 유용하게 쓰인 것으로 보인다.",
+    "Apparently, the quantum rock on Magma's Recursion served some utility for the Distant Node Project.": "마그마의 메아리에 있는 양자 암석은 원격 노드 프로젝트에 유용하게 쓰인 것으로 보인다.",
     "I was able to ride a quantum rock from Magma's Recursion to Bramble's Heart.": "마그마의 메아리에서 가시덤불의 심장까지 양자 바위를 타고 이동할 수 있었다.",
     "One of the Dree stated that this area is the heart of the Bramble.": "드리 중 한 명은 이 지역이 가시덤불의 심장부라고 말했다.",
     "The Nomai wanted to combine the Dree's druidcraft with the Eye's signal to force a Bramble node to appear near the Eye of the Universe.": "노마이는 드리의 능력과 우주의 눈의 신호를 결합하여 우주의 눈 근처에 가시덤불 노드가 강제로 나타나게 하려 했다.",
