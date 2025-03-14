@@ -1202,21 +1202,16 @@
     "Hot Shard": "뜨거운 조각",
     "Alien Echolocation": "외계인의 음파 탐지",
     "Geothermal Activity": "지열 활동",
-    "Gravity Crystal": "중력 수정",
+    "Gravity Crystal": "중력 수정", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
     "DeepBramble": "깊은 가시덤불"
   },
   
   "OtherDictionary": {
-    "Gravity Crystal": "중력 수정",
-    "Toxin Injector": "독소 주입기",
-    "WARNING: Excessive Heat Detected": "경고: 치명적 열기 감지됨"
+    "Gravity Crystal": "중력 수정", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
+    "Toxin Injector": "독소 주입기", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
+    "WARNING: Excessive Heat Detected": "경고: 치명적 열기 감지됨" // I don't know it's interner name and It doesn't work, but I'll leave this anyway
     
   },
 
-  "AchievementTranslations": {
-    "Please add manually.": {
-      "Name": "수동으로 추가하세요.",
-      "Description": "수동으로 추가하세요."
-    }
   }
 }
