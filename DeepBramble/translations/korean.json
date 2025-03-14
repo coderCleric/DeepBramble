@@ -635,7 +635,7 @@
     "Warning! The chamber below is flooded with a very flammable gas. It is important that no open flames are brought into the cave, especially those that are particularly intense.": "경고! 아래 동굴에는 인화성이 매우 강한 가스가 가득 차 있습니다. 동굴 안으로 화기, 특히 불을 가져가면 안됩니다.",
 
     //romantic_advice_recording
-    "OKALIS: Nesia, do you mind if I ask a potentially sensitive question? It's about Amylax and I, so I understand if your recent loss is still too sore. I ask because you are the only one of us who has any experience with relationships.": "오커러스: 네시아, 민감한 질문 하나 해도 될까요? 아밀락스와 저에 관한 질문이고, 최근 상실감이 여전히 크신 건 알고 있어요. 하지만 우리 중 연애 경험이 있는 동료는 네시아 말고는 없어요.",
+    "OKALIS: Nesia, do you mind if I ask a potentially sensitive question? It's about Amylax and I, so I understand if your recent loss is still too sore. I ask because you are the only one of us who has any experience with relationships.": "오커러스: 네시아, 민감한 질문 하나 해도 될까요? 아밀락스와 저에 관한 질문이고, 최근 상실감이 여전히 크신 건 알고 있어요. 하지만 우리 중 연애 경험이 있는 동료는 네시아 말고는 없어서 그래요.",
     "NESIA: It is no problem at all, friend. What is your concern?": "네시아: 전혀 문제 없어요. 무슨 걱정이 있으신가요?",
     "OKALIS: I don't know if it is a concern, or... well, I suppose it is a concern, though I struggle to think of any concrete foundation for it. It's just that, while everything seems to be going well between Amylax and I, I cannot help but worry.": "오커러스: 걱정인지 아닌지는 모르겠지만... 음, 아니, 걱정은 맞지만 왜 이런 걱정이 드는지 모르겠어요. 아밀락스와 저 사이에 모든 것이 잘 진행되고 있는 것 같지만, 그래도 걱정하지 않을 수가 없어요.",
     "OKALIS: We are so fundamentally different, Nesia. Not in our interests, but on a very foundational level. We're different species, with different histories and customs, habits and-": "오커러스: 우리는 근본적으로 달라요, 네시아. 이해관계가 아니라 아주 근본적인 수준에서요. 우리는 서로 다른 종족이고 역사와 관습, 습관, 그리고...",
@@ -646,7 +646,7 @@
     "NESIA: You state that you <![CDATA[<i>]]>failed<![CDATA[</i>]]> to understand Amylax, but what I recall is you <![CDATA[<i>]]>struggled<![CDATA[</i>]]> to understand him. It is a somewhat small distinction, but I believe it is important here.": "네시아: 아밀락스를 이해하는 데 <![CDATA[<i>]]>실패했다<![CDATA[</i>]]>고 말씀하셨지만, 제 기억으로는 그를 이해하기 위해 <![CDATA[<i>]]>노력했다<![CDATA[</i>]]>가 더 알맞는 표현이에요. 다소 사소한 차이지만, 중요한 부분이라고 생각합니다.",
     "NESIA: In particular, by struggling to understand him, you were ultimately successful, allowing your relationship to move forward. I hypothesize this will continue to be the case for the both of you, repeatedly struggling to come to an understanding, doing so, and moving forward together because of it. To be honest, it sounds similar to my relationship with Secca.": "네시아: 특히 그를 이해하려고 노력한 결과 결국 성공해서 관계가 발전할 수 있었잖아요? 앞으로도 둘이서 서로를 이해하기 위해 끊임없이 노력하고, 이해하고, 함께 앞으로 나아갈 수 있을 거라고 생각해요. 솔직히 말해서, 저와 세카의 관계와 비슷했던 것 같아요.",
     "OKALIS: How so?": "오커러스: 어떻게요?",
-    "NESIA: Secca and I had many moments where we struggled to come to an understanding. At the start of our relationship, we both thought ourselves quite clever, and it took some time to realize our interpretation of the other's words and actions were not always correct. Over time, we learned to do better, and to struggle to understand each other, as you and Amylax are doing. It took conscious effort to do so, but the mere fact that you came for advice shows you are already committing that effort.": "네시아: 세카와 저는 서로를 이해하는 데 어려움을 겪었던 순간이 많았어요. 연애 초반에는 우리 둘 다 스스로 꽤 똑똑하다고 생각했고, 상대방의 말과 행동에 대한 해석이 항상 옳지 않다는 것을 깨닫는 데 시간이 조금 걸렸었죠. 시간이 지나면서 우리는 서로를 더 잘 대하는 법을 배웠고, 당신과 아밀락스가 하고 있는 것처럼 서로를 이해하기 위해 노력하는 법을 배웠어요. 그러기 위해서는 의식적인 노력이 필요했지만, 조언을 구하러 왔다는 사실만으로도 이미 그런 노력을 기울이고 있다는 것을 알 수 있죠.",
+    "NESIA: Secca and I had many moments where we struggled to come to an understanding. At the start of our relationship, we both thought ourselves quite clever, and it took some time to realize our interpretation of the other's words and actions were not always correct. Over time, we learned to do better, and to struggle to understand each other, as you and Amylax are doing. It took conscious effort to do so, but the mere fact that you came for advice shows you are already committing that effort.": "네시아: 세카와 저는 서로를 이해하는 데 어려움을 겪었던 순간이 많았어요. 연애 초반에는 우리 둘 다 스스로 꽤 똑똑하다고 생각했고, 상대방의 말과 행동에 대한 해석이 항상 옳지 않다는 것을 깨닫는 데 시간이 조금 걸렸었죠. 시간이 지나면서 우리는 서로를 더 잘 대하는 법을 배웠고, 당신과 아밀락스가 하고 있는 것처럼 서로를 이해하기 위해 노력하는 법을 배웠어요. 그러기 위해서는 의식적인 노력이 필요했지만, 조언을 구하러 왔다는 사실만으로도 당신이 이미 그런 노력을 기울이고 있다는 것을 알 수 있죠.",
     "OKALIS: I... I suppose you are correct. We both care deeply for each other, and as you said, we have already proven that we can overcome the barriers of our differences. Thank you Nesia, you have been a great help.": "오커러스: 저는... 당신 말이 맞아요. 우리 둘 다 서로를 깊이 아끼고 있고, 말씀하신 것처럼 우리는 이미 서로 다름의 장벽을 극복할 수 있다는 것을 증명해 냈어요. 네시아, 큰 도움이 되었어요.",
     "NESIA: I am glad. I have an open ear whenever you need to talk.": "네시아: 다행이네요. 다음에도 언제든지 상담해 주세요.",
 
@@ -670,7 +670,7 @@
     "AZOLLA: We were, but it appears our propulsion systems failed due to the heat.": "아졸라: 그러려고 했지만, 더위로 인해 추진 시스템이 고장 난 것 같네요.",
     "DITYLUM: We told you it was a bad idea to come far in here, weird signal or not. Come on, let's get you out of here.": "디트룸: 신호가 이상하든 아니든, 여기까지 오는 건 좋지 않다고 했잖아요. 어서 여기서 나가자고요.",
     "AZOLLA: Thank you. Once you get us out of here, we should be entirely able to modify our propulsion systems to handle the heat, making our return trip much more successful.": "아졸라: 고마워요. 일단 여기서 나가면, 추진 시스템이 고온에서도 작동할 수 있도록 완전히 개조할 거예요. 그러면 돌아오는 여정이 훨씬 성공적이겠죠 .",
-    "DITYLUM: Hah! And here I thought you couldn't tell a joke without the science of it going over my head.": "디트룸: 하! 과학적 지식 없이는 농담도 못하는 줄 알았어요.",
+    "DITYLUM: Hah! And here I thought you couldn't tell a joke without the science of it going over my head.": "디트룸: 하! 과학적 지식 없이는 농담도 못하시는 줄 알았어요.",
     "DITYLUM: By the <![CDATA[<color=purple>Bramble</color>]]>, you're serious aren't you...": "디트룸: 맙소사 <![CDATA[<color=purple>가시덤불</color>]]>, 너 정말 진지한 성격이구나...",
 
     //fish_rock_legend
@@ -682,7 +682,7 @@
     "NESIA: What an interesting tale! Why do you suppose the mother behaved like that? Are the fish unable to distinguish between organic and inorganic prey?": "네시아: 정말 흥미로운 이야기네요! 어미가 왜 그렇게 행동했다고 생각하시나요? 물고기는 살아있는 먹이와 살아있지 않은 먹이를 구분할 수 없는 걸까요?",
     "OKALIS: An interesting hypothesis, Nesia! I would love to test it, if it were not for the fact our friends would likely not appreciate us feeding rocks to their fish.": "오커러스: 흥미로운 가설이네요, 네시아! 우리 친구들이 물고기에게 돌을 먹이는 것을 좋아하지 않을 것 같다는 사실만 아니었다면 저도 시험해 보고 싶어요.",
     "NESIA: It was certainly a miscalculation on my part.": "네시아: 확실히 제가 잘못 생각했네요.",
-    "OKALIS: I sincerely hope that this turns out to be a story of triumph, rather than one of starvation!": "오커러스: 굶주림의 이야기가 아니라 승리의 이야기가 되기를 진심으로 바랍니다!",
+    "OKALIS: I sincerely hope that this turns out to be a story of triumph, rather than one of starvation!": "오커러스: 이 이야기가 굶주림의 이야기가 아니라 승리의 이야기로 끝나기를 진심으로 바랍니다!",
 
     //hot_planet_intro_recording
     "AZOLLA: Is everybody alright?": "아졸라: 다들 괜찮아요?",
@@ -803,7 +803,7 @@
     "OKALIS: This is wonderful, Sennetti! Now we can begin communicating with them in earnest!": "오커러스: 정말 멋져요, 세네티! 이제 본격적으로 소통을 시작할 수 있겠네요!",
     "AZOLLA: I must agree, this is certain to mark a significant turning point in our communications with the Dree.": "아졸라: 이번 일은 드리와의 소통에 있어 중요한 전환점이 될 것이 분명합니다.",
     "NESIA: To complete a translation of such scale so quickly is very impressive, well done Sennetti!": "네시아: 이 정도 규모의 번역을 이렇게 빨리 완료한 것은 매우 인상적인 일입니다, 수고하셨습니다.",
-    "NESIA: Unfortunately, I struggle to imagine how this will help us communicate with the Dree. They cannot read our messages without eyes, after all.": "네시아: 안타깝게도 이 방법이 드리와 소통하는 데 어떤 도움이 될지 모르겠습니다. 결국 그들은 눈이 없으면 우리의 글을 읽을 수 없으니까요.",
+    "NESIA: Unfortunately, I struggle to imagine how this will help us communicate with the Dree. They cannot read our messages without eyes, after all.": "네시아: 안타깝게도 이 방법이 드리와 소통하는 데 어떤 도움이 될지 모르겠습니다. 그들에게는 우리의 글을 읽을 수 있는 눈이 없으니까요.",
     "SENNETTI: They can, actually. It seems they are able to detect the differences in the materials via echolocation, allowing them to \"read\" our writing.": "세네티: 사실 가능합니다. 그들은 반향음을 통해 표면의 차이를 감지하여 우리의 글을 \"읽을\" 수 있는 것 같습니다.",
 
     //domestic_fish_reveal
@@ -817,7 +817,7 @@
     //species_name_reveal
     "SENNETTI: Exciting news friends! I have made significant progress towards deciphering the language of our new neighbors!": "세네티: 신나는 소식입니다, 친구 여러분! 새로운 이웃의 언어를 해독하는 데 상당한 진전을 이루었습니다!",
     "NESIA: If you do not mind my asking, what particulars of their language have you decrypted?": "네시아: 질문해도 괜찮다면, 그들의 언어 중 어떤 부분을 해독하셨나요?",
-    "SENNETTI: Mostly common words, such as \"and\" and \"the.\" Notably, however, I have also deciphered certain names! Specifically, the species refer to themselves as the Dree, and the Dree I have been working with is known as Ditylum!": "세네티: \"그리고\", \"이것\"와 같은 일반적인 단어가 대부분이었어요. 하지만 주목할 만한 것은 몇몇 이름도 해독했다는 점입니다! 특히 이 종족은 스스로를 \"드리\"라고 부르는데, 저와 함께 작업했던 드리의 이름은 \"디트룸\"이에요!",
+    "SENNETTI: Mostly common words, such as \"and\" and \"the.\" Notably, however, I have also deciphered certain names! Specifically, the species refer to themselves as the Dree, and the Dree I have been working with is known as Ditylum!": "세네티: \"그리고\", \"이것\"와 같은 일반적인 단어가 대부분이었어요. 하지만 몇몇 이름들도 해독했어요! 특히 이 종족은 스스로를 \"드리\"라고 부르는데, 저와 함께 작업했던 드리의 이름은 \"디트룸\"이에요!",
     "AZOLLA: Good work Sennetti! At this rate, we'll be able to share discoveries with the Dree before too long.": "아졸라: 잘했어요, 세네티! 이 속도라면 머지않아 드리와 발견한 내용을 공유할 수 있을 거예요.",
     "OKALIS: This is wonderful news Sennetti! Does this mean there will be fewer obstacles in the way of communication?": "오커러스: 멋진 소식이네요, 세네티! 소통을 방해하는 장애물이 줄어든다는 뜻인가요?",
     "SENNETTI: Somewhat, but I am still far from completing my translation.": "세네티: 어느 정도는 그렇지만, 아직 번역이 끝나기에는 멀었어요.",
@@ -866,7 +866,7 @@
     "Do you regret meeting the Nomai?": "노마이를 만난 것을 후회하시나요?",
     "I'm sorry about what happened to your people.": "당신 종족에게 일어난 일은 유감이에요.",
     "Did you ever get to see the stars?": "별을 본 적이 있나요?",
-    "Nobody else here has much to say, why do you?": "여기 다른 친구들은 딱히 할 말이 없는데, 당신은 왜 말이 많나요?",
+    "Nobody else here has much to say, why do you?": "여기 다른 친구들은 말이 없는데, 당신은 왜 말이 많나요?",
     "About the song...": "노래에 대해서...",
     "I'll be back in a second.": "금방 돌아올게요.",
     "I don't think so. Seeing how it ended, it would be easy to say that we never should have met them, that, if it weren't for those four, my species might still be alive.": "전 그렇게 생각하지 않아요. 결말을 보면, 우리가 그들을 만나지 말았어야 했다고, 그 네 명만 아니었으면 저희 종족은 아직 살아있었을 거라고 말하기 쉬울거예요.",
@@ -1071,7 +1071,7 @@
     
     "Translations": "번역",
     "The Nomai in charge of the translations, Sennetti, determined that the aliens referred to themselves as the Dree.": "번역을 담당한 노마이는 외계인들이 스스로를 드리라고 부른다고 판단했다.",
-    "Sennetti worked heavily with a Dree who referred to himself as Ditylum, who was also the first Dree that the Nomai encountered.": "세네티는 자신을 디트룸이라고 부르는 드리와 많은 작업을 했는데, 이 드리는 노마이가 처음 만난 드리이기도 합니다.",
+    "Sennetti worked heavily with a Dree who referred to himself as Ditylum, who was also the first Dree that the Nomai encountered.": "세네티는 자신을 디트룸이라고 부르는 드리와 많은 작업을 했는데, 이 드리는 노마이가 처음 만난 드리이기도 하다.",
     "The Dree referred to this whole area as the Deep Bramble, and the plant itself simply as the Bramble.": "드리들은 이 지역 전체를 깊은 가시덤불이라고 불렀고, 식물 자체는 단순히 가시덤불이라고 불렀다.",
     "Apparently the Dree are talented in druidcraft, giving them some level of influence over the Bramble.": "드리들은 자연과 교감하는 능력에 재능이 있어, 가시덤불에 어느 정도 영향력을 행사할 수 있는 것으로 보인다.",
     "My translator was able to download a Dree dictionary that Sennetti translated.": "내 번역기에 세네티가 번역한 드리 언어 사전을 다운로드할 수 있었다.",
@@ -1094,7 +1094,7 @@
     "I found a massive lump on the wall of the Bramble. It seems to have grown out from the wall, with no way around.": "가시덤불의 벽에서 거대한 덩어리를 발견했다. 벽에서 자라난 것처럼 보이고, 주변에 들어갈 수 있는 구멍은 없어 보인다.",
     "I was able to find my way into a strange, enclosed space. There seems to be a Bramble node tucked away inside.": "가시덤불 공동 중앙의 노드를 통해 밀폐된 공간으로 들어갈 수 있었다. 덩어리 내부에 가시덤불 노드가 숨어 있었다.",
     "Recursive Node": "반복 노드",
-    "Supposedly, there is a node at the center of Briar's Hollow that leads into itself.": "소문으로는, 가시덤불 공동의 중앙에 다시 가시덤불 공동으로 노드가 있다고 한다.",
+    "Supposedly, there is a node at the center of Briar's Hollow that leads into itself.": "가시덤불 공동의 중앙에 다시 가시덤불 공동으로 노드가 있다고 한다.",
     "I found a node at the center of Briar's Hollow that leads recursively into itself.": "가시덤불 공동의 중앙에서 다시 가시덤불 공동으로 돌아오는 노드를 발견했다.",
     "I was able to pick up an amplified ambience signal on the \"Natural Phenomena\" frequency.": "\"자연 현상\" 주파수에서 증폭된 신호를 포착할 수 있었다.",
 
@@ -1182,19 +1182,19 @@
     "A recorder on the bridge told me that the stranded Nomai made a plan to try to warp out of Dark Bramble. I should be able to find more about their experiment in the lower bridge.": "함교에 있는 녹음기에는 고립된 노마이들이 검은 가시덤불에서 워프를 시도할 계획을 세웠다고 녹음되어 있다. 함교 아래 공간에서 그들의 실험에 대해 더 자세히 알아볼 수 있을 것이다.",
     "A recorder on the lower bridge detailed how the Nomai were able to make a black hole that should have allowed them to escape Dark Bramble.": "함교 아래의 기록 장치에는 노마이가 블랙홀을 만들어 검은 가시덤불을 탈출할 수 있었는지 자세히 기록되어 있다.",
     "I found a strange Nomai device in the lower bridge. The device has a small, broken warp core in it.": "함교 아래에서 이상한 노마이 장치를 발견했다. 장치 안에는 부서진 작은 워프 코어가 들어 있었다.",
-    "I was able to use a warp core to activate the makeshift warp device. When I went through, my suit was able to record the signature of the black hole so that the interstellar drive on my ship can take me to the other system.": "워프 코어를 이용해 임시 워프 장치를 작동시킬 수 있었다. 내가 통과했을 때 내 우주복은 블랙홀의 신호를 기록하여 우주선의 워프 드라이브가 다른 시스템으로 워프할 수 있도록 했다.",
-    
+    "I was able to use a warp core to activate the makeshift warp device. When I went through, my suit was able to record the signature of the black hole so that the interstellar drive on my ship can take me to the other system.": "워프 코어를 이용해 임시 워프 장치를 작동시킬 수 있었다. 블랙홀을 통과했을 때 내 우주복은 블랙홀의 신호를 기록하여 우주선의 워프 드라이브가 다른 공간으로 워프할 수 있도록 했다.",
     
   },
 
   "UIDictionary": {
     "Ditylum": "디트룸",
+    "DeepBramble": "깊은 가시덤불", // it is not typo.
     "Graviton's Folly": "중력의 어리석음",
     "Nomai Trailmarkers": "노마이 신호기",
     "First Marker": "첫 번째 신호기",
     "Camp Marker": "야영지 신호기",
     "Natural Phenomena": "자연 현상",
-    "Amplified Ambience": "증폭된 주변 소리",
+    "Amplified Ambience": "증폭된 소리",
     "Gravitational Anomaly": "중력 이상현상",
     "Echolocation Tones": "음파 소리",
     "Warped Echolocation": "왜곡된 음파",
@@ -1202,17 +1202,24 @@
     "Hot Shard": "뜨거운 조각",
     "Alien Echolocation": "외계인의 음파 탐지",
     "Geothermal Activity": "지열 활동",
+    
     "Gravity Crystal": "중력 수정", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
-    "DeepBramble": "깊은 가시덤불",
-    "gasNotification": "경고: 가연성 가스 감지됨",
-    "heatNotification": "경고: 치명적 열기 감지됨"
+    "Toxin Injector": "독소 주입기", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
+
+    "WARNING: FLAMMABLE GAS DETECTED": "경고: 가연성 가스 감지됨", // these four things don't work, maybe gonna work with 'nh.GetTranslationForOtherText'
+    "WARNING: EXCESSIVE HEAT DETECTED": "경고: 치명적 열기 감지됨", 
+    "RECALL REQUEST UNACKNOWLEDGED": "정찰기 응답 없음",
+    "SCOUT RECALL COMPLETED": "정찰기 회수 완료"
   },
   
   "OtherDictionary": {
     "Gravity Crystal": "중력 수정", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
     "Toxin Injector": "독소 주입기", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
-    "heatNotification": "경고: 치명적 열기 감지됨", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
-    "gasNotification": "경고: 가연성 가스 감지됨"
+
+    "WARNING: FLAMMABLE GAS DETECTED": "경고: 가연성 가스 감지됨", // these four things don't work, maybe gonna work with 'nh.GetTranslationForOtherText'
+    "WARNING: EXCESSIVE HEAT DETECTED": "경고: 치명적 열기 감지됨", 
+    "RECALL REQUEST UNACKNOWLEDGED": "정찰기 응답 없음",
+    "SCOUT RECALL COMPLETED": "정찰기 회수 완료"
     
   },
 
