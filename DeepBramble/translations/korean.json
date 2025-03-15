@@ -1202,26 +1202,17 @@
     "Hot Shard": "뜨거운 조각",
     "Alien Echolocation": "외계인의 음파 탐지",
     "Geothermal Activity": "지열 활동",
-    
-    "Gravity Crystal": "중력 수정", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
-    "Toxin Injector": "독소 주입기", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
 
-    "WARNING: FLAMMABLE GAS DETECTED": "경고: 가연성 가스 감지됨", // these four things don't work, maybe gonna work with 'nh.GetTranslationForOtherText'
-    "WARNING: EXCESSIVE HEAT DETECTED": "경고: 치명적 열기 감지됨", 
+    "Gravity Crystal": "중력 수정", 
+    "Toxin Injector": "독소 주입기", 
+
+    "WARNING: FLAMMABLE GAS DETECTED": "경고: 가연성 가스 감지됨",
+    "WARNING: EXCESSIVE HEAT DETECTED": "경고: 치명적 열기 감지됨",
     "RECALL REQUEST UNACKNOWLEDGED": "정찰기 응답 없음",
-    "SCOUT RECALL COMPLETED": "정찰기 회수 완료"
-  },
-  
-  "OtherDictionary": {
-    "Gravity Crystal": "중력 수정", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
-    "Toxin Injector": "독소 주입기", // I don't know it's interner name and It doesn't work, but I'll leave this anyway
+    "SCOUT RECALL COMPLETED": "정찰기 회수 완료",
 
-    "WARNING: FLAMMABLE GAS DETECTED": "경고: 가연성 가스 감지됨", // these four things don't work, maybe gonna work with 'nh.GetTranslationForOtherText'
-    "WARNING: EXCESSIVE HEAT DETECTED": "경고: 치명적 열기 감지됨", 
-    "RECALL REQUEST UNACKNOWLEDGED": "정찰기 응답 없음",
-    "SCOUT RECALL COMPLETED": "정찰기 회수 완료"
-    
+    "Signal: ": "tmp",                          //Please fill in this value
+    "<!> Untranslated Dree writing <!>": "tmp"  //Please fill in this value
   }
-
-  }
+}
 

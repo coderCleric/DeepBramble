@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NewHorizons.Handlers;
+using UnityEngine;
 
 namespace DeepBramble.BaseInheritors
 {
@@ -20,7 +21,7 @@ namespace DeepBramble.BaseInheritors
          */
         public override string GetDisplayName()
         {
-            return "Toxin Injector";
+            return TranslationHandler.GetTranslation("Toxin Injector", TranslationHandler.TextType.UI);
         }
 
         /**
