@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NewHorizons.Handlers;
+using UnityEngine;
 
 namespace DeepBramble.Triggers
 {
@@ -7,7 +8,7 @@ namespace DeepBramble.Triggers
         private static JetpackThrusterModel playerPack;
         public static GameObject baseExplosion;
 
-        private NotificationData gasNotification = new NotificationData(NotificationTarget.Player, "WARNING: FLAMMABLE GAS DETECTED");
+        private NotificationData gasNotification = new NotificationData(NotificationTarget.Player, TranslationHandler.GetTranslation("WARNING: FLAMMABLE GAS DETECTED", TranslationHandler.TextType.UI));
         private BaseInheritors.PlayerExplosionController explosionController;
         private bool playerIn = false;
         private bool shouldExplode = false;

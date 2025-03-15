@@ -10,6 +10,7 @@ using System.Reflection.Emit;
 using System.Reflection;
 using NewHorizons.Components.ShipLog;
 using NewHorizons.Utility.Files;
+using NewHorizons.Handlers;
 
 namespace DeepBramble
 {
@@ -34,7 +35,7 @@ namespace DeepBramble
 
         //Needed for hot node hazard
         private static bool heatNotifPosted = false;
-        private static NotificationData heatNotification = new NotificationData(NotificationTarget.Player, "WARNING: EXCESSIVE HEAT DETECTED");
+        private static NotificationData heatNotification = null;
 
         //Dictionaries of dimension and node speeds
         private static Dictionary<string, float> enterSpeeds = new Dictionary<string, float> {
@@ -464,7 +465,7 @@ namespace DeepBramble
             {
                 if (DeepBramble.recallTimer == -999)
                     DeepBramble.recallTimer = 10;
-                NotificationData data = new NotificationData(NotificationTarget.All, "RECALL REQUEST UNACKNOWLEDGED");
+                NotificationData data = new NotificationData(NotificationTarget.All, TranslationHandler.GetTranslation("RECALL REQUEST UNACKNOWLEDGED", TranslationHandler.TextType.UI));
                 NotificationManager.SharedInstance.PostNotification(data);
                 Locator.GetShipLogManager().RevealFact("SCOUT_DELAY_RUMOR_FC");
                 return false;
@@ -553,7 +554,9 @@ namespace DeepBramble
             else if(!heatNotifPosted && isPlayerDetector && inSpecialHazard)
             {
                 heatNotifPosted = true;
-                if(NotificationManager.SharedInstance.IsPinnedNotification(heatNotification))
+                if(heatNotification == null)
+                    heatNotification = new NotificationData(NotificationTarget.Player, TranslationHandler.GetTranslation("WARNING: EXCESSIVE HEAT DETECTED", TranslationHandler.TextType.UI));
+                if (NotificationManager.SharedInstance.IsPinnedNotification(heatNotification))
                     NotificationManager.SharedInstance.UnpinNotification(heatNotification);
                 NotificationManager.SharedInstance.PostNotification(heatNotification, true);
             }
@@ -608,7 +611,7 @@ namespace DeepBramble
             if(flag && __instance._translationTimeElapsed == 0f && Locator.GetShipLogManager().IsFactRevealed("TRANSLATOR_UPGRADE_FACT_FC") 
                 && !__instance._nomaiTextComponent.IsTranslated(__instance._currentTextID))
             {
-                __instance._textField.text = "<!> Untranslated Dree writing <!>";
+                __instance._textField.text = TranslationHandler.GetTranslation("<!> Untranslated Dree writing <!>", TranslationHandler.TextType.UI);
             }
         }
 
@@ -1005,7 +1008,7 @@ namespace DeepBramble
             Transform p = __instance.GetOWRigidBody().transform.parent;
             if(p != null && p.GetComponent<AudioSignal>() != null)
             {
-                __result = "Signal: " + AudioSignal.SignalNameToString(p.GetComponent<AudioSignal>().GetName());
+                __result = TranslationHandler.GetTranslation("Signal: ", TranslationHandler.TextType.UI) + AudioSignal.SignalNameToString(p.GetComponent<AudioSignal>().GetName());
             }
         }
 

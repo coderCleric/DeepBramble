@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using NewHorizons.Handlers;
 
 namespace DeepBramble.BaseInheritors
 {
@@ -68,7 +69,7 @@ namespace DeepBramble.BaseInheritors
          */
         public override string GetDisplayName()
         {
-            return "Gravity Crystal";
+            return TranslationHandler.GetTranslation("Gravity Crystal", TranslationHandler.TextType.UI);
         }
 
         /**

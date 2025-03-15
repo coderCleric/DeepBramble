@@ -12,6 +12,7 @@ using DeepBramble.MiscBehaviours;
 using DeepBramble.Ditylum;
 using DeepBramble.Helpers;
 using NewHorizons.Utility;
+using NewHorizons.Handlers;
 
 namespace DeepBramble
 {
@@ -178,7 +179,7 @@ namespace DeepBramble
             else if(recallTimer <= 0 && recallTimer > -999)
             {
                 Locator.GetProbe().ExternalRetrieve(silent: true);
-                NotificationData data = new NotificationData(NotificationTarget.All, "SCOUT RECALL COMPLETED");
+                NotificationData data = new NotificationData(NotificationTarget.All, TranslationHandler.GetTranslation("SCOUT RECALL COMPLETED", TranslationHandler.TextType.UI));
                 NotificationManager.SharedInstance.PostNotification(data);
                 recallTimer = -999;
             }
@@ -299,7 +300,7 @@ namespace DeepBramble
 
                 Locator._shipBody.SetPosition(point);
             }
-            
+
             /*
             //Load the post-credit scene
             if (!manualLoadEnd && Keyboard.current[Key.Backslash].wasPressedThisFrame)

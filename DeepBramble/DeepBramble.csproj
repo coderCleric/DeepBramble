@@ -37,6 +37,9 @@
 		<None Include="systems\**">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
+      <None Include="translations\**">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
     <ItemGroup>
         <Content Include="DeepBramble.csproj.user" />
