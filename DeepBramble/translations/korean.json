@@ -1211,8 +1211,8 @@
     "RECALL REQUEST UNACKNOWLEDGED": "정찰기 응답 없음",
     "SCOUT RECALL COMPLETED": "정찰기 회수 완료",
 
-    "Signal: ": "tmp",                          //Please fill in this value
-    "<!> Untranslated Dree writing <!>": "tmp"  //Please fill in this value
+    "Signal: ": "신호: ",                          
+    "<!> Untranslated Dree writing <!>": "<!> 번역되지 않은 드리 글<!>" 
   }
 }
 
