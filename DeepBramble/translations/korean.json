@@ -344,7 +344,7 @@
 
     //core_combo_hint
     "SENNETTI: I have not yet had the chance to visit the gravity core at the center of the crystal. Would somebody be willing to remind me what sequence of levers need to be turned on to reach the center?": "세네티: 아직 수정의 중심부에 있는 중력 코어를 방문할 기회가 없었습니다. 중심부에 도달하려면 어떤 순서로 레버를 켜야 하는지 알려주실 수 있나요?",
-    "OKALIS: Of course! If I remember correctly, all of the levers should be on, except for the second and the second-to-last.": "오커러스: 물론이죠! 제 기억이 맞다면 두 번째와 두 번째에서 마지막 레버를 제외한 모든 레버가 켜져 있어야 합니다.",
+    "OKALIS: Of course! If I remember correctly, all of the levers should be on, except for the second and the second-to-last.": "오커러스: 물론이죠! 제 기억이 맞다면 두 번째와 다섯 번째 레버를 제외한 모든 레버가 켜져 있어야 합니다.",
     "SENNETTI: Thank you Okalis! May I ask why you wrote that in their language though? I find it unlikely any of our new friends will visit this planet. It is my understanding the inverted gravity makes them quite uncomfortable.": "세네티: 고마워요, 오커러스! 그런데 왜 그들의 언어로 썼는지 물어봐도 될까요? 우리의 새로운 친구들이 이 행성을 방문할 가능성은 거의 없을 것 같거든요. 거꾸로 된 중력이 그들을 상당히 불편하게 만든다고 알고 있어요.",
     "OKALIS: Of course! I am attempting to gain practice with their language, as I am preparing to make a more proper response to the gift Amylax left in my home.": "오커러스: 물론이죠! 아밀락스가 제 집에 두고 간 선물에 대해 조금 더 적절한 대응을 하기 위해 그들의 언어를 연습하고 있어요.",
 
@@ -998,7 +998,7 @@
     "These fish are the main source that the aliens have for eggs.": "이 물고기들은 외계인들이 알을 얻기 위한 주요 공급원이다.",
     "The Nomai observed that the aliens seemed reluctant to take risks, even if it may improve their situation.": "노마이는 외계인들이 상황을 나아지게 만들 수 있더라도, 위험을 감수하기를 꺼리는 것 같다고 관찰했다.",
 
-    "Enzyme Lab": "효소 실험실",
+    "Enzyme Lab": "효소 연구소",
     "I read about somewhere called the Enzyme Lab in the mouth of one of the domesticated fish. The Nomai decided to go there to discuss how to save someone named Ditylum.": "길들여진 물고기의 입 속에 효소 연구소가 있다는 글을 읽었다. 노마이는 디트룸이라는 드리를 구할 방법을 논의하기 위해 그곳에 가기로 결정했다.",
     "Apparently the lab can only be safely entered once the eye of the anglerfish has been pet.": "아귀의 눈을 쓰다듬어야만 실험실에 안전하게 들어갈 수 있다고 한다.",
     "The Nomai decided to use an anglerfish named Kevin to cross the Nursery. To make sure that it would carry them back, they trained it to react to being hit in the eye with a small object.": "노마이는 케빈이라는 이름의 아귀를 이용해 보육원을 건너기로 결정했다. 노마이는 아귀가 다시 돌아올 수 있도록 케빈이 작은 물체에 눈을 맞았을 때 반응하도록 훈련시켰다.",
