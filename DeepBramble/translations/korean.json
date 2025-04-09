@@ -23,8 +23,8 @@
 
     //after_first_stakeout
     "OKALIS: Oh my goodness! I was hiding behind one of the trees on the upper ring, and observed one of the campsite occupants return!": "오커러스: 세상에! 저는 위쪽 고리의 나무 뒤에 숨어 있었는데, 야영지를 이용하는 외계인 중 한 명이 돌아오는 걸 봤어요!",
-    "NESIA: Did they see you as well? If they did, then how did they react?": "네시아: 그들도 당신을 보았나요? 봤다면 어떤 반응을 보였나요?",
-    "OKALIS: They did not notice me at first. However, when I moved out from behind the tree to try and make contact, they turned toward me before fleeing. Notably, they appeared to swim through the air using the webbing on their hands and feet!": "오커러스: 처음에는 저를 알아채지 못했어요. 하지만 제가 접촉을 시도하기 위해 나무 뒤에서 움직였더니 제 쪽으로 고개를 돌린 다음 도망쳤어요. 특히 손과 발에 있는 수막을 이용해서 공중을 헤엄치는 것처럼 보였어요!",
+    "NESIA: Did they see you as well? If they did, then how did they react?": "네시아: 그들도 당신을 보았나요? 어떤 반응을 보였죠?",
+    "OKALIS: They did not notice me at first. However, when I moved out from behind the tree to try and make contact, they turned toward me before fleeing. Notably, they appeared to swim through the air using the webbing on their hands and feet!": "오커러스: 처음에는 저를 알아채지 못했어요. 하지만 제가 접촉을 시도하기 위해 나무 뒤에서 움직였더니, 제 쪽으로 고개를 돌린 다음 도망쳤어요. 특히 손과 발에 있는 수막을 이용해서 공중에서 헤엄치는 것처럼 보였어요!",
     "NESIA: Very interesting, especially given your note that they did not appear to have eyes. Did they seem to have any obvious reason for returning?": "네시아: 눈이 없는 것 같았다니 흥미롭네요. 그들이 이곳으로 돌아온 이유가 있는 것처럼 보였나요?",
     "OKALIS: Actually, they appeared to be looking for something. I believe that they found it just before I showed myself, but dropped it as they left. It appears to be some sort of painted tablet. Perhaps I should attempt to return it to them?": "오커러스: 사실 그들은 무언가를 찾고 있는 것처럼 보였어요. 제가 나타나기 직전에 발견한 것 같지만 떠나면서 떨어뜨린 것 같았어요. 무언가를 적은 석판 같은 물건이었어요. 이걸 돌려줘야 할까요?",
     "AZOLLA: While we had previously decided that it was best to not initiate contact, the fact that they did not attack you seems to indicate they are not hostile. Because of this, it may be best for you to return the item.": "아졸라: 이전에는 접촉을 피하는 것이 최선이라고 판단했지만, 당신을 공격하지 않은 것으로 보아하니 적대적이지 않은 것으로 보입니다. 따라서 물건을 돌려주는 것이 최선일 수 있습니다.",
@@ -66,8 +66,8 @@
     "SENNETTI: How strange, what was the space like?": "세네티: 정말 이상하네요. 그 공간은 어땠나요?",
     "OKALIS: It seemed to be a completely overgrown entrance to <![CDATA[<color=orange>Briar's Hollow</color>]]>. They beckoned me through another node, although I did not follow them through for fear of being unable to find my way back.": "오커러스: <![CDATA[<color=orange>가시덤불 공동</color>]]>의 입구는 완전히 무성하게 자란 것 같았어요. 그들은 다른 노드를 향해 저에게 손짓했지만, 돌아오는 길을 찾을 수 없을까 봐 따라가지 않았습니다.",
     "AZOLLA: If a member of this other species desires for us to follow them, it may be worthwhile to do so. They have demonstrated they are not hostile, and they may know how to escape from this place.": "아졸라: 이 다른 종족의 구성원이 우리가 그들을 따라가길 원한다면, 그렇게 하는 게 좋을지도 모릅니다. 그들은 적대적이지 않다는 걸 보여줬고, 이곳을 탈출하는 방법을 알고 있을지도 모르니까요.",
-    "NESIA: I have passed through the knot you speak of, but I have never arrived anywhere that sounds similar to what you describe.": "네시아: 저도 말씀하신 노드를 통과한 적이 있지만, 말씀하신 것과 비슷한 곳에 도착한 적은 없습니다.",
-    "OKALIS: It confuses me as well, Nesia. I am unsure of how to access that area again.": "오커러스: 저도 혼란스러워요, 네시아. 그 공간ㄹ에 다시 접근하는 방법을 잘 모르겠어요.",
+    "NESIA: I have passed through the knot you speak of, but I have never arrived anywhere that sounds similar to what you describe.": "네시아: 저도 말씀하신 노드를 통과한 적이 있지만, 말씀하신 것과 비슷한 곳에 도착한 적은 없어요.",
+    "OKALIS: It confuses me as well, Nesia. I am unsure of how to access that area again.": "오커러스: 저도 혼란스러워요, 네시아. 그 공간에 다시 접근하는 방법을 잘 모르겠어요.",
     "NESIA: I have a hypothesis. I have noted that the hole one uses to enter that central knot lines up with where they will re-enter this larger area. If we can locate the exterior of the enclosure that you speak of, we may be able to find the hole that will lead us into it.": "네시아: 저에게 가설이 있습니다. 중앙 노드로 들어가기 위해 사용하는 노드가 우리가 있는 장소로 다시 돌어가는 노드와 일치한다는 점에 주목해 보죠. 말씀하신 밀폐된 공간의 외부를 찾을 수 있다면 그 안으로 들어갈 수 있는 구멍을 찾을 수 있을 것입니다.",
     "I don't understand your strange language, but I hope that you may know mine. Follow where I lead and find us. It may be only a feeling, but I think that our species are fated to meet.": "저는 당신들의 이상한 언어를 이해하지 못하지만, 당신들이 제 언어를 알아주길 바랍니다. 제가 이끄는 곳으로 따라가면 저희를 찾을 수 있어요. 단순히 느낌일지도 모르지만, 우리 종족은 만날 운명이었던 것 같아요.",
     "OKALIS: Is this our new friend's writing? How exciting! Sennetti, are you able to understand what they have said?": "오커러스: 이게 우리 새 친구의 글인가요? 정말 신나네요! 세네티, 무슨 말인지 알아들을 수 있겠나요?",
@@ -75,7 +75,7 @@
 
     //sl_cracked_crystal
     "SENNETTI: During my most recent trip to the <![CDATA[<color=orange>Eye Signal Lab</color>]]> on <![CDATA[<color=orange>Magma's Recursion</color>]]>, I noticed that one of the gravity crystals had fallen from its mount and cracked. Due to the high cost of production for these crystals, it may be worthwhile to develop a means by which they can be repaired. I have brought the crystal here for study.": "세네티: 최근 <![CDATA[<color=orange>마그마의 메아리</color>]]>에 관한 <![CDATA[<color=orange>우주의 눈 신호 연구소</color>]]>를 방문했을 때 중력 결정 중 하나가 구멍에서 떨어져 금이 간 것을 발견했습니다. 이 수정의 생산 비용이 높기 때문에 수정을 수리할 수 있는 수단을 개발하는 것이 좋을 것 같습니다. 연구를 위해서 그 수정을 이곳으로 가져왔습니다.",
-    "NESIA: I would help, but I am currently fully occupied working on the <![CDATA[<color=orange>Distant Node Project</color>]]>. Unfortunately, I suspect this is true for all of us, so it may take some time to develop a means to repair this crystal.": "네시아: 저도 돕고 싶지만 지금은 <![CDATA[<color=orange>원격 노드 프로젝트</color>]]>에 몰두하고 있습니다. 안타깝게도 우리 모두에게 중요한 일이라 이 수정을 복구할 수 있는 방법을 개발하는 데 시간이 조금 걸릴 것 같습니다.",
+    "NESIA: I would help, but I am currently fully occupied working on the <![CDATA[<color=orange>Distant Node Project</color>]]>. Unfortunately, I suspect this is true for all of us, so it may take some time to develop a means to repair this crystal.": "네시아: 저도 돕고 싶지만 지금은 <![CDATA[<color=orange>원격 노드 프로젝트</color>]]>에 집중하고 있습니다. 안타깝게도 우리 모두에게 중요한 일이라 이 수정을 복구할 수 있는 방법을 개발하는 데 시간이 조금 걸릴 것 같습니다.",
     "OKALIS: I have good news! It seems our friends may have found a way to repair the gravity crystal! If you are interested in learning more, I suggest making your way to the <![CDATA[<color=orange>Concert Hall</color>]]>.": "오커러스: 좋은 소식이 있어요! 우리 친구들이 중력 수정을 수리할 방법을 찾은 것 같아요! 더 자세히 알고 싶으시다면 공연장으로 가보세요.",
     "SENNETTI: I understand. I hope we have time to develop a method of repairs soon, however, as I worry other crystals may also fall.": "세네티: 이해합니다. 다른 수정들도 떨어지기 전에 조만간 수리 방법을 개발할 수 있기를 바랍니다.",
 
@@ -83,10 +83,10 @@
     "NESIA: Curiously, analysis of the soil composition indicates that this body may be composed of the remnants of many others.": "네시아: 토양 성분을 분석한 결과, 흥미롭게도 이 소행성은 다른 많은 행성들의 잔해로 구성되어 있는 것으로 나타났습니다.",
     "SENNETTI: Do you mean to say that this planetoid is composed of debris from planets that ended up in this place after their destruction?": "세네티: 이 소행성이 행성들이 파괴된 후 이곳에 떨어진 잔해로 구성됐다는 건가요?",
     "NESIA: I do. The trees also show characteristics from many cataloged species, which, combined with the unique set of nutrients they draw from the soil, may explain the strange color of the fire in the campsite.": "네시아: 맞아요. 이곳의 나무들에서 저희 사전에 기록된 많은 나무 종의 특징이 나타나고 있고, 여기에 나무들이 토양에서 흡수한 독특한 영양분이 결합했다면 야영지 불꽃의 이상한 색깔을 설명할 수 있을지도 모릅니다.",
-    "SENNETTI: Interesting. So this bramble captures planets, or at least planetary fragments, with such frequency that they are able to congeal into completely new bodies.": "세네티: 흥미롭군요. 이 덩굴은 행성들, 혹은 최소한 행성 조각들을 포획해서 완전히 새로운 천체로 뭉칠 수 있나 보네요.",
+    "SENNETTI: Interesting. So this bramble captures planets, or at least planetary fragments, with such frequency that they are able to congeal into completely new bodies.": "세네티: 흥미롭군요. 이 덩굴은 행성들, 혹은 최소한 행성 조각들을 잡아서 완전히 새로운 행성으로 뭉칠 수 있나 보네요.",
 
     //stalking
-    "SENNETTI: On my way over here this morning, I felt certain that I saw shapes flitting about in the fog. Has anybody else observed this phenomenon?": "세네티: 오늘 아침 여기로 오는 길에 안개 속에서 형상이 떠다니는 것을 본 것 같았습니다. 이 현상을 목격한 적 있나요?",
+    "SENNETTI: On my way over here this morning, I felt certain that I saw shapes flitting about in the fog. Has anybody else observed this phenomenon?": "세네티: 오늘 아침 여기로 오는 길에 안개 속에서 형상이 떠다니는 것을 본 것 같았습니다. 혹시 현상을 목격한 적 있나요?",
     "OKALIS: I too have noticed this, friend. They seem to be the same species as the person I made contact with recently. They have been quite bold with me. One was stationed directly outside my window this morning, but ran off as soon as I stirred!": "오커러스: 저도 봤어요, 친구. 최근에 제가 접촉한 존재와 같은 종족인 것 같습니다. 그들은 꽤 대담했습니다. 오늘 아침에는 하나가 제 창문 바로 밖에 있었는데, 제가 놀라자마자 도망갔어요!",
     "SENNETTI: What should we do? They do not yet appear hostile, but our stalker's behavior is very concerning.": "세네티: 어떻게 해야 하죠? 아직은 적대적으로 보이지는 않지만, 스토커의 행동이 매우 우려스럽습니다.",
     "AZOLLA: I suspect that they will be the ones to make the first move. Remember, stay with one another, and do not behave aggressively.": "아졸라: 저는 그들이 먼저 움직일 것이라고 생각합니다. 서로를 배려하고 공격적으로 행동하지 않는 것을 잊지 마세요.",
@@ -112,9 +112,9 @@
     "NESIA: I am absolutely certain. There was a small ring of stones with still smoldering firewood inside.": "네시아: 확실해요. 작은 돌멩이 고리가 있었고 그 안에는 여전히 장작불이 타고 있었어요.",
     "AZOLLA: Quite an interesting find, Nesia! We should make our way over there and investigate at once. Do you recall where we can find this planetoid?": "아졸라: 흥미로운 발견이네요, 네시아! 당장 가서 조사해 봐야겠어요. 그 소행성을 어디서 찾을 수 있는지 기억나시나요?",
     "NESIA: I was concerned that I would be unable to find it again, so I planted a signal beacon near the strange campsite.": "네시아: 다시 찾지 못할까 봐 걱정돼서 야영지 근처에 신호기를 설치해 놨어요.",
-    "AZOLLA: Then we should go there at once. If there are other sentient creatures here, it is imperative that we determine their level of hostility as soon as possible.": "아졸라: 그럼 당장 가야겠군요. 다른 지성 생명체가 있다면 가능한 빨리 적대감의 정도를 파악하는 게 중요해요.",
+    "AZOLLA: Then we should go there at once. If there are other sentient creatures here, it is imperative that we determine their level of hostility as soon as possible.": "아졸라: 그럼 당장 가야겠군요. 다른 지성 생명체가 있다면 가능한 빨리 적대 유무를 파악하는 게 중요해요.",
     "SENNETTI: I have been here putting together shelters, I did not realize there were any other bodies out there.": "세네티: 대피소를 만들다 보니 다른 소행성이 있는 줄은 몰랐네요.",
-    "OKALIS: I have investigated the surrounding area some, but I have not yet located this large planetoid that you speak of.": "오커러스: 주변 지역을 조금 조사해 봤지만, 말씀하신 대형 소행성은 아직 찾지 못했습니다.",
+    "OKALIS: I have investigated the surrounding area some, but I have not yet located this large planetoid that you speak of.": "오커러스: 주변 지역을 조금 조사해 봤지만, 말씀하신 대형 소행성은 아직 찾지 못했어요.",
     "SENNETTI: Is it possible that the campsite was made by other members of our clan? Perhaps they followed us through our makeshift warp setup and are stranded here as well.": "세네티: 야영지는 우리 부족의 다른 구성원이 만들었을 가능성이 있나요? 임시 워프 시설을 통해 우리를 따라왔다가 여기까지 오게 된 걸지도 모르죠.",
     "NESIA: As much as I would hope for your hypothesis to be true, there were no other structures indicative of Nomai presence, and it has long been outside of our culture to construct campfires.": "네시아: 가설이 사실이었으면 좋겠지만, 노마이의 존재를 나타내는 다른 구조물은 없었고, 캠프파이어를 하는 것은 오랫동안 우리 문화와는 관련 없는 일이었습니다.",
     "OKALIS: Are you saying that there is a campsite in here that none of us made? That would imply there are other sentient beings here besides us!": "오커러스: 우리가 만들지 않은 야영지가 여기 있다는 건가요? 그럼 우리 말고도 다른 생명체가 있다는 뜻이잖아요!",
@@ -201,7 +201,7 @@
     "OKALIS: That seems fairly simple! Does it matter what slot the crystal is placed in, or do any work?": "오커러스: 꽤 간단해 보이네요! 크리스탈이 어떤 슬롯에 배치되는지, 어떤 작업을 하는지가 중요한가요?",
     "KARENIA: Any slots should work, as long as you're able to ring the correct bells.": "카레니아: 올바른 종을 울릴 수만 있다면 어떤 슬롯에서든 작동해요.",
     "AZOLLA: I'm quite impressed with your ability to find a repair method so quickly. It never occurred to me that harmonics could be used as a viable method!": "아졸라: 이렇게 빨리 수리 방법을 찾아내는 능력이 놀랍네요. 화음을 사용하는 것이 실용적인 방법이 될 수 있다는 생각은 해본 적이 없어요!",
-    "KARENIA: Thanks! Music is very important to us, so we're always excited when we hear a problem that it might solve. I should clarify though that this method is only able to repair minor damage, like cracks. If part of the crystal is outright missing then it won't work.": "카레니아: 고마워요! 저희에게는 음악이 매우 중요하기 때문에 음악으로 문제를 해결할 수 있다는 소식을 들으면 항상 흥분돼요. 하지만 이 방법은 균열과 같은 경미한 손상만 복구할 수 있다는 점을 분명히 말씀드리고 싶어요. 크리스탈의 일부가 완전히 없어진 경우에는 효과가 없어요.",
+    "KARENIA: Thanks! Music is very important to us, so we're always excited when we hear a problem that it might solve. I should clarify though that this method is only able to repair minor damage, like cracks. If part of the crystal is outright missing then it won't work.": "카레니아: 고마워요! 저희에게는 음악이 매우 중요하기 때문에 음악으로 문제를 해결할 수 있다는 소식을 들으면 항상 흥분돼요. 하지만 이 방법은 균열과 같은 경미한 손상만 복구할 수 있다는 점을 분명히 말씀드리고 싶어요. 수정의 일부가 완전히 없어진 경우에는 효과가 없어요.",
 
     //ch_dree_lethargy
     "OKALIS: Amylax, one thing we have noticed, especially given recent events, is how your people seem to be a bit too accepting of circumstances. While this has been changing some, I was curious what brought about this attitude in the first place?": "오커러스: 아밀락스, 특히 최근 몇 가지 사건을 겪으면서 생각한 것은 당신의 종족들이 상황을 너무 쉽게 받아들이는 경향이 있는 것 같다는 점입니다. 일부 변화는 있었지만, 애초에 이런 태도를 갖게 된 원인이 무엇인지 궁금합니다.",
@@ -212,7 +212,7 @@
 
     //ch_intelligence
     "KARENIA: I've been kinda concerned about something, if one of you would be willing to discuss it with me. Do you Nomai find us Dree... unintelligent? It's no secret that you guys have way more technology than we do, and I just wanted to make sure you don't see us as inferior or something like that.": "카레니아: 걱정되는 게 있어서요, 혹시 저와 상담해 주실 수 있나요? 노마이는 우리가 머리가 좋지 않다고 생각하나요? 당신들이 우리보다 훨씬 더 많은 기술을 가지고 있다는 것은 우리 모두 알고 있고, 우리를 열등하게 보거나 그런 식으로 생각하지 않도록 하고 싶었어요.",
-    "AZOLLA: Of course not! You all are no less intelligent than us, it's just that the different demands of our species caused us to develop different areas of expertise.": "아졸라: 당연히 아니죠! 여러분 모두 우리보다 머리가 안 좋은 것이 아니라, 단지 서로 다른 환경으로 인해 다른 전문 분야를 개발하게 된 것뿐입니다.",
+    "AZOLLA: Of course not! You all are no less intelligent than us, it's just that the different demands of our species caused us to develop different areas of expertise.": "아졸라: 당연히 아니죠! 여러분 모두 우리보다 머리가 안 좋은 것이 아니라, 단지 서로 다른 환경으로 인해 다른 분야를 개발하게 된 것뿐입니다.",
     "KARENIA: Can you elaborate?": "카레니아: 자세히 설명해 주시겠어요?",
     "NESIA: We Nomai are defined by our nomadic lifestyle and inquisitive nature. Because of this, our species put a high priority on the development of advanced technology that would allow us to travel to faraway places. You Dree, on the other hand, had to contend with the hostile environment of the <![CDATA[<color=purple>Bramble</color>]]>, so you focused on developments that facilitated your survival. This led to several impressive developments, chief among them your ability to commune with the plant on a level we Nomai have never observed in all of our travels.": "네시아: 노마이는 유목 생활과 호기심 많은 성격으로 대표됩니다. 이 때문에 우리 종족은 먼 곳을 여행할 수 있는 첨단 기술 개발에 우선순위를 두었습니다. 반면에 드리는 <![CDATA[<color=purple>가시덤불</color>]]>의 적대적인 환경과 싸워야 했기 때문에 생존을 위한 개발에 집중했습니다. 그 결과 몇 가지 인상적인 개발이 이루어졌는데, 그중에서도 우리 노마이가 지금까지 여행하면서 관찰한 적이 없는 수준으로 식물과 교감할 수 있는 능력이 가장 인상적이었죠.",
     "OKALIS: If it weren't for you all and your carefully developed relationship with the <![CDATA[<color=purple>Bramble</color>]]>, the four of us would not have survived.": "오커러스: 여러분과 <![CDATA[<color=purple>가시덤불</color>]]>과의 세심한 관계가 아니었다면 우리 네 명은 살아남지 못했을 거예요.",
@@ -231,7 +231,7 @@
     "AZOLLA: I see! So your people rely on a rich oral history, rather than writing it down. I do question how you ensure your stories aren't lost to time, however.": "아졸라: 그렇군요! 그래서 당신의 종족은 기록을 남기지 않고 풍부한 구전 역사에 의존하고 있군요. 하지만 시간이 지나면서 이야기가 사라지지 않도록 어떻게 보장하는지 궁금합니다.",
     "KARENIA: Well, we don't really move around terribly much, and there aren't that many of us either. That makes it so everyone knows everyone, which makes our oral tradition much easier to practice.": "카레니아: 저희는 이동이 많지 않고 인원도 그리 많지 않아요. 그래서 모두가 서로를 알기 때문에 구전 전통을 훨씬 더 쉽게 실현할 수 있어요.",
     "DITYLUM: If you don't mind me asking, why do you Nomai write things down so often? I mean, you even write out or record pretty normal conversations.": "디트룸: 질문해도 괜찮다면, 노마이는 왜 그렇게 자주 무언가를 적으시나요? 아주 평범한 대화도 적거나 녹음하시잖아요.",
-    "NESIA: It is a byproduct of our nomadic lifestyle. Traditionally, Nomai clans are constantly moving from place to place, so writing out and recording our conversations became our way of sharing knowledge with others. If at some point another clan were to stumble upon somewhere we had been, they would find our writing and have a head start on understanding their surroundings.": "네시아: 노마이 유목 생활의 부산물입니다. 전통적으로 노마이 부족은 끊임없이 장소를 옮겨 다니기 때문에 대화를 글로 쓰고 기록하는 것이 다른 노마이들과 지식을 공유하는 방법이 되었습니다. 언젠가 다른 부족이 우리가 갔던 곳을 우연히 발견하면 우리의 글을 보고 주변 환경을 이해하는 데 도움이 될 것이니까요.",
+    "NESIA: It is a byproduct of our nomadic lifestyle. Traditionally, Nomai clans are constantly moving from place to place, so writing out and recording our conversations became our way of sharing knowledge with others. If at some point another clan were to stumble upon somewhere we had been, they would find our writing and have a head start on understanding their surroundings.": "네시아: 노마이 유목 생활의 부산물이에요. 전통적으로 노마이 부족은 끊임없이 장소를 옮겨 다니기 때문에 대화를 글로 쓰고 기록하는 것이 다른 노마이들과 지식을 공유하는 방법이 되었죠. 언젠가 다른 부족이 우리가 갔던 곳을 우연히 발견하면 우리의 글을 보고 주변 환경을 이해하는 데 도움이 될 것이니까요.",
 
     //ch_outside_bramble
     "OKALIS: I've been curious about something, if any of our new neighbors are able to answer. Where do you originate from? Do your people originate from the <![CDATA[<color=purple>Bramble</color>]]>, or do you have a record from outside?": "오커러스: 궁금한 점이 있는데, 대답해 주실 수 있는 분이 계신가요? 여러분은 어디 출신인가요? <![CDATA[<color=purple>가시덤불</color>]]> 출신인가요, 아니면 외부에서 들어온 기록이 있나요?",
@@ -250,8 +250,8 @@
 
     //communion_recording
     "NESIA: Hello. My name is Nesia. It's my understanding that you are the head druid of your people. Is that correct?": "네시아: 안녕하세요. 제 이름은 네시아입니다. 제가 알기로는 당신이 종족의 수장 드루이드라고 들었습니다. 맞나요?",
-    "KARENIA: Yes, why do you ask?": "카레니아: 네, 왜 물어보시나요?",
-    "NESIA: I was hoping you may be able to give some insight on the circumstances surrounding the rest of our clan. Is that within your capabilities?": "네시아: 나머지 부족원들이 처한 상황에 대해 말씀해 주실 수 있을까요? 그게 가능할까요?",
+    "KARENIA: Yes, why do you ask?": "카레니아: 네, 무슨 일이신가요?",
+    "NESIA: I was hoping you may be able to give some insight on the circumstances surrounding the rest of our clan. Is that within your capabilities?": "네시아: 나머지 부족원들이 처한 상황에 대해 말씀해 주셨으면 좋겠습니다. 가능할까요?",
     "KARENIA: Maybe. I can commune with the <![CDATA[<color=purple>Bramble</color>]]> enough to figure out their fates within its walls, but I won't be able to figure out what might've happened outside.": "카레니아: 아마도요. 저는 <![CDATA[<color=purple>가시덤불</color>]]>과 교감할 수 있어서 가시덤불 안에서는 그들의 운명을 알 수 있지만, 밖에서 무슨 일이 일어났는지는 알 수 없어요.",
     "NESIA: I believe that will be sufficient. Three pods were launched from the <![CDATA[<color=orange>Vessel</color>]]>. Can you ascertain what happened to them?": "네시아: 그 정도면 충분할 것 같아요. 우주선에서 세 개의 포드가 발사되었는데, 어떻게 됐는지 확인해 주시겠어요?",
     "KARENIA: Let me see... okay, I have the vines talking about your vessel and... yes! They're saying that objects escaped! They actually seem a little confused, that doesn't happen often.": "카레니아: 어디 보자... 덩굴이 당신 배에 대해 이야기하고 있는데... 그래요! 물건이 빠져나갔다고 말하고 있어요! 사실 조금 혼란스러워 보이는데, 그런 일은 자주 일어나지 않거든요.",
@@ -277,8 +277,8 @@
     "Concert Hall": "공연장",
 
     //heat_warning
-    "Be wary friends, the space that lies beyond this node is filled with an extreme heat. If you must enter, be prepared to move quickly. The temperature is sufficient to cook you inside of your suit.": "이 노드 너머에 있는 공간은 극심한 열기로 가득 차 있으니 조심하세요. 꼭 들어가야 한다면 재빨리 움직일 준비를 하세요. 이 온도는 우주복 안쪽을 익히기에 충분합니다.",
-    "We have erected a gravity lift to bring you down to the planet's surface. Find your way into it and you will be brought into an area where the heat is somewhat dissipated. Simply keep watch for it, it is plainly visible as you approach.": "여러분을 행성 표면으로 데려가기 위해 중력 리프트를 설치했어요. 그 안으로 들어가면 열이 어느 정도 방출되는 지역으로 이동할 수 있을 거예요. 다가갈 때 잘 보이니 계속 주시하세요.",
+    "Be wary friends, the space that lies beyond this node is filled with an extreme heat. If you must enter, be prepared to move quickly. The temperature is sufficient to cook you inside of your suit.": "이 노드 너머에 있는 공간은 극심한 열기로 가득 차 있으니 조심하세요. 꼭 들어가야 한다면 재빨리 움직일 준비를 하세요. 이 온도는 우주복 안쪽을 익히기에 충분해요.",
+    "We have erected a gravity lift to bring you down to the planet's surface. Find your way into it and you will be brought into an area where the heat is somewhat dissipated. Simply keep watch for it, it is plainly visible as you approach.": "행성 표면으로 내려가기 위해 중력 리프트를 설치했어요. 그 안으로 들어가면 열이 어느 정도 방출되는 지역으로 이동할 수 있을 거예요. 다가갈 때 잘 보이니 계속 주시하세요.",
 
     //helmet_off_recording
     "OKALIS: Fascinating, I wonder what the purpose of this area could be? It could be some manner of social area, but we have already observed a park and a concert hall. I wonder how many social areas these people have?": "오커러스: 흥미롭네요, 이 공간의 목적이 무엇인지 궁금해요. 일종의 사교 공간일 수도 있지만, 이미 공원과 공연장이 있는 것을 보았습니다. 이 외계인들이 얼마나 많은 사교 공간을 가지고 있는지 궁금합니다.",
@@ -324,7 +324,7 @@
     "OKALIS: That's... actually a very solid argument. At this point it has become clear that escape is not easily achievable. Perhaps investigating the phenomena surrounding us would be the most efficient use of our time!": "오커러스: 그건... 타당한 주장이네요. 이 시점에서 이미 탈출은 쉽게 이룰 수 없다는 것이 분명해졌죠. 어쩌면 우리 주변의 현상을 조사하는 것이 가장 효율적인 시간 활용이 될 수도 있겠네요!",
     "AMYLAX: That's the spirit! I mean, there are so many things you guys could try and figure out, like how the space inside of the nodes works, how things end up in the <![CDATA[<color=purple>Deep Bramble</color>]]> in the first place, and that signal that came through a while back and ended up stuck in the area around <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "아미랙스: 바로 그거예요! 노드 내부의 공간이 어떻게 작동하는지, 애초에 <![CDATA[<color=purple>깊은 가시덤불</color>]]>에 어떻게 물건이 들어오는지, 얼마 전에 들어와서 <![CDATA[<color=orange>마그마의 메아리</color>]]> 주변에서 멈춰버린 신호 등 여러분이 알아낼 수 있는 것이 너무 많아요.",
     "OKALIS: Wait, a signal? Amylax, when did this signal first appear?": "오커러스: 잠깐, 신호? 아밀락스, 그 신호는 언제 처음 나타난 거죠?",
-    "AMYLAX: Um, pretty shortly before you guys showed up, actually. Some of us actually thought that you all might have caused it.": "아밀락스: 사실 여러분이 나타나기 바로 전이었어요. 저희 중 일부는 사실 여러분들이 원인이라고 생각했어요.",
+    "AMYLAX: Um, pretty shortly before you guys showed up, actually. Some of us actually thought that you all might have caused it.": "아밀락스: 사실 여러분이 나타나기 바로 전이었어요. 저희 중 일부는 여러분들이 원인이라고 생각했어요.",
     "OKALIS: The <![CDATA[<color=orange>Eye</color>]]>! That's the only explanation! The signal from the <![CDATA[<color=orange>Eye of the Universe</color>]]> must have passed through here! You said it is still reverberating throughout the area surrounding <![CDATA[<color=orange>Magma's Recursion</color>]]>? I must notify the others immediately, this is sure to spark their curiosity!": "오커러스: <![CDATA[<color=orange>눈</color>]]>! 그게 유일한 설명이에요! <![CDATA[<color=orange>우주의 눈</color>]]>의 신호가 이곳을 통과한 게 틀림없어요! <![CDATA[<color=orange>마그마의 메아리</color>]]> 주변 지역에 아직도 울려 퍼지고 있다고 했죠? 다른 부족원들에게 즉시 알려야겠어요, 호기심을 자극할 테니까!",
     "AMYLAX: Wait! Okalis! Don't run off so fast! That whole area is super... dangerous... oh <![CDATA[<color=purple>Bramble</color>]]>, I hope the other Nomai are more careful than he is, or they're gonna get themselves killed.": "아밀락스: 잠깐! 오커러스! 너무 빨리 가지 마세요! 거긴 너무... 위험해요... 오, <![CDATA[<color=purple>가시덤불</color>]]>아, 다른 노마이들은 저 분보다 더 조심성이 많았으면 좋겠어. 안 그러면 전부 죽고 말 거야.",
 
@@ -344,7 +344,7 @@
 
     //core_combo_hint
     "SENNETTI: I have not yet had the chance to visit the gravity core at the center of the crystal. Would somebody be willing to remind me what sequence of levers need to be turned on to reach the center?": "세네티: 아직 수정의 중심부에 있는 중력 코어를 방문할 기회가 없었습니다. 중심부에 도달하려면 어떤 순서로 레버를 켜야 하는지 알려주실 수 있나요?",
-    "OKALIS: Of course! If I remember correctly, all of the levers should be on, except for the second and the second-to-last.": "오커러스: 물론이죠! 제 기억이 맞다면 두 번째와 두 번째에서 마지막 레버를 제외한 모든 레버가 켜져 있어야 합니다.",
+    "OKALIS: Of course! If I remember correctly, all of the levers should be on, except for the second and the second-to-last.": "오커러스: 물론이죠! 제 기억이 맞다면 두 번째와 다섯 번째 레버를 제외한 모든 레버가 켜져 있어야 합니다.",
     "SENNETTI: Thank you Okalis! May I ask why you wrote that in their language though? I find it unlikely any of our new friends will visit this planet. It is my understanding the inverted gravity makes them quite uncomfortable.": "세네티: 고마워요, 오커러스! 그런데 왜 그들의 언어로 썼는지 물어봐도 될까요? 우리의 새로운 친구들이 이 행성을 방문할 가능성은 거의 없을 것 같거든요. 거꾸로 된 중력이 그들을 상당히 불편하게 만든다고 알고 있어요.",
     "OKALIS: Of course! I am attempting to gain practice with their language, as I am preparing to make a more proper response to the gift Amylax left in my home.": "오커러스: 물론이죠! 아밀락스가 제 집에 두고 간 선물에 대해 조금 더 적절한 대응을 하기 위해 그들의 언어를 연습하고 있어요.",
 
@@ -394,7 +394,7 @@
     "SENNETTI: Progress is slow but steady. I must confess, the small size of the entrance is making it quite difficult to transport the necessary material. The distance that the material must be hauled is also impeding my progress. The journey from this quarry to the construction site is not a short one.": "세네티: 느리지만 꾸준히 건설되고 있어요. 솔직히 말하자면 입구가 좁아서 필요한 자재를 운반하기가 상당히 어려워요. 자재를 운반해야 하는 거리도 건설에 방해가 되고 있고요. 채석장에서 건설 현장까지 가는 길이 결코 가깝지 않거든요.",
     "NESIA: Have you not been using the larger entrance?": "네시아: 더 큰 입구를 사용하지 않으셨나요?",
     "SENNETTI: There is a larger entrance?": "세네티: 더 큰 입구가 있다고요?",
-    "NESIA: Yes, there is a much larger entrance. It would make transporting your material much easier, especially since it is relatively close to <![CDATA[<color=orange>Graviton's Folly</color>]]>.": "네시아: 네, 훨씬 더 큰 입구가 있어요. 특히 <![CDATA[<color=orange>중력의 어리석음</color>]]>에 비교적 가깝기 때문에 재료를 운반하기가 훨씬 쉬워질 거예요.",
+    "NESIA: Yes, there is a much larger entrance. It would make transporting your material much easier, especially since it is relatively close to <![CDATA[<color=orange>Graviton's Folly</color>]]>.": "네시아: 네, 훨씬 더 큰 입구가 있어요. 특히 그 입구가 <![CDATA[<color=orange>중력의 어리석음</color>]]>에 비교적 가깝기 때문에 재료를 운반하기가 훨씬 쉬워질 거예요.",
     "SENNETTI: I will be sure to start using that entrance then! Thank you for the information! I'll make one more trip along the usual path and leave a short-lived beacon at the construction site, to make it easier to find the larger entrance you speak of.": "세네티: 그럼 그 입구를 이용해야겠네요! 정보 고마워요! 말씀하신 더 큰 입구를 쉽게 찾을 수 있도록 평소 사용하던 경로를 따라 이동하고, 연구소를 세우고 있는 구역에 짧은 수명의 신호기를 남겨 둘게요.",
     "AZOLLA: I imagine that the locals will also be much happier without us hauling all of our material through their home.": "아졸라: 우리가 그들의 고향이 아니라 다른 길을 통해서 자재를 운반하면, 주민들도 훨씬 더 행복할 거라고 생각해요.",
     
@@ -422,7 +422,7 @@
     //azolla_struggle_text
     "AZOLLA: Escall, I'm sorry, but I feel my leadership fails to reach the standard of your memory.": "아졸라: 에스콜, 미안해요. 제 리더십이 기억 속의 당신에게 미치지 못하는 것 같아요.",
     "AZOLLA: Regardless of what I attempt, I am unable to maintain morale among our small crew, and this depressive miasma seems to be claiming me as well.": "아졸라: 제가 어떤 노력을 해도 동료들의 사기를 유지할 수 없고, 오히려 우울한 분위기가 저까지 사로잡고 있는 것 같아요.",
-    "AZOLLA: I am trying to utilize the leadership skills you gifted me, but they are proving ineffective. I can only hope I make a breakthrough soon.": "아졸라: 당신이 제게 선물한 리더십 기술을 활용하려고 노력하고 있지만... 효과가 없는 것 같아요. 조만간 돌파구를 찾을 수 있기를 기도할 뿐이에요.",
+    "AZOLLA: I am trying to utilize the leadership skills you gifted me, but they are proving ineffective. I can only hope I make a breakthrough soon.": "아졸라: 당신이 제게 선물한 리더십을 활용하려고 노력하고 있지만... 효과가 없는 것 같아요. 조만간 돌파구를 찾을 수 있기를 기도할 뿐이에요.",
     "AZOLLA: I am clueless as to how to locate an escape that the native people have been unable to find for thousands of years.": "아졸라: 원주민들이 수천 년 동안 찾지 못했던 탈출구를 어떻게 찾아야 할지 모르겠어요.",
     "AZOLLA: I am clueless as to how to motivate them in the face of such insurmountable odds.": "아졸라: ...극복할 수 없는 문제를 마주하고 있는 동료들에게 어떻게 동기를 부여해야 할지 모르겠어요.",
 
@@ -514,7 +514,7 @@
     "SENNETTI: Especially impressive, their hearing even allows them to read by detecting the differences in sound reflecting off different textures. This seems to be why they write with such a thick, soft substance, and how they can read the chalky lines written by ourselves.": "세네티: 특히 인상적인 것은 청각이 뛰어나 다양한 질감에서 반사되는 소리의 차이를 감지하여 글을 읽을 수 있다는 점입니다. 그래서인지 두껍고 부드러운 물질로 글씨를 쓰고, 우리가 적은 글도 읽을 수 있는 것 같습니다.",
     "OKALIS: It seems that this hearing is even sensitive enough to detect certain biological signals. Amylax seems to use my pulse to determine when I am tense or nervous. This may have helped them avoid predators in the past, such as the anglerfish.": "오커러스: 그들의 청각은 특정 생물학적 신호를 감지할 정도로 예민한 것 같습니다. 아밀락스는 제가 긴장했을 때 심장 소리를 듣고 알아채는 것 같았습니다. 이는 과거에는 아귀와 같은 포식자를 피하는 데 도움이 되었을 겁니다.",
     "SENNETTI: Our friends seem to navigate entirely through echolocation, emitting a high-pitched tone that they use to measure their distance to solid objects in their environment.": "세네티: 우리 친구들은 음파 탐지를 통해 길을 찾는 것 같습니다. 그들은 높은 주파수의 소리를 내어 주변의 단단한 물체까지의 거리를 측정합니다.",
-    "AZOLLA: Notably, this tone is also outside of the hearing range of all but the youngest anglerfish, as we learned when Ditylum became trapped on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, unable to return without his tone alerting the juvenile fish in that area.": "아졸라: 특히 이 울음소리는 어린 아귀를 제외한 모든 아귀가 들을 수 없는데, 이는 디트룸이 <![CDATA[<color=orange>Nursery</color>]]>의 반대편에 갇혀서, 그 지역의 어린 물고기들에게 자신의 소리를 숨길 방법이 없어 돌아올 수 없었을 때 알게 된 사실입니다.",
+    "AZOLLA: Notably, this tone is also outside of the hearing range of all but the youngest anglerfish, as we learned when Ditylum became trapped on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, unable to return without his tone alerting the juvenile fish in that area.": "아졸라: 특히 이 울음소리는 어린 아귀를 제외한 모든 아귀가 들을 수 없는데, 이는 디트룸이 <![CDATA[<color=orange>Nursery</color>]]>의 반대편에 갇혀서, 그 지역의 어린 물고기들에게 자신의 음파를 숨길 방법이 없어 돌아올 수 갇혔을 때 알게 된 사실입니다.",
 
     //pod_fate_reveal_recording
     "SENNETTI: Azolla, you told us to meet you here? You said there was news to discuss.": "세네티: 아졸라, 여기서 만나자고 하셨죠? 논의할 소식이 있다고 하셨나요?",
@@ -560,11 +560,11 @@
     "SENNETTI: I believe so? I cannot be sure, but this place does feel different.": "세네티: 그런가요? 확신할 수는 없지만, 이곳은 확실히 다른 느껴져요.",
 
     //final_computer
-    "281,137 YEARS AGO: Lockdown initiated due to sudden increase in internal temperature and radiation.": "281,137년 전: 내부 온도와 방사선의 급격한 증가로 인해 폐쇄 되었습니다.",
-    "Heat and radiation has dissipated, lockdown procedure removed.": "열과 방사선이 사라졌고, 잠금 절차가 해제되었습니다.",
+    "281,137 YEARS AGO: Lockdown initiated due to sudden increase in internal temperature and radiation.": "281,137년 전: 내부 온도와 방사선의 급격한 증가로 인해 문이 폐쇄 되었습니다.",
+    "Heat and radiation has dissipated, lockdown procedure removed.": "열과 방사선이 사라졌고, 잠금이 해제되었습니다.",
 
     //final_recording
-    "KARENIA: Okay, the <![CDATA[<color=purple>Bramble</color>]]> is primed, it's now or never.": "카레니아: 좋아요, <![CDATA[<color=purple>가시덤불</color>]]>이 준비됐고, 지금이 아니면 절대 안 돼요.",
+    "KARENIA: Okay, the <![CDATA[<color=purple>Bramble</color>]]> is primed, it's now or never.": "카레니아: 좋아요, <![CDATA[<color=purple>가시덤불</color>]]>도 준비됐고, 지금이 아니면 절대 안 돼요.",
     "AZOLLA: Ditylum has yet to  return from his task. Should we not wait for his assistance?": "아졸라: 디트룸이 아직 임무에서 돌아오지 않았어요. 그의 도움을 기다리지 않아도 될까요?",
     "KARENIA: I would really like to, but I can't guarantee how long the <![CDATA[<color=purple>Bramble</color>]]> is going to stay in this state. If we don't do this now, we might never get another chance.": "카레니아: 정말 그러고 싶지만, <![CDATA[<color=purple>가시덤불</color>]]>이 언제까지 이 상태로 있을지는 장담할 수 없어요. 지금이 아니면 다시는 기회가 없을지도 몰라요.",
     "AZOLLA: Very well then, I suppose we must proceed. Nesia, Sennetti, is the equipment in place?": "아졸라: 그럼 계속 진행해야겠네요. 네시아, 세네티, 장비는 준비됐나요?",
@@ -625,7 +625,7 @@
     "DITYLUM: Thanks, I'll let Karenia know that you'll take care of it.": "디트룸: 고마워요, 카레니아에게 잘 처리해 달라고 전할게요.",
 
     //gas_goal_hint
-    "NESIA: I believe this cave should prove to be an adequate location for any equipment we might use to study the signal of the <![CDATA[<color=orange>Eye</color>]]>. In particular, the upper chamber across the ceiling looks well insulated. With some environmental regulation, the overheating of our equipment should be a non-issue.": "네시아: 이 동굴은 <![CDATA[<color=orange>눈</color>]]>의 신호를 연구하는 데 사용할 수 있는 모든 장비에 적합한 장소라고 생각합니다. 특히 위쪽의 공간이 단열이 잘 되어 있는 것 같습니다. 환경 조절 장치을 준수한다면 장비의 과열은 문제가 되지 않을 거라고 생각해요.",
+    "NESIA: I believe this cave should prove to be an adequate location for any equipment we might use to study the signal of the <![CDATA[<color=orange>Eye</color>]]>. In particular, the upper chamber across the ceiling looks well insulated. With some environmental regulation, the overheating of our equipment should be a non-issue.": "네시아: 이 동굴은 <![CDATA[<color=orange>눈</color>]]>의 신호를 연구하는 데 사용할 수 있는 모든 장비에 적합한 장소라고 생각합니다. 특히 위쪽의 공간이 단열이 잘 되어 있는 것 같습니다. 환경 조절 장치을 준수한다면 장비의 과열은 문제가 되지 않을 거라고 생각합니다.",
     "AZOLLA: A good find, Nesia, but how do you propose we get up there? The gas in this cave prohibits the use of our thrusters.": "아졸라: 좋은 발견이지만, 네시아, 어떻게 올라가려고요? 이 동굴의 가스 때문에 추진기는 사용할 수 없어요.",
     "NESIA: I believe gravity crystals constructed from the material of <![CDATA[<color=orange>Graviton's Folly</color>]]> should be useful. We could make specialized mounts to place the crystals in, amplifying their effect to the level we would need.": "네시아: <![CDATA[<color=orange>중력의 어리석음</color>]]>의 재료로 만든 중력 수정이 유용할 것 같아요. 특수한 거치대를 만들어 수정을 넣으면 중력을 충분하게 증폭시킬 수 있을거예요.",
     "SENNETTI: In my experience, the collection and application of that material will be time-consuming, and there may be other portions of the ceiling that are worth exploring. I propose these mounts should allow for the removal and replacement of these crystals. Then we may explore more while additional crystals are fabricated.": "세네티: 제 경험에 비추어 볼 때, 그 물질을 수집하고 가공하는 데는 시간이 많이 걸리고, 이 천장의 다른 부분들도 탐색할 가치가 있을지도 모릅니다. 저는 이 거치대의 수정을 제거하고 교체할 수 있어야 한다고 생각합니다. 그러면 수정을 추가로 제작하는 동안 더 많은 것을 탐험할 수 있을 것입니다.",
@@ -654,13 +654,13 @@
     "NESIA: Unfortunately, analysis of the <![CDATA[<color=orange>Eye</color>]]>'s signal is not promising. I am unable to ascertain its location, and am able to derive similarly little information about its purpose. The only trait I am noticing is a high degree of mutability; it seems as if the Eye is something highly capable of change.": "네시아: 안타깝게도, <![CDATA[<color=orange>눈</color>]]>의 신호를 분석한 결과는 기대에 미치지 못했습니다. 눈의 위치를 확인할 수도 없고, 눈의 목적에 대한 정보도 거의 얻지 못했습니다. 제가 발견한 유일한 특성은 높은 수준의 유동성인데, 마치 <![CDATA[<color=orange>눈</color>]]>이 고도로 변화할 수 있는 존재인 것 같습니다.",
     "AZOLLA: That is unfortunate. I suppose this information may still prove useful. It is nonetheless discouraging that such an initially promising prospect has proven to be for nought.": "아졸라: 유감이네요. 이 정보가 여전히 유용할 수 있다고 생각합니다. 그래도 처음에 유망했던 가설이 허무맹랑한 것으로 판명된 것은 실망스러운 일입니다.",
     "AZOLLA: An update; the signal may yet be of use! We have proposed, and our friends have agreed, that this signal may be the final component required for the <![CDATA[<color=orange>Distant Node Project</color>]]> to carry us to the <![CDATA[<color=orange>Eye</color>]]>.": "아졸라: 업데이트: 신호가 아직 사용 가능할지도 모릅니다! 저희는 이 신호가 원격 노드 프로젝트가 우리를 <![CDATA[<color=orange>눈</color>]]>으로 데려가는 데 필요한 최종 요소가 될 수 있다고 제안했고, 친구들도 동의했습니다.",
-    "NESIA: Excellent! I will set about collecting a complete recording of the signal as soon as I can. It may take some time due to the noise from the feedback, but it should be achievable.": "네시아: 좋아요! 가능한 한 빨리 신호의 녹음을 완료하도록 하겠습니다. 잡음으로 인해 시간이 다소 걸릴 수 있지만, 성공할 수 있을 거예요.",
+    "NESIA: Excellent! I will set about collecting a complete recording of the signal as soon as I can. It may take some time due to the noise from the feedback, but it should be achievable.": "네시아: 좋아요! 가능한 한 빨리 신호의 녹음을 완료하도록 하겠습니다. 잡음으로 인해 시간이 다소 걸릴 수 있지만, 성공할 수 있을 겁니다.",
 
     //burning_recording
-    "SENNETTI: Our new friends were not exaggerating, this area is quite hot. I will be quite relieved when we set up the portable life support.": "세네티: 새 친구들의 말이 과장이 아니었어요. 이 지역은 꽤 온도가 높습니다. 이동식 생명 유지 장치를 설치하면 안심할 수 있을 것 같아요.",
+    "SENNETTI: Our new friends were not exaggerating, this area is quite hot. I will be quite relieved when we set up the portable life support.": "세네티: 새 친구들의 말이 과장이 아니었어요. 이 지역은 꽤 온도가 높네요. 이동식 생명 유지 장치를 설치하면 안심할 수 있을 것 같아요.",
     "AZOLLA: I will as well, I fear we would not survive long in this heat otherwise.": "아졸라: 저도 그래요. 아니면 이 더위 속에서 오래 버티지 못할 것 같아요.",
-    "OKALIS: Hm, I don't seem to be able to fire my portside thrusters, which is making maneuvering difficult.": "오커러스: 음, 왼쪽 추진기가 작동하기 않는 것 같군요. 움직이기 어려워요.",
-    "NESIA: I seem to have lost vertical thrust. I believe the excessive heat may be interfering with our propulsion systems. I would advise we retreat for the moment.": "네시아: 수직 추진기가 고장난 것 같아요. 과도한 열이 추진 시스템을 방해하는 것 같네요. 당분간은 물러나는 게 좋겠습니다.",
+    "OKALIS: Hm, I don't seem to be able to fire my portside thrusters, which is making maneuvering difficult.": "오커러스: 음, 왼쪽 추진기가 작동하기 않는 것 같군요. 움직이기가 어려워요.",
+    "NESIA: I seem to have lost vertical thrust. I believe the excessive heat may be interfering with our propulsion systems. I would advise we retreat for the moment.": "네시아: 수직 추진기가 고장난 것 같아요. 과도한 열이 추진 시스템을 방해하는 것 같네요. 당분간은 물러나는 게 좋겠어요.",
     "OKALIS: ...I actually seem to have lost all thrust, I may require assistance to return.": "오커러스: ...저는 모든 추진력가 고장나서, 돌아가려면 도움이 필요할 것 같습니다.",
     "AZOLLA: Unfortunately, that seems to be the case for all of us. It seems that we are trapped here, for the time being.": "아졸라: 안타깝게도, 우리 모두가 그런 것 같습니다. 당분간은 여기에 갇힌 것 같군요.",
     "SENNETTI: The temperature here is entirely inhospitable, if we are unable to find a way to propel ourselves soon, we aren't going to make it out!": "세네티: 이곳의 기온은 생존할 수 없는 수준이에요. 빨리 탈출할 방법을 찾지 못하면, 여기서 살아 나갈 수 없을 거예요!",
@@ -761,7 +761,7 @@
     "NESIA: This is possible, but quite alarming. I struggle to imagine the sort of spatial anomalies that multiple plants like the <![CDATA[<color=purple>Bramble</color>]]> could cause.": "네시아: 가능성은 있지만, 상당히 우려스러운 일입니다. <![CDATA[<color=purple>가시덤불</color>]]>과 같은 여러 식물이 모여서 어떤 공간적 변칙을 일으킬지 상상하기 어렵습니다.",
 
     //reject_killing_hint
-    "AZOLLA: The Dree have found a hazardous node and, at their request, we are to develop a delivery method for the toxin produced by the <![CDATA[<color=orange>Venomous Reject</color>]]>.": "아졸라: 드리가 위험 노드를 발견했고, 그들의 요청에 따라 <![CDATA[<color=orange>독을 품은 배척자</color>]]>가 생성하는 독소의 주입 방법을 개발해야 합니다.",
+    "AZOLLA: The Dree have found a hazardous node and, at their request, we are to develop a delivery method for the toxin produced by the <![CDATA[<color=orange>Venomous Reject</color>]]>.": "아졸라: 드리들이 위험한 노드를 발견했고, 그들의 요청에 따라 <![CDATA[<color=orange>독을 품은 배척자</color>]]>가 생성하는 독소의 주입 방법을 개발해야 합니다.",
     "SENNETTI: This should not be difficult in and of itself, but who should deliver the toxin? We cannot ignore the possibility of the <![CDATA[<color=purple>Bramble</color>]]> reacting in some violent manner.": "세네티: 그 자체는 어렵지 않겠지만, 누가 독소를 전달해야 하나요? <![CDATA[<color=purple>가시덤불</color>]]>이 폭력적인 방식으로 반응할 가능성도 무시할 수 없습니다.",
     "DITYLUM: I can do it. I know my way around the <![CDATA[<color=purple>Deep Bramble</color>]]>, and I'm sure I can handle whatever happens.": "디트룸: 할 수 있어요. 저는 <![CDATA[<color=purple>깊은 가시덤불</color>]]>에 대해 잘 알고 있고, 무슨 일이 있어도 잘 해낼 수 있을 거예요.",
     "AZOLLA: If you are certain, then that will be our plan. We will create a specialized mount and injector. The mount will be installed on the node to aid in administering the toxin, and you will be charged with the actual delivery.": "아졸라: 확신하신다면, 당신에게 맡기겠습니다. 전용 거치대와 주입기를 만들 것입니다. 거치대는 독소 투여를 돕기 위해 노드에 설치될 것이며, 실제 주입은 당신이 맡을 것입니다.",
@@ -998,7 +998,7 @@
     "These fish are the main source that the aliens have for eggs.": "이 물고기들은 외계인들이 알을 얻기 위한 주요 공급원이다.",
     "The Nomai observed that the aliens seemed reluctant to take risks, even if it may improve their situation.": "노마이는 외계인들이 상황을 나아지게 만들 수 있더라도, 위험을 감수하기를 꺼리는 것 같다고 관찰했다.",
 
-    "Enzyme Lab": "효소 실험실",
+    "Enzyme Lab": "효소 연구소",
     "I read about somewhere called the Enzyme Lab in the mouth of one of the domesticated fish. The Nomai decided to go there to discuss how to save someone named Ditylum.": "길들여진 물고기의 입 속에 효소 연구소가 있다는 글을 읽었다. 노마이는 디트룸이라는 드리를 구할 방법을 논의하기 위해 그곳에 가기로 결정했다.",
     "Apparently the lab can only be safely entered once the eye of the anglerfish has been pet.": "아귀의 눈을 쓰다듬어야만 실험실에 안전하게 들어갈 수 있다고 한다.",
     "The Nomai decided to use an anglerfish named Kevin to cross the Nursery. To make sure that it would carry them back, they trained it to react to being hit in the eye with a small object.": "노마이는 케빈이라는 이름의 아귀를 이용해 보육원을 건너기로 결정했다. 노마이는 아귀가 다시 돌아올 수 있도록 케빈이 작은 물체에 눈을 맞았을 때 반응하도록 훈련시켰다.",
@@ -1032,8 +1032,7 @@
     "The Nomai came up with several hypotheses as to how the Eye's signal might be so old.": "노마이는 눈의 신호가 어떻게 그렇게 오래될 수 있었는지에 대해 몇 가지 가설을 세웠다.",
    
     "Nomai Meeting": "노마이 회의",
-    "I found text calling the Nomai back to Graviton's Folly to discuss some important news.": "중요한 소식에 대해 논의하기 위해 노마이를 다시 중력의 어리석음으로 부르는 글을 발견했다."
-    ,
+    "I found text calling the Nomai back to Graviton's Folly to discuss some important news.": "중요한 소식에 대해 논의하기 위해 노마이를 다시 중력의 어리석음으로 부르는 글을 발견했다.",
     "Third Pod Memorial": "세 번째 탈출 포드 추모관",
     "I found a place where the Nomai constructed memorials for the third pod and its passengers.": "노마이가 세 번째 포드와 탑승자들을 위해 기념비를 세운 곳 추모관.",
     "One of the Nomai, Nesia, suffered an emotional breakdown over the death of her partner, who was on the third pod. This seemed to greatly dishearten the other Nomai.": "노마이 중 한 명인 네시아는 세 번째 포드에 탑승했던 연인의 죽음으로 인해 정신적으로 무너졌다. 이는 다른 노마이들에 충격을 준 것 같다.",
