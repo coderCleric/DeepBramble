@@ -19,7 +19,7 @@ namespace DeepBramble
     /**
      * The main class of the mod, everything used in the mod branches from this class.
      */
-    public class DeepBramble : ModBehaviour { 
+    public class DeepBramble : ModBehaviour {
         //Miscellanious variables
         public INewHorizons NewHorizonsAPI;
         public static float recallTimer = -999;
@@ -43,8 +43,8 @@ namespace DeepBramble
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizonsAPI.LoadConfigs(this);
 
-            //Load assetbundles
-            TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
+                //Load assetbundles
+                TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
             PostCreditsHelper.leviathanBundle = ModHelper.Assets.LoadBundle("assetbundles/end_bundle");
             textMat = ModHelper.Assets.LoadBundle("assetbundles/text_bundle").LoadAsset<Material>("Assets/Materials/dree_text.mat");
             signalBodyObject= ModHelper.Assets.LoadBundle("assetbundles/signal_body").LoadAsset<GameObject>("Assets/Prefabs/props/signal_body.prefab");
@@ -115,7 +115,7 @@ namespace DeepBramble
                 BaseSystemHelper.FixBaseSystem();
             }
 
-            //Do this stuff if we're in the hearthian system
+            //Do this stuff if we're in the eye system
             if (NewHorizonsAPI.GetCurrentStarSystem().Equals("EyeOfTheUniverse"))
             {
                 EyeSystemHelper.FixEyeSystem();

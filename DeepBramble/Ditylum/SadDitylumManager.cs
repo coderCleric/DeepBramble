@@ -11,6 +11,7 @@ namespace DeepBramble.Ditylum
         private InteractReceiver receiver;
         private CharacterDialogueTree dialogue;
         private float sitTime = -1;
+        private float sitTimerLen = 10;
 
         /**
          * On awake, do some prep
@@ -108,7 +109,7 @@ namespace DeepBramble.Ditylum
          */
         private void Update()
         {
-            if (sitTime > 0 && Time.time > sitTime + 5)
+            if (sitTime > 0 && Time.time > sitTime + sitTimerLen)
                 Locator.GetDeathManager().KillPlayer(DeathType.Meditation);
         }
     }
