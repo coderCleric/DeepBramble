@@ -1,12 +1,12 @@
 ManifestFileVersion: 0
-CRC: 2049945749
+CRC: 2998771485
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: dcb3437cc9150c590b2d422565447112
+    Hash: ccbbcee513772cf3af9649ae0cc1024b
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 32c77f230aeb0fd574c6f77322e574e6
+    Hash: ef28b9fe10bcd823b7052452d32b786f
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -32,6 +32,8 @@ ClassTypes:
 - Class: 74
   Script: {instanceID: 0}
 - Class: 82
+  Script: {instanceID: 0}
+- Class: 83
   Script: {instanceID: 0}
 - Class: 91
   Script: {instanceID: 0}
@@ -88,6 +90,7 @@ ClassTypes:
 SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/Prefabs/eye/FCAltTravelerSockets.prefab
+- Assets/Prefabs/eye/DitylumFinaleAudioSource.prefab
 - Assets/Prefabs/props/WarpCoreSocket_Eye.prefab
 - Assets/Prefabs/eye/DitylumZone.prefab
 - Assets/Prefabs/eye/forest_new_ground.prefab

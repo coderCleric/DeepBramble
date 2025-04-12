@@ -60,6 +60,13 @@
       },
       {
         "assetBundle": "assetbundles/eye_bundle",
+        "path": "Assets/Prefabs/eye/DitylumFinaleAudioSource.prefab",
+        "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/InflationController",
+        "isRelativeToParent": true,
+        "keepLoaded": true
+      },
+      {
+        "assetBundle": "assetbundles/eye_bundle",
         "path": "Assets/Prefabs/eye/FCAltTravelerSockets.prefab",
         "parentPath": "Sector_EyeOfTheUniverse/Sector_Campfire/Campsite",
         "isRelativeToParent": true,
@@ -127,7 +134,9 @@
         "detectionRadius": 0.01,
         "frequency": "Traveler",
         "onlyAudibleToScope": false,
-        "volume": 1,
+        "minDistance": 20,
+        "maxDistance": 5000,
+        "volume": 0.2,
         "name": "Ditylum",
         "position": {
           "x": 0,
@@ -142,7 +151,7 @@
         "frequency": "Traveler",
         "name": "Ditylum",
         "detectionRadius": 0.01,
-        "volume": 1,
+        "volume": 0.2,
         "identificationRadius": 0,
         "position": {
           "x": 0,

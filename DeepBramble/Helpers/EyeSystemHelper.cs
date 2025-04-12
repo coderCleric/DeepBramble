@@ -8,21 +8,8 @@ namespace DeepBramble.Helpers
     public static class EyeSystemHelper
     {
         public static bool doEyeStuff = false;
-        public static AudioClip onlyDity = null;
-        public static AudioClip withSol = null;
-        public static AudioClip withPrisoner = null;
-        public static AudioClip withBoth = null;
-
-        /**
-         * Loads the different songs for the ending
-         */
-        public static void LoadSongs()
-        {
-            onlyDity = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_only_ditylum_added.mp3"));
-            withSol = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_no_prisoner.mp3"));
-            withPrisoner = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_no_solanum.mp3"));
-            withBoth = AudioUtilities.LoadAudio(Path.Combine(DeepBramble.instance.ModHelper.Manifest.ModFolderPath, "assets", "Audio", "song_with_everyone.mp3"));
-        }
+        public static OWAudioSource ditySource = null;
+        public static bool dityFadeStarted = false;
 
         /**
          * Does the fixes for the eye system
@@ -39,6 +26,7 @@ namespace DeepBramble.Helpers
                 doEyeStuff = false;
                 GameObject.Destroy(campRoot.Find("Terrain_Campfire/Terrain_EYE_ForestFloor_Tomb/forest_new_ground").gameObject);
                 GameObject.Destroy(campRoot.Find("Campsite/Ditylum").gameObject);
+                GameObject.Destroy(campRoot.Find("InflationController/DitylumFinaleAudioSource").gameObject);
                 GameObject.Destroy(campRoot.Find("Campsite/FCAltTravelerSockets").gameObject);
                 GameObject.Destroy(campRoot.Find("InstrumentZones/DitylumZone").gameObject);
                 GameObject.Destroy(campRoot.parent.Find("Sector_Observatory/Geo_Observatory/ObservatoryPivot/dree_exhibit").gameObject);
@@ -46,9 +34,6 @@ namespace DeepBramble.Helpers
             }
 
             doEyeStuff = true;
-
-            //Load the custom songs
-            LoadSongs();
 
             //Disable the original ground
             campRoot.Find("Terrain_Campfire/Terrain_EYE_ForestFloor_Tomb/ForestOfGalaxies_Center_new").gameObject.SetActive(false);
@@ -230,6 +215,10 @@ namespace DeepBramble.Helpers
                 .GetComponent<OWRenderer>(), inflator._groundRenderers);
             inflator._groundRenderers = AddToArray<OWRenderer>(campRoot.Find("Terrain_Campfire/Terrain_EYE_ForestFloor_Tomb/forest_new_ground/actual_ground/ditylum_patch")
                 .GetComponent<OWRenderer>(), inflator._groundRenderers);
+
+            //Also, keep track of the finale source for dity boi
+            ditySource = inflator.transform.Find("DitylumFinaleAudioSource").gameObject.GetComponent<OWAudioSource>();
+            dityFadeStarted = false;
         }
 
         /**

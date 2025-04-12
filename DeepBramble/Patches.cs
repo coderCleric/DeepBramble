@@ -1174,42 +1174,17 @@ namespace DeepBramble
         }
 
         /**
-         * Make sure that we fetch the correct audio clip
+         * When somebody else starts fading, ditylum should as well
          */
-        [HarmonyPrefix]
-        [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.GetTravelerMusicEndClip))]
-        public static bool GetEndMusic(QuantumCampsiteController __instance, ref AudioClip __result)
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(TravelerEyeController), nameof(TravelerEyeController.OnCrossfadeToFinale))]
+        public static void FadeDitylum()
         {
-            //Ditylum isn't there, don't change anything
-            if (!EyeSystemHelper.doEyeStuff)
+            if(EyeSystemHelper.ditySource != null && !EyeSystemHelper.dityFadeStarted)
             {
-                DeepBramble.debugPrint("No Ditylum, doing default method");
-                return true;
+                EyeSystemHelper.dityFadeStarted = true;
+                EyeSystemHelper.ditySource.FadeIn(5);
             }
-
-            //Otherwise, use flags to determine what clip to use
-            bool prisonerPresent = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
-            __result = EyeSystemHelper.onlyDity; //Default is only Ditylum is there
-            if (__instance._hasMetSolanum && prisonerPresent) //Both others are there
-            {
-                DeepBramble.debugPrint("Playing music for everyone");
-                __result = EyeSystemHelper.withBoth;
-            }
-            else if (__instance._hasMetSolanum) //Only Solanum made it
-            {
-                DeepBramble.debugPrint("Sol and dity");
-                __result = EyeSystemHelper.withSol;
-            }
-            else if (prisonerPresent) //Only prisoner made it
-            {
-                DeepBramble.debugPrint("Pris and dity");
-                __result = EyeSystemHelper.withPrisoner;
-            }
-            else
-                DeepBramble.debugPrint("Playing music for only dity");
-
-            //Don't run the original method
-            return false;
         }
 
         //################################# Debug Things #################################
