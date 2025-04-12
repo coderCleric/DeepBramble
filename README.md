@@ -57,8 +57,7 @@ This mod is made by someone who has already beaten the base game, and is therefo
   - Pikpik
   - Anon
 - Title screen music derived from The Lost Reels by Andrew Prahlow
-- Ditylum's song made using Waveform 13 with sounds from Spitfire Audio
-- Other custom music made with GarageBand
+- Custom music made with GarageBand
 
 ## Disclaimer
 This work is unofficial fan content created under permission from the Mobius Digital Fan Content Policy. It includes materials which are the property of Mobius Digital and it is neither approved nor endorsed by Mobius Digital.
