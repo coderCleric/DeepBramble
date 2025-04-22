@@ -396,7 +396,7 @@
     "SENNETTI: There is a larger entrance?": "세네티: 더 큰 입구가 있다고요?",
     "NESIA: Yes, there is a much larger entrance. It would make transporting your material much easier, especially since it is relatively close to <![CDATA[<color=orange>Graviton's Folly</color>]]>.": "네시아: 네, 훨씬 더 큰 입구가 있어요. 특히 그 입구가 <![CDATA[<color=orange>중력의 어리석음</color>]]>에 비교적 가깝기 때문에 재료를 운반하기가 훨씬 쉬워질 거예요.",
     "SENNETTI: I will be sure to start using that entrance then! Thank you for the information! I'll make one more trip along the usual path and leave a short-lived beacon at the construction site, to make it easier to find the larger entrance you speak of.": "세네티: 그럼 그 입구를 이용해야겠네요! 정보 고마워요! 말씀하신 더 큰 입구를 쉽게 찾을 수 있도록 평소 사용하던 경로를 따라 이동하고, 연구소를 세우고 있는 구역에 짧은 수명의 신호기를 남겨 둘게요.",
-    "AZOLLA: I imagine that the locals will also be much happier without us hauling all of our material through their home.": "아졸라: 우리가 그들의 고향이 아니라 다른 길을 통해서 자재를 운반하면, 주민들도 훨씬 더 행복할 거라고 생각합니다다.",
+    "AZOLLA: I imagine that the locals will also be much happier without us hauling all of our material through their home.": "아졸라: 우리가 그들의 고향이 아니라 다른 길을 통해서 자재를 운반하면, 주민들도 훨씬 더 행복할 거라고 생각합니다.",
     
     //amylax_gift_text
     "AMYLAX: Okalis, I have left a gift for you here, I hope you like it!": "아밀락스: 오커러스, 여기 선물을 준비했는데 마음에 드셨으면 좋겠네요!",
@@ -478,7 +478,7 @@
 
     //eye_purpose
     "NESIA: What do you all suppose the <![CDATA[<color=orange>Eye of the Universe</color>]]> is meant to accomplish? Why did it call out to our clan?": "네시아: 여러분은 우주의 눈이 어떤 목적을 달성하기 위한 것이라고 생각하시나요? 왜 우리 부족을 부른 걸까요?",
-    "SENNETTI: The signal near <![CDATA[<color=orange>Magma's Recursion</color>]]>, unfortunately, sheds little light on this. Suppose the <![CDATA[<color=orange>Eye</color>]]> does not wish to inform us of its purpose?": "세네티: 안타깝게도 <![CDATA[<color=orange>마그마의 메아리</color>]]> 부근의 신호는 이에 대해 거의 알려주지 않았았습니다. <![CDATA[<color=orange>눈</color>]]>은 우리에게 그 목적을 알려주고 싶지 않은 걸까요?",
+    "SENNETTI: The signal near <![CDATA[<color=orange>Magma's Recursion</color>]]>, unfortunately, sheds little light on this. Suppose the <![CDATA[<color=orange>Eye</color>]]> does not wish to inform us of its purpose?": "세네티: 안타깝게도 <![CDATA[<color=orange>마그마의 메아리</color>]]> 부근의 신호는 이에 대해 거의 알려주지 않았습니다. <![CDATA[<color=orange>눈</color>]]>은 우리에게 그 목적을 알려주고 싶지 않은 걸까요?",
     "OKALIS: How unsettling! I vote we explore other possibilities first, as the idea that the <![CDATA[<color=orange>Eye</color>]]> may purposefully be withholding information is frightening!": "오커러스: 정말 불안하네요! 저는 다른 가능성을 먼저 탐색해 보자는 의견입니다. <![CDATA[<color=orange>눈</color>]]>이 의도적으로 정보를 숨기고 있을지도 모른다는 생각은 너무 무섭잖아요!",
     "AZOLLA: Suppose the <![CDATA[<color=orange>Eye</color>]]> has no purpose at all? It may simply be a natural phenomenon that happens to emit a signal.": "아졸라: <![CDATA[<color=orange>눈</color>]]>에는 전혀 목적이 없다고 가정해 봅시다. 단순히 신호를 발산하는 자연 현상일 수도 있겠죠.",
     "NESIA: Perhaps, but the sudden arrival of the signal is rather odd, and Filix seemed to think the signal was significant. Additionally, I struggle to imagine how a purposeless, natural phenomena would be older than the universe.": "네시아: 그럴 수도 있겠지만, 갑작스러운 신호의 도착은 다소 이상했고, 필릭스는 그 신호가 중요하다고 생각한 것 같았습니다. 게다가 목적이 없는 자연 현상이 어떻게 우주보다 더 오래되었다는 것인지 상상하기 어렵습니다.",
