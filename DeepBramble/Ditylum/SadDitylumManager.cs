@@ -1,4 +1,5 @@
-﻿using NewHorizons.Utility.Files;
+﻿using NewHorizons.Handlers;
+using NewHorizons.Utility.Files;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,7 +25,7 @@ namespace DeepBramble.Ditylum
             //Set up the interaction
             receiver = GetComponentInChildren<InteractReceiver>();
             receiver.OnPressInteract += Sit;
-            receiver.ChangePrompt("Sit");
+            receiver.ChangePrompt(TranslationHandler.GetTranslation("Sit", TranslationHandler.TextType.UI));
             receiver.SetInteractionEnabled(false);
 
             //Set up the dialogue
@@ -87,7 +88,7 @@ namespace DeepBramble.Ditylum
             //Get ready for the end screen
             Locator.GetDeathManager().FinishedDLC();
             DeepBramble.instance.NewHorizonsAPI.SetDefaultSystem("SolarSystem");
-            GameObject.Find("FlashbackCamera").transform.Find("Canvas_EchoesOver/EchoesOfTheEye").GetComponent<Text>().text = "Forgotten Castaways";
+            GameObject.Find("FlashbackCamera").transform.Find("Canvas_EchoesOver/EchoesOfTheEye").GetComponent<Text>().text = TranslationHandler.GetTranslation("Forgotten Castaways", TranslationHandler.TextType.OTHER);
 
             //Disable certain effects
             Locator.GetToolModeSwapper().UnequipTool();

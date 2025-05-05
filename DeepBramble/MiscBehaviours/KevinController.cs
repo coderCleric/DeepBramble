@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NewHorizons.Handlers;
+using UnityEngine;
 
 namespace DeepBramble.MiscBehaviours
 {
@@ -51,7 +52,7 @@ namespace DeepBramble.MiscBehaviours
             attachPoint.SetAttachOffset(new Vector3(1, 0, 0));
             handleReceiver = attachPoint.gameObject.GetComponent<InteractReceiver>();
             handleReceiver.OnPressInteract += HandleGrab;
-            handleReceiver.ChangePrompt("Grab");
+            handleReceiver.ChangePrompt(TranslationHandler.GetTranslation("Grab", TranslationHandler.TextType.UI));
             handleReceiver.DisableInteraction();
 
             //Grab & set up the eye triggers
@@ -66,7 +67,7 @@ namespace DeepBramble.MiscBehaviours
             foreach (InteractReceiver interactor in eyeInteractors)
             {
                 interactor.OnPressInteract += OnPet;
-                interactor.ChangePrompt("Pet");
+                interactor.ChangePrompt(TranslationHandler.GetTranslation("Pet", TranslationHandler.TextType.UI));
             }
 
             //Grab the audio source

@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using NewHorizons.Handlers;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace DeepBramble.MiscBehaviours
@@ -45,7 +46,7 @@ namespace DeepBramble.MiscBehaviours
             foreach (InteractReceiver receiver in petZones)
             {
                 receiver.OnPressInteract += OnPet;
-                receiver.ChangePrompt("Pet");
+                receiver.ChangePrompt(TranslationHandler.GetTranslation("Pet", TranslationHandler.TextType.UI));
             }
 
             //The noise detector

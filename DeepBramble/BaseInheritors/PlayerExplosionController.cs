@@ -35,7 +35,6 @@ namespace DeepBramble.BaseInheritors
 		 */
 		public new void Play()
         {
-			DeepBramble.debugPrint("test 1");
 			_forceVolume.SetVolumeActivation(active: true);
 			if (Vector3.Distance(base.transform.position, Locator.GetPlayerTransform().position) < base.transform.localScale.x * GetComponent<SphereCollider>().radius)
 			{
@@ -50,7 +49,6 @@ namespace DeepBramble.BaseInheritors
 			}
 			_playing = true;
 			enabled = true;
-			DeepBramble.debugPrint("test 2");
 		}
     }
 }
