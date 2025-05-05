@@ -1218,6 +1218,7 @@
       "Press": "押す",                    // It doesn't work.
       "Pet": "撫でる",                    // It doesn't work.
       "Sit": "座る",                      // It doesn't work.
+      "Grab": "つかむ",                     // It doesn't work.
   
       "Gravity Crystal": "重力クリスタル", 
       "Toxin Injector": "死液注入器", 
