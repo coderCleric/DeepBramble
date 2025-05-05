@@ -1,0 +1,26 @@
+This is just a doc containing the text that the tools at https://nh.outerwildsmods.com/guides/translation/ won't catch for
+translations. It follows the format "text": description, where text is the English version of the text in the mod and
+description is a short description of the context for that text. They are also separated into the sections of the
+translation doc that they should be in.
+
+I think this is fairly exhaustive, but if you happen to notice any texts that the tool doesn't catch and aren't listed here
+please make an issue in the GitHub repo!
+
+---UI---
+"Gravity Crystal": Displayed when a player goes to pick up one of the portable gravity crystals.
+"Toxin Injector": Displayed when a player goes to pick up the toxin injector.
+"SCOUT RECALL COMPLETED": The notification that pops up when the scout finishes being recalled from the dangerous node.
+"Sit": The prompt for sitting with Ditylum.
+"Pet": The prompt when going to pet fish eyes.
+"Press": The prompt when going to use the door buttons.
+"Grab": The prompt when going to grab the handles on Kevin's teeth.
+"Flip Lever": The prompt when going to toggle the tractor beams via their levers.
+"RECALL REQUEST UNACKNOWLEDGED": The notification when the player attempts to recall the scout from the dangerous node.
+"WARNING: EXCESSIVE HEAT DETECTED": The notification displayed near Magma's Recursion.
+"<!> Untranslated Dree writing <!>": The text displayed when hovering over Dree text before translating it.
+"Signal: ": The text displayed before signal names when locking on to them. Note the colon and space inside of the
+            quotation marks.
+"WARNING: FLAMMABLE GAS DETECTED": The notification displayed in the gas cave of Magma's Recursion.
+
+---Other---
+"Forgotten Castaways": The text displayed on the splash screen after sitting with Ditylum.
