@@ -1214,11 +1214,11 @@
       "Alien Echolocation": "異星人のエコロケーション",
       "Geothermal Activity": "地熱活動",
 
-      "Flip Lever": "レバーを切り替える",  // It doesn't work.
-      "Press": "押す",                    // It doesn't work.
-      "Pet": "撫でる",                    // It doesn't work.
-      "Sit": "座る",                      // It doesn't work.
-      "Grab": "つかむ",                     // It doesn't work.
+      "Flip Lever": "レバーを切り替える",
+      "Press": "押す",
+      "Pet": "なでる",
+      "Sit": "座る",
+      "Grab": "つかむ",
   
       "Gravity Crystal": "重力クリスタル", 
       "Toxin Injector": "死液注入器", 
@@ -1229,7 +1229,9 @@
       "SCOUT RECALL COMPLETED": "偵察機回収完了",
   
       "Signal: ": "信号: ",                          
-      "<!> Untranslated Dree writing <!>": "<!> 未翻訳のDree言語 <!>" 
+      "<!> Untranslated Dree writing <!>": "<!> 未翻訳のDree言語 <!>",
+
+      "Forgotten Castaways": "Forgotten Castaways"
     }
   }
   
