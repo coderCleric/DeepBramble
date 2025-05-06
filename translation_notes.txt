@@ -24,3 +24,23 @@ please make an issue in the GitHub repo!
 
 ---Other---
 "Forgotten Castaways": The text displayed on the splash screen after sitting with Ditylum.
+
+
+The following lines may be noted by the tools talked about above, but I'm not sure. I've included them here just to be safe
+
+---ShipLog---
+"Stranded Alien": A rumor name for the Venomous Reject ship log entry
+"Rescue Mission": A rumor name for the Venomous Reject ship log entry
+
+---UI--- (These are all just names of different planets/dimensions as they appear in the map mode of the ship log)
+"Bramble's Doorstep"
+"Briar's Hollow"
+"Titan's Tears"
+"Lover's Rock"
+"Shattered Hearth"
+"Parent's Rest"
+"The Nursery"
+"The Venomous Reject"
+"Bright Hollow"
+"Magma's Recursion"
+"Bramble's Heart"
