@@ -12,6 +12,7 @@ This mod is made by someone who has already beaten the base game, and is therefo
 **Caution when using with the Light Bramble mod. It makes the dimensions pitch black and may reveal several hidden things, breaking progression.**
 # Currently supported languages
 - Korean
+- Japanese
 
 # Note for translators
 Due to some implementation details, the tools and methods found in the [New Horizons docs](https://nh.outerwildsmods.com/guides/translation/) will create a translation file that misses a few things. The extra things to account for can be found in the translation_notes.txt file on the [GitHub Repo](https://github.com/coderCleric/DeepBramble/blob/main/translation_notes.txt) for the mod. If you happen to notice any other translations that don't function properly and aren't noted in that doc, please make an issue on the repository!
@@ -62,8 +63,9 @@ Due to some implementation details, the tools and methods found in the [New Hori
   - GameWyrm
   - Pikpik
   - Anon
-- Thank you to the following for creating translations
+- Thank you to the following for creating translations!
   - Barirn - Korean translation
+  - nepyanagi - Japanese translation
 - Title screen music derived from The Lost Reels by Andrew Prahlow
 - Custom music made with GarageBand
 
