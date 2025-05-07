@@ -1224,6 +1224,12 @@
     "RECALL REQUEST UNACKNOWLEDGED": "정찰기 응답 없음",
     "SCOUT RECALL COMPLETED": "정찰기 회수 완료",
 
+    "Sit": "앉기",
+    "Press": "누르기",
+    "Pet": "쓰다듬기",
+    "Flip Lever": "레버 당기기",
+    "Grab": "잡기",
+
     "Signal: ": "신호: ",                          
     "<!> Untranslated Dree writing <!>": "<!> 번역되지 않은 드리 글 <!>" 
   }
