@@ -11,6 +11,7 @@ This mod is made by someone who has already beaten the base game, and is therefo
 
 **Caution when using with the Light Bramble mod. It makes the dimensions pitch black and may reveal several hidden things, breaking progression.**
 # Currently supported languages
+- English
 - Korean
 - Japanese
 
