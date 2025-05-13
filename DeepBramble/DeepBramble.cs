@@ -21,7 +21,8 @@ namespace DeepBramble
      */
     public class DeepBramble : ModBehaviour {
         //Miscellanious variables
-        public INewHorizons NewHorizonsAPI;
+        public INewHorizons NewHorizonsAPI = null;
+        public IAchievements AchievementsAPI = null;
         public static float recallTimer = -999;
         public static Material textMat = null;
         public static GameObject signalBodyObject= null;
@@ -43,8 +44,8 @@ namespace DeepBramble
             NewHorizonsAPI = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizonsAPI.LoadConfigs(this);
 
-                //Load assetbundles
-                TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
+            //Load assetbundles
+            TitleScreenHelper.titleBundle = ModHelper.Assets.LoadBundle("assetbundles/titlescreeneffects");
             PostCreditsHelper.leviathanBundle = ModHelper.Assets.LoadBundle("assetbundles/end_bundle");
             textMat = ModHelper.Assets.LoadBundle("assetbundles/text_bundle").LoadAsset<Material>("Assets/Materials/dree_text.mat");
             signalBodyObject= ModHelper.Assets.LoadBundle("assetbundles/signal_body").LoadAsset<GameObject>("Assets/Prefabs/props/signal_body.prefab");
@@ -67,6 +68,23 @@ namespace DeepBramble
                     ForgottenLocator.inBrambleSystem = false;
                 }
             };
+
+            //Make a bunch of achievements
+            AchievementsAPI = ModHelper.Interaction.TryGetModApi<IAchievements>("xen.AchievementTracker");
+            if (AchievementsAPI != null)
+            {
+                AchievementsAPI.RegisterAchievement("FC.JUKE_FISH", true, this);
+                AchievementsAPI.RegisterAchievement("FC.DOUBLE_WARP", true, this);
+                AchievementsAPI.RegisterAchievement("FC.ERNESTO", false, this);
+                AchievementsAPI.RegisterAchievement("FC.GEYSER", true, this);
+                AchievementsAPI.RegisterAchievement("FC.MARSHMALLOW", false, this);
+                AchievementsAPI.RegisterAchievement("FC.SCROLL_HAUL", true, this);
+                AchievementsAPI.RegisterAchievement("FC.PET", true, this);
+                AchievementsAPI.RegisterAchievement("FC.BABY_BITE", true, this);
+                AchievementsAPI.RegisterAchievement("FC.BABY_TAXI", true, this);
+
+                AchievementsAPI.RegisterTranslationsFromFiles(this, "achievements");
+            }
 
             //Do stuff when the system starts to load
             UnityEvent<String> startLoadEvent = NewHorizonsAPI.GetChangeStarSystemEvent();
