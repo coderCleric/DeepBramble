@@ -331,8 +331,9 @@ namespace DeepBramble.Helpers
                         kevin.AddComponent<KevinController>();
                         body.GetComponentInChildren<SimpleFluidVolume>()._density = 8;
 
-                        //Save the drag volume
+                        //Save the drag volume and the outer warp
                         Patches.nurseryDragVol = body.transform.Find("Sector/Volumes/ZeroG_Fluid_Audio_Volume").gameObject.GetComponent<SimpleFluidVolume>();
+                        ForgottenLocator.nurseryOuterWarp = body.transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
                         break;
 
                     case "Bramble's Heart":

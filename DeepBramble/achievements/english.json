@@ -2,7 +2,7 @@
   "AchievementTranslations": {
     "FC.JUKE_FISH": {
       "Name": "No Ship Required",
-      "Description": "Read text from the translation lab without a baby fish biting the ship or you."
+      "Description": "Read the dictionary from the translation lab without a baby fish biting your ship."
     },
     "FC.DOUBLE_WARP": {
       "Name": "Wait, I don't need to do this every loop?",
@@ -14,15 +14,15 @@
     },
     "FC.GEYSER": {
       "Name": "4th-Degree Burns",
-      "Description": "Touch a lava geyser and live."
+      "Description": "Get hit by a lava geyser and live."
     },
     "FC.MARSHMALLOW": {
       "Name": "Hot Enough Already",
-      "Description": "Cook a marshmallow without extending the stick."
+      "Description": "Eat a marshmallow you cooked without extending the stick."
     },
     "FC.SCROLL_HAUL": {
       "Name": "I know where a wall is!",
-      "Description": "Bring the scroll to the base-game system and read it there."
+      "Description": "Bring the scroll to the Outer Wilds and read it there."
     },
     "FC.PET": {
       "Name": "Good Fishie!",

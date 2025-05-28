@@ -1,11 +1,14 @@
 ﻿using UnityEngine;
 using DeepBramble.BaseInheritors;
+using DeepBramble.Helpers;
 
 namespace DeepBramble.Triggers
 {
     class BabyBiter : MonoBehaviour
     {
-        Transform fishTransform = null;
+        private Transform fishTransform = null;
+        private CharacterDialogueTree dialogue = null;
+        private float biteAchievementTime = -1;
 
         /**
          * On start, grab the fish that we're attached to
@@ -16,7 +19,24 @@ namespace DeepBramble.Triggers
         }
 
         /**
-         * When something biteable enters the bit trigger, latch onto it
+         * Grant the achievement for talking to Ernesto
+         */
+        private void OnTalk()
+        {
+            AchievementHelper.GrantAchievement("FC.ERNESTO");
+        }
+
+        /**
+         * When disabled, uncouple
+         */
+        private void OnDisable()
+        {
+            if (dialogue != null)
+                dialogue.OnStartConversation -= OnTalk;
+        }
+
+        /**
+         * When something biteable enters the bite trigger, latch onto it
          */
         private void OnTriggerEnter(Collider other)
         {
@@ -46,15 +66,37 @@ namespace DeepBramble.Triggers
 
                 //Second, if it's the player, start hurting them
                 if (otherBody.CompareTag("Player"))
+                {
                     this.transform.parent.Find("HazardVolume").gameObject.SetActive(true);
+                    biteAchievementTime = Time.time + 30;
+                }
 
-                //If it was the ship, do the ship log reveal
+                //If it was the ship, do the ship log reveal and increment the achievement counter
                 else
+                {
                     Locator.GetShipLogManager().RevealFact("ANGLER_DISTRACTION_SUCCESS_FACT_FC");
+                    AchievementHelper.fishLatched++;
+                }
 
                 //If it was the ship and this has a dialogue, enable the dialogue
-                if (otherBody.CompareTag("Ship") && fishTransform.GetComponent<BabyFishController>().dialogue != null)
-                    fishTransform.GetComponent<BabyFishController>().dialogue.gameObject.SetActive(true);
+                dialogue = fishTransform.GetComponent<BabyFishController>().dialogue;
+                if (otherBody.CompareTag("Ship") && dialogue != null)
+                {
+                    dialogue.gameObject.SetActive(true);
+                    dialogue.OnStartConversation += OnTalk;
+                }
+            }
+        }
+
+        /**
+         * Track the timer for the achievement
+         */
+        private void Update()
+        {
+            if(biteAchievementTime > 0 && Time.time >= biteAchievementTime)
+            {
+                if (!Locator.GetDeathManager().IsPlayerDying() && !Locator.GetDeathManager().IsPlayerDead())
+                    AchievementHelper.GrantAchievement("FC.BABY_BITE");
             }
         }
     }
