@@ -231,6 +231,14 @@ namespace DeepBramble.Helpers
                             Lever outLever = sectorTransform.Find("lava_planet/entry_zone/tractor_out/lever").gameObject.AddComponent<Lever>();
                             outLever.RegisterBeam(sectorTransform.Find("lava_planet/entry_zone/tractor_out/BeamVolume").gameObject);
 
+                            //Set up the geyser achievement
+                            OWTriggerVolume[] geyserTriggers = sectorTransform.Find("lava_planet/geysers").GetComponentsInChildren<OWTriggerVolume>();
+                            foreach(OWTriggerVolume trigger in geyserTriggers)
+                            {
+                                DeepBramble.debugPrint("Doing ach on geyser");
+                                trigger.OnExit += DeepBramble.OnGeyserExit;
+                            }
+
                             break;
 
                         case "Heart Planet":

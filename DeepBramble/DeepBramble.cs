@@ -26,7 +26,6 @@ namespace DeepBramble
         public static float recallTimer = -999;
         public static Material textMat = null;
         public static GameObject signalBodyObject= null;
-        private float geyserTimer = -1;
 
         //Only needed for debug
         public static Transform relBody = null;
@@ -203,14 +202,6 @@ namespace DeepBramble
                 recallTimer = -999;
             }
 
-            //If needed, track time for the geyser achievement
-            if (geyserTimer > 0 && Time.time >= geyserTimer) 
-            {
-                geyserTimer = -1;
-                if (!Locator.GetDeathManager().IsPlayerDying() && !Locator.GetDeathManager().IsPlayerDead())
-                    AchievementHelper.GrantAchievement("FC.GEYSER");
-            }
-
             //Lock onto the body that a signal is attached to
             if (OWInput.IsNewlyPressed(InputLibrary.lockOn))
             {
@@ -328,11 +319,12 @@ namespace DeepBramble
         }
 
         /**
-         * When the player touches a lava geyser, start the timer
+         * When the player exits a lava geyser, start the timer
          */
-        public void OnGeyserTouch()
+        public static void OnGeyserExit(GameObject other)
         {
-            geyserTimer = Time.time + 3;
+            if (other.CompareTag("PlayerDetector") && !Locator.GetDeathManager().IsPlayerDying() && !Locator.GetDeathManager().IsPlayerDead())
+                AchievementHelper.GrantAchievement("FC.GEYSER");
         }
 
         /**
