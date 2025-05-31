@@ -1195,14 +1195,19 @@ namespace DeepBramble
 
         //################################# Achievement Things #################################
         /**
-         * If the dictionary fact is revealed and no fish are latched, grant the relevant achievement
+         * Listen for specific log entries and conditions to grant different achievements
          */
         [HarmonyPostfix]
         [HarmonyPatch(typeof(ShipLogManager), nameof(ShipLogManager.RevealFact))]
-        public static void GrantDictAchievement(string id)
+        public static void GrantLogAchievement(string id)
         {
+            //If the player reads the dictionary with no fish on the ship, give that achievement
             if(id.Equals("TRANSLATOR_UPGRADE_FACT_FC") && AchievementHelper.fishLatched <= 0)
                 AchievementHelper.GrantAchievement("FC.JUKE_FISH");
+
+            //If the player learns about the rock blocking and is not in the deep bramble, grant that achievement
+            if (id.Equals("BLOCKABLE_ROCK_FOREIGN_FACT_FC") && !ForgottenLocator.inBrambleSystem)
+                AchievementHelper.GrantAchievement("FC.SCROLL_HAUL");
         }
 
         /**

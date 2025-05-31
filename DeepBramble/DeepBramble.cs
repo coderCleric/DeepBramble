@@ -128,35 +128,15 @@ namespace DeepBramble
             }
 
             //Do this stuff if we're in the hearthian system
-            if(NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
+            else if(NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
             {
                 BaseSystemHelper.FixBaseSystem();
             }
 
             //Do this stuff if we're in the eye system
-            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("EyeOfTheUniverse"))
+            else if (NewHorizonsAPI.GetCurrentStarSystem().Equals("EyeOfTheUniverse"))
             {
                 EyeSystemHelper.FixEyeSystem();
-            }
-
-            //Debug thing, take out
-            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("WorkSystem"))
-            {
-                //Find the dilation dimension & register it
-                ForgottenLocator.dilationOuterWarp = GameObject.Find("DilationDimension_Body").transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
-
-                //Add the killer to the dilation node
-                ForgottenLocator.dilationNodeKiller = ForgottenLocator.dilationOuterWarp._linkedInnerWarpVolume.gameObject.AddComponent<NodeKiller>();
-
-                //Add the rotation controller to Ditylum
-                ForgottenLocator.dilatedDitylum = GameObject.Find("dilated_ditylum").AddComponent<DilatedDitylumManager>();
-
-                //Add the swim controller to outer ditylum
-                GameObject.Find("outerditylum").AddComponent<SwimmingDitylumManager>();
-
-                //Make the toxin injector
-                GameObject.Find("injector").AddComponent<InjectorItem>();
-                GameObject.Find("injector_socket").AddComponent<InjectorSocket>();
             }
         }
 

@@ -16,8 +16,20 @@ namespace DeepBramble.MiscBehaviours
         {
             scroll = GetComponent<ScrollItem>();
             NomaiWallText[] textList = GetComponentsInChildren<NomaiWallText>();
-            normalText = textList[1];
-            altText = textList[2];
+
+            //Should occur the first time that the scroll loads in
+            if (textList.Length == 3)
+            {
+                normalText = textList[1];
+                altText = textList[2];
+            }
+
+            //Happens when the scroll is brought to other places
+            else
+            {
+                normalText = textList[0];
+                altText = textList[1];
+            }
             altText.InitializeAsWhiteboardText();
         }
 
