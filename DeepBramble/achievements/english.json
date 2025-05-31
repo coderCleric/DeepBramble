@@ -14,15 +14,15 @@
     },
     "FC.GEYSER": {
       "Name": "4th-Degree Burns",
-      "Description": "Get hit by a lava geyser and live."
+      "Description": "Touch the lava from a geyser and live."
     },
     "FC.MARSHMALLOW": {
       "Name": "Hot Enough Already",
-      "Description": "Eat a marshmallow you cooked without extending the stick."
+      "Description": "Eat a marshmallow that you cooked without extending the stick."
     },
     "FC.SCROLL_HAUL": {
       "Name": "I know where a wall is!",
-      "Description": "Bring the scroll to the Outer Wilds and read it there."
+      "Description": "Bring the scroll from the quantum cave to the Outer Wilds and read it there."
     },
     "FC.PET": {
       "Name": "Good Fishie!",
@@ -34,7 +34,7 @@
     },
     "FC.BABY_TAXI": {
       "Name": "Responsible Parenting",
-      "Description": "Bring every baby fish to the nursery, where they belong."
+      "Description": "Use the ship to bring every baby fish to the nursery, where they belong."
     }
   }
 }
