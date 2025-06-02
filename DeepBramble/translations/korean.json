@@ -1234,7 +1234,8 @@
 
     "Signal: ": "신호: ",                          
     "<!> Untranslated Dree writing <!>": "<!> 번역되지 않은 드리 글 <!>" 
-  }
+  },
+  
     "AchievementTranslations": {
     "FC.JUKE_FISH": {
       "Name": "우주선은 필요없어",
