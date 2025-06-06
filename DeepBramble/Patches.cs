@@ -74,6 +74,8 @@ namespace DeepBramble
             heatNotifPosted = false;
             muteMusic = false;
 
+            //Reset achievements
+            AchievementHelper.Reset();
 
             //If needed, check if we need to reveal the starting rumor of the mod
             if (ForgottenLocator.revealStartingRumor)
@@ -951,6 +953,10 @@ namespace DeepBramble
             if(__instance.transform.parent.gameObject == ForgottenLocator.brambleSingularity && hitCollider.attachedRigidbody.CompareTag("Player"))
             {
                 ForgottenLocator.vanishShip = true;
+
+                //Grant the related achievement if they've been to the system
+                if (PlayerData._currentGameSave.GetPersistentCondition("DeepBrambleFound"))
+                    AchievementHelper.GrantAchievement("FC.DOUBLE_WARP");
             }
         }
 
@@ -1185,6 +1191,69 @@ namespace DeepBramble
                 EyeSystemHelper.dityFadeStarted = true;
                 EyeSystemHelper.ditySource.FadeIn(5);
             }
+        }
+
+        //################################# Achievement Things #################################
+        /**
+         * Listen for specific log entries and conditions to grant different achievements
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(ShipLogManager), nameof(ShipLogManager.RevealFact))]
+        public static void GrantLogAchievement(string id)
+        {
+            //If the player reads the dictionary with no fish on the ship, give that achievement
+            if(id.Equals("TRANSLATOR_UPGRADE_FACT_FC") && AchievementHelper.fishLatched <= 0)
+                AchievementHelper.GrantAchievement("FC.JUKE_FISH");
+
+            //If the player learns about the rock blocking and is not in the deep bramble, grant that achievement
+            if (id.Equals("BLOCKABLE_ROCK_FOREIGN_FACT_FC") && !ForgottenLocator.inBrambleSystem)
+                AchievementHelper.GrantAchievement("FC.SCROLL_HAUL");
+        }
+
+        /**
+         * When a mallow is spawned, reset whether the stick has been extended
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(Marshmallow), nameof(Marshmallow.SpawnMallow))]
+        public static void ResetStickExtension()
+        {
+            AchievementHelper.stickExtendedThisMallow = false;
+        }
+
+        /**
+         * Detect when the stick has been extended
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(RoastingStickController), nameof(RoastingStickController.UpdateExtension))]
+        public static void DetectStickExtension(RoastingStickController __instance)
+        {
+            if (__instance._extendFraction > 0)
+                AchievementHelper.stickExtendedThisMallow = true;
+        }
+
+        /**
+         * Detect when a mallow is eaten and grant the achievement if earned
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(Marshmallow), nameof(Marshmallow.Eat))]
+        public static void DetectMallowEat(Marshmallow __instance)
+        {
+            //Only grant if it's unburnt and they didn't extend the stick
+            if (!__instance.IsBurned() && !AchievementHelper.stickExtendedThisMallow)
+                AchievementHelper.GrantAchievement("FC.MARSHMALLOW");
+        }
+
+        /**
+         * Detect when the ship enters the nursery and grant the achievement if necessary
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
+        public static void DetectNurseryEntry(ref FogWarpDetector detector, FogWarpVolume __instance)
+        {
+            //Only do stuff if the ship is the one warping and it's the right dimension
+            if (detector._name == FogWarpDetector.Name.Ship && __instance as OuterFogWarpVolume == ForgottenLocator.nurseryOuterWarp
+                && AchievementHelper.fishLatched >= 4)
+                AchievementHelper.GrantAchievement("FC.BABY_TAXI");
         }
 
         //################################# Debug Things #################################

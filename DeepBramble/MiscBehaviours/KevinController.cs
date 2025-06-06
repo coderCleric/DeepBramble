@@ -1,4 +1,5 @@
-﻿using NewHorizons.Handlers;
+﻿using DeepBramble.Helpers;
+using NewHorizons.Handlers;
 using UnityEngine;
 
 namespace DeepBramble.MiscBehaviours
@@ -34,6 +35,7 @@ namespace DeepBramble.MiscBehaviours
         private PlayerAttachPoint attachPoint = null;
         private InteractReceiver handleReceiver = null;
         private OWTriggerVolume[] eyeTriggers;
+        private bool alreadyPet = false;
         private InteractReceiver[] eyeInteractors;
 
         /**
@@ -111,6 +113,11 @@ namespace DeepBramble.MiscBehaviours
         {
             longRangeSource.pitch = UnityEngine.Random.Range(0.8f, 1f);
             longRangeSource.PlayOneShot(AudioType.DBAnglerfishDetectDisturbance);
+            if (!alreadyPet)
+            {
+                alreadyPet = true;
+                AchievementHelper.FishPet();
+            }
         }
 
         /**

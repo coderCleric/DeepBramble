@@ -1,4 +1,5 @@
-﻿using NewHorizons.Handlers;
+﻿using DeepBramble.Helpers;
+using NewHorizons.Handlers;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -14,6 +15,7 @@ namespace DeepBramble.MiscBehaviours
         private Animator animator = null;
         private AnglerfishFluidVolume killFluid = null;
         private InteractReceiver[] petZones = null;
+        private bool alreadyPet = false;
         private OWAudioSource longRangeSource = null;
         private NoiseSensor noiseSensor = null;
 
@@ -82,6 +84,13 @@ namespace DeepBramble.MiscBehaviours
             killFluid.gameObject.SetActive(false); 
             longRangeSource.pitch = UnityEngine.Random.Range(0.8f, 1f);
             longRangeSource.PlayOneShot(AudioType.DBAnglerfishDetectDisturbance);
+
+            //Handle the achievement
+            if (!alreadyPet)
+            {
+                alreadyPet = true;
+                AchievementHelper.FishPet();
+            }
         }
 
         /**

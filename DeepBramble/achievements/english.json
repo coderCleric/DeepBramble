@@ -1,0 +1,40 @@
+﻿{
+  "AchievementTranslations": {
+    "FC.JUKE_FISH": {
+      "Name": "No Ship Required",
+      "Description": "Read the dictionary from the translation lab without a baby fish biting your ship."
+    },
+    "FC.DOUBLE_WARP": {
+      "Name": "Wait, I don't need to do this every loop?",
+      "Description": "Reach the Deep Bramble using the Vessel a second time."
+    },
+    "FC.ERNESTO": {
+      "Name": "There he is!",
+      "Description": "Talk to Ernesto."
+    },
+    "FC.GEYSER": {
+      "Name": "4th-Degree Burns",
+      "Description": "Touch the lava from a geyser and live."
+    },
+    "FC.MARSHMALLOW": {
+      "Name": "Hot Enough Already",
+      "Description": "Eat a marshmallow that you cooked without extending the stick."
+    },
+    "FC.SCROLL_HAUL": {
+      "Name": "I know where a wall is!",
+      "Description": "Bring the scroll from the quantum cave to the Outer Wilds and read it there."
+    },
+    "FC.PET": {
+      "Name": "Good Fishie!",
+      "Description": "Pet every pettable fish in one loop."
+    },
+    "FC.BABY_BITE": {
+      "Name": "Amateur Acupuncture",
+      "Description": "Survive for 30 seconds with a baby fish attached to you."
+    },
+    "FC.BABY_TAXI": {
+      "Name": "Responsible Parenting",
+      "Description": "Use the ship to bring every baby fish to the nursery, where they belong."
+    }
+  }
+}

@@ -28,6 +28,7 @@ namespace DeepBramble
         public static OuterFogWarpVolume dilationOuterWarp = null;
         public static DilatedDitylumManager dilatedDitylum = null;
         public static AudioSignal dilatedSignal = null;
+        public static OuterFogWarpVolume nurseryOuterWarp = null;
 
         //Things that the main class needs to know
         public static GameObject startDimensionObject = null;

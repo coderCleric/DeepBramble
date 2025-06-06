@@ -231,6 +231,14 @@ namespace DeepBramble.Helpers
                             Lever outLever = sectorTransform.Find("lava_planet/entry_zone/tractor_out/lever").gameObject.AddComponent<Lever>();
                             outLever.RegisterBeam(sectorTransform.Find("lava_planet/entry_zone/tractor_out/BeamVolume").gameObject);
 
+                            //Set up the geyser achievement
+                            OWTriggerVolume[] geyserTriggers = sectorTransform.Find("lava_planet/geysers").GetComponentsInChildren<OWTriggerVolume>();
+                            foreach(OWTriggerVolume trigger in geyserTriggers)
+                            {
+                                DeepBramble.debugPrint("Doing ach on geyser");
+                                trigger.OnExit += DeepBramble.OnGeyserExit;
+                            }
+
                             break;
 
                         case "Heart Planet":
@@ -331,8 +339,9 @@ namespace DeepBramble.Helpers
                         kevin.AddComponent<KevinController>();
                         body.GetComponentInChildren<SimpleFluidVolume>()._density = 8;
 
-                        //Save the drag volume
+                        //Save the drag volume and the outer warp
                         Patches.nurseryDragVol = body.transform.Find("Sector/Volumes/ZeroG_Fluid_Audio_Volume").gameObject.GetComponent<SimpleFluidVolume>();
+                        ForgottenLocator.nurseryOuterWarp = body.transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
                         break;
 
                     case "Bramble's Heart":
