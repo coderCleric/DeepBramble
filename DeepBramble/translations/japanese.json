@@ -1232,7 +1232,46 @@
       "<!> Untranslated Dree writing <!>": "<!> 未翻訳のDree言語 <!>",
 
       "Forgotten Castaways": "Forgotten Castaways"
+    },
+
+    "AchievementTranslations": {
+    "FC.JUKE_FISH": {
+      "Name": "船は必要ない",
+      "Description": "稚魚に船を噛ませることなく翻訳研究所の辞書を読む。"
+    },
+    "FC.DOUBLE_WARP": {
+      "Name": "待て、毎回こうする必要はないのでは？",
+      "Description": "船を使ってイバラ深部に2回訪れる。"
+    },
+    "FC.ERNESTO": {
+      "Name": "ここにいたのか！",
+      "Description": "Ernestoに話しかける。"
+    },
+    "FC.GEYSER": {
+      "Name": "第4度熱傷",
+      "Description": "間欠泉からの溶岩に触り生き残る。"
+    },
+    "FC.MARSHMALLOW": {
+      "Name": "もう十分に暑い",
+      "Description": "棒を伸ばすことなく調理したマシュマロを食べる。"
+    },
+    "FC.SCROLL_HAUL": {
+      "Name": "どこに壁があるかは知ってるよ！",
+      "Description": "量子洞窟からOuter Wildsにスクロールを持っていき、そこで読む。"
+    },
+    "FC.PET": {
+      "Name": "いい子たちだ！",
+      "Description": "撫でることができる魚たちを一度のループで全て撫でる。"
+    },
+    "FC.BABY_BITE": {
+      "Name": "アマチュア鍼灸師",
+      "Description": "稚魚が取り付いた状態で30秒間生き残る。"
+    },
+    "FC.BABY_TAXI": {
+      "Name": "責任ある子育て",
+      "Description": "船を使って全ての稚魚を子ども部屋まで連れて行く。"
     }
+  }
   }
   
   
