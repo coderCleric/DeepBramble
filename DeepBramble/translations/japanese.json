@@ -1235,7 +1235,7 @@
     },
 
     // Achievement Translations must be defined in /DeepBramble/achievements/
-    // The translation in this file is not work.But put it here for easy reference.
+    // The translation in this file does not work.But put it here for easy reference.
     "AchievementTranslations": {
       "FC.JUKE_FISH": {
         "Name": "船は必要ない",
