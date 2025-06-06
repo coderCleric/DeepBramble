@@ -692,7 +692,7 @@
         "OKALIS: I believe it is possible to hear the signal without equipment, which would suggest reception will not be an issue.": "OKALIS：機器なしで信号を聞くことは可能だと思うので、受信には問題がないでしょう。&lt;i&gt;&lt;/i&gt;",
         
         //rock_blocking_obscured
-        "NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]> it seems that <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]>.": "NESIA：実は、この石の追加動作を偶然見つけたかもしれません。<![CDATA[<color=red>文字が物に隠れています</color>]]>とき、<![CDATA[<color=red>文字が物に隠れています/color>]]>ようです。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]> it seems that <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]>.": "NESIA：実は、この石の追加動作を偶然見つけたかもしれません。<![CDATA[<color=red>文字が物に隠れています</color>]]>とき、<![CDATA[<color=red>文字が物に隠れています</color>]]>ようです。&lt;i&gt;&lt;/i&gt;",
         
         //courting_reveal
         "OKALIS: I am happy to report our relations with our new friends seem to be going well! In fact, Amylax saw fit to deliver a gift to me!": "OKALIS：新しい友人たちとの関係がうまくいっているようで、うれしく思っている！実際、Amylaxは私に贈り物を届けてくれた！&lt;i&gt;&lt;/i&gt;",
@@ -1234,44 +1234,44 @@
       "Forgotten Castaways": "Forgotten Castaways"
     },
 
+    // Achievement Translations must be defined in /DeepBramble/achievements/
+    // The translation in this file is not work.But put it here for easy reference.
     "AchievementTranslations": {
-    "FC.JUKE_FISH": {
-      "Name": "船は必要ない",
-      "Description": "稚魚に船を噛ませることなく翻訳研究所の辞書を読む。"
-    },
-    "FC.DOUBLE_WARP": {
-      "Name": "待て、毎回こうする必要はないのでは？",
-      "Description": "船を使ってイバラ深部に2回訪れる。"
-    },
-    "FC.ERNESTO": {
-      "Name": "ここにいたのか！",
-      "Description": "Ernestoに話しかける。"
-    },
-    "FC.GEYSER": {
-      "Name": "第4度熱傷",
-      "Description": "間欠泉からの溶岩に触り生き残る。"
-    },
-    "FC.MARSHMALLOW": {
-      "Name": "もう十分に暑い",
-      "Description": "棒を伸ばすことなく調理したマシュマロを食べる。"
-    },
-    "FC.SCROLL_HAUL": {
-      "Name": "どこに壁があるかは知ってるよ！",
-      "Description": "量子洞窟からOuter Wildsにスクロールを持っていき、そこで読む。"
-    },
-    "FC.PET": {
-      "Name": "いい子たちだ！",
-      "Description": "撫でることができる魚たちを一度のループで全て撫でる。"
-    },
-    "FC.BABY_BITE": {
-      "Name": "アマチュア鍼灸師",
-      "Description": "稚魚が取り付いた状態で30秒間生き残る。"
-    },
-    "FC.BABY_TAXI": {
-      "Name": "責任ある子育て",
-      "Description": "船を使って全ての稚魚を子ども部屋まで連れて行く。"
+      "FC.JUKE_FISH": {
+        "Name": "船は必要ない",
+        "Description": "幼魚に船を噛ませることなく翻訳研究所の言語書を読む。"
+      },
+      "FC.DOUBLE_WARP": {
+        "Name": "待て、毎回こうする必要はないのでは？",
+        "Description": "船を使ってイバラ深部に2回訪れる。"
+      },
+      "FC.ERNESTO": {
+        "Name": "ここにいたのか！",
+        "Description": "Ernestoに話しかける。"
+      },
+      "FC.GEYSER": {
+        "Name": "第4度熱傷",
+        "Description": "間欠泉から吹き出す溶岩に触り生き残る。"
+      },
+      "FC.MARSHMALLOW": {
+        "Name": "もう十分に暑い",
+        "Description": "棒を伸ばすことなく調理されたマシュマロを食べる。"
+      },
+      "FC.SCROLL_HAUL": {
+        "Name": "どこに壁があるかは知ってるよ！",
+        "Description": "量子洞窟からOuter Wildsにスクロールを持っていき、そこで読む。"
+      },
+      "FC.PET": {
+        "Name": "いい子たちだ！",
+        "Description": "なでることができる魚たちを一度のループで全てなでる。"
+      },
+      "FC.BABY_BITE": {
+        "Name": "アマチュア針師",
+        "Description": "幼魚が取り付いた状態で30秒間生き残る。"
+      },
+      "FC.BABY_TAXI": {
+        "Name": "責任ある子育て",
+        "Description": "船を使って全ての幼魚を子ども部屋まで連れて行く。"
+      }
     }
-  }
-  }
-  
-  
+}
