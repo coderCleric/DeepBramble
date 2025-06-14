@@ -8,6 +8,8 @@ please make an issue in the GitHub repo!
 
 Naturally all of these are up to translator discretion. If you want to leave anything as the original text that's no
 problem, I just want to make sure things like that are done purposefully rather than because my code made it difficult.
+There are also some custom achievements which can be found in the achievements folder. Just make a copy of the english
+version, rename it appropriatelly, and translate it.
 
 ---UI---
 "Gravity Crystal": Displayed when a player goes to pick up one of the portable gravity crystals.
@@ -24,6 +26,9 @@ problem, I just want to make sure things like that are done purposefully rather 
 "Signal: ": The text displayed before signal names when locking on to them. Note the colon and space inside of the
             quotation marks.
 "WARNING: FLAMMABLE GAS DETECTED": The notification displayed in the gas cave of Magma's Recursion.
+"YOU WERE BOTH CONSUMED BY A FOREIGN STAR": A custom ending used if you enter the dangerous node with the ATP disabled.
+"AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": A custom ending used if you sit with Ditylum with the ATP disabled.
+"THE BRAMBLE CLAIMS ANOTHER": A custom ending if you deactivate the ATP and then stay in the Deep Bramble past the end of the loop.
 
 ---Other---
 "Forgotten Castaways": The text displayed on the splash screen after sitting with Ditylum.
