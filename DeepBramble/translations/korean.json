@@ -1204,8 +1204,8 @@
     "Alien Echolocation": "외계인의 음파",
     "Geothermal Activity": "지열 활동",
 
-    "Gravity Crystal": "중력 수정", 
-    "Toxin Injector": "독소 주입기", 
+    "Gravity Crystal": "중력 수정",
+    "Toxin Injector": "독소 주입기",
 
     "Magma's Recursion": "마그마의 메아리",
     "Bright Hollow": "밝은 공동",
@@ -1232,8 +1232,12 @@
 
     "Forgotten Castaways": "Forgotten Castaways", //I'll leave this in English. That would be better.
 
-    "Signal: ": "신호: ",                          
-    "<!> Untranslated Dree writing <!>": "<!> 번역되지 않은 드리 글 <!>" 
+    "Signal: ": "신호: ",
+    "<!> Untranslated Dree writing <!>": "<!> 번역되지 않은 드리 글 <!>",
+
+    "YOU WERE BOTH CONSUMED BY A FOREIGN STAR": "KOREAN_ENDING1_TEXT",
+    "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": "KOREAN_ENDING2_TEXT",
+    "THE BRAMBLE CLAIMS ANOTHER": "KOREAN_ENDING3_TEXT"
   }
 }
 

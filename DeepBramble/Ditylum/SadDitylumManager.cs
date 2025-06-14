@@ -1,5 +1,6 @@
-﻿using NewHorizons.Handlers;
-using NewHorizons.Utility.Files;
+﻿using NewHorizons.Components;
+using NewHorizons.External.Modules;
+using NewHorizons.Handlers;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
@@ -78,22 +79,27 @@ namespace DeepBramble.Ditylum
             //Do gameplay stuff
             receiver.SetInteractionEnabled(false);
             anchor.AttachPlayer();
-            PlayerData.SetPersistentCondition("MET_DITYLUM", true);
-            Locator.GetShipLogManager().RevealFact("DITYLUM_MOURNING_FACT_FC");
-            Locator.GetShipLogManager().RevealFact("DITYLUM_FOUND_FACT_FC");
 
             //Set them to meditate
             sitTime = Time.time;
 
-            //Get ready for the end screen
-            Locator.GetDeathManager().FinishedDLC();
-            DeepBramble.instance.NewHorizonsAPI.SetDefaultSystem("SolarSystem");
-            GameObject.Find("FlashbackCamera").transform.Find("Canvas_EchoesOver/EchoesOfTheEye").GetComponent<Text>().text = TranslationHandler.GetTranslation("Forgotten Castaways", TranslationHandler.TextType.OTHER);
-
             //Disable certain effects
             Locator.GetToolModeSwapper().UnequipTool();
             Locator.GetFlashlight().TurnOff(playAudio: false);
-            transform.parent.Find("lab_music").gameObject.GetComponent<OWAudioSource>().FadeOut(1);
+
+            //These should not happen if the time loop is not active
+            if (TimeLoop.IsTimeLoopEnabled())
+            {
+                //Reveal stuff and set conditions
+                PlayerData.SetPersistentCondition("MET_DITYLUM", true);
+                Locator.GetShipLogManager().RevealFact("DITYLUM_MOURNING_FACT_FC");
+                Locator.GetShipLogManager().RevealFact("DITYLUM_FOUND_FACT_FC");
+
+                //Get ready for the end screen
+                Locator.GetDeathManager().FinishedDLC();
+                DeepBramble.instance.NewHorizonsAPI.SetDefaultSystem("SolarSystem");
+                GameObject.Find("FlashbackCamera").transform.Find("Canvas_EchoesOver/EchoesOfTheEye").GetComponent<Text>().text = TranslationHandler.GetTranslation("Forgotten Castaways", TranslationHandler.TextType.OTHER);
+            }
         }
 
         /**
@@ -111,7 +117,20 @@ namespace DeepBramble.Ditylum
         private void Update()
         {
             if (sitTime > 0 && Time.time > sitTime + sitTimerLen)
-                Locator.GetDeathManager().KillPlayer(DeathType.Meditation);
+            {
+                sitTime = -1;
+
+                //If the time loop is inactive, activate the ending
+                if(!TimeLoop.IsTimeLoopEnabled())
+                {
+                    GameOverModule GOModule = new GameOverModule() { text = "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND" };
+                    NHGameOverManager.Instance.StartGameOverSequence(GOModule, DeathType.Meditation, DeepBramble.instance);
+                }
+
+                //Otherwise, do the standard kill
+                else
+                    Locator.GetDeathManager().KillPlayer(DeathType.Meditation);
+            }
         }
     }
 }

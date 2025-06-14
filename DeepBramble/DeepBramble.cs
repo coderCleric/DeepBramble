@@ -257,7 +257,7 @@ namespace DeepBramble
                 //Vector3 point = new Vector3(349.8f, -322.1f, 31738.1f); //Dilation node
                 //Vector3 point = new Vector3(1296.0f, -235.1f, 30832.0f); //Campsite
                 //Vector3 point = new Vector3(-10031.3f, 10.4f, -10035.9f); //Domestic dimension
-                //Vector3 point = new Vector3(1.6f, 121.1f, 0.2f); //Heart
+                //Vector3 point = new Vector3(-9974.5f, -121.3f, 3.3f); //Heart
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {

@@ -225,7 +225,18 @@ namespace DeepBramble
             if(ForgottenLocator.inBrambleSystem && muteMusic && __instance.GetTrack() == OWAudioMixer.TrackName.Music 
                 && !__instance.gameObject.name.Equals("EndTimesSource"))
                 __instance.SetMaxVolume(0);
-        } 
+        }
+
+        /**
+         * Give the custom ending if the player escapes the nova via the deep bramble
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(GameOverController), nameof(GameOverController.OnTriggerDeathByVoid))]
+        public static void EscapeViaDeepBramble(GameOverController __instance)
+        {
+            if(ForgottenLocator.inBrambleSystem)
+                __instance._deathText.text = TranslationHandler.GetTranslation("THE BRAMBLE CLAIMS ANOTHER", TranslationHandler.TextType.UI);
+        }
 
         //################################# Doing node braking #################################
         [HarmonyPostfix]
@@ -403,24 +414,39 @@ namespace DeepBramble
             OuterFogWarpVolume outerWarp = __instance as OuterFogWarpVolume;
             if(outerWarp != null && outerWarp == ForgottenLocator.dilationOuterWarp)
             {
-                //If it's the player, kill them
                 if (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip()))
                 {
-                    Locator.GetShipLogManager().RevealFact("FASTFORWARD_RUMOR_FC");
-                    Locator.GetDeathManager().KillPlayer(DeathType.TimeLoop);
-                    OWRigidbody playerBody = Locator.GetPlayerBody();
-                    Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
-                    playerBody.SetVelocity(wantedVel);
-                    ForgottenLocator.dilatedDitylum.LookAtPlayer();
-
-                    //Also, reveal the signal
-                    if (!PlayerData.KnowsFrequency(ForgottenLocator.dilatedSignal._frequency))
+                    //If the time loop is inactive, wait some time and then supernova (waiting is done by dity)
+                    if (!TimeLoop.IsTimeLoopEnabled())
                     {
-                        ForgottenLocator.dilatedSignal.IdentifyFrequency();
+                        OWInput.ChangeInputMode(InputMode.None);
+                        Locator.GetPauseCommandListener().AddPauseCommandLock();
+                        OWRigidbody playerBody = Locator.GetPlayerBody();
+                        Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
+                        playerBody.SetVelocity(wantedVel);
+                        ForgottenLocator.dilatedDitylum.LookAtPlayer();
+                        ForgottenLocator.dilatedDitylum.supernovaTime = Time.time + 4f;
                     }
-                    if (!PlayerData.KnowsSignal(ForgottenLocator.dilatedSignal._name))
+
+                    //Otherwise, kill via loop
+                    else
                     {
-                        ForgottenLocator.dilatedSignal.IdentifySignal();
+                        Locator.GetShipLogManager().RevealFact("FASTFORWARD_RUMOR_FC");
+                        Locator.GetDeathManager().KillPlayer(DeathType.TimeLoop);
+                        OWRigidbody playerBody = Locator.GetPlayerBody();
+                        Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
+                        playerBody.SetVelocity(wantedVel);
+                        ForgottenLocator.dilatedDitylum.LookAtPlayer();
+
+                        //Also, reveal the signal
+                        if (!PlayerData.KnowsFrequency(ForgottenLocator.dilatedSignal._frequency))
+                        {
+                            ForgottenLocator.dilatedSignal.IdentifyFrequency();
+                        }
+                        if (!PlayerData.KnowsSignal(ForgottenLocator.dilatedSignal._name))
+                        {
+                            ForgottenLocator.dilatedSignal.IdentifySignal();
+                        }
                     }
                 }
 
