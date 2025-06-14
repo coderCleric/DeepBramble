@@ -1231,7 +1231,11 @@
       "Signal: ": "信号: ",                          
       "<!> Untranslated Dree writing <!>": "<!> 未翻訳のDree言語 <!>",
 
-      "Forgotten Castaways": "Forgotten Castaways"
+      "Forgotten Castaways": "Forgotten Castaways",
+
+      "YOU WERE BOTH CONSUMED BY A FOREIGN STAR": "あなたも異星に飲み込まれてしまった",
+      "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": "少なくとも、種の最後の生き残りになったのはあなただけではない",
+      "THE BRAMBLE CLAIMS ANOTHER": "イバラは他のものを要求している"
     },
 
     // Achievement Translations must be defined in /DeepBramble/achievements/
