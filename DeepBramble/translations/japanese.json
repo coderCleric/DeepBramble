@@ -22,7 +22,7 @@
         "Are you okay?": "大丈夫？&lt;i&gt;&lt;/i&gt;",
 
         //after_first_stakeout
-        "OKALIS: Oh my goodness! I was hiding behind one of the trees on the upper ring, and observed one of the campsite occupants return!": "OKALIS：なんということだ！にある木の陰に隠れていたら、キャンプの主が戻ってくるのを見れた！&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Oh my goodness! I was hiding behind one of the trees on the upper ring, and observed one of the campsite occupants return!": "OKALIS：なんということだ！上のリングにある木の陰に隠れていたら、キャンプの主が戻ってくるのを見れた！&lt;i&gt;&lt;/i&gt;",
         "NESIA: Did they see you as well? If they did, then how did they react?": "NESIA：彼らからもあなたを見たのですか？もしそうなら、どんな反応だった？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: They did not notice me at first. However, when I moved out from behind the tree to try and make contact, they turned toward me before fleeing. Notably, they appeared to swim through the air using the webbing on their hands and feet!": "OKALIS：彼らは最初、私に気づいてなかった。でも、私が木の陰から出て接触しようとすると、彼らは逃げる前に私の方を向いたのだ。特筆すべきこととして、手足の水かきを使って空中を泳いでいるようだった！&lt;i&gt;&lt;/i&gt;",
         "NESIA: Very interesting, especially given your note that they did not appear to have eyes. Did they seem to have any obvious reason for returning?": "NESIA：彼らには目がないように見えたというあなたのメモからすると特に興味深い。彼らが戻ってきたのには何か明白な理由があったのでしょうか？&lt;i&gt;&lt;/i&gt;",
@@ -43,13 +43,13 @@
         "OKALIS: It went well, yes, and maybe! I avoided hiding this time and, upon returning to the campsite, they slowly approached me, apparently having noticed that I was holding their tablet. I held it out for them to take and, upon grabbing it, they promptly turned around and left.": "OKALIS：うまくいったよ！今回は隠れずに済んだ。キャンプ場に戻ると、彼らはゆっくりと近づいてきた。どうやら私が彼らの石版を持っていることに気づいたみたい。私が石版を差し出すと、彼らはそれを手にとってすぐに振り返って去っていった。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: As for their appearance, I confirmed what I observed previously. In addition, their teeth seemed to be sharp to a point, their body was covered in gray skin, and they did have small recesses in their skull where eyes might normally reside.": "OKALIS：彼らの外見については、以前観察したものを改めて確認した。さらに、彼らの歯は先が尖っているように見え、体は灰色の皮膚で覆われていて、頭蓋骨には通常目があるような場所に小さな凹みがあった。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Let us hope that we made a good first impression. They may no longer decide to return now that they have their tablet.": "AZOLLA：第一印象が良かったことを祈りましょう。石版を手にした今、彼らはもう戻ろうとは思わないかもしれない。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: It appears that they may still be somewhat scared of us, if they fled that quickly.": "NESIA：あれだけ早く逃げたということは、彼らはまだ私たちを多少怖がっているのかもしれない。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: It appears that they may still be somewhat scared of us, if they fled that quickly.": "NESIA：それだけ早く逃げたということは、彼らはまだ私たちを多少怖がっているのかもしれない。&lt;i&gt;&lt;/i&gt;",
 
         //camp_discovery
         "NESIA: Here we are friends, the campsite I had mentioned previously.": "NESIA：皆さんここです、前に言ったキャンプ場です。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: There are still a few embers among the logs. It seems likely someone was here fairly recently.": "SENNETTI：丸太の間にまだ少し燃えかすが残っている。ごく最近まで誰かがいたようだ。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Perhaps we will be able to meet them if we remain here long enough. If they were here before, they are likely to return.": "OKALIS：ここに長くいれば、彼らに会えるかもしれない。もし彼らがここにいたのなら、戻ってくる可能性が高いね。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: As curious as I am about who constructed this site, this may not be wise. We have no idea whether or not the inhabitants of this place are friendly.": "AZOLLA：誰がこの場所を建設したのか興味がありますが、留まるのは賢明ではないかもしれません。この場所の住人が友好的かどうかはわからない。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: As curious as I am about who constructed this site, this may not be wise. We have no idea whether or not the inhabitants of this place are friendly.": "AZOLLA：誰がこの場所を建設したのか興味がありますが、留まるのは賢明ではないかもしれません。この場所の住人が友好的かどうかはわかりません。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: I believe we should avoid constructing large structures here for the same reason. Even if these people are friendly, they may not take kindly to us treating this body as our own.": "SENNETTI：同じ理由で、ここに大きな建造物を建てることは避けるべきだと思う。たとえ人々が友好的であったとしても、私たちがこの天体を自分たちのものとして扱うことを快く思わないかもしれない。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Amazing! This body is almost entirely covered in grass and trees! How do you suppose it manages to sustain life in a place like this?": "OKALIS：驚いた！この体はほとんど草や木で覆われている！こんなところでどうやって生命を維持しているんだろう？&lt;i&gt;&lt;/i&gt;",
         "NESIA: We may need to erect a small lab to study the origins of the soil and plant life to properly understand this.": "NESIA：これを正しく理解するためには、土壌と植物の起源を研究するための小さな研究室を建てる必要があるかもしれない。&lt;i&gt;&lt;/i&gt;",
@@ -64,13 +64,13 @@
         "NESIA: Oh? Did they seem to have any particular reason for doing so?": "NESIA：へえ？何か特別な理由があったのでしょうか？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: As a matter of fact, they led me to somewhere quite interesting. Do you know of the wooden knot that lies in the center of <![CDATA[<color=orange>Briar's Hollow</color>]]>, the one that leads back in through an infinite loop? They took me through there and, contrary to what normally happens, we arrived in an enclosed space.": "OKALIS：実を言うと、彼らはとても興味深い場所に導いてくれたんだ。<![CDATA[<color=orange>イバラの空洞</color>]]>の中心にある木の節、それを通ると無限ループで戻ってくるやつを知ってる？彼らは私をそこへ連れて行き、通常とは逆に、閉ざされた空間に到着したんだ。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: How strange, what was the space like?": "SENNETTI：それは奇妙な、どのような空間でしたか？&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: It seemed to be a completely overgrown entrance to <![CDATA[<color=orange>Briar's Hollow</color>]]>. They beckoned me through another node, although I did not follow them through for fear of being unable to find my way back.": "OKALIS：そこは<![CDATA[<color=orange>イバラの空洞</color>]]>への完全に生い茂った入口のようだった。帰り道がわからなくなるのを恐れて、私は彼らについていかなかったけど、彼らは別のノードを通るように私を手招きした。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: It seemed to be a completely overgrown entrance to <![CDATA[<color=orange>Briar's Hollow</color>]]>. They beckoned me through another node, although I did not follow them through for fear of being unable to find my way back.": "OKALIS：そこは<![CDATA[<color=orange>イバラの空洞</color>]]>への完全に生い茂った入口のようだった。帰り道がわからなくなるのを恐れて、私は彼らについていかなかったけど、彼らは別の節を通るように私を手招きした。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: If a member of this other species desires for us to follow them, it may be worthwhile to do so. They have demonstrated they are not hostile, and they may know how to escape from this place.": "AZOLLA：もしこの他種族の者が私たちに着いてきてほしいと望むなら、そうする価値があるかもしれません。彼らは敵意がないことを証明しているし、ここから脱出する方法を知っているかもしれない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I have passed through the knot you speak of, but I have never arrived anywhere that sounds similar to what you describe.": "NESIA：私はあなたの言う節を通過したことはあるけれど、あなたが言ってるような場所に到着したことはない。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: It confuses me as well, Nesia. I am unsure of how to access that area again.": "OKALIS：私も混乱しているんだ、Nesia。どうすればまたあのエリアにアクセスできるのかわからない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I have a hypothesis. I have noted that the hole one uses to enter that central knot lines up with where they will re-enter this larger area. If we can locate the exterior of the enclosure that you speak of, we may be able to find the hole that will lead us into it.": "NESIA：仮説があります。中央の節に入るための穴が、この広いエリアに再び入るための穴と一致しているのです。あなたの言う囲いの外側を見つけることができれば、そこに入るための穴を見つけることができるかもしれない。&lt;i&gt;&lt;/i&gt;",
         "I don't understand your strange language, but I hope that you may know mine. Follow where I lead and find us. It may be only a feeling, but I think that our species are fated to meet.": "あなたがたの奇妙な言葉は理解できないが、あなたがたが私たちの言語を知っていることを願う。私が導いた場所に着いてきて、私たちを見つけてください。単なる直感だが、私たちの種族は出会う運命にあると思う。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: Is this our new friend's writing? How exciting! Sennetti, are you able to understand what they have said?": "OKALIS：これは私たちの新しい友人による記述？なんてエキサイティングなの！Sennetti、彼らが言ったことを理解できる？&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Is this our new friend's writing? How exciting! Sennetti, are you able to understand what they have said?": "OKALIS：これは私たちの新しい友人による記述？なんてエキサイティングなんだ！Sennetti、彼らが言ったことを理解できる？&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Unfortunately, I will need to analyze it more before I can determine what this text says. Though I can assure you I will begin work on my translation as soon as possible.": "SENNETTI：残念ながら、この記述に何が書かれているのか判断するには、もっと分析する必要がある。しかし、できるだけ早く翻訳に取りかかることを約束しよう。&lt;i&gt;&lt;/i&gt;",
 
         //sl_cracked_crystal
@@ -89,20 +89,20 @@
         "SENNETTI: On my way over here this morning, I felt certain that I saw shapes flitting about in the fog. Has anybody else observed this phenomenon?": "SENNETTI：今朝こちらに来る途中、霧の中を飛び回る影のようなものを確かに見たような気がしました。この現象を見た人はいますか？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I too have noticed this, friend. They seem to be the same species as the person I made contact with recently. They have been quite bold with me. One was stationed directly outside my window this morning, but ran off as soon as I stirred!": "OKALIS：私もそれに気づきました。最近接触した人と同じ種族のようだった。彼らは私に対してかなり大胆でした。今朝は私の窓の外に1人いたのですが、私が体を動かすとすぐに逃げていきました！&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: What should we do? They do not yet appear hostile, but our stalker's behavior is very concerning.": "SENNETTI：どうする？まだ敵対しているようには見えないが、追跡者の行動が非常に気になります。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: I suspect that they will be the ones to make the first move. Remember, stay with one another, and do not behave aggressively.": "AZOLLA：先手を打つのは彼らだろう。お互いに離れず、攻撃的な行動をとらないことを忘れないように。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: I suspect that they will be the ones to make the first move. Remember, stay with one another, and do not behave aggressively.": "AZOLLA：先手を打つのは彼らでしょう。お互いに離れず、攻撃的な行動をとらないことを忘れないように。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: I have noticed this as well Sennetti, I believe that our strange neighbors may be keeping an eye on us.": "AZOLLA：Senettiが気づいたように、謎の隣人が私たちを監視しているのかもしれない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I noticed some shapes in the fog when I stepped out of my abode last night as well.": "NESIA：私も昨夜、家を出たときに霧の中にいくつかの影に気づきました。&lt;i&gt;&lt;/i&gt;",
         
         //treehouse_recording
         "OKALIS: Is this the place you wanted to show me Amylax?": "OKALIS：Amylaxが見せたかったのはここ？&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: Yeah! It's a little place Ditylum and I set up when we were kids. It was our secret hideout whenever things got scary, like when the adults would feed the anglerfish.": "AMYLAX：うん！Ditylumと僕が子どもの頃に作った小さな場所なんだ。大人たちがアンコウに餌をやるときなど、怖くなったときの秘密の隠れ家だったんだ。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: It feels... meaningful, that you would bring me here, so close to where our species first made contact.": "OKALIS: 私たちの種族が最初に接触した場所のすぐ近くで、あなたが私をここに連れてきてくれたことに...意味を感じます。&lt;i&gt;&lt;/i&gt;",
-        "AMYLAX: Heh, I guess so, huh.": "AMYLAX：まあ、そうだろうね。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: It feels... meaningful, that you would bring me here, so close to where our species first made contact.": "OKALIS: 私たちの種族が最初に接触した場所のすぐ近くで、あなたが私をここに連れてきてくれたことに...意味を感じる。&lt;i&gt;&lt;/i&gt;",
+        "AMYLAX: Heh, I guess so, huh.": "AMYLAX：へへ、そうだろうね。うん。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I'm really grateful you gave me this necklace. I truly am incapable of expressing how much it means to me.": "OKALIS：このネックレスをくれて本当にありがとう。私にとってどれほど大切なものなのか、言葉では言い表せません。&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: I'm glad that you're glad! Ever since I first met you I've thought that you were really... well... just great all around I guess! I know the necklace you made me isn't super traditional, but you know what, I love it! I think it symbolizes us really well!": "AMYLAX：喜んでくれて嬉しいよ！あなたに初めて会ったときから、あなたは本当に...その...素晴らしい人だと思ってた！あなたが作ってくれたネックレスは、伝統的なものじゃないけど、僕は気に入ってる！僕たちを象徴していると思う！&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Amylax, you are too kind!": "OKALIS：Amylax、君は優しすぎるよ！&lt;i&gt;&lt;/i&gt;",
-        "AMYLAX: You know, ever since we became adults, Ditylum kinda stopped coming out here, and, well, this is somewhere that I've shared with you now, so, maybe we could make it our secret hideout? If that sounds okay with you? Sorry, I know that's kind of childish, especially for a big scientist like yourself.": "AMYLAX：僕たちが大人になってからDitylumはここに来なくなったし、えっと、ここをあなたと共有したから、僕たちの秘密の隠れ家できないかな？もしそれでよければどうかな？ごめん、子どもっぽいのはわかってるんだ、特に君のような大科学者にとってはね。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: I don't think it would be childish at all Amylax, and I'd be thrilled to do so! Was there something you had in mind?": "OKALIS：Amylaxは全然子どもっぽくないと思うし、そうしてくれたら嬉しいね！他に何か考えていたことはありますか？&lt;i&gt;&lt;/i&gt;",
+        "AMYLAX: You know, ever since we became adults, Ditylum kinda stopped coming out here, and, well, this is somewhere that I've shared with you now, so, maybe we could make it our secret hideout? If that sounds okay with you? Sorry, I know that's kind of childish, especially for a big scientist like yourself.": "AMYLAX：僕たちが大人になってからDitylumはここに来なくなったし、えっと、ここをあなたと共有したから、僕たちの秘密の隠れ家できないかな？もしそれでよければどうかな？ごめん、子どもっぽいのはわかってるんだ、特にあなたのような大科学者にとってはね。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: I don't think it would be childish at all Amylax, and I'd be thrilled to do so! Was there something you had in mind?": "OKALIS：Amylaxは全然子どもっぽくないと思うし、そうしてくれたら嬉しいね！他に何か考えていたことはある？&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: Well, I was thinking that we could write our names on the wall? After all, what's a secret hideout without a mark to let any trespassers know who it belongs to?": "AMYLAX：そうだな、壁に名前を書けないかな？結局のところ、不法侵入者に誰のものかを知らせる印がなければ、秘密の隠れ家とは言えないだろう？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I think that is a wonderful idea, Amylax.": "OKALIS：素晴らしいアイデアだと思うよ、Amylax。&lt;i&gt;&lt;/i&gt;",
         
@@ -114,13 +114,13 @@
         "NESIA: I was concerned that I would be unable to find it again, so I planted a signal beacon near the strange campsite.": "NESIA：また見つけられなくなるのが心配で、その奇妙なキャンプ場の近くにシグナルビーコンを仕掛けました。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Then we should go there at once. If there are other sentient creatures here, it is imperative that we determine their level of hostility as soon as possible.": "AZOLLA：それならすぐに行くべきでしょう。もしここに他の知的生命体がいるのなら、できるだけ早く敵意のレベルを見極めることが不可欠です。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: I have been here putting together shelters, I did not realize there were any other bodies out there.": "SENNETTI：私はここにシェルターを作っていたが、他に天体があるとは知らなかった。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: I have investigated the surrounding area some, but I have not yet located this large planetoid that you speak of.": "OKALIS：周辺を少し調査してみたけど、あなたが言うような大きな小惑星はまだ見つかっていない。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Is it possible that the campsite was made by other members of our clan? Perhaps they followed us through our makeshift warp setup and are stranded here as well.": "SENNETTI：このキャンプ場は、我々の部族の他のメンバーによって作られた可能性はないだろうか？おそらく、彼らは私たちの間に合わせのワープ設定を追って、ここでも立ち往生しているのでしょう。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: I have investigated the surrounding area some, but I have not yet located this large planetoid that you speak of.": "OKALIS：周辺を少し調査してみたけど、あなたが言うような大きな小惑星をまだ見つけていない。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Is it possible that the campsite was made by other members of our clan? Perhaps they followed us through our makeshift warp setup and are stranded here as well.": "SENNETTI：このキャンプ場は、我々の部族の他のメンバーによって作られた可能性はないだろうか？おそらく、彼らは私たちの間に合わせのワープ設定を追って、ここでも立ち往生しているのだろう。&lt;i&gt;&lt;/i&gt;",
         "NESIA: As much as I would hope for your hypothesis to be true, there were no other structures indicative of Nomai presence, and it has long been outside of our culture to construct campfires.": "NESIA：あなたの仮説が本当であってほしいのはやまやまですが、Nomaiの存在を示す建造物は他になかったし、焚き火をするのは私たちの文化から外れて久しい。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Are you saying that there is a campsite in here that none of us made? That would imply there are other sentient beings here besides us!": "OKALIS：私たちの誰も作ったことのないキャンプ場がここにあるというのですか？それだと、私たち以外にも知的生命体がいることになる！&lt;i&gt;&lt;/i&gt;",
         
         //hole_overlook
-        "NESIA: Unfortunately, this body may simply be too small for any effective structures to be built here.": "NESIA：残念なことに、効果的な建造物をここに建てるには、この天体は小さすぎるのかもしれない。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Unfortunately, this body may simply be too small for any effective structures to be built here.": "NESIA：残念なことに、効果的な建造物をここに建てるには、この天体は小さすぎるのかもしれません。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: It may still have some use. For instance, I believe that this rock may be showing us a possible escape!": "OKALIS：まだ使い道があるかもしれない。例えば、この岩は脱出の可能性を示してくれているのかもしれない！&lt;i&gt;&lt;/i&gt;",
         "NESIA: I would caution you against raising your hopes, Okalis, we have already seen that this environment is far from easy to navigate.": "NESIA：Okalis、あまり期待しすぎないように警告しておきます。この環境が簡単なものでないことはすでに分かっています。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Okalis might be correct! Looking past this wall, I can just barely make out a place where the wooden enclosure seems to end!": "SENNETTI：Okalisの言うとおりかもしれない！この壁の向こうを見ると、かろうじて木の囲いが終わっているような場所が見える！&lt;i&gt;&lt;/i&gt;",
@@ -134,12 +134,12 @@
         "OKALIS: Curiously, we all seem to have emerged from the same wooden knot a mere few feet from each other, despite the fact that, when we left, we were quite far apart.": "OKALIS：不思議なことに、私たちが散開したあと私たちは離れたところにいたのに、私たちは皆同じ木の節から出てきたように見える。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Suppose that this place does not obey euclidean laws. What if that wooden sphere is actually the one we found ourselves in, but we were smaller when inside it?": "NESIA：この場所がユークリッドの法則に従わないとする。あの木製の球体が、実は私たちが中にいた球体で、その中にいるときは私たちの方が小さかったとしたら？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: What an intriguing idea Nesia! Suppose that, instead, these spheres allow travelers to instantaneously teleport between them?": "OKALIS：興味深いアイデアですね！他の考えとして、この球体が旅行者を瞬時にテレポートさせるとしたら？&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Hm, assuming what you said to be true, that might explain how we were able to warp earlier. What if this place interfered with our warp? Could it have done the same to the <![CDATA[<color=orange>Vessel</color>]]>?": "NESIA：あなたが言ったことが本当だとすると、さっきワープできた説明がつくかもしれない。もしこの場所が私たちのワープを妨害したとしたら？それは<![CDATA[<color=orange>船</color>]]>にも同じことをしたのでしょうか？&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Hm, assuming what you said to be true, that might explain how we were able to warp earlier. What if this place interfered with our warp? Could it have done the same to the <![CDATA[<color=orange>Vessel</color>]]>?": "NESIA：あなたが言ったことが本当だとすると、さっきワープできた説明がつくかもしれません。もしこの場所が私たちのワープを妨害したとしたら？それは<![CDATA[<color=orange>船</color>]]>にも同じことをしたのでしょうか？&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Friends, while the curiosities of this place intrigue me as well, I believe we should focus on securing our survival first and foremost.": "SENNETTI：友よ、この場所への好奇心には私も興味をそそられるが、何よりもまず生存を確保することに集中すべきだろう。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Sennetti is right; As much as we may desire to study our environment, our first priority should be to locate oxygen and somewhere to construct shelter.": "AZOLLA：Sennettiが言うとおりです。環境について研究したいと思うかもしれないが、私たちの最優先事項は酸素とシェルターを確保することです。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Sennetti is right; As much as we may desire to study our environment, our first priority should be to locate oxygen and somewhere to construct shelter.": "AZOLLA：Sennettiが言うとおりです。環境について研究したいと思うかもしれませんが、私たちの最優先事項は酸素とシェルターを確保することです。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I believe that I can see a number of small planetoids over there. Could they be a candidate?": "OKALIS：あそこに小さな惑星がいくつも見えていると思う。候補になりそうかな？&lt;i&gt;&lt;/i&gt;",
         "NESIA: I see the objects that Okalis speaks of; there appear to be five small planetoids, and I believe  I can see a tree on one.": "NESIA：Okalisが話していた天体が見える。5つの小さな惑星があるようですが、そのひとつに木が見えると思う。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: That settles it then. The tree will provide us oxygen, and we can set up basic shelter on the planetoids themselves. One of them seems noticeably smaller than the others, so we should use it for building materials.": "AZOLLA：それで決まりですね。この木は酸素を供給してくれるし、小惑星自体に基本的なシェルターを設置することもできる。そのうちのひとつは他のものより明らかに小さいようだから、建材として使おう。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: That settles it then. The tree will provide us oxygen, and we can set up basic shelter on the planetoids themselves. One of them seems noticeably smaller than the others, so we should use it for building materials.": "AZOLLA：それで決まりですね。この木は酸素を供給してくれるし、小惑星自体に基本的なシェルターを設置することもできる。そのうちのひとつは他のものより明らかに小さいようだから、建材として使いましょう。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Based on what we have seen thus far, it may be worthwhile to establish names for the wooden cavities we find ourselves in. Does anybody have a suggestion for this one? It seems quite spacious.": "NESIA：これまで見てきたことを踏まえて、私たちがいる木製の空洞に名前をつけておいたほうがいいでしょう。どなたか案はありますか？かなり広そうです。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: We should keep it simple but descriptive. I believe that the name <![CDATA[<color=orange>Briar's Hollow</color>]]> should work well.": "AZOLLA：シンプルに、しかし分かりやすくしましょう。<![CDATA[<color=orange>イバラの空洞</color>]]>という名前がいいと思います。&lt;i&gt;&lt;/i&gt;",
         
@@ -149,18 +149,18 @@
         "So long as this tree stands, our time is not yet through.": "この木が立っている限り、私たちの時代はまだ終わっていない。&lt;i&gt;&lt;/i&gt;",
         
         //eggs_lore
-        "NESIA: Why do you suppose the Dree chose to go through the trouble of taming these fish? I can't imagine that their domestication was something easily achieved.": "NESIA：なぜDreeはわざわざこの魚を飼いならそうとしたのでしょう？家畜化が簡単にできたとは思えない。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Why do you suppose the Dree chose to go through the trouble of taming these fish? I can't imagine that their domestication was something easily achieved.": "NESIA：なぜDreeはわざわざこの魚を飼いならそうとしたのでしょう？家畜化が簡単にできたとは思えません。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: From what we have observed, the eggs of these very fish are the main source that the Dree have for nutrition. Perhaps this is what led them to tame the creatures?": "AZOLLA：私たちが観察したところでは、この魚のタマゴがDreeの主な栄養源です。おそらくそれが、この生き物を飼いならすことにつながったのでしょう。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Perhaps, but I suspect that it had more to do with their proximity. The Dree do not seem to appreciate looming threats, and generally take measures to either move away or neutralize them.": "SENNETTI：そうかもしれませんが、それ以上に、彼らの近くにいたことが関係しているのではないでしょうか。Dreeは迫り来る脅威を認めないようで、通常、脅威から遠ざかるか、無力化する手段を取っている。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Perhaps, but I suspect that it had more to do with their proximity. The Dree do not seem to appreciate looming threats, and generally take measures to either move away or neutralize them.": "SENNETTI：そうかもしれないが、それ以上に、彼らの近くにいたことが関係しているのではないだろうか。Dreeは迫り来る脅威を認めないようで、通常、脅威から遠ざかるか、無力化する手段を取っている。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Do you suppose that this may also be why they refuse to spread? They are very localized, and their population is quite low, given how long they've been here.": "NESIA：それが彼らが他の場所に拡散しようとしない理由だと思いますか？彼らは非常に局地的で、ここに来てからの年数を考えると、その個体数はかなり少ない。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: It very well could be. They seem much more content to leave things as they are, rather than take risks in the name of more comfortable living conditions.": "SENNETTI：そうかもしれない。彼らは、より快適な生活環境のためにリスクを冒すよりも、現状を維持することに満足しているようだ。&lt;i&gt;&lt;/i&gt;",
         
         //kevin_use
         "AZOLLA: Okalis, you had said that you had an idea of how to rescue Ditylum?": "AZOLLA：Okalis、あなたはDitylumを救う方法を考えていると言っていましたね？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Yes! I wanted to visit here quickly to confirm my suspicions, but I believe that we can use Kevin to cross the <![CDATA[<color=orange>Nursery</color>]]> and retrieve Ditylum.": "OKALIS：はい！疑惑を確かめるためにすぐにここに来たかったのですが、ただ、Kevinを使って<![CDATA[<color=orange>子ども部屋</color>]]>を越え、Ditylumを取り戻せると思います。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: An interesting idea! Kevin's teeth are large enough that we should be able to graft handles to them without causing him harm. Then, we could have him carry us across the <![CDATA[<color=orange>Nursery</color>]]>, and none of the juveniles would suspect anything due to his presence!": "NESIA：面白いアイデアですね！Kevinの歯は十分大きいから、彼に危害を加えることなく、歯に取っ手を移植できるはずだ。そうすれば、彼に私たちを運んでもらい、<![CDATA[<color=orange>子ども部屋</color>]]>を横切らせることができる！&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: It sounds as if this will be our plan to rescue Ditylum then. Kevin has proven easy to train in the past, so it should be doable in a reasonable time frame.": "AZOLLA：それでは、Ditylumを救出する計画はこれで決まりですね。Kevinは過去に訓練しやすいことが証明されているから、合理的な時間内で可能なはずだ。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: I will be glad when this is done. Primarily because it will mean that Ditylum is back to safety, but also it will be recompense for the incident when we first approached <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "AZOLLA：これが終われば、私は嬉しい。Ditylumが安全な場所に戻るということが第一の理由だけど、私たちが最初に<![CDATA[<color=orange>マグマの再帰</color>]]>に近づいたときの出来事に対する報いでもある。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: An interesting idea! Kevin's teeth are large enough that we should be able to graft handles to them without causing him harm. Then, we could have him carry us across the <![CDATA[<color=orange>Nursery</color>]]>, and none of the juveniles would suspect anything due to his presence!": "NESIA：面白いアイデアですね！Kevinの歯は十分大きいから、彼に危害を加えることなく、歯に取っ手を移植できるはずです。そうすれば、彼に私たちを運んでもらい、<![CDATA[<color=orange>子ども部屋</color>]]>を横切らせることができる！&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: It sounds as if this will be our plan to rescue Ditylum then. Kevin has proven easy to train in the past, so it should be doable in a reasonable time frame.": "AZOLLA：それでは、Ditylumを救出する計画はこれで決まりですね。Kevinは過去に訓練しやすいことが証明されているから、合理的な時間内で可能なはずです。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: I will be glad when this is done. Primarily because it will mean that Ditylum is back to safety, but also it will be recompense for the incident when we first approached <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "AZOLLA：これが完了したら嬉しいです。Ditylumが安全な場所に戻るということが第一の理由だけど、私たちが最初に<![CDATA[<color=orange>マグマの再帰</color>]]>に近づいたときの出来事に対する報いでもあります。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: This does sound promising, but how do we get to Kevin without being attacked? Even worse, what do we do if Kevin brings us to the other side, and then wanders away?": "SENNETTI：これは期待できそうだが、攻撃されずにどうやってKevinのところに行くんだ？さらに悪いことに、もしKevinが私たちをあの世に連れて行って、それからふらふらと去っていったら、どうすればいい？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: A sensible concern, friend! But remember, the Dree have already trained Kevin to come when hit in the eye with a small object. I am sure that we will be able to construct some sort of launcher to take advantage of this behavior from a distance.": "OKALIS：賢明な懸念だ！しかし、覚えておいてほしいのは、Dreeはすでに、Kevinは小さなもので目を叩かれるとこちらへ来るように訓練しているということ。遠距離からこの行動を利用するために、何らかの発射装置を作ることができると確信している。&lt;i&gt;&lt;/i&gt;",
         
@@ -169,30 +169,30 @@
         "SENNETTI: Perhaps it is some form of macroscopic quantum behavior? It may exist in all locations at the same time, but collapses to a single possibility once observed by a conscious being.": "SENNETTI：おそらくそれは、巨視的な量子の振る舞いの一形態なのだろう。それは同時にすべての場所に存在するかもしれないが、意識のある存在によって観察されると、単一の可能性に収束する。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: An interesting idea! This may indeed be the case, I can think of no other explanation for how it may relocate itself so dramatically.": "OKALIS：興味深い考えだ！確かにそうかもしれない。これほど劇的に移転する理由は、他に思いつかない。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: While this is an interesting find, it is a shame that it does not seem to be useful to our current goals. I had hoped that this would help us locate the <![CDATA[<color=orange>Eye of the Universe</color>]]>.": "AZOLLA：興味深い発見ですが、私たちの現在の目的には役立ちそうにないのが残念です。私はこれが<![CDATA[<color=orange>宇宙の眼</color>]]>を見つける助けになると期待していたのですが。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When one of the two main locations is blocked by a small object (such as a scroll or a writing staff), it seems that the rock moves to an additional, third location. I theorize that this is due to the rock having an extremely low probability to appear in that location. However, it is forced into that superposition once the only other possibility is occupied. I have been calling this the Rule of Quantum Probability.": "NESIA：実は、この石の追加動作を偶然見つけたかもしれません。主要な2つの場所のうち1つが小さな物体（スクロールや筆記杖など）でふさがれると、石は追加の3番目の場所に移動するようです。これは、石がその場所に出現する確率が極めて低いためだと私は推論しています。しかし、唯一の可能性が埋まってしまうと、その重ね合わせの状態に追い込まれる。私はこれを「量子確率の法則」と呼んでいます。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When one of the two main locations is blocked by a small object (such as a scroll or a writing staff), it seems that the rock moves to an additional, third location. I theorize that this is due to the rock having an extremely low probability to appear in that location. However, it is forced into that superposition once the only other possibility is occupied. I have been calling this the Rule of Quantum Probability.": "NESIA：実は、この石の追加動作を偶然見つけたかもしれません。主要な2つの場所のうち1つが小さな物体（スクロールや筆記杖など）でふさがれたとき、石は追加の3番目の場所に移動するようです。これは、石がその場所に出現する確率が極めて低いためだと私は推論しています。しかし、唯一の可能性が埋まってしまうと、その重ね合わせの状態に追い込まれる。私はこれを「量子確率の法則」と呼んでいます。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Even more interesting, but I still fail to understand how this would aid us in reaching the <![CDATA[<color=orange>Eye</color>]]>.": "AZOLLA：さらに興味深いことですね、ただ、これが<![CDATA[<color=orange>眼</color>]]>に到達するためにどのように役立つのか、まだ理解できません。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: I am still putting together the details (in particular, I want to bring Karenia to observe this phenomenon), but I believe that this may be useful to a proposal of mine that I am calling the <![CDATA[<color=orange>Distant Node Project</color>]]>. I encourage you all to join me here sometime when I have more of the details worked out. I will be able to explain the idea in full then.": "NESIA：私はまだ詳細をまとめている最中ですが（特に、この現象を観察するためにKareniaを連れてきたいと思っています）、これは<![CDATA[<color=orange>遠距離ノードプロジェクト</color>]]>と呼んでいる私の提案に役立つかもしれないと信じています。もっと詳細が決まったら、いつかここに来てほしい。その時には、このアイデアを完全に説明できるだろう。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: I am still putting together the details (in particular, I want to bring Karenia to observe this phenomenon), but I believe that this may be useful to a proposal of mine that I am calling the <![CDATA[<color=orange>Distant Node Project</color>]]>. I encourage you all to join me here sometime when I have more of the details worked out. I will be able to explain the idea in full then.": "NESIA：私はまだ詳細をまとめている最中ですが（特に、この現象を観察するためにKareniaを連れてきたいと思っています）、これは<![CDATA[<color=orange>遠距離ノードプロジェクト</color>]]>と呼んでいる私の提案に役立つかもしれないと信じています。もっと詳細が決まったら、いつかここに来てほしい。その時には、このアイデアを完全に説明できるでしょう。&lt;i&gt;&lt;/i&gt;",
         "NESIA: If this is the case, it may hint at the nature of the <![CDATA[<color=orange>Eye</color>]]> as well. This rock seems to emanate a signal similar to the one reverberating through this area.": "NESIA：もしそうだとしたら、<![CDATA[<color=orange>眼</color>]]>の性質も示唆しているかもしれません。この石は、このあたりで反響しているものと似た信号を発しているようだ。&lt;i&gt;&lt;/i&gt;",
         
         //sedentary_fish_lore
-        "NESIA: At first I was quite confused how these fish could survive with the stark absence of viable prey, but after observing them, I believe I understand. They live very sedentary lives, only moving to ambush potential prey. This allows them to expend very little energy. In fact, I believe that only ones as large as the mother near the <![CDATA[<color=orange>Translation Lab</color>]]> require larger prey. Smaller ones can simply subside on the smaller creatures that float throughout the <![CDATA[<color=purple>Bramble</color>]]>, digesting anything foolish enough to enter their mouths.": "NESIA：最初は、獲物となる魚がまったくいないのに、どうしてこの魚が生き延びることができるのか、とても不思議に思っていた。彼らは非常に定住的な生活をしており、潜在的な獲物を待ち伏せるためだけに動く。そのため、ほとんどエネルギーを消費しない。実際、<![CDATA[<color=orange>翻訳研究所</color>]]>の近くにいる母親ほど大きなものだけが、より大きな獲物を必要とするのだと思う。小型のものは、<![CDATA[<color=purple>イバラ</color>]]>全体に浮遊している小型の生物を食べるだけで、口に入るような愚かものは何でも消化してしまう。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: At first I was quite confused how these fish could survive with the stark absence of viable prey, but after observing them, I believe I understand. They live very sedentary lives, only moving to ambush potential prey. This allows them to expend very little energy. In fact, I believe that only ones as large as the mother near the <![CDATA[<color=orange>Translation Lab</color>]]> require larger prey. Smaller ones can simply subside on the smaller creatures that float throughout the <![CDATA[<color=purple>Bramble</color>]]>, digesting anything foolish enough to enter their mouths.": "NESIA：最初は、獲物となる魚がまったくいないのに、どうしてこの魚が生き延びることができるのか、とても不思議に思っていました。彼らは非常に定住的な生活をしており、潜在的な獲物を待ち伏せるためだけに動く。そのため、ほとんどエネルギーを消費しない。実際、<![CDATA[<color=orange>翻訳研究所</color>]]>の近くにいる母親ほど大きなものだけが、より大きな獲物を必要とするのだと思います。小型のものは、<![CDATA[<color=purple>イバラ</color>]]>全体に浮遊している小型の生物を食べるだけで、口に入るような愚かものは何でも消化してしまう。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: An interesting idea, Nesia. This would explain why the Dree are able to rely on the anglerfish staying away. There is no need to worry about an encroaching predator when that predator never moves.": "AZOLLA：面白い考えですね、Nesia。これなら、Dreeがアンコウを寄せ付けずにいられている理由も説明できる。捕食者が動かないのであれば、侵入してくる捕食者を心配する必要はない。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: This may even explain how that anglerfish grew to that size. Perhaps they grow proportionally to their nutritional intake.Thus the extra food the Dree give her has caused her to grow to such an exceedingly massive size.": "SENNETTI：あのアンコウがなぜあんなに大きくなったのか、説明がつくかもしれない。おそらく、彼らは栄養摂取量に比例して成長するのでしょう。したがって、Dreeが彼女に与えた余分な餌が、彼女をあのような巨大なサイズに成長させたのです。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: This may even explain how that anglerfish grew to that size. Perhaps they grow proportionally to their nutritional intake.Thus the extra food the Dree give her has caused her to grow to such an exceedingly massive size.": "SENNETTI：あのアンコウがなぜあんなに大きくなったのか、説明がつくかもしれない。おそらく、彼らは栄養摂取量に比例して成長するのだろう。したがって、Dreeが彼女に与えた余分な餌が、彼女をあのような巨大なサイズに成長させたのです。&lt;i&gt;&lt;/i&gt;",
         
         //stomach_lore
         "NESIA: Interesting. It seems that the majority of the anglerfish's internal volume is taken up by this central cavity, rather than organs.": "NESIA：興味深い。アンコウの体内の容積の大部分は、臓器ではなく、この中心空洞が占めているようです。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: But how can that be? They seem to be large predators that have evolved to swallow prey whole. How could they have such a small space for their stomach?": "OKALIS：しかし、どうしてそうなるのだろう？彼らは獲物を丸呑みするように進化した大型の捕食者のようだ。どうして胃のスペースがこんなに狭いのだろう？&lt;i&gt;&lt;/i&gt;",
         "NESIA: I do not believe that they have any stomach at all. Instead, this interior cavity is normally flooded with a free-floating digestive enzyme, allowing the fish to entrap and consume any organic matter that it can fit inside its mouth.": "NESIA：胃はまったくないと思います。その代わり、この内部の空洞には通常、自由に浮遊する消化因子が充満しており、魚は口の中に入るあらゆる有機物を巻き込んで摂取することができる。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Additionally, the fact that the enzyme disperses upon petting the eye of the fish is likely not a trained behavior, as it seems unlikely that the Dree would have had any need for such a thing. I believe that, instead, this may allow juvenile fish to brush against the eye of an adult to gain access to their prey.": "NESIA：さらに、魚の目を撫でると消化因子が飛び散るというのは、おそらく訓練された行動ではないでしょう。Dreeもそのようなことを必要していたとは思えない。むしろ、この機能は、幼魚が成魚の目に触れることで獲物にアクセスできるようにするためのものだと思います。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Additionally, the fact that the enzyme disperses upon petting the eye of the fish is likely not a trained behavior, as it seems unlikely that the Dree would have had any need for such a thing. I believe that, instead, this may allow juvenile fish to brush against the eye of an adult to gain access to their prey.": "NESIA：さらに、魚の目を撫でると消化因子が飛び散るというのは、おそらく訓練された行動ではないでしょう。Dreeもそのようなことを必要していたとは思えません。むしろ、この機能は、幼魚が成魚の目に触れることで獲物にアクセスできるようにするためのものだと思います。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Interesting! It's rather odd a species that are normally so territorial can become such social creatures once their young are involved.": "AZOLLA：面白い！普段は縄張り意識が強い種が、子どもが生まれるとこんなに社交的な生き物になるなんて。&lt;i&gt;&lt;/i&gt;",
         
         //tooth_hint
-        "OKALIS: Friends, Amylax has informed me of an unfortunate event! The anglerfish guarding the juveniles in the <![CDATA[<color=orange>Nursery</color>]]> lost one of his centermost bottom teeth in an accident!": "OKALIS：友よ、Amylaxから不幸な出来事を聞いた！<![CDATA[<color=orange>子ども部屋</color>]]>で幼魚を守っていたアンコウが、事故で一番下の歯を1本失ってしまった！&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Friends, Amylax has informed me of an unfortunate event! The anglerfish guarding the juveniles in the <![CDATA[<color=orange>Nursery</color>]]> lost one of his centermost bottom teeth in an accident!": "OKALIS：みんな、Amylaxが不幸な出来事を知らせてくれました！<![CDATA[<color=orange>子ども部屋</color>]]>で幼魚を守っていたアンコウが、事故で一番下の歯を1本失ってしまった！&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Did he mention what the nature of the accident was?": "AZOLLA：彼は事故の内容について話していましたか？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Not in detail. From what I understood, it seems as if two of the juvenile fish got into an altercation, and Kevin hit the wall in the process of separating them. It seems that none of the Dree were present for the altercation, so that is simply their best guess.": "OKALIS：詳しくは聞いてない。私が理解したところでは、2匹の幼魚が口論になり、Kevinが2匹を引き離す過程で壁にぶつかったようです。Dreeは誰も口論に立ち会っていないようなので、これは単に彼らの最善の推測ですが。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: It is fortunate that the Dree have him there then, I imagine one of the juvenile fish could have been seriously injured had Kevin not intervened.": "SENNETTI：その時DreeがKevinをそこに連れてきてくれたのは幸運だった。彼が介入していなかったら、幼魚の一匹が重傷を負っていたかもしれない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Are you referring to Kevin? That is unfortunate, I hope it does not leave any permanent effects.": "NESIA：Kevinのことですか？後遺症が残らなければいいのですが。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: It seems as if he should make a full recovery, except for the permanent mark left by the missing tooth.": "OKALIS：歯が抜けた永久歯の跡を除けば、完治するようですよ。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: It seems as if he should make a full recovery, except for the permanent mark left by the missing tooth.": "OKALIS：歯が抜けた永久歯の跡を除けば、完治するようだよ。&lt;i&gt;&lt;/i&gt;",
         
         //amylaxnametag
         //ch_crystal_repair
@@ -206,21 +206,21 @@
         //ch_dree_lethargy
         "OKALIS: Amylax, one thing we have noticed, especially given recent events, is how your people seem to be a bit too accepting of circumstances. While this has been changing some, I was curious what brought about this attitude in the first place?": "OKALIS：Amylax、特に最近の出来事を振り返って気づいたことは、あなた方の種族が状況を少し受け入れすぎているように見えるということです。これはいくらか変化してきていますが、そもそもこのような態度が生まれたのはなぜですか？&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: It's an artifact from when things weren't so peaceful, before we had tamed the anglerfish and things like that. As I'm sure you're all aware, the <![CDATA[<color=purple>Bramble</color>]]> is not exactly safe, and there was a time where death was pretty commonplace. During that time, we learned that taking tragedy in stride would be more or less necessary for our survival.": "AMYLAX：アンコウを飼いならす前など、物事がそれほど平和でなかった頃の遺物です。皆さんもご存じだと思いますが、<![CDATA[<color=purple>イバラ</color>]]>は決して安全とは言えず、死がごく当たり前の時代がありました。その間、私たちは悲劇を冷静に受け止めることが、生き残るために多かれ少なかれ必要であることを学びました。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: I see. I fear we Nomai may suffer from the opposite problem as you Dree. I am sure you have noticed our species' eagerness to explore. It is one of our greatest prides, but it can also lead to some rash decision making. We Nomai are no strangers to these rash decisions claiming lives, and sometimes need to purposefully slow ourselves down to avoid it.": "AZOLLA：なるほど。私たちNomaiは、Dreeとは正反対の問題を抱えているようだ。私たちの種族が探検に熱心なのはご存じでしょう。それは私たちの誇りでもあるのですが、軽率な決断を下すこともあります。私たちNomaiは、このような軽率な決断が命を奪うことを知らないわけではありません。それを避けるために、時には意図的にスピードを落とす必要があるのです。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: I see. I fear we Nomai may suffer from the opposite problem as you Dree. I am sure you have noticed our species' eagerness to explore. It is one of our greatest prides, but it can also lead to some rash decision making. We Nomai are no strangers to these rash decisions claiming lives, and sometimes need to purposefully slow ourselves down to avoid it.": "AZOLLA：なるほど。私たちNomaiは、Dreeとは正反対の問題を抱えているようです。私たちの種族が探検に熱心なのはご存じでしょう。それは私たちの誇りでもあるのですが、軽率な決断を下すこともあります。私たちNomaiは、このような軽率な決断が命を奪うことを知らないわけではありません。それを避けるために、時には意図的にスピードを落とす必要があるのです。&lt;i&gt;&lt;/i&gt;",
         "KARENIA: That makes sense. Nesia was telling me that your clan's discovery of the <![CDATA[<color=orange>Eye</color>]]> is actually what led to the tragedy that befell your clan. Your leader, Escall, was too quick to follow the Eye's signal, which led to your ship getting stuck in the <![CDATA[<color=purple>Bramble</color>]]>.": "KARENIA：なるほど。Nesiaが言っていたのですが、あなたたちの部族が<![CDATA[<color=orange>眼</color>]]>を発見したことが、実はあなたたちの部族を襲った悲劇につながったのだと。君たちのリーダーであるEscallは眼の信号に従うのが早すぎたため、あなたたちの船は<![CDATA[<color=purple>イバラ</color>]]>にはまり込んでしまった。&lt;i&gt;&lt;/i&gt;",
-        "KARENIA: That danger also led to our attitude towards expansion. We found a corner of the <![CDATA[<color=purple>Bramble</color>]]> that was decently safe, so we just... stayed here. It's cramped, and not terribly comfortable, but at least we're not having people go missing every other day.": "KARENIA：その危険性が、私たちの拡大への姿勢にもつながった。<![CDATA[<color=purple>イバラ</color>]]>の一角にそこそこ安全な場所を見つけたから、私たちはここに残りました。窮屈だし、快適とは言えませんが、少なくとも1日おきに人が行方不明になるようなことはありません。&lt;i&gt;&lt;/i&gt;",
+        "KARENIA: That danger also led to our attitude towards expansion. We found a corner of the <![CDATA[<color=purple>Bramble</color>]]> that was decently safe, so we just... stayed here. It's cramped, and not terribly comfortable, but at least we're not having people go missing every other day.": "KARENIA：その危険性が、私たちの拡大への姿勢にもつながった。<![CDATA[<color=purple>イバラ</color>]]>の一角にそこそこ安全な場所を見つけたから...私たちはここに残りました。窮屈だし、快適とは言えませんが、少なくとも1日おきに人が行方不明になるようなことはありません。&lt;i&gt;&lt;/i&gt;",
         
         //ch_intelligence
         "KARENIA: I've been kinda concerned about something, if one of you would be willing to discuss it with me. Do you Nomai find us Dree... unintelligent? It's no secret that you guys have way more technology than we do, and I just wanted to make sure you don't see us as inferior or something like that.": "KARENIA：ちょっと気になることがあるのですが、もしよかったら、誰か一緒に話してくれませんか？あなた方Nomaiは、私たちDreeを...知能が低いと思いますか？あなたたちが私たちよりずっと多くの技術を持っていることは周知の事実ですし、私たちを劣っているとかそういう目で見ていないか確認したかったのです。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Of course not! You all are no less intelligent than us, it's just that the different demands of our species caused us to develop different areas of expertise.": "AZOLLA：もちろんそんなことはない！ただ、私たちの種の要求が異なるために、私たちは異なる専門分野を発達させただけなのです。&lt;i&gt;&lt;/i&gt;",
         "KARENIA: Can you elaborate?": "KARENIA：詳しく説明してもらえますか？&lt;i&gt;&lt;/i&gt;",
-        "NESIA: We Nomai are defined by our nomadic lifestyle and inquisitive nature. Because of this, our species put a high priority on the development of advanced technology that would allow us to travel to faraway places. You Dree, on the other hand, had to contend with the hostile environment of the <![CDATA[<color=purple>Bramble</color>]]>, so you focused on developments that facilitated your survival. This led to several impressive developments, chief among them your ability to commune with the plant on a level we Nomai have never observed in all of our travels.": "NESIA：私たちNomaiは、遊牧民のようなライフスタイルと好奇心旺盛な性質によって定義されている。そのため私たちの種族は、遠く離れた場所への旅を可能にする高度なテクノロジーの開発に重きを置いてきた。一方、あなた方Dreeは、<![CDATA[<color=purple>イバラ</color>]]>という敵対的な環境と戦わなければならなかったので、生存を容易にする開発に重点を置きました。その結果、いくつかの印象的な発展がもたらされたが、なかでも、我々Nomaiがこれまでの旅で観察したことのないようなレベルで植物と交信する能力を持つようになったことは、その最たるものです。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: We Nomai are defined by our nomadic lifestyle and inquisitive nature. Because of this, our species put a high priority on the development of advanced technology that would allow us to travel to faraway places. You Dree, on the other hand, had to contend with the hostile environment of the <![CDATA[<color=purple>Bramble</color>]]>, so you focused on developments that facilitated your survival. This led to several impressive developments, chief among them your ability to commune with the plant on a level we Nomai have never observed in all of our travels.": "NESIA：私たちNomaiは、遊牧民のようなライフスタイルと好奇心旺盛な性質によって定義されています。そのため私たちの種族は、遠く離れた場所への旅を可能にする高度なテクノロジーの開発に重きを置いてきました。一方、あなた方Dreeは、<![CDATA[<color=purple>イバラ</color>]]>という敵対的な環境と戦わなければならなかったので、生存を容易にする開発に重点を置きました。その結果、いくつかの印象的な発展がもたらされましたが、なかでも、我々Nomaiがこれまでの旅で観察したことのないようなレベルで植物と交信する能力を持つようになったことは、その最たるものです。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: If it weren't for you all and your carefully developed relationship with the <![CDATA[<color=purple>Bramble</color>]]>, the four of us would not have survived.": "OKALIS：もしあなたたちが、<![CDATA[<color=purple>イバラ</color>]]>と慎重に築き上げた関係がなかったら、私たち4人は生き残れなかったでしょう。&lt;i&gt;&lt;/i&gt;",
         "KARENIA: I really appreciate your honesty Nesia. I guess it's just another difference between our people that we can use to help each other out.": "KARENIA：Nesiaの正直な気持ちには本当に感謝しています。私たちがお互いを助け合うために使うことができる、もうひとつの民族の違いだと思うわ。&lt;i&gt;&lt;/i&gt;",
         
         //ch_intro
         "AZOLLA: Good news friends! We have been given approval to take part in the tradition of sharing our culture in this concert hall! Our new neighbors state that, so long as we refrain from constructing walls which interfere with the concert hall's acoustics, we are free to write in here!": "AZOLLA：朗報です！私たちは、このコンサートホールで私たちの文化を分かち合う伝統に参加することを承認されました！私たちの新しい隣人は、コンサートホールの音響を妨げるような壁の建設を控えるのであれば、私たちはここで自由に書き込むことができると言ってくれました！&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: That is good news! I imagine us writing here will also allow for our new friends to leave thoughts of their own.": "SENNETTI：それはいいニュースだ！私たちがここに書くことで、新しい友人たちも自分の考えを残すことができるでしょう。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: That is good news! I imagine us writing here will also allow for our new friends to leave thoughts of their own.": "SENNETTI：それはいいニュースだ！私たちがここに書くことで、新しい友人たちも自分の考えを残すことができるだろう。&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: Since you all decided (willingly or not) to stay here, we figured that it only made sense for you to participate in some of our traditions.": "DITYLUM：君たちが（望んでどうかは別として）ここに残ると決めた以上、私たちの伝統行事に参加してもらうのが筋だと考えたんだ。&lt;i&gt;&lt;/i&gt;",
         "NESIA: It is much appreciated, friend! While I am generally accustomed to studying from afar, it will be much more pleasant to fully engage with you and the other Dree.": "NESIA：ありがたいことです！私は基本的に遠くから学ぶことに慣れていますが、あなたや他のDreeと一緒に学べるのであればもっと楽しいでしょう。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I look forward to seeing the similarities and differences between our cultures! I imagine it will be quite interesting to observe.": "OKALIS：私たちの文化の共通点と相違点を見るのが楽しみ！観察するのはとても面白いだろうね。&lt;i&gt;&lt;/i&gt;",
@@ -240,12 +240,12 @@
 
         //ch_taming
         "NESIA: I'm curious how you all managed to deal with the proximity of the anglerfish? I cannot imagine they are ideal neighbors.": "NESIA：アンコウが近くにいるのですが、皆さんはどう対処されたのですか？理想的な隣人とは思えません。&lt;i&gt;&lt;/i&gt;",
-        "DITYLUM: It's actually pretty easy to live with them, especially since they're all tamed now. Except for the babies of course.": "DITYLUM：実のところ、彼らと暮らすのはとても簡単です。もちろん赤子は別だけど。&lt;i&gt;&lt;/i&gt;",
+        "DITYLUM: It's actually pretty easy to live with them, especially since they're all tamed now. Except for the babies of course.": "DITYLUM：実のところ、彼らと暮らすのはとても簡単だ。もちろん赤子は別だけど。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I've actually wondered about that some myself. How does the taming process work, and why is it ineffective on the juveniles?": "NESIA：実は私もそれについて少し疑問に思っていました。餌付けのプロセスはどのように機能し、なぜ幼い個体には効果がないのでしょうか？&lt;i&gt;&lt;/i&gt;",
         "KARENIA: Basically, we just feed them a bunch. The anglerfish are simple creatures; they want to get food and they want to move as little as possible to do it. That means, if you consistently bring them food, they'll understand that the best way to get easy food is by not killing you.": "KARENIA：基本的には、餌をたくさん与えるだけです。アンコウは単純な生き物で、餌を得たいうえにそのためにできるだけ動きたくもない。つまり、一貫して餌を持ってくれば、簡単に餌を手に入れる最善の方法は、あなたを殺さないことだと理解するようになる。&lt;i&gt;&lt;/i&gt;",
-        "KARENIA: The babies, on the other hand, don't care as much about staying still as they care about getting a lot of food. This means they'll still attack whoever gets close, so we have to wait until they're a good deal larger before they can be tamed.": "KARENIA：一方、赤子はじっとしていることにあまり関心がなく、餌をたくさん食べることに関心がある。だから、飼いならすには、もっと大きくなるまで待つ必要がある。&lt;i&gt;&lt;/i&gt;",
+        "KARENIA: The babies, on the other hand, don't care as much about staying still as they care about getting a lot of food. This means they'll still attack whoever gets close, so we have to wait until they're a good deal larger before they can be tamed.": "KARENIA：一方、赤子はじっとしていることにあまり関心がなく、餌をたくさん食べることに関心がある。だから、飼いならすにはもっと大きくなるまで待つ必要があります。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Even so, I am unclear on how you live in such close proximity to those creatures. The image of their shapes lurking in the fog, hinted at only by their stark white lights, still gives me chills.": "SENNETTI：それにしても、あの生き物のすぐ近くでどんな感じで暮らしているのか、私にはよくわからない。霧の中に潜み、真っ白な光だけがほのめかす彼らの姿を想像すると、今でも寒気がする。&lt;i&gt;&lt;/i&gt;",
-        "DITYLUM: If you read that again, that might tell you why that's not a problem for us Dree.": "DITYLUM：もう一度読んでいただければ、なぜそれが私たちにとって問題ないのかがわかるかもしれません。&lt;i&gt;&lt;/i&gt;",
+        "DITYLUM: If you read that again, that might tell you why that's not a problem for us Dree.": "DITYLUM：もう一度読んでいただければ、なぜそれが私たちにとって問題ないのかがわかるかもしれない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I see! That makes sense, given their massive size. I imagine any movement expends a sizable amount of energy.": "NESIA：なるほど！巨大な体を考えれば、それは理にかなっている。どんな動きも、相当なエネルギーを消費するんでしょうね。&lt;i&gt;&lt;/i&gt;",
 
         //communion_recording
@@ -268,7 +268,7 @@
         
         //concert_hall_recording
         "OKALIS: That performance was beautiful! I never suspected that these people would have such wonderful vocalizations.": "OKALIS：あのパフォーマンスは美しかった！ここの人たちがあんなに素晴らしい発声をするとは思わなかった。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Suppose that the physiology of their vocal organs are different from ours? I fail to even imagine how one of us might create those sounds.": "NESIA：仮に、彼らの発声器官の生理学が私たちとは違うとしたら？私たちの誰かがどうやってそのような音を出すのか、想像すらできません。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Suppose that the physiology of their vocal organs are different from ours? I fail to even imagine how one of us might create those sounds.": "NESIA：仮に、彼らの発声器官の生理学が私たちとは違うとしたら？私たちの誰かがどうやってそのような音を出すところを、想像すらできません。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Interesting hypothesis, Nesia. We will have to see what Sennetti can discover once he completes his analysis of these people's language.": "AZOLLA：興味深い仮説ですね、Nesia。Sennettiがこの人たちの言語の分析を終えたら、どんな発見をするのか見てみなければならない。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I know it is for a good reason, but I still struggle to understand how he was willing to miss this performance to continue working. Hopefully he has an opportunity to relax soon!": "OKALIS：正当な理由があるのはわかるけど、彼が仕事を続けるためにこの公演を欠席したことは理解しがたいね。早くリラックスできる機会があることを願おう！&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: I hope so too, but you know that distracting Sennetti after he begins work on a translation is as simple and painless as a dental extraction.": "AZOLLA：そうですね。でもあなたも知っての通り、Sennettiが翻訳に取りかかった後彼の気をそらすということは、抜歯ぐらい簡単で苦痛も無いことですよ。&lt;i&gt;&lt;/i&gt;",
@@ -277,16 +277,16 @@
         "Concert Hall": "コンサートホール&lt;i&gt;&lt;/i&gt;",
         
         //heat_warning
-        "Be wary friends, the space that lies beyond this node is filled with an extreme heat. If you must enter, be prepared to move quickly. The temperature is sufficient to cook you inside of your suit.": "友よ、用心せよ。このノードの先にある空間は、極度の熱に満ちている。もし入らなければならないなら、素早く移動する用意をしておくこと。スーツを着たままでも調理できる温度だ。&lt;i&gt;&lt;/i&gt;",
-        "We have erected a gravity lift to bring you down to the planet's surface. Find your way into it and you will be brought into an area where the heat is somewhat dissipated. Simply keep watch for it, it is plainly visible as you approach.": "この惑星の地表に降りるために、重力リフトを設置しました。この重力リフトに乗れば熱がない場所に行くことができる。注意していれば重力リフトははっきりと見えてくるだろう。&lt;i&gt;&lt;/i&gt;",
+        "Be wary friends, the space that lies beyond this node is filled with an extreme heat. If you must enter, be prepared to move quickly. The temperature is sufficient to cook you inside of your suit.": "友よ、用心せよ。このノードの先にある空間は、極度の熱に満ちている。もし入らなければならないなら、素早く移動する用意をしておくこと。スーツを着たままでも調理される温度だ。&lt;i&gt;&lt;/i&gt;",
+        "We have erected a gravity lift to bring you down to the planet's surface. Find your way into it and you will be brought into an area where the heat is somewhat dissipated. Simply keep watch for it, it is plainly visible as you approach.": "この惑星の地表に降りるために、重力リフトを設置した。この重力リフトに乗れば熱がない場所に行くことができる。注意していれば重力リフトははっきりと見えてくるだろう。&lt;i&gt;&lt;/i&gt;",
         
         //helmet_off_recording
         "OKALIS: Fascinating, I wonder what the purpose of this area could be? It could be some manner of social area, but we have already observed a park and a concert hall. I wonder how many social areas these people have?": "OKALIS：興味深い。この場所の目的は何なのだろう？何らかの社交場なのかもしれないが、私たちはすでに公園とコンサートホールを見ている。ここの人たちはいくつ社交場があるのだろう？&lt;i&gt;&lt;/i&gt;",
-        "AMYLAX: Um, hey, Okalis was it? I just wanted to come say hi and introduce myself, since that's something that we can do now. My name's Amylax.": "AMYLAX：ああ、やあ、Okalisだっけ？挨拶と自己紹介をしに来ました、今できることだから。私の名前はAmylaxです。&lt;i&gt;&lt;/i&gt;",
+        "AMYLAX: Um, hey, Okalis was it? I just wanted to come say hi and introduce myself, since that's something that we can do now. My name's Amylax.": "AMYLAX：ああ、やあ、Okalisだっけ？挨拶と自己紹介をしに来ました、それが今できることだから。私の名前はAmylaxです。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Oh! Hello! I must confess, I had somewhat forgotten that Sennetti had completed his translation, and that we would be able to fully understand one another. Yes, I'm Okalis, it's a pleasure to meet you properly!": "OKALIS：ああ！こんにちは！正直なところ、Sennettiが翻訳を終えて、私たちがお互いに完全に理解し合えるようになったことを少し忘れていました。はい、私はOkalisです、お会いできて光栄です！&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: Were you wondering what this little podium is? It's actually where we come to tell stories and such. Most of our history is kept track of through oral tradition, so we have this place to tell all of the old stories from our ancestors.": "AMYLAX：この小さな演壇が何なのか不思議に思いましたか？実は、私たちが物語を語ったりする場所なんです。私たちの歴史のほとんどは、口承で伝えられてきたものだから、先祖からの昔話をここで話すのです。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Interesting! Although, why not use the concert hall for that purpose? I am certain that it would have the acoustics for it. Ah, also, if you'll excuse me, it's getting a bit stuffy in here, so I'm going to remove this while the oxygen of this planet allows me to do so.": "OKALIS：興味深い！でも、なぜコンサートホールを使わないのですか？きっとそのための音響効果があるはずだ。ああ、あと、失礼ですが、ここは少し蒸し暑くなってきました...この惑星の酸素が許してくれるうちに、これを外しておこうと思います。&lt;i&gt;&lt;/i&gt;",
-        "AMYLAX: Oh, um, yeah, sure. The concert hall is really for large performances, so it's not really pract-BY THE <![CDATA[<color=purple>BRAMBLE</color>]]> WHAT ARE YOU DOING!?!": "AMYLAX：ああ、ええ、もちろん。コンサート・ホールは本当に大きな公演のためのものなので、練習にはなりま...ちょっと待って！？話の<![CDATA[<color=purple>イバラ</color>]]>から逸れるけども、あなたは何をしているの！？&lt;i&gt;&lt;/i&gt;",
+        "AMYLAX: Oh, um, yeah, sure. The concert hall is really for large performances, so it's not really pract-BY THE <![CDATA[<color=purple>BRAMBLE</color>]]> WHAT ARE YOU DOING!?!": "AMYLAX：ああ、ええ、もちろん。コンサート・ホールは本当に大きな公演のためのものなので、練習にはなりませ...ちょっと待って！？話の<![CDATA[<color=purple>イバラ</color>]]>から逸れるけども、あなたは何をしているの！？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Taking my helmet off? It's stuffy in this suit, so I prefer not to wear it when it can be avoided.": "OKALIS：ヘルメットを脱いでいること？このスーツは蒸れるから、避けられるときはかぶらない方がいいんだ。&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: But, but, you just pulled off your head! And you have a second, smaller, fuzzier head inside of it?": "AMYLAX:でも、でも、あなたは自分の頭を引っぺがした！その中にもう1つ、小さくてフワフワした頭があるの？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Oh! This is not my head, it's a helmet! It protects my head from impacts, as well as allowing some degree of environmental regulation, such as providing me with oxygen. Did you believe that we all have the appearance of our helmets and masks?": "OKALIS：ああ！これは私の頭じゃなくて、ヘルメットなんだ！衝撃から頭を守るだけでなく、酸素を供給するなど、ある程度の環境調整も可能なんだ。私たちは皆、ヘルメットやマスクのような外見をしていると思っていましたか？&lt;i&gt;&lt;/i&gt;",
@@ -304,18 +304,18 @@
         "OKALIS: I also sincerely hope the wall I had to construct to write this message is unobstructive. It should be fairly easy to disassemble, which we could even do together if you so wished!": "OKALIS：このメッセージを書くために作った壁が邪魔にならないことを心から願っています。分解はかなり簡単なはずだし、あなたが望むなら一緒にやってもいい！&lt;i&gt;&lt;/i&gt;",
         
         //park_recording
-        "SENNETTI: This park appears to be the main social center for these people. I would greatly enjoy deciphering their language, but as it stands, I have nowhere to do my work nearby.": "SENNETTI：この公園は、彼らの主要な社交場になっているようだ。彼らの言語を解読するのはとても楽しいのですが、現状では近くに仕事をする場所がありません。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: I may have some positive news on that front, friend. The alien we first made contact with, assuming I am correctly interpreting their message, is directing us to set up a lab for just that purpose.": "OKALIS: その件に関して、良いニュースがあるよ。私たちが最初に接触した異星人は、彼らのメッセージを正しく解釈できていると仮定すると、まさにその目的のために研究所を設立するよう私たちに指示しています。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: If that is true, then I am thrilled to hear it! Where are we being permitted to put this lab?": "SENNETTI：もしそれが本当なら、私はそれを聞いて興奮しています！研究所を置くのはどこが許可されるのでしょうか？&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: This park appears to be the main social center for these people. I would greatly enjoy deciphering their language, but as it stands, I have nowhere to do my work nearby.": "SENNETTI：この公園は、彼らの主要な社交場になっているようだ。彼らの言語を解読するのはとても楽しいのだが、現状では近くに仕事をする場所が無い。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: I may have some positive news on that front, friend. The alien we first made contact with, assuming I am correctly interpreting their message, is directing us to set up a lab for just that purpose.": "OKALIS: その件に関して、良いニュースがあるよ。私たちが最初に接触した異星人は、彼らのメッセージを正しく解釈できていると仮定すると、まさにその目的のために研究所を設立するよう私たちに指示してる。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: If that is true, then I am thrilled to hear it! Where are we being permitted to put this lab?": "SENNETTI：もしそれが本当なら、それを聞いて興奮している！研究所を置くのはどこが許可されるのだろうか？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: ...That appears to be the catch. We seem to be intended to construct the lab in the area accessible through the knot currently over our heads, which has no bodies with significant gravity. Additionally, while I have been assured that it is quite harmless, there does seem to be some manner of beast in that area.": "OKALIS：...そこが問題だね。現在我々の頭上にある節からアクセスできる、大きな重力を持つ天体が無いエリアに私たち研究所を建設することを意図しているようだよ。さらに、無害であることは保証されているけど、そのエリアには何らかの獣がいるようだ。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: The lack-of-gravity issue, while frustrating, can be tolerated. As for the beast... if it means deciphering the language of these people, then I will be able to power through, regardless of how hideous it may be.": "SENNETTI：重力の欠如の問題は、苛立たしいものではあるが、大目に見ることができる。獣については...彼らの言語を解読するということであれば、それがどんなに醜悪なものであろうと、私は力を尽くすことができるだろう。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: We all appreciate your courage in the pursuit of discovery, Sennetti. I believe I may be able to assist with your gravity issue. I have detected a strange signal in <![CDATA[<color=orange>Briar's Hollow</color>]]> that seems to be some manner of natural gravitational disturbance.": "NESIA：我々は皆、Sennetti、発見を追求するあなたの勇気に感謝している。私はあなたの重力問題を支援できるかもしれません。<![CDATA[<color=orange>イバラの空洞</color>]]>で自然重力の乱れのような奇妙な信号を検出しました。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: We all appreciate your courage in the pursuit of discovery, Sennetti. I believe I may be able to assist with your gravity issue. I have detected a strange signal in <![CDATA[<color=orange>Briar's Hollow</color>]]> that seems to be some manner of natural gravitational disturbance.": "NESIA：我々は皆、Sennetti、発見を追求するあなたの勇気に感謝しています。あなたの重力問題を支援できるかもしれません。<![CDATA[<color=orange>イバラの空洞</color>]]>で自然重力の乱れのような奇妙な信号を検出しました。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: That is quite an interesting find, Nesia. Now that we are better acquainted with our newfound friends, I propose you and I investigate that signal at once while Sennetti and Okalis begin constructing a translation lab. With the low visibility of this place, I suspect signals such as that will be highly valuable.": "AZOLLA：なかなか興味深い発見だね、Nesia。新しい友人たちとの親交も深まった今、SennettiとOkalisが翻訳研究所の建設に取り掛かる間に、私とあなたですぐにその信号を調査することを提案しよう。ここは視界が悪いから、そのような信号は非常に価値があると思う。&lt;i&gt;&lt;/i&gt;",
         
         //reinvigoration_recording
         "OKALIS: Amylax, can I converse with you for a moment? There have been recent... developments that have been troubling me.": "OKALIS：Amylax、少し話してもいいかな？最近...私を悩ませる展開がありました。&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: Oh, um, sure, I guess. What do you want to talk about?": "AMYLAX：ああ、ええっと、そうですね。何を話したいのですか？&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: The other Nomai and I have recently learned that a large portion of our clan perished in the <![CDATA[<color=purple>Bramble</color>]]>, one of them being Nesia's partner. Naturally, everyone has found themselves demoralized, and I am unsure what I can do to remedy the situation.": "OKALIS：他のNomaiと私は最近、<![CDATA[<color=purple>イバラ</color>]]>で部族の多くが亡くなったことを知った。当然、皆は士気を失っていて、この状況を改善するために私に何ができるのかわからない。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: The other Nomai and I have recently learned that a large portion of our clan perished in the <![CDATA[<color=purple>Bramble</color>]]>, one of them being Nesia's partner. Naturally, everyone has found themselves demoralized, and I am unsure what I can do to remedy the situation.": "OKALIS：他のNomaiと私は最近、<![CDATA[<color=purple>イバラ</color>]]>で部族の多くが亡くなったことを知りました。当然、皆は士気を失っていて、この状況を改善するために私に何ができるのかわからない。&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: Oh Bramble, I'm so sorry!": "AMYLAX：おおイバラよ、本当にお気の毒です！&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Nesia believes that we will never be able to escape the <![CDATA[<color=purple>Deep Bramble</color>]]>, and this outlook has spread through everyone else like a miasma.": "OKALIS：Nesiaは、私たちは決して<![CDATA[<color=purple>イバラ深部</color>]]>から逃れられないと考えており、この見通しは瘴気のように他のみんなに広がっている。&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: I mean, would that be such a bad thing?": "AMYLAX：つまり、それはそんなに悪いことなの？&lt;i&gt;&lt;/i&gt;",
@@ -326,7 +326,7 @@
         "AMYLAX: That's the spirit! I mean, there are so many things you guys could try and figure out, like how the space inside of the nodes works, how things end up in the <![CDATA[<color=purple>Deep Bramble</color>]]> in the first place, and that signal that came through a while back and ended up stuck in the area around <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "AMYLAX：その意気だ！私が思うに、あなたたちが解き明かすのに挑戦できるものがたくさんあります。例えばノードの中の空間がどうなっているのかとか、そもそもどのように<![CDATA[<color=purple>イバラ深部</color>]]>にたどり着くのかとか、ちょっと前に来た信号が<![CDATA[<color=orange>マグマの再帰</color>]]>のあたりで止まってしまったとか。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Wait, a signal? Amylax, when did this signal first appear?": "OKALIS：待って、信号？Amylax、この信号が最初に現れたのはいつ？&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: Um, pretty shortly before you guys showed up, actually. Some of us actually thought that you all might have caused it.": "AMYLAX：実は、あなたたちが現れる少し前にね。私たちの何人かは、あなたたちが起こしたのではないかと思っていました。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: The <![CDATA[<color=orange>Eye</color>]]>! That's the only explanation! The signal from the <![CDATA[<color=orange>Eye of the Universe</color>]]> must have passed through here! You said it is still reverberating throughout the area surrounding <![CDATA[<color=orange>Magma's Recursion</color>]]>? I must notify the others immediately, this is sure to spark their curiosity!": "OKALIS： <![CDATA[<color=orange>眼</color>]]>だ！これが唯一の説明だ！<![CDATA[<color=orange>宇宙の眼</color>]]>からの信号がここを通過したに違いない！まだ<![CDATA[<color=orange>マグマの再帰</color>]]>の周辺一帯に反響していると言ったね？すぐに皆に知らせないと。好奇心を掻き立てられるに違いない！&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: The <![CDATA[<color=orange>Eye</color>]]>! That's the only explanation! The signal from the <![CDATA[<color=orange>Eye of the Universe</color>]]> must have passed through here! You said it is still reverberating throughout the area surrounding <![CDATA[<color=orange>Magma's Recursion</color>]]>? I must notify the others immediately, this is sure to spark their curiosity!": "OKALIS：<![CDATA[<color=orange>眼</color>]]>だ！これが唯一の説明だ！<![CDATA[<color=orange>宇宙の眼</color>]]>からの信号がここを通過したに違いない！まだ<![CDATA[<color=orange>マグマの再帰</color>]]>の周辺一帯に反響していると言ったね？すぐに皆に知らせないと。好奇心を掻き立てられるに違いない！&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: Wait! Okalis! Don't run off so fast! That whole area is super... dangerous... oh <![CDATA[<color=purple>Bramble</color>]]>, I hope the other Nomai are more careful than he is, or they're gonna get themselves killed.": "AMYLAX：待って、OKALIS！そんなに早く行かないで！あの辺り一帯はとても...危険...ああ<![CDATA[<color=purple>イバラ</color>]]>よ、他のNomaiが彼以上に慎重であることを願うよ。&lt;i&gt;&lt;/i&gt;",
         
         //bad_idea_1
@@ -335,18 +335,18 @@
         "OKALIS: Perhaps he could cross the <![CDATA[<color=orange>Nursery</color>]]> anyways? It seems that it would be possible if he simply didn't use his echolocation.": "OKALIS：いずれにせよ多分彼は、<![CDATA[<color=orange>子ども部屋</color>]]>を渡ることができるのではないですか？単にエコロケーションを使わなければ可能だと思うけど。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Even if he were to attempt that, the viscosity of the fog would require him to constantly swim forward. When combined with an inability to observe his surroundings, an accidental, noisy collision becomes all but assured.": "NESIA：仮にそれを試みたとしても、霧の粘性によって、彼は常に泳いで前進しなければならない。周囲を観察することができなければ、偶発的で騒々しい衝突は確実なものとなる。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: I see. So as soon as he attempted to get his bearings, they would be alerted and attack.": "AZOLLA：なるほど。だから、彼が方向感覚を取り戻そうとすると、すぐに警戒して攻撃してくる。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Consider the fear that would come for us from navigating the <![CDATA[<color=orange>Nursery</color>]]> blind. Under those circumstances, I know that I may not be able to keep my eyes closed. We cannot expect Ditylum wouldn't attempt to echolocate, even if involuntarily.": "SENNETTI：<![CDATA[<color=orange>子ども部屋</color>]]>を盲目で航行する恐怖を考えてみてください。そのような状況下では、目を閉じていられないかもしれない。Ditylumが、たとえ不随意であってもエコロケーションを試みないとは予想できない。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Consider the fear that would come for us from navigating the <![CDATA[<color=orange>Nursery</color>]]> blind. Under those circumstances, I know that I may not be able to keep my eyes closed. We cannot expect Ditylum wouldn't attempt to echolocate, even if involuntarily.": "SENNETTI：<![CDATA[<color=orange>子ども部屋</color>]]>を盲目で航行する恐怖を考えてみてほしい。そのような状況下では、目を閉じていられないかもしれない。Ditylumが、たとえ不随意であってもエコロケーションを試みないとは予想できない。&lt;i&gt;&lt;/i&gt;",
         
         //bad_idea_2
         "OKALIS: From what I understand, the smaller size of the juvenile fish renders them slower than the adults. Would we be able to simply rush past them?": "OKALIS：私の理解では、幼魚は成魚よりもサイズが小さいため、動きが鈍い。単純に彼らを追い越すことはできないでしょうか？&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Unfortunately, the thick fog in that area would hinder our movement to the point they would be able to catch us, especially since they use the fog itself to propel their movement.": "NESIA：残念なことに、あの辺りは霧が濃いため私たちの動きが妨げられ、彼らは追いつくことができるだろう。特に彼らは霧自体を推進力として利用しているのだから。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Unfortunately, the thick fog in that area would hinder our movement to the point they would be able to catch us, especially since they use the fog itself to propel their movement.": "NESIA：残念なことに、あの辺りは霧が濃いため私たちの動きが妨げられ、彼らは追いつくことができるでしょう。特に彼らは霧自体を推進力として利用しているのだから。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Even if that were not the case, disturbing them on the way there would likely position them into an impassable barrier, stranding us as well.": "AZOLLA：仮にそうでなかったとしても、道中で邪魔をすれば、そこは通過不可能なバリアとなり、我々も足止めを食らうことになるでしょう。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: I imagine this effect would also be worsened on the return trip, as we would need to bring Ditylum back with us.": "SENNETTI：Ditylumを連れて帰る必要があるため、これは復路でも悪影響になるだろうと想像している。&lt;i&gt;&lt;/i&gt;",
         
         //core_combo_hint
-        "SENNETTI: I have not yet had the chance to visit the gravity core at the center of the crystal. Would somebody be willing to remind me what sequence of levers need to be turned on to reach the center?": "SENNETTI：私はまだクリスタルの中心にある重力コアを訪れる機会がありません。中心部に到達するためには、どのような順番でレバーを動かせばいいのか、どなたか教えていただけませんか？&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: I have not yet had the chance to visit the gravity core at the center of the crystal. Would somebody be willing to remind me what sequence of levers need to be turned on to reach the center?": "SENNETTI：私はまだクリスタルの中心にある重力コアを訪れる機会がない。中心部に到達するためには、どのような順番でレバーを動かせばいいのか、誰か教えてもらえないだろうか？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Of course! If I remember correctly, all of the levers should be on, except for the second and the second-to-last.": "OKALIS：もちろん！私の記憶が正しければ、2番目と最後から2番目以外のレバーはすべてオンになっているはずです。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Thank you Okalis! May I ask why you wrote that in their language though? I find it unlikely any of our new friends will visit this planet. It is my understanding the inverted gravity makes them quite uncomfortable.": "SENNETTI：ありがとう、Okalis！なぜ彼らの言葉で書いたのか聞いてもいいですか？新しい友人たちがこの惑星を訪れることはないだろう。私の理解では、重力が逆転しているため、彼らはかなり居心地が悪いのです。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Thank you Okalis! May I ask why you wrote that in their language though? I find it unlikely any of our new friends will visit this planet. It is my understanding the inverted gravity makes them quite uncomfortable.": "SENNETTI：ありがとう、Okalis！なぜ彼らの言葉で書いたのか聞いてもいいだろうか？新しい友人たちがこの惑星を訪れることはないだろう。私の理解では、重力が逆転しているため、彼らはかなり居心地が悪いのだ。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Of course! I am attempting to gain practice with their language, as I am preparing to make a more proper response to the gift Amylax left in my home.": "OKALIS：もちろんいいよ！Amylaxが家に置いていったプレゼントに対して、より適切な返答をするために、彼らの言葉を練習しようとしているんだ。&lt;i&gt;&lt;/i&gt;",
         
         //core_lab_intro
@@ -365,7 +365,7 @@
         
         //core_study
         "NESIA: Azolla and I made a notable discovery when we ventured into the crystal suspended above our heads. It seems to contain a small, delicate core that emanates a strange energy.": "NESIA：Azollaと私は、頭上に吊るされたクリスタルの中に入ってみて、注目すべき発見をしました。クリスタルには、不思議なエネルギーを発している小さく壊れやすいコアがあるようです。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Interesting, do you have a hypothesis as to what this core may be?": "SENNETTI：興味深い。このコアが何なのか、仮説はありますか？&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Interesting, do you have a hypothesis as to what this core may be?": "SENNETTI：興味深い。このコアが何なのか、仮説はあるのだろうか？&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: We aren't certain yet, but we've noted that the energy emitted by the core is similar to that which comes from the internal surface of the planet.": "AZOLLA：まだ確かではありませんが、コアから放出されるエネルギーは、惑星の内部表面から放出されるエネルギーと類似していることがわかりました。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Interesting, suppose that this core is what allows the strong gravitational anomaly of this planet?": "OKALIS：興味深い、このコアがこの惑星の強い重力異常を可能にしているのだとしたら？&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: That is our current hypothesis. Unfortunately, we will be unable to test this hypothesis, as that would likely involve damaging the delicate crystalline structure of the core. Doing this may prove our hypothesis correct, but it would also be likely to irreversibly destabilize the gravity of the planet.": "AZOLLA：それが現在の仮説です。残念ながら、この仮説を検証することはできません。コアのデリケートな結晶構造にダメージを与えることになるでしょうから。私たちの仮説が正しいことを証明できるかもしれませんが、惑星の重力を不可逆的に不安定にする可能性もあります。&lt;i&gt;&lt;/i&gt;",
@@ -373,17 +373,17 @@
         
         //good_idea_hint
         "OKALIS: I believe I may have a plan to rescue Ditylum, but I will need to conduct more research at the <![CDATA[<color=orange>Enzyme Lab</color>]]>. Please make your way over there ASAP. I truly believe this idea is promising.": "OKALIS：Ditylumを救出するプランについて考えがあるのですが、<![CDATA[<color=orange>消化因子研究所</color>]]>でもっと調査をする必要があります。早急にそちらへ向かってください。このアイデアは本当に有望だと思います。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: I seem to have forgotten where the <![CDATA[<color=orange>Enzyme Lab</color>]]> is, would you mind reminding me?": "SENNETTI：<![CDATA[<color=orange>消化因子研究所</color>]]>がどこにあるか忘れてしまったようなんですが、教えてくれませんか？&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: I seem to have forgotten where the <![CDATA[<color=orange>Enzyme Lab</color>]]> is, would you mind reminding me?": "SENNETTI：<![CDATA[<color=orange>消化因子研究所</color>]]>がどこにあるか忘れてしまったようなのだが、教えてくれないだろうか？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: The lab resides in one of the fish near the <![CDATA[<color=orange>Anglerfish Observation Platform</color>]]>. It is fairly large, so it should be plainly visible.": "OKALIS: 研究室は<![CDATA[<color=orange>アンコウ観察プラットフォーム</color>]]>近くの魚の中にあります。かなり大きいので、よく見えるはずです。&lt;i&gt;&lt;/i&gt;",
         "NESIA: An important note; remember to pet the fish's eye before attempting to enter the lab, otherwise, the fish will likely digest you!": "NESIA：重要なメモ; 研究室に入ろうとする前に、魚の目に触れることを忘れないでください。さもないと魚があなたを消化してしまうでしょう！&lt;i&gt;&lt;/i&gt;",
         
         //trapped_dree
-        "SENNETTI: I have a troubling update, friends. It seems the main entrance to the <![CDATA[<color=orange>Venomous Reject</color>]]> has been killed off by the toxin in that area. To make matters worse, this has stranded Ditylum!": "SENNETTI：友よ、困った最新情報がある。<![CDATA[<color=orange>邪悪の拒絶</color>]]>のメインエントランスが死液にやられてしまったようだ。さらに悪いことに、このせいでDitylumが取り残されている！&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: Is there not another way there through the tubelike area referred to as the <![CDATA[<color=orange>Nursery</color>]]>? He should be able to simply drift through to return, correct?": "OKALIS：<![CDATA[<color=orange>子ども部屋</color>]]>と呼ばれるチューブのような場所を通っている別の道はないのですか？彼は単純に漂って戻ることができるはずですよね？&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Unfortunately, the nutrient-rich fog of the <![CDATA[<color=orange>Nursery</color>]]> is quite thick, swiftly halting any movement that isn't supported by a constant force.": "NESIA：残念なことに、<![CDATA[<color=orange>子ども部屋</color>]]>の栄養豊富な霧はかなり濃く、一定の力で支えられていない動きはすぐに止まってしまう。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: I have a troubling update, friends. It seems the main entrance to the <![CDATA[<color=orange>Venomous Reject</color>]]> has been killed off by the toxin in that area. To make matters worse, this has stranded Ditylum!": "SENNETTI：みんな、困った最新情報がある。<![CDATA[<color=orange>邪悪の拒絶</color>]]>のメインエントランスが死液にやられてしまったようだ。さらに悪いことに、このせいでDitylumが取り残されている！&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Is there not another way there through the tubelike area referred to as the <![CDATA[<color=orange>Nursery</color>]]>? He should be able to simply drift through to return, correct?": "OKALIS：<![CDATA[<color=orange>子ども部屋</color>]]>と呼ばれるチューブのような場所を通っている別の道は駄目なのですか？彼は単純に漂って戻ることができるはずですよね？&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Unfortunately, the nutrient-rich fog of the <![CDATA[<color=orange>Nursery</color>]]> is quite thick, swiftly halting any movement that isn't supported by a constant force.": "NESIA：残念なことに、<![CDATA[<color=orange>子ども部屋</color>]]>の栄養豊富な霧はかなり濃く、一定の力で支えられていない動きはすぐに止まってしまいます。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: I've spoken to the his people about possible rescue methods, but they seem convinced all attempts would either fail or result in many deaths. When I spoke to them, they were already preparing for a period of mourning.": "SENNETTI：可能な救出方法について彼の人々と話をしたが、彼らはすべての試みが失敗するか、多くの死者を出すことになると確信しているようだった。私が話をしたとき、彼らはすでに喪に服す準備をしていた。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Friends, if our friends do not believe it possible to save Ditylum, then it is up to us to do so. We cannot simply allow him to perish without attempting rescue, especially after how his people pulled us from the heat of <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "AZOLLA：同胞たちよ、もし友人たちがDitylumを救うことが不可能だと考えているのなら、そうなるかは我々次第だ。私たちは救出を試みることもなく彼を死なせるわけにはいかない。特に彼の同胞たちが、<![CDATA[<color=orange>マグマの再帰</color>]]>の熱から私たちを救い出した後ではなおさらだ。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Since our studies in this lab have already concluded, we can use the extra space to discuss various rescue methods.": "NESIA：この研究室での研究はすでに終了しているので、余ったスペースを使ってさまざまな救助方法について話し合うことができる。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Friends, if our friends do not believe it possible to save Ditylum, then it is up to us to do so. We cannot simply allow him to perish without attempting rescue, especially after how his people pulled us from the heat of <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "AZOLLA：同胞たちよ、もし友人たちがDitylumを救うことが不可能だと考えているのなら、そうなるかは我々次第です。私たちが救出を試みることもなく彼を死なせるわけにはいかない。特に彼の同胞たちが、<![CDATA[<color=orange>マグマの再帰</color>]]>の熱から私たちを救い出した後ではなおさらです。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Since our studies in this lab have already concluded, we can use the extra space to discuss various rescue methods.": "NESIA：この研究室での研究はすでに終了しているので、余ったスペースを使ってさまざまな救助方法について話し合うことができます。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Right, I remember our friends cautioning us to be careful in there, as it would be easy for our thrusters to alert the fish.": "OKALIS：そうだね、スラスターが魚を警戒させやすいから、あそこでは気をつけるようにと友人たちに注意されたのを覚えているよ。&lt;i&gt;&lt;/i&gt;",
         "NESIA: It pains me to think how the inability to rescue their friend must be hurting them.": "NESIA：友人を救出できなかったことが、どれほど彼らを苦しめているかと思うと胸が痛みます。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I struggle to understand how they could have given up hope so quickly.": "OKALIS：どうして彼らがこんなに早く希望を捨てることができたのか、理解に苦しむよ。&lt;i&gt;&lt;/i&gt;",
@@ -394,28 +394,28 @@
         "AZOLLA: Sennetti, can I ask how the construction of your <![CDATA[<color=orange>Translation Lab</color>]]> is coming along?": "AZOLLA：Sennetti、あなたの<![CDATA[<color=orange>翻訳研究所</color>]]>の建設の進捗はどうですか？&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Progress is slow but steady. I must confess, the small size of the entrance is making it quite difficult to transport the necessary material. The distance that the material must be hauled is also impeding my progress. The journey from this quarry to the construction site is not a short one.": "SENNETTI：進展はゆっくりですが、着実に進んでいます。正直に言うと、入口が小さいため、必要な資材を運ぶのがかなり難しい。資材を運ぶ距離も、私の前進を妨げている。この採石場から建設現場までの道のりは決して短くはない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Have you not been using the larger entrance?": "NESIA：大きい方の入口を使わなかったのですか？&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: There is a larger entrance?": "SENNETTI：もっと大きな入口があるんですか？&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: There is a larger entrance?": "SENNETTI：もっと大きな入口があるのか？&lt;i&gt;&lt;/i&gt;",
         "NESIA: Yes, there is a much larger entrance. It would make transporting your material much easier, especially since it is relatively close to <![CDATA[<color=orange>Graviton's Folly</color>]]>.": "NESIA：ええ、もっと大きな入口があります。それを使えば資材を運ぶのがより簡単になるでしょう、特に<![CDATA[<color=orange>重力子の過ち</color>]]>に比較的近いですから。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: I will be sure to start using that entrance then! Thank you for the information! I'll make one more trip along the usual path and leave a short-lived beacon at the construction site, to make it easier to find the larger entrance you speak of.": "SENNETTI：では、その入口を必ず使うようにします！情報をありがとう！いつもの道をもう1回行って工事現場に短時間のビーコンを置いておくよ、あなたが放している大きな入口を見つけやすくするためにね。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: I will be sure to start using that entrance then! Thank you for the information! I'll make one more trip along the usual path and leave a short-lived beacon at the construction site, to make it easier to find the larger entrance you speak of.": "SENNETTI：では、その入口を必ず使うようにしよう！情報をありがとう！いつもの道をもう1回行って工事現場に短時間のビーコンを置いておくよ、あなたが放している大きな入口を見つけやすくするためにね。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: I imagine that the locals will also be much happier without us hauling all of our material through their home.": "AZOLLA：地元の人たちにとっても、私たちが彼らの家を通って資材を運ぶ必要がなくなるのは、ずっと幸せなことでしょうね。&lt;i&gt;&lt;/i&gt;",
         
         //amylax_gift_text
         "AMYLAX: Okalis, I have left a gift for you here, I hope you like it!": "AMYLAX：Okalis、ここにプレゼントを置きにきたんだ、君が気に入ってくれるといいけど！&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: It is wonderful, Amylax! I fail to recall ever seeing such an intricate necklace, much less one woven from vines! There was no need to come all the way to <![CDATA[<color=orange>Graviton's Folly</color>]]> to deliver it though. I understand that the inverted gravity is uncomfortable to navigate with your echolocation.": "OKALIS：素晴らしい、Amylax！こんな手の込んだネックレス、ましてや蔓で編んだものなんて見た記憶がない！わざわざ<![CDATA[<color=orange>重力子の過ち</color>]]>まで届けに来る必要はなかったのに。重力が反転しているから、エコロケーションで移動するのに不便なのはわかってるよ。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: It is wonderful, Amylax! I fail to recall ever seeing such an intricate necklace, much less one woven from vines! There was no need to come all the way to <![CDATA[<color=orange>Graviton's Folly</color>]]> to deliver it though. I understand that the inverted gravity is uncomfortable to navigate with your echolocation.": "OKALIS：素晴らしいよ、Amylax！こんな手の込んだネックレス、ましてや蔓で編んだものなんて見た記憶がない！わざわざ<![CDATA[<color=orange>重力子の過ち</color>]]>まで届けに来る必要はなかったのに。重力が反転しているから、エコロケーションで移動するのに不便なのはわかってるよ。&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: I'm glad to hear that you like it. I just... I thought that it was important enough to deliver it myself, even if that meant just leaving it in your house.": "AMYLAX：気に入っていただけてうれしいよ。ただ...あなたの家に置いておくという意味でも、自分で届けるほど重要なものだと思ったんだ。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Well, I very much appreciate it! I will accept it as a surefire token of the continued friendship between ourselves and our species!": "OKALIS：そうなんだ、とても感謝してる！私たち自身と私たちの種族との間の継続的な友好の確かな証として受け取らせていただくよ！&lt;i&gt;&lt;/i&gt;",
         
         //AN_pod_recording
         "AZOLLA: Nesia, you said you had something to discuss with me?": "AZOLLA：Nesia、私に話したいことがあると言ったわね？&lt;i&gt;&lt;/i&gt;",
         "NESIA: Yes, it is a matter of gra... of utmost importance, and I thought it best to bring it up to you before the others.": "NESIA：ええ、重大な...最も重要な問題です。そのため他の人に話す前にあなたに話すのがベストだろうと考えました。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Is this regarding your discussion with Karenia? I must confess that your change in demeanor after that conversation has piqued my curiosity... Nesia, are you crying?": "AZOLLA： Kareniaとの話し合いについてですか？正直なところ、あの会話の後のあなたの態度の変化に、私は好奇心を刺激されたのですが...Nesia、泣いてるの？&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Is this regarding your discussion with Karenia? I must confess that your change in demeanor after that conversation has piqued my curiosity... Nesia, are you crying?": "AZOLLA：Kareniaとの話し合いについてですか？正直なところ、あの会話の後のあなたの態度の変化に、私は好奇心を刺激されたのですが...Nesia、泣いてるの？&lt;i&gt;&lt;/i&gt;",
         "NESIA: I-I'm sorry Azolla, my grief is overwhelming me. I knew that our new friends possess strange abilities, so I decided to speak with one regarding the rest of our clan, to try and determine their fate, and...": "NESIA：ご、ごめんなさい、Azolla、悲しみに打ちひしがれているの。新しい友人たちが奇妙な能力を持っていることは知っていたので、我々の部族の残りの同胞たちの運命を見極めようと、彼らについて話すことにしました。そして...&lt;i&gt;&lt;/i&gt;",
         "NESIA: The <![CDATA[<color=orange>Third Escape Pod</color>]]> did not escape the <![CDATA[<color=purple>Bramble</color>]]>. Apparently, the pod became ensnared in the vines and, stranded away from the <![CDATA[<color=orange>Vessel</color>]]>, our friends, they...": "NESIA：<![CDATA[<color=orange>脱出ポッド3</color>]]>は<![CDATA[<color=purple>イバラ</color>]]>から脱出できなかった。どうやらポッドは蔓に絡まり、<![CDATA[<color=orange>船</color>]]>から離れたところに取り残されたようでした。我々の同胞たちは、彼らは...&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: What are you saying, Nesia?": "AZOLLA：何を言ってるの、Nesia？&lt;i&gt;&lt;/i&gt;",
         "NESIA: They perished! They had no source of oxygen and all asphyxiated! Din is dead! Escall is dead! Even... even...": "NESIA：彼らは死にました！酸素源がなく、全員窒息死した！Dinは死んだ！Escallも死んだ！そして...そして...&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: ...And you're certain of this? Karenia couldn't have made some sort of mistake?": "AZOLLA：...それで、確信があるんですか？Kareniaが何か間違えていることは無いのですか？&lt;i&gt;&lt;/i&gt;",
         "NESIA: I... no, she was quite certain. She believed that the other two pods escaped to relative safety, but she was certain that the <![CDATA[<color=purple>Bramble</color>]]> had claimed the third pod.": "NESIA：私は...いいえ、彼女は確信していました。彼女は他の2つのポッドは比較的安全な場所に逃げたと信じていましたが、<![CDATA[<color=purple>イバラ</color>]]>が3番目のポッド捕らえたとも確信していました。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: I will leave a note at the <![CDATA[<color=orange>Language Lab</color>]]> to notify Sennetti and Okalis that we need to meet. I do not wish to ruin their good mood so shortly after Sennetti's translation, but they deserve to know.": "AZOLLA：私は<![CDATA[<color=orange>翻訳研究所</color>]]>にメモを残して、SennettiとOkalisに会う必要があることを知らせます。Sennettiが翻訳した直後で彼らを気落ちさせたくはないが、彼らは知る権利がある。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: I will leave a note at the <![CDATA[<color=orange>Language Lab</color>]]> to notify Sennetti and Okalis that we need to meet. I do not wish to ruin their good mood so shortly after Sennetti's translation, but they deserve to know.": "AZOLLA：私は<![CDATA[<color=orange>翻訳研究所</color>]]>にメモを残して、SennettiとOkalisに会う必要があることを知らせます。Sennettiが翻訳した直後で彼らを気落ちさせたくはないですが、彼らは知る権利がある。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: ...Nesia, I know that you and Secca were partners. While we are all deeply affected by the loss of our friends, I know that you must be especially hurt by this news.": "AZOLLA：...Nesia、あなたとSeccaがパートナーだったことは知っています。私たちは皆、同胞を失ったことに深く心を痛めていますが、あなたはこの知らせに特に傷ついていることでしょう。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Be gentle with yourself, okay?": "AZOLLA：自分に優しくしてあげてね、いいわね？&lt;i&gt;&lt;/i&gt;",
         "NESIA: ...Thank you, Azolla, I will ensure I take the proper time to mourn.": "NESIA：...ありがとう、AZOLLA、弔いのための時間をちゃんと取ることにするわ&lt;i&gt;&lt;/i&gt;",
@@ -431,30 +431,30 @@
         "OKALIS: Do you suppose our friends on the first and second pods survived?": "OKALIS：第1ポッドと第2ポッドにいた同胞たちは生き残ったと思いますか？&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Karenia was unable to ascertain what became of the rest of our clan, which indicates they at least escaped the <![CDATA[<color=purple>Bramble</color>]]>.": "AZOLLA：Kareniaは私たちの部族の残りがどうなったかは分からなかった、つまり彼らは少なくとも<![CDATA[<color=purple>イバラ</color>]]>から逃れたということです。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Do you suppose they may be able to locate us? Our makeshift warp setup should still be intact. Perhaps they will find us.": "SENNETTI：我々を見つけられると思うか？間に合わせのワープ設定は まだ無傷のはずだ。もしかしたら我々を見つけるかもしれない&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Sennetti, anybody who may have survived the crash has certainly made the reasonable assumption that we all perished as well. As such, they will certainly be unwilling to return to the <![CDATA[<color=purple>Bramble</color>]]>. We are on our own.": "NESIA：Sennetti、墜落事故で生き残ったかもしれない誰もが、私たち全員が同様に死んだという合理的な前提に立っているのは確かだ。そのため、彼らは間違いなく<![CDATA[<color=purple>イバラ</color>]]>に戻りたがらないでしょう。私たちは自分たちの力でやるしかないのだ。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Don't lose hope, friend. They are our clan, we cannot so completely assume they would abandon us entirely.": "AZOLLA：希望を捨てるな、友よ。彼らは私たちの部族だ。彼らが私たちを完全に見捨てるとは、そう完全に決めつけることはできない。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Sennetti, anybody who may have survived the crash has certainly made the reasonable assumption that we all perished as well. As such, they will certainly be unwilling to return to the <![CDATA[<color=purple>Bramble</color>]]>. We are on our own.": "NESIA：Sennetti、墜落事故で生き残ったかもしれない誰もが、私たち全員が同様に死んだという合理的な前提に立っているのは確かです。そのため、彼らは間違いなく<![CDATA[<color=purple>イバラ</color>]]>に戻りたがらないでしょう。私たちは自分たちの力でやるしかないんです。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Don't lose hope, friend. They are our clan, we cannot so completely assume they would abandon us entirely.": "AZOLLA：希望を捨てるな、友よ。彼らは私たちの部族です。彼らが私たちを完全に見捨てるとは、そう完全に決めつけることはできません。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Stop it Azolla! We have been in the <![CDATA[<color=purple>Deep Bramble</color>]]> for months now! At this point, the rest of our clan has certainly concluded that, if we had survived, we would have found a way out of the <![CDATA[<color=purple>Bramble</color>]]>. Nobody is coming for us, and the idea that we can locate an exit the others have neglected for thousands of years is completely nonsensical!": "NESIA：やめてAzolla！私たちはもう何ヶ月も<![CDATA[<color=purple>イバラ深部</color>]]>の中にいるのです！この時点で、他の部族は、私たちが生き延びていれば、<![CDATA[<color=purple>イバラ</color>]]>から脱出する方法を見つけただろうと確信しているはずです。誰も私たちのためにやってこないし、他の人たちが何千年も見つけていない出口を私たちが見つけられるという考えはまったくナンセンスです！&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Nesia...": "OKALIS：Nesia...&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: ...I apologize for mentioning this topic.": "SENNETTI：...この話題に触れたことをお詫びします。&lt;i&gt;&lt;/i&gt;",
         
         //call_to_action
         "OKALIS: Friends, I have spectacular news! Amylax has informed me there is a mysterious signal reverberating throughout the area surrounding <![CDATA[<color=orange>Magma's Recursion</color>]]>, which arrived shortly before we did. I am certain it must be the signal from the <![CDATA[<color=orange>Eye</color>]]>!": "OKALIS：友よ、素晴らしいニュースがある！Amylaxによると、私たちが来る少し前に謎の信号が到着しており、まだ<![CDATA[<color=orange>マグマの再帰</color>]]>の周辺一帯に響いているとのことだ。きっと<![CDATA[<color=orange>眼</color>]]>からの信号に違いない！&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Okalis, consider what you are saying for a moment. It seems highly implausible that the <![CDATA[<color=orange>Eye's</color>]]> signal penetrated into the <![CDATA[<color=purple>Deep Bramble</color>]]>, and then became trapped in a particular area. How would that even occur?": "AZOLLA：Okalis、自分が言ったことについて少し考えてみてください。<![CDATA[<color=orange>眼</color>]]>の信号が<![CDATA[<color=purple>イバラ深部</color>]]>の中に入り込み、そして特定の場所に閉じ込められたというのは、非常にあり得ないことのように思えます。どうやってそんなことが起こるのだろう？&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: I know that it seems implausible, but so does a signal older than the universe! It is what our clan risked everything to find in the first place. We would be disrespecting their sacrifice if we sit idle while a mysterious signal is well within our grasp!": "OKALIS：あり得ないと思われるのはわかるが、宇宙よりも古いシグナルだということも同様だ！私たちの部族が危険を冒してまで探し求めたものだ。神秘的なシグナルが私たちの手の届くところにあるのに黙っていては、彼らの犠牲を軽視することになる！&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Okalis, consider what you are saying for a moment. It seems highly implausible that the <![CDATA[<color=orange>Eye's</color>]]> signal penetrated into the <![CDATA[<color=purple>Deep Bramble</color>]]>, and then became trapped in a particular area. How would that even occur?": "AZOLLA：Okalis、自分が言ったことについて少し考えてみてください。<![CDATA[<color=orange>眼</color>]]>の信号が<![CDATA[<color=purple>イバラ深部</color>]]>の中に入り込み、そして特定の場所に閉じ込められたというのは、非常にあり得ないことのように思えます。どうやってそんなことが起こるのでしょう？&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: I know that it seems implausible, but so does a signal older than the universe! It is what our clan risked everything to find in the first place. We would be disrespecting their sacrifice if we sit idle while a mysterious signal is well within our grasp!": "OKALIS：あり得ないと思われるのはわかるけど、宇宙よりも古いシグナルだということも同様だ！私たちの部族が危険を冒してまで探し求めたものだ。神秘的なシグナルが私たちの手の届くところにあるのに黙っていては、彼らの犠牲を軽視することになる！&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Please, look at yourselves. We are Nomai. We are meant to make discoveries, but we have been entirely idle for entirely too long. We <![CDATA[<i>]]>need<![CDATA[</i>]]> this.": "OKALIS：どうか、自分たちを見てください。我々はNomaiだ。私たちは発見をすることを使命としているが、あまりにも長い間、まったく無為に過ごしてきた。我々はそれを<![CDATA[<i>]]>必要としている<![CDATA[</i>]]>。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: ...You're correct, Okalis. As wounded as we may be, stagnating here will do us no good. Our friends would not have wanted us to stay here forever, refusing to move on.": "NESIA：...その通りだ、Okalis。傷ついたとしても、ここで停滞していても何の意味もない。私たちの同胞たちは、私たちがいつまでもここに留まり、前進することを拒むことを望まなかったでしょう。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: ...You're correct, Okalis. As wounded as we may be, stagnating here will do us no good. Our friends would not have wanted us to stay here forever, refusing to move on.": "NESIA：...その通りです、Okalis。傷ついたとしても、ここで停滞していても何の意味もない。私たちの同胞たちは、私たちがいつまでもここに留まり、前進することを拒むことを望まなかったでしょう。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Fair points, both of you. Alright, we will investigate this mysterious signal, but only if we unanimously agree to do so, understood?": "AZOLLA：お二人とも、ごもっともです。よし、この謎の信号を調査しましょう。ただし、全会一致で合意した場合のみです、いいですね？&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: With how our luck has been lately, Okalis, I have some trouble believing that.": "SENNETTI：最近の我々の運勢を考えると、Okalis、それを信じるのは難しいよ。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: With how our luck has been lately, Okalis, I have some trouble believing that.": "SENNETTI：最近の我々の運勢を考えると、Okalis、それを信じるのは難しいな。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: It will certainly be a risk, but I agree we should at least perform a cursory investigation.": "SENNETTI：確かにリスクはあるだろうが、少なくともざっとした調査はすべきだということには同意する。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: Understood. Naturally, I agree we should investigate.": "OKALIS：わかった。当然、調査すべきだとは思います。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Understood. Naturally, I agree we should investigate.": "OKALIS：わかった。当然、私は調査すべきだと同意します。&lt;i&gt;&lt;/i&gt;",
         
         //culture_notes
-        "SENNETTI: While Nesia heads the study of our new friend's physiology, I would like to take the opportunity to share aspects of their culture that I learned of during my translation of their language.": "SENNETTI：Nesiaが私たちの新しい友人の生理学の研究を指揮している間、私は彼らの言語を翻訳している間に学んだ彼らの文化の側面を共有する機会を得たいと思います。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: While Nesia heads the study of our new friend's physiology, I would like to take the opportunity to share aspects of their culture that I learned of during my translation of their language.": "SENNETTI：Nesiaが私たちの新しい友人の生理学の研究を指揮している間、私は彼らの言語を翻訳している間に学んだ彼らの文化の側面を共有する機会を得たいと思う。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Rather than engaging in scientific pursuits, they seem to excercise certain... influences over the <![CDATA[<color=purple>Bramble</color>]]>. This includes influencing the growth of the vines (as demonstrated by those holding together <![CDATA[<color=orange>Shattered Hearth</color>]]>) and even some level of communication with the plant.": "SENNETTI：科学的な追求に従事するよりも、彼らは<![CDATA[<color=purple>イバラ</color>]]>に対して何らかの...影響力を行使しているようだ。これには、蔓の成長に影響を与えること（<![CDATA[<color=orange>砕かれた炉辺</color>]]>をつなぎ合わせているものによって実証されている）や、植物とのある程度のコミュニケーションも含まれる。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Hypothesis: if they are able to communicate with the vines, they may be able to inform us what became of the launched escape pods.": "NESIA：仮説：もし彼らが蔓植物と交信できれば、発射された脱出ポッドがどうなったかを教えてくれるかもしれない。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Resuming our studies, they seem to gain most of their nutrition from anglerfish eggs, domesticating and breeding the fish to do so.": "OKALIS：研究を再開すると、彼らはアンコウのタマゴから栄養のほとんどを得ていて、そのために魚を家畜化し繁殖させています。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Interesting. I wonder how they began this practice? I can't imagine that anglerfish eggs would have been terribly easy for their ancestors to procure.": "AZOLLA：興味深いですね。彼らはどうやってこの習慣を始めたのでしょう？彼らの祖先にとって、アンコウのタマゴを調達するのがとても簡単だったとは想像できない。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: I believe I do actually have the answer to this question, as an old story may explain it. The story is too long to transcribe here, but I had previously recorded it on <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "SENNETTI：実はこの質問に対する答えを持っていると思います。その話は長すぎてここに書き起こすことはできませんが、以前、<![CDATA[<color=orange>マグマの再帰</color>]]>に記録したことがあります。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: I believe I do actually have the answer to this question, as an old story may explain it. The story is too long to transcribe here, but I had previously recorded it on <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "SENNETTI：実はこの質問に対する答えを持っていると思います。その話は長すぎてここに書き起こすことはできないが、以前、<![CDATA[<color=orange>マグマの再帰</color>]]>に記録したことがある。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Agreed. Even now they continue to keep lights on their homes to ward off any wandering fish.": "NESIA：同感です。今でも彼らは、迷い込んだ魚を追い払うために家に明かりを灯し続けている。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I have observed that our friends seem rather... stagnant. They seem uninterested in exploring beyond their immediate vicinity and appear to have entirely accepted their current situation.": "NESIA：私たちの友人たちは、どちらかというと...停滞しているように見えます。身近なところ以外を探検することに興味がなく、自分たちの現状を完全に受け入れているように見える。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I would agree, Nesia. We have also observed how this can be destructive, as they were unwilling to take the necessary risks to retrieve Ditylum when he became stranded at the <![CDATA[<color=orange>Venomous Reject</color>]]>, unable to cross the <![CDATA[<color=orange>Nursery</color>]]>.": "OKALIS：同意するよ、Nesia。私たちはそれがどのように破滅的であるかも観測してきた。Ditylumが<![CDATA[<color=orange>邪悪の拒絶</color>]]>で立ち往生し、<![CDATA[<color=orange>子ども部屋</color>]]>を渡ることができなかったとき、彼らは必要な危険を冒してまでDitylumを取り戻そうとしなかったことのように。&lt;i&gt;&lt;/i&gt;",
@@ -474,8 +474,8 @@
         "NESIA: Perhaps it is by some mechanism entirely outside of our understanding? Maybe it will open some entirely new avenues of research to us.": "NESIA：おそらくそれは、私たちの理解のまったく及ばないメカニズムによるものではないですか？もしかしたら、まったく新しい研究の道が開けるかもしれません。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Perhaps the Eye originates from somewhere outside of our universe? It almost seems necessary for this to be the case, given how hot and dense the early universe is theorized to have been.": "OKALIS: おそらく眼は、私たちの宇宙の外のどこかから来たのではないか？初期の宇宙がどれほど高温で高密度であったと考えられているかを考えると、そうである必要がありそうです。&lt;i&gt;&lt;/i&gt;",
         "NESIA: This may be a possibility. I do not wish to become overexcited, but suppose it is some manner of spacecraft, constructed by entities from another universe?": "NESIA：その可能性はあるかもしれません。過度な興奮は禁物ですが、別の宇宙から来た存在によって作られた、何らかの宇宙船だとしたら？&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Grim as it may be, it is possible that some equipment malfunction made it appear older than it truly was. Or perhaps the signal was doctored in some way?": "AZOLLA：厳しいかもしれませんが、機器の故障で実際よりも古く見えた可能性はあります。あるいは、信号が何らかの方法で加工されたのでしょうか？&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: I find it very unlikely that Escall would have warped our clan so quickly if an equipment error was a possibility. If the signal was instead doctored, then perhaps we were lucky to have been ensnared by the <![CDATA[<color=purple>Bramble</color>]]>!": "SENNETTI：機器のエラーの可能性があったとしても、Escallがこれほど早く私たちの部族をワープさせたとはとても思えません。もし信号が加工されていたのだとしたら、私たちが<![CDATA[<color=purple>イバラ</color>]]>に捕らわれたのはむしろ幸運だったのかもしれない！&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Grim as it may be, it is possible that some equipment malfunction made it appear older than it truly was. Or perhaps the signal was doctored in some way?": "AZOLLA：厳しいかもしれませんが、機器の故障で実際よりも古く見えた可能性はあります。あるいは、信号が何らかの方法で加工されていたのではないでしょうか？&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: I find it very unlikely that Escall would have warped our clan so quickly if an equipment error was a possibility. If the signal was instead doctored, then perhaps we were lucky to have been ensnared by the <![CDATA[<color=purple>Bramble</color>]]>!": "SENNETTI：機器のエラーの可能性があったのであれば、Escallがこれほど早く私たちの部族をワープさせたとはとても思えません。もし信号が加工されていたのだとしたら、私たちが<![CDATA[<color=purple>イバラ</color>]]>に捕らわれたのはむしろ幸運だったのかもしれない！&lt;i&gt;&lt;/i&gt;",
         
         //eye_purpose
         "NESIA: What do you all suppose the <![CDATA[<color=orange>Eye of the Universe</color>]]> is meant to accomplish? Why did it call out to our clan?": "NESIA：皆さんは、<![CDATA[<color=orange>宇宙の眼</color>]]>は何を達成するためのものだと思いますか？なぜ私たちの部族に呼びかけたのでしょうか？&lt;i&gt;&lt;/i&gt;",
@@ -515,11 +515,11 @@
         "SENNETTI: Especially impressive, their hearing even allows them to read by detecting the differences in sound reflecting off different textures. This seems to be why they write with such a thick, soft substance, and how they can read the chalky lines written by ourselves.": "SENNETTI：特に印象的なのは、彼らの聴覚は、異なる質感に反射する音の違いを感知することによって、文字を読むことさえできることだ。これが、彼らが厚くて柔らかい物質で文字を書く理由であり、私たちが書いた石灰質の線を読むことができる理由のようです。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: It seems that this hearing is even sensitive enough to detect certain biological signals. Amylax seems to use my pulse to determine when I am tense or nervous. This may have helped them avoid predators in the past, such as the anglerfish.": "OKALIS：この聴覚は、ある種の生体信号を感知するのに十分な感度をもっているようだ。Amylaxは私の脈拍から、私が緊張しているときや神経質になっているときを判断しているようだ。そのため、過去にはアンコウなどの捕食者を避けるのに役立っているのかもしれません。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Our friends seem to navigate entirely through echolocation, emitting a high-pitched tone that they use to measure their distance to solid objects in their environment.": "SENNETTI：私たちの友人は、周囲の固体までの距離を測定するために高音を発するエコロケーションを使って移動しているようだ。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Notably, this tone is also outside of the hearing range of all but the youngest anglerfish, as we learned when Ditylum became trapped on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, unable to return without his tone alerting the juvenile fish in that area.": "AZOLLA：特筆すべきこととして、Ditylumが<![CDATA[<color=orange>子ども部屋</color>]]>の反対側に捕らわれ、彼の音色があのエリア幼い魚に知らせることなく帰ってくることができなかったときにわかったように、この音色は幼いアンコウ以外のすべてのアンコウの可聴域外にあります。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Notably, this tone is also outside of the hearing range of all but the youngest anglerfish, as we learned when Ditylum became trapped on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, unable to return without his tone alerting the juvenile fish in that area.": "AZOLLA：特筆すべきこととして、Ditylumが<![CDATA[<color=orange>子ども部屋</color>]]>の反対側に捕らわれ、彼の音色があのエリアの幼い魚に知らせることなく帰ってくることができなかったときにわかったように、この音色は幼いアンコウ以外のすべてのアンコウの可聴域外にあります。&lt;i&gt;&lt;/i&gt;",
         
         //pod_fate_reveal_recording
         "SENNETTI: Azolla, you told us to meet you here? You said there was news to discuss.": "SENNETTI：Azolla、ここで会えと言ったのか？あなたは、議論するニュースがあると言った。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Yes. Sennetti, Okalis, it seems... it seems that our friends on the <![CDATA[<color=orange>Third Escape Pod</color>]]> have perished.": "AZOLLA： はい。Sennetti、Okalis、どうやら...どうやら<![CDATA[<color=orange>脱出ポッド3</color>]]>の同胞は死んでしまったようだ。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Yes. Sennetti, Okalis, it seems... it seems that our friends on the <![CDATA[<color=orange>Third Escape Pod</color>]]> have perished.": "AZOLLA：はい。Sennetti、Okalis、どうやら...どうやら<![CDATA[<color=orange>脱出ポッド3</color>]]>の同胞は死んでしまったようだ。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: What! Are you certain? I don't understand how we could have learned this given our current situation.": "OKALIS：なんだって！確かですか？今の状況を考えると、どうやってこのことを知ったのか理解できない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I spoke with Karenia, who was able to commune with the <![CDATA[<color=purple>Bramble</color>]]>. In doing that, she learned the third pod became ensnared in the vines, causing its passengers to suffocate.": "NESIA：私は<![CDATA[<color=purple>イバラ</color>]]>と交信することができるKareniaと話しました。そうすることで、彼女は脱出ポッド3が蔓に絡まり、乗員が窒息死したことを知った。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I cannot believe...": "OKALIS：信じられない...&lt;i&gt;&lt;/i&gt;",
@@ -538,7 +538,7 @@
         "NESIA: Yes.": "NESIA：はい。&lt;i&gt;&lt;/i&gt;",
         "KARENIA: We do.": "KARENIA：そうです。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Then it sounds as if we have much work ahead. Everyone, begin preparations! It is time to construct the <![CDATA[<color=orange>Distant Node Project</color>]]>!": "AZOLLA：それじゃ、前途多難だね。皆さん、準備を始めてください！<![CDATA[<color=orange>遠距離ノードプロジェクト</color>]]>を構築する時が来ました！&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: Are you certain? It is time to reunite with our lost friends?": "OKALIS： 確かですか？今こそ失われた友と再会する時だと？&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Are you certain? It is time to reunite with our lost friends?": "OKALIS：確かですか？今こそ失われた友と再会する時だと？&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: I am relieved to hear your words, friend. Please, explain your plan.": "SENNETTI：その言葉を聞いて安心したよ。あなたの計画を説明してください。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: That is a bold claim, Nesia. But knowing you, it is not one you would make lightly.": "AZOLLA：大胆な主張だね、Nesia。でも、あなたのことだから、軽々しく言えることではないわ。&lt;i&gt;&lt;/i&gt;",
         
@@ -556,7 +556,7 @@
         "NESIA: Karenia, what are you talking about? You never thought anyone would be <![CDATA[<i>]]>allowed<![CDATA[</i>]]> to find it? What even <![CDATA[<i>]]>is<![CDATA[</i>]]> it?": "NESIA：Karenia、何を言っているの？これを見つけることが誰かに<![CDATA[<i>]]>許される<![CDATA[</i>]]>と思ったことは無かったの？これは<![CDATA[<i>]]>一体<![CDATA[</i>]]>何なんですか？&lt;i&gt;&lt;/i&gt;",
         "KARENIA: This is the heart. The heart of the <![CDATA[<color=purple>Bramble</color>]]>. I know it, I can feel it deep, deep in my bones. The entire plant grows from this node, this very spot, below our feet! Can you feel it? Can you feel its life, concentrated here, growing from here?": "KARENIA：これが心臓です。<![CDATA[<color=purple>イバラ</color>]]>の心臓。私はそれを知っている、私の骨の奥深くでそれを感じることができる。植物全体が、このノードから、まさに足下のこの場所から育っている！感じられますか？ここに集中し、ここから成長しているその生命を感じられますか？&lt;i&gt;&lt;/i&gt;",
         "KARENIA: In this place, I could commune with the <![CDATA[<color=purple>Bramble</color>]]> so directly! I could speak to it, and hear and be heard as I never have been before. This may be the most significant discovery for my species since... well, in all of our barely recorded history!": "KARENIA：この場所で、私は<![CDATA[<color=purple>イバラ</color>]]>と直接交信することができた！これまでに経験したことのないほど、私はそれに話しかけ、聞き、そして聞かれることができました。これは私の種族にとって、わずかに記録された歴史の中で最も重要な発見かもしれない！&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Commune with the <![CDATA[<color=purple>Bramble</color>]]> as you never have before? Karenia! You've given me an amazing idea! I will visit you when I can to discuss it, but I need to make sure it is all correct in my own head first. I will speak with you shortly!": "NESIA： 今までにないほどの<![CDATA[<color=purple>イバラ</color>]]>との交信？Karenia！素晴らしいアイデアをくれました！それについて議論できるようになったら会いに行きますが、その前に自分の頭の中でそれがすべて正しいかどうかを確認する必要があります。すぐに話しに行きます！&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Commune with the <![CDATA[<color=purple>Bramble</color>]]> as you never have before? Karenia! You've given me an amazing idea! I will visit you when I can to discuss it, but I need to make sure it is all correct in my own head first. I will speak with you shortly!": "NESIA：今までにないほどの<![CDATA[<color=purple>イバラ</color>]]>との交信？Karenia！素晴らしいアイデアをくれました！それについて議論できるようになったら会いに行きますが、その前に自分の頭の中でそれがすべて正しいかどうかを確認する必要があります。すぐに話しに行きます！&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: I would have to agree, Nesia. I do not recall ever seeing a place where the plant looked quite this... <![CDATA[<i>]]>alive<![CDATA[</i>]]>.": "AZOLLA：私もそう思います、Nesia。植物がこんなに...<![CDATA[<i>]]>生き生きしている<![CDATA[</i>]]>場所を見た記憶がない。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: I believe so? I cannot be sure, but this place does feel different.": "SENNETTI：そうだと思いますか？確かではありませんが、ここは違う感じがします。&lt;i&gt;&lt;/i&gt;",
         
@@ -574,12 +574,12 @@
         "KARENIA: Good. Okay everyone, follow my lead, try and guide the <![CDATA[<color=purple>Bramble</color>]]> to the <![CDATA[<color=orange>Eye</color>]]>.": "KARENIA：よろしい。よし、みんな、私のリードに従って、<![CDATA[<color=purple>イバラ</color>]]>を<![CDATA[<color=orange>眼</color>]]>に導いてみて。&lt;i&gt;&lt;/i&gt;",
         "KARENIA: I think it's working! The <![CDATA[<color=purple>Bramble</color>]]> is heeding our calls! I can feel it probing, searching for the source of the signal!": "KARENIA：うまくいっていると思う！<![CDATA[<color=purple>イバラ</color>]]>は私たちの呼びかけに耳を傾けている！信号の発信源を探っているのを感じます！&lt;i&gt;&lt;/i&gt;",
         "AMYLAX: Something feels wrong, is the <![CDATA[<color=orange>Eye</color>]]> supposed to be big and hot? I swear that the <![CDATA[<color=purple>Bramble</color>]]> is focusing on something of that nature.": "AMYLAX：何か変だ。<![CDATA[<color=orange>眼</color>]]>は大きくて熱いのですか？<![CDATA[<color=purple>イバラ</color>]]>がそういう性質のものに集中しているのは確かだ。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: Big and hot? No aspect of the <![CDATA[<color=orange>Eye</color>]]>'s signal suggests it should have either of those qualities. Unless... <![CDATA[<i>]]>a star!<![CDATA[</i>]]> Azolla! We need to shut off the project now! The <![CDATA[<color=purple>Bramble</color>]]> is attempting to grow the distant node in the core of a star!": "OKALIS：大きくて熱い？<![CDATA[<color=orange>眼</color>]]>の信号には、そのような性質があることを示唆するものはない。ただし...<![CDATA[<i>]]>星！<![CDATA[</i>]]>Azolla！今すぐプロジェクトを中止する必要があります！<![CDATA[<color=purple>イバラ</color>]]>は星の核の中にある遠方のノードを成長させようとしている！&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Big and hot? No aspect of the <![CDATA[<color=orange>Eye</color>]]>'s signal suggests it should have either of those qualities. Unless... <![CDATA[<i>]]>a star!<![CDATA[</i>]]> Azolla! We need to shut off the project now! The <![CDATA[<color=purple>Bramble</color>]]> is attempting to grow the distant node in the core of a star!": "OKALIS：大きくて熱い？<![CDATA[<color=orange>眼</color>]]>の信号には、そのような性質があることを示唆するものはない。ただし...<![CDATA[<i>]]>星！<![CDATA[</i>]]>Azolla！今すぐプロジェクトを中止する必要があります！<![CDATA[<color=purple>イバラ</color>]]>は星の核の中にある遠距離ノードを成長させようとしている！&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: No! Nesia, shut off the equipment! Everyone, direct the <![CDATA[<color=purple>Bramble</color>]]> away! We cannot allow it to-": "AZOLLA：そんなばかな！Nesia、装置を止めて！みんな、<![CDATA[<color=purple>イバラ</color>]]>を遠ざけて！それを許してはなら---&lt;i&gt;&lt;/i&gt;",
         
         //heart_discovery_recording
         "NESIA: Meditation log 134, setting up now, just need to put my writing staff somewhere... here will do. Okay, sitting down, closing my eyes, and... breathing...": "NESIA：瞑想ログ134、セットアップ完了、あとはどこかに筆記杖を置くだけ...ここでいいわ。よし、座って、目を閉じて、そして...呼吸する...。&lt;i&gt;&lt;/i&gt;",
-        "NESIA:In... and... out...": "NESIA:中に...そして...外に...。&lt;i&gt;&lt;/i&gt;",
+        "NESIA:In... and... out...": "NESIA:吸って...吐いて...。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Ahh. I was skeptical at first, but this truly was a brilliant suggestion on Karenia's part. These meditation sessions are making everything that's occurred much more bearable.": "NESIA：ああ。最初は半信半疑だったけど、これは本当にKareniaの素晴らしい提案だった。この瞑想セッションのおかげで、起きたことすべてがずっと耐えやすくなっている。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Though she <![CDATA[<i>]]>does<![CDATA[</i>]]> find my choice of location strange, I cannot help that it is the best for this exercise. I am convinced this stone has something to do with the <![CDATA[<color=orange>Eye</color>]]>. Meditating atop it makes me feel closer to the Eye and, by extension, the rest of our clan.": "NESIA：彼女は私の選んだ場所が変だと<![CDATA[<i>]]>強く<![CDATA[</i>]]>思っているようですが、この訓練には最適だと思わずにはいられません。私はこの石が<![CDATA[<color=orange>眼</color>]]>と関係があると確信している。この石の上で瞑想していると、眼がより身近に感じられ、ひいては私たち部族の他のメンバーもより身近に感じられる。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Ah, it's hardly been any time at all, and I can already feel my body ignoring the stifling heat of this planet.": "NESIA：ああ、まだほとんど時間が経っていないのに、すでにこの惑星の息苦しい暑さを体が無視しているのを感じるわ。&lt;i&gt;&lt;/i&gt;",
@@ -593,7 +593,7 @@
         "This will be the carrier that allows the gate to function.": "これがゲートを機能させるキャリアとなる。&lt;i&gt;&lt;/i&gt;",
         
         //node_final_statement
-        "We are the Nomai, and we will no longer wallow in misery at every discovery we cannot make.": "私たちはNomaiであり、私たちが発見できないことのたびに惨めな思いをすることはもうない。&lt;i&gt;&lt;/i&gt;",
+        "We are the Nomai, and we will no longer wallow in misery at every discovery we cannot make.": "私たちはNomaiであり、私たちが発見できない全てに惨めな思いをすることはもうない。&lt;i&gt;&lt;/i&gt;",
         "We are the Dree, and we will not fade to dust while the means to improve our lot is within our grasp.": "私たちはDreeであり、私たちの地位を向上させる手段が手の届くところにある間は、塵と化すことはない。&lt;i&gt;&lt;/i&gt;",
         "We are the conjoined clan, two species as one. We will go forth unto new wilds together.": "私たちは団結した集団であり、2つの種族は1つである。私たちは共に新たな原野へと旅立つのだ。&lt;i&gt;&lt;/i&gt;",
         
@@ -607,36 +607,36 @@
         "This will be the gate through which we step to reach the <![CDATA[<color=orange>Eye</color>]]>": "これは、<![CDATA[<color=orange>眼</color>]]>に到達するために足を踏み入れるゲートとなる。&lt;i&gt;&lt;/i&gt;",
         
         //node_plan_amendment
-        "KARENIA: Ditylum, I think you might want to wait to kill that dangerous node until later.": "KARENIA：Ditylum、その危険なノードを殺すのは後回しにしたほうがいいと思う。&lt;i&gt;&lt;/i&gt;",
-        "DITYLUM: Why?": "DITYLUM：なぜですか？&lt;i&gt;&lt;/i&gt;",
-        "KARENIA: I think it might be some sort of parasite on the <![CDATA[<color=purple>Bramble</color>]]>, although I can't be sure. I think waiting to kill it until just before putting the project into motion may put us in the <![CDATA[<color=purple>Bramble</color>]]>'s good graces.": "KARENIA：確信は持てないが、あれは<![CDATA[<color=purple>イバラ</color>]]>に寄生している一種の何かだと思う。プロジェクトを実行に移す直前まで殺すのを待つことで、<![CDATA[<color=purple>イバラ</color>]]>のご機嫌を調整することができるかもしれない。&lt;i&gt;&lt;/i&gt;",
-        "DITYLUM: Okay, sounds like a plan. Once we're ready to grow the node, I'll go and kill the dangerous one, then come right back.": "DITYLUM：わかった、いい考えだ。ノードを育てる準備ができたら、危険なノードを殺しに行って、すぐに戻ってくる。&lt;i&gt;&lt;/i&gt;",
+        "KARENIA: Ditylum, I think you might want to wait to kill that dangerous node until later.": "KARENIA：Ditylum、その危険なノードを殺すのは後回しにしたほうがいいと思います。&lt;i&gt;&lt;/i&gt;",
+        "DITYLUM: Why?": "DITYLUM：なぜだろうか？&lt;i&gt;&lt;/i&gt;",
+        "KARENIA: I think it might be some sort of parasite on the <![CDATA[<color=purple>Bramble</color>]]>, although I can't be sure. I think waiting to kill it until just before putting the project into motion may put us in the <![CDATA[<color=purple>Bramble</color>]]>'s good graces.": "KARENIA：確信は持てないですが、あれは<![CDATA[<color=purple>イバラ</color>]]>に寄生している一種の何かだと思います。プロジェクトを実行に移す直前まで殺すのを待つことで、<![CDATA[<color=purple>イバラ</color>]]>のご機嫌を調整することができるかもしれない。&lt;i&gt;&lt;/i&gt;",
+        "DITYLUM: Okay, sounds like a plan. Once we're ready to grow the node, I'll go and kill the dangerous one, then come right back.": "DITYLUM：わかった、いい考えのようだ。ノードを育てる準備ができたら、あの危険なノードを殺しに行って、すぐに戻ってこよう。&lt;i&gt;&lt;/i&gt;",
         
         //dree_tone
-        "SENNETTI: With the analysis of the <![CDATA[<color=orange>Eye</color>]]>'s signal consuming most of our time, travel has become a significant time sink. Due to this, I have brought my side research here, so that I can continue work on it during downtime in the study of the signal.": "SENNETTI：<![CDATA[<color=orange>眼</color>]]>の信号の分析にほとんどの時間を取られているため、移動がかなりの時間的な負担になっている。そのため、信号の研究が中断している間でも研究を続けられるよう、副研究をここに持ってきました。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: With the analysis of the <![CDATA[<color=orange>Eye</color>]]>'s signal consuming most of our time, travel has become a significant time sink. Due to this, I have brought my side research here, so that I can continue work on it during downtime in the study of the signal.": "SENNETTI：<![CDATA[<color=orange>眼</color>]]>の信号の分析にほとんどの時間を取られているため、移動がかなりの時間的な負担になっている。そのため、信号の研究が中断している間でも研究を続けられるよう、副研究をここに持ってきた。&lt;i&gt;&lt;/i&gt;",
         "NESIA: A fair idea. May I ask what this side research is about?": "NESIA：いい考えですね。この副研究の目的を聞いてもいいですか？&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: I have decided to conduct more research into the alien's physiology. In particular, I wish to perform further analysis on the high-pitched tones that they use for echolocation. I have brought a recording of those tones here. Feel free to study it yourself as well, you know I always welcome your insight.": "SENNETTI：私は異星人の生理学についてさらに研究を進めることにしました。特に、エコロケーションに使われる甲高い音をさらに分析したいと考えています。その音を録音したものをここに持ってきました。ぜひあなたもその研究をしてみてください。あなたの洞察力はいつでも歓迎します。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: I have decided to conduct more research into the alien's physiology. In particular, I wish to perform further analysis on the high-pitched tones that they use for echolocation. I have brought a recording of those tones here. Feel free to study it yourself as well, you know I always welcome your insight.": "SENNETTI：私は異星人の生理学についてさらに研究を進めることにした。特に、エコロケーションに使われる甲高い音をさらに分析したいと考えている。その音を録音したものをここに持ってきた。ぜひあなたもその研究をしてみてほしい。あなたの洞察力はいつでも歓迎しよう。&lt;i&gt;&lt;/i&gt;",
         
         //gas_dilation_discovery
-        "DITYLUM: Hey, since you all have been working down here for so long, I thought I would come and let you know about a strange node I found the other day in <![CDATA[<color=orange>Briar's Hollow</color>]]>. I tried to send one of those probes that you made in, but it seemed to lose signal immediately. I even tried tying a rope to one, but when I pulled on it the rope snapped, and I barely dodged the shrapnel from the destroyed probe.": "DITYLUM：やあ、みんな長い間ここで働いてくれているから、ここに来て先日<![CDATA[<color=orange>イバラの空洞</color>]]>で見つけた奇妙なノードについて知らせようと思ったんだ。あなたが作ってくれた探査機を送ろうとしたんだけど、すぐに信号が途切れてしまったみたいなんだ。ロープを結びつけてもみたが、引っ張ったらロープが切れてしまい、破壊された探査機からの破片をかろうじてかわしたよ。&lt;i&gt;&lt;/i&gt;",
+        "DITYLUM: Hey, since you all have been working down here for so long, I thought I would come and let you know about a strange node I found the other day in <![CDATA[<color=orange>Briar's Hollow</color>]]>. I tried to send one of those probes that you made in, but it seemed to lose signal immediately. I even tried tying a rope to one, but when I pulled on it the rope snapped, and I barely dodged the shrapnel from the destroyed probe.": "DITYLUM：やあ、みんな長い間ここで働いてくれているから、ここに来て先日<![CDATA[<color=orange>イバラの空洞</color>]]>で見つけた奇妙なノードについて知らせようと思ってやって来た。あなたが作ってくれた探査機を送ろうとしたんだが、すぐに信号が途切れてしまったみたいだ。ロープを結びつけてもみたが、引っ張ったらロープが切れてしまい、破壊された探査機からの破片をかろうじてかわしたよ。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Curious. Do you have any intuition as to why this may have occurred? Were there any strange marks on the recovered shrapnel?": "NESIA：不思議ですね。なぜこのようなことが起こったのか、直感的にわかりますか？回収された破片に奇妙な跡はありましたか？&lt;i&gt;&lt;/i&gt;",
-        "DITYLUM: It almost looked like it had been destroyed by the rope itself, but I know I didn't pull hard enough to cause that. I don't know if I <![CDATA[<i>]]>could<![CDATA[</i>]]> pull hard enough to cause that!": "DITYLUM：ロープそのものに破壊されたように見えたけど、そんなことを起こすほど強く引っ張ってないのはわかってる。それを引き起こすのに十分なほど強く引っ張ることが<![CDATA[<i>]]>できたか<![CDATA[</i>]]>どうか私にはわからない！&lt;i&gt;&lt;/i&gt;",
+        "DITYLUM: It almost looked like it had been destroyed by the rope itself, but I know I didn't pull hard enough to cause that. I don't know if I <![CDATA[<i>]]>could<![CDATA[</i>]]> pull hard enough to cause that!": "DITYLUM：ロープそのものに破壊されたように見えたが、そんなことを起こすほど強く引っ張ってないのはわかってる。それを引き起こすのに十分なほど強く引っ張ることが<![CDATA[<i>]]>できたか<![CDATA[</i>]]>どうか私にはわからない！&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: Karenia's really unnerved by it, she's calling for the node to be destroyed using poison from the <![CDATA[<color=orange>Venomous Reject</color>]]>. Nobody can remember any story of such a node in all of our history, and nobody feels safe with it around.": "DITYLUM: Kareniaは本当に狼狽していて、<![CDATA[<color=orange>邪悪の拒絶</color>]]>の死液を使ってノードを破壊するよう呼びかけている。このようなノードの話は、これまでの歴史の中で誰も覚えていないし、このノードがあれば誰も安心できない。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Hm. It is not normally our nature to destroy something that could be studied, but if your people are so troubled by its presence, then we will do our best to eliminate the threat. We will simply have to make do with the other mysteries of the <![CDATA[<color=purple>Bramble</color>]]>.": "AZOLLA：ふむ、通常、研究対象となりうるものを破壊するのは我々の本意ではないですが、あなた方の種族がその存在にそれほど悩まされているのであれば、その脅威を取り除くために最善を尽くそう。私たちはただ、<![CDATA[<color=purple>イバラ</color>]]>の他の謎でやりくりするしかないでしょう。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Hm. It is not normally our nature to destroy something that could be studied, but if your people are so troubled by its presence, then we will do our best to eliminate the threat. We will simply have to make do with the other mysteries of the <![CDATA[<color=purple>Bramble</color>]]>.": "AZOLLA：ふむ、通常、研究対象となりうるものを破壊するのは我々の本意ではないですが、あなた方の種族がその存在にそれほど悩まされているのであれば、その脅威を取り除くために最善を尽くしましょう。私たちはただ、<![CDATA[<color=purple>イバラ</color>]]>の他の謎でやりくりするしかないでしょう。&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: Thanks, I'll let Karenia know that you'll take care of it.": "DITYLUM：ありがとう、あなたがたが対処してくれるということをKareniaに伝えておくよ。&lt;i&gt;&lt;/i&gt;",
         
         //gas_goal_hint
-        "NESIA: I believe this cave should prove to be an adequate location for any equipment we might use to study the signal of the <![CDATA[<color=orange>Eye</color>]]>. In particular, the upper chamber across the ceiling looks well insulated. With some environmental regulation, the overheating of our equipment should be a non-issue.": "NESIA：この洞窟は、<![CDATA[<color=orange>眼</color>]]>の信号を調査するための機器を設置するのに十分な場所だと思います。特に、天井を挟んだ上部の部屋は断熱性が高そうです。ある程度の環境規制があれば、機器がオーバーヒートする問題はないでしょう。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: I believe this cave should prove to be an adequate location for any equipment we might use to study the signal of the <![CDATA[<color=orange>Eye</color>]]>. In particular, the upper chamber across the ceiling looks well insulated. With some environmental regulation, the overheating of our equipment should be a non-issue.": "NESIA：この洞窟は、<![CDATA[<color=orange>眼</color>]]>の信号を調査するための機器を設置するのに十分な場所だと思います。特に、天井から渡った先にある上部の部屋は断熱性が高そうです。ある程度の環境規制があれば、機器がオーバーヒートする問題はないでしょう。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: A good find, Nesia, but how do you propose we get up there? The gas in this cave prohibits the use of our thrusters.": "AZOLLA：いい発見だね、Nesia。でもどうやってあそこまで行くのですか？この洞窟はガスでスラスターが使えない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I believe gravity crystals constructed from the material of <![CDATA[<color=orange>Graviton's Folly</color>]]> should be useful. We could make specialized mounts to place the crystals in, amplifying their effect to the level we would need.": "NESIA：<![CDATA[<color=orange>重力子の過ち</color>]]>の材料で作られた重力クリスタルは有用だと思います。その結晶を置くための特別なマウントを作れば、必要なレベルまでその効果を増幅できるだろう。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: In my experience, the collection and application of that material will be time-consuming, and there may be other portions of the ceiling that are worth exploring. I propose these mounts should allow for the removal and replacement of these crystals. Then we may explore more while additional crystals are fabricated.": "SENNETTI：私の経験では、その材料の収集と適用には時間がかかるでしょうし、天井の他の部分に探索する価値があるかもしれません。私はこのマウントで、これらのクリスタルを取り外して交換できるようにすることを提案します。そうすれば、追加の結晶を製作する間、もっと探索できるかもしれません。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: Good idea, both of you. A series of removable gravity crystals would allow us to explore the full area while resources are relatively low. We should begin construction of this system immediately.": "AZOLLA：いい考えですね、二人とも。取り外し可能な一連の重力クリスタルがあれば、資源が比較的少ないうちに全領域を探査できる。このシステムの建設を直ちに始めるべきだ。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: Good idea, both of you. A series of removable gravity crystals would allow us to explore the full area while resources are relatively low. We should begin construction of this system immediately.": "AZOLLA：いい考えですね、二人とも。取り外し可能な一連の重力クリスタルがあれば、資源が比較的少ないうちに全領域を探査できる。このシステムの建設を直ちに始めるべきです。&lt;i&gt;&lt;/i&gt;",
         
         //gas_warning
         "Warning! The chamber below is flooded with a very flammable gas. It is important that no open flames are brought into the cave, especially those that are particularly intense.": "警告！下の部屋は非常に可燃性のガスで満たされている。洞窟内に火を持ち込まないことが重要であり、特に激しい炎は厳禁である。&lt;i&gt;&lt;/i&gt;",
         
         //romantic_advice_recording
-        "OKALIS: Nesia, do you mind if I ask a potentially sensitive question? It's about Amylax and I, so I understand if your recent loss is still too sore. I ask because you are the only one of us who has any experience with relationships.": "OKALIS：NESIA、デリケートな質問をしてもいいかな？Amylaxと私のことです、最近失ったことがまだあまりに痛々しいのはわかっています。ただ私たちの中で恋愛経験があるのはあなただけなので尋ねたのです。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Nesia, do you mind if I ask a potentially sensitive question? It's about Amylax and I, so I understand if your recent loss is still too sore. I ask because you are the only one of us who has any experience with relationships.": "OKALIS：NESIA、デリケートな質問をしてもいいかな？Amylaxと私のことです、最近失ったものがまだあまりに痛々しいのはわかっています。ただ私たちの中で恋愛経験があるのはあなただけなので尋ねたのです。&lt;i&gt;&lt;/i&gt;",
         "NESIA: It is no problem at all, friend. What is your concern?": "NESIA：まったく問題ないですよ。何が心配ですか？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I don't know if it is a concern, or... well, I suppose it is a concern, though I struggle to think of any concrete foundation for it. It's just that, while everything seems to be going well between Amylax and I, I cannot help but worry.": "OKALIS：心配というか...まあ、心配なんだろうけど、具体的な根拠が思い浮かばないんだ。ただ、Amylaxと私の間ではすべてがうまくいっているように見えるのだけど、心配せずにはいられません。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: We are so fundamentally different, Nesia. Not in our interests, but on a very foundational level. We're different species, with different histories and customs, habits and-": "OKALIS：私たちは根本的に違うんだ、Nesia。利害関係とかではなく、非常に根本的なレベルで。私たちは異なる種であり、異なる歴史や風習、習慣や...&lt;i&gt;&lt;/i&gt;",
@@ -665,21 +665,21 @@
         "OKALIS: ...I actually seem to have lost all thrust, I may require assistance to return.": "OKALIS：...実は、全ての推進力がなくなってしまったようで、帰るには助けがいります。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Unfortunately, that seems to be the case for all of us. It seems that we are trapped here, for the time being.": "AZOLLA：残念ながら、それは私たち全員にとって同じことのようです。私たちは当分の間、ここに閉じ込められるでしょう。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: The temperature here is entirely inhospitable, if we are unable to find a way to propel ourselves soon, we aren't going to make it out!": "SENNETTI：ここの気温はまったく人を寄せ付けない。もしすぐに推進する方法を見つけられなければ、脱出は無理だろう！&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Is the heat affecting my vision, or is there movement coming from the entrance?": "NESIA：暑さが私の視界に影響しているのか、入口の方から何かが来ているような動きがありませんか？&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: There is! It seems our friends have noticed our plight, and have come to retrieve us!": "OKALIS：あるよ！私たちの窮状に気づいた友人たちが迎えに来てくれたようです！&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Is the heat affecting my vision, or is there movement coming from the entrance?": "NESIA：暑さが私の視界に影響しているのか、入口の方から何かが来ているように見えませんか？&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: There is! It seems our friends have noticed our plight, and have come to retrieve us!": "OKALIS：見えるよ！私たちの窮状に気づいた友人たちが迎えに来てくれたみたいだ！&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: Hey, we noticed that you stopped moving, I thought you were going to go to the surface to set up life support?": "DITYLUM：やあ、あなたがたは何もしていないようだが、生命維持装置を設置するために地表に行くんじゃなかったのか？&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: We were, but it appears our propulsion systems failed due to the heat.": "AZOLLA：そうなんですが、熱のために推進システムが故障したようです。&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: We told you it was a bad idea to come far in here, weird signal or not. Come on, let's get you out of here.": "DITYLUM：奇妙な信号があろうがなかろうが、ここで遠くまで来るのは良くないと言ったはずだ。さあ、ここから出してやるぞ。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Thank you. Once you get us out of here, we should be entirely able to modify our propulsion systems to handle the heat, making our return trip much more successful.": "AZOLLA：ありがとう。あなたがここから出してくれれば、推進システムを熱に対応できるように改造して、次に戻ってくるときははもっとうまくいくはずです。&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: Hah! And here I thought you couldn't tell a joke without the science of it going over my head.": "DITYLUM：はぁ！ジョークを言うのに、科学的な根拠がないとダメなのかと思っていたよ。&lt;i&gt;&lt;/i&gt;",
-        "DITYLUM: By the <![CDATA[<color=purple>Bramble</color>]]>, you're serious aren't you...": "DITYLUM: 話の<![CDATA[<color=purple>イバラ</color>]]>から逸れるが、本気なんですね...&lt;i&gt;&lt;/i&gt;",
+        "DITYLUM: By the <![CDATA[<color=purple>Bramble</color>]]>, you're serious aren't you...": "DITYLUM: 話の<![CDATA[<color=purple>イバラ</color>]]>から逸れるが、本気なんだな...&lt;i&gt;&lt;/i&gt;",
         
         //fish_rock_legend
         "SENNETTI: I am quite thankful our friends mounted that rescue operation. When my pack lost thrust, I was certain we were to be cooked!": "SENNETTI：友人たちが救助作戦を実施してくれたことに感謝している。私のパックが推力を失ったとき、私たちは調理されるのだと確信した！&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: I am very thankful as well. Honestly, we should have considered the possibility of equipment failure under this heat, especially after we saw how it was used to cook anglerfish eggs.": "AZOLLA：私もとても感謝しています。正直なところ、アンコウのタマゴを調理するのに使われたのを見た後では、この暑さの下で機器が故障する可能性を考えるべきでした。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I cannot help but wonder how they first started stealing those eggs. The anglerfish hardly seem like the kind of beasts you would want to approach.": "OKALIS：どうやってタマゴを盗むようになったのか、不思議でならない。アンコウは近づきたい種の獣には見えません。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Actually, one of the language samples I analyzed during my translation is an old story that seeks to explain exactly that. As the story goes, they had found a massive anglerfish keeping watch over a clutch of eggs. The ancient aliens were starving, as they had failed to find food for days, and began devising a plan to steal the eggs.": "SENNETTI：実は、私が翻訳中に分析した言語サンプルのひとつに、まさにそれを説明しようとする昔話がある。その話によると、彼らは巨大なアンコウがタマゴの群れを見張っているのを見つけた。何日も餌を見つけることができなかったので、古代の異星人たちは飢えており、タマゴを盗む計画を練り始めた。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: They ultimately decided to distract the mother with a massive rock that was in the vicinity, hoping that slamming it into a nearby wall would lure the mother away for long enough to grab a few of the eggs and flee under pursuit. However, when the mother reached the rock, she did not turn around and pursue the thieves. Instead, she sank her teeth into the rock and stayed there, drifting with it. This distracted the fish long enough for the aliens to take as many eggs as they wanted. Supposedly, the fish was still latched onto the rock as they left.": "SENNETTI：彼らは最終的に、近くにあった巨大な岩で母親の気をそらすことにした。岩を近くの壁に叩きつければ、母鳥がタマゴをいくつか奪って逃げるのに十分な時間、母鳥をおびき寄せることができるだろうと期待したのだ。しかし、母鳥は岩にたどり着くと、振り向いて泥棒たちを追いかけようとはしなかった。その代わり、母魚は岩に歯を食い込ませ、そのまま岩と一緒に漂った。これによって魚の気をそらし、異星人たちが好きなだけタマゴを取ることができたのだ。おそらく、異星人たちが去っていくとき、魚はまだ岩にしがみついていたと思われる。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: They ultimately decided to distract the mother with a massive rock that was in the vicinity, hoping that slamming it into a nearby wall would lure the mother away for long enough to grab a few of the eggs and flee under pursuit. However, when the mother reached the rock, she did not turn around and pursue the thieves. Instead, she sank her teeth into the rock and stayed there, drifting with it. This distracted the fish long enough for the aliens to take as many eggs as they wanted. Supposedly, the fish was still latched onto the rock as they left.": "SENNETTI：彼らは最終的に、近くにあった巨大な岩で母魚の気をそらすことにした。岩を近くの壁に叩きつければ、タマゴをいくつか奪って逃げるのに十分な時間、母魚をおびき寄せることができるだろうと期待したのだ。しかし、母魚は岩にたどり着くと、振り向いて泥棒たちを追いかけようとはしなかった。その代わり、母魚は岩に歯を食い込ませ、そのまま岩と一緒に漂った。これによって魚の気をそらし、異星人たちが好きなだけタマゴを取ることができたのだ。おそらく、異星人たちが去っていくとき、母魚はまだ岩にしがみついていたと思われる。&lt;i&gt;&lt;/i&gt;",
         "NESIA: What an interesting tale! Why do you suppose the mother behaved like that? Are the fish unable to distinguish between organic and inorganic prey?": "NESIA：興味深い話ですね！なぜ母親はあんな行動をとったのでしょう？魚は有機物と無機物の獲物を区別できないのでしょうか？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: An interesting hypothesis, Nesia! I would love to test it, if it were not for the fact our friends would likely not appreciate us feeding rocks to their fish.": "OKALIS：興味深い仮説だね、Nesia！石を魚に与えることを友人たちが喜ばないという事実がなければ、ぜひ試してみたい。&lt;i&gt;&lt;/i&gt;",
         "NESIA: It was certainly a miscalculation on my part.": "NESIA：確かに私の誤算だった。&lt;i&gt;&lt;/i&gt;",
@@ -687,18 +687,18 @@
         
         //hot_planet_intro_recording
         "AZOLLA: Is everybody alright?": "AZOLLA：みんな大丈夫？&lt;i&gt;&lt;/i&gt;",
-        "NESIA: Yes, I believe so. I have taken the liberty of deploying portable life support, so this crater should remain cool and oxygen-rich, at least relatively speaking.": "NESIA：ええ、そう思います。私はポータブル生命維持装置を配備したので、このクレーターは比較的涼しく、酸素が豊富なままになるだろう。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Yes, I believe so. I have taken the liberty of deploying portable life support, so this crater should remain cool and oxygen-rich, at least relatively speaking.": "NESIA：ええ、そう思います。私はポータブル生命維持装置を配備したので、このクレーターは比較的涼しく、酸素が豊富なままになるでしょう。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Excellent. We should begin exploring once we have our bearings. Our top priority should be finding somewhere with shelter from this heat. Our equipment will not survive long enough to analyze the signal in this environment.": "AZOLLA：素晴らしい。方針が定まったら探索を始めましょう。最優先すべきは、この暑さをしのげる場所を見つけることです。この環境では、信号を分析するのに十分な時間、我々の機器は生き残れないでしょう。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I believe it is possible to hear the signal without equipment, which would suggest reception will not be an issue.": "OKALIS：機器なしで信号を聞くことは可能だと思うので、受信には問題がないでしょう。&lt;i&gt;&lt;/i&gt;",
         
         //rock_blocking_obscured
-        "NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]> it seems that <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]>.": "NESIA：実は、偶然この石の追加動作を見つけたかもしれません。<![CDATA[<color=red>文字が物に隠れている</color>]]>のとき、<![CDATA[<color=red>文字が物に隠れている</color>]]>のようです。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]> it seems that <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]>.": "NESIA：実は、この石の追加動作を偶然見つけたかもしれません。<![CDATA[<color=red>文字が物に隠れています</color>]]>とき、<![CDATA[<color=red>文字が物に隠れています</color>]]>ようです。&lt;i&gt;&lt;/i&gt;",
         
         //courting_reveal
         "OKALIS: I am happy to report our relations with our new friends seem to be going well! In fact, Amylax saw fit to deliver a gift to me!": "OKALIS：新しい友人たちとの関係がうまくいっているようで、うれしく思っている！実際、Amylaxは私に贈り物を届けてくれた！&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: That is good to hear! However, I have to wonder... Okalis, may I ask what the nature of this gift is?": "SENNETTI：それはよかった！しかし、疑問があるのだが...。Okaris、この贈り物の性質を聞いてもいいだろうか？&lt;i&gt;&lt;/i&gt;",
         "OKALIS: It is a lovely necklace, woven from several small vines which seem to have been made to grow around one another. I am honestly unsure how he must have made it. Perhaps he used the druidic influence his people seem to have? Whatever the case, it must have taken some time to create.": "OKALIS：いくつもの小さな蔓が互いに絡み合うように編まれた素敵なネックレスだ。正直なところ、どうやって作ったのかわからない。彼らの種族が持っているようなドルイド的影響使ったのでしょうか？いずれにせよ、制作には時間がかかったに違いない。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Hm, yes, I suspected that might be the case. Okalis, I feel I should inform you that, based on my studies of these alien's culture, a necklace such as that is a key component of the traditional courting ritual. Usually, the intended recipient will either refuse the necklace, indicating a lack of interest, or accept it and gift the initiator with a similar necklace.": "SENNETTI：うむ、そうかもしれないな。Okalis、私はこの異星人の文化を研究した結果をあなたに知らせるべきだろう。そのようなネックレスは伝統的な求愛の儀式の重要な要素だということだ。通常... 相手はそのネックレスを拒否し 興味がないことを示すか、それを受け取り 同じようなネックレスを贈るのだ&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Hm, yes, I suspected that might be the case. Okalis, I feel I should inform you that, based on my studies of these alien's culture, a necklace such as that is a key component of the traditional courting ritual. Usually, the intended recipient will either refuse the necklace, indicating a lack of interest, or accept it and gift the initiator with a similar necklace.": "SENNETTI：うむ、そうかもしれないな。Okalis、私はこの異星人の文化を研究した結果をあなたに知らせるべきだろう。そのようなネックレスは伝統的な求愛の儀式の重要な要素だということだ。通常... 相手はそのネックレスを拒否し 興味がないことを示すか、それを受け取り、同じようなネックレスを贈るのだ&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Are you certain? A courting ritual?! That would imply... was Amylax asking me to be his partner!?! How do I properly respond to that!?": "OKALIS: 確かですか？求愛の儀式？それはつまり...Amylaxが私に恋人になってくれと言ったということですか！？どう返事をすればいいのだろう！？&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Well, I would guess by either refusing or accepting the offer. Which one you choose is up to you, though I would strongly suggest you make a decision soon. I suspect that you have left Amylax quite confused.": "SENNETTI：まあ、オファーを拒否するか受け入れるかのどちらかだろうね。どちらを選ぶかはあなた次第ですが、すぐに決断することを強くお勧めする。あなたはAmylaxをかなり混乱させたと思う。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Refuse or accept... If that is the case, then Sennetti, would you be willing to help me gain a better understanding of his language? I believe I have a message important enough that it must be written by hand.": "OKALIS：拒否するか、受け入れるか...。もしそうなら、Sennetti、彼の言葉をよりよく理解する手助けをしてくれませんか？手書きでなければならないほど重要なメッセージがあると信じています。&lt;i&gt;&lt;/i&gt;",
@@ -709,14 +709,14 @@
         "AZOLLA: Since the heat of this planet does not seem to relent on the surface, it seems inadvisable to establish a permanent residence here. Therefore, I would suggest we simply construct a lab to study the <![CDATA[<color=orange>Eye</color>]]>'s signal.": "AZOLLA：この惑星の地表の熱はなかなか下がらないようですから、ここに永住するのは得策ではないでしょう。そこで、<![CDATA[<color=orange>眼</color>]]>の信号を研究するための研究所を建設することを提案したい。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I believe I may have found a suitable location for this lab. On another island, I found a cave leading down. It leads into an area filled with gas, but I believe the upper area may be cool enough for our equipment to function correctly given the assistance of environmental regulation.": "NESIA：この研究所にふさわしい場所を見つけたかもしれません。別の島で、下に続く洞窟を見つけました。洞窟の中はガスで充満していますが、洞窟内の上部は環境制御の補助があれば、私たちの装置が正しく機能するのに十分涼しいと思います。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Very good! We will set up a lab there, after determining how best to contend with the gas.": "AZOLLA：とてもいい！ガスにどう対処するのがベストか判断した後、そこに研究室を設置しましょう。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: While I know the signal is our main focus, I believe I have found an additional item worth investigating. Some distance away, there is an opening in the side of a hill. This opening leads to a rock that seems to move when unobserved.": "OKALIS：信号が私たちの主な焦点であることは承知しているが、調査する価値のある追加事項を見つけたと思う。少し離れた丘の側面に開口部があります。この開口部からはとある石の場所にたどり着き、その石は観察されないと移動するようです。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: I would certainly like to study this mysterious stone! I struggle to imagine what may cause this sort of behavior.": "NESIA：私はこの不思議な石を研究してみたい！何がこのような行動を引き起こすのか、想像するのに苦労します。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: In light of the discoveries of the others, I have begun construction of a road to lead to both locations. It should help with navigating the... hazardous terrain.": "SENNETTI：他の人たちの発見を踏まえて、私は2つの場所に通じる道の建設に着手した。その道は危険な地形を進むのに...役立つはずだ。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: While I know the signal is our main focus, I believe I have found an additional item worth investigating. Some distance away, there is an opening in the side of a hill. This opening leads to a rock that seems to move when unobserved.": "OKALIS：信号が私たちの主な焦点であることは承知しているが、それとは別に調査する価値のある追加事項を見つけたと思う。少し離れた丘の側面に開口部があります。この開口部からはとある石の場所にたどり着き、その石は観察されないと移動するようです。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: I would certainly like to study this mysterious stone! I struggle to imagine what may cause this sort of behavior.": "NESIA：この不思議な石を研究してみたい！何がこのような行動を引き起こすのか、想像するのに苦労します。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: In light of the discoveries of the others, I have begun construction of a road to lead to both locations. It should help with navigating the... hazardous terrain.": "SENNETTI：他の人たちの発見を踏まえて、私は2つの場所に通じる道の建設に着手した。その道は...危険な地形を進むのに役立つはずだ。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Good idea Sennetti, we don't want anyone to become lost with the constant heat of this planet.": "AZOLLA：いい考えです、Sennetti。この惑星の絶え間ない暑さで、誰かが迷子になってしまっては困ります。&lt;i&gt;&lt;/i&gt;",
         
         //recursive_heat_lore
         "AZOLLA: Why do you suppose this area remains so hot? Certainly it should have cooled to some degree after such a long time?": "AZOLLA：なぜこのエリアはこれほど暑いままなのでしょうか？これだけ時間が経てば、ある程度は冷えているはずですが？&lt;i&gt;&lt;/i&gt;",
-        "NESIA: A fair question, one that had occurred to me as well. Currently, my standing hypothesis is that the seeds surrounding the planet lead recursively into this area, based on how they seem to have the same glow.": "NESIA：もっともな質問だ。今のところ、私の立てた仮説では、惑星を取り囲む種が同じ輝きを放っていることから、再帰的にこのエリアにつながっていると考えています。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: A fair question, one that had occurred to me as well. Currently, my standing hypothesis is that the seeds surrounding the planet lead recursively into this area, based on how they seem to have the same glow.": "NESIA：もっともな質問です。今のところ、私の立てた仮説では、惑星を取り囲む種が同じ輝きを放っていることから、再帰的にこのエリアにつながっていると考えています。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: An astute observation, but I fail to see how that explains the heat.": "OKALIS：鋭い観察だが、この暑さをどう説明するのかわからない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: If the planet is surrounded by recursive seeds, it is possible for heat that should leave the area to instead be redirected back inside, maintaining a very high temperature.": "NESIA：惑星が再帰性の種に囲まれている場合、その領域から出るはずの熱が内部に戻され、非常に高い温度が維持される可能性があります。&lt;i&gt;&lt;/i&gt;",
         
@@ -745,7 +745,7 @@
         //ditylum_diary
         "DITYLUM: Yikes, I see what Karenia was getting so worked up about, this place is really creepy. It feels unnatural, like the <![CDATA[<color=purple>Bramble</color>]]> doesn't want it here. I'm just going to poke around a little bit and then leave. I can't believe that the Nomai can stand to be here for more than a few minutes.": "DITYLUM: うわっ、Kareniaが何をそんなに興奮してたのかわかったよ。まるで<![CDATA[<color=purple>イバラ</color>]]>がここを望んでいないような、不自然な感じがする。ちょっと覗き込んでから帰ろう。Nomaiが数分以上もここにいることに耐えられるとは思えない。&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: Okay, that's probably not good. There was a massive creaking sound a few minutes ago, like wood splintering. Probably about time for me to take my leave.": "DITYLUM：オーケー、まずいかもしれない。数分前、木が割れるような大きなきしみ音がした。そろそろ失礼する頃合いだろう。&lt;i&gt;&lt;/i&gt;",
-        "DITYLUM: Okay, definitely not good. When I exit this dimension, it seems like I end up on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, instead of near <![CDATA[<color=orange>Shattered Hearth</color>]]>. I don't really have any way to get across with all of the baby fish there, so I guess I'll sit here and wait for rescue.": "DITYLUM：オーケー、確かによくない。この次元から出ると、<![CDATA[<color=orange>砕かれた炉辺</color>]]>の近くではなく、<![CDATA[<color=orange>子ども部屋</color>]]>を挟んだ向こう側に出てしまうようだ。魚の赤子がたくさんいるところを渡る方法はないので、ここで救助を待つことにしよう。&lt;i&gt;&lt;/i&gt;",
+        "DITYLUM: Okay, definitely not good. When I exit this dimension, it seems like I end up on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, instead of near <![CDATA[<color=orange>Shattered Hearth</color>]]>. I don't really have any way to get across with all of the baby fish there, so I guess I'll sit here and wait for rescue.": "DITYLUM：オーケー、絶対によくない。この次元から出ると、<![CDATA[<color=orange>砕かれた炉辺</color>]]>の近くではなく、<![CDATA[<color=orange>子ども部屋</color>]]>を挟んだ向こう側に出てしまうようだ。魚の赤子がたくさんいるところを渡る方法はないので、ここで救助を待つことにしよう。&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: Okay, so, it's been a few hours now, and nobody's come. Are they not able to get across the <![CDATA[<color=orange>Nursery</color>]]>? I hadn't even considered that. Am I going to die here?": "DITYLUM：さて、数時間経つが誰も来ない。彼らは<![CDATA[<color=orange>子ども部屋</color>]]>を渡ることができないのだろうか？そんなことは考えもしなかった。私はここで死ぬのだろうか？&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: It's been a couple of days now, and still no sign of anyone. I'm starting to lose hope. Maybe the Nomai are trying to find a way, but after this long, I'm probably already being mourned back home. Maybe I should chance it with the fish? I know that I won't starve for another week or so, but it's hard to tell if starvation is better than being eaten alive.": "DITYLUM：もう2、3日経つが、まだ誰の姿も見えない。希望を失いかけている。Nomaiは何か方法を見つけようとしているのかもしれないが、これだけ時間が経てば、故郷では私の喪に服しているかもしれない。魚に賭けてみようか？あと1週間くらいは餓死することはないだろうけど、生きたまま食べられるより餓死するほうがマシかどうかはわからない。&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: No, no, I know that they won't give up, I just need to give them time.": "DITYLUM：いやいや、彼らが諦めないことは分かっている、彼らに時間を与える必要がある。&lt;i&gt;&lt;/i&gt;",
@@ -756,31 +756,31 @@
         "AZOLLA: Perhaps Karenia could shed light on its origin? She is the head druid of the Dree, so she may be capable of communicating with this node as well.": "AZOLLA：Kareniaなら、このノードの起源について教えてくれるかもしれない。彼女はDreeのドルイドの長だから、このノードと交信できるかもしれない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I have tried to bring her here, but anytime she approaches this chamber she recoils and refuses to go nearer. On our first attempt I encouraged her to try and approach more and, after attempting to satisfy my request, she vomited, began spasming, and I was forced to drag her away.": "NESIA：彼女をここに連れて来ようとしたのですが、この部屋に近づくといつも反発して近づこうとしません。最初の試みでは、もっと近づくように促したのですが、私の要求を満たそうとした後、彼女は嘔吐し、痙攣を始めたので、私は彼女を引きずり出さざるを得ませんでした。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Goodness. Based on that, it seems to be of the utmost importance that we keep this plant <![CDATA[<i>]]>far away<![CDATA[</i>]]> from the Dree. Fortunately, the node seems to constantly be on the verge of starvation, so I highly doubt we will need to contend with any propagations from it.": "AZOLLA：なるほど。そうなると、この植物を<![CDATA[<i>]]>Dreeから遠く<![CDATA[</i>]]>離しておくことが何よりも重要なようです。幸いなことに、このノードは常に餓死寸前の状態にあるようなので、このノードからの増殖に悩まされることはないでしょう。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Could it simply be a random mutation? Perhaps even something with the strange propagation habits of the <![CDATA[<color=purple>Bramble</color>]]> needs to maintain the possibility of evolution.": "SENNETTI：単にランダムな突然変異なのだろうか？おそらく、<![CDATA[<color=purple>イバラ</color>]]>の奇妙な伝播習性を持つものでさえ、進化の可能性を維持する必要があるのでしょう。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Could it simply be a random mutation? Perhaps even something with the strange propagation habits of the <![CDATA[<color=purple>Bramble</color>]]> needs to maintain the possibility of evolution.": "SENNETTI：単にランダムな突然変異なのだろうか？おそらく、<![CDATA[<color=purple>イバラ</color>]]>の奇妙な伝播習性を持つものでさえ、進化の可能性を維持する必要があるのだろう。&lt;i&gt;&lt;/i&gt;",
         "NESIA: That is possible, though this would be quite a strange mutation. We are yet to see any nodes with significant mutations, and all others at least have genetic code indicating them to be of the same plant.": "NESIA：その可能性はありますが、かなり奇妙な突然変異でしょう。私たちはまだ重大な変異を持つノードを見たことがありませんし、他のすべてのノードは、少なくとも同じ植物のものであることを示す遺伝暗号を持っています。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: Perhaps this node did not originate from the <![CDATA[<color=purple>Bramble</color>]]> at all. Is it possible that a similar plant could have inserted a seed into this one?": "OKALIS：おそらく、このノードは<![CDATA[<color=purple>イバラ</color>]]>を全く起源としないものなのでしょう。同じような植物が、このノードに種を挿入した可能性はありませんか？&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Perhaps this node did not originate from the <![CDATA[<color=purple>Bramble</color>]]> at all. Is it possible that a similar plant could have inserted a seed into this one?": "OKALIS：おそらく、このノードは<![CDATA[<color=purple>イバラ</color>]]>を起源と全くしていないものなのでしょう。同じような植物が、このノードに種を挿入した可能性はありませんか？&lt;i&gt;&lt;/i&gt;",
         "NESIA: This is possible, but quite alarming. I struggle to imagine the sort of spatial anomalies that multiple plants like the <![CDATA[<color=purple>Bramble</color>]]> could cause.": "NESIA：可能性はありますが、かなり心配です。<![CDATA[<color=purple>イバラ</color>]]>のような複数植物がどのような空間的異常を引き起こすのか、想像するのに苦労します。&lt;i&gt;&lt;/i&gt;",
         
         //reject_killing_hint
         "AZOLLA: The Dree have found a hazardous node and, at their request, we are to develop a delivery method for the toxin produced by the <![CDATA[<color=orange>Venomous Reject</color>]]>.": "AZOLLA：Dreeは危険なノードを発見し、彼らの要請により、私たちは<![CDATA[<color=orange>邪悪の拒絶</color>]]>が作り出す死液の運搬方法を開発することになりました。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: This should not be difficult in and of itself, but who should deliver the toxin? We cannot ignore the possibility of the <![CDATA[<color=purple>Bramble</color>]]> reacting in some violent manner.": "SENNETTI：これ自体は難しいことではないはずですが、誰が死液を運ぶべきなのでしょうか？<![CDATA[<color=purple>イバラ</color>]]>が何らかの暴力的な反応を示す可能性を無視することはできません。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: This should not be difficult in and of itself, but who should deliver the toxin? We cannot ignore the possibility of the <![CDATA[<color=purple>Bramble</color>]]> reacting in some violent manner.": "SENNETTI：これ自体は難しいことではないはずだが、誰が死液を運ぶべきだろうか？<![CDATA[<color=purple>イバラ</color>]]>が何らかの暴力的な反応を示す可能性を無視することはできない。&lt;i&gt;&lt;/i&gt;",
         "DITYLUM: I can do it. I know my way around the <![CDATA[<color=purple>Deep Bramble</color>]]>, and I'm sure I can handle whatever happens.": "DITYLUM：私ならできる。<![CDATA[<color=purple>イバラ深部</color>]]>のことは熟知しているし、何が起こっても対処できると確信している。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: If you are certain, then that will be our plan. We will create a specialized mount and injector. The mount will be installed on the node to aid in administering the toxin, and you will be charged with the actual delivery.": "AZOLLA：もしそうおっしゃるのであれば、その計画にしましょう。専用のマウントと注射器を作ります。マウントは死液投与を補助するためにノードに設置し、実際の投与はあなたに担当してもらいます。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I am still hesitant to destroy this node. Its behavior sounds unique.": "NESIA：このノードを破壊するのはまだためらわれる。その挙動は独特のようですから。&lt;i&gt;&lt;/i&gt;",
-        "AZOLLA: We all are, but if the Dree believe it to be a significant threat, then I am inclined to be rid of it.": "AZOLLA：私たちは皆そうですが、もしDreeが重要な脅威だと考えているのなら、私はそれを排除したいのです。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: We all are, but if the Dree believe it to be a significant threat, then I am inclined to be rid of it.": "AZOLLA：私たち皆そう考えていますが、ただもしDreeが重要な脅威だと考えているのなら、私はそれを排除したいのです。&lt;i&gt;&lt;/i&gt;",
         
         //reject_violation
         "OKALIS: I cannot help but feel unnerved by this place. Even given the nature of the <![CDATA[<color=purple>Bramble</color>]]>, I cannot help but feel this place is... unnatural.": "OKALIS：私はこの場所に不安を感じずにはいられない。<![CDATA[<color=purple>イバラ</color>]]>の性質を考えても、この場所が...不自然だと感じずにはいられない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: That may actually be fairly accurate. My analysis of that fluid seems to indicate it is a potent toxin, capable even of killing sections of the <![CDATA[<color=purple>Bramble</color>]]>.": "NESIA：その指摘はかなり正確かもしれません。私の分析によると、その液体は強力な死液で、<![CDATA[<color=purple>イバラ</color>]]>の一部を殺すことさえできるようです。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Based on our observations and the stories of the Dree, the nature of the <![CDATA[<color=purple>Bramble</color>]]> is not like other plants. Where other plants spread seeds to propagate offspring, our thorny friend spreads seeds to propagate <![CDATA[<i>]]>itself<![CDATA[</i>]]>. This node, however, seems to exist in direct contradiction to that.": "NESIA：私たちの観察とDreeの話によると、<![CDATA[<color=purple>イバラ</color>]]>の性質は他の植物とは違う。他の植物が子孫を繁殖させるために種を撒くのに対し、イバラは<![CDATA[<i>]]>自分自身を<![CDATA[</i>]]>増殖するために種を撒くのです。このノードは、しかしながら、それとは正反対に存在しているようです。&lt;i&gt;&lt;/i&gt;",
-        "NESIA: In short, this node is <![CDATA[<i>]]>another Bramble<![CDATA[</i>]]>. This is visible not just in its continued production of the toxin, but also in how the rest of the <![CDATA[<color=purple>Bramble</color>]]> is starving it. The implications of this are... unclear, but we should certainly study this plant.": "NESIA：要するに、このノードは<![CDATA[<i>]]>別のイバラ<![CDATA[</i>]]>なんです。このことはこのノードが死液を生産し続けていることだけでなく、残りの<![CDATA[<color=purple>イバラ</color>]]>がどのようにそのノードを飢えさせているかということでもわかる。このことが何を意味するのかは...不明だが、我々はこの植物を研究すべきでしょう。&lt;i&gt;&lt;/i&gt;",
+        "NESIA: In short, this node is <![CDATA[<i>]]>another Bramble<![CDATA[</i>]]>. This is visible not just in its continued production of the toxin, but also in how the rest of the <![CDATA[<color=purple>Bramble</color>]]> is starving it. The implications of this are... unclear, but we should certainly study this plant.": "NESIA：要するに、このノードは<![CDATA[<i>]]>別のイバラ<![CDATA[</i>]]>なんです。このことはこのノードが死液を生産し続けていることだけでなく、他の<![CDATA[<color=purple>イバラ</color>]]>がどのようにそのノードを飢えさせているかということでもわかる。このことが何を意味するのかは...不明だが、我々はこの植物を研究すべきでしょう。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: I also have that feeling, Okalis. Something here feels definitively different from other locations in this plant.": "SENNETTI：私もそう感じているよ、Okalis。この植物の他の場所とは何かが決定的に違う。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Why would a node capable of producing such a toxin even develop?": "SENNETTI：なぜそのような死液を生産することができるノードが成長できるのだろうか？&lt;i&gt;&lt;/i&gt;",
         "NESIA: It may simply be a random mutation. Still, if such a mutation can create a node that is toxic to the rest of the plant, who knows what other mutations could exist.": "NESIA：単にランダムな突然変異かもしれない。それでも、もしそのような突然変異が植物の他の部分に有害なノードを作ることができるのであれば、他にどんな突然変異が存在しうるかは誰にもわかりません。&lt;i&gt;&lt;/i&gt;",
         
         //start_dimension_recorder
         "NESIA: Unfortunately, it appears that our gamble has not quite paid off how we wanted. It would seem that we are still trapped within this strange place.": "NESIA：残念なことに、私たちの賭けは思うようにはいかなかったようです。私たちはまだこの奇妙な場所に閉じ込められているようです。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: What are we going to do? We have neither the means to return to the <![CDATA[<color=orange>Vessel</color>]]>, nor a source of oxygen. If we do not act quickly, this will almost certainly be our final resting place!": "SENNETTI：どうするんだ？私たちには<![CDATA[<color=orange>船</color>]]>に戻る手段も、酸素源もない。早く行動しなければ、ここが私たちの最後の休息地になるのはほぼ間違いない！&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: What are we going to do? We have neither the means to return to the <![CDATA[<color=orange>Vessel</color>]]>, nor a source of oxygen. If we do not act quickly, this will almost certainly be our final resting place!": "SENNETTI：どうするんだ？私たちには<![CDATA[<color=orange>船</color>]]>に戻る手段も、酸素源もない。早く行動しなければ、ここが私たちの最後の地になるのはほぼ間違いない！&lt;i&gt;&lt;/i&gt;",
         "NESIA: If you squint through the fog, there appear to be holes in the walls that surround us. As much as it pains me to say, we may need to split up in search of oxygen.": "NESIA：霧の中で目を細めると、私たちを囲む壁に穴が開いているように見える。言いたくはないですが、酸素を求めて分かれる必要があるかもしれない。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: I see six holes in the walls, we will each select one and attempt to locate a reliable source of oxygen on the other side. Once one is found, return here and wait to lead the others to it. With any luck, this plan will see us all through this endeavor alive.": "AZOLLA：壁に6つの穴が開いているのが見えるから、それぞれ1つを選んで、向こう側にある信頼できる酸素源を見つけましょう。誰かが見つけたらここに戻り、他の人たちを誘導するのを待つ。運がよければ、この計画で全員生きて帰れるでしょう。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Visibility in this place is far from optimal, so I will leave a signal beacon here to ensure that we can find our way back. If luck is on our side, it may also lead other Nomai to our current location.": "NESIA：この場所は視界が悪いから、帰り道がわかるようにシグナルビーコンを置いておきます。運がよければ、他のNomaiに現在地を知らせることもできるかもしれません。&lt;i&gt;&lt;/i&gt;",
@@ -793,12 +793,12 @@
         
         //call_to_mourn
         "AZOLLA: Okalis, Sennetti, meet Nesia and I at <![CDATA[<color=orange>Graviton's Folly</color>]]> as soon as you can.": "AZOLLA：Okalis、Sennetti、Nesiaと私に<![CDATA[<color=orange>重力子の過ち</color>]]>でできるだけ早く会いましょう。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Can I ask why our presence is required? I am still working on further studying Dree culture.": "SENNETTI：なぜ私たちの出席が必要なのか聞いてもいいですか？私はまだDreeの文化をさらに研究しているところだ。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Can I ask why our presence is required? I am still working on further studying Dree culture.": "SENNETTI：なぜ私たちの出席が必要なのか聞いてもいいか？私はまだDreeの文化をさらに研究しているところだ。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: We have news, but it is news best delivered in person. I'm sorry, but that is all I can say.": "AZOLLA：ニュースがありますが、直接お会いしてお伝えするのが一番です。申し訳ありませんが、それしか言えません。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Understood, I only need to finish a few things before I make my way over.": "OKALIS：わかりました、私は向こうへ行く前にいくつかだけ用事を済ませます。&lt;i&gt;&lt;/i&gt;",
         
         //dictionary_text
-        "SENNETTI: Friends, I have truly impactful news. Through the combined efforts of Ditylum, other Dree, and myself, I have completed my translation of the Dree language!": "SENNETTI：皆さん、本当に衝撃的なニュースがあります。Ditylum、他のDree、そして私自身の努力の結果、Dree語の翻訳が完成しました！&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Friends, I have truly impactful news. Through the combined efforts of Ditylum, other Dree, and myself, I have completed my translation of the Dree language!": "SENNETTI：皆、本当に衝撃的なニュースがある。Ditylum、他のDree、そして私自身の努力の結果、Dree語の翻訳が完成した！&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: I will write the translation dictionary here. If I format it correctly, it should enable our staves to automatically translate Dree writing, which should prove useful as we learn to fully understand the language.": "SENNETTI：ここに翻訳辞書を書きます。正しく書式を整えれば、私たちの杖がDreeの文章を自動的に翻訳できるようになるはずだ。&lt;i&gt;&lt;/i&gt;",
         "<![CDATA[<color=green>Dictionary recognized, updating Nomai translator.</color>]]>": "<![CDATA[<color=green>辞書を認識しました、 Nomai翻訳機を更新しています。</color>]]>&lt;i&gt;&lt;/i&gt;",
         "OKALIS: This is wonderful, Sennetti! Now we can begin communicating with them in earnest!": "OKALIS：素晴らしいことだよ、Sennetti！これで彼らと本格的なコミュニケーションが始められる！&lt;i&gt;&lt;/i&gt;",
@@ -812,33 +812,33 @@
         "AZOLLA: Interesting, what led to that error?": "AZOLLA：興味深いですね、何故そのような間違いがおこったのですか？&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: In our discussions, Ditylum kept using a particular adjective while referring to the group of three anglerfish in one of the nodes near <![CDATA[<color=orange>Shattered Hearth</color>]]>. I had previously assumed this to be an adjective roughly translating to \"aggressive,\" but it apparently means \"neutral\" or \"tame.\"": "SENNETTI：私たちの議論の中で、Ditylumは<![CDATA[<color=orange>砕かれた炉辺</color>]]>の近くにあるノードの1つにいる3匹のアンコウのグループについて言及しながら、ある形容詞を使い続けていた。私はこれを「攻撃的な」という意味の形容詞だと思っていたが、どうやら「中立的な」あるいは「飼いならされた」という意味らしい。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Peculiar. Would this imply that those anglerfish actually are not hostile?": "AZOLLA：奇妙ですね。これは、アンコウたちは実は敵対していないということを意味しているのでしょうか？&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: I believe it does. Do still exercise caution, it is possible I still do not wholly understand the translation.": "SENNETTI：そうだと思います。私がまだ翻訳を完全に理解していない可能性があるので、注意してください。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: I believe it does. Do still exercise caution, it is possible I still do not wholly understand the translation.": "SENNETTI：そうだと思う。私がまだ翻訳を完全に理解していない可能性があるので、注意してほしい。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Don't fret, Sennetti, it happens to the best of us.": "NESIA：心配しないで、Sennetti、誰にだってあることよ。&lt;i&gt;&lt;/i&gt;",
         
         //species_name_reveal
-        "SENNETTI: Exciting news friends! I have made significant progress towards deciphering the language of our new neighbors!": "SENNETTI：エキサイティングなニュースだみんな！私は新しい隣人の言語を解読するために大きな進歩を遂げました！&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Exciting news friends! I have made significant progress towards deciphering the language of our new neighbors!": "SENNETTI：エキサイティングなニュースだみんな！新しい隣人の言語を解読するために大きな進歩を遂げた！&lt;i&gt;&lt;/i&gt;",
         "NESIA: If you do not mind my asking, what particulars of their language have you decrypted?": "NESIA：差し支えなければ、彼らの言語のどこを解読したのですか？&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Mostly common words, such as \"and\" and \"the.\" Notably, however, I have also deciphered certain names! Specifically, the species refer to themselves as the Dree, and the Dree I have been working with is known as Ditylum!": "SENNETTI：\"and \"や \"the \"などの一般的な単語がほとんどです。しかし、特筆すべきは、ある種の名前も解読できたことだ！具体的には、この種族は自分たちのことをDreeと呼び、私が一緒に作業しているDreeはDitylumと呼ばれている！&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Mostly common words, such as \"and\" and \"the.\" Notably, however, I have also deciphered certain names! Specifically, the species refer to themselves as the Dree, and the Dree I have been working with is known as Ditylum!": "SENNETTI：\"and \"や \"the \"などの一般的な単語がほとんどだ。しかし、特筆すべきは、ある種の名前も解読できたことだ！具体的には、この種族は自分たちのことをDreeと呼び、私が一緒に作業しているDreeはDitylumと呼ばれている！&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Good work Sennetti! At this rate, we'll be able to share discoveries with the Dree before too long.": "AZOLLA：よくやりましたSennetti！この調子なら、そう遠くないうちにDreeと発見を共有できるでしょう。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: This is wonderful news Sennetti! Does this mean there will be fewer obstacles in the way of communication?": "OKALIS：これは素晴らしいニュースだSennetti！コミュニケーションの障害が減るということですか？&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Somewhat, but I am still far from completing my translation.": "SENNETTI：多少はね、でもまだ翻訳を完成させるにはほど遠いんだ。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Somewhat, but I am still far from completing my translation.": "SENNETTI：多少はな、でもまだ翻訳を完成させるにはほど遠い。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Would this happen to be the same Dree that we first met?": "OKALIS：もしかして、私たちが最初に会ったのと同じDreeですか？&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: That is correct! It seems he is quite eager to help facilitate communications between our two species.": "SENNETTI：その通り！彼は、私たち2つの種族間のコミュニケーションを円滑にする手助けをしたがっているようだ。&lt;i&gt;&lt;/i&gt;",
         
         //translation_culture_notes
         "SENNETTI: As I'm working on these translations, I cannot help but become more and more fascinated by the Dree's culture.": "SENNETTI：翻訳をしているうちに、Dreeの文化にますます魅了されずにはいられない。&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: For one, the Dree seem to value scientific knowledge much less than us Nomai, instead pursuing more druidic practices. Most of these practices seem to center around the plant that surrounds us, which they simply call the <![CDATA[<color=purple>Bramble</color>]]>": "SENNETTI：ひとつには、Dreeは科学的な知識を私たちNomaiよりも重視していないようで、その代わりに、よりドルイド的な慣習を追求している。これらの慣習のほとんどは、彼らが単純に<![CDATA[<color=purple>イバラ</color>]]>と呼ぶ、私たちを囲んでいる植物を中心に行われているようです。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: For one, the Dree seem to value scientific knowledge much less than us Nomai, instead pursuing more druidic practices. Most of these practices seem to center around the plant that surrounds us, which they simply call the <![CDATA[<color=purple>Bramble</color>]]>": "SENNETTI：ひとつには、Dreeは科学的な知識を私たちNomaiよりも重視していないようで、その代わりに、よりドルイド的な慣習を追求している。これらの慣習のほとんどは、彼らが単純に<![CDATA[<color=purple>イバラ</color>]]>と呼ぶ、私たちを囲んでいる植物を中心に行われているようだ。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: Is this why many of their structures seem to be composed of these woody vines?": "OKALIS：だから、彼らの建造物の多くは木質の蔓で構成されているように見えるのですか？&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Yes. Interestingly, the Dree seem to have some level of unexplained influence over the <![CDATA[<color=purple>Bramble</color>]]>. Rather than constructing buildings out of vines, as we previously assumed, it seems that they... <![CDATA[<i>]]>compel<![CDATA[</i>]]> the vines to grow into specific structures.": "SENNETTI：そうです。興味深いことに、Dreeは<![CDATA[<color=purple>イバラ</color>]]>に対して説明のつかない影響力を持っているようです。私たちが以前想定していたように、蔓で建物を建てるのではなく、どうやら彼らは...蔓が特定の構造物に成長するように<![CDATA[<i>]]>強制<![CDATA[</i>]]>しているようだ。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Yes. Interestingly, the Dree seem to have some level of unexplained influence over the <![CDATA[<color=purple>Bramble</color>]]>. Rather than constructing buildings out of vines, as we previously assumed, it seems that they... <![CDATA[<i>]]>compel<![CDATA[</i>]]> the vines to grow into specific structures.": "SENNETTI：そうだ。興味深いことに、Dreeは<![CDATA[<color=purple>イバラ</color>]]>に対して説明のつかない影響力を持っているようだ。私たちが以前想定していたように蔓で建物を建てるのではなく、どうやら彼らは...蔓が特定の構造物に成長するように<![CDATA[<i>]]>強制<![CDATA[</i>]]>しているようだ。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: Even the planet they call home is only held together because the Dree willed the vines to do so.": "SENNETTI：彼らが故郷と呼ぶ惑星でさえ、Dreeが蔓にそうするように意志を与えたからこそ、まとまっているのだ。&lt;i&gt;&lt;/i&gt;",
         "NESIA: How interesting! I look forward to being able to ask how exactly this ability works, and what else can be done with it!": "NESIA：なんて面白いのでしょう！この能力が具体的にどのように機能するのか、またこの能力で他に何ができるのか、聞けるのを楽しみにしています！&lt;i&gt;&lt;/i&gt;",
         "NESIA: I had been wondering how our cultures might differ, but have been obviously unable to ask.": "NESIA：私たちの文化はどう違うのだろうと思っていたのですが、明確に聞くことができませんでした。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: I seem to recall they referred to it as the <![CDATA[<color=purple>Deep Bramble</color>]]>. Does my memory fail me?": "AZOLLA：<![CDATA[<color=purple>イバラ深部</color>]]>と呼ばれていたように記憶しています。私の記憶違いでしょうか？&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: There is a small distinction to be made. The <![CDATA[<color=purple>Deep Bramble</color>]]> is the area we are in, while the plant itself is referred to as the <![CDATA[<color=purple>Bramble</color>]]>.": "SENNETTI：ちょっとした違いがある。<![CDATA[<color=purple>イバラ深部</color>]]>は私たちがいるエリアですが、植物自体は<![CDATA[<color=purple>イバラ</color>]]>と呼ばれています。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: There is a small distinction to be made. The <![CDATA[<color=purple>Deep Bramble</color>]]> is the area we are in, while the plant itself is referred to as the <![CDATA[<color=purple>Bramble</color>]]>.": "SENNETTI：ちょっとした違いがある。<![CDATA[<color=purple>イバラ深部</color>]]>は私たちがいるエリアだが、植物自体は<![CDATA[<color=purple>イバラ</color>]]>と呼ばれている。&lt;i&gt;&lt;/i&gt;",
         
         //translation_fish_recording
         "SENNETTI: Goodness, Okalis was not lying when he remarked on the terrible beast in this area. That anglerfish is massive!": "SENNETTI：Okalisがこのエリアの恐ろしい獣について語ったのは嘘ではなかった。あのアンコウは巨大だ！&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: Fortunately, it seems the creature is thoroughly domesticated, so it should be no real threat. From what I can gather, this fish is the mother of all others domesticated by the Dree.": "SENNETTI：幸いなことに、この生き物は徹底的に家畜化されているようなので、本当の脅威にはならないはずです。私が調べたところでは、この魚はDreeが家畜化した他の魚の母体だ。&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: Fortunately, it seems the creature is thoroughly domesticated, so it should be no real threat. From what I can gather, this fish is the mother of all others domesticated by the Dree.": "SENNETTI：幸いなことに、この生き物は徹底的に家畜化されているようなので、本当の脅威にはならないはずだ。私が調べたところでは、この魚はDreeが家畜化した他の魚の母体だ。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: From the size of it, it must consume a massive quantity of food just to sustain itself. Even with its sedentary lifestyle, I suspect it would starve if the Dree did not feed it.": "SENNETTI：その大きさからして、自らを維持するためだけに大量の食料を消費しているに違いない。定住生活をしていても、Dreeが餌を与えなければ飢えてしまうのではないだろうか。&lt;i&gt;&lt;/i&gt;",
         
         //translation_funny_recording
@@ -864,7 +864,7 @@
         //DitylumDialogue
         "Thanks for remembering me, but I don't think we're ready yet, I can still hear music coming from the trees. Go on, make sure you get everyone.": "覚えていてくれてありがとう、でもまだ準備はできていないと思う。行って、みんなを呼んできてくれ&lt;i&gt;&lt;/i&gt;",
         "I'm ready to join in whenever you are, but I understand if you have some questions first. Someone as curious as you, it's the least you deserve.": "いつでも参加する準備はできているが、まず質問があるなら構わない。君のような好奇心旺盛な人間には、それくらいは当然だ。&lt;i&gt;&lt;/i&gt;",
-        "Do you regret meeting the Nomai?": "Nomaiとの出会いを後悔していますか？&lt;i&gt;&lt;/i&gt;",
+        "Do you regret meeting the Nomai?": "Nomaiとの出会いを後悔している？&lt;i&gt;&lt;/i&gt;",
         "I'm sorry about what happened to your people.": "君たちの同胞に起きたことは残念だ。&lt;i&gt;&lt;/i&gt;",
         "Did you ever get to see the stars?": "星を見たことは？&lt;i&gt;&lt;/i&gt;",
         "Nobody else here has much to say, why do you?": "ここでは誰も多くを語らないのに、何故あなたは違うの？&lt;i&gt;&lt;/i&gt;",
@@ -878,12 +878,12 @@
         "For what it's worth, I'm sorry about what happened to your people too.": "何はともあれ、あなたの同胞に起きたことは私も残念だ。&lt;i&gt;&lt;/i&gt;",
         "Heh, afraid not, kinda hard to do that without eyes, y'know?": "へっ、残念ながら無い、目がないと難しいからな、そうだろう？&lt;i&gt;&lt;/i&gt;",
         "The Nomai described them a lot though, like billions of deafeningly loud noises, dulled down to gentle whispers by inconceivable distances.": "だがNomaiはそれらについてたくさん述べていた、何十億という耳をつんざくような大音量のノイズが、想像を絶する距離によって穏やかなささやき声にまで鈍ったようだ、といったように。&lt;i&gt;&lt;/i&gt;",
-        "Even if they did ultimately do us in, they sound like they were quite a wonder to behold.": "たとえ最終的にそれらが我々を破滅させたとしても、それらは見る者を大いに驚かせたのだろう。&lt;i&gt;&lt;/i&gt;",
+        "Even if they did ultimately do us in, they sound like they were quite a wonder to behold.": "たとえ最終的にそれらが我々を破滅させたのだとしても、それらは見る者を大いに驚かせたのだろう。&lt;i&gt;&lt;/i&gt;",
         "I'm not sure, honestly. Maybe it has something to do with you not knowing me as much as the others, so there are more blanks to fill in.": "正直なところ、よくわからない。たぶん、あなたが他の人たちほど私のことを知らないので、埋めるべき空白が多くなっていることと関係があるのかもしれない。&lt;i&gt;&lt;/i&gt;",
         "Maybe I was the only one technically alive when you entered the Eye, so I came here in a more complete state.": "たぶん、あなたが眼に入ったとき、物理的に生きていたのは私だけだったから、より完全な状態でここに来たんだと思う。&lt;i&gt;&lt;/i&gt;",
         "I think it's fitting though. You stayed and kept me company when I was the last of my people, and now I get to return the favor.": "でも、それがふさわしいと思う。私が最後の一人になってしまったとき、あなたは私と一緒にいてくれた。そして今その恩返しをしよう。&lt;i&gt;&lt;/i&gt;",
         "You ready for me to start? I've been waiting quite a while to get to sing with others again.": "準備はいいかい？またみんなと歌えるのをずっと待っていたんだ。&lt;i&gt;&lt;/i&gt;",
-        "Yes.": "そうだ。&lt;i&gt;&lt;/i&gt;",
+        "Yes.": "どうぞ。&lt;i&gt;&lt;/i&gt;",
         "Not yet.": "まだだ。&lt;i&gt;&lt;/i&gt;",
         "Sounds good. Let's see what happens next!": "いい感じだ。次に何が起こるか見てみよう&lt;i&gt;&lt;/i&gt;",
         "No shame in waiting, none of us are going anywhere.": "待つことは恥ではない、我々はどこにも行かない。&lt;i&gt;&lt;/i&gt;",
@@ -893,7 +893,7 @@
         "No.": "いや。&lt;i&gt;&lt;/i&gt;",
         "I hope so.": "そう願うよ。&lt;i&gt;&lt;/i&gt;",
         "Heh, I bet you're right. Wouldn't be a very lively universe without that, right?": "へっ、あなたが正しい方にかけよう。それがなかったら、とても活気のある宇宙にはならない、そうだよな？&lt;i&gt;&lt;/i&gt;",
-        "That's fair. I don't think I agree though. I think they'll find each other, one way or another.": "それは公平だ。でも、私はそうは思わない。いずれにせよ、彼らはお互いを見つけると思う。&lt;i&gt;&lt;/i&gt;",
+        "That's fair. I don't think I agree though. I think they'll find each other, one way or another.": "それは公平だ。でも、私はそうは思わない。彼らはお互いを見つけると思う、いずれにせよね。&lt;i&gt;&lt;/i&gt;",
         "Me too. Guess there's only one way for them to find out, huh?": "私もだ。彼らがそれを知る方法は一つしかないと思う、なあ？&lt;i&gt;&lt;/i&gt;",
         "Go on then. We set it up, but I think this next part is all you.": "行ってくれ。準備は整ったけど、次のパートはあなた次第だと思う。&lt;i&gt;&lt;/i&gt;",
         
@@ -903,7 +903,7 @@
         //PlaqueText
         "Not all of the Nomai made it onto one of the three escape pods. While many perished in the initial crash of the Vessel, four ended up warping deeper into the Bramble.": "すべてのNomaiが3つの脱出ポッドのいずれかに乗り込んだわけではない。多くのNomaiは最初の衝突で命を落としたが、4人はイバラの奥深くまでワープしていった。&lt;i&gt;&lt;/i&gt;",
         "They met another species named the Dree, and the two groups shared their cultures with one another. Together, they made a plan to reach the Eye of the Universe.": "彼らはDreeという別の種族と出会い、2つのグループは互いに文化を共有した。彼らは共に宇宙の眼に到達する計画を立てた。&lt;i&gt;&lt;/i&gt;",
-        "Unfortunately, this plan failed, killing the four Nomai and all of the Dree, save one who was not present at the time.": "残念ながらこの計画は失敗し、4人のNomaiと、その場にいなかった1人を除くDree全員が死亡した。&lt;i&gt;&lt;/i&gt;",
+        "Unfortunately, this plan failed, killing the four Nomai and all of the Dree, save one who was not present at the time.": "残念ながらこの計画は失敗し、4人のNomaiとDree全員が死亡し、その場にいなかった1人だけが生き残った。&lt;i&gt;&lt;/i&gt;",
         
         //ShipWarpDialogue
         "Oh, hey! I almost forgot! You know how your ship is outfitted with a warp drive you can use from the ship log?": "そうだ！忘れるところだった！お前の船には、航行記録から使用できるワープドライブが装備されているな？&lt;i&gt;&lt;/i&gt;",
@@ -922,7 +922,7 @@
         "OKALIS: Yes it is, although this seems to be the only functional black hole core left in the <![CDATA[<color=orange>Vessel</color>]]>.": "OKALIS：はい。しかし、これは<![CDATA[<color=orange>船</color>]]>に残っていた中で動作する唯一のブラックホールコアのようです。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Okay then, go ahead and slot it into place and we will see if this somehow works.": "NESIA：よし、じゃあ、それを所定の位置にはめ込んで、どうにかうまくいくかどうか見てみましょう。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Wait, how did that work? It should be completely impossible for that to function!": "NESIA：待って、どうやって機能したの？あれが機能するのは完全に不可能なはずです！&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: Yes! I told you it was worth attempting!": "OKALIS：よし！挑戦する価値があると言ったはずです！&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: Yes! I told you it was worth attempting!": "OKALIS：ええ！挑戦する価値があると言ったはずです！&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: That means we can escape! I can not wait to reunite with the rest of our clan, I had started to worry that we would never see them again.": "SENNETTI：ということは、脱出できるということだ！他の部族と再会するのが待ちきれないよ。もう二度と会えないんじゃないかと心配し始めていたんだ。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Let us not delay then, there is no telling how long that core will be able to hold the singularity open. Everyone, go through!": "AZOLLA：それじゃあ遅れないように、コアがいつまで特異点を維持できるかわからない。みんな、通って！&lt;i&gt;&lt;/i&gt;",
         
@@ -930,15 +930,15 @@
         "OKALIS: So, what exactly is our plan of escape? Do we try to fly out?": "OKALIS：それで、私たちの脱出計画はどうなっているの？飛んでいくの？&lt;i&gt;&lt;/i&gt;",
         "NESIA: I fear that such a contemporary strategy may not work here, the <![CDATA[<color=orange>Vessel</color>]]> is registering very strange readings from the surrounding environment. It is possible that space does not function normally here.": "NESIA：そのような現代的な戦略は、ここでは通用しないかもしれないと危惧しています。<![CDATA[<color=orange>船</color>]]>は、周囲の環境から非常に奇妙な測定値を記録しています。ここでは空間が正常に機能していない可能性があります。&lt;i&gt;&lt;/i&gt;",
         "SENNETTI: What are we to do then? The warp core is damaged, so we can not simply warp out the <![CDATA[<color=orange>Vessel</color>]]>.": "SENNETTI：ではどうすればいいんだ？ワープコアが損傷しているので、単純に<![CDATA[<color=orange>船</color>]]>からワープで脱出することはできない。&lt;i&gt;&lt;/i&gt;",
-        "OKALIS: ...Perhaps we still can. We have many smaller warp cores throughout the <![CDATA[<color=orange>Vessel</color>]]>, perhaps we can use a black hole core to escape.": "OKALIS: ...まだできるかもしれない。<![CDATA[<color=orange>船</color>]]> の至るところに小さなワープコアがたくさんあるから、ブラックホールコアを使って脱出できるかもしれない。&lt;i&gt;&lt;/i&gt;",
+        "OKALIS: ...Perhaps we still can. We have many smaller warp cores throughout the <![CDATA[<color=orange>Vessel</color>]]>, perhaps we can use a black hole core to escape.": "OKALIS: ...まだできるかもしれない。<![CDATA[<color=orange>船</color>]]>の至るところに小さなワープコアがたくさんあるから、ブラックホールコアを使って脱出できるかもしれない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I do not believe that such an endeavor would succeed. A warp requires both a black and white hole, and we have no core with which to establish a white hole.": "NESIA：そのような試みが成功するとは思いません。ワープにはブラックホールとホワイトホールの両方が必要ですが、私たちにはホワイトホールを作るためのコアがありません。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: I believe that it is still worth attempting, especially seeing as we currently do not have better ideas.": "OKALIS：特に今のところ良いアイデアがない以上、まだ試みる価値があると思っています。&lt;i&gt;&lt;/i&gt;",
         "NESIA: I will concede that it is currently the best idea we have.": "NESIA：今のところ、それが最善のアイデアであることは認めましょう。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: It is settled then, we will attempt to construct a makeshift warp device using one of the smaller black hole cores. I suggest that we do this in the lower bridge, as that area is both near the existing warp circuitry, and it should be easy to create a small area of artificial gravity down there so that we can work.": "AZOLLA：では、小型のブラックホール・コアの1つを使って、間に合わせのワープ装置を作ることにしましょう。下部のブリッジで行うことを提案します。そのエリアは既存のワープ回路に近く、小さな人工重力エリアを作るのも簡単なので、作業ができるはずです。&lt;i&gt;&lt;/i&gt;",
         
         //tangledtext
-        "AZOLLA: What are you all still doing here? You should be on an escape pod and leaving!": "AZOLLA： あなたたち、まだここで何してるの？脱出ポッドに乗って出て行くべきです！&lt;i&gt;&lt;/i&gt;",
-        "SENNETTI: We tried, but the pod on the far side of the ship is entirely blocked off. We can not reach it.": "SENNETTI： 試してみましたが、船の反対側にあるポッドは完全にブロックされている。到達できない。&lt;i&gt;&lt;/i&gt;",
+        "AZOLLA: What are you all still doing here? You should be on an escape pod and leaving!": "AZOLLA：あなたたち、まだここで何してるの？脱出ポッドに乗って出て行くべきです！&lt;i&gt;&lt;/i&gt;",
+        "SENNETTI: We tried, but the pod on the far side of the ship is entirely blocked off. We can not reach it.": "SENNETTI：試してみましたが、船の反対側にあるポッドは完全にブロックされている。到達できない。&lt;i&gt;&lt;/i&gt;",
         "NESIA: Unfortunately, that seems to also be true of the pod on this side. We seem to be stranded.": "NESIA：残念ながら、それはこちら側のポッドにも当てはまるようだ。我々はここに取り残されたようだ。&lt;i&gt;&lt;/i&gt;",
         "OKALIS: How are we going to escape from this place? The <![CDATA[<color=orange>Vessel</color>]]> is our only source of oxygen, so we are unable to just fly away from it.": "OKALIS：ここからどうやって脱出しよう？<![CDATA[<color=orange>船</color>]]>は私たちの唯一の酸素源だから、単純にここから離れることはできない。&lt;i&gt;&lt;/i&gt;",
         "AZOLLA: Despite the frightful appearance of our environment, we do not seem to be in any immediate danger. We should regroup on the bridge and come up with a plan from there.": "AZOLLA：この恐ろしい環境ではあるが、ただちに危険にさらされることはなさそうです。ブリッジで再編成し、そこから計画を練りましょう。"
@@ -954,7 +954,7 @@
         "I was able to ride a quantum rock from Magma's Recursion to Bramble's Heart.": "マグマの再帰から《イバラの心臓》まで量子の石に乗って行くことができた。",
         "One of the Dree stated that this area is the heart of the Bramble.": "Dreeの一人はこのエリアがイバラの中心だと述べた。",
         "The Nomai wanted to combine the Dree's druidcraft with the Eye's signal to force a Bramble node to appear near the Eye of the Universe.": "NomaiはDreeのドルイド術と眼の信号を組み合わせて宇宙の眼の近くにイバラのノードを出現させようとした。",
-        "All of the Dree would be needed to do this, as it would take all of their power to coax the Bramble into doing what they wanted. It would also have to be done at a time when the Bramble was the most aggreeable.": "全てのDreeがドルイド術をする必要があり、イバラをなだめすかして思い通りにするためにはDree全員の力が必要だった。また、イバラが最も攻撃的な時期に行う必要があった。",
+        "All of the Dree would be needed to do this, as it would take all of their power to coax the Bramble into doing what they wanted. It would also have to be done at a time when the Bramble was the most aggreeable.": "全てのDreeがドルイド術を行使する必要があり、イバラをなだめすかして思い通りにするためにはDree全員の力が必要だった。また、イバラが最も攻撃的な時期に行う必要があった。",
         "I found the skeletons of the Nomai and Dree in a scorched room. It seems that something with the project went wrong, killing them all.": "焦げた部屋でNomaiとDreeの骸骨を見つけた。どうやらプロジェクトがうまくいかず、全員死んでしまったようだ。",
         "A Dree named Ditylum was expected to be present for the experiment, but failed to return from an errand in time.": "Ditylumという名のDreeが実験に立ち会うはずだったが、用事から戻れず間に合わなかった。",
         "I encountered Ditylum, who mourned the loss of his people and the Nomai.": "Ditylumに出くわした。Ditylumは同族やNomaiの喪失を嘆いていた。",
@@ -1045,7 +1045,7 @@
         "The Nomai discovered that the center of the core contains a small, delicate crystal. They decided not to study it too extensively, as almost any interference was likely to damage it.": "Nomaiたちはコアの中心に小さく壊れやすいクリスタルがあることを発見した。どのような干渉でもダメージを与える可能性があるため、あまり広範囲に研究しないことにした。",
         "To reach the center of the core, all of the beam switches need to be up, except for the second and the second-to-last.": "コアの中央に到達するためには、2番目と最後から2番目以外のビームスイッチがすべて上にある必要がある。",
         "The center of the core is a hollow chamber, with a single, large crystal floating at its center.": "コアの中心は空洞になっており、その中心に大きなクリスタルがひとつ浮かんでいる。",
-        "The crystal cracked when I interacted with it, which seemed to cause the entire planet to lose its gravity.": "そのクリスタルに触れるとヒビが入り、それが惑星全体の重力喪失を引き起こしたようだ。", 
+        "The crystal cracked when I interacted with it, which seemed to cause the entire planet to lose its gravity.": "そのクリスタルに触れるとひびが入り、それが惑星全体の重力喪失を引き起こしたようだ。", 
         "I found some sort of lab on the inner surface of Graviton's Folly.": "重力子の過ちの内側に何らかの研究所を見つけた。",
         
         "Core Lab": "コア研究所",
@@ -1136,7 +1136,7 @@
         //shattered_hearth_log
         "Concert Hall": "コンサートホール",
         "I read that I can repair the broken crystal in the Soil Lab in some sort of concert hall.": "土質研究所の壊れたクリスタルは、コンサートホールのようなところで修理できると書いてあった。",
-        "The Nomai theorized that the aliens may have specialized singing organs.": "Nomaiは異星人は特別な声帯器官を持っているのではないかと考えた。",
+        "The Nomai theorized that the aliens may have specialized singing organs.": "Nomaiは異星人が特別な声帯器官を持っているのではないかと考えた。",
         "One of the Nomai did not attend the show, as he was busy translating the alien's language in a lab.": "Nomaiの一人は、研究室で異星人の言語を翻訳するのに忙しく、ショーには参加しなかった。",
         "There are five large bells near the stage, with a hexagonal slot above each. The leftmost bell is broken on the ground.": "ステージの近くに5つの大きなベルがあり、それぞれの上に6角形のスロットがある。一番左のベルは地面で壊れている。",
         "There is text alluding to a way to fix gravity crystals, but not all of the text is written in Nomai.": "重力クリスタルを固定する方法を暗示する文があるが、すべてがNomai語で書かれているわけではない。",
@@ -1186,57 +1186,96 @@
         "I was able to use a warp core to activate the makeshift warp device. When I went through, my suit was able to record the signature of the black hole so that the interstellar drive on my ship can take me to the other system.": "ワープコアを使い、間に合わせのワープ装置を作動させることができた。ワープしたとき、私のスーツはブラックホールの識別子を記録することができ、私の船のインターステラードライブで別の星系に移動できるようになった。"
     },
 
-  "UIDictionary": {
-    "Ditylum": "Ditylum",
-    "DeepBramble": "イバラ深部",
-    "Bramble's Doorstep": "イバラの扉口",
-    "Briar's Hollow": "イバラの空洞",
-    "Titan's Tears": "タイタンのしずく",
-    "Lover's Rock": "恋人の岩場",
-    "Graviton's Folly": "重力子の過ち",
-    "Shattered Hearth": "砕かれた炉辺",
-    "Parent's Rest": "保護者の休息",
-    "The Nursery": "子ども部屋",
-    "The Venomous Reject": "邪悪の拒絶",
-    "Bright Hollow": "輝く空洞",
-    "Magma's Recursion": "マグマの再帰",
-    "Bramble's Heart": "イバラの心臓",
-    "Nomai Trailmarkers": "Nomaiの足跡信号",
-    "First Marker": "第一マーカー",
-    "Camp Marker": "キャンプのマーカー",
-    "Natural Phenomena": "自然現象",
-    "Amplified Ambience": "増幅された気配",
-    "Gravitational Anomaly": "重力異常",
-    "Echolocation Tones": "エコロケーションの音色",
-    "Warped Echolocation": "歪んだエコロケーション",
-    "Ditylum Echolocation": "Ditylumのエコロケーション",
-    "Hot Shard": "熱い破片",
-    "Alien Echolocation": "異星人のエコロケーション",
-    "Geothermal Activity": "地熱活動",
+    "UIDictionary": {
+      "Ditylum": "Ditylum",
+      "DeepBramble": "イバラ深部",
+      "Bramble's Doorstep": "イバラの扉口",
+      "Briar's Hollow": "イバラの空洞",
+      "Titan's Tears": "タイタンのしずく",
+      "Lover's Rock": "恋人の岩場",
+      "Graviton's Folly": "重力子の過ち",
+      "Shattered Hearth": "砕かれた炉辺",
+      "Parent's Rest": "保護者の休息",
+      "The Nursery": "子ども部屋",
+      "The Venomous Reject": "邪悪の拒絶",
+      "Bright Hollow": "輝く空洞",
+      "Magma's Recursion": "マグマの再帰",
+      "Bramble's Heart": "イバラの心臓",
+      "Nomai Trailmarkers": "Nomaiの足跡信号",
+      "First Marker": "第一マーカー",
+      "Camp Marker": "キャンプのマーカー",
+      "Natural Phenomena": "自然現象",
+      "Amplified Ambience": "増幅された気配",
+      "Gravitational Anomaly": "重力異常",
+      "Echolocation Tones": "エコロケーションの音色",
+      "Warped Echolocation": "歪んだエコロケーション",
+      "Ditylum Echolocation": "Ditylumのエコロケーション",
+      "Hot Shard": "熱い破片",
+      "Alien Echolocation": "異星人のエコロケーション",
+      "Geothermal Activity": "地熱活動",
 
-    "Flip Lever": "レバーを切り替える",
-    "Press": "押す",
-    "Pet": "なでる",
-    "Sit": "座る",
-    "Grab": "つかむ",
+      "Flip Lever": "レバーを切り替える",
+      "Press": "押す",
+      "Pet": "なでる",
+      "Sit": "座る",
+      "Grab": "つかむ",
 
-    "Gravity Crystal": "重力クリスタル",
-    "Toxin Injector": "死液注入器",
+      "Gravity Crystal": "重力クリスタル",
+      "Toxin Injector": "死液注入器",
 
-    "WARNING: FLAMMABLE GAS DETECTED": "警告：可燃性ガスを検知",
-    "WARNING: EXCESSIVE HEAT DETECTED": "警告：過度の熱を検知",
-    "RECALL REQUEST UNACKNOWLEDGED": "偵察機応答なし",
-    "SCOUT RECALL COMPLETED": "偵察機回収完了",
+      "WARNING: FLAMMABLE GAS DETECTED": "警告：可燃性ガスを検知",
+      "WARNING: EXCESSIVE HEAT DETECTED": "警告：過度の熱を検知",
+      "RECALL REQUEST UNACKNOWLEDGED": "偵察機応答なし",
+      "SCOUT RECALL COMPLETED": "偵察機回収完了",
 
-    "Signal: ": "信号: ",
-    "<!> Untranslated Dree writing <!>": "<!> 未翻訳のDree言語 <!>",
+      "Signal: ": "信号: ",
+      "<!> Untranslated Dree writing <!>": "<!> 未翻訳のDree言語 <!>",
 
-    "Forgotten Castaways": "Forgotten Castaways",
+      "Forgotten Castaways": "Forgotten Castaways",
 
-    "YOU WERE BOTH CONSUMED BY A FOREIGN STAR": "KOREAN_ENDING1_TEXT",
-    "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": "KOREAN_ENDING2_TEXT",
-    "THE BRAMBLE CLAIMS ANOTHER": "KOREAN_ENDING3_TEXT"
-  }
+      "YOU WERE BOTH CONSUMED BY A FOREIGN STAR": "あなたも異星に飲み込まれた",
+      "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": "少なくとも、種の最後の生き残りになったのはあなただけではない",
+      "THE BRAMBLE CLAIMS ANOTHER": "イバラは他の犠牲を求めている"
+    },
+
+    // Achievement Translations must be defined in /DeepBramble/achievements/
+    // The translation in this file does not work.But put it here for easy reference.
+    "AchievementTranslations": {
+      "FC.JUKE_FISH": {
+        "Name": "船は必要ない",
+        "Description": "幼魚に船を噛ませることなく翻訳研究所の言語書を読む。"
+      },
+      "FC.DOUBLE_WARP": {
+        "Name": "待て、毎回こうする必要はないのでは？",
+        "Description": "船を使ってイバラ深部に2回訪れる。"
+      },
+      "FC.ERNESTO": {
+        "Name": "ここにいたのか！",
+        "Description": "Ernestoに話しかける。"
+      },
+      "FC.GEYSER": {
+        "Name": "第4度熱傷",
+        "Description": "間欠泉から吹き出す溶岩に触り生き残る。"
+      },
+      "FC.MARSHMALLOW": {
+        "Name": "もう十分に暑い",
+        "Description": "棒を伸ばすことなく調理されたマシュマロを食べる。"
+      },
+      "FC.SCROLL_HAUL": {
+        "Name": "どこに壁があるかは知ってるよ！",
+        "Description": "量子洞窟からOuter Wildsにスクロールを持っていき、そこで読む。"
+      },
+      "FC.PET": {
+        "Name": "いい子たちだ！",
+        "Description": "なでることができる魚たちを一度のループで全てなでる。"
+      },
+      "FC.BABY_BITE": {
+        "Name": "アマチュア針師",
+        "Description": "幼魚が取り付いた状態で30秒間生き残る。"
+      },
+      "FC.BABY_TAXI": {
+        "Name": "責任ある子育て",
+        "Description": "船を使って全ての幼魚を子ども部屋まで連れて行く。"
+      }
+    }
 }
-  
-  
