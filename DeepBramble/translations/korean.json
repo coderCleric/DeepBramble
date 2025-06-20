@@ -262,8 +262,8 @@
     "KARENIA: Hold on, I'll ask.": "카레니아: 잠시만요, 물어볼게요.",
     "KARENIA: I... I'm so sorry, but I'm hearing echoes of that name. The <![CDATA[<color=purple>Bramble</color>]]> only ever learns a name when it claims the person it belongs to. It seems that they were caught without air and asphyxiated.": "카레니아: 전... 미안하지만 그 이름이 계속 들려요. <![CDATA[<color=purple>가시덤불</color>]]>은 생명체를 잡아먹어야만 이름을 알게 돼요. 공기 없이 잡혀서 질식사한 것 같아요.",
     "NESIA: No. No, please, are you certain that she perished? There is no mistaking it?": "네시아: 아니, 아니, 제발, 그녀가 죽은 게 확실한가요? 실수 하신거 아니에요?",
-    "KARENIA: I'm sorry, but the vines are very clear. Was she someone that you knew?": "카레니아: 죄송하지만 덩굴의 목소리가 너무 선명해요. 아는 노마이였나요?",
-    "NESIA: She is... She was my love. I'm sorry, I. I can't...": "네시아: 그녀는... 제 사랑이었어요. 미안해요. 저- 저는 못...",
+    "KARENIA: I'm sorry, but the vines are very clear. Was she someone that you knew?": "카레니아: 죄송하지만, 가시덤불의 목소리가 너무 선명해요. 아는 노마이였나요?",
+    "NESIA: She is... She was my love. I'm sorry, I. I can't...": "네시아: 그녀는... 제 연인이었어요. 미안해요. 저- 저는 못...",
     "KARENIA: Wait! Nesia! Where are you going?!": "카레니아: 잠깐! 네시아! 어디 가는 거예요?!",
 
     //concert_hall_recording
@@ -1233,11 +1233,11 @@
     "Forgotten Castaways": "Forgotten Castaways", //I'll leave this in English. That would be better.
 
     "Signal: ": "신호: ",                          
-    "<!> Untranslated Dree writing <!>": "<!> 번역되지 않은 드리 글 <!>" ,
+    "<!> Untranslated Dree writing <!>": "<!> 번역되지 않은 드리 글 <!>",
 
-    "YOU WERE BOTH CONSUMED BY A FOREIGN STAR": "당신과 드리는 외계의 별에게 삼켜졌다.",
-    "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": "적어도 당신은 당신 종족의 마지막은 아니었지만",
-    "THE BRAMBLE CLAIMS ANOTHER": "가시덤불은 다른 하나를 삼켰다."
+    "YOU WERE BOTH CONSUMED BY A FOREIGN STAR": "당신과 드리는 낯선 우주의 별에게 삼켜졌다.",
+    "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": "적어도 지금이 당신의 종족의 마지막 순간은 아니었지만",
+    "THE BRAMBLE CLAIMS ANOTHER": "다른 한 종족은 가시덤불과 하나가 되었다."
   },
   
     "AchievementTranslations": {
@@ -1246,7 +1246,7 @@
       "Description": "아기 물고기가 우주선을 물지 않고 번역 연구소의 글을 읽으세요."
     },
     "FC.DOUBLE_WARP": {
-      "Name": "잠깐, 이 짓을 안 해도 된다고?",
+      "Name": "잠깐, 이 짓을 안 해도 됐다고?",
       "Description": "노마이 함선을 통해서 깊은 가시덤불에 두 번 들어가세요."
     },
     "FC.ERNESTO": {
