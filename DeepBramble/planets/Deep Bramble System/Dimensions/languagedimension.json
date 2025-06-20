@@ -146,7 +146,12 @@
         "parentPath": "Sector/ernesto_fish/baby_fish",
         "rename": "ernesto_dialogue",
         "isRelativeToParent": true,
-        "radius": 0.5,
+        "position": {
+          "x": 0,
+          "y": 0.094,
+          "z": 0.132
+        },
+        "radius": 0.7,
         "range": 3,
         "xmlFile": "planets/Deep Bramble System/Dialogue/ernesto.xml"
       }

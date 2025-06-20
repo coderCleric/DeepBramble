@@ -74,6 +74,8 @@ namespace DeepBramble
             heatNotifPosted = false;
             muteMusic = false;
 
+            //Reset achievements
+            AchievementHelper.Reset();
 
             //If needed, check if we need to reveal the starting rumor of the mod
             if (ForgottenLocator.revealStartingRumor)
@@ -223,7 +225,18 @@ namespace DeepBramble
             if(ForgottenLocator.inBrambleSystem && muteMusic && __instance.GetTrack() == OWAudioMixer.TrackName.Music 
                 && !__instance.gameObject.name.Equals("EndTimesSource"))
                 __instance.SetMaxVolume(0);
-        } 
+        }
+
+        /**
+         * Give the custom ending if the player escapes the nova via the deep bramble
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(GameOverController), nameof(GameOverController.OnTriggerDeathByVoid))]
+        public static void EscapeViaDeepBramble(GameOverController __instance)
+        {
+            if(ForgottenLocator.inBrambleSystem)
+                __instance._deathText.text = TranslationHandler.GetTranslation("THE BRAMBLE CLAIMS ANOTHER", TranslationHandler.TextType.UI);
+        }
 
         //################################# Doing node braking #################################
         [HarmonyPostfix]
@@ -401,24 +414,39 @@ namespace DeepBramble
             OuterFogWarpVolume outerWarp = __instance as OuterFogWarpVolume;
             if(outerWarp != null && outerWarp == ForgottenLocator.dilationOuterWarp)
             {
-                //If it's the player, kill them
                 if (detector.CompareName(FogWarpDetector.Name.Player) || (detector.CompareName(FogWarpDetector.Name.Ship) && PlayerState.IsInsideShip()))
                 {
-                    Locator.GetShipLogManager().RevealFact("FASTFORWARD_RUMOR_FC");
-                    Locator.GetDeathManager().KillPlayer(DeathType.TimeLoop);
-                    OWRigidbody playerBody = Locator.GetPlayerBody();
-                    Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
-                    playerBody.SetVelocity(wantedVel);
-                    ForgottenLocator.dilatedDitylum.LookAtPlayer();
-
-                    //Also, reveal the signal
-                    if (!PlayerData.KnowsFrequency(ForgottenLocator.dilatedSignal._frequency))
+                    //If the time loop is inactive, wait some time and then supernova (waiting is done by dity)
+                    if (!TimeLoop.IsTimeLoopEnabled())
                     {
-                        ForgottenLocator.dilatedSignal.IdentifyFrequency();
+                        OWInput.ChangeInputMode(InputMode.None);
+                        Locator.GetPauseCommandListener().AddPauseCommandLock();
+                        OWRigidbody playerBody = Locator.GetPlayerBody();
+                        Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
+                        playerBody.SetVelocity(wantedVel);
+                        ForgottenLocator.dilatedDitylum.LookAtPlayer();
+                        ForgottenLocator.dilatedDitylum.supernovaTime = Time.time + 4f;
                     }
-                    if (!PlayerData.KnowsSignal(ForgottenLocator.dilatedSignal._name))
+
+                    //Otherwise, kill via loop
+                    else
                     {
-                        ForgottenLocator.dilatedSignal.IdentifySignal();
+                        Locator.GetShipLogManager().RevealFact("FASTFORWARD_RUMOR_FC");
+                        Locator.GetDeathManager().KillPlayer(DeathType.TimeLoop);
+                        OWRigidbody playerBody = Locator.GetPlayerBody();
+                        Vector3 wantedVel = playerBody.GetVelocity().normalized * 3;
+                        playerBody.SetVelocity(wantedVel);
+                        ForgottenLocator.dilatedDitylum.LookAtPlayer();
+
+                        //Also, reveal the signal
+                        if (!PlayerData.KnowsFrequency(ForgottenLocator.dilatedSignal._frequency))
+                        {
+                            ForgottenLocator.dilatedSignal.IdentifyFrequency();
+                        }
+                        if (!PlayerData.KnowsSignal(ForgottenLocator.dilatedSignal._name))
+                        {
+                            ForgottenLocator.dilatedSignal.IdentifySignal();
+                        }
                     }
                 }
 
@@ -951,6 +979,10 @@ namespace DeepBramble
             if(__instance.transform.parent.gameObject == ForgottenLocator.brambleSingularity && hitCollider.attachedRigidbody.CompareTag("Player"))
             {
                 ForgottenLocator.vanishShip = true;
+
+                //Grant the related achievement if they've been to the system
+                if (PlayerData._currentGameSave.GetPersistentCondition("DeepBrambleFound"))
+                    AchievementHelper.GrantAchievement("FC.DOUBLE_WARP");
             }
         }
 
@@ -1174,42 +1206,80 @@ namespace DeepBramble
         }
 
         /**
-         * Make sure that we fetch the correct audio clip
+         * When somebody else starts fading, ditylum should as well
          */
-        [HarmonyPrefix]
-        [HarmonyPatch(typeof(QuantumCampsiteController), nameof(QuantumCampsiteController.GetTravelerMusicEndClip))]
-        public static bool GetEndMusic(QuantumCampsiteController __instance, ref AudioClip __result)
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(TravelerEyeController), nameof(TravelerEyeController.OnCrossfadeToFinale))]
+        public static void FadeDitylum()
         {
-            //Ditylum isn't there, don't change anything
-            if (!EyeSystemHelper.doEyeStuff)
+            if(EyeSystemHelper.ditySource != null && !EyeSystemHelper.dityFadeStarted)
             {
-                DeepBramble.debugPrint("No Ditylum, doing default method");
-                return true;
+                EyeSystemHelper.dityFadeStarted = true;
+                EyeSystemHelper.ditySource.FadeIn(5);
             }
+        }
 
-            //Otherwise, use flags to determine what clip to use
-            bool prisonerPresent = __instance._hasMetPrisoner && !__instance._hasErasedPrisoner;
-            __result = EyeSystemHelper.onlyDity; //Default is only Ditylum is there
-            if (__instance._hasMetSolanum && prisonerPresent) //Both others are there
-            {
-                DeepBramble.debugPrint("Playing music for everyone");
-                __result = EyeSystemHelper.withBoth;
-            }
-            else if (__instance._hasMetSolanum) //Only Solanum made it
-            {
-                DeepBramble.debugPrint("Sol and dity");
-                __result = EyeSystemHelper.withSol;
-            }
-            else if (prisonerPresent) //Only prisoner made it
-            {
-                DeepBramble.debugPrint("Pris and dity");
-                __result = EyeSystemHelper.withPrisoner;
-            }
-            else
-                DeepBramble.debugPrint("Playing music for only dity");
+        //################################# Achievement Things #################################
+        /**
+         * Listen for specific log entries and conditions to grant different achievements
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(ShipLogManager), nameof(ShipLogManager.RevealFact))]
+        public static void GrantLogAchievement(string id)
+        {
+            //If the player reads the dictionary with no fish on the ship, give that achievement
+            if(id.Equals("TRANSLATOR_UPGRADE_FACT_FC") && AchievementHelper.fishLatched <= 0)
+                AchievementHelper.GrantAchievement("FC.JUKE_FISH");
 
-            //Don't run the original method
-            return false;
+            //If the player learns about the rock blocking and is not in the deep bramble, grant that achievement
+            if (id.Equals("BLOCKABLE_ROCK_FOREIGN_FACT_FC") && !ForgottenLocator.inBrambleSystem)
+                AchievementHelper.GrantAchievement("FC.SCROLL_HAUL");
+        }
+
+        /**
+         * When a mallow is spawned, reset whether the stick has been extended
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(Marshmallow), nameof(Marshmallow.SpawnMallow))]
+        public static void ResetStickExtension()
+        {
+            AchievementHelper.stickExtendedThisMallow = false;
+        }
+
+        /**
+         * Detect when the stick has been extended
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(RoastingStickController), nameof(RoastingStickController.UpdateExtension))]
+        public static void DetectStickExtension(RoastingStickController __instance)
+        {
+            if (__instance._extendFraction > 0)
+                AchievementHelper.stickExtendedThisMallow = true;
+        }
+
+        /**
+         * Detect when a mallow is eaten and grant the achievement if earned
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(Marshmallow), nameof(Marshmallow.Eat))]
+        public static void DetectMallowEat(Marshmallow __instance)
+        {
+            //Only grant if it's unburnt and they didn't extend the stick
+            if (!__instance.IsBurned() && !AchievementHelper.stickExtendedThisMallow)
+                AchievementHelper.GrantAchievement("FC.MARSHMALLOW");
+        }
+
+        /**
+         * Detect when the ship enters the nursery and grant the achievement if necessary
+         */
+        [HarmonyPostfix]
+        [HarmonyPatch(typeof(FogWarpVolume), nameof(FogWarpVolume.ReceiveWarpedDetector))]
+        public static void DetectNurseryEntry(ref FogWarpDetector detector, FogWarpVolume __instance)
+        {
+            //Only do stuff if the ship is the one warping and it's the right dimension
+            if (detector._name == FogWarpDetector.Name.Ship && __instance as OuterFogWarpVolume == ForgottenLocator.nurseryOuterWarp
+                && AchievementHelper.fishLatched >= 4)
+                AchievementHelper.GrantAchievement("FC.BABY_TAXI");
         }
 
         //################################# Debug Things #################################

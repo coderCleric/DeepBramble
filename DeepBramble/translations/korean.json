@@ -1204,8 +1204,8 @@
     "Alien Echolocation": "외계인의 음파",
     "Geothermal Activity": "지열 활동",
 
-    "Gravity Crystal": "중력 수정", 
-    "Toxin Injector": "독소 주입기", 
+    "Gravity Crystal": "중력 수정",
+    "Toxin Injector": "독소 주입기",
 
     "Magma's Recursion": "마그마의 메아리",
     "Bright Hollow": "밝은 공동",
@@ -1277,6 +1277,7 @@
       "Name": "책임감 있는 부모",
       "Description": "모든 아기 물고기들을 보육원으로 데려가세요."
     }
+
   }
 
 }

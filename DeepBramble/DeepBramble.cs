@@ -19,9 +19,10 @@ namespace DeepBramble
     /**
      * The main class of the mod, everything used in the mod branches from this class.
      */
-    public class DeepBramble : ModBehaviour { 
+    public class DeepBramble : ModBehaviour {
         //Miscellanious variables
-        public INewHorizons NewHorizonsAPI;
+        public INewHorizons NewHorizonsAPI = null;
+        public IAchievements AchievementsAPI = null;
         public static float recallTimer = -999;
         public static Material textMat = null;
         public static GameObject signalBodyObject= null;
@@ -68,6 +69,23 @@ namespace DeepBramble
                 }
             };
 
+            //Make a bunch of achievements
+            AchievementsAPI = ModHelper.Interaction.TryGetModApi<IAchievements>("xen.AchievementTracker");
+            if (AchievementsAPI != null)
+            {
+                AchievementsAPI.RegisterAchievement("FC.JUKE_FISH", true, this);
+                AchievementsAPI.RegisterAchievement("FC.DOUBLE_WARP", true, this);
+                AchievementsAPI.RegisterAchievement("FC.ERNESTO", false, this);
+                AchievementsAPI.RegisterAchievement("FC.GEYSER", true, this);
+                AchievementsAPI.RegisterAchievement("FC.MARSHMALLOW", false, this);
+                AchievementsAPI.RegisterAchievement("FC.SCROLL_HAUL", true, this);
+                AchievementsAPI.RegisterAchievement("FC.PET", true, this);
+                AchievementsAPI.RegisterAchievement("FC.BABY_BITE", true, this);
+                AchievementsAPI.RegisterAchievement("FC.BABY_TAXI", true, this);
+
+                AchievementsAPI.RegisterTranslationsFromFiles(this, "achievements");
+            }
+
             //Do stuff when the system starts to load
             UnityEvent<String> startLoadEvent = NewHorizonsAPI.GetChangeStarSystemEvent();
             startLoadEvent.AddListener(UpdateSystemFlag);
@@ -110,35 +128,15 @@ namespace DeepBramble
             }
 
             //Do this stuff if we're in the hearthian system
-            if(NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
+            else if(NewHorizonsAPI.GetCurrentStarSystem().Equals("SolarSystem"))
             {
                 BaseSystemHelper.FixBaseSystem();
             }
 
-            //Do this stuff if we're in the hearthian system
-            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("EyeOfTheUniverse"))
+            //Do this stuff if we're in the eye system
+            else if (NewHorizonsAPI.GetCurrentStarSystem().Equals("EyeOfTheUniverse"))
             {
                 EyeSystemHelper.FixEyeSystem();
-            }
-
-            //Debug thing, take out
-            if (NewHorizonsAPI.GetCurrentStarSystem().Equals("WorkSystem"))
-            {
-                //Find the dilation dimension & register it
-                ForgottenLocator.dilationOuterWarp = GameObject.Find("DilationDimension_Body").transform.Find("Sector/OuterWarp").GetComponent<OuterFogWarpVolume>();
-
-                //Add the killer to the dilation node
-                ForgottenLocator.dilationNodeKiller = ForgottenLocator.dilationOuterWarp._linkedInnerWarpVolume.gameObject.AddComponent<NodeKiller>();
-
-                //Add the rotation controller to Ditylum
-                ForgottenLocator.dilatedDitylum = GameObject.Find("dilated_ditylum").AddComponent<DilatedDitylumManager>();
-
-                //Add the swim controller to outer ditylum
-                GameObject.Find("outerditylum").AddComponent<SwimmingDitylumManager>();
-
-                //Make the toxin injector
-                GameObject.Find("injector").AddComponent<InjectorItem>();
-                GameObject.Find("injector_socket").AddComponent<InjectorSocket>();
             }
         }
 
@@ -203,26 +201,6 @@ namespace DeepBramble
                             Patches.forbidUnlock = true;
                             break;
                         }
-
-                        /*
-                        //Loop through each parent
-                        Transform tf = i.transform;
-                        while (tf != null)
-                        {
-                            OWRigidbody body = tf.gameObject.GetComponent<OWRigidbody>();
-
-                            //If this parent is lockable, lock onto it
-                            if (body != null && body.IsTargetable())
-                            {
-                                Locator.GetPlayerBody().gameObject.GetComponent<ReferenceFrameTracker>().TargetReferenceFrame(body.GetReferenceFrame());
-                                Patches.forbidUnlock = true;
-                                break;
-                            }
-
-                            //Otherwise, move another level up
-                            tf = tf.parent;
-                        }
-                        */
                     }
                 }
             }
@@ -279,7 +257,7 @@ namespace DeepBramble
                 //Vector3 point = new Vector3(349.8f, -322.1f, 31738.1f); //Dilation node
                 //Vector3 point = new Vector3(1296.0f, -235.1f, 30832.0f); //Campsite
                 //Vector3 point = new Vector3(-10031.3f, 10.4f, -10035.9f); //Domestic dimension
-                //Vector3 point = new Vector3(1.6f, 121.1f, 0.2f); //Heart
+                //Vector3 point = new Vector3(-9974.5f, -121.3f, 3.3f); //Heart
                 Transform absCenter = null;
                 foreach (AstroObject i in Component.FindObjectsOfType<AstroObject>())
                 {
@@ -318,6 +296,15 @@ namespace DeepBramble
                     PlayerData._currentGameSave.SetPersistentCondition("SignalLockTold", false);
                 }
                 */
+        }
+
+        /**
+         * When the player exits a lava geyser, start the timer
+         */
+        public static void OnGeyserExit(GameObject other)
+        {
+            if (other.CompareTag("PlayerDetector") && !Locator.GetDeathManager().IsPlayerDying() && !Locator.GetDeathManager().IsPlayerDead())
+                AchievementHelper.GrantAchievement("FC.GEYSER");
         }
 
         /**

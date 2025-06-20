@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NewHorizons.Handlers;
+using UnityEngine;
 
 namespace DeepBramble.MiscBehaviours
 {
@@ -38,7 +39,7 @@ namespace DeepBramble.MiscBehaviours
         private void Start()
         {
             if (interactor != null)
-                interactor.ChangePrompt("Flip Lever");
+                interactor.ChangePrompt(TranslationHandler.GetTranslation("Flip Lever", TranslationHandler.TextType.UI));
         }
 
         /**

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NewHorizons.Handlers;
+using UnityEngine;
 
 namespace DeepBramble.MiscBehaviours
 {
@@ -32,7 +33,7 @@ namespace DeepBramble.MiscBehaviours
         private void Start()
         {
             if (interactor != null)
-                interactor.ChangePrompt("Press");
+                interactor.ChangePrompt(TranslationHandler.GetTranslation("Press", TranslationHandler.TextType.UI));
         }
 
         /**
