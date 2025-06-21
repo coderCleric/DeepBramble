@@ -1,0 +1,41 @@
+﻿{
+  "AchievementTranslations": {
+    "FC.JUKE_FISH": {
+      "Name": "우주선은 필요없어",
+      "Description": "아기 물고기가 우주선을 물지 않고 번역 연구소의 글을 읽으세요."
+    },
+    "FC.DOUBLE_WARP": {
+      "Name": "잠깐, 이 짓을 안 해도 됐다고?",
+      "Description": "노마이 함선을 통해서 깊은 가시덤불에 두 번 들어가세요."
+    },
+    "FC.ERNESTO": {
+      "Name": "여깄구나!",
+      "Description": "에르네스토와 대화하세요."
+    },
+    "FC.GEYSER": {
+      "Name": "4도 화상",
+      "Description": "용암 간헐천에 닿고 살아남으세요."
+    },
+    "FC.MARSHMALLOW": {
+      "Name": "이미 충분히 뜨거워",
+      "Description": "막대를 뻗지 않고 마시멜로를 구워 먹으세요."
+    },
+    "FC.SCROLL_HAUL": {
+      "Name": "나 벽 어딨는지 알아!",
+      "Description": "양자 동굴의 두루마리를 태양계로 가져와서 읽으세요."
+    },
+    "FC.PET": {
+      "Name": "착한 물고기네!",
+      "Description": "한 루프 안에 쓰다듬을 수 있는 모든 아귀를 쓰다듬으세요."
+    },
+    "FC.BABY_BITE": {
+      "Name": "아마추어 한의사",
+      "Description": "아기 물고기에게 물린 채로 30초 동안 살아남으세요."
+    },
+    "FC.BABY_TAXI": {
+      "Name": "책임감 있는 부모",
+      "Description": "모든 아기 물고기들을 보육원으로 데려가세요."
+    }
+
+  }
+}
