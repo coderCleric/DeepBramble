@@ -14,7 +14,7 @@
     "Nope.": "아니요.",
     "Oh yeah, totally. It's nothing personal, but everyone else was trying to eat you and it looked fun.": "물론이죠. 개인적인 감정은 없지만, 솔직히 다른 친구들이 모두 당신을 먹으려고 하는 건 재미있어 보이거든요.",
     "I'm wedged in pretty good, I honestly don't think that I can. Oh well.": "지금 깊게 박혀 있어서 못 할 것 같네요.",
-    "Covering for me with the police. I got into a bit of trouble for beating people to death with rocks, you know how it is.": "경찰이 저를 보호해 줬어요. 돌로를 때려죽인 일로 곤욕을 치른 적도 있어요, 아시죠?",
+    "Covering for me with the police. I got into a bit of trouble for beating people to death with rocks, you know how it is.": "저 대신 경찰에게 저를 변호해주고 있어요. 돌로 누군가를 죽을 정도로 때려서 문제가 생겼어요, 무슨 말인지 아시죠?",
 
     //sadditylum
     "...": "...",
@@ -33,12 +33,12 @@
     "AZOLLA: Okalis, you were explicitly instructed <![CDATA[<i>]]>not<![CDATA[</i>]]> to attempt to interact with them! What if they had attacked you!": "아졸라: 오커러스, 그들과 상호작용을 시도하지 <![CDATA[<i>]]>말라고<![CDATA[</i>]]> 지시받았잖아요! 만약 그들이 당신을 공격했다면 어떡할려고 그랬어요!",
     "OKALIS: I know, I know, but I was simply too curious to <![CDATA[<i>]]>not<![CDATA[</i>]]> try and see the other species. We are Nomai after all.": "오커러스: 알아요, 저도 알고 있지만 다른 종을 관찰하고 싶은 호기심을 참을 수는 <![CDATA[<i>]]>없었어요<![CDATA[</i>]]>. 결국 우리는 노마이니까요.",
     "SENNETTI: Really? What did they look like? Did they seem friendly?": "세네티: 정말요? 그들은 어떻게 생겼죠? 친절해 보였나요?",
-    "OKALIS: Worry not, friend, they did not seem to be hostile. I was fairly far away, so I did not have an ideal view on them. However, I was able to tell they have large, ear-like frills on both sides of their head, a large tail, as well as webbed hands and feet. To top it all off, they seem to have no eyes!": "오커러스: 걱정하지 마세요, 친구, 적대적인 것 같지는 않았어요. 사실 꽤 멀리 떨어져 있었기 때문에 그들을 제대로 볼 수는 없었어요. 하지만 머리 양쪽에 귀처럼 생긴 커다란 주름과 커다란 꼬리, 얇은 수막이 달린 손과 발이 있다는 것은 알 수 있었어요. 무엇보다도 눈이 없는 것 같았어요!",
+    "OKALIS: Worry not, friend, they did not seem to be hostile. I was fairly far away, so I did not have an ideal view on them. However, I was able to tell they have large, ear-like frills on both sides of their head, a large tail, as well as webbed hands and feet. To top it all off, they seem to have no eyes!": "오커러스: 걱정하지 마세요, 친구, 적대적인 것 같지는 않았어요. 사실 꽤 멀리 떨어져 있었기 때문에 그들을 제대로 볼 수는 없었어요. 하지만 머리 양쪽에 귀처럼 생긴 커다란 주름과 커다란 꼬리, 가느다란란 수막이 달린 손과 발이 있다는 것은 알 수 있었어요. 무엇보다도 눈이 없는 것 같았어요!",
     "SENNETTI: How strange! How do you suppose they navigate without vision?": "세네티: 정말 신기하네요! 앞이 보이지 않는데 어떻게 길을 찾을 수 있을까요?",
     "OKALIS: I am uncertain, but they did seem to notice me when I stepped out from behind the tree. Perhaps they possess some form of echolocation?": "오커러스: 확실하진 않지만, 제가 나무 뒤에서 나왔을 때 그들이 저를 알아본 것 같았어요. 혹시 음파 탐지 능력이 있는 건 아닐까요?",
 
     //after_second_stakeout
-    "OKALIS: Friends, I am pleased to announce that I was successful in my attempt to make contact with the stranger!": "오커러스: 친구 여러분, 낯선 종족과 접촉하는 데 성공했다는 소식을 전하게 되어 기쁩니다!",
+    "OKALIS: Friends, I am pleased to announce that I was successful in my attempt to make contact with the stranger!": "오커러스: 친구 여러분, 낯선 종족과 접촉하는 데 성공했다는 소식을 전하게 되어 영광입니다!",
     "SENNETTI: How did it go? Were you able to get a closer look at them?": "세네티: 어떻게 되었나요? 외모를 자세히 살펴볼 수 있었나요?",
     "NESIA: Were they appreciative of your attempt to return their item?": "네시아: 물건을 돌려주려는 시도에 대해 그들이 고마워했나요?",
     "OKALIS: It went well, yes, and maybe! I avoided hiding this time and, upon returning to the campsite, they slowly approached me, apparently having noticed that I was holding their tablet. I held it out for them to take and, upon grabbing it, they promptly turned around and left.": "오커러스: 네, 잘 됐어요, 아마도요! 이번에는 숨지 않고 야영지로 돌아왔더니 제가 석판을 들고 있는 것을 알아차린 듯 천천히 다가왔어요. 저는 석판을 내밀었고, 그들은 석판을 받자마자 곧바로 돌아서서 떠났어요.",
@@ -52,7 +52,7 @@
     "OKALIS: Perhaps we will be able to meet them if we remain here long enough. If they were here before, they are likely to return.": "오커러스: 여기 오래 머물면 그들을 만날 수 있을지도 모르죠. 이전에 이곳에 있었다면 다시 돌아올 가능성이 높습니다.",
     "AZOLLA: As curious as I am about who constructed this site, this may not be wise. We have no idea whether or not the inhabitants of this place are friendly.": "아졸라: 이곳을 만든 존재가 누군지 궁금하지만, 직접 대면하는건 현명하지 않을 수도 있어요. 이곳의 주민들이 친절한지 아닌지는 알 수 없으니까요.",
     "SENNETTI: I believe we should avoid constructing large structures here for the same reason. Even if these people are friendly, they may not take kindly to us treating this body as our own.": "세네티: 같은 이유로 이곳에 대형 구조물을 짓는 것은 피해야 한다고 생각합니다. 이 주민들이 친절하더라도 우리가 이 행성을 우리 행성처럼 대하는 것을 받아들이지 않을 수 있습니다.",
-    "OKALIS: Amazing! This body is almost entirely covered in grass and trees! How do you suppose it manages to sustain life in a place like this?": "오커러스: 놀라워요! 행성 전체가 거의 풀과 나무로 덮여 있네요! 이런 곳에서 어떻게 생명을 유지할 수 있을까요?",
+    "OKALIS: Amazing! This body is almost entirely covered in grass and trees! How do you suppose it manages to sustain life in a place like this?": "오커러스: 놀라워요! 거의 행성 전체가 풀과 나무로 덮여 있네요! 이런 곳에서 어떻게 생명을 유지할 수 있을까요?",
     "NESIA: We may need to erect a small lab to study the origins of the soil and plant life to properly understand this.": "네시아: 이 행성을 제대로 이해하려면 토양과 식물의 기원을 연구할 수 있는 작은 실험실을 세워야 할 것 같습니다.",
     "AZOLLA: Feel free to set up that lab, but remember not to build anything large, we don't want to be too obstructive to whoever set up this campsite.": "아졸라: 실험실을 자유롭게 설치하되, 큰 건물을 짓지 마세요. 이 야영지를 세운 존재에게 방해가 되지 않기를 바랍니다.",
 
