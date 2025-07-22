@@ -12,6 +12,7 @@ namespace DeepBramble.Helpers
         private static bool vanillaTitle = false;
         public static GameObject titleEffectsObject = null;
         private static GameObject cricketAudio = null;
+        private static bool saveBroken = false;
 
         //Campfire stuff
         private static Material fireMat = null;
@@ -31,7 +32,17 @@ namespace DeepBramble.Helpers
 
             //Determine if we'll actually want to use this stuff (need to load data early to do this)
             StandaloneProfileManager.SharedInstance.Initialize();
-            bool editsNeeded = StandaloneProfileManager.SharedInstance.currentProfileGameSave.GetPersistentCondition("DeepBrambleFound") && !vanillaTitle;
+            bool editsNeeded = true;
+            try
+            {
+                editsNeeded = PlayerData.GetPersistentCondition("DeepBrambleFound") && !vanillaTitle;
+            }
+            catch
+            {
+                DeepBramble.debugPrint("ruh roh! Title screen stuff doesn't like the save");
+                editsNeeded = !vanillaTitle;
+                saveBroken = true;
+            }
 
             //Find the background object
             GameObject backgroundObject = GameObject.Find("Scene/Background");
@@ -95,7 +106,8 @@ namespace DeepBramble.Helpers
             }
 
             //Subscribe to future changes
-            StandaloneProfileManager.SharedInstance.OnProfileSignInComplete += OnProfileLoaded;
+            if(!saveBroken)
+                StandaloneProfileManager.SharedInstance.OnProfileSignInComplete += OnProfileLoaded;
 
             DeepBramble.debugPrint("Title edits complete");
         }
@@ -171,7 +183,7 @@ namespace DeepBramble.Helpers
             //If necessary, update the current title screen appearance
             if(titleEffectsObject != null)
             {
-                if (StandaloneProfileManager.SharedInstance.currentProfileGameSave.GetPersistentCondition("DeepBrambleFound") && !vanillaTitle)
+                if ((saveBroken || StandaloneProfileManager.SharedInstance.currentProfileGameSave.GetPersistentCondition("DeepBrambleFound")) && !vanillaTitle)
                     EnableTitleEdits();
                 else
                     DisableTitleEdits();
