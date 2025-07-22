@@ -39,7 +39,7 @@ namespace DeepBramble.Helpers
             }
             catch
             {
-                DeepBramble.debugPrint("ruh roh! Title screen stuff doesn't like the save");
+                DeepBramble.debugPrint("Ruh roh! Title screen stuff doesn't like the save! (It's probably just because your using xbox)");
                 editsNeeded = !vanillaTitle;
                 saveBroken = true;
             }
