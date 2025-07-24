@@ -32,10 +32,10 @@ namespace DeepBramble.Helpers
 
             //Determine if we'll actually want to use this stuff (need to load data early to do this)
             StandaloneProfileManager.SharedInstance.Initialize();
-            bool editsNeeded = true;
+            bool editsNeeded;
             try
             {
-                editsNeeded = PlayerData.GetPersistentCondition("DeepBrambleFound") && !vanillaTitle;
+                editsNeeded = StandaloneProfileManager.SharedInstance.currentProfileGameSave.GetPersistentCondition("DeepBrambleFound") && !vanillaTitle;
             }
             catch
             {
