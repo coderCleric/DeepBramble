@@ -1,0 +1,1244 @@
+{
+//本翻译补丁经检查没有任何问题。
+  "$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/translation_schema.json",
+  "DialogueDictionary": {
+
+
+    "Flip Lever": "翻转杠杆",
+    "Pet": "触摸",
+    "Grab": "抓住",
+
+    //ernesto
+    "ernesto": "厄内斯托",
+    "Oh, hey, sorry about trying to bite you to death there, got a bit caught up in the mob mentality.": "哦，嘿，抱歉刚才想咬死你，我有点被群体心态冲昏了头。",
+    "Was there something you wanted to talk about?": "你有什么想聊的吗？",
+    "If I come back on the next loop, are you gonna try and bite me again?": "如果我在下一个循环回来，你还会想咬我吗？",
+    "Are you gonna let go of my ship?": "你能放开我的飞船吗？",
+    "Where's Geswaldo?": "格茨瓦尔多在哪里？",
+    "Nope.": "没有。",
+    "Oh yeah, totally. It's nothing personal, but everyone else was trying to eat you and it looked fun.": "哦，当然。这不是针对你，但其他鱼都在试图吃掉你，看起来很有趣。",
+    "I'm wedged in pretty good, I honestly don't think that I can. Oh well.": "我被卡得很紧，真的觉得动不了。算了。",
+    "Covering for me with the police. I got into a bit of trouble for beating people to death with rocks, you know how it is.": "帮我应付警察。我用石头把人打死了，惹了点麻烦，你知道的。",
+
+    //sadditylum
+    "Ditylum": "迪提伦",
+    "...": "...",
+    "Hello?": "你好？",
+    "Who are you?": "你是谁？",
+    "Are you okay?": "你还好吗？",
+
+    //after_first_stakeout
+    "OKALIS: Oh my goodness! I was hiding behind one of the trees on the upper ring, and observed one of the campsite occupants return!": "奥卡利斯：天哪！我躲在上层环的一棵树后面，看到营地的一个居住者回来了！",
+    "NESIA: Did they see you as well? If they did, then how did they react?": "妮西亚：他们也看到你了吗？如果看到了，他们有什么反应？",
+    "OKALIS: They did not notice me at first. However, when I moved out from behind the tree to try and make contact, they turned toward me before fleeing. Notably, they appeared to swim through the air using the webbing on their hands and feet!": "奥卡利斯：起初他们没有注意到我。但当我从树后走出来试图接触时，他们转向我然后逃走了。值得注意的是，他们似乎用手脚上的蹼在空中游泳！",
+    "NESIA: Very interesting, especially given your note that they did not appear to have eyes. Did they seem to have any obvious reason for returning?": "妮西亚：非常有趣，尤其是你提到他们似乎没有眼睛。他们返回营地有什么明显的原因吗？",
+    "OKALIS: Actually, they appeared to be looking for something. I believe that they found it just before I showed myself, but dropped it as they left. It appears to be some sort of painted tablet. Perhaps I should attempt to return it to them?": "奥卡利斯：实际上，他们似乎在找什么东西。我觉得在我现身之前他们找到了，但离开时掉了。那似乎是一块彩绘的石板。也许我应该尝试还给他们？",
+    "AZOLLA: While we had previously decided that it was best to not initiate contact, the fact that they did not attack you seems to indicate they are not hostile. Because of this, it may be best for you to return the item.": "阿佐拉：虽然我们之前决定最好不要主动接触，但他们没有攻击你，似乎表明他们没有敌意。因此，你最好把物品还给他们。",
+    "OKALIS: Absolutely! With any luck, I'll be able to get close enough to them to get a better idea of their appearance!": "奥卡利斯：当然！运气好的话，我还能靠近他们，更好地了解他们的外貌！",
+    "AZOLLA: Okalis, you were explicitly instructed <![CDATA[<i>]]>not<![CDATA[</i>]]> to attempt to interact with them! What if they had attacked you!": "阿佐拉：奥卡利斯，我们明确指示过你不要试图与他们互动！如果他们攻击你怎么办！",
+    "OKALIS: I know, I know, but I was simply too curious to <![CDATA[<i>]]>not<![CDATA[</i>]]> try and see the other species. We are Nomai after all.": "奥卡利斯：我知道，我知道，但我实在太好奇了，忍不住想看看其他物种。毕竟我们是挪麦人。",
+    "SENNETTI: Really? What did they look like? Did they seem friendly?": "塞内蒂：真的吗？他们长什么样？看起来友好吗？",
+    "OKALIS: Worry not, friend, they did not seem to be hostile. I was fairly far away, so I did not have an ideal view on them. However, I was able to tell they have large, ear-like frills on both sides of their head, a large tail, as well as webbed hands and feet. To top it all off, they seem to have no eyes!": "奥卡利斯：别担心，朋友，他们似乎没有敌意。我离得比较远，所以没能看清他们的样子。不过，我能看到他们头两侧有像耳朵一样的大褶边，一条大尾巴，还有带蹼的手脚。最重要的是，他们似乎没有眼睛！",
+    "SENNETTI: How strange! How do you suppose they navigate without vision?": "塞内蒂：真奇怪！你觉得他们怎么在没有视觉的情况下导航？",
+    "OKALIS: I am uncertain, but they did seem to notice me when I stepped out from behind the tree. Perhaps they possess some form of echolocation?": "奥卡利斯：我不确定，但当我从树后走出来时，他们似乎注意到了我。也许他们有某种回声定位的能力？",
+
+    //after_second_stakeout
+    "OKALIS: Friends, I am pleased to announce that I was successful in my attempt to make contact with the stranger!": "奥卡利斯：朋友们，我很高兴地宣布，我成功与那个陌生人接触了！",
+    "SENNETTI: How did it go? Were you able to get a closer look at them?": "塞内蒂：怎么样？你能更近距离地观察他们吗？",
+    "NESIA: Were they appreciative of your attempt to return their item?": "妮西亚：他们对你还物品的尝试表示感激吗？",
+    "OKALIS: It went well, yes, and maybe! I avoided hiding this time and, upon returning to the campsite, they slowly approached me, apparently having noticed that I was holding their tablet. I held it out for them to take and, upon grabbing it, they promptly turned around and left.": "奥卡利斯：是的，进展顺利，也许吧！这次我没有躲藏，回到营地时，他们慢慢靠近我，显然注意到我拿着他们的石板。我递给他们，他们一拿到就转身离开了。",
+    "OKALIS: As for their appearance, I confirmed what I observed previously. In addition, their teeth seemed to be sharp to a point, their body was covered in gray skin, and they did have small recesses in their skull where eyes might normally reside.": "奥卡利斯：至于他们的外貌，我确认了之前的观察。此外，他们的牙齿似乎很尖，身体覆盖着灰色皮肤，头骨上确实有眼睛通常所在的小凹陷。",
+    "AZOLLA: Let us hope that we made a good first impression. They may no longer decide to return now that they have their tablet.": "阿佐拉：希望我们留下了好的第一印象。既然他们拿回了石板，可能不会再回来了。",
+    "NESIA: It appears that they may still be somewhat scared of us, if they fled that quickly.": "妮西亚：如果他们那么快就逃走了，似乎还是有点害怕我们。",
+
+    //camp_discovery
+    "NESIA: Here we are friends, the campsite I had mentioned previously.": "妮西亚：朋友们，我们到了，这就是我之前提到的营地。",
+    "SENNETTI: There are still a few embers among the logs. It seems likely someone was here fairly recently.": "塞内蒂：木柴中还有一些余烬。似乎最近有人在这里。",
+    "OKALIS: Perhaps we will be able to meet them if we remain here long enough. If they were here before, they are likely to return.": "奥卡利斯：如果我们在这里待得够久，也许能遇到他们。如果他们之前在这里，很可能会回来。",
+    "AZOLLA: As curious as I am about who constructed this site, this may not be wise. We have no idea whether or not the inhabitants of this place are friendly.": "阿佐拉：虽然我对谁建造了这个地方很好奇，但这可能不明智。我们不知道这里的居民是否友好。",
+    "SENNETTI: I believe we should avoid constructing large structures here for the same reason. Even if these people are friendly, they may not take kindly to us treating this body as our own.": "塞内蒂：出于同样的原因，我认为我们应该避免在这里建造大型建筑。即使这些人友好，他们也可能不喜欢我们把这里当作自己的地盘。",
+    "OKALIS: Amazing! This body is almost entirely covered in grass and trees! How do you suppose it manages to sustain life in a place like this?": "奥卡利斯：太神奇了！这个地方几乎完全被草和树木覆盖！你觉得它是如何在这样的地方维持生命的？",
+    "NESIA: We may need to erect a small lab to study the origins of the soil and plant life to properly understand this.": "妮西亚：我们可能需要建一个小实验室来研究土壤和植物的起源，以便更好地理解这一点。",
+    "AZOLLA: Feel free to set up that lab, but remember not to build anything large, we don't want to be too obstructive to whoever set up this campsite.": "阿佐拉：尽管建实验室，但记住不要建任何大型建筑，我们不想对建造这个营地的人造成太大阻碍。",
+
+    //couple_names
+    "Amylax": "阿米拉克斯",
+    "Okalis": "奥卡利斯",
+
+    //enclosed_space_hint
+    "OKALIS: One of our new friends actually approached me today, I believe that it was the same individual that I had previously met at this campsite.": "奥卡利斯：今天我们的一个新朋友真的靠近了我，我相信这就是我之前在这个营地遇到的那个人。",
+    "NESIA: Oh? Did they seem to have any particular reason for doing so?": "妮西亚：哦？他们这样做有什么特别的原因吗？",
+    "OKALIS: As a matter of fact, they led me to somewhere quite interesting. Do you know of the wooden knot that lies in the center of <![CDATA[<color=orange>Briar's Hollow</color>]]>, the one that leads back in through an infinite loop? They took me through there and, contrary to what normally happens, we arrived in an enclosed space.": "奥卡利斯：事实上，他们带我去了一个非常有趣的地方。你知道位于<![CDATA[<color=orange>荆棘空洞</color>]]>中心的那个木结吗？就是那个通过无限循环回到原点的那个？他们带我穿过那里，与平常不同的是，我们到达了一个封闭的空间。",
+    "SENNETTI: How strange, what was the space like?": "塞内蒂：真奇怪，那个空间是什么样的？",
+    "OKALIS: It seemed to be a completely overgrown entrance to <![CDATA[<color=orange>Briar's Hollow</color>]]>. They beckoned me through another node, although I did not follow them through for fear of being unable to find my way back.": "奥卡利斯：它似乎是<![CDATA[<color=orange>荆棘空洞</color>]]>的一个完全被植被覆盖的入口。他们示意我穿过另一个节点，但我因为担心找不到回去的路而没有跟过去。",
+    "AZOLLA: If a member of this other species desires for us to follow them, it may be worthwhile to do so. They have demonstrated they are not hostile, and they may know how to escape from this place.": "阿佐拉：如果这个其他物种的成员希望我们跟随他们，那么这样做可能是值得的。他们已经证明自己没有敌意，而且他们可能知道如何逃离这个地方。",
+    "NESIA: I have passed through the knot you speak of, but I have never arrived anywhere that sounds similar to what you describe.": "妮西亚：我穿过你说的那个节点，但从未到达过你描述的那种地方。",
+    "OKALIS: It confuses me as well, Nesia. I am unsure of how to access that area again.": "奥卡利斯：这也让我感到困惑，妮西亚。我不确定如何再次进入那个区域。",
+    "NESIA: I have a hypothesis. I have noted that the hole one uses to enter that central knot lines up with where they will re-enter this larger area. If we can locate the exterior of the enclosure that you speak of, we may be able to find the hole that will lead us into it.": "妮西亚：我有一个假设。我注意到进入那个中心节点的洞与他们重新进入这个较大区域的位置对齐。如果我们能找到你说的那个封闭空间的外部，我们也许能找到通向它的洞。",
+    "I don't understand your strange language, but I hope that you may know mine. Follow where I lead and find us. It may be only a feeling, but I think that our species are fated to meet.": "我不懂你们的奇怪语言，但我希望你们能懂我的。跟随我的引导，找到我们。这可能只是一种感觉，但我认为我们的物种注定要相遇。",
+    "OKALIS: Is this our new friend's writing? How exciting! Sennetti, are you able to understand what they have said?": "奥卡利斯：这是我们新朋友的文字吗？太令人兴奋了！塞内蒂，你能理解他们说了什么吗？",
+    "SENNETTI: Unfortunately, I will need to analyze it more before I can determine what this text says. Though I can assure you I will begin work on my translation as soon as possible.": "塞内蒂：不幸的是，我需要进一步分析才能确定这段文字的意思。不过我可以向你保证，我会尽快开始翻译工作。",
+
+    //sl_cracked_crystal
+    "SENNETTI: During my most recent trip to the <![CDATA[<color=orange>Eye Signal Lab</color>]]> on <![CDATA[<color=orange>Magma's Recursion</color>]]>, I noticed that one of the gravity crystals had fallen from its mount and cracked. Due to the high cost of production for these crystals, it may be worthwhile to develop a means by which they can be repaired. I have brought the crystal here for study.": "塞内蒂：在我最近一次前往<![CDATA[<color=orange>岩浆回响</color>]]>上的<![CDATA[<color=orange>眼信号实验室</color>]]>时，我注意到其中一个重力晶体从支架上掉下来并破裂了。由于这些晶体的生产成本很高，开发一种修复它们的方法可能是值得的。我把这个晶体带到这里进行研究。",
+    "NESIA: I would help, but I am currently fully occupied working on the <![CDATA[<color=orange>Distant Node Project</color>]]>. Unfortunately, I suspect this is true for all of us, so it may take some time to develop a means to repair this crystal.": "妮西亚：我愿意帮忙，但我目前正忙于<![CDATA[<color=orange>远程节点项目</color>]]>。不幸的是，我想这对我们所有人来说都是如此，所以开发修复这个晶体的方法可能需要一些时间。",
+    "OKALIS: I have good news! It seems our friends may have found a way to repair the gravity crystal! If you are interested in learning more, I suggest making your way to the <![CDATA[<color=orange>Concert Hall</color>]]>.": "奥卡利斯：我有好消息！看来我们的朋友可能已经找到了修复重力晶体的方法！如果你有兴趣了解更多，我建议你去<![CDATA[<color=orange>音乐厅</color>]]>。",
+    "SENNETTI: I understand. I hope we have time to develop a method of repairs soon, however, as I worry other crystals may also fall.": "塞内蒂：我明白了。不过，我希望我们能尽快开发出修复方法，因为我担心其他晶体也可能掉落。",
+
+    //soil_lab
+    "NESIA: Curiously, analysis of the soil composition indicates that this body may be composed of the remnants of many others.": "妮西亚：奇怪的是，土壤成分分析表明，这个天体可能由许多其他天体的残余组成。",
+    "SENNETTI: Do you mean to say that this planetoid is composed of debris from planets that ended up in this place after their destruction?": "塞内蒂：你是说这个小行星是由行星毁灭后进入这里的碎片组成的吗？",
+    "NESIA: I do. The trees also show characteristics from many cataloged species, which, combined with the unique set of nutrients they draw from the soil, may explain the strange color of the fire in the campsite.": "妮西亚：是的。这些树木还显示出许多已记录物种的特征，再加上它们从土壤中吸收的独特营养，可能解释了营地火焰的奇怪颜色。",
+    "SENNETTI: Interesting. So this bramble captures planets, or at least planetary fragments, with such frequency that they are able to congeal into completely new bodies.": "塞内蒂：有趣。所以这个荆棘如此频繁地捕获行星，或者至少是行星碎片，以至于它们能够凝结成全新的天体。",
+
+    //stalking
+    "SENNETTI: On my way over here this morning, I felt certain that I saw shapes flitting about in the fog. Has anybody else observed this phenomenon?": "塞内蒂：今天早上我来这里的路上，我确信我看到了一些形状在雾中飘动。还有其他人观察到这种现象吗？",
+    "OKALIS: I too have noticed this, friend. They seem to be the same species as the person I made contact with recently. They have been quite bold with me. One was stationed directly outside my window this morning, but ran off as soon as I stirred!": "奥卡利斯：我也注意到了，朋友。他们似乎和我最近接触的那个人是同一物种。他们对我很大胆。今天早上有一个直接站在我的窗外，但一看到我动就跑了！",
+    "SENNETTI: What should we do? They do not yet appear hostile, but our stalker's behavior is very concerning.": "塞内蒂：我们该怎么办？他们看起来还没有敌意，但这个跟踪者的行为非常令人担忧。",
+    //stalking
+    "AZOLLA: I suspect that they will be the ones to make the first move. Remember, stay with one another, and do not behave aggressively.": "阿佐拉：我认为他们会先采取行动。记住，彼此待在一起，不要表现出攻击性。",
+    "AZOLLA: I have noticed this as well Sennetti, I believe that our strange neighbors may be keeping an eye on us.": "阿佐拉：我也注意到了，塞内蒂。我觉得那些奇怪的邻居可能在监视我们。",
+    "NESIA: I noticed some shapes in the fog when I stepped out of my abode last night as well.": "妮西亚：昨晚我走出住所时，也在雾中看到了一些模糊的身影。",
+
+    //treehouse_recording
+    "OKALIS: Is this the place you wanted to show me Amylax?": "奥卡利斯：阿米拉克斯，这就是你想带我看的地方吗？",
+    "AMYLAX: Yeah! It's a little place Ditylum and I set up when we were kids. It was our secret hideout whenever things got scary, like when the adults would feed the anglerfish.": "阿米拉克斯：是啊！这是我和迪提伦小时候搭建的小地方。每当事情变得可怕时，比如大人们喂食鮟鱇鱼时，这里就是我们的秘密藏身处。",
+    "OKALIS: It feels... meaningful, that you would bring me here, so close to where our species first made contact.": "奥卡利斯：你带我来这里，感觉……很有意义，这里离我们物种初次接触的地方很近。",
+    "AMYLAX: Heh, I guess so, huh.": "阿米拉克斯：嘿，我想是的。",
+    "OKALIS: I'm really grateful you gave me this necklace. I truly am incapable of expressing how much it means to me.": "奥卡利斯：真的很感谢你送我这串项链。我无法用语言表达它对我有多重要。",
+    "AMYLAX: I'm glad that you're glad! Ever since I first met you I've thought that you were really... well... just great all around I guess! I know the necklace you made me isn't super traditional, but you know what, I love it! I think it symbolizes us really well!": "阿米拉克斯：我很高兴你开心！自从我第一次见到你，我就觉得你真的很……嗯……各方面都很棒！我知道你做的项链不太传统，但你知道吗，我超喜欢！我觉得它很好地象征了我们！",
+    "OKALIS: Amylax, you are too kind!": "奥卡利斯：阿米拉克斯，你太善良了！",
+    "AMYLAX: You know, ever since we became adults, Ditylum kinda stopped coming out here, and, well, this is somewhere that I've shared with you now, so, maybe we could make it our secret hideout? If that sounds okay with you? Sorry, I know that's kind of childish, especially for a big scientist like yourself.": "阿米拉克斯：你知道，自从我们成年后，迪提伦就不怎么来这里了。现在我把这个地方分享给你，也许我们可以把它当作我们的秘密藏身处？如果你觉得可以的话？抱歉，我知道这有点幼稚，尤其是对你这样的大科学家来说。",
+    "OKALIS: I don't think it would be childish at all Amylax, and I'd be thrilled to do so! Was there something you had in mind?": "奥卡利斯：我一点也不觉得这幼稚，阿米拉克斯，我很乐意！你有什么想法吗？",
+    "AMYLAX: Well, I was thinking that we could write our names on the wall? After all, what's a secret hideout without a mark to let any trespassers know who it belongs to?": "阿米拉克斯：嗯，我在想我们可以在墙上写下我们的名字？毕竟，如果没有标记让闯入者知道这里属于谁，那还叫什么秘密藏身处呢？",
+    "OKALIS: I think that is a wonderful idea, Amylax.": "奥卡利斯：我觉得这是个很棒的主意，阿米拉克斯。",
+
+    //camp_hint
+    "NESIA: Who is responsible for the campsite on the large planetoid near the center of <![CDATA[<color=orange>Briar's Hollow</color>]]>? It represents an excellent location for us to build more permanent residence, and I am quite shocked that someone is keeping it to themselves.": "妮西亚：谁负责管理<![CDATA[<color=orange>荆棘空洞</color>]]>中心附近的大型小行星上的营地？那是一个非常适合我们建造永久居所的地方，我很惊讶有人把它据为己有。",
+    "AZOLLA: I am inclined to believe our friends, Nesia, and I do not believe that any of our clan would be willing to keep such a secret from the group. Are you certain that the campsite you saw could not have been a natural formation?": "阿佐拉：我倾向于相信我们的朋友，妮西亚。我不认为我们族中会有人愿意对大家隐瞒这样的秘密。你确定你看到的营地不是自然形成的吗？",
+    "NESIA: I am absolutely certain. There was a small ring of stones with still smoldering firewood inside.": "妮西亚：我完全确定。那里有一个小石环，里面还有未燃尽的木柴。",
+    "AZOLLA: Quite an interesting find, Nesia! We should make our way over there and investigate at once. Do you recall where we can find this planetoid?": "阿佐拉：真是个有趣的发现，妮西亚！我们应该立刻过去调查。你还记得在哪里能找到这个小行星吗？",
+    "NESIA: I was concerned that I would be unable to find it again, so I planted a signal beacon near the strange campsite.": "妮西亚：我担心找不到它，所以在那个奇怪的营地附近放置了一个信号信标。",
+    "AZOLLA: Then we should go there at once. If there are other sentient creatures here, it is imperative that we determine their level of hostility as soon as possible.": "阿佐拉：那我们应该立刻过去。如果这里有其他智慧生物，我们必须尽快确定他们的敌意程度。",
+    "SENNETTI: I have been here putting together shelters, I did not realize there were any other bodies out there.": "塞内蒂：我一直在搭建避难所，没注意到外面还有其他天体。",
+    "OKALIS: I have investigated the surrounding area some, but I have not yet located this large planetoid that you speak of.": "奥卡利斯：我调查了周围区域，但还没找到你说的大型小行星。",
+    "SENNETTI: Is it possible that the campsite was made by other members of our clan? Perhaps they followed us through our makeshift warp setup and are stranded here as well.": "塞内蒂：营地可能是我们族中其他成员搭建的吗？也许他们通过我们的临时跃迁装置跟随我们，也被困在这里了。",
+    "NESIA: As much as I would hope for your hypothesis to be true, there were no other structures indicative of Nomai presence, and it has long been outside of our culture to construct campfires.": "妮西亚：虽然我希望你的假设成立，但没有其他结构表明挪麦人的存在，而且建造篝火早已不是我们的文化习惯。",
+    "OKALIS: Are you saying that there is a campsite in here that none of us made? That would imply there are other sentient beings here besides us!": "奥卡利斯：你是说这里有一个营地，但不是我们任何人建的？那意味着这里除了我们之外还有其他智慧生物！",
+
+    //hole_overlook
+    "NESIA: Unfortunately, this body may simply be too small for any effective structures to be built here.": "妮西亚：不幸的是，这个天体可能太小了，无法在这里建造任何有效的结构。",
+    "OKALIS: It may still have some use. For instance, I believe that this rock may be showing us a possible escape!": "奥卡利斯：它可能还有些用处。比如，我觉得这块岩石可能向我们展示了一条逃生路线！",
+    "NESIA: I would caution you against raising your hopes, Okalis, we have already seen that this environment is far from easy to navigate.": "妮西亚：我要提醒你不要抱太大希望，奥卡利斯。我们已经看到，这个环境远非易于导航。",
+    "SENNETTI: Okalis might be correct! Looking past this wall, I can just barely make out a place where the wooden enclosure seems to end!": "塞内蒂：奥卡利斯可能是对的！透过这堵墙，我勉强能看到一个地方，那里的木质围栏似乎结束了！",
+    "AZOLLA: If this is true, we should investigate immediately. Escaping <![CDATA[<color=orange>Briar's Hollow</color>]]> is our first step towards finding the <![CDATA[<color=orange>Eye</color>]]>.": "阿佐拉：如果这是真的，我们应该立即调查。逃离<![CDATA[<color=orange>荆棘空洞</color>]]>是我们寻找<![CDATA[<color=orange>宇宙之眼</color>]]>的第一步。",
+
+    //planetoid_sad_note
+    "NESIA: Oh Secca, I am anxious to reunite with you away from the hazards of this place.": "妮西亚：哦，塞卡，我渴望远离这里的危险，与你重逢。",
+    "NESIA: I can only hope that you escaped safely.": "妮西亚：我只能希望你安全逃脱了。",
+
+    //tree_base_recording
+    "OKALIS: Curiously, we all seem to have emerged from the same wooden knot a mere few feet from each other, despite the fact that, when we left, we were quite far apart.": "奥卡利斯：奇怪的是，尽管我们离开时相距甚远，但我们似乎都是从同一个木结中出现的，彼此仅相隔几英尺。",
+    "NESIA: Suppose that this place does not obey euclidean laws. What if that wooden sphere is actually the one we found ourselves in, but we were smaller when inside it?": "妮西亚：假设这个地方不遵循欧几里得定律。如果那个木球实际上是我们发现自己所在的地方，但我们在里面时变小了呢？",
+    "OKALIS: What an intriguing idea Nesia! Suppose that, instead, these spheres allow travelers to instantaneously teleport between them?": "奥卡利斯：真是个有趣的想法，妮西亚！假设这些球体可以让旅行者在它们之间瞬间传送呢？",
+    "NESIA: Hm, assuming what you said to be true, that might explain how we were able to warp earlier. What if this place interfered with our warp? Could it have done the same to the <![CDATA[<color=orange>Vessel</color>]]>?": "妮西亚：嗯，假设你说的是真的，那可能解释了我们之前是如何跃迁的。如果这个地方干扰了我们的跃迁呢？它是否也对<![CDATA[<color=orange>飞船</color>]]>产生了同样的影响？",
+    "SENNETTI: Friends, while the curiosities of this place intrigue me as well, I believe we should focus on securing our survival first and foremost.": "塞内蒂：朋友们，虽然这个地方的奇特之处也让我着迷，但我认为我们应该首先确保生存。",
+    "AZOLLA: Sennetti is right; As much as we may desire to study our environment, our first priority should be to locate oxygen and somewhere to construct shelter.": "阿佐拉：塞内蒂说得对；尽管我们渴望研究环境，但我们的首要任务应该是找到氧气和建造避难所的地方。",
+    "OKALIS: I believe that I can see a number of small planetoids over there. Could they be a candidate?": "奥卡利斯：我相信我能看到那边有一些小型小行星。它们可能是候选地吗？",
+    "NESIA: I see the objects that Okalis speaks of; there appear to be five small planetoids, and I believe I can see a tree on one.": "妮西亚：我看到了奥卡利斯说的那些物体；似乎有五颗小型小行星，其中一颗上有一棵树。",
+    "AZOLLA: That settles it then. The tree will provide us oxygen, and we can set up basic shelter on the planetoids themselves. One of them seems noticeably smaller than the others, so we should use it for building materials.": "阿佐拉：那就这么定了。树会为我们提供氧气，我们可以在小行星上搭建基本避难所。其中一颗明显比其他小，我们可以用它作为建筑材料。",
+    "NESIA: Based on what we have seen thus far, it may be worthwhile to establish names for the wooden cavities we find ourselves in. Does anybody have a suggestion for this one? It seems quite spacious.": "妮西亚：根据我们目前所见，为我们所在的木质洞穴命名可能是有价值的。有人对这个地方有建议吗？它似乎相当宽敞。",
+    "AZOLLA: We should keep it simple but descriptive. I believe that the name <![CDATA[<color=orange>Briar's Hollow</color>]]> should work well.": "阿佐拉：我们应该保持简单但具有描述性。我认为<![CDATA[<color=orange>荆棘空洞</color>]]>这个名字很合适。",
+
+    //tree_shrine
+    "Look upon this tree, friends, and know that it symbolizes all we need to survive in this environment. We are Nomai, and we will live so long as we have anything to hold onto.": "朋友们，看着这棵树，要知道它象征着我们在这种环境中生存所需的一切。我们是挪麦人，只要我们还有可以依靠的东西，我们就会活下去。",
+    "So long as this tree stands, we can survive this place.": "只要这棵树还在，我们就能在这个地方生存下去。",
+    "So long as this tree stands, our time is not yet through.": "只要这棵树还在，我们的时间就还没有结束。",
+
+    //eggs_lore
+    "NESIA: Why do you suppose the Dree chose to go through the trouble of taming these fish? I can't imagine that their domestication was something easily achieved.": "妮西亚：为什么你认为德瑞人选择费尽心思驯服这些鱼？我无法想象驯服它们是件容易的事。",
+    "AZOLLA: From what we have observed, the eggs of these very fish are the main source that the Dree have for nutrition. Perhaps this is what led them to tame the creatures?": "阿佐拉：根据我们的观察，这些鱼的卵是德瑞人的主要营养来源。也许这就是他们驯服这些生物的原因？",
+    "SENNETTI: Perhaps, but I suspect that it had more to do with their proximity. The Dree do not seem to appreciate looming threats, and generally take measures to either move away or neutralize them.": "塞内蒂：也许吧，但我认为这与它们的接近性更有关系。德瑞人似乎不喜欢潜在的威胁，通常会采取措施远离或消除它们。",
+    "NESIA: Do you suppose that this may also be why they refuse to spread? They are very localized, and their population is quite low, given how long they've been here.": "妮西亚：你认为这也是他们拒绝扩散的原因吗？他们非常局限，而且考虑到他们在这里的时间，他们的数量相当少。",
+    "SENNETTI: It very well could be. They seem much more content to leave things as they are, rather than take risks in the name of more comfortable living conditions.": "塞内蒂：很有可能。他们似乎更满足于维持现状，而不是为了更舒适的生活条件而冒险。",
+
+    //kevin_use
+    "AZOLLA: Okalis, you had said that you had an idea of how to rescue Ditylum?": "阿佐拉：奥卡利斯，你说过你有办法救迪提伦？",
+    "OKALIS: Yes! I wanted to visit here quickly to confirm my suspicions, but I believe that we can use Kevin to cross the <![CDATA[<color=orange>Nursery</color>]]> and retrieve Ditylum.": "奥卡利斯：是的！我想尽快来这里确认我的猜测，但我相信我们可以利用凯文穿过<![CDATA[<color=orange>育婴所</color>]]>，救出迪提伦。",
+    "NESIA: An interesting idea! Kevin's teeth are large enough that we should be able to graft handles to them without causing him harm. Then, we could have him carry us across the <![CDATA[<color=orange>Nursery</color>]]>, and none of the juveniles would suspect anything due to his presence!": "妮西亚：有趣的想法！凯文的牙齿足够大，我们可以在不伤害他的情况下安装把手。然后，我们可以让他带我们穿过<![CDATA[<color=orange>育婴所</color>]]>，由于他的存在，幼崽们不会怀疑任何事！",
+    "AZOLLA: It sounds as if this will be our plan to rescue Ditylum then. Kevin has proven easy to train in the past, so it should be doable in a reasonable time frame.": "阿佐拉：听起来这就是我们救迪提伦的计划了。凯文过去被证明很容易训练，所以这应该可以在合理的时间内完成。",
+    "AZOLLA: I will be glad when this is done. Primarily because it will mean that Ditylum is back to safety, but also it will be recompense for the incident when we first approached <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "阿佐拉：这件事完成后我会很高兴。主要是因为这意味着迪提伦安全了，同时也是对我们第一次接近<![CDATA[<color=orange>岩浆回响</color>]]>时发生的事故的补偿。",
+    "SENNETTI: This does sound promising, but how do we get to Kevin without being attacked? Even worse, what do we do if Kevin brings us to the other side, and then wanders away?": "塞内蒂：这听起来很有希望，但我们如何在不被攻击的情况下接近凯文？更糟糕的是，如果凯文把我们带到另一边，然后自己走开了怎么办？",
+    "OKALIS: A sensible concern, friend! But remember, the Dree have already trained Kevin to come when hit in the eye with a small object. I am sure that we will be able to construct some sort of launcher to take advantage of this behavior from a distance.": "奥卡利斯：这是个合理的担忧，朋友！但记住，德瑞人已经训练凯文在被小物体击中眼睛时过来。我相信我们可以制造一种发射器，从远处利用这种行为。", //第一段
+
+    //rock_blocking_full
+    "OKALIS: How do you suppose this rock achieves its behavior? It appears to move exclusively when it is unobserved.": "奥卡利斯：你觉得这块石头是怎么做到这种行为的？它似乎只在未被观察时移动。",
+    "SENNETTI: Perhaps it is some form of macroscopic quantum behavior? It may exist in all locations at the same time, but collapses to a single possibility once observed by a conscious being.": "塞内蒂：也许这是一种宏观量子行为？它可能同时存在于所有位置，但一旦被有意识的生物观察，就会坍缩到单一位置。",
+    "OKALIS: An interesting idea! This may indeed be the case, I can think of no other explanation for how it may relocate itself so dramatically.": "奥卡利斯：有趣的想法！确实可能是这样，我想不出其他解释来说明它如何如此剧烈地移动。",
+    "AZOLLA: While this is an interesting find, it is a shame that it does not seem to be useful to our current goals. I had hoped that this would help us locate the <![CDATA[<color=orange>Eye of the Universe</color>]]>.": "阿佐拉：虽然这是个有趣的发现，但遗憾的是它似乎对我们当前的目标没有帮助。我原本希望它能帮我们找到<![CDATA[<color=orange>宇宙之眼</color>]]>。",
+    "NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When one of the two main locations is blocked by a small object (such as a scroll or a writing staff), it seems that the rock moves to an additional, third location. I theorize that this is due to the rock having an extremely low probability to appear in that location. However, it is forced into that superposition once the only other possibility is occupied. I have been calling this the Rule of Quantum Probability.": "妮西亚：实际上，我可能无意中发现了这块石头的另一种行为。当两个主要位置之一被小物体（如卷轴或书写工具）挡住时，石头似乎会移动到第三个位置。我推测这是因为石头出现在那个位置的概率极低。然而，当其他可能性被占据时，它被迫进入这种叠加状态。我称之为量子概率法则。",
+    "AZOLLA: Even more interesting, but I still fail to understand how this would aid us in reaching the <![CDATA[<color=orange>Eye</color>]]>.": "阿佐拉：更有趣了，但我仍然不明白这如何帮助我们到达<![CDATA[<color=orange>宇宙之眼</color>]]>。",
+    "NESIA: I am still putting together the details (in particular, I want to bring Karenia to observe this phenomenon), but I believe that this may be useful to a proposal of mine that I am calling the <![CDATA[<color=orange>Distant Node Project</color>]]>. I encourage you all to join me here sometime when I have more of the details worked out. I will be able to explain the idea in full then.": "妮西亚：我还在整理细节（特别是我想让卡蕾妮亚来观察这个现象），但我认为这可能对我提出的<![CDATA[<color=orange>远程节点计划</color>]]>有用。等我整理好更多细节后，欢迎大家来和我一起讨论。那时我可以详细解释这个想法。",
+    "NESIA: If this is the case, it may hint at the nature of the <![CDATA[<color=orange>Eye</color>]]> as well. This rock seems to emanate a signal similar to the one reverberating through this area.": "妮西亚：如果是这样，它可能也暗示了<![CDATA[<color=orange>宇宙之眼</color>]]>的本质。这块石头似乎发出了与这个区域回荡的信号相似的信号。",
+
+    //sedentary_fish_lore
+    "NESIA: At first I was quite confused how these fish could survive with the stark absence of viable prey, but after observing them, I believe I understand. They live very sedentary lives, only moving to ambush potential prey. This allows them to expend very little energy. In fact, I believe that only ones as large as the mother near the <![CDATA[<color=orange>Translation Lab</color>]]> require larger prey. Smaller ones can simply subside on the smaller creatures that float throughout the <![CDATA[<color=purple>Bramble</color>]]>, digesting anything foolish enough to enter their mouths.": "妮西亚：起初我很困惑这些鱼在没有足够猎物的情况下如何生存，但经过观察后，我想我明白了。它们过着非常懒散的生活，只有在伏击潜在猎物时才会移动。这使得它们消耗的能量非常少。事实上，我认为只有像<![CDATA[<color=orange>翻译实验室</color>]]>附近的那条母鱼那样大的鱼才需要更大的猎物。较小的鱼可以依靠漂浮在<![CDATA[<color=purple>荆棘</color>]]>中的小生物为生，消化任何愚蠢到进入它们口中的东西。",
+    "AZOLLA: An interesting idea, Nesia. This would explain why the Dree are able to rely on the anglerfish staying away. There is no need to worry about an encroaching predator when that predator never moves.": "阿佐拉：有趣的想法，妮西亚。这解释了为什么德瑞人可以依赖鮟鱇鱼远离他们。当捕食者从不移动时，就不必担心它们的入侵。",
+    "SENNETTI: This may even explain how that anglerfish grew to that size. Perhaps they grow proportionally to their nutritional intake.Thus the extra food the Dree give her has caused her to grow to such an exceedingly massive size.": "塞内蒂：这甚至可能解释了那条鮟鱇鱼是如何长到那么大的。也许它们的生长与营养摄入成正比。因此，德瑞人给她的额外食物使她长到了如此巨大的体型。",
+
+    //stomach_lore
+    "NESIA: Interesting. It seems that the majority of the anglerfish's internal volume is taken up by this central cavity, rather than organs.": "妮西亚：有趣。看来鮟鱇鱼的大部分内部空间被这个中央腔占据，而不是器官。",
+    "OKALIS: But how can that be? They seem to be large predators that have evolved to swallow prey whole. How could they have such a small space for their stomach?": "奥卡利斯：但这怎么可能？它们似乎是进化成可以吞下整个猎物的大型捕食者。它们的胃怎么会这么小？",
+    "NESIA: I do not believe that they have any stomach at all. Instead, this interior cavity is normally flooded with a free-floating digestive enzyme, allowing the fish to entrap and consume any organic matter that it can fit inside its mouth.": "妮西亚：我认为它们根本没有胃。相反，这个内部腔通常充满了自由漂浮的消化酶，使鱼能够捕获并消化任何能进入其口中的有机物质。",
+    "NESIA: Additionally, the fact that the enzyme disperses upon petting the eye of the fish is likely not a trained behavior, as it seems unlikely that the Dree would have had any need for such a thing. I believe that, instead, this may allow juvenile fish to brush against the eye of an adult to gain access to their prey.": "妮西亚：此外，酶在抚摸鱼的眼睛时分散的行为可能不是训练出来的，因为德瑞人似乎不需要这样的行为。我认为，这可能让幼鱼通过触碰成年鱼的眼睛来获取猎物。",
+    "AZOLLA: Interesting! It's rather odd a species that are normally so territorial can become such social creatures once their young are involved.": "阿佐拉：有趣！通常如此具有领地意识的物种在涉及到幼崽时会变得如此社会化，这真是奇怪。",
+
+    //tooth_hint
+    "OKALIS: Friends, Amylax has informed me of an unfortunate event! The anglerfish guarding the juveniles in the <![CDATA[<color=orange>Nursery</color>]]> lost one of his centermost bottom teeth in an accident!": "奥卡利斯：朋友们，阿米拉克斯告诉我一个不幸的消息！在<![CDATA[<color=orange>育婴所</color>]]>守护幼崽的鮟鱇鱼在一次事故中失去了一颗中央下牙！",
+    "AZOLLA: Did he mention what the nature of the accident was?": "阿佐拉：他提到事故的性质了吗？",
+    "OKALIS: Not in detail. From what I understood, it seems as if two of the juvenile fish got into an altercation, and Kevin hit the wall in the process of separating them. It seems that none of the Dree were present for the altercation, so that is simply their best guess.": "奥卡利斯：没有详细说明。据我所知，似乎是两条幼鱼发生了冲突，凯文在分开它们的过程中撞到了墙。似乎当时没有德瑞人在场，所以这只是他们的猜测。",
+    "SENNETTI: It is fortunate that the Dree have him there then, I imagine one of the juvenile fish could have been seriously injured had Kevin not intervened.": "塞内蒂：幸好德瑞人让他待在那里，我想如果凯文没有干预，其中一条幼鱼可能会严重受伤。",
+    "NESIA: Are you referring to Kevin? That is unfortunate, I hope it does not leave any permanent effects.": "妮西亚：你是指凯文吗？这很不幸，我希望不会留下永久的影响。",
+    "OKALIS: It seems as if he should make a full recovery, except for the permanent mark left by the missing tooth.": "奥卡利斯：他似乎会完全康复，除了缺失的牙齿留下的永久痕迹。",
+
+    //amylaxnametag
+    //ch_crystal_repair
+    "NESIA: I have heard that a method has been developed to repair gravity crystals and that I should come here to find out more. Does it have something to do with the new bells lining the stage?": "妮西亚：我听说已经开发出修复重力晶体的方法，我应该来这里了解更多。这与舞台上排列的新钟有关吗？",
+    "KARENIA: Observant as always! All you need to do is take your cracked crystal, place it in one of the hexagonal slots, and ring the correct bells! Specifically, you need to ring the bell two places left of the crystal, then directly to the right, and finally directly below.": "卡蕾妮亚：一如既往的敏锐！你只需要把破裂的晶体放在一个六边形槽中，然后敲击正确的钟！具体来说，你需要敲击晶体左侧两个位置的钟，然后直接敲击右侧的钟，最后敲击正下方的钟。",
+    "OKALIS: That seems fairly simple! Does it matter what slot the crystal is placed in, or do any work?": "奥卡利斯：这似乎很简单！晶体放在哪个槽中有关系吗？还是随便放都可以？",
+    "KARENIA: Any slots should work, as long as you're able to ring the correct bells.": "卡蕾妮亚：只要你能敲击正确的钟，任何槽都可以。",
+    "AZOLLA: I'm quite impressed with your ability to find a repair method so quickly. It never occurred to me that harmonics could be used as a viable method!": "阿佐拉：你这么快就找到修复方法，让我印象深刻。我从未想过谐波可以作为一种可行的方法！",
+    "KARENIA: Thanks! Music is very important to us, so we're always excited when we hear a problem that it might solve. I should clarify though that this method is only able to repair minor damage, like cracks. If part of the crystal is outright missing then it won't work.": "卡蕾妮亚：谢谢！音乐对我们非常重要，所以当我们听到它可能解决的问题时，总是很兴奋。不过我要澄清一下，这种方法只能修复轻微的损坏，比如裂缝。如果晶体的一部分完全缺失，那么它就不起作用了。",
+
+    //ch_dree_lethargy
+    "OKALIS: Amylax, one thing we have noticed, especially given recent events, is how your people seem to be a bit too accepting of circumstances. While this has been changing some, I was curious what brought about this attitude in the first place?": "奥卡利斯：阿米拉克斯，我们注意到的一件事是，尤其是在最近的事件之后，你们的人似乎对环境的接受度有点过高。虽然这种情况有所改变，但我很好奇最初是什么导致了这种态度？",
+    "AMYLAX: It's an artifact from when things weren't so peaceful, before we had tamed the anglerfish and things like that. As I'm sure you're all aware, the <![CDATA[<color=purple>Bramble</color>]]> is not exactly safe, and there was a time where death was pretty commonplace. During that time, we learned that taking tragedy in stride would be more or less necessary for our survival.": "阿米拉克斯：这是在我们驯服鮟鱇鱼之前，事情并不那么和平的时代的遗留物。正如你们所知，<![CDATA[<color=purple>荆棘</color>]]>并不完全安全，曾经有一段时间死亡非常普遍。在那段时间里，我们学会了从容面对悲剧，这对我们的生存来说是必要的。",
+    "AZOLLA: I see. I fear we Nomai may suffer from the opposite problem as you Dree. I am sure you have noticed our species' eagerness to explore. It is one of our greatest prides, but it can also lead to some rash decision making. We Nomai are no strangers to these rash decisions claiming lives, and sometimes need to purposefully slow ourselves down to avoid it.": "阿佐拉：我明白了。恐怕我们挪麦人可能会遭受与你们德瑞人相反的问题。我相信你已经注意到我们物种对探索的渴望。这是我们最大的骄傲之一，但它也可能导致一些草率的决定。我们挪麦人对这些草率决定夺走生命并不陌生，有时需要故意放慢脚步以避免这种情况。",
+    "KARENIA: That makes sense. Nesia was telling me that your clan's discovery of the <![CDATA[<color=orange>Eye</color>]]> is actually what led to the tragedy that befell your clan. Your leader, Escall, was too quick to follow the Eye's signal, which led to your ship getting stuck in the <![CDATA[<color=purple>Bramble</color>]]>.": "卡蕾妮亚：这很有道理。妮西亚告诉我，你们部族发现<![CDATA[<color=orange>宇宙之眼</color>]]>实际上导致了你们部族的悲剧。你们的领袖埃斯卡尔过于急切地追随宇宙之眼的信号，导致你们的飞船被困在<![CDATA[<color=purple>荆棘</color>]]>中。",
+    "KARENIA: That danger also led to our attitude towards expansion. We found a corner of the <![CDATA[<color=purple>Bramble</color>]]> that was decently safe, so we just... stayed here. It's cramped, and not terribly comfortable, but at least we're not having people go missing every other day.": "卡蕾妮亚：这种危险也导致了我们对扩张的态度。我们找到了<![CDATA[<color=purple>荆棘</color>]]>中一个相对安全的角落，所以我们只是……留在这里。这里很拥挤，也不太舒适，但至少我们不会每隔一天就有人失踪。",
+
+    //ch_intelligence
+    "KARENIA: I've been kinda concerned about something, if one of you would be willing to discuss it with me. Do you Nomai find us Dree... unintelligent? It's no secret that you guys have way more technology than we do, and I just wanted to make sure you don't see us as inferior or something like that.": "卡蕾妮亚：我有点担心一件事，如果你们中有人愿意和我讨论的话。你们挪麦人觉得我们德瑞人……不聪明吗？你们拥有比我们多得多的技术，这已经不是什么秘密了，我只是想确保你们不会把我们视为低等生物之类的。",
+    "AZOLLA: Of course not! You all are no less intelligent than us, it's just that the different demands of our species caused us to develop different areas of expertise.": "阿佐拉：当然不是！你们和我们一样聪明，只是我们物种的不同需求导致我们发展了不同的专业领域。",
+    "KARENIA: Can you elaborate?": "卡蕾妮亚：你能详细说明吗？",
+    "NESIA: We Nomai are defined by our nomadic lifestyle and inquisitive nature. Because of this, our species put a high priority on the development of advanced technology that would allow us to travel to faraway places. You Dree, on the other hand, had to contend with the hostile environment of the <![CDATA[<color=purple>Bramble</color>]]>, so you focused on developments that facilitated your survival. This led to several impressive developments, chief among them your ability to commune with the plant on a level we Nomai have never observed in all of our travels.": "妮西亚：我们挪麦人以游牧生活方式和好奇心著称。因此，我们物种高度重视发展先进技术，使我们能够前往遥远的地方。而你们德瑞人则必须应对<![CDATA[<color=purple>荆棘</color>]]>的恶劣环境，因此你们专注于促进生存的发展。这导致了一些令人印象深刻的发展，其中最重要的是你们与植物交流的能力，这是我们在所有旅行中从未见过的。",
+    "OKALIS: If it weren't for you all and your carefully developed relationship with the <![CDATA[<color=purple>Bramble</color>]]>, the four of us would not have survived.": "奥卡利斯：如果不是你们与<![CDATA[<color=purple>荆棘</color>]]>精心发展的关系，我们四个人就不会幸存下来。",
+    "KARENIA: I really appreciate your honesty Nesia. I guess it's just another difference between our people that we can use to help each other out.": "卡蕾妮亚：我非常感谢你的诚实，妮西亚。我想这只是我们之间的另一个差异，我们可以利用它来互相帮助。",
+
+    //ch_intro
+    "AZOLLA: Good news friends! We have been given approval to take part in the tradition of sharing our culture in this concert hall! Our new neighbors state that, so long as we refrain from constructing walls which interfere with the concert hall's acoustics, we are free to write in here!": "阿佐拉：好消息，朋友们！我们已获准参加在这个音乐厅分享我们文化的传统！我们的新邻居表示，只要我们避免建造干扰音乐厅声学的墙壁，我们就可以在这里自由书写！",
+    "SENNETTI: That is good news! I imagine us writing here will also allow for our new friends to leave thoughts of their own.": "塞内蒂：这是个好消息！我想我们在这里书写也会让我们的新朋友留下他们的想法。",
+    "DITYLUM: Since you all decided (willingly or not) to stay here, we figured that it only made sense for you to participate in some of our traditions.": "迪提伦：既然你们决定（无论自愿与否）留在这里，我们认为你们参与我们的一些传统是理所当然的。",
+    "NESIA: It is much appreciated, friend! While I am generally accustomed to studying from afar, it will be much more pleasant to fully engage with you and the other Dree.": "妮西亚：非常感谢，朋友！虽然我通常习惯于从远处研究，但与你们和其他德瑞人充分互动会更加愉快。",
+    "OKALIS: I look forward to seeing the similarities and differences between our cultures! I imagine it will be quite interesting to observe.": "奥卡利斯：我期待着看到我们文化之间的相似之处和差异！我想观察起来会非常有趣。",
+
+    //ch_oral_tradition
+    "SENNETTI: During my discussions with Ditylum, I have noted our new friends do not seem to record their history. If anyone who knows more finds this, would they please explain how your people's history is tracked?": "塞内蒂：在与迪提伦的讨论中，我注意到我们的新朋友似乎没有记录他们的历史。如果有更了解的人看到这个，能否请你们解释一下你们的历史是如何传承的？",
+    "LIOLOMA: Happy to explain! Basically, while we don't really write stuff down very often, we are always sharing our stories with each other and making sure that they get passed down to the next generation!": "利奥洛玛：很高兴解释！基本上，虽然我们不经常写下东西，但我们总是互相分享我们的故事，并确保它们传给下一代！",
+    "AZOLLA: I see! So your people rely on a rich oral history, rather than writing it down. I do question how you ensure your stories aren't lost to time, however.": "阿佐拉：我明白了！所以你们的人民依赖丰富的口述历史，而不是写下来。不过我很好奇你们如何确保这些故事不会随时间流逝而消失。",
+    "KARENIA: Well, we don't really move around terribly much, and there aren't that many of us either. That makes it so everyone knows everyone, which makes our oral tradition much easier to practice.": "卡蕾妮亚：嗯，我们并不经常移动，而且我们的人数也不多。这使得每个人都认识每个人，这让我们的口述传统更容易实践。",
+    "DITYLUM: If you don't mind me asking, why do you Nomai write things down so often? I mean, you even write out or record pretty normal conversations.": "迪提伦：如果你不介意我问，为什么你们挪麦人经常写下东西？我的意思是，你们甚至记录或写下非常普通的对话。",
+    "NESIA: It is a byproduct of our nomadic lifestyle. Traditionally, Nomai clans are constantly moving from place to place, so writing out and recording our conversations became our way of sharing knowledge with others. If at some point another clan were to stumble upon somewhere we had been, they would find our writing and have a head start on understanding their surroundings.": "妮西亚：这是我们游牧生活方式的副产品。传统上，挪麦氏族不断从一个地方迁移到另一个地方，因此写下和记录我们的对话成为我们与他人分享知识的方式。如果某个时候另一个氏族偶然发现我们曾经到过的地方，他们会找到我们的文字，并更快地理解他们的环境。",
+
+    //ch_outside_bramble
+    "OKALIS: I've been curious about something, if any of our new neighbors are able to answer. Where do you originate from? Do your people originate from the <![CDATA[<color=purple>Bramble</color>]]>, or do you have a record from outside?": "奥卡利斯：我一直对某件事感到好奇，如果我们的新邻居中有谁能回答的话。你们来自哪里？你们的人民是来自<![CDATA[<color=purple>荆棘</color>]]>，还是有来自外部的记录？",
+    "AMYLAX: We're honestly not sure. There are some stories of a time before the <![CDATA[<color=purple>Bramble</color>]]>, but we're not sure if they're true or not.": "阿米拉克斯：老实说，我们也不确定。有一些关于<![CDATA[<color=purple>荆棘</color>]]>之前时代的故事，但我们不确定它们是否真实。",
+    "KARENIA: Some stories even claim that <![CDATA[<color=orange>Shattered Hearth</color>]]> is actually the planet we used to live on outside, until the <![CDATA[<color=purple>Bramble</color>]]> tore it apart and swallowed it.": "卡蕾妮亚：有些故事甚至声称<![CDATA[<color=orange>破碎家园</color>]]>实际上是我们曾经居住的外星球，直到<![CDATA[<color=purple>荆棘</color>]]>将其撕裂并吞噬。",
+
+    //ch_taming
+    "NESIA: I'm curious how you all managed to deal with the proximity of the anglerfish? I cannot imagine they are ideal neighbors.": "妮西亚：我很好奇你们是如何处理鮟鱇鱼的接近的？我无法想象它们是理想的邻居。",
+    "DITYLUM: It's actually pretty easy to live with them, especially since they're all tamed now. Except for the babies of course.": "迪提伦：实际上与它们生活在一起相当容易，特别是现在它们都被驯服了。当然，除了幼崽。",
+    "NESIA: I've actually wondered about that some myself. How does the taming process work, and why is it ineffective on the juveniles?": "妮西亚：我自己也对此感到好奇。驯服过程是如何进行的，为什么对幼崽无效？",
+    "KARENIA: Basically, we just feed them a bunch. The anglerfish are simple creatures; they want to get food and they want to move as little as possible to do it. That means, if you consistently bring them food, they'll understand that the best way to get easy food is by not killing you.": "卡蕾妮亚：基本上，我们只是给它们喂很多食物。鮟鱇鱼是简单的生物；它们想要食物，并且希望尽可能少地移动来获取食物。这意味着，如果你持续给它们食物，它们会明白获取食物的最佳方式是不杀死你。",
+    "KARENIA: The babies, on the other hand, don't care as much about staying still as they care about getting a lot of food. This means they'll still attack whoever gets close, so we have to wait until they're a good deal larger before they can be tamed.": "卡蕾妮亚：另一方面，幼崽们并不太在意保持静止，而是更关心获取大量食物。这意味着它们仍然会攻击任何靠近的人，所以我们必须等到它们长得更大一些才能驯服它们。",
+    "SENNETTI: Even so, I am unclear on how you live in such close proximity to those creatures. The image of their shapes lurking in the fog, hinted at only by their stark white lights, still gives me chills.": "塞内蒂：即便如此，我还是不清楚你们如何与这些生物如此近距离地生活。它们在雾中潜伏的身影，仅由它们刺眼的白光暗示，仍然让我感到不寒而栗。",
+    "DITYLUM: If you read that again, that might tell you why that's not a problem for us Dree.": "迪提伦：如果你再读一遍，可能会明白为什么这对我们德瑞人来说不是问题。",
+    "NESIA: I see! That makes sense, given their massive size. I imagine any movement expends a sizable amount of energy.": "妮西亚：我明白了！考虑到它们的巨大体型，这是有道理的。我想任何动作都会消耗大量的能量。",
+
+    //communion_recording
+    "NESIA: Hello. My name is Nesia. It's my understanding that you are the head druid of your people. Is that correct?": "妮西亚：你好。我叫妮西亚。据我所知，你是你们人民的首席德鲁伊。对吗？",
+    "KARENIA: Yes, why do you ask?": "卡蕾妮亚：是的，为什么这么问？",
+    "NESIA: I was hoping you may be able to give some insight on the circumstances surrounding the rest of our clan. Is that within your capabilities?": "妮西亚：我希望你能对我们氏族其他成员的处境提供一些见解。这是你能做到的吗？",
+    "KARENIA: Maybe. I can commune with the <![CDATA[<color=purple>Bramble</color>]]> enough to figure out their fates within its walls, but I won't be able to figure out what might've happened outside.": "卡蕾妮亚：也许吧。我可以与<![CDATA[<color=purple>荆棘</color>]]>交流，以了解其内部的命运，但我无法弄清楚外面可能发生了什么。",
+    "NESIA: I believe that will be sufficient. Three pods were launched from the <![CDATA[<color=orange>Vessel</color>]]>. Can you ascertain what happened to them?": "妮西亚：我相信这已经足够了。从<![CDATA[<color=orange>飞船</color>]]>发射了三个舱体。你能确定它们发生了什么吗？",
+    "KARENIA: Let me see... okay, I have the vines talking about your vessel and... yes! They're saying that objects escaped! They actually seem a little confused, that doesn't happen often.": "卡蕾妮亚：让我看看……好的，我听到藤蔓在谈论你们的飞船……是的！它们说有物体逃脱了！它们似乎有点困惑，这种情况并不常见。",
+    "KARENIA: Wait... oh. Oh no. I'm so sorry, but it seems like one of the pods didn't make it, I'm hearing talk of a captured object.": "卡蕾妮亚：等等……哦，不。我很抱歉，但似乎有一个舱体没有成功逃脱，我听到有关被捕获物体的谈论。",
+    "NESIA: No... Can you determine which pod it was? Who was aboard?": "妮西亚：不……你能确定是哪个舱体吗？谁在上面？",
+    "KARENIA: I'm sorry, but it's all jumbled, I can't tell anything specific without knowing something about the peop-": "卡蕾妮亚：抱歉，但一切都混乱了，我不知道具体的情况，除非知道一些关于人……",
+    "NESIA: Secca. Please, please, I need to know if Secca is unharmed!": "妮西亚：塞卡。求求你，求求你，我需要知道塞卡是否安然无恙！",
+    "KARENIA: Hold on, I'll ask.": "卡蕾妮亚：等一下，我来问问。",
+    "KARENIA: I... I'm so sorry, but I'm hearing echoes of that name. The <![CDATA[<color=purple>Bramble</color>]]> only ever learns a name when it claims the person it belongs to. It seems that they were caught without air and asphyxiated.": "卡蕾妮亚：我……我很抱歉，但我听到了那个名字的回声。<![CDATA[<color=purple>荆棘</color>]]>只有在夺取某人生命时才会知道他们的名字。似乎他们被捕获时没有空气，窒息而死。",
+    "NESIA: No. No, please, are you certain that she perished? There is no mistaking it?": "妮西亚：不，不，求求你，你确定她死了吗？没有弄错吗？",
+    "KARENIA: I'm sorry, but the vines are very clear. Was she someone that you knew?": "卡蕾妮亚：抱歉，但藤蔓说得很清楚。她是你认识的人吗？",
+    "NESIA: She is... She was my love. I'm sorry, I. I can't...": "妮西亚：她是……她是我爱的人。对不起，我……我不能……",
+    "KARENIA: Wait! Nesia! Where are you going?!": "卡蕾妮亚：等等！妮西亚！你要去哪里？！",
+
+    //concert_hall_recording
+    "OKALIS: That performance was beautiful! I never suspected that these people would have such wonderful vocalizations.": "奥卡利斯：那场表演太美了！我从未怀疑这些人会有如此美妙的嗓音。",
+    "NESIA: Suppose that the physiology of their vocal organs are different from ours? I fail to even imagine how one of us might create those sounds.": "妮西亚：假设他们的发声器官的生理结构与我们的不同？我甚至无法想象我们中的任何一个人如何发出那些声音。",
+    "AZOLLA: Interesting hypothesis, Nesia. We will have to see what Sennetti can discover once he completes his analysis of these people's language.": "阿佐拉：有趣的假设，妮西亚。我们必须看看塞内蒂在完成对这些人的语言分析后能发现什么。",
+    "OKALIS: I know it is for a good reason, but I still struggle to understand how he was willing to miss this performance to continue working. Hopefully he has an opportunity to relax soon!": "奥卡利斯：我知道这是有充分理由的，但我仍然难以理解他为什么愿意错过这场表演继续工作。希望他很快有机会放松！",
+    "AZOLLA: I hope so too, but you know that distracting Sennetti after he begins work on a translation is as simple and painless as a dental extraction.": "阿佐拉：我也希望如此，但你知道在塞内蒂开始翻译工作后分散他的注意力就像拔牙一样简单而无痛。",
+
+    //concerthallsign
+    "Concert Hall": "音乐厅",
+
+    //heat_warning
+    "Be wary friends, the space that lies beyond this node is filled with an extreme heat. If you must enter, be prepared to move quickly. The temperature is sufficient to cook you inside of your suit.": "小心，朋友们，这个节点之外的空间充满了极热。如果你必须进入，请准备好快速移动。温度足以在你们的宇航服内煮熟你们。",
+    "We have erected a gravity lift to bring you down to the planet's surface. Find your way into it and you will be brought into an area where the heat is somewhat dissipated. Simply keep watch for it, it is plainly visible as you approach.": "我们建立了一个重力升降机，将你们带到行星表面。找到它并进入，你们将被带到一个热量有所消散的区域。只需留意它，接近时它非常显眼。",
+
+    //helmet_off_recording
+    "OKALIS: Fascinating, I wonder what the purpose of this area could be? It could be some manner of social area, but we have already observed a park and a concert hall. I wonder how many social areas these people have?": "奥卡利斯：令人着迷，我想知道这个区域的目的是什么？它可能是某种社交区域，但我们已经观察到一个公园和一个音乐厅。我想知道这些人有多少社交区域？",
+    "AMYLAX: Um, hey, Okalis was it? I just wanted to come say hi and introduce myself, since that's something that we can do now. My name's Amylax.": "阿米拉克斯：嗯，嘿，是奥卡利斯吗？我只是想来打个招呼并自我介绍，因为这是我们现在可以做的事情。我叫阿米拉克斯。",
+    "OKALIS: Oh! Hello! I must confess, I had somewhat forgotten that Sennetti had completed his translation, and that we would be able to fully understand one another. Yes, I'm Okalis, it's a pleasure to meet you properly!": "奥卡利斯：哦！你好！我必须承认，我有点忘记了塞内蒂已经完成了他的翻译，我们可以完全理解彼此了。是的，我是奥卡利斯，很高兴正式认识你！",
+    "AMYLAX: Were you wondering what this little podium is? It's actually where we come to tell stories and such. Most of our history is kept track of through oral tradition, so we have this place to tell all of the old stories from our ancestors.": "阿米拉克斯：你在想这个小讲台是什么吗？实际上，这是我们来讲故事的地方。我们的大部分历史都是通过口述传统来记录的，所以我们有这个地方来讲述我们祖先的所有古老故事。",
+    "OKALIS: Interesting! Although, why not use the concert hall for that purpose? I am certain that it would have the acoustics for it. Ah, also, if you'll excuse me, it's getting a bit stuffy in here, so I'm going to remove this while the oxygen of this planet allows me to do so.": "奥卡利斯：有趣！不过，为什么不使用音乐厅来达到这个目的呢？我相信它会有适合的音响效果。啊，还有，如果你不介意的话，这里有点闷，所以我要在这个星球的氧气允许的情况下取下这个。",
+    "AMYLAX: Oh, um, yeah, sure. The concert hall is really for large performances, so it's not really pract-BY THE <![CDATA[<color=purple>BRAMBLE</color>]]> WHAT ARE YOU DOING!?!": "阿米拉克斯：哦，嗯，是的，当然。音乐厅实际上是用于大型表演的，所以它并不真正实用——<![CDATA[<color=purple>荆棘</color>]]>在上，你在做什么！？！",
+    "OKALIS: Taking my helmet off? It's stuffy in this suit, so I prefer not to wear it when it can be avoided.": "奥卡利斯：取下我的头盔？这套宇航服很闷，所以我尽量避免穿它。",
+    "AMYLAX: But, but, you just pulled off your head! And you have a second, smaller, fuzzier head inside of it?": "阿米拉克斯：但是，但是，你刚刚把你的头取下来了！而且里面还有一个更小、更毛茸茸的头？",
+    "OKALIS: Oh! This is not my head, it's a helmet! It protects my head from impacts, as well as allowing some degree of environmental regulation, such as providing me with oxygen. Did you believe that we all have the appearance of our helmets and masks?": "奥卡利斯：哦！这不是我的头，是头盔！它保护我的头部免受撞击，并允许一定程度的环境调节，比如为我提供氧气",
+    "AMYLAX: Kinda, yeah. So, I guess that's not your skin either? It's actually just something you have... surrounding your real skin?": "阿米拉克斯：算是吧。所以，我猜那也不是你的皮肤？实际上只是你用来包裹真正皮肤的东西？",
+    "OKALIS: Yes! We Nomai are actually covered in a layer of fur as well, but that is also underneath the suit. I hope my true appearance isn't too disconcerting to you, you appeared quite distressed a moment ago.": "奥卡利斯：是的！我们挪麦人实际上也有一层毛皮，但它也在宇航服下面。我希望我的真实外貌不会让你感到不安，你刚才看起来有些不安。",
+    "AMYLAX: I thought that you had somehow pulled your head off, that's why I was concerned. Your actual face isn't bad at all though! It actually kinda suits you, I like the softer feel about you. Wait, sorry, was that a weird thing to say?": "阿米拉克斯：我以为你不知怎么把头扯下来了，所以我才担心。不过你的真实外貌一点也不差！实际上还挺适合你的，我喜欢你那种柔和的感觉。等等，抱歉，我是不是说了奇怪的话？",
+    "OKALIS: Not at all, friend! I'm quite flattered, to be honest, I can't say I have had many people compliment my appearance before, especially people who can not truly see me. I look forward to seeing you around, Amylax, especially now that we are able to communicate!": "奥卡利斯：一点也不奇怪，朋友！说实话，我感到非常受宠若惊，我以前很少听到有人称赞我的外貌，尤其是那些无法真正看到我的人。阿米拉克斯，我期待能经常见到你，尤其是现在我们能够交流了！",
+
+    //karenianametag
+    "Karenia": "卡蕾妮亚",
+
+    //okalis_acceptance
+    "OKALIS: Hello Amylax! I apologize for not reacting properly to the gift you left in my home in <![CDATA[<color=orange>Graviton's Folly</color>]]>, I did not understand at the time that it was part of a courting ritual!": "奥卡利斯：你好，阿米拉克斯！对于你在我家<![CDATA[<color=orange>引力愚行</color>]]>留下的礼物，我没有做出适当的反应，我为此道歉。当时我并不知道这是求偶仪式的一部分！",
+    "OKALIS: As for my response, I wholeheartedly accept your offer of partnership! I have left the appropriate necklace in your home, as per the second half of the ritual. I hope you don't mind, but I was unable to construct it from the traditional vines as I lack the talents shared by your people.": "奥卡利斯：至于我的回应，我全心全意接受你的伴侣提议！按照仪式的后半部分，我已经在你家留下了合适的项链。希望你不介意，我无法用传统的藤蔓制作它，因为我缺乏你们族人共有的手艺。",
+    "OKALIS: I also sincerely hope the wall I had to construct to write this message is unobstructive. It should be fairly easy to disassemble, which we could even do together if you so wished!": "奥卡利斯：我也真诚地希望，我为了写这条消息而建造的墙不会造成阻碍。它应该很容易拆卸，如果你愿意，我们甚至可以一起完成！",
+
+    //park_recording
+    "SENNETTI: This park appears to be the main social center for these people. I would greatly enjoy deciphering their language, but as it stands, I have nowhere to do my work nearby.": "塞内蒂：这个公园似乎是这些人的主要社交中心。我非常想解读他们的语言，但目前我附近没有工作的地方。",
+    "OKALIS: I may have some positive news on that front, friend. The alien we first made contact with, assuming I am correctly interpreting their message, is directing us to set up a lab for just that purpose.": "奥卡利斯：在这方面我可能有些好消息，朋友。如果我们第一次接触的外星人——假设我正确解读了他们的信息——正在指导我们为此目的建立一个实验室。",
+    "SENNETTI: If that is true, then I am thrilled to hear it! Where are we being permitted to put this lab?": "塞内蒂：如果这是真的，那我太高兴了！我们被允许在哪里建立这个实验室？",
+    "OKALIS: ...That appears to be the catch. We seem to be intended to construct the lab in the area accessible through the knot currently over our heads, which has no bodies with significant gravity. Additionally, while I have been assured that it is quite harmless, there does seem to be some manner of beast in that area.": "奥卡利斯：……这似乎是问题所在。我们似乎被要求在目前头顶上的节点可进入的区域建造实验室，那里没有显著重力的天体。此外，虽然我被告知那里相当安全，但似乎有某种野兽存在。",
+    "SENNETTI: The lack-of-gravity issue, while frustrating, can be tolerated. As for the beast... if it means deciphering the language of these people, then I will be able to power through, regardless of how hideous it may be.": "塞内蒂：缺乏重力的问题虽然令人沮丧，但可以忍受。至于野兽……如果这意味着解读这些人的语言，那么无论它多么可怕，我都会坚持下去。",
+    "NESIA: We all appreciate your courage in the pursuit of discovery, Sennetti. I believe I may be able to assist with your gravity issue. I have detected a strange signal in <![CDATA[<color=orange>Briar's Hollow</color>]]> that seems to be some manner of natural gravitational disturbance.": "妮西亚：我们都赞赏你在追求发现中的勇气，塞内蒂。我相信我可以帮助解决你的重力问题。我在<![CDATA[<color=orange>荆棘谷</color>]]>检测到一种奇怪的信号，似乎是某种自然重力扰动。",
+    "AZOLLA: That is quite an interesting find, Nesia. Now that we are better acquainted with our newfound friends, I propose you and I investigate that signal at once while Sennetti and Okalis begin constructing a translation lab. With the low visibility of this place, I suspect signals such as that will be highly valuable.": "阿佐拉：这是个非常有趣的发现，妮西亚。既然我们已经更熟悉我们的新朋友，我建议你和我立即调查那个信号，而塞内蒂和奥卡利斯开始建造翻译实验室。由于这个地方的能见度低，我认为这样的信号将非常有价值。",
+
+    //reinvigoration_recording
+    "OKALIS: Amylax, can I converse with you for a moment? There have been recent... developments that have been troubling me.": "奥卡利斯：阿米拉克斯，我可以和你聊一会儿吗？最近有一些……进展让我感到困扰。",
+    "AMYLAX: Oh, um, sure, I guess. What do you want to talk about?": "阿米拉克斯：哦，嗯，当然可以。你想谈什么？",
+    "OKALIS: The other Nomai and I have recently learned that a large portion of our clan perished in the <![CDATA[<color=purple>Bramble</color>]]>, one of them being Nesia's partner. Naturally, everyone has found themselves demoralized, and I am unsure what I can do to remedy the situation.": "奥卡利斯：其他挪麦人和我最近得知，我们氏族的大部分人在<![CDATA[<color=purple>荆棘</color>]]>中丧生，其中一个是妮西亚的伴侣。自然，每个人都感到士气低落，我不确定我能做些什么来改善这种情况。",
+    "AMYLAX: Oh Bramble, I'm so sorry!": "阿米拉克斯：哦，荆棘啊，我很难过！",
+    "OKALIS: Nesia believes that we will never be able to escape the <![CDATA[<color=purple>Deep Bramble</color>]]>, and this outlook has spread through everyone else like a miasma.": "奥卡利斯：妮西亚认为我们永远无法逃离<![CDATA[<color=purple>荆棘深处</color>]]>，这种观点像瘴气一样传播给了其他人。",
+    "AMYLAX: I mean, would that be such a bad thing?": "阿米拉克斯：我是说，这真的有那么糟糕吗？",
+    "OKALIS: Excuse me?": "奥卡利斯：什么？",
+    "AMYLAX: Hold on, hold on, hear me out. Ever since you guys showed up, you've made comments on two main things. One, that you Nomai are intensely curious, and two, that the <![CDATA[<color=purple>Deep Bramble</color>]]> is probably the weirdest place that your people have ever found.": "阿米拉克斯：等等，等等，听我说。自从你们出现以来，你们一直在评论两件事。一是你们挪麦人非常好奇，二是<![CDATA[<color=purple>荆棘深处</color>]]>可能是你们族人发现的最奇怪的地方。",
+    "AMYLAX: However, you also keep saying a third thing, which seems to contradict those two, and that's that you <![CDATA[<i>]]>desperately<![CDATA[</i>]]> want to leave. I know that you all want to see the rest of your people again, but if that's not possible right now, why not make the best of the situation?": "阿米拉克斯：然而，你们还一直在说第三件事，似乎与前两件事矛盾，那就是你们<![CDATA[<i>]]>迫切<![CDATA[</i>]]>想要离开。我知道你们都希望再次见到其他族人，但如果现在这不可能做到，为什么不充分利用现在这种情况呢？",
+    "OKALIS: That's... actually a very solid argument. At this point it has become clear that escape is not easily achievable. Perhaps investigating the phenomena surrounding us would be the most efficient use of our time!": "奥卡利斯：这……实际上是一个非常有力的论点。在这一点上，已经很清楚逃离并不容易实现。也许调查我们周围的现象将是最有效的时间利用方式！",
+    "AMYLAX: That's the spirit! I mean, there are so many things you guys could try and figure out, like how the space inside of the nodes works, how things end up in the <![CDATA[<color=purple>Deep Bramble</color>]]> in the first place, and that signal that came through a while back and ended up stuck in the area around <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "阿米拉克斯：就是这种精神！我是说，你们可以尝试弄清楚很多事情，比如节点内部的空间是如何工作的，事物是如何进入<![CDATA[<color=purple>荆棘深处</color>]]>的，以及不久前传来并卡在<![CDATA[<color=orange>岩浆回响</color>]]>周围的信号。",
+    "OKALIS: Wait, a signal? Amylax, when did this signal first appear?": "奥卡利斯：等等，信号？阿米拉克斯，这个信号是什么时候首次出现的？",
+    "AMYLAX: Um, pretty shortly before you guys showed up, actually. Some of us actually thought that you all might have caused it.": "阿米拉克斯：嗯，实际上是在你们出现前不久。我们中的一些人实际上认为可能是你们引起的。",
+    "OKALIS: The <![CDATA[<color=orange>Eye</color>]]>! That's the only explanation! The signal from the <![CDATA[<color=orange>Eye of the Universe</color>]]> must have passed through here! You said it is still reverberating throughout the area surrounding <![CDATA[<color=orange>Magma's Recursion</color>]]>? I must notify the others immediately, this is sure to spark their curiosity!": "奥卡利斯：<![CDATA[<color=orange>眼</color>]]>！这是唯一的解释！来自<![CDATA[<color=orange>宇宙之眼</color>]]>的信号一定经过这里！你说它仍然在<![CDATA[<color=orange>岩浆回响</color>]]>周围回荡？我必须立即通知其他人，这一定会激发他们的好奇心！",
+    "AMYLAX: Wait! Okalis! Don't run off so fast! That whole area is super... dangerous... oh <![CDATA[<color=purple>Bramble</color>]]>, I hope the other Nomai are more careful than he is, or they're gonna get themselves killed.": "阿米拉克斯：等等！奥卡利斯！别跑那么快！那整个区域非常……危险……哦，<![CDATA[<color=purple>荆棘</color>]]>啊，我希望其他挪麦人比他更小心，否则他们会丧命的。",
+
+    //bad_idea_1
+    "AZOLLA: Forgive me if the answer is obvious, but what is preventing Ditylum from simply crossing back through the <![CDATA[<color=orange>Nursery</color>]]>? I cannot imagine his swimming would generate enough noise to alert the fish.": "阿佐拉: 如果答案很明显，请原谅我，但为什么迪提伦不能直接穿过<![CDATA[<color=orange>育婴室</color>]]>回来呢？我不认为他的游泳声会大到足以惊动鱼群。",
+    "NESIA: While this would ordinarily be true, the fish in the <![CDATA[<color=orange>Nursery</color>]]> are young enough to hear the high-pitched tones he uses for echolocation.": "妮西亚: 虽然通常是这样，但<![CDATA[<color=orange>育婴室</color>]]>里的鱼足够年轻，能够听到他用于回声定位的高频声波。",
+    "OKALIS: Perhaps he could cross the <![CDATA[<color=orange>Nursery</color>]]> anyways? It seems that it would be possible if he simply didn't use his echolocation.": "奥卡利斯: 也许他还是可以穿过<![CDATA[<color=orange>育婴室</color>]]>？如果他不使用回声定位，似乎是有可能的。",
+    "NESIA: Even if he were to attempt that, the viscosity of the fog would require him to constantly swim forward. When combined with an inability to observe his surroundings, an accidental, noisy collision becomes all but assured.": "妮西亚: 即使他尝试这样做，雾的黏性也会迫使他不断向前游动。再加上无法观察周围环境，意外的嘈杂碰撞几乎是不可避免的。",
+    "AZOLLA: I see. So as soon as he attempted to get his bearings, they would be alerted and attack.": "阿佐拉: 我明白了。所以一旦他试图确定方向，它们就会被惊动并发动攻击。",
+    "SENNETTI: Consider the fear that would come for us from navigating the <![CDATA[<color=orange>Nursery</color>]]> blind. Under those circumstances, I know that I may not be able to keep my eyes closed. We cannot expect Ditylum wouldn't attempt to echolocate, even if involuntarily.": "塞内蒂: 想象一下我们在<![CDATA[<color=orange>育婴室</color>]]>中盲目航行时的恐惧。在这种情况下，我知道我可能无法闭上眼睛。我们不能指望迪提伦不会尝试回声定位，即使是无意的。",
+
+    //bad_idea_2
+    "OKALIS: From what I understand, the smaller size of the juvenile fish renders them slower than the adults. Would we be able to simply rush past them?": "奥卡利斯: 据我所知，幼年鱼的体型较小，速度也比成年鱼慢。我们能否直接冲过去？",
+    "NESIA: Unfortunately, the thick fog in that area would hinder our movement to the point they would be able to catch us, especially since they use the fog itself to propel their movement.": "妮西亚: 不幸的是，该区域的浓雾会阻碍我们的移动，以至于它们能够追上我们，尤其是它们利用雾本身来推动自己的移动。",
+    "AZOLLA: Even if that were not the case, disturbing them on the way there would likely position them into an impassable barrier, stranding us as well.": "阿佐拉: 即使不是这样，途中惊动它们可能会使它们形成一道无法通过的屏障，也会使我们被困。",
+    "SENNETTI: I imagine this effect would also be worsened on the return trip, as we would need to bring Ditylum back with us.": "塞内蒂: 我想这种影响在回程中也会加剧，因为我们需要把迪提伦带回来。",
+
+    //core_combo_hint
+    "SENNETTI: I have not yet had the chance to visit the gravity core at the center of the crystal. Would somebody be willing to remind me what sequence of levers need to be turned on to reach the center?": "塞内蒂: 我还没有机会参观水晶中心的重力核心。有人愿意提醒我到达中心需要按什么顺序打开哪些杠杆吗？",
+    "OKALIS: Of course! If I remember correctly, all of the levers should be on, except for the second and the second-to-last.": "奥卡利斯: 当然！如果我没记错的话，除了第二个和倒数第二个，所有的杠杆都应该打开。",
+    "SENNETTI: Thank you Okalis! May I ask why you wrote that in their language though? I find it unlikely any of our new friends will visit this planet. It is my understanding the inverted gravity makes them quite uncomfortable.": "塞内蒂: 谢谢你，奥卡利斯！不过我想问一下，你为什么用他们的语言写这个？我觉得我们的新朋友不太可能访问这个星球。据我所知，反向重力让他们很不舒服。",
+    "OKALIS: Of course! I am attempting to gain practice with their language, as I am preparing to make a more proper response to the gift Amylax left in my home.": "奥卡利斯: 当然！我正在练习他们的语言，因为我准备对阿米拉克斯留在我家的礼物做出更恰当的回应。",
+
+    //core_lab_intro
+    "NESIA: While Sennetti and Okalis are constructing the <![CDATA[<color=orange>lab to study the alien's language</color>]]>, I propose that we construct another lab here to investigate the crystal that floats above our heads.": "妮西亚: 当塞内蒂和奥卡利斯正在建造<![CDATA[<color=orange>研究外星语言的实验室</color>]]>时，我提议我们在这里建造另一个实验室，以研究我们头顶上漂浮的水晶。",
+    "AZOLLA: I can help you with this, Nesia! I am quite excited to see what secrets the crystal holds. Suppose it has something to do with the gravity of this planet?": "阿佐拉: 我可以帮你，妮西亚！我很期待看到水晶中隐藏的秘密。假设它与这个星球的重力有关？",
+    "NESIA: It may. The material we have sampled from <![CDATA[<color=orange>Graviton's Folly</color>]]> exhibits only light gravitational properties. It may be possible the crystal strengthens them somehow.": "妮西亚: 有可能。我们从<![CDATA[<color=orange>引力愚行</color>]]>采集的材料只表现出轻微的重力特性。可能是水晶以某种方式增强了它们。",
+    "AZOLLA: I imagine this knowledge would be quite useful to future attempts to use this material. I know Sennetti is having to refine large quantities to create the attractive force desired.": "阿佐拉: 我想这些知识对未来使用这种材料的尝试会非常有用。我知道塞内蒂正在提炼大量材料以产生所需的吸引力。",
+
+    //core_scanner_broken
+    "Ambient gravitational disturbance detected.": "检测到环境重力扰动。",
+    "Gravitational level negligible.": "重力水平可忽略不计。",
+
+    //core_scanner_intact
+    "Gravitational disturbance detected at core.": "在核心检测到重力扰动。",
+    "Gravitational level stable.": "重力水平稳定。",
+
+    //core_study
+    "NESIA: Azolla and I made a notable discovery when we ventured into the crystal suspended above our heads. It seems to contain a small, delicate core that emanates a strange energy.": "妮西亚: 阿佐拉和我冒险进入悬浮在我们头顶的水晶时，有了一个显著的发现。它似乎包含一个微小而精致的核心，散发出一种奇怪的能量。",
+    "SENNETTI: Interesting, do you have a hypothesis as to what this core may be?": "塞内蒂: 有趣，你对这个核心的可能性质有什么假设吗？",
+    "AZOLLA: We aren't certain yet, but we've noted that the energy emitted by the core is similar to that which comes from the internal surface of the planet.": "阿佐拉: 我们还不确定，但我们注意到核心发出的能量与行星内部表面的能量相似。",
+    "OKALIS: Interesting, suppose that this core is what allows the strong gravitational anomaly of this planet?": "奥卡利斯: 有趣，假设这个核心是导致这个星球强烈重力异常的原因？",
+    "AZOLLA: That is our current hypothesis. Unfortunately, we will be unable to test this hypothesis, as that would likely involve damaging the delicate crystalline structure of the core. Doing this may prove our hypothesis correct, but it would also be likely to irreversibly destabilize the gravity of the planet.": "阿佐拉: 这是我们目前的假设。不幸的是，我们将无法测试这个假设，因为这可能会损坏核心的精致晶体结构。这样做可能会证明我们的假设是正确的，但也可能会不可逆转地破坏星球的重力。",
+    "NESIA: More specifically, the core's energy seems able to combine with the surface energy in a way that enhances it.": "妮西亚: 更具体地说，核心的能量似乎能够以某种方式与表面能量结合，从而增强它。",
+    //good_idea_hint
+    "OKALIS: I believe I may have a plan to rescue Ditylum, but I will need to conduct more research at the <![CDATA[<color=orange>Enzyme Lab</color>]]>. Please make your way over there ASAP. I truly believe this idea is promising.": "奥卡利斯: 我相信我可能有一个拯救迪提伦的计划，但我需要在<![CDATA[<color=orange>酶实验室</color>]]>进行更多研究。请尽快前往那里。我真的认为这个想法很有希望。",
+    "SENNETTI: I seem to have forgotten where the <![CDATA[<color=orange>Enzyme Lab</color>]]> is, would you mind reminding me?": "塞内蒂: 我似乎忘记了<![CDATA[<color=orange>酶实验室</color>]]>在哪里，你能提醒我吗？",
+    "OKALIS: The lab resides in one of the fish near the <![CDATA[<color=orange>Anglerfish Observation Platform</color>]]>. It is fairly large, so it should be plainly visible.": "奥卡利斯: 实验室位于<![CDATA[<color=orange>鮟鱇鱼观察平台</color>]]>附近的其中一条鱼体内。它相当大，所以应该很容易看到。",
+    "NESIA: An important note; remember to pet the fish's eye before attempting to enter the lab, otherwise, the fish will likely digest you!": "妮西亚: 重要提示：在尝试进入实验室之前，记得抚摸鱼的眼睛，否则鱼可能会把你消化掉！",
+
+    //trapped_dree
+    "SENNETTI: I have a troubling update, friends. It seems the main entrance to the <![CDATA[<color=orange>Venomous Reject</color>]]> has been killed off by the toxin in that area. To make matters worse, this has stranded Ditylum!": "塞内蒂: 朋友们，我有一个令人不安的消息。似乎<![CDATA[<color=orange>毒液排斥者</color>]]>的主要入口已被该区域的毒素摧毁。更糟糕的是，这导致迪提伦被困住了！",
+    "OKALIS: Is there not another way there through the tubelike area referred to as the <![CDATA[<color=orange>Nursery</color>]]>? He should be able to simply drift through to return, correct?": "奥卡利斯: 难道没有通过被称为<![CDATA[<color=orange>育婴室</color>]]>的管状区域的另一条路吗？他应该能够简单地漂流回来，对吧？",
+    "NESIA: Unfortunately, the nutrient-rich fog of the <![CDATA[<color=orange>Nursery</color>]]> is quite thick, swiftly halting any movement that isn't supported by a constant force.": "妮西亚: 不幸的是，<![CDATA[<color=orange>育婴室</color>]]>富含营养的雾气非常浓密，会迅速阻止任何没有持续力量支持的运动。",
+    "SENNETTI: I've spoken to the his people about possible rescue methods, but they seem convinced all attempts would either fail or result in many deaths. When I spoke to them, they were already preparing for a period of mourning.": "塞内蒂: 我已经和他的族人讨论了可能的救援方法，但他们似乎确信所有尝试要么失败，要么导致许多人死亡。当我与他们交谈时，他们已经在准备哀悼期了。",
+    "AZOLLA: Friends, if our friends do not believe it possible to save Ditylum, then it is up to us to do so. We cannot simply allow him to perish without attempting rescue, especially after how his people pulled us from the heat of <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "阿佐拉: 朋友们，如果我们的朋友不相信有可能拯救迪提伦，那么这就要靠我们了。我们不能在没有尝试救援的情况下让他死去，尤其是在他的族人将我们从<![CDATA[<color=orange>岩浆回响</color>]]>的炽热中救出之后。",
+    "NESIA: Since our studies in this lab have already concluded, we can use the extra space to discuss various rescue methods.": "妮西亚: 既然我们在这个实验室的研究已经结束，我们可以利用多余的空间讨论各种救援方法。",
+    "OKALIS: Right, I remember our friends cautioning us to be careful in there, as it would be easy for our thrusters to alert the fish.": "奥卡利斯: 对，我记得我们的朋友警告我们要小心，因为我们的推进器很容易惊动鱼群。",
+    "NESIA: It pains me to think how the inability to rescue their friend must be hurting them.": "妮西亚: 想到他们无法拯救朋友一定让他们很痛苦，这让我感到难过。",
+    "OKALIS: I struggle to understand how they could have given up hope so quickly.": "奥卡利斯: 我很难理解他们怎么能这么快就放弃希望。",
+    "SENNETTI: I agree. Ditylum came for us in our time of need, we must be willing to do the same for him.": "塞内蒂: 我同意。迪提伦在我们需要的时候来帮助我们，我们必须愿意为他做同样的事。",
+    "OKALIS: We will not rest until Ditylum is returned home.": "奥卡利斯: 在迪提伦回家之前，我们不会休息。",
+
+    //large_entrance_hint
+    "AZOLLA: Sennetti, can I ask how the construction of your <![CDATA[<color=orange>Translation Lab</color>]]> is coming along?": "阿佐拉: 塞内蒂，我能问问你的<![CDATA[<color=orange>翻译实验室</color>]]>建设进展如何吗？",
+    "SENNETTI: Progress is slow but steady. I must confess, the small size of the entrance is making it quite difficult to transport the necessary material. The distance that the material must be hauled is also impeding my progress. The journey from this quarry to the construction site is not a short one.": "塞内蒂: 进展缓慢但稳定。我必须承认，入口的狭小使得运输必要材料变得相当困难。材料必须运输的距离也阻碍了我的进展。从采石场到建筑工地的旅程并不短。",
+    "NESIA: Have you not been using the larger entrance?": "妮西亚: 你没有使用更大的入口吗？",
+    "SENNETTI: There is a larger entrance?": "塞内蒂: 有更大的入口吗？",
+    "NESIA: Yes, there is a much larger entrance. It would make transporting your material much easier, especially since it is relatively close to <![CDATA[<color=orange>Graviton's Folly</color>]]>.": "妮西亚: 是的，有一个更大的入口。它会使运输材料变得容易得多，尤其是因为它离<![CDATA[<color=orange>引力愚行</color>]]>相对较近。",
+    "SENNETTI: I will be sure to start using that entrance then! Thank you for the information! I'll make one more trip along the usual path and leave a short-lived beacon at the construction site, to make it easier to find the larger entrance you speak of.": "塞内蒂: 那我一定要开始使用那个入口了！感谢你的信息！我会沿着通常的路径再走一次，并在建筑工地留下一个短暂的信号灯，以便更容易找到你说的更大的入口。",
+    "AZOLLA: I imagine that the locals will also be much happier without us hauling all of our material through their home.": "阿佐拉: 我想如果我们不通过他们的家园运输所有材料，当地人也会更高兴。",
+
+    //amylax_gift_text
+    "AMYLAX: Okalis, I have left a gift for you here, I hope you like it!": "阿米拉克斯: 奥卡利斯，我在这里给你留了一份礼物，希望你喜欢！",
+    "OKALIS: It is wonderful, Amylax! I fail to recall ever seeing such an intricate necklace, much less one woven from vines! There was no need to come all the way to <![CDATA[<color=orange>Graviton's Folly</color>]]> to deliver it though. I understand that the inverted gravity makes them quite uncomfortable.": "奥卡利斯: 太棒了，阿米拉克斯！我不记得见过如此精致的项链，更不用说用藤蔓编织的了！不过你不需要大老远跑到<![CDATA[<color=orange>引力愚行</color>]]>来送它。我知道反向重力让他们很不舒服。",
+    "AMYLAX: I'm glad to hear that you like it. I just... I thought that it was important enough to deliver it myself, even if that meant just leaving it in your house.": "阿米拉克斯: 我很高兴你喜欢它。我只是……我觉得亲自送它很重要，即使这意味着只是把它留在你家里。",
+    "OKALIS: Well, I very much appreciate it! I will accept it as a surefire token of the continued friendship between ourselves and our species!": "奥卡利斯: 嗯，我非常感激！我将把它视为我们之间友谊的可靠象征！",
+
+    //AN_pod_recording
+    "AZOLLA: Nesia, you said you had something to discuss with me?": "阿佐拉: 妮西亚，你说有事情要和我讨论？",
+    "NESIA: Yes, it is a matter of gra... of utmost importance, and I thought it best to bring it up to you before the others.": "妮西亚: 是的，这是一件非常……非常重要的事情，我认为最好在其他人之前先告诉你。",
+    "AZOLLA: Is this regarding your discussion with Karenia? I must confess that your change in demeanor after that conversation has piqued my curiosity... Nesia, are you crying?": "阿佐拉: 这是关于你和卡蕾妮亚的讨论吗？我必须承认，那次谈话后你的态度变化引起了我的好奇……妮西亚，你在哭吗？",
+    "NESIA: I-I'm sorry Azolla, my grief is overwhelming me. I knew that our new friends possess strange abilities, so I decided to speak with one regarding the rest of our clan, to try and determine their fate, and...": "妮西亚: 对-对不起，阿佐拉，我的悲伤让我无法承受。我知道我们的新朋友拥有奇怪的能力，所以我决定和他们中的一位谈谈，试图确定我们族人的命运，然后……",
+    "NESIA: The <![CDATA[<color=orange>Third Escape Pod</color>]]> did not escape the <![CDATA[<color=purple>Bramble</color>]]>. Apparently, the pod became ensnared in the vines and, stranded away from the <![CDATA[<color=orange>Vessel</color>]]>, our friends, they...": "妮西亚: <![CDATA[<color=orange>第三逃生舱</color>]]>没有逃出<![CDATA[<color=purple>荆棘</color>]]>。显然，逃生舱被藤蔓缠住，远离了<![CDATA[<color=orange>飞船</color>]]>，我们的朋友们，他们……",
+    "AZOLLA: What are you saying, Nesia?": "阿佐拉: 你在说什么，妮西亚？",
+    "NESIA: They perished! They had no source of oxygen and all asphyxiated! Din is dead! Escall is dead! Even... even...": "妮西亚: 他们都死了！他们没有氧气来源，全都窒息而死！迪恩死了！埃斯卡尔死了！甚至……甚至……",
+    "AZOLLA: ...And you're certain of this? Karenia couldn't have made some sort of mistake?": "阿佐拉: ……你确定吗？卡蕾妮亚不可能犯某种错误吗？",
+    "NESIA: I... no, she was quite certain. She believed that the other two pods escaped to relative safety, but she was certain that the <![CDATA[<color=purple>Bramble</color>]]> had claimed the third pod.": "妮西亚: 我……不，她非常确定。她相信另外两个逃生舱逃到了相对安全的地方，但她确信<![CDATA[<color=purple>荆棘</color>]]>吞噬了第三个逃生舱。",
+    "AZOLLA: I will leave a note at the <![CDATA[<color=orange>Language Lab</color>]]> to notify Sennetti and Okalis that we need to meet. I do not wish to ruin their good mood so shortly after Sennetti's translation, but they deserve to know.": "阿佐拉: 我会在<![CDATA[<color=orange>语言实验室</color>]]>留一张便条，通知塞内蒂和奥卡利斯我们需要见面。我不想在塞内蒂刚完成翻译后破坏他们的好心情，但他们有权知道。",
+    "AZOLLA: ...Nesia, I know that you and Secca were partners. While we are all deeply affected by the loss of our friends, I know that you must be especially hurt by this news.": "阿佐拉: ……妮西亚，我知道你和塞卡是伴侣。虽然我们都因失去朋友而深受打击，但我知道这个消息对你来说一定特别痛苦。",
+    "AZOLLA: Be gentle with yourself, okay?": "阿佐拉: 对自己温柔一点，好吗？",
+    "NESIA: ...Thank you, Azolla, I will ensure I take the proper time to mourn.": "妮西亚: ……谢谢你，阿佐拉，我会确保自己花适当的时间来哀悼。",
+
+    //azolla_struggle_text
+    "AZOLLA: Escall, I'm sorry, but I feel my leadership fails to reach the standard of your memory.": "阿佐拉: 埃斯卡尔，对不起，但我觉得我的领导力无法达到你记忆中的标准。",
+    "AZOLLA: Regardless of what I attempt, I am unable to maintain morale among our small crew, and this depressive miasma seems to be claiming me as well.": "阿佐拉: 无论我尝试什么，我都无法维持我们这个小团队的士气，而这种抑郁的氛围似乎也在侵蚀我。",
+    "AZOLLA: I am trying to utilize the leadership skills you gifted me, but they are proving ineffective. I can only hope I make a breakthrough soon.": "阿佐拉: 我正在尝试运用你赋予我的领导技能，但它们似乎没有效果。我只能希望很快能有所突破。",
+    "AZOLLA: I am clueless as to how to locate an escape that the native people have been unable to find for thousands of years.": "阿佐拉: 我不知道如何找到原住民几千年来都未能找到的逃生之路。",
+    "AZOLLA: I am clueless as to how to motivate them in the face of such insurmountable odds.": "阿佐拉: 面对如此难以克服的困难，我不知道如何激励他们。",
+
+    //breakdown_recording
+    "OKALIS: Do you suppose our friends on the first and second pods survived?": "奥卡利斯: 你认为第一和第二逃生舱的朋友们活下来了吗？",
+    "AZOLLA: Karenia was unable to ascertain what became of the rest of our clan, which indicates they at least escaped the <![CDATA[<color=purple>Bramble</color>]]>.": "阿佐拉: 卡蕾妮亚无法确定我们其他族人的命运，这表明他们至少逃出了<![CDATA[<color=purple>荆棘</color>]]>。",
+    "SENNETTI: Do you suppose they may be able to locate us? Our makeshift warp setup should still be intact. Perhaps they will find us.": "塞内蒂: 你认为他们能找到我们吗？我们的临时跃迁装置应该还在。也许他们会找到我们。",
+    "NESIA: Sennetti, anybody who may have survived the crash has certainly made the reasonable assumption that we all perished as well. As such, they will certainly be unwilling to return to the <![CDATA[<color=purple>Bramble</color>]]>. We are on our own.": "妮西亚: 塞内蒂，任何可能在坠毁中幸存的人肯定都会合理地认为我们也已经死了。因此，他们肯定不愿意回到<![CDATA[<color=purple>荆棘</color>]]>。我们只能靠自己了。",
+    "AZOLLA: Don't lose hope, friend. They are our clan, we cannot so completely assume they would abandon us entirely.": "阿佐拉: 不要失去希望，朋友。他们是我们的族人，我们不能完全假设他们会彻底抛弃我们。",
+    "NESIA: Stop it Azolla! We have been in the <![CDATA[<color=purple>Deep Bramble</color>]]> for months now! At this point, the rest of our clan has certainly concluded that, if we had survived, we would have found a way out of the <![CDATA[<color=purple>Bramble</color>]]>. Nobody is coming for us, and the idea that we can locate an exit the others have neglected for thousands of years is completely nonsensical!": "妮西亚: 别说了，阿佐拉！我们已经困在<![CDATA[<color=purple>荆棘深处</color>]]>好几个月了！到了这个时候，我们的其他族人肯定已经得出结论，如果我们还活着，我们早就找到逃出<![CDATA[<color=purple>荆棘</color>]]>的方法了。没有人会来救我们，而我们能找到其他人几千年来都忽视的出口的想法完全是荒谬的！",
+    "OKALIS: Nesia...": "奥卡利斯: 妮西亚……",
+    "SENNETTI: ...I apologize for mentioning this topic.": "塞内蒂: ……我为提到这个话题道歉。",
+
+    //call_to_action
+    "OKALIS: Friends, I have spectacular news! Amylax has informed me there is a mysterious signal reverberating throughout the area surrounding <![CDATA[<color=orange>Magma's Recursion</color>]]>, which arrived shortly before we did. I am certain it must be the signal from the <![CDATA[<color=orange>Eye</color>]]>!": "奥卡利斯: 朋友们，我有一个惊人的消息！阿米拉克斯告诉我，<![CDATA[<color=orange>岩浆回响</color>]]>周围区域回荡着一个神秘的信号，这个信号在我们到达前不久才出现。我确信这一定是来自<![CDATA[<color=orange>宇宙之眼</color>]]>的信号！",
+    "AZOLLA: Okalis, consider what you are saying for a moment. It seems highly implausible that the <![CDATA[<color=orange>Eye's</color>]]> signal penetrated into the <![CDATA[<color=purple>Deep Bramble</color>]]>, and then became trapped in a particular area. How would that even occur?": "阿佐拉: 奥卡利斯，稍微想一想你说的话。<![CDATA[<color=orange>宇宙之眼</color>]]>的信号穿透<![CDATA[<color=purple>荆棘深处</color>]]>，然后被困在某个特定区域，这似乎非常不可能。这怎么可能发生呢？",
+    "OKALIS: I know that it seems implausible, but so does a signal older than the universe! It is what our clan risked everything to find in the first place. We would be disrespecting their sacrifice if we sit idle while a mysterious signal is well within our grasp!": "奥卡利斯: 我知道这听起来不太可能，但比宇宙还古老的信号也是如此！这正是我们族人不惜一切代价寻找的东西。如果我们坐视不理，而这个神秘信号就在我们触手可及的地方，那将是对他们牺牲的不尊重！",
+    "OKALIS: Please, look at yourselves. We are Nomai. We are meant to make discoveries, but we have been entirely idle for entirely too long. We <![CDATA[<i>]]>need<![CDATA[</i>]]> this.": "奥卡利斯: 请看看你们自己。我们是挪麦人。我们注定要探索发现，但我们已经无所事事太久了。我们<![CDATA[<i>]]>需要<![CDATA[</i>]]>这个。",
+    "NESIA: ...You're correct, Okalis. As wounded as we may be, stagnating here will do us no good. Our friends would not have wanted us to stay here forever, refusing to move on.": "妮西亚: ……你说得对，奥卡利斯。尽管我们可能伤痕累累，但在这里停滞不前对我们没有任何好处。我们的朋友不会希望我们永远留在这里，拒绝前进。",
+    "AZOLLA: Fair points, both of you. Alright, we will investigate this mysterious signal, but only if we unanimously agree to do so, understood?": "阿佐拉: 你们两个说得有道理。好吧，我们会调查这个神秘信号，但前提是我们一致同意，明白吗？",
+    "SENNETTI: With how our luck has been lately, Okalis, I have some trouble believing that.": "塞内蒂: 鉴于我们最近的运气，奥卡利斯，我有点难以相信这一点。",
+    "SENNETTI: It will certainly be a risk, but I agree we should at least perform a cursory investigation.": "塞内蒂: 这肯定有风险，但我同意我们至少应该进行一次粗略的调查。",
+    "OKALIS: Understood. Naturally, I agree we should investigate.": "奥卡利斯: 明白了。当然，我同意我们应该调查。",
+
+    //culture_notes
+    "SENNETTI: While Nesia heads the study of our new friend's physiology, I would like to take the opportunity to share aspects of their culture that I learned of during my translation of their language.": "塞内蒂: 当妮西亚负责研究我们新朋友的生理学时，我想借此机会分享我在翻译他们语言时了解到的文化方面。",
+    "SENNETTI: Rather than engaging in scientific pursuits, they seem to excercise certain... influences over the <![CDATA[<color=purple>Bramble</color>]]>. This includes influencing the growth of the vines (as demonstrated by those holding together <![CDATA[<color=orange>Shattered Hearth</color>]]>) and even some level of communication with the plant.": "塞内蒂: 他们似乎没有从事科学研究，而是对<![CDATA[<color=purple>荆棘</color>]]>施加某种……影响。这包括影响藤蔓的生长（如那些将<![CDATA[<color=orange>破碎家园</color>]]>固定在一起的藤蔓），甚至与植物进行某种程度的交流。",
+    "NESIA: Hypothesis: if they are able to communicate with the vines, they may be able to inform us what became of the launched escape pods.": "妮西亚: 假设：如果他们能够与藤蔓交流，他们可能会告诉我们发射的逃生舱发生了什么。",
+    "OKALIS: Resuming our studies, they seem to gain most of their nutrition from anglerfish eggs, domesticating and breeding the fish to do so.": "奥卡利斯: 继续我们的研究，他们似乎从鮟鱇鱼卵中获取大部分营养，并通过驯养和繁殖这些鱼来实现这一点。",
+    "AZOLLA: Interesting. I wonder how they began this practice? I can't imagine that anglerfish eggs would have been terribly easy for their ancestors to procure.": "阿佐拉: 有趣。我想知道他们是如何开始这种做法的？我无法想象他们的祖先获取鮟鱇鱼卵会很容易。",
+    "SENNETTI: I believe I do actually have the answer to this question, as an old story may explain it. The story is too long to transcribe here, but I had previously recorded it on <![CDATA[<color=orange>Magma's Recursion</color>]]>.": "塞内蒂: 我相信我确实有这个问题的答案，因为一个古老的故事可能解释了这一点。这个故事太长，无法在这里转录，但我之前在<![CDATA[<color=orange>岩浆回响</color>]]>上记录过。",
+    "NESIA: Agreed. Even now they continue to keep lights on their homes to ward off any wandering fish.": "妮西亚: 同意。即使现在，他们仍然在家里点灯，以驱赶任何游荡的鱼。",
+    "NESIA: I have observed that our friends seem rather... stagnant. They seem uninterested in exploring beyond their immediate vicinity and appear to have entirely accepted their current situation.": "妮西亚: 我观察到我们的朋友似乎相当……停滞不前。他们对探索附近以外的地方不感兴趣，似乎已经完全接受了目前的处境。",
+    "OKALIS: I would agree, Nesia. We have also observed how this can be destructive, as they were unwilling to take the necessary risks to retrieve Ditylum when he became stranded at the <![CDATA[<color=orange>Venomous Reject</color>]]>, unable to cross the <![CDATA[<color=orange>Nursery</color>]]>.": "奥卡利斯: 我同意，妮西亚。我们也观察到这可能是破坏性的，因为当迪提伦被困在<![CDATA[<color=orange>毒液排斥者</color>]]>，无法穿过<![CDATA[<color=orange>育婴室</color>]]>时，他们不愿意冒必要的风险去救他。",
+    "AZOLLA: Fortunately, that event seems to have changed their outlook considerably, as well as inspiring them to put more trust in us than they did previously.": "阿佐拉: 幸运的是，这一事件似乎大大改变了他们的看法，也让他们比以前更信任我们。",
+
+    //dead_wife_text
+    "NESIA: I cannot believe I will never see you again, Secca. The future seems unknown and dark without your light to guide us through it. I do not know how to go on without you by my side.": "妮西亚: 我无法相信我再也不会见到你了，塞卡。没有你的光芒指引我们，未来似乎未知而黑暗。我不知道没有你在身边该如何继续前进。",
+
+    //din_text
+    "Din, protector of all. We remember your analytic nature, and your dedication to the wellbeing of all in the clan. We carry your memory with us.": "迪恩，所有人的保护者。我们记得你的分析能力，以及你对族人福祉的奉献。我们将你的记忆带在身边。",
+
+    //escall_text
+    "Escall, leader of our clan. We remember your bravery and daring, and how you led our people to many great discoveries. We carry your memory with us.": "埃斯卡尔，我们族人的领袖。我们记得你的勇敢和大胆，以及你如何带领我们的人民取得许多伟大的发现。我们将你的记忆带在身边。",
+
+    //eye_origin
+    "SENNETTI: How do you suppose the signal from the <![CDATA[<color=orange>Eye</color>]]> could be older than the universe?": "塞内蒂: 你认为<![CDATA[<color=orange>宇宙之眼</color>]]>的信号怎么可能比宇宙还古老？",
+    "NESIA: Perhaps it is by some mechanism entirely outside of our understanding? Maybe it will open some entirely new avenues of research to us.": "妮西亚: 也许它是通过某种我们完全无法理解的机制？也许它会为我们开辟一些全新的研究途径。",
+    "OKALIS: Perhaps the Eye originates from somewhere outside of our universe? It almost seems necessary for this to be the case, given how hot and dense the early universe is theorized to have been.": "奥卡利斯: 也许宇宙之眼来自我们宇宙之外的某个地方？考虑到早期宇宙被理论化为非常炽热和密集，这几乎是必然的。",
+    "NESIA: This may be a possibility. I do not wish to become overexcited, but suppose it is some manner of spacecraft, constructed by entities from another universe?": "妮西亚: 这可能是一个可能性。我不想过于兴奋，但假设它是某种宇宙飞船，由来自另一个宇宙的实体建造？",
+    "AZOLLA: Grim as it may be, it is possible that some equipment malfunction made it appear older than it truly was. Or perhaps the signal was doctored in some way?": "阿佐拉: 尽管这听起来很可怕，但可能是某些设备故障使它看起来比实际更古老。或者信号可能被某种方式篡改了？",
+    "SENNETTI: I find it very unlikely that Escall would have warped our clan so quickly if an equipment error was a possibility. If the signal was instead doctored, then perhaps we were lucky to have been ensnared by the <![CDATA[<color=purple>Bramble</color>]]>!": "塞内蒂: 我认为如果设备故障是可能的，埃斯卡尔不可能这么快就让我们族人跃迁。如果信号被篡改了，那么我们被<![CDATA[<color=purple>荆棘</color>]]>困住可能是幸运的！",
+
+    //eye_purpose
+    "NESIA: What do you all suppose the <![CDATA[<color=orange>Eye of the Universe</color>]]> is meant to accomplish? Why did it call out to our clan?": "妮西亚: 你们认为<![CDATA[<color=orange>宇宙之眼</color>]]>的目的是什么？为什么它召唤我们的族人？",
+    "SENNETTI: The signal near <![CDATA[<color=orange>Magma's Recursion</color>]]>, unfortunately, sheds little light on this. Suppose the <![CDATA[<color=orange>Eye</color>]]> does not wish to inform us of its purpose?": "塞内蒂: 不幸的是，<![CDATA[<color=orange>岩浆回响</color>]]>附近的信号几乎没有揭示这一点。假设<![CDATA[<color=orange>宇宙之眼</color>]]>不想告诉我们它的目的？",
+    "OKALIS: How unsettling! I vote we explore other possibilities first, as the idea that the <![CDATA[<color=orange>Eye</color>]]> may purposefully be withholding information is frightening!": "奥卡利斯: 多么令人不安！我建议我们先探索其他可能性，因为<![CDATA[<color=orange>宇宙之眼</color>]]>可能故意隐瞒信息的想法很可怕！",
+    "AZOLLA: Suppose the <![CDATA[<color=orange>Eye</color>]]> has no purpose at all? It may simply be a natural phenomenon that happens to emit a signal.": "阿佐拉: 假设<![CDATA[<color=orange>宇宙之眼</color>]]>根本没有目的？它可能只是一个恰好发出信号的自然现象。",
+    "NESIA: Perhaps, but the sudden arrival of the signal is rather odd, and Filix seemed to think the signal was significant. Additionally, I struggle to imagine how a purposeless, natural phenomena would be older than the universe.": "妮西亚: 也许吧，但信号的突然出现相当奇怪，而且菲利克斯似乎认为这个信号很重要。此外，我很难想象一个没有目的的自然现象会比宇宙更古老。",
+    "NESIA: Suppose the <![CDATA[<color=orange>Eye</color>]]> is a construct left by some highly advanced species? It would explain the sudden arrival of the signal, as it may have some conditions that must be met before it will begin its call.": "妮西亚: 假设<![CDATA[<color=orange>宇宙之眼</color>]]>是某个高度发达物种留下的构造物？这将解释信号的突然出现，因为它可能有一些条件必须在开始召唤之前满足。",
+    "OKALIS: Hypothesis: it may be a craft used to travel between universes! If a species used it to come here from an older universe, that might explain its apparent age!": "奥卡利斯: 假设：它可能是用于在宇宙之间旅行的飞船！如果一个物种用它从一个更古老的宇宙来到这里，这可能解释它的表观年龄！",
+
+    //eye_shrine_intro
+    "AZOLLA: Here is what we currently know of the <![CDATA[<color=orange>Eye of the Universe</color>]]>. Some time ago, our clan detected a signal older than the universe.": "阿佐拉: 这是我们目前对<![CDATA[<color=orange>宇宙之眼</color>]]>的了解。不久前，我们的族人探测到了一个比宇宙还古老的信号。",
+    "SENNETTI: Escall immediately had our clan warp to the approximate location of the <![CDATA[<color=orange>Eye</color>]]>, but something went wrong. Rather than arriving at the <![CDATA[<color=orange>Eye</color>]]>, we arrived in the <![CDATA[<color=purple>Bramble</color>]]>, which quickly ensnared and compromised our <![CDATA[<color=orange>Vessel</color>]]>.": "塞内蒂: 埃斯卡尔立即让我们族人跃迁到<![CDATA[<color=orange>宇宙之眼</color>]]>的大致位置，但出了点问题。我们没有到达<![CDATA[<color=orange>宇宙之眼</color>]]>，而是到达了<![CDATA[<color=purple>荆棘</color>]]>，它迅速困住了我们的<![CDATA[<color=orange>飞船</color>]]>。",
+    "NESIA: While escape pods 1, 2, and 3 were able to launch, our pods were compromised, stranding us. We attempted to construct a makeshift warp device, but it only served to send us deeper into the <![CDATA[<color=purple>Bramble</color>]]>, where we have been trapped ever since.": "妮西亚: 虽然逃生舱1、2和3成功发射，但我们的逃生舱受损，使我们被困。我们试图建造一个临时跃迁装置，但它只是让我们更深地陷入<![CDATA[<color=purple>荆棘</color>]]>，从此我们一直被囚禁在这里。",
+    "OKALIS: While we are continuing our search for a means of escape, this set of circumstances has rendered us currently unable to reunite with our clan and continue the search for the <![CDATA[<color=orange>Eye</color>]]>. Unfortunately, we have become unable to detect the signal previously encountered, likely due to our compromising position.": "奥卡利斯: 虽然我们继续寻找逃脱的方法，但这种情况使我们目前无法与族人团聚，也无法继续寻找<![CDATA[<color=orange>宇宙之眼</color>]]>。不幸的是，我们无法再检测到之前遇到的信号，这可能是由于我们处于危险的位置。",
+
+    //folly_intro
+    "NESIA: This planet appears to be the source of the gravitational anomaly. The signal has been detected in every direction since we entered and, well, there is also the obviously abnormal behavior of the planet.": "妮西亚: 这个星球似乎是重力异常的源头。自从我们进入以来，信号在各个方向都被检测到，而且，这个星球的异常行为也非常明显。",
+    "AZOLLA: I am thankful that you noticed this place, it will be an excellent environment to set up a more permanent settlement. In particular, this giant crystal should provide remarkably flat ground for construction.": "阿佐拉: 我很感激你注意到了这个地方，这将是一个建立更永久定居点的绝佳环境。特别是这块巨大的水晶，应该能为建筑提供非常平坦的地面。",
+    "NESIA: Remember, our ultimate goal is to escape from here, not to establish permanent residence.": "妮西亚: 记住，我们的最终目标是逃离这里，而不是建立永久居所。",
+    "AZOLLA: It may be worthwhile to investigate whether or not this gravitational anomaly may be utilized elsewhere. Suppose it is inherent to the crystal composing the ground?": "阿佐拉: 也许值得研究这种重力异常是否可以在其他地方利用。假设它是构成地面的水晶固有的特性呢？",
+    "NESIA: Hypothesis: If this property is inherent to the material, it may allow us to create constructions in zero gravity environments.": "妮西亚: 假设：如果这种特性是材料固有的，那么它可能允许我们在零重力环境中建造结构。",
+
+    //memorial_misc_text
+    "All those who we did not know personally. You were Nomai, and so it is certain that you were inquisitive and curious, undeserving of the fate that befell you. We carry your memory with us.": "所有我们未曾亲自认识的人。你们是挪麦人，因此可以肯定你们是好奇和求知欲强的，不应遭受降临在你们身上的命运。我们将你们的记忆带在身边。",
+
+    //memorial_official_text
+    "We construct this memorial in remembrance of those aboard the third pod, whose lives were lost as they attempted to flee from the <![CDATA[<color=purple>Bramble</color>]]>.": "我们建造这座纪念碑，以纪念第三逃生舱上的那些人，他们在试图逃离<![CDATA[<color=purple>荆棘</color>]]>时失去了生命。",
+    "Record your thoughts of our lost friends here, so we may always remember them.": "在这里记录你对我们失去的朋友的思念，以便我们永远记住他们。",
+
+    //physiology_notes
+    "NESIA: With our friend's language translated, we can begin assembling a better understanding of their physiology. I have erected this text wall to serve as a location for recording our findings.": "妮西亚: 随着我们朋友的语言被翻译，我们可以开始更好地理解他们的生理结构。我建立了这面文字墙，作为记录我们发现的场所。",
+    "OKALIS: Nesia, Azolla, and myself had the pleasure of attending an alien concert recently. We posited that they may have different vocal organs than us, allowing them to produce the otherworldly sounds we observed.": "奥卡利斯: 妮西亚、阿佐拉和我最近有幸参加了一场外星音乐会。我们推测他们可能有与我们不同的发声器官，使他们能够发出我们听到的那种超凡脱俗的声音。",
+    "SENNETTI: From what I've gathered, they have inhabited the <![CDATA[<color=purple>Deep Bramble</color>]]> in all of their stories, so it is very likely that they developed enhanced vocal organs as an adaptation to the environment.": "塞内蒂: 根据我所了解的情况，他们在所有的故事中都居住在<![CDATA[<color=purple>荆棘深处</color>]]>，因此他们很可能为了适应环境而进化出了增强的发声器官。",
+    "NESIA: These aliens possess many adaptations that make them well-suited towards the environment of the <![CDATA[<color=purple>Deep Bramble</color>]]>. Most noteworthy is their sensitive hearing and the thin webs between their fingers and toes.": "妮西亚: 这些外星人拥有许多适应能力，使他们非常适合<![CDATA[<color=purple>荆棘深处</color>]]>的环境。最值得注意的是他们敏锐的听觉和手指与脚趾之间的薄蹼。",
+    "AZOLLA: It should be noted that certain traits suggest they may originate from somewhere with more light, such as their shallow, likely vestigial eye sockets. Suppose they were not originally from the <![CDATA[<color=purple>Deep Bramble</color>]]>?": "阿佐拉: 应该注意到，某些特征表明他们可能来自光线更充足的地方，比如他们的浅凹而可能是退化的眼窝。假设他们最初并不是来自<![CDATA[<color=purple>荆棘深处</color>]]>呢？",
+    "SENNETTI: Especially impressive, their hearing even allows them to read by detecting the differences in sound reflecting off different textures. This seems to be why they write with such a thick, soft substance, and how they can read the chalky lines written by ourselves.": "塞内蒂: 特别令人印象深刻的是，他们的听觉甚至可以通过检测不同纹理反射的声音差异来阅读。这似乎就是为什么他们用如此厚而柔软的物质书写，以及他们如何能够阅读我们自己写的粉笔线。",
+    "OKALIS: It seems that this hearing is even sensitive enough to detect certain biological signals. Amylax seems to use my pulse to determine when I am tense or nervous. This may have helped them avoid predators in the past, such as the anglerfish.": "奥卡利斯: 似乎这种听觉甚至足够敏感，可以检测到某些生物信号。阿米拉克斯似乎通过我的脉搏来判断我何时紧张或焦虑。这可能在过去帮助他们避开捕食者，比如鮟鱇鱼。",
+    "SENNETTI: Our friends seem to navigate entirely through echolocation, emitting a high-pitched tone that they use to measure their distance to solid objects in their environment.": "塞内蒂: 我们的朋友似乎完全通过回声定位来导航，发出高音调的声音来测量他们与环境中固体物体的距离。",
+    "AZOLLA: Notably, this tone is also outside of the hearing range of all but the youngest anglerfish, as we learned when Ditylum became trapped on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, unable to return without his tone alerting the juvenile fish in that area.": "阿佐拉: 值得注意的是，这种音调超出了所有但最年轻的鮟鱇鱼的听觉范围，正如我们在迪提伦被困在<![CDATA[<color=orange>育婴室</color>]]>的另一侧时所了解到的，他无法返回，因为他的音调会惊动该区域的幼鱼。",
+
+    //pod_fate_reveal_recording
+    "SENNETTI: Azolla, you told us to meet you here? You said there was news to discuss.": "塞内蒂: 阿佐拉，你让我们在这里见你？你说有消息要讨论。",
+    "AZOLLA: Yes. Sennetti, Okalis, it seems... it seems that our friends on the <![CDATA[<color=orange>Third Escape Pod</color>]]> have perished.": "阿佐拉: 是的。塞内蒂、奥卡利斯，似乎……似乎第三逃生舱上的朋友们已经遇难了。",
+    "OKALIS: What! Are you certain? I don't understand how we could have learned this given our current situation.": "奥卡利斯: 什么！你确定吗？我不明白在我们目前的情况下我们是如何得知这一点的。",
+    "NESIA: I spoke with Karenia, who was able to commune with the <![CDATA[<color=purple>Bramble</color>]]>. In doing that, she learned the third pod became ensnared in the vines, causing its passengers to suffocate.": "妮西亚: 我和卡蕾妮亚谈过，她能够与<![CDATA[<color=purple>荆棘</color>]]>交流。通过这种方式，她得知第三逃生舱被藤蔓缠住，导致乘客窒息而死。",
+    "OKALIS: I cannot believe...": "奥卡利斯: 我无法相信……",
+    "AZOLLA: ...I understand tensions are elevated in light of these events. I would suggest we take a moment to mourn, after which we will construct a memorial in their memory.": "阿佐拉: ……我理解这些事件使紧张局势加剧。我建议我们花点时间哀悼，然后我们将为他们建造一座纪念碑。",
+
+    //pod_text
+    "The third pod, protector of its charges. We know you did everything you could to save them, and we thank you for your efforts. We carry your memory with us.": "第三逃生舱，守护者。我们知道你尽了一切努力拯救他们，我们感谢你的努力。我们将你的记忆带在身边。",
+
+    //secca_text
+    "Secca, beloved of Nesia. We remember your companionship and mirth, and your ability to brighten any room you were in. We carry your memory with us.": "塞卡，妮西亚的爱人。我们记得你的陪伴和欢乐，以及你照亮你所在的任何房间的能力。我们将你的记忆带在身边。",
+
+    //distant_node_proposal
+    "NESIA: Okay, Karenia and I have been discussing a plan of mine to see if it is feasible, and we seem to be in agreement that it is worth an attempt. Friends, I believe it may finally be time for us to make our way to the <![CDATA[<color=orange>Eye</color>]]>.": "妮西亚: 好的，卡蕾妮亚和我一直在讨论我的计划，看看是否可行，我们似乎一致认为值得一试。朋友们，我相信我们终于可以前往<![CDATA[<color=orange>宇宙之眼</color>]]>了。",
+    "KARENIA: We believe that, utilizing the better communion granted by the <![CDATA[<color=purple>Heart</color>]]>, we can get the <![CDATA[<color=purple>Bramble</color>]]> to grow a node near the <![CDATA[<color=orange>Eye of the Universe</color>]]>. Then, we would be able to cross through a linked node here and arrive there instantly.": "卡蕾妮亚: 我们相信，利用<![CDATA[<color=purple>心脏</color>]]>赋予的更好交流能力，我们可以让<![CDATA[<color=purple>荆棘</color>]]>在<![CDATA[<color=orange>宇宙之眼</color>]]>附近生长一个节点。然后，我们将能够通过这里的一个链接节点瞬间到达那里。",
+    "AZOLLA: Nesia, Karenia, this is quite a bold plan. Much of the foundation seems to be based on unsure concepts with which we have not been able to properly experiment. Do you truly believe this can work?": "阿佐拉: 妮西亚、卡蕾妮亚，这是一个非常大胆的计划。许多基础似乎建立在我们尚未能适当实验的不确定概念上。你们真的相信这能成功吗？",
+    "NESIA: Yes.": "妮西亚: 是的。",
+    "KARENIA: We do.": "卡蕾妮亚: 我们相信。",
+    "AZOLLA: Then it sounds as if we have much work ahead. Everyone, begin preparations! It is time to construct the <![CDATA[<color=orange>Distant Node Project</color>]]>!": "阿佐拉: 那么听起来我们还有很多工作要做。大家，开始准备吧！是时候建造<![CDATA[<color=orange>远程节点项目</color>]]>了！",
+    "OKALIS: Are you certain? It is time to reunite with our lost friends?": "奥卡利斯: 你确定吗？是时候与我们失去的朋友团聚了吗？",
+    "SENNETTI: I am relieved to hear your words, friend. Please, explain your plan.": "塞内蒂: 听到你的话我感到宽慰，朋友。请解释你的计划。",
+    "AZOLLA: That is a bold claim, Nesia. But knowing you, it is not one you would make lightly.": "阿佐拉: 这是一个大胆的主张，妮西亚。但了解你，你不会轻易做出这样的主张。",
+
+    //ditylum_grief_text
+    "I don't understand, how could this happen? The recording... did the <![CDATA[<color=purple>Bramble</color>]]> do this? Was it lured in by the heat of the star, thinking that it could feed on it?": "我不明白，怎么会发生这种事？录音...是<![CDATA[<color=purple>荆棘</color>]]>干的吗？它是被恒星的热量吸引，以为可以吞噬它吗？",
+    "Everyone... I counted them, and everyone's gone. My people, the Nomai, I'm the <![CDATA[<i>]]>only<![CDATA[</i>]]> one that was spared. Even Lioloma, she still has my poem...": "所有人...我数过了，所有人都不在了。我的族人，挪麦人，我是<![CDATA[<i>]]>唯一<![CDATA[</i>]]>幸存的。就连莉奥洛玛也...她还留着我的诗...",
+    "The buildings on <![CDATA[<color=orange>Magma's Recursion</color>]]> were only ruins. Why were they ruins? How long has it been? I thought that I was only gone for a few minutes.": "<![CDATA[<color=orange>熔岩回响</color>]]>上的建筑都成了废墟。为什么会变成废墟？已经过去多久了？我以为我只离开了短短几分钟...",
+    "Is this my fault? Did I not come back fast enough? Should I never have brought the Nomai to us? I know everyone was nervous about newcomers, but I was so excited to see something, <![CDATA[<i>]]>someone<![CDATA[</i>]]> new.": "这是我的错吗？是我没有及时回来吗？还是我不该把挪麦人带到我们这里？我知道大家对新人感到紧张，但我对见到新事物、<![CDATA[<i>]]>新的人<![CDATA[</i>]]>感到非常兴奋。",
+    "I don't understand. Please, please, I can't be the only one left! I can't be alone.": "我不明白。求求你，求求你，我不可能是唯一剩下的！我不可能独自一人。",
+    "I don't want to be alone.": "我不想一个人...",
+
+    //dree_heart_intro
+    "NESIA: This is the place I mentioned, friends, the strange chamber that the wandering rock has seen fit to bring us. It is my intention to bring Karenia here as well, I cannot help but feel this is a location of significance to the <![CDATA[<color=purple>Bramble</color>]]>.": "妮西亚: 这就是我提到的地方，朋友们，那块游荡的岩石带我们来到的奇怪空间。我也想带卡蕾妮亚来这里，我忍不住觉得这里对<![CDATA[<color=purple>荆棘</color>]]>来说意义重大。",
+    "KARENIA: Nesia, how did you find this? This is incredible! I can hardly believe... I didn't think any living creature would ever be allowed to find it...": "卡蕾妮亚: 妮西亚，你是怎么找到这里的？这太不可思议了！我简直不敢相信...我从未想过任何生物会被允许找到这里...",
+    "NESIA: Karenia, what are you talking about? You never thought anyone would be <![CDATA[<i>]]>allowed<![CDATA[</i>]]> to find it? What even <![CDATA[<i>]]>is<![CDATA[</i>]]> it?": "妮西亚: 卡蕾妮亚，你在说什么？你从未想过有人会被<![CDATA[<i>]]>允许<![CDATA[</i>]]>找到这里？这里到底是<![CDATA[<i>]]>什么地方<![CDATA[</i>]]>？",
+    "KARENIA: This is the heart. The heart of the <![CDATA[<color=purple>Bramble</color>]]>. I know it, I can feel it deep, deep in my bones. The entire plant grows from this node, this very spot, below our feet! Can you feel it? Can you feel its life, concentrated here, growing from here?": "卡蕾妮亚: 这里是心脏。<![CDATA[<color=purple>荆棘</color>]]>的心脏。我知道，我能从骨子里感受到它。整个植物都从这个节点生长，就在我们脚下的这个地方！你能感受到吗？你能感受到它在这里集中、从这里生长的生命力吗？",
+    "KARENIA: In this place, I could commune with the <![CDATA[<color=purple>Bramble</color>]]> so directly! I could speak to it, and hear and be heard as I never have been before. This may be the most significant discovery for my species since... well, in all of our barely recorded history!": "卡蕾妮亚: 在这里，我可以如此直接地与<![CDATA[<color=purple>荆棘</color>]]>交流！我可以与它对话，以前所未有的方式倾听和被倾听。这可能是我族有史以来最重要的发现...在我们几乎未被记录的历史中！",
+    "NESIA: Commune with the <![CDATA[<color=purple>Bramble</color>]]> as you never have before? Karenia! You've given me an amazing idea! I will visit you when I can to discuss it, but I need to make sure it is all correct in my own head first. I will speak with you shortly!": "妮西亚: 以前从未有过的与<![CDATA[<color=purple>荆棘</color>]]>交流？卡蕾妮亚！你给了我一个惊人的想法！我会尽快找你讨论，但我需要先确保我的想法是正确的。我们很快再聊！",
+    "AZOLLA: I would have to agree, Nesia. I do not recall ever seeing a place where the plant looked quite this... <![CDATA[<i>]]>alive<![CDATA[</i>]]>.": "阿佐拉: 我同意，妮西亚。我从未见过植物看起来如此...<![CDATA[<i>]]>生机勃勃<![CDATA[</i>]]>的地方。",
+    "SENNETTI: I believe so? I cannot be sure, but this place does feel different.": "塞内蒂: 我想是吧？我不确定，但这个地方确实感觉不同。",
+
+    //final_computer
+    "281,137 YEARS AGO: Lockdown initiated due to sudden increase in internal temperature and radiation.": "281,137年前: 由于内部温度和辐射的突然增加，启动了封锁。",
+    "Heat and radiation has dissipated, lockdown procedure removed.": "热量和辐射已消散，封锁程序已解除。",
+
+    //final_recording
+    "KARENIA: Okay, the <![CDATA[<color=purple>Bramble</color>]]> is primed, it's now or never.": "卡蕾妮亚: 好了，<![CDATA[<color=purple>荆棘</color>]]>已经准备好了，机不可失。",
+    "AZOLLA: Ditylum has yet to return from his task. Should we not wait for his assistance?": "阿佐拉: 迪提鲁姆还没完成任务回来。我们不该等他的帮助吗？",
+    "KARENIA: I would really like to, but I can't guarantee how long the <![CDATA[<color=purple>Bramble</color>]]> is going to stay in this state. If we don't do this now, we might never get another chance.": "卡蕾妮亚: 我真的很想等，但我无法保证<![CDATA[<color=purple>荆棘</color>]]>会保持这种状态多久。如果我们现在不做，可能就再也没有机会了。",
+    "AZOLLA: Very well then, I suppose we must proceed. Nesia, Sennetti, is the equipment in place?": "阿佐拉: 那好吧，我想我们必须继续了。妮西亚，塞内蒂，设备准备好了吗？",
+    "NESIA: Everything is ready, the equipment should automatically supply nutrition to the node as the <![CDATA[<color=purple>Bramble</color>]]> grows it.": "妮西亚: 一切准备就绪，设备会在<![CDATA[<color=purple>荆棘</color>]]>生长时自动为节点提供营养。",
+    "AZOLLA: Excellent. Okalis, Amylax, you two are the visual and auditory organs of this operation. Notify everyone if anything seems amiss. Karenia, we are ready for you all to begin.": "阿佐拉: 很好。奥卡利斯，阿米拉克斯，你们两个是这次行动的视觉和听觉器官。如果发现任何异常，立即通知大家。卡蕾妮亚，我们都准备好了，你可以开始了。",
+    "KARENIA: Good. Okay everyone, follow my lead, try and guide the <![CDATA[<color=purple>Bramble</color>]]> to the <![CDATA[<color=orange>Eye</color>]]>.": "卡蕾妮亚: 很好。大家跟着我，试着引导<![CDATA[<color=purple>荆棘</color>]]>前往<![CDATA[<color=orange>眼</color>]]>。",
+    "KARENIA: I think it's working! The <![CDATA[<color=purple>Bramble</color>]]> is heeding our calls! I can feel it probing, searching for the source of the signal!": "卡蕾妮亚: 我觉得起作用了！<![CDATA[<color=purple>荆棘</color>]]>在回应我们的呼唤！我能感觉到它在探测，寻找信号的来源！",
+    "AMYLAX: Something feels wrong, is the <![CDATA[<color=orange>Eye</color>]]> supposed to be big and hot? I swear that the <![CDATA[<color=purple>Bramble</color>]]> is focusing on something of that nature.": "阿米拉克斯: 感觉有点不对劲，<![CDATA[<color=orange>眼</color>]]>应该是又大又热的吗？我发誓<![CDATA[<color=purple>荆棘</color>]]>正在聚焦于类似的东西。",
+    "OKALIS: Big and hot? No aspect of the <![CDATA[<color=orange>Eye</color>]]>'s signal suggests it should have either of those qualities. Unless... <![CDATA[<i>]]>a star!<![CDATA[</i>]]> Azolla! We need to shut off the project now! The <![CDATA[<color=purple>Bramble</color>]]> is attempting to grow the distant node in the core of a star!": "奥卡利斯: 又大又热？<![CDATA[<color=orange>眼</color>]]>的信号中没有任何迹象表明它应该具备这些特性。除非...<i>一颗恒星</i>！阿佐拉！我们需要立即关闭项目！<![CDATA[<color=purple>荆棘</color>]]>正试图在恒星核心中生长远程节点！",
+    "AZOLLA: No! Nesia, shut off the equipment! Everyone, direct the <![CDATA[<color=purple>Bramble</color>]]> away! We cannot allow it to-": "阿佐拉: 不！妮西亚，关闭设备！所有人，引导<![CDATA[<color=purple>荆棘</color>]]>离开！我们不能让它-",
+
+    //heart_discovery_recording
+    "NESIA: Meditation log 134, setting up now, just need to put my writing staff somewhere... here will do. Okay, sitting down, closing my eyes, and... breathing...": "妮西亚: 冥想日志134，现在正在准备，只需要把我的书写工具放在某个地方...这里就行。好了，坐下来，闭上眼睛，然后...呼吸...",
+    "NESIA:In... and... out...": "妮西亚: 吸气...然后...呼气...",
+    "NESIA: Ahh. I was skeptical at first, but this truly was a brilliant suggestion on Karenia's part. These meditation sessions are making everything that's occurred much more bearable.": "妮西亚: 啊。起初我持怀疑态度，但这确实是卡蕾妮亚的一个绝妙建议。这些冥想课程让发生的一切都变得更容易承受了。",
+    "NESIA: Though she <![CDATA[<i>]]>does<![CDATA[</i>]]> find my choice of location strange, I cannot help that it is the best for this exercise. I am convinced this stone has something to do with the <![CDATA[<color=orange>Eye</color>]]>. Meditating atop it makes me feel closer to the Eye and, by extension, the rest of our clan.": "妮西亚: 虽然她<![CDATA[<i>]]>确实<![CDATA[</i>]]>觉得我选择的地点很奇怪，但我无法否认这是最适合这次练习的地方。我确信这块石头与<![CDATA[<color=orange>眼</color>]]>有关。在它上面冥想让我感觉更接近<![CDATA[<color=orange>眼</color>]]>，进而也更接近我们部族的其他人。",
+    "NESIA: Ah, it's hardly been any time at all, and I can already feel my body ignoring the stifling heat of this planet.": "妮西亚: 啊，几乎没花多少时间，我已经能感觉到自己的身体不再受这个星球闷热的影响了。",
+    "NESIA: Wait, no, I am certain that it is noticeably cooler in this cave than it normally is. What's going on?": "妮西亚: 等等，不，我确定这个洞穴比平时明显凉爽了许多。发生了什么？",
+    "NESIA: Ah! I'm not in the cave anymore! It seems that I have somehow managed to find myself somewhere else entirely!": "妮西亚: 啊！我不再在洞穴里了！不知怎么的，我似乎完全到了另一个地方！",
+    "NESIA: Incredible... it's so green, in a way that I have never seen the <![CDATA[<color=purple>Bramble</color>]]>. Just what is this place? Did you bring me here, my wandering friend? Is this place... important somehow? I cannot help but feel that it is... significant.": "妮西亚: 不可思议...这里如此翠绿，是我从未见过的<![CDATA[<color=purple>荆棘</color>]]>的样子。这到底是什么地方？是你带我来的吗，我漫游的朋友？这里...有什么特别的意义吗？我忍不住觉得它...很重要。",
+    "NESIA: I must find a way out and tell the others, something tells me that this is a very crucial discovery.": "妮西亚: 我必须找到出路并告诉其他人，某种直觉告诉我这是一个非常关键的发现。",
+
+    //node_dree_part
+    "The part of the Dree will be to commune with the <![CDATA[<color=purple>Bramble</color>]]>, to convince it to grow a distant node that will bring us to our destination. To do this, the <![CDATA[<color=purple>Bramble</color>]]> will be primed for communion, and the Dree themselves will attempt to attune themselves to the signal left behind by the <![CDATA[<color=orange>Eye</color>]]>.": "德瑞人的任务是与<![CDATA[<color=purple>荆棘</color>]]>交流，说服它生长一个遥远的节点，将我们带到目的地。为此，<![CDATA[<color=purple>荆棘</color>]]>将为交流做好准备，而德瑞人们将尝试调整自己以适应<![CDATA[<color=orange>眼</color>]]>留下的信号。",
+    "This will be the carrier that allows the gate to function.": "这将是让门运作的载体。",
+
+    //node_final_statement
+    "We are the Nomai, and we will no longer wallow in misery at every discovery we cannot make.": "我们是挪麦人，我们不会再因每一个无法实现的发现而沉溺于痛苦之中。",
+    "We are the Dree, and we will not fade to dust while the means to improve our lot is within our grasp.": "我们是德瑞人，只要改变命运的手段仍在我们掌握之中，我们就不会化为尘埃。",
+    "We are the conjoined clan, two species as one. We will go forth unto new wilds together.": "我们已是同一个部族，两个物种合二为一。我们将一起迈向新的旷野。",
+
+    //node_general_plan
+    "In this place, the <![CDATA[<color=purple>Heart of the Bramble</color>]]>, we believe we have discovered the means by which we may finally reach the <![CDATA[<color=orange>Eye of the Universe</color>]]>.": "在这个地方，<![CDATA[<color=purple>荆棘之心</color>]]>，我们相信我们已经发现了最终到达<![CDATA[<color=orange>宇宙之眼</color>]]>的方法。",
+    "Being here allows us to commune with the <![CDATA[<color=purple>Bramble</color>]]> like never before, to hear and be heard by it in a way that our people have never been able to.": "在这里，我们可以以前所未有的方式与<![CDATA[<color=purple>荆棘</color>]]>交流，以我们族人从未有过的方式倾听和被倾听。",
+    "Through a joint effort between the Nomai and the Dree, we believe we may finally reach the <![CDATA[<color=orange>Eye</color>]]>, encouraging the <![CDATA[<color=purple>Bramble</color>]]> to grow a node near our destination.": "通过挪麦人和德瑞人的共同努力，我们相信我们最终可以到达<![CDATA[<color=orange>眼</color>]]>，鼓励<![CDATA[<color=purple>荆棘</color>]]>在我们的目的地附近生长一个节点。",
+
+    //node_nomai_part
+    "The contribution of the Nomai will be the apparatus by which the node will grow. By exercising our skills in bioengineering, we will construct a machine that will allow for the rapid growth of a <![CDATA[<color=purple>Bramble</color>]]> node.": "挪麦人的贡献将是节点生长的装置。通过运用我们的生物工程技术，我们将建造一台机器，使<![CDATA[<color=purple>荆棘</color>]]>节点能够快速生长。",
+    "This will be the gate through which we step to reach the <![CDATA[<color=orange>Eye</color>]]>": "这将是我们通往<![CDATA[<color=orange>眼</color>]]>的门户。",
+
+    //node_plan_amendment
+    "KARENIA: Ditylum, I think you might want to wait to kill that dangerous node until later.": "卡蕾妮亚: 迪提鲁姆，我想你可能要等到以后再杀死那个危险的节点。",
+    "DITYLUM: Why?": "迪提鲁姆: 为什么？",
+    "KARENIA: I think it might be some sort of parasite on the <![CDATA[<color=purple>Bramble</color>]]>, although I can't be sure. I think waiting to kill it until just before putting the project into motion may put us in the <![CDATA[<color=purple>Bramble</color>]]>'s good graces.": "卡蕾妮亚: 我认为它可能是 <![CDATA[<color=purple>荆棘</color>]]> 上的某种寄生虫，虽然我不确定。我想等到项目启动前再杀死它，可能会让我们赢得 <![CDATA[<color=purple>荆棘</color>]]> 的好感。",
+    "DITYLUM: Okay, sounds like a plan. Once we're ready to grow the node, I'll go and kill the dangerous one, then come right back.": "迪提鲁姆: 好的，听起来是个计划。一旦我们准备好生长节点，我就去杀死那个危险的节点，然后马上回来。",
+
+    //dree_tone  
+    "SENNETTI: With the analysis of the <![CDATA[<color=orange>Eye</color>]]>'s signal consuming most of our time, travel has become a significant time sink. Due to this, I have brought my side research here, so that I can continue work on it during downtime in the study of the signal.": "塞内蒂：由于分析<![CDATA[<color=orange>眼</color>]]>的信号占用了我们大部分时间，往返已成为一种显著的时间浪费。因此，我将我的副研究带到了这里，以便在信号研究的空闲时间继续工作。",
+    "NESIA: A fair idea. May I ask what this side research is about?": "妮西亚：好主意。请问这项副研究是关于什么的？",
+    "SENNETTI: I have decided to conduct more research into the alien's physiology. In particular, I wish to perform further analysis on the high-pitched tones that they use for echolocation. I have brought a recording of those tones here. Feel free to study it yourself as well, you know I always welcome your insight.": "塞内蒂：我决定对外星人的生理学进行更多研究。特别是，我希望对他们用于回声定位的高音调进行进一步分析。我带来了这些音调的录音。你也可以自由研究，你知道我一直欢迎你的见解。",
+
+    ///gas_dilation_discovery  
+    "DITYLUM: Hey, since you all have been working down here for so long, I thought I would come and let you know about a strange node I found the other day in <![CDATA[<color=orange>Briar's Hollow</color>]]>. I tried to send one of those probes that you made in, but it seemed to lose signal immediately. I even tried tying a rope to one, but when I pulled on it the rope snapped, and I barely dodged the shrapnel from the destroyed probe.": "迪提伦：嘿，既然你们在这里工作了这么久，我想我应该来告诉你们，前几天我在<![CDATA[<color=orange>荆棘谷</color>]]>发现了一个奇怪的节点。我试着把你们做的探测器送进去，但它似乎立即失去了信号。我甚至试着用绳子绑住一个，但当我拉绳子时，绳子断了，我差点被探测器爆炸的碎片击中。",
+    "NESIA: Curious. Do you have any intuition as to why this may have occurred? Were there any strange marks on the recovered shrapnel?": "妮西亚：真奇怪。你对这可能发生的原因有什么直觉吗？回收的碎片上有什么奇怪的痕迹吗？",
+    "DITYLUM: It almost looked like it had been destroyed by the rope itself, but I know I didn't pull hard enough to cause that. I don't know if I <![CDATA[<i>]]>could<![CDATA[</i>]]> pull hard enough to cause that!": "迪提伦：看起来它几乎像是被绳子本身毁掉的，但我知道我没有那么用力拉。我甚至不知道我<![CDATA[<i>]]>能不能<![CDATA[</i>]]>那么用力拉！",
+    "DITYLUM: Karenia's really unnerved by it, she's calling for the node to be destroyed using poison from the <![CDATA[<color=orange>Venomous Reject</color>]]>. Nobody can remember any story of such a node in all of our history, and nobody feels safe with it around.": "迪提伦：卡蕾妮亚对此非常不安，她呼吁用<![CDATA[<color=orange>毒弃之殇</color>]]>的毒药摧毁这个节点。在我们的历史中，没有人记得有这样的节点，也没有人觉得它在附近是安全的。",
+    "AZOLLA: Hm. It is not normally our nature to destroy something that could be studied, but if your people are so troubled by its presence, then we will do our best to eliminate the threat. We will simply have to make do with the other mysteries of the <![CDATA[<color=purple>Bramble</color>]]>.": "阿佐拉：嗯，摧毁可以研究的东西通常不是我们的本性，但如果你们的人对它的存在如此困扰，那我们会尽力消除这个威胁。我们只能靠<![CDATA[<color=purple>荆棘</color>]]>的其他谜题来弥补了。",
+    "DITYLUM: Thanks, I'll let Karenia know that you'll take care of it.": "迪提伦：谢谢，我会告诉卡蕾妮亚你们会处理好的。",
+
+    //gas_goal_hint  
+    "NESIA: I believe this cave should prove to be an adequate location for any equipment we might use to study the signal of the <![CDATA[<color=orange>Eye</color>]]>. In particular, the upper chamber across the ceiling looks well insulated. With some environmental regulation, the overheating of our equipment should be a non-issue.": "妮西亚：我认为这个洞穴非常适合放置我们用来研究<![CDATA[<color=orange>眼</color>]]>信号的设备。尤其是天花板上方的空间似乎隔热效果很好。只要做好环境调节，设备过热应该不会成为问题。",
+    "AZOLLA: A good find, Nesia, but how do you propose we get up there? The gas in this cave prohibits the use of our thrusters.": "阿佐拉：不错的发现，妮西亚，但我们怎么上去呢？这个洞穴中的气体让我们无法使用推进器。",
+    "NESIA: I believe gravity crystals constructed from the material of <![CDATA[<color=orange>Graviton's Folly</color>]]> should be useful. We could make specialized mounts to place the crystals in, amplifying their effect to the level we would need.": "妮西亚：我认为用<![CDATA[<color=orange>引力愚行</color>]]>的材料制成的重力晶体应该会很有用。我们可以制作专门的支架来放置晶体，将它们的效应放大到我们所需的水平。",
+    "SENNETTI: In my experience, the collection and application of that material will be time-consuming, and there may be other portions of the ceiling that are worth exploring. I propose these mounts should allow for the removal and replacement of these crystals. Then we may explore more while additional crystals are fabricated.": "塞内蒂：根据我的经验，收集和加工那种材料会非常耗时，而且天花板上可能还有其他值得探索的部分。我建议这些支架应该允许移除和更换晶体。这样我们可以在额外晶体制造的同时探索更多区域。",
+    "AZOLLA: Good idea, both of you. A series of removable gravity crystals would allow us to explore the full area while resources are relatively low. We should begin construction of this system immediately.": "阿佐拉：你们两个的想法都很好。一系列可拆卸的重力晶体可以让我们在资源相对有限的情况下探索整个区域。我们应该立即开始建造这个系统。",
+
+    //gas_warning
+    "Warning! The chamber below is flooded with a very flammable gas. It is important that no open flames are brought into the cave, especially those that are particularly intense.": "警告！下方的洞穴充满了高度易燃的气体。请勿将明火带入洞穴，尤其是强烈的火焰。",
+
+    //romantic_advice_recording
+    "OKALIS: Nesia, do you mind if I ask a potentially sensitive question? It's about Amylax and I, so I understand if your recent loss is still too sore. I ask because you are the only one of us who has any experience with relationships.": "奥卡利斯：妮西亚，我可以问一个可能比较敏感的问题吗？是关于阿米拉克斯和我的，所以如果你最近的损失仍然让你感到痛苦，我完全理解。我问这个问题是因为你是我们中唯一有恋爱经验的人。",
+    "NESIA: It is no problem at all, friend. What is your concern?": "妮西亚：完全没问题，朋友。你有什么担忧？",
+    "OKALIS: I don't know if it is a concern, or... well, I suppose it is a concern, though I struggle to think of any concrete foundation for it. It's just that, while everything seems to be going well between Amylax and I, I cannot help but worry.": "奥卡利斯：我不知道这是不是一种担忧，或者……嗯，我想这确实是一种担忧，尽管我很难找到具体的依据。只是，虽然阿米拉克斯和我之间一切似乎都很顺利，但我还是忍不住担心。",
+    "OKALIS: We are so fundamentally different, Nesia. Not in our interests, but on a very foundational level. We're different species, with different histories and customs, habits and-": "奥卡利斯：我们在根本上太不同了，妮西亚。不是在兴趣上，而是在非常基础的层面上。我们是不同的物种，有着不同的历史、习俗、习惯和——",
+    "NESIA: Slow down, Okalis, I'm a bit lost.": "妮西亚：慢点说，奥卡利斯，我有点跟不上。",
+    "OKALIS: Apologies. I suppose I simply have never heard of such a pairing, and fear that it may be something that fundamentally cannot work. Even the way our relationship began was, ultimately, the result of my failing to understand him and his customs. I'm just... worried.": "奥卡利斯：抱歉。我想我只是从未听说过这样的组合，担心这可能从根本上无法成功。甚至我们关系的开始，最终也是因为我未能理解他和他的习俗。我只是……很担心。",
+    "NESIA: Hm, I understand. If I may, however, I would argue your portrayal of the start of your relationship is inaccurate.": "妮西亚：嗯，我明白了。不过，如果可以的话，我认为你对你们关系开始的描述并不准确。",
+    "OKALIS: What do you mean?": "奥卡利斯：你是什么意思？",
+    "NESIA: You state that you <![CDATA[<i>]]>failed<![CDATA[</i>]]> to understand Amylax, but what I recall is you <![CDATA[<i>]]>struggled<![CDATA[</i>]]> to understand him. It is a somewhat small distinction, but I believe it is important here.": "妮西亚：你说你<![CDATA[<i>]]>未能<![CDATA[</i>]]>理解阿米拉克斯，但我记得的是你<![CDATA[<i>]]>努力<![CDATA[</i>]]>去理解他。这虽然是一个微小的区别，但我认为在这里很重要。",
+    "NESIA: In particular, by struggling to understand him, you were ultimately successful, allowing your relationship to move forward. I hypothesize this will continue to be the case for the both of you, repeatedly struggling to come to an understanding, doing so, and moving forward together because of it. To be honest, it sounds similar to my relationship with Secca.": "妮西亚：特别是，通过努力理解他，你最终成功了，使你们的关系得以发展。我推测你们会继续这样，反复努力达成理解，并因此一起前进。说实话，这听起来很像我和塞卡的关系。",
+    "OKALIS: How so?": "奥卡利斯：怎么说？",
+    "NESIA: Secca and I had many moments where we struggled to come to an understanding. At the start of our relationship, we both thought ourselves quite clever, and it took some time to realize our interpretation of the other's words and actions were not always correct. Over time, we learned to do better, and to struggle to understand each other, as you and Amylax are doing. It took conscious effort to do so, but the mere fact that you came for advice shows you are already committing that effort.": "妮西亚：塞卡和我有很多次努力达成理解的时刻。在我们关系的初期，我们都认为自己很聪明，花了一些时间才意识到我们对彼此言行解读并不总是正确的。随着时间的推移，我们学会了做得更好，并努力理解彼此，就像你和阿米拉克斯正在做的那样。这需要刻意的努力，但你来寻求建议的事实表明你已经在付出这种努力了。",
+    "OKALIS: I... I suppose you are correct. We both care deeply for each other, and as you said, we have already proven that we can overcome the barriers of our differences. Thank you Nesia, you have been a great help.": "奥卡利斯：我……我想你是对的。我们都非常关心彼此，正如你所说，我们已经证明我们可以克服差异的障碍。谢谢你，妮西亚，你帮了大忙。",
+    "NESIA: I am glad. I have an open ear whenever you need to talk.": "妮西亚：我很高兴。如果你需要倾诉，我随时都在。",
+
+    //signal_analysis
+    "NESIA: Unfortunately, analysis of the <![CDATA[<color=orange>Eye</color>]]>'s signal is not promising. I am unable to ascertain its location, and am able to derive similarly little information about its purpose. The only trait I am noticing is a high degree of mutability; it seems as if the Eye is something highly capable of change.": "妮西亚：不幸的是，对<![CDATA[<color=orange>眼</color>]]>信号的分析并不乐观。我无法确定它的位置，也无法获得关于其目的的更多信息。我注意到的唯一特征是其高度的可变性；似乎<![CDATA[<color=orange>眼</color>]]>是一个高度可变的存在。",
+    "AZOLLA: That is unfortunate. I suppose this information may still prove useful. It is nonetheless discouraging that such an initially promising prospect has proven to be for nought.": "阿佐拉：这很不幸。我想这些信息可能仍然有用。尽管如此，最初如此有希望的前景最终却一无所获，这令人沮丧。",
+    "AZOLLA: An update; the signal may yet be of use! We have proposed, and our friends have agreed, that this signal may be the final component required for the <![CDATA[<color=orange>Distant Node Project</color>]]> to carry us to the <![CDATA[<color=orange>Eye</color>]]>.": "阿佐拉：更新一下；这个信号可能仍然有用！我们提出，并且我们的朋友也同意，这个信号可能是<![CDATA[<color=orange>远程节点计划</color>]]>将我们带到<![CDATA[<color=orange>眼</color>]]>所需的最终组件。",
+    "NESIA: Excellent! I will set about collecting a complete recording of the signal as soon as I can. It may take some time due to the noise from the feedback, but it should be achievable.": "妮西亚：太好了！我会尽快开始收集信号的完整录音。由于反馈噪音，可能需要一些时间，但这应该是可以实现的。",
+
+    //burning_recording
+    "SENNETTI: Our new friends were not exaggerating, this area is quite hot. I will be quite relieved when we set up the portable life support.": "塞内蒂：我们的新朋友没有夸张，这个区域非常热。当我们安装好便携式生命支持系统时，我会感到非常安心。",
+    "AZOLLA: I will as well, I fear we would not survive long in this heat otherwise.": "阿佐拉：我也是，否则我担心我们无法在这种高温下生存太久。",
+    "OKALIS: Hm, I don't seem to be able to fire my portside thrusters, which is making maneuvering difficult.": "奥卡利斯：嗯，我似乎无法启动左舷推进器，这使得机动变得困难。",
+    "NESIA: I seem to have lost vertical thrust. I believe the excessive heat may be interfering with our propulsion systems. I would advise we retreat for the moment.": "妮西亚：我似乎失去了垂直推力。我认为过高的温度可能干扰了我们的推进系统。我建议我们暂时撤退。",
+    "OKALIS: ...I actually seem to have lost all thrust, I may require assistance to return.": "奥卡利斯：……我似乎失去了所有推力，我可能需要帮助才能返回。",
+    "AZOLLA: Unfortunately, that seems to be the case for all of us. It seems that we are trapped here, for the time being.": "阿佐拉：不幸的是，我们所有人似乎都是如此。看来我们暂时被困在这里了。",
+    "SENNETTI: The temperature here is entirely inhospitable, if we are unable to find a way to propel ourselves soon, we aren't going to make it out!": "塞内蒂：这里的温度完全不适宜生存，如果我们不能很快找到推进的方法，我们就无法脱身！",
+    "NESIA: Is the heat affecting my vision, or is there movement coming from the entrance?": "妮西亚：是高温影响了我的视力，还是入口处有动静？",
+    "OKALIS: There is! It seems our friends have noticed our plight, and have come to retrieve us!": "奥卡利斯：有！看来我们的朋友已经注意到我们的困境，并来救我们了！",
+    "DITYLUM: Hey, we noticed that you stopped moving, I thought you were going to go to the surface to set up life support?": "迪提伦：嘿，我们注意到你们停止了移动，我以为你们要去地表安装生命支持系统？",
+    "AZOLLA: We were, but it appears our propulsion systems failed due to the heat.": "阿佐拉：我们本来是要去的，但似乎我们的推进系统因高温而失效了。",
+    "DITYLUM: We told you it was a bad idea to come far in here, weird signal or not. Come on, let's get you out of here.": "迪提伦：我们告诉过你，深入这里是个坏主意，不管有没有奇怪的信号。来吧，让我们带你离开这里。",
+    "AZOLLA: Thank you. Once you get us out of here, we should be entirely able to modify our propulsion systems to handle the heat, making our return trip much more successful.": "阿佐拉：谢谢。一旦你把我们带出去，我们应该能够完全修改我们的推进系统以应对高温，使我们的返程更加成功。",
+    "DITYLUM: Hah! And here I thought you couldn't tell a joke without the science of it going over my head.": "迪提伦：哈！我还以为你不懂讲笑话的科学呢。",
+    "DITYLUM: By the <![CDATA[<color=purple>Bramble</color>]]>, you're serious aren't you...": "迪提伦：以<![CDATA[<color=purple>荆棘</color>]]>的名义，你是认真的吧……",
+
+    //fish_rock_legend
+    "SENNETTI: I am quite thankful our friends mounted that rescue operation. When my pack lost thrust, I was certain we were to be cooked!": "塞内蒂：我非常感谢我们的朋友组织了那次救援行动。当我的推进器失效时，我确信我们要被烤熟了！",
+    "AZOLLA: I am very thankful as well. Honestly, we should have considered the possibility of equipment failure under this heat, especially after we saw how it was used to cook anglerfish eggs.": "阿佐拉：我也非常感激。说实话，我们应该考虑到在这种高温下设备故障的可能性，尤其是在我们看到它被用来烹饪鮟鱇鱼卵之后。",
+    "OKALIS: I cannot help but wonder how they first started stealing those eggs. The anglerfish hardly seem like the kind of beasts you would want to approach.": "奥卡利斯：我忍不住想知道他们最初是如何开始偷那些卵的。鮟鱇鱼似乎不是你愿意接近的那种野兽。",
+    "SENNETTI: Actually, one of the language samples I analyzed during my translation is an old story that seeks to explain exactly that. As the story goes, they had found a massive anglerfish keeping watch over a clutch of eggs. The ancient aliens were starving, as they had failed to find food for days, and began devising a plan to steal the eggs.": "塞内蒂：实际上，我在翻译过程中分析的一个语言样本是一个试图解释这一点的古老故事。故事是这样的，他们发现了一条巨大的鮟鱇鱼守护着一窝卵。古代外星人因为几天找不到食物而饿得不行，于是开始策划偷卵的计划。",
+    "SENNETTI: They ultimately decided to distract the mother with a massive rock that was in the vicinity, hoping that slamming it into a nearby wall would lure the mother away for long enough to grab a few of the eggs and flee under pursuit. However, when the mother reached the rock, she did not turn around and pursue the thieves. Instead, she sank her teeth into the rock and stayed there, drifting with it. This distracted the fish long enough for the aliens to take as many eggs as they wanted. Supposedly, the fish was still latched onto the rock as they left.": "塞内蒂：他们最终决定用附近的一块大石头分散母鱼的注意力，希望将石头撞到附近的墙上能引诱母鱼离开足够长的时间，以便抓取一些卵并在追逐下逃跑。然而，当母鱼到达石头时，它并没有转身追逐小偷。相反，它咬住石头并留在那里，随石头漂流。这分散了鱼的注意力足够长的时间，让外星人拿走了他们想要的尽可能多的卵。据说，当他们离开时，鱼仍然咬在石头上。",
+    "NESIA: What an interesting tale! Why do you suppose the mother behaved like that? Are the fish unable to distinguish between organic and inorganic prey?": "妮西亚：多么有趣的故事！你认为母鱼为什么会那样做？鱼无法区分有机和无机的猎物吗？",
+    "OKALIS: An interesting hypothesis, Nesia! I would love to test it, if it were not for the fact our friends would likely not appreciate us feeding rocks to their fish.": "奥卡利斯：一个有趣的假设，妮西亚！如果不是因为我们的朋友可能不喜欢我们给他们的鱼喂石头，我很想测试一下。",
+    "NESIA: It was certainly a miscalculation on my part.": "妮西亚：这确实是我的一个误判。",
+    "OKALIS: I sincerely hope that this turns out to be a story of triumph, rather than one of starvation!": "奥卡利斯：我真诚地希望这最终是一个胜利的故事，而不是一个饥饿的故事！",
+
+    //hot_planet_intro_recording
+    "AZOLLA: Is everybody alright?": "阿佐拉：大家都还好吗？",
+    "NESIA: Yes, I believe so. I have taken the liberty of deploying portable life support, so this crater should remain cool and oxygen-rich, at least relatively speaking.": "妮西亚：是的，我想是的。我已经部署了便携式生命支持系统，所以这个陨石坑应该会保持凉爽和富含氧气，至少相对而言。",
+    "AZOLLA: Excellent. We should begin exploring once we have our bearings. Our top priority should be finding somewhere with shelter from this heat. Our equipment will not survive long enough to analyze the signal in this environment.": "阿佐拉：太好了。一旦我们确定方向，就应该开始探索。我们的首要任务应该是找到一个可以躲避这种高温的地方。我们的设备在这种环境中无法存活足够长的时间来分析信号。",
+    "OKALIS: I believe it is possible to hear the signal without equipment, which would suggest reception will not be an issue.": "奥卡利斯：我相信在没有设备的情况下也能听到信号，这表明接收不会成为问题。",
+
+    //rock_blocking_obscured
+    "NESIA: Actually, I believe that I may have accidentally found an additional behavior of this rock. When <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]> it seems that <![CDATA[<color=red>TEXT OBSCURED BY OBJECT</color>]]>.": "妮西亚：实际上，我认为我可能偶然发现了这块石头的另一种行为。当<![CDATA[<color=red>文字被物体遮挡</color>]]>时，似乎<![CDATA[<color=red>文字被物体遮挡</color>]]>。",
+
+    //courting_reveal
+    "OKALIS: I am happy to report our relations with our new friends seem to be going well! In fact, Amylax saw fit to deliver a gift to me!": "奥卡利斯：我很高兴地报告，我们与新朋友的关系似乎进展顺利！事实上，阿米拉克斯认为应该送给我一份礼物！",
+    "SENNETTI: That is good to hear! However, I have to wonder... Okalis, may I ask what the nature of this gift is?": "塞内蒂：这是个好消息！不过，我有点好奇...奥卡利斯，我能问一下这份礼物的性质吗？",
+    "OKALIS: It is a lovely necklace, woven from several small vines which seem to have been made to grow around one another. I am honestly unsure how he must have made it. Perhaps he used the druidic influence his people seem to have? Whatever the case, it must have taken some time to create.": "奥卡利斯：这是一条可爱的项链，由几根小藤蔓编织而成，这些小藤蔓似乎被设计成相互缠绕生长。老实说，我不确定他是怎么做到的。也许他利用了他们族人所拥有的德鲁伊能力？无论如何，制作它一定花了不少时间。",
+    "SENNETTI: Hm, yes, I suspected that might be the case. Okalis, I feel I should inform you that, based on my studies of these alien's culture, a necklace such as that is a key component of the traditional courting ritual. Usually, the intended recipient will either refuse the necklace, indicating a lack of interest, or accept it and gift the initiator with a similar necklace.": "塞内蒂：嗯，是的，我怀疑可能是这样。奥卡利斯，我觉得我应该告诉你，根据我对这些外星文化的研究，这样的项链是传统求偶仪式的关键组成部分。通常，预期的接受者要么拒绝项链，表示缺乏兴趣，要么接受它并回赠发起者一条类似的项链。",
+    "OKALIS: Are you certain? A courting ritual?! That would imply... was Amylax asking me to be his partner!?! How do I properly respond to that!?": "奥卡利斯：你确定吗？求偶仪式？！那意味着...阿米拉克斯是在请求我成为他的伴侣吗！？！我该如何正确回应！？",
+    "SENNETTI: Well, I would guess by either refusing or accepting the offer. Which one you choose is up to you, though I would strongly suggest you make a decision soon. I suspect that you have left Amylax quite confused.": "塞内蒂：嗯，我猜要么拒绝，要么接受这个提议。选择哪一个取决于你，不过我强烈建议你尽快做出决定。我怀疑你已经让阿米拉克斯相当困惑了。",
+    "OKALIS: Refuse or accept... If that is the case, then Sennetti, would you be willing to help me gain a better understanding of his language? I believe I have a message important enough that it must be written by hand.": "奥卡利斯：拒绝或接受...如果是这样的话，塞内蒂，你愿意帮助我更好地理解他的语言吗？我相信我有一个足够重要的信息，必须手写。",
+    "NESIA: That is quite a situation. Okalis, may I ask how you responded to the gift?": "妮西亚：这真是个棘手的情况。奥卡利斯，我能问一下你是如何回应这份礼物的吗？",
+    "OKALIS: How I responded... oh no! I stated I took it as a \"surefire token of the continued friendship between ourselves and our species\" He extended an offer of partnership and I, for all intents and purposes, called him a very good friend! This is disastrous!": "奥卡利斯：我是怎么回应的...哦不！我说我把它当作“我们和我们物种之间持续友谊的可靠象征”。他提出了伴侣关系的提议，而我却称他为非常好的朋友！这简直是灾难性的！",
+
+    //hot_locations_hint
+    "AZOLLA: Since the heat of this planet does not seem to relent on the surface, it seems inadvisable to establish a permanent residence here. Therefore, I would suggest we simply construct a lab to study the <![CDATA[<color=orange>Eye</color>]]>'s signal.": "阿佐拉：由于这个星球表面的热量似乎没有减弱的迹象，在这里建立永久居住地似乎是不明智的。因此，我建议我们简单地建造一个实验室来研究<![CDATA[<color=orange>眼</color>]]>的信号。",
+    "NESIA: I believe I may have found a suitable location for this lab. On another island, I found a cave leading down. It leads into an area filled with gas, but I believe the upper area may be cool enough for our equipment to function correctly given the assistance of environmental regulation.": "妮西亚：我相信我可能已经找到了一个适合这个实验室的地点。在另一个岛屿上，我发现了一个向下的洞穴。它通向一个充满气体的区域，但我相信在环境调节的帮助下，上层区域可能足够凉爽，使我们的设备能够正常运行。",
+    "AZOLLA: Very good! We will set up a lab there, after determining how best to contend with the gas.": "阿佐拉：非常好！在确定如何最好地应对气体后，我们将在那里建立一个实验室。",
+    "OKALIS: While I know the signal is our main focus, I believe I have found an additional item worth investigating. Some distance away, there is an opening in the side of a hill. This opening leads to a rock that seems to move when unobserved.": "奥卡利斯：虽然我知道信号是我们的主要关注点，但我相信我发现了一个值得调查的额外项目。在稍远的地方，有一个山边的开口。这个开口通向一块似乎在不被观察时会移动的岩石。",
+    "NESIA: I would certainly like to study this mysterious stone! I struggle to imagine what may cause this sort of behavior.": "妮西亚：我当然想研究这块神秘的石头！我很难想象是什么导致了这种行为。",
+    "SENNETTI: In light of the discoveries of the others, I have begun construction of a road to lead to both locations. It should help with navigating the... hazardous terrain.": "塞内蒂：鉴于其他人的发现，我已经开始建造一条通往这两个地点的道路。它应该有助于导航...危险的地形。",
+    "AZOLLA: Good idea Sennetti, we don't want anyone to become lost with the constant heat of this planet.": "阿佐拉：好主意，塞内蒂，我们不希望任何人因为这颗星球持续的高温而迷路。",
+
+    //recursive_heat_lore
+    "AZOLLA: Why do you suppose this area remains so hot? Certainly it should have cooled to some degree after such a long time?": "阿佐拉：为什么你认为这个区域仍然如此炎热？经过这么长时间，它肯定应该已经冷却到一定程度了吧？",
+    "NESIA: A fair question, one that had occurred to me as well. Currently, my standing hypothesis is that the seeds surrounding the planet lead recursively into this area, based on how they seem to have the same glow.": "妮西亚：这是个合理的问题，我也曾想过。目前，我的假设是，根据它们似乎具有相同的光芒，围绕这颗星球的种子递归地引导到这个区域。",
+    "OKALIS: An astute observation, but I fail to see how that explains the heat.": "奥卡利斯：这是个敏锐的观察，但我看不出这如何解释热量。",
+    "NESIA: If the planet is surrounded by recursive seeds, it is possible for heat that should leave the area to instead be redirected back inside, maintaining a very high temperature.": "妮西亚：如果这颗星球被递归种子包围，那么应该离开该区域的热量可能会被重新引导回内部，从而保持非常高的温度。",
+
+    //dilation_warning_recording
+    "Warning! This node is dangerous, and is set to be destroyed.": "警告！这个节点很危险，并且将被摧毁。",
+    "As of now, nothing except shrapnel has ever been retrieved from here. Under no circumstances should you enter!": "到目前为止，除了弹片之外，这里从未回收过任何东西。在任何情况下都不要进入！",
+    "If you're here to destroy the node, insert the poison into the receptacle attached to the side of the node.": "如果你来这里是为了摧毁节点，请将毒药插入节点侧面的容器中。",
+
+    //recursive_node_recording
+    "NESIA: Okay, after leaving the area through the opening we found near <![CDATA[<color=orange>Titan's Tears</color>]]>, we seem to have emerged into another large, open space. Okalis, can you verify the signals of our friends can be found within the node we just left?": "妮西亚：好的，通过我们在<![CDATA[<color=orange>泰坦之泪</color>]]>附近发现的开口离开该区域后，我们似乎进入了另一个巨大的开放空间。奥卡利斯，你能确认我们朋友的信号可以在我们刚刚离开的节点中找到吗？",
+    "OKALIS: Give me a moment... Yes, I can detect their signals coming from the knot we emerged from, although there's a large amount of interference.": "奥卡利斯：给我一点时间...是的，我可以检测到他们从我们出现的节点发出的信号，尽管有大量的干扰。",
+    "NESIA: Excellent, that indicates that we should be able to retu-": "妮西亚：太好了，这表明我们应该能够返回-",
+    "OKALIS: My apologies for the interruption, Nesia, but I am also detecting their signals in that direction.": "奥卡利斯：抱歉打断你，妮西亚，但我也在那个方向检测到了他们的信号。",
+    "NESIA: Interesting, do you suppose we have arrived back into <![CDATA[<color=orange>Briar's Hollow</color>]]>?": "妮西亚：有趣，你认为我们已经回到了<![CDATA[<color=orange>荆棘谷</color>]]>吗？",
+    "OKALIS: I suppose so. How exciting! Even seeing the spatial anomaly from when we first arrived, I never would have expected leaving <![CDATA[<color=orange>Briar's Hollow</color>]]> may bring us directly back into it!": "奥卡利斯：我想是的。多么令人兴奋！即使看到我们第一次到达时的空间异常，我也从未想到离开<![CDATA[<color=orange>荆棘谷</color>]]>可能会直接把我们带回来！",
+    "NESIA: Suppose this node is recursive in some way? That would explain the curious signal I am detecting coming from it. If it truly is recursive, then this signal may simply be the ambience of this chamber, amplified through multiple passings through this node!": "妮西亚：假设这个节点在某种程度上是递归的？这可以解释我从它那里检测到的奇怪信号。如果它真的是递归的，那么这个信号可能只是这个房间的环境声音，通过多次通过这个节点而被放大！",
+    "OKALIS: I propose we inform the others of this immediately. A recursive node/dimension pair is certainly an important scientific discovery!": "奥卡利斯：我建议我们立即通知其他人。递归节点/维度对肯定是一个重要的科学发现！",
+
+    //collapse_hypothesis
+    "OKALIS: With our current goal of destroying the dangerous node, I cannot help but wonder what will happen when the node dies?": "奥卡利斯：随着我们当前摧毁危险节点的目标，我不禁想知道当节点死亡时会发生什么？",
+    "NESIA: I would imagine it will be similar to when the node leading from <![CDATA[<color=orange>Shattered Hearth</color>]]> to here perished, and it will simply re-link to somewhere else.": "妮西亚：我想它会类似于从<![CDATA[<color=orange>破碎家园</color>]]>到这里的节点死亡时的情况，它只会重新链接到其他地方。",
+    "OKALIS: Perhaps, but this area already had an additional entrance in the <![CDATA[<color=orange>Nursery</color>]]>. What if the area the dangerous node leads to does not have any other entrances? Will the area itself die and be cut off?": "奥卡利斯：也许吧，但这个区域已经在<![CDATA[<color=orange>育苗室</color>]]>有一个额外的入口。如果危险节点引导的区域没有其他入口怎么办？该区域本身会死亡并被切断吗？",
+    "NESIA: Hm, a fair point. I suppose we shall see. Perhaps the pocket dimension will collapse entirely, ejecting any objects inside?": "妮西亚：嗯，这是个合理的观点。我想我们会看到的。也许口袋维度会完全崩溃，弹出里面的任何物体？",
+    "OKALIS: That would be interesting! I only hope that, if that is the case, there isn't anything inside causing the apparent peril.": "奥卡利斯：那会很有趣！我只希望，如果是这样的话，里面没有什么东西造成明显的危险。",
+
+    //ditylum_diary
+    "DITYLUM: Yikes, I see what Karenia was getting so worked up about, this place is really creepy. It feels unnatural, like the <![CDATA[<color=purple>Bramble</color>]]> doesn't want it here. I'm just going to poke around a little bit and then leave. I can't believe that the Nomai can stand to be here for more than a few minutes.": "迪提伦：哎呀，我明白卡蕾妮亚为什么这么激动了，这个地方真的很诡异。感觉不自然，就像<![CDATA[<color=purple>荆棘</color>]]>不希望它在这里一样。我只是随便看看然后离开。我无法相信挪麦人能在这里待上几分钟以上。",
+    "DITYLUM: Okay, that's probably not good. There was a massive creaking sound a few minutes ago, like wood splintering. Probably about time for me to take my leave.": "迪提伦：好吧，这可能不太好。几分钟前有一声巨大的吱吱声，就像木头裂开一样。可能是我该离开的时候了。",
+    "DITYLUM: Okay, definitely not good. When I exit this dimension, it seems like I end up on the far side of the <![CDATA[<color=orange>Nursery</color>]]>, instead of near <![CDATA[<color=orange>Shattered Hearth</color>]]>. I don't really have any way to get across with all of the baby fish there, so I guess I'll sit here and wait for rescue.": "迪提伦：好吧，绝对不好。当我离开这个维度时，我似乎到了<![CDATA[<color=orange>育苗室</color>]]>的远端，而不是靠近<![CDATA[<color=orange>破碎家园</color>]]>的地方。我真的没有办法穿过那里所有的幼鱼，所以我想我会坐在这里等待救援。",
+    "DITYLUM: Okay, so, it's been a few hours now, and nobody's come. Are they not able to get across the <![CDATA[<color=orange>Nursery</color>]]>? I hadn't even considered that. Am I going to die here?": "迪提伦：好吧，现在已经几个小时了，没有人来。他们不能穿过<![CDATA[<color=orange>育苗室</color>]]>吗？我甚至没有考虑过这一点。我会死在这里吗？",
+    "DITYLUM: It's been a couple of days now, and still no sign of anyone. I'm starting to lose hope. Maybe the Nomai are trying to find a way, but after this long, I'm probably already being mourned back home. Maybe I should chance it with the fish? I know that I won't starve for another week or so, but it's hard to tell if starvation is better than being eaten alive.": "迪提伦：现在已经几天了，仍然没有任何人的迹象。我开始失去希望。也许挪麦人正在想办法，但经过这么长时间，我可能已经在家里被哀悼了。也许我应该和鱼碰碰运气？我知道我还有一个星期左右不会饿死，但很难说饿死是否比被活活吃掉更好。",
+    "DITYLUM: No, no, I know that they won't give up, I just need to give them time.": "迪提伦：不，不，我知道他们不会放弃，我只需要给他们时间。",
+    "DITYLUM: I'm really starting to get desperate now, I've been in here for about a week and nobody is coming. I think it's time, I'm either going to make it across in one piece now, or not at all. Wait, hold on... is that somebody? Four somebodies?! The Nomai! By the <![CDATA[<color=purple>Bramble</color>]]>, they actually figured out a way across!": "迪提伦：我现在真的开始绝望了，我已经在这里待了大约一个星期，没有人来。我想是时候了，我要么现在完好无损地穿过，要么就完全不行。等等，等一下...那是谁？四个人？！挪麦人！以<![CDATA[<color=purple>荆棘</color>]]>的名义，他们真的找到了一条路！",
+
+    //reject_genetics  
+    "NESIA: Genetic testing has confirmed my previous suspicion; this node, unlike other nodes, is a distinctly different plant from the <![CDATA[<color=purple>Bramble</color>]]>. The only thing that remains unclear is how this could have occurred.": "妮西亚：基因测试证实了我之前的怀疑；这个节点与其他节点不同，是与<![CDATA[<color=purple>荆棘</color>]]>截然不同的植物。唯一不清楚的是这是如何发生的。",
+    "AZOLLA: Perhaps Karenia could shed light on its origin? She is the head druid of the Dree, so she may be capable of communicating with this node as well.": "阿佐拉：也许卡蕾妮亚可以阐明它的起源？她是德瑞人的首席德鲁伊，所以她可能也能够与这个节点交流。",
+    "NESIA: I have tried to bring her here, but anytime she approaches this chamber she recoils and refuses to go nearer. On our first attempt I encouraged her to try and approach more and, after attempting to satisfy my request, she vomited, began spasming, and I was forced to drag her away.": "妮西亚：我试图带她来这里，但每次她接近这个房间时都会退缩并拒绝靠近。在我们第一次尝试时，我鼓励她尝试接近更多，但在试图满足我的要求后，她呕吐了，开始痉挛，我被迫把她拖走。",
+    "AZOLLA: Goodness. Based on that, it seems to be of the utmost importance that we keep this plant <![CDATA[<i>]]>far away<![CDATA[</i>]]> from the Dree. Fortunately, the node seems to constantly be on the verge of starvation, so I highly doubt we will need to contend with any propagations from it.": "阿佐拉：天哪。基于此，似乎最重要的是我们将这种植物<![CDATA[<i>]]>远离<![CDATA[</i>]]>德瑞人。幸运的是，这个节点似乎一直处于饥饿的边缘，所以我非常怀疑我们是否需要应对它的任何繁殖。",
+    "SENNETTI: Could it simply be a random mutation? Perhaps even something with the strange propagation habits of the <![CDATA[<color=purple>Bramble</color>]]> needs to maintain the possibility of evolution.": "塞内蒂：这可能只是一个随机突变吗？也许即使是具有<![CDATA[<color=purple>荆棘</color>]]>奇怪繁殖习惯的东西也需要保持进化的可能性。",
+    "NESIA: That is possible, though this would be quite a strange mutation. We are yet to see any nodes with significant mutations, and all others at least have genetic code indicating them to be of the same plant.": "妮西亚：这是可能的，尽管这将是一个非常奇怪的突变。我们还没有看到任何具有显著突变的节点，而所有其他节点至少都有表明它们属于同一植物的遗传代码。",
+    "OKALIS: Perhaps this node did not originate from the <![CDATA[<color=purple>Bramble</color>]]> at all. Is it possible that a similar plant could have inserted a seed into this one?": "奥卡利斯：也许这个节点根本不是来自<![CDATA[<color=purple>荆棘</color>]]>。有没有可能是一种类似的植物将种子插入到这个节点中？",
+    "NESIA: This is possible, but quite alarming. I struggle to imagine the sort of spatial anomalies that multiple plants like the <![CDATA[<color=purple>Bramble</color>]]> could cause.": "妮西亚：这是可能的，但相当令人担忧。我很难想象像<![CDATA[<color=purple>荆棘</color>]]>这样的多种植物可能引起的空间异常。",
+
+    //reject_killing_hint  
+    "AZOLLA: The Dree have found a hazardous node and, at their request, we are to develop a delivery method for the toxin produced by the <![CDATA[<color=orange>Venomous Reject</color>]]>.": "阿佐拉：德瑞人发现了一个危险的节点，根据他们的要求，我们需要开发一种传递<![CDATA[<color=orange>毒弃之殇</color>]]>产生的毒素的方法。",
+    "SENNETTI: This should not be difficult in and of itself, but who should deliver the toxin? We cannot ignore the possibility of the <![CDATA[<color=purple>Bramble</color>]]> reacting in some violent manner.": "塞内蒂：这本身应该不难，但谁应该传递毒素？我们不能忽视<![CDATA[<color=purple>荆棘</color>]]>以某种暴力方式反应的可能性。",
+    "DITYLUM: I can do it. I know my way around the <![CDATA[<color=purple>Deep Bramble</color>]]>, and I'm sure I can handle whatever happens.": "迪提伦：我可以做到。我熟悉<![CDATA[<color=purple>荆棘深处</color>]]>，我相信无论发生什么我都能处理。",
+    "AZOLLA: If you are certain, then that will be our plan. We will create a specialized mount and injector. The mount will be installed on the node to aid in administering the toxin, and you will be charged with the actual delivery.": "阿佐拉：如果你确定，那么这就是我们的计划。我们将创建一个专门的支架和注射器。支架将安装在节点上以帮助管理毒素，而你将负责实际的传递。",
+    "NESIA: I am still hesitant to destroy this node. Its behavior sounds unique.": "妮西亚：我仍然对摧毁这个节点感到犹豫。它的行为听起来很独特。",
+    "AZOLLA: We all are, but if the Dree believe it to be a significant threat, then I am inclined to be rid of it.": "阿佐拉：我们都有同感，但如果德瑞人认为这是一个重大威胁，那么我倾向于将其清除。",
+
+    //reject_violation  
+    "OKALIS: I cannot help but feel unnerved by this place. Even given the nature of the <![CDATA[<color=purple>Bramble</color>]]>, I cannot help but feel this place is... unnatural.": "奥卡利斯：我不禁对这个地方感到不安。即使考虑到<![CDATA[<color=purple>荆棘</color>]]>的性质，我也不禁觉得这个地方...不自然。",
+    "NESIA: That may actually be fairly accurate. My analysis of that fluid seems to indicate it is a potent toxin, capable even of killing sections of the <![CDATA[<color=purple>Bramble</color>]]>.": "妮西亚：这实际上可能是相当准确的。我对这种液体的分析表明，它是一种强效毒素，甚至能够杀死<![CDATA[<color=purple>荆棘</color>]]>的部分区域。",
+    "NESIA: Based on our observations and the stories of the Dree, the nature of the <![CDATA[<color=purple>Bramble</color>]]> is not like other plants. Where other plants spread seeds to propagate offspring, our thorny friend spreads seeds to propagate <![CDATA[<i>]]>itself<![CDATA[</i>]]>. This node, however, seems to exist in direct contradiction to that.": "妮西亚：根据我们的观察和德瑞人的故事，<![CDATA[<color=purple>荆棘</color>]]>的性质与其他植物不同。其他植物通过传播种子来繁殖后代，而我们这位带刺的朋友则通过传播种子来繁殖<![CDATA[<i>]]>自身<![CDATA[</i>]]>。然而，这个节点似乎与这一点直接矛盾。",
+    "NESIA: In short, this node is <![CDATA[<i>]]>another Bramble<![CDATA[</i>]]>. This is visible not just in its continued production of the toxin, but also in how the rest of the <![CDATA[<color=purple>Bramble</color>]]> is starving it. The implications of this are... unclear, but we should certainly study this plant.": "妮西亚：简而言之，这个节点是<![CDATA[<i>]]>另一个荆棘<![CDATA[</i>]]>。这不仅体现在它持续产生毒素上，还体现在其他<![CDATA[<color=purple>荆棘</color>]]>如何让它挨饿上。这其中的含义...尚不明确，但我们肯定应该研究这种植物。",
+    "SENNETTI: I also have that feeling, Okalis. Something here feels definitively different from other locations in this plant.": "塞内蒂：我也有这种感觉，奥卡利斯。这里的某些东西感觉与这种植物的其他地方完全不同。",
+    "SENNETTI: Why would a node capable of producing such a toxin even develop?": "塞内蒂：为什么会产生能够产生这种毒素的节点？",
+    "NESIA: It may simply be a random mutation. Still, if such a mutation can create a node that is toxic to the rest of the plant, who knows what other mutations could exist.": "妮西亚：这可能只是一个随机突变。不过，如果这种突变可以产生对植物其他部分有毒的节点，谁知道还会存在什么其他突变呢。",
+
+    //start_dimension_recorder  
+    "NESIA: Unfortunately, it appears that our gamble has not quite paid off how we wanted. It would seem that we are still trapped within this strange place.": "妮西亚：不幸的是，我们的赌博似乎并没有如我们所愿地得到回报。看来我们仍然被困在这个奇怪的地方。",
+    "SENNETTI: What are we going to do? We have neither the means to return to the <![CDATA[<color=orange>Vessel</color>]]>, nor a source of oxygen. If we do not act quickly, this will almost certainly be our final resting place!": "塞内蒂：我们该怎么办？我们既没有办法返回<![CDATA[<color=orange>飞船</color>]]>，也没有氧气来源。如果我们不迅速行动，这几乎肯定将成为我们的最后安息之地！",
+    "NESIA: If you squint through the fog, there appear to be holes in the walls that surround us. As much as it pains me to say, we may need to split up in search of oxygen.": "妮西亚：如果你透过雾气眯起眼睛看，似乎我们周围的墙上有洞。虽然我很不情愿这么说，但我们可能需要分开寻找氧气。",
+    "AZOLLA: I see six holes in the walls, we will each select one and attempt to locate a reliable source of oxygen on the other side. Once one is found, return here and wait to lead the others to it. With any luck, this plan will see us all through this endeavor alive.": "阿佐拉：我看到墙上有六个洞，我们每人选择一个，并尝试在另一边找到可靠的氧气来源。一旦找到，就回到这里等待，带领其他人前往。如果运气好的话，这个计划将使我们所有人都能活着完成这项任务。",
+    "NESIA: Visibility in this place is far from optimal, so I will leave a signal beacon here to ensure that we can find our way back. If luck is on our side, it may also lead other Nomai to our current location.": "妮西亚：这个地方的能见度远非最佳，所以我会在这里留下一个信号信标，以确保我们能找到回去的路。如果运气好的话，它还可能引导其他挪麦人来到我们目前的位置。",
+
+    //bramble_name_reveal  
+    "SENNETTI: Update: I have translated the Dree name for the area we find ourselves in. Apparently, the Dree refer to everywhere enclosed by this plant as the <![CDATA[<color=purple>Deep Bramble</color>]]>.": "塞内蒂：更新：我已经翻译了我们所在区域的德瑞名称。显然，德瑞人将这种植物所包围的所有地方称为<![CDATA[<color=purple>荆棘深处</color>]]>。",
+    "AZOLLA: Keep up the good work, Sennetti. We all appreciate your efforts, both towards deciphering the Dree language and keeping us updated.": "阿佐拉：继续努力，塞内蒂。我们都很感激你在破译德瑞语言和及时更新我们方面的努力。",
+    "NESIA: Interesting. Do you suppose the existence of a \"Deep\" Bramble implies the existence of a \"Shallow\" Bramble?": "妮西亚：有趣。你认为荆棘“深”处的存在是否意味着荆棘“浅”处的存在？",
+    "OKALIS: Perhaps the Shallow Bramble is where the <![CDATA[<color=orange>Vessel</color>]]> was stranded?": "奥卡利斯：也许荆棘“浅”处是<![CDATA[<color=orange>飞船</color>]]>搁浅的地方？",
+
+    //call_to_mourn  
+    "AZOLLA: Okalis, Sennetti, meet Nesia and I at <![CDATA[<color=orange>Graviton's Folly</color>]]> as soon as you can.": "阿佐拉：奥卡利斯，塞内蒂，尽快和妮西亚一起到<![CDATA[<color=orange>引力愚行</color>]]>来见我。",
+    "SENNETTI: Can I ask why our presence is required? I am still working on further studying Dree culture.": "塞内蒂：我能问一下为什么需要我们到场吗？我还在进一步研究德瑞文化。",
+    "AZOLLA: We have news, but it is news best delivered in person. I'm sorry, but that is all I can say.": "阿佐拉：我们有消息，但最好亲自传达。抱歉，我只能说这么多。",
+    "OKALIS: Understood, I only need to finish a few things before I make my way over.": "奥卡利斯：明白了，我只需要完成几件事就可以过去。",
+
+    //dictionary_text  
+    "SENNETTI: Friends, I have truly impactful news. Through the combined efforts of Ditylum, other Dree, and myself, I have completed my translation of the Dree language!": "塞内蒂：朋友们，我有一个真正有影响力的消息。通过迪提伦、其他德瑞人和我自己的共同努力，我完成了德瑞利语言的翻译！",
+    "SENNETTI: I will write the translation dictionary here. If I format it correctly, it should enable our staves to automatically translate Dree writing, which should prove useful as we learn to fully understand the language.": "塞内蒂：我将在这里写下翻译词典。如果我格式正确，它应该能让我们的法杖自动翻译德瑞文字，这将有助于我们完全理解这种语言。",
+    "<![CDATA[<color=green>Dictionary recognized, updating Nomai translator.</color>]]>": "<![CDATA[<color=green>词典已识别，正在更新挪麦翻译器。</color>]]>",
+    "OKALIS: This is wonderful, Sennetti! Now we can begin communicating with them in earnest!": "奥卡利斯：这太棒了，塞内蒂！现在我们可以认真开始与他们沟通了！",
+    "AZOLLA: I must agree, this is certain to mark a significant turning point in our communications with the Dree.": "阿佐拉：我必须同意，这肯定标志着我们与德瑞人沟通的一个重要转折点。",
+    "NESIA: To complete a translation of such scale so quickly is very impressive, well done Sennetti!": "妮西亚：如此迅速地完成如此规模的翻译非常令人印象深刻，干得好，塞内蒂！",
+    "NESIA: Unfortunately, I struggle to imagine how this will help us communicate with the Dree. They cannot read our messages without eyes, after all.": "妮西亚：不幸的是，我很难想象这将如何帮助我们与德瑞人沟通。毕竟，他们没有眼睛就无法阅读我们的信息。",
+    "SENNETTI: They can, actually. It seems they are able to detect the differences in the materials via echolocation, allowing them to \"read\" our writing.": "塞内蒂：实际上，他们可以。似乎他们能够通过回声定位检测材料的差异，从而“阅读”我们的文字。",
+
+    //domestic_fish_reveal  
+    "SENNETTI: I must admit this discovery is rather embarrassing. Apparently I had previously mistaken the Dree adjective modifiers for \"hostile\" and \"neutral\".": "塞内蒂：我必须承认这个发现相当尴尬。显然，我之前将德瑞形容词修饰语误认为是“敌对”和“中立”。",
+    "AZOLLA: Interesting, what led to that error?": "阿佐拉：有趣，是什么导致了那个错误？",
+    "SENNETTI: In our discussions, Ditylum kept using a particular adjective while referring to the group of three anglerfish in one of the nodes near <![CDATA[<color=orange>Shattered Hearth</color>]]>. I had previously assumed this to be an adjective roughly translating to \"aggressive,\" but it apparently means \"neutral\" or \"tame.\"": "塞内蒂：在我们的讨论中，迪提伦在提到<![CDATA[<color=orange>破碎家园</color>]]>附近一个节点中的三条鮟鱇鱼时，一直使用一个特定的形容词。我之前认为这个形容词大致翻译为“攻击性”，但显然它的意思是“中立”或“驯服”。",
+    "AZOLLA: Peculiar. Would this imply that those anglerfish actually are not hostile?": "阿佐拉：奇怪。这是否意味着那些鮟鱇鱼实际上并不敌对？",
+    "SENNETTI: I believe it does. Do still exercise caution, it is possible I still do not wholly understand the translation.": "塞内蒂：我相信是的。仍然要小心，我可能还没有完全理解翻译。",
+    "NESIA: Don't fret, Sennetti, it happens to the best of us.": "妮西亚：别担心，塞内蒂，这种事发生在我们最好的人身上。",
+
+    //species_name_reveal  
+    "SENNETTI: Exciting news friends! I have made significant progress towards deciphering the language of our new neighbors!": "塞内蒂：朋友们，有个激动人心的消息！我在破译我们新邻居的语言方面取得了重大进展！",
+    "NESIA: If you do not mind my asking, what particulars of their language have you decrypted?": "妮西亚：如果你不介意我问的话，你破译了他们语言的哪些具体部分？",
+    "SENNETTI: Mostly common words, such as \"and\" and \"the.\" Notably, however, I have also deciphered certain names! Specifically, the species refer to themselves as the Dree, and the Dree I have been working with is known as Ditylum!": "塞内蒂：主要是常见词汇，比如“和”和“这”。不过值得注意的是，我还破译了一些名字！特别是，这个物种称自己为“德瑞”，而与我合作的德瑞名叫“迪提伦”！",
+    "AZOLLA: Good work Sennetti! At this rate, we'll be able to share discoveries with the Dree before too long.": "阿佐拉：干得好，塞内蒂！照这个速度，我们很快就能与德瑞人分享我们的发现了。",
+    "OKALIS: This is wonderful news Sennetti! Does this mean there will be fewer obstacles in the way of communication?": "奥卡利斯：这是个好消息，塞内蒂！这是否意味着沟通的障碍会减少？",
+    "SENNETTI: Somewhat, but I am still far from completing my translation.": "塞内蒂：某种程度上是的，但我的翻译工作还远未完成。",
+    "OKALIS: Would this happen to be the same Dree that we first met?": "奥卡利斯：这会不会是我们第一次遇到的那个德瑞人？",
+    "SENNETTI: That is correct! It seems he is quite eager to help facilitate communications between our two species.": "塞内蒂：没错！他似乎非常热衷于帮助我们两个物种之间的交流。",
+
+    //translation_culture_notes  
+    "SENNETTI: As I'm working on these translations, I cannot help but become more and more fascinated by the Dree's culture.": "塞内蒂：在进行这些翻译工作时，我忍不住对德瑞文化越来越着迷。",
+    "SENNETTI: For one, the Dree seem to value scientific knowledge much less than us Nomai, instead pursuing more druidic practices. Most of these practices seem to center around the plant that surrounds us, which they simply call the <![CDATA[<color=purple>Bramble</color>]]>": "塞内蒂：首先，德瑞人似乎比我们挪麦人更不重视科学知识，而是追求更多的德鲁伊实践。这些实践大多围绕着我们周围的植物展开，他们简单地称之为<![CDATA[<color=purple>荆棘</color>]]>。",
+    "OKALIS: Is this why many of their structures seem to be composed of these woody vines?": "奥卡利斯：这就是为什么他们的许多结构似乎都是由这些木质藤蔓组成的吗？",
+    "SENNETTI: Yes. Interestingly, the Dree seem to have some level of unexplained influence over the <![CDATA[<color=purple>Bramble</color>]]>. Rather than constructing buildings out of vines, as we previously assumed, it seems that they... <![CDATA[<i>]]>compel<![CDATA[</i>]]> the vines to grow into specific structures.": "塞内蒂：是的。有趣的是，德瑞人似乎对<![CDATA[<color=purple>荆棘</color>]]>有一定程度的无法解释的影响力。与我们之前的假设不同，他们并不是用藤蔓建造建筑物，而是...<![CDATA[<i>]]>迫使<![CDATA[</i>]]>藤蔓长成特定的结构。",
+    "SENNETTI: Even the planet they call home is only held together because the Dree willed the vines to do so.": "塞内蒂：甚至他们称之为家园的行星也仅仅是因为德瑞人的意愿，藤蔓才将其维系在一起。",
+    "NESIA: How interesting! I look forward to being able to ask how exactly this ability works, and what else can be done with it!": "妮西亚：真有趣！我期待能够询问这种能力的具体运作方式，以及它还能做些什么！",
+    "NESIA: I had been wondering how our cultures might differ, but have been obviously unable to ask.": "妮西亚：我一直想知道我们的文化有何不同，但显然无法询问。",
+    "AZOLLA: I seem to recall they referred to it as the <![CDATA[<color=purple>Deep Bramble</color>]]>. Does my memory fail me?": "阿佐拉：我似乎记得他们称它为<![CDATA[<color=purple>荆棘深处</color>]]>。我的记忆有误吗？",
+    "SENNETTI: There is a small distinction to be made. The <![CDATA[<color=purple>Deep Bramble</color>]]> is the area we are in, while the plant itself is referred to as the <![CDATA[<color=purple>Bramble</color>]]>.": "塞内蒂：有一个小小的区别。<![CDATA[<color=purple>荆棘深处</color>]]>是我们所在的区域，而植物本身被称为<![CDATA[<color=purple>荆棘</color>]]>。",
+
+    //translation_fish_recording  
+    "SENNETTI: Goodness, Okalis was not lying when he remarked on the terrible beast in this area. That anglerfish is massive!": "塞内蒂：天哪，奥卡利斯提到这个区域的可怕野兽时并没有撒谎。那条鮟鱇鱼真是巨大！",
+    "SENNETTI: Fortunately, it seems the creature is thoroughly domesticated, so it should be no real threat. From what I can gather, this fish is the mother of all others domesticated by the Dree.": "塞内蒂：幸运的是，这个生物似乎完全被驯化了，所以它应该不会构成真正的威胁。据我所知，这条鱼是德瑞人驯养的所有其他鱼的母亲。",
+    "SENNETTI: From the size of it, it must consume a massive quantity of food just to sustain itself. Even with its sedentary lifestyle, I suspect it would starve if the Dree did not feed it.": "塞内蒂：从它的体型来看，它必须消耗大量的食物才能维持生命。即使它的生活方式是久坐不动的，我怀疑如果德瑞人不喂它，它会饿死。",
+
+    //translation_funny_recording  
+    "SENNETTI: Thank you for aiding me in testing this, Ditylum. I believe it should work, but it is always best to do some manner of test.": "塞内蒂：谢谢你帮我测试这个，迪提伦。我相信它应该能工作，但最好还是做一些测试。",
+    "DITYLUM: No problem, although I do want to ask what exactly we're testing": "迪提伦：没问题，不过我想问一下我们到底在测试什么？",
+    "SENNETTI: This recorder. I have modified it in such a way that it should be able to transcribe your spoken language in Nomai.": "塞内蒂：这个录音机。我对其进行了修改，使其能够将你的口语转录成挪麦语。",
+    "DITYLUM: Ah, alright! So, we just need to talk about something for a bit and make sure it's picking me up properly?": "迪提伦：啊，好的！所以，我们只需要聊一会儿，确保它能正确捕捉到我的声音？",
+    "SENNETTI: Precisely. We just need a topic to talk about such that we generate a sufficiently large conversation. Let me see... Ah! I have always wondered Ditylum, what was that stone tablet that Okalis returned to you?": "塞内蒂：正是如此。我们只需要一个话题来展开足够长的对话。让我想想...啊！迪提伦，我一直想知道，奥卡利斯还给你的那块石板是什么？",
+    "DITYLUM: Oh! Um, it's honestly kinda embarrassing, but it's a poem that I made for my partner, Lioloma. Turns out that she wanted to keep it, but I had accidentally left it at that camp and had to go back for it.": "迪提伦：哦！嗯，说实话有点尴尬，但这是我为我的伴侣利奥洛玛写的一首诗。结果她想留着它，但我不小心把它落在了那个营地，不得不回去取。",
+    "SENNETTI: That's very sweet! I am sure you were quite flattered she valued it so highly.": "塞内蒂：那真是太甜蜜了！我相信她如此珍视它，你一定很受宠若惊。",
+    "DITYLUM: Yeah! I'm not the best writer, so it really meant a lot that she wanted to keep it. Was that all, or do we need to keep talking for a bit?": "迪提伦：是的！我不是最好的作家，所以她想要保留它对我来说意义重大。就这样了吗，还是我们需要再聊一会儿？",
+    "SENNETTI: I believe that should be sufficient. I will need to review the transcription to ensure its accuracy. Although... Would you allow me to borrow your poem? That is a type of text I have not yet encountered in your language, so it may aid in ensuring the accuracy of my translation.": "塞内蒂：我认为这应该足够了。我需要审查转录内容以确保其准确性。不过...你愿意借给我你的诗吗？这是我尚未在你的语言中遇到的一种文本类型，所以它可能有助于确保我的翻译准确性。",
+    "DITYLUM: Absolutely not.": "迪提伦：绝对不行。",
+
+    //translation_no_exit  
+    "AZOLLA: Sennetti, have you had any luck asking the Dree how to leave the <![CDATA[<color=purple>Deep Bramble</color>]]>?": "阿佐拉：塞内蒂，你问过德瑞人如何离开<![CDATA[<color=purple>荆棘深处</color>]]>吗？",
+    "SENNETTI: I have asked many people about how to leave, but so far they all seem certain that escape is impossible.": "塞内蒂：我问过很多人如何离开，但到目前为止，他们都确信逃脱是不可能的。",
+    "OKALIS: I am sorry to report my investigations have not uncovered an escape. I have scoured <![CDATA[<color=orange>Briar's Hollow</color>]]>, but have been thoroughly unable to find any new passageways.": "奥卡利斯：很遗憾，我的调查没有发现逃脱的方法。我仔细搜查了<![CDATA[<color=orange>荆棘谷</color>]]>，但完全找不到任何新的通道。",
+    "AZOLLA: This is troubling news. If we are unable to locate an exit, we will not be capable of reuniting with the rest of our clan or locating the <![CDATA[<color=orange>Eye of the Universe</color>]]>. We should all continue searching for an exit. I refuse to believe we are entirely ensnared by the <![CDATA[<color=purple>Bramble</color>]]>.": "阿佐拉：这是个令人不安的消息。如果我们找不到出口，我们将无法与我们的族人团聚，也无法找到<![CDATA[<color=orange>宇宙之眼</color>]]>。我们应该继续寻找出口。我拒绝相信我们完全被<![CDATA[<color=purple>荆棘</color>]]>困住了。",
+    "NESIA: That is... troubling. Suppose they simply haven't found a suitable exit yet?": "妮西亚：这...令人不安。假设他们只是还没有找到合适的出口？",
+    "SENNETTI: I find that to be very unlikely. The Dree have been here for thousands of years, the idea they would overlook an exit for that long is improbable.": "塞内蒂：我认为这非常不可能。德瑞人已经在这里生活了几千年，他们这么久都没有发现出口的想法是不太可能的。",
+
+    //DitylumDialogue  
+    "Thanks for remembering me, but I don't think we're ready yet, I can still hear music coming from the trees. Go on, make sure you get everyone.": "谢谢你记得我，但我觉得我们还没准备好，我还能听到树丛中传来的音乐。去吧，确保你把所有人都带上。",
+    "I'm ready to join in whenever you are, but I understand if you have some questions first. Someone as curious as you, it's the least you deserve.": "我随时准备好加入，但如果你有问题想问，我也理解。像你这样充满好奇心的人，这是你应得的。",
+    "Do you regret meeting the Nomai?": "你后悔遇到挪麦人吗？",
+    "I'm sorry about what happened to your people.": "我对你族人的遭遇感到遗憾。",
+    "Did you ever get to see the stars?": "你见过星星吗？",
+    "Nobody else here has much to say, why do you?": "这里其他人都不怎么说话，为什么你这么多话？",
+    "About the song...": "关于那首歌...",
+    "I'll be back in a second.": "我马上回来。",
+    "I don't think so. Seeing how it ended, it would be easy to say that we never should have met them, that, if it weren't for those four, my species might still be alive.": "我不这么认为。看到结局，很容易说我们本不该遇见他们，如果没有那四个人，我的种族可能还活着。",
+    "At the same time though, I think they brought out a side of us that we needed. Their curiosity and tenacity rubbed off on us, and I like to think that the best parts of us rubbed off on them. We made each other better, in a lot of ways.": "但与此同时，我认为他们激发了我们需要的另一面。他们的好奇心和坚韧感染了我们，而我也愿意相信我们最好的一面也感染了他们。我们在很多方面让彼此变得更好。",
+    "Plus, the alternative to meeting them would be them dying alone, far, far away from home. They wouldn't have deserved that.": "而且，如果不遇见他们，他们可能会孤独地死在远离家乡的地方。他们不该承受那样的命运。",
+    "So no, I'm certain that I don't regret meeting them.": "所以不，我确定我不后悔遇见他们。",
+    "It's okay. Don't get me wrong, it still hurts a lot, but I guess we had to go eventually. Just happened to be a bit sooner than you Hearthians.": "没关系。别误会，这仍然很痛苦，但我想我们终究要离开。只是比你们哈斯人早了一点。",
+    "For what it's worth, I'm sorry about what happened to your people too.": "无论如何，我也为你族人的遭遇感到遗憾。",
+    "Heh, afraid not, kinda hard to do that without eyes, y'know?": "嘿，恐怕不行，你知道的，没有眼睛很难看到星星。",
+    "The Nomai described them a lot though, like billions of deafeningly loud noises, dulled down to gentle whispers by inconceivable distances.": "不过挪麦人经常描述它们，比如数十亿震耳欲聋的噪音，被难以想象的距离减弱成温柔的耳语。",
+    "Even if they did ultimately do us in, they sound like they were quite a wonder to behold.": "即使它们最终导致了我们的灭亡，它们听起来也是相当令人惊叹的存在。",
+    "I'm not sure, honestly. Maybe it has something to do with you not knowing me as much as the others, so there are more blanks to fill in.": "老实说，我不确定。也许是因为你对我不像对其他人那么了解，所以有更多的空白需要填补。",
+    "Maybe I was the only one technically alive when you entered the Eye, so I came here in a more complete state.": "也许当你进入宇宙之眼时，我是唯一一个技术上还活着的存在，所以我以更完整的状态来到这里。",
+    "I think it's fitting though. You stayed and kept me company when I was the last of my people, and now I get to return the favor.": "不过我觉得这很合适。当我是族中最后一人时，你留下来陪伴我，现在我可以回报你了。",
+    "You ready for me to start? I've been waiting quite a while to get to sing with others again.": "你准备好让我开始了吗？我已经等了很久，想再次和其他人一起唱歌。",
+    "Yes.": "是的。",
+    "Not yet.": "还没。",
+    "Sounds good. Let's see what happens next!": "听起来不错。让我们看看接下来会发生什么！",
+    "No shame in waiting, none of us are going anywhere.": "等待并不可耻，我们谁也不会离开。",
+    "No worries, I've got nowhere to be.": "别担心，我无处可去。",
+    "Wow... so many possibilities, just waiting for someone to decide which one gets to come true.": "哇...这么多可能性，只等有人决定哪一个会成真。",
+    "Do you think... do you think there'll be a lot of people in the next one? Do you think they'll get the chance to meet, to talk, to share ideas?": "你觉得...你觉得下一个宇宙会有很多人吗？你觉得他们会有机会见面、交谈、分享想法吗？",
+    "No.": "不。",
+    "I hope so.": "我希望如此。",
+    "Heh, I bet you're right. Wouldn't be a very lively universe without that, right?": "嘿，我打赌你是对的。没有这些，宇宙不会很热闹，对吧？",
+    "That's fair. I don't think I agree though. I think they'll find each other, one way or another.": "这很公平。不过我不太同意。我觉得他们会以某种方式找到彼此。",
+    "Me too. Guess there's only one way for them to find out, huh?": "我也是。我想他们只有一个办法去发现，对吧？",
+    "Go on then. We set it up, but I think this next part is all you.": "那就继续吧。我们已经准备好了，但接下来的部分就看你的了。",
+
+    //EyeGraveText  
+    "Here lies the conjoined clan, Nomai and Dree united as one. Together we explored, celebrated, and discovered perspectives that would have been impossible apart. We hope you will carry our memory with you.": "这里安息着合二为一的挪麦与德瑞部族。我们一起探索、庆祝，并发现了分开时无法获得的视角。我们希望你能带着我们的记忆继续前行。",
+
+    //PlaqueText  
+    "Not all of the Nomai made it onto one of the three escape pods. While many perished in the initial crash of the Vessel, four ended up warping deeper into the Bramble.": "并非所有挪麦人都登上了三个逃生舱之一。许多人在飞船的初始撞击中丧生，但有四人最终跃迁到了荆棘的更深处。",
+    "They met another species named the Dree, and the two groups shared their cultures with one another. Together, they made a plan to reach the Eye of the Universe.": "他们遇到了另一个名为德瑞的物种，两个群体分享了彼此的文化。他们一起制定了到达宇宙之眼的计划。",
+    "Unfortunately, this plan failed, killing the four Nomai and all of the Dree, save one who was not present at the time.": "不幸的是，这个计划失败了，导致四名挪麦人和所有德瑞人死亡，只有一名当时不在场的德瑞人幸存。",
+
+    //ShipWarpDialogue  
+    "Oh, hey! I almost forgot! You know how your ship is outfitted with a warp drive you can use from the ship log?": "哦，嘿！我差点忘了！你知道你的飞船上装有一个可以从飞船日志中使用的跃迁驱动器吗？",
+    "Yeah?": "是吗？",
+    "Well, it's also able to analyze some warp signatures! So if you happen to come across any strange singularities, you might be able to go where they lead and back using your warp drive.": "嗯，它还能分析一些跃迁信号！所以如果你碰巧遇到任何奇怪的特异点，你也许可以使用跃迁驱动器前往它们引导的地方并返回。",
+    "It's also able to pull data from your suit, so it can even let you warp your ship to locations that you could previously only access without it.": "它还能从你的宇航服中提取数据，因此它甚至可以让你将飞船跃迁到以前只能在没有飞船的情况下到达的地方。",
+
+    //SignalLockDialogue  
+    "Wait! One more thing!": "等等！还有一件事！",
+    "Here we go again...": "又来了...",
+    "We did some last-minute adjustments to your navigational equipment, and made a pretty nice improvement. If you have your signalscope focused on a signal and press your lock-on button, you can lock onto whatever the signal is coming from! That's assuming you've fully identified the signal, of course.": "我们在最后一刻对你的导航设备进行了一些调整，并做出了相当不错的改进。如果你的信号探测器对准了一个信号并按下锁定按钮，你就可以锁定信号的来源！当然，这假设你已经完全识别了信号。",
+    "That's... weirdly good timing for you to bring that up. Thanks!": "这...你提得真是时候。谢谢！",
+
+    //lowerbridgetext  
+    "NESIA: That should be the last of the circuitry in place. Is the warp core prepared?": "妮西亚：这应该是最后的电路了。跃迁核心准备好了吗？",
+    "OKALIS: Yes it is, although this seems to be the only functional black hole core left in the <![CDATA[<color=orange>Vessel</color>]]>.": "奥卡利斯：是的，尽管这似乎是<![CDATA[<color=orange>飞船</color>]]>中唯一剩下的功能性黑洞核心。",
+    "NESIA: Okay then, go ahead and slot it into place and we will see if this somehow works.": "妮西亚：好吧，那就把它放进去，我们看看它是否能以某种方式工作。",
+    "NESIA: Wait, how did that work? It should be completely impossible for that to function!": "妮西亚：等等，这是怎么工作的？这完全不可能正常运作！",
+    "OKALIS: Yes! I told you it was worth attempting!": "奥卡利斯：没错！我告诉过你这值得尝试！",
+    "SENNETTI: That means we can escape! I can not wait to reunite with the rest of our clan, I had started to worry that we would never see them again.": "塞内蒂：这意味着我们可以逃脱了！我迫不及待地想与我们的其他族人团聚，我已经开始担心我们再也见不到他们了。",
+    "AZOLLA: Let us not delay then, there is no telling how long that core will be able to hold the singularity open. Everyone, go through!": "阿佐拉：那我们就不要拖延了，没人知道那个核心能保持特异点开启多久。大家，快过去！",
+
+    //mainbridgetext  
+    "OKALIS: So, what exactly is our plan of escape? Do we try to fly out?": "奥卡利斯：那么，我们的逃脱计划到底是什么？我们要试着飞出去吗？",
+    "NESIA: I fear that such a contemporary strategy may not work here, the <![CDATA[<color=orange>Vessel</color>]]> is registering very strange readings from the surrounding environment. It is possible that space does not function normally here.": "妮西亚：我担心这种现代策略在这里可能行不通，<![CDATA[<color=orange>飞船</color>]]>正在记录来自周围环境的非常奇怪的读数。这里的空间可能无法正常运作。",
+    "SENNETTI: What are we to do then? The warp core is damaged, so we can not simply warp out the <![CDATA[<color=orange>Vessel</color>]]>.": "塞内蒂：那我们该怎么办？跃迁核心损坏了，所以我们不能简单地跃迁<![CDATA[<color=orange>飞船</color>]]>出去。",
+    "OKALIS: ...Perhaps we still can. We have many smaller warp cores throughout the <![CDATA[<color=orange>Vessel</color>]]>, perhaps we can use a black hole core to escape.": "奥卡利斯：...也许我们仍然可以。我们在<![CDATA[<color=orange>飞船</color>]]>各处有许多较小的跃迁核心，也许我们可以使用一个黑洞核心来逃脱。",
+    "NESIA: I do not believe that such an endeavor would succeed. A warp requires both a black and white hole, and we have no core with which to establish a white hole.": "妮西亚：我不相信这样的尝试会成功。跃迁需要黑洞和白洞，而我们没有可以建立白洞的核心。",
+    "OKALIS: I believe that it is still worth attempting, especially seeing as we currently do not have better ideas.": "奥卡利斯：我相信这仍然值得尝试，特别是考虑到我们目前没有更好的想法。",
+    "NESIA: I will concede that it is currently the best idea we have.": "妮西亚：我承认这是我们目前最好的想法。",
+    "AZOLLA: It is settled then, we will attempt to construct a makeshift warp device using one of the smaller black hole cores. I suggest that we do this in the lower bridge, as that area is both near the existing warp circuitry, and it should be easy to create a small area of artificial gravity down there so that we can work.": "阿佐拉：那就这么定了，我们将尝试使用一个较小的黑洞核心来构建一个临时跃迁装置。我建议我们在下层桥进行这项工作，因为该区域既靠近现有的跃迁电路，又应该很容易在那里创建一个小型人工重力区域以便我们工作。",
+
+    //tangledtext  
+    "AZOLLA: What are you all still doing here? You should be on an escape pod and leaving!": "阿佐拉：你们还在这里做什么？你们应该登上逃生舱离开！",
+    "SENNETTI: We tried, but the pod on the far side of the ship is entirely blocked off. We can not reach it.": "塞内蒂：我们试过了，但飞船远端的逃生舱完全被堵住了。我们无法到达那里。",
+    "NESIA: Unfortunately, that seems to also be true of the pod on this side. We seem to be stranded.": "妮西亚：不幸的是，这边的逃生舱似乎也是如此。我们似乎被困住了。",
+    "OKALIS: How are we going to escape from this place? The <![CDATA[<color=orange>Vessel</color>]]> is our only source of oxygen, so we are unable to just fly away from it.": "奥卡利斯：我们怎么从这个地方逃脱？<![CDATA[<color=orange>飞船</color>]]>是我们唯一的氧气来源，所以我们无法直接飞离它。",
+    "AZOLLA: Despite the frightful appearance of our environment, we do not seem to be in any immediate danger. We should regroup on the bridge and come up with a plan from there.": "阿佐拉：尽管我们的环境看起来很可怕，但我们似乎并没有立即的危险。我们应该在桥上重新集结，并从那里制定计划。"
+  },
+
+  "ShipLogDictionary": {
+
+    //brambles_heart_log  
+    "Distant Node Project": "远程节点项目",
+    "I've heard of some sort of lab that was dedicated to something called the Distant Node Project.": "我听说过一个专门研究“远程节点项目”的实验室。",
+    "Apparently the Nomai were hopeful that the Distant Node Project would allow them to reach the Eye of the Universe.": "显然，挪麦人希望远程节点项目能够让他们到达宇宙之眼。",
+    "Apparently, the quantum rock on Magma's Recursion served some utility for the Distant Node Project.": "显然，岩浆回响上的量子岩石对远程节点项目有一定的用处。",
+    "I was able to ride a quantum rock from Magma's Recursion to Bramble's Heart.": "我成功从岩浆回响乘坐量子岩石到达了荆棘之心。",
+    "One of the Dree stated that this area is the heart of the Bramble.": "一位德瑞人称这个区域是荆棘的核心。",
+    "The Nomai wanted to combine the Dree's druidcraft with the Eye's signal to force a Bramble node to appear near the Eye of the Universe.": "挪麦人希望将德瑞人的自然魔法与宇宙之眼的信号结合，使荆棘节点出现在宇宙之眼附近。",
+    "All of the Dree would be needed to do this, as it would take all of their power to coax the Bramble into doing what they wanted. It would also have to be done at a time when the Bramble was the most aggreeable.": "这需要所有德瑞人的参与，因为他们需要倾尽全力才能让荆棘按照他们的意愿行事。此外，这必须在荆棘最顺从的时候进行。",
+    "I found the skeletons of the Nomai and Dree in a scorched room. It seems that something with the project went wrong, killing them all.": "我在一个烧焦的房间里发现了挪麦人和德瑞人的遗骸。似乎项目出了什么问题，导致他们全部丧生。",
+    "A Dree named Ditylum was expected to be present for the experiment, but failed to return from an errand in time.": "一位名叫迪提伦的德瑞人本应参与实验，但因外出任务未能及时返回。",
+    "I encountered Ditylum, who mourned the loss of his people and the Nomai.": "我遇到了迪提伦，他为他的族人和挪麦人的逝去而哀悼。",
+
+    //camp_planet  
+    "Northern Campsite": "北部营地",
+
+    "Strange Camp": "奇怪的营地",
+    "One of the Nomai discovered a campsite on a large planetoid, which none of the Nomai constructed. They placed a signal beacon there so that they could easily find it again.": "一名挪麦人在一颗大型小行星上发现了一个营地，这个营地并非挪麦人所建。他们在那里放置了一个信号信标，以便日后能够轻松找到它。",
+    "I found an old campsite on the north pole of a large planetoid in Briar's Hollow.": "我在荆棘谷的一颗大型小行星的北极发现了一个古老的营地。",
+    "One of the Nomai, against the wishes of the others, lurked near this campsite until a strange alien returned to it. The Nomai revealed himself, at which point the alien quickly fled, abandoning a stone tablet.": "一名挪麦人不顾其他人的反对，潜伏在这个营地附近，直到一个奇怪的外星人返回。挪麦人现身时，外星人迅速逃离，留下了一块石板。",
+    "The Nomai decided to wait again, to see if the alien would return. The alien did, and the Nomai was able to return the stone tablet that the alien left behind.": "挪麦人决定再次等待，看看外星人是否会返回。外星人确实回来了，挪麦人得以归还外星人留下的石板。",
+    "In the days after returning the tablet, the Nomai noticed shapes in the fog that seemed to be watching them.": "在归还石板后的几天里，挪麦人注意到雾中有一些似乎在监视他们的身影。",
+    "An alien appeared to a Nomai named Okalis, and led him through a node at the center of Briar's Hollow into a strange, enclosed area.": "一个外星人出现在名叫奥卡利斯的挪麦人面前，并带领他穿过荆棘谷中心的一个节点，进入一个奇怪的封闭区域。",
+
+    "Soil Lab": "土壤实验室",
+    "The Nomai constructed a lab to analyze the soil of the camp planetoid.": "挪麦人建造了一个实验室来分析营地小行星的土壤。",
+    "I found a small lab near the equator of the camp planetoid.": "我在营地小行星的赤道附近发现了一个小型实验室。",
+    "There's some sort of broken crystal on the table.": "桌子上有一块破碎的晶体。",
+    "Some Nomai text says there may be a way to repair the crystal in some sort of concert hall.": "一些挪麦文字提到，可能在某种音乐厅中有修复晶体的方法。",
+    "The Nomai discovered that this planetoid seemed to be composed of the remnants of many planets.": "挪麦人发现这颗小行星似乎由许多行星的残余物组成。",
+
+    "Treehouse": "树屋",
+    "I found an old treehouse on Lover's Rock.": "我在“恋人之岩”上发现了一个古老的树屋。",
+    "I found a recording of two individuals named Okalis and Amylax talking, before writing their names on the wall.": "我发现了一段录音，记录了奥卡利斯和阿米拉克斯两个人在墙上写下名字之前的对话。",
+
+    //cluster  
+    "Titan's Tears": "泰坦之泪",
+    "I found a small cluster of planetoids with Nomai structures on them.": "我发现了一群带有挪麦结构的小行星。",
+    "The Nomai decided to use the planetoids to construct shelter, as the tree on the largest provided oxygen.": "挪麦人决定利用这些小行星建造避难所，因为最大的小行星上的树木提供了氧气。",
+
+    "Hole Overlook": "洞口瞭望台",
+    "I found a spot on one of the planetoids overlooking a hole in the wall of Briar's Hollow.": "我在其中一颗小行星上发现了一个可以俯瞰荆棘谷墙壁上洞口的地方。",
+    "The Nomai wondered if this hole might lead them to an escape.": "挪麦人想知道这个洞口是否可能引导他们逃脱。",
+
+    //domestic_dimension_log  
+    "Anglerfish Observation Platform": "鮟鱇鱼观察平台",
+    "Friendly Fish": "友好的鱼",
+    "I found Nomai writing claiming that one of the areas accessible near Shattered Hearth contains three tame anglerfish.": "我发现挪麦文字声称，在破碎家园附近可到达的一个区域中有三条驯服的鮟鱇鱼。",
+    "I found an area with several anglerfish and a strange dome, accessible via a node near Shattered Hearth.": "我发现了一个有几条鮟鱇鱼和一个奇怪圆顶的区域，可以通过破碎家园附近的一个节点进入。",
+    "A fish named Kevin lost one of his centermost bottom teeth while protecting a baby fish in the Nursery.": "一条名叫凯文的鱼在育苗室保护一条小鱼时失去了其中一颗中间的下牙。",
+    "These fish are the main source that the aliens have for eggs.": "这些鱼是外星人获取卵的主要来源。",
+    "The Nomai observed that the aliens seemed reluctant to take risks, even if it may improve their situation.": "挪麦人观察到，外星人似乎不愿意冒险，即使这可能改善他们的处境。",
+
+    "Enzyme Lab": "酶实验室",
+    "I read about somewhere called the Enzyme Lab in the mouth of one of the domesticated fish. The Nomai decided to go there to discuss how to save someone named Ditylum.": "我读到关于一条驯服鱼口中的酶实验室的内容。挪麦人决定去那里讨论如何拯救一个名叫迪提伦的人。",
+    "Apparently the lab can only be safely entered once the eye of the anglerfish has been pet.": "显然，只有在抚摸鮟鱇鱼的眼睛后，才能安全进入实验室。",
+    "The Nomai decided to use an anglerfish named Kevin to cross the Nursery. To make sure that it would carry them back, they trained it to react to being hit in the eye with a small object.": "挪麦人决定使用一条名叫凯文的鮟鱇鱼穿过育苗室。为了确保它能带他们回来，他们训练它在被小物体击中眼睛时做出反应。",
+    "The fish have no proper stomach; instead, they produce a free-floating digestive enzyme. It's very thick, and sucks matter in before digesting it.": "这些鱼没有真正的胃；相反，它们产生一种自由漂浮的消化酶。这种酶非常粘稠，在消化之前会吸入物质。",
+    "I found some Nomai scrolls and a scroll wall, but the harsh environment seems to have rendered the scrolls useless.": "我发现了一些挪麦卷轴和卷轴墙，但恶劣的环境似乎使卷轴变得无用。",
+    "The Nomai discovered that the quantum rock on Magma's Recursion can be blocked, forcing it to travel to a secret, third location. The Nomai theorized that even a small object, such as a scroll, would be enough to trigger this behavior.": "挪麦人发现岩浆回响上的量子岩石可以被阻挡，迫使其移动到一个秘密的第三位置。挪麦人推测，即使是像卷轴这样的小物体也足以触发这种行为。",
+    "The Nomai theorized that this occurred because, normally, there was an incredibly small chance for the rock to appear in the third location. However, by blocking one of the main two, an observer can force it to inhabit the more unlikely location. They called this the \"Rule of Quantum Probability\"": "挪麦人推测，这种情况的发生是因为通常岩石出现在第三位置的概率极低。然而，通过阻挡两个主要位置中的一个，观察者可以迫使它移动到更不可能的位置。他们称之为“量子概率法则”。",
+
+    //folly  
+    "Graviton's Folly": "引力愚行",
+
+    "Gravity Signal": "重力信号",
+    "One of the Nomai detected a natural signal somewhere in Briar's Hollow. The signal seemed to be gravitational in nature.": "一名挪麦人在荆棘谷的某处探测到了一种自然信号。这种信号似乎与重力有关。",
+    "I found a planet in Briar's Hollow. It seems to be hollow, with reversed gravity that pushes objects away.": "我在荆棘谷中发现了一颗行星。它似乎是空心的，具有反向重力，会将物体推离表面。",
+    "The planet emits a strange signal on the Natural Phenomena frequency.": "这颗行星在自然现象频率上发出一种奇怪的信号。",
+
+    "Pillar Town": "柱镇",
+    "I found a giant, smooth crystal on the inner surface of Graviton's Folly. There are many Nomai buildings constructed on the sides of the pillar.": "我在引力愚行的内表面发现了一块巨大而光滑的晶体。柱子的侧面建造了许多挪麦建筑。",
+    "A Nomai named Okalis received a necklace as a gift from an alien named Amylax.": "一位名叫奥卡利斯的挪麦人从一位名叫阿米拉克斯的外星人那里收到了一条项链作为礼物。",
+
+    "Alien Study": "外星人研究",
+    "I found an area that the Nomai seemed to use as a hub for discussion regarding their studies surrounding the aliens that they found.": "我发现了一个区域，挪麦人似乎将其用作讨论他们发现的外星人研究的中心。",
+    "It seems like the aliens may have possessed eyes at one point, although they now navigated via echolocation.": "似乎外星人曾经拥有眼睛，尽管他们现在通过回声定位来导航。",
+    "The aliens seemed to have influence over the Bramble, advancing by manipulating it, instead of via scientific pursuit.": "外星人似乎对荆棘有影响力，通过操纵它来发展，而不是通过科学追求。",
+    "The Nomai noted that the aliens seemed stagnant to the point of self-sabotage, talking about how they quickly abandoned any attempts to rescue one of their own who became stranded somewhere called the Venomous Reject.": "挪麦人指出，外星人似乎停滞不前，甚至到了自我破坏的地步，谈论他们如何迅速放弃了救援被困在“毒弃之殇”区域的同伴的尝试。",
+
+    "Eye Shrine": "宇宙之眼神殿",
+    "I found a strange shrine that seems to be dedicated to the Eye of the Universe.": "我发现了一座似乎献给宇宙之眼的奇怪神殿。",
+    "The Nomai have not been able to detect the Eye's signal ever since they warped into the Deep Bramble.": "自从挪麦人跃迁到荆棘深处后，他们就无法探测到宇宙之眼的信号。",
+    "The Nomai came up with several hypotheses as to what the purpose of the Eye is.": "挪麦人提出了几种关于宇宙之眼目的的假设。",
+    "The Nomai came up with several hypotheses as to how the Eye's signal might be so old.": "挪麦人提出了几种关于宇宙之眼信号为何如此古老的假设。",
+
+    "Nomai Meeting": "挪麦会议",
+    "I found text calling the Nomai back to Graviton's Folly to discuss some important news.": "我发现了一段文字，呼吁挪麦人回到引力愚行讨论一些重要消息。",
+
+    "Third Pod Memorial": "第三个逃生舱纪念馆",
+    "I found a place where the Nomai constructed memorials for the third pod and its passengers.": "我发现了一个地方，挪麦人为第三个逃生舱及其乘客建造了纪念碑。",
+    "One of the Nomai, Nesia, suffered an emotional breakdown over the death of her partner, who was on the third pod. This seemed to greatly dishearten the other Nomai.": "一位名叫妮西亚的挪麦人因第三个逃生舱上的伴侣去世而情绪崩溃。这似乎极大地打击了其他挪麦人。",
+    "The Nomai seemed to be revitalized after hearing news that a strange signal had been reverberating through the area of Magma's Recursion.": "挪麦人在听到“岩浆回响”区域回荡着一种奇怪信号的消息后似乎重新振作了起来。",
+    "There is a large crystal that seems to be floating in the center of Graviton's Folly.": "引力愚行的中心似乎漂浮着一块巨大的晶体。",
+
+    "Folly's Core": "引力愚行核心",
+    "The Nomai theorized that whatever's at the center of the core might be responsible for the strange gravity of the planet.": "挪麦人推测，核心中心的某种东西可能是这颗行星奇怪重力的原因。",
+    "It seems like the Nomai tunneled into the core to try and reach the center, using tractor beams to maneuver. Most of the tunnels end in deadly spikes.": "似乎挪麦人使用牵引光束挖掘隧道试图到达核心中心。大多数隧道的尽头都是致命的尖刺。",
+    "The Nomai discovered that the center of the core contains a small, delicate crystal. They decided not to study it too extensively, as almost any interference was likely to damage it.": "挪麦人发现核心中心包含一块小而脆弱的晶体。他们决定不对其进行过多研究，因为几乎任何干扰都可能损坏它。",
+    "To reach the center of the core, all of the beam switches need to be up, except for the second and the second-to-last.": "要到达核心中心，除了第二个和倒数第二个之外，所有光束开关都需要打开。",
+    "The center of the core is a hollow chamber, with a single, large crystal floating at its center.": "核心中心是一个空心的腔室，中心漂浮着一块巨大的晶体。",
+    "The crystal cracked when I interacted with it, which seemed to cause the entire planet to lose its gravity.": "当我与晶体互动时，它裂开了，这似乎导致整个行星失去了重力。",
+    "I found some sort of lab on the inner surface of Graviton's Folly.": "我在引力愚行的内表面发现了一个实验室。",
+
+    "Core Lab": "核心实验室",
+    "The lab seems to have been built to study the massive crystalline core at the center of Graviton's Folly.": "这个实验室似乎是为了研究引力愚行中心的巨大晶体核心而建造的。",
+    "An alien named Ditylum became stranded at the Venomous Reject, an area accessible from the far side of the Nursery. The Nomai decided to discuss different rescue methods in the core lab.": "一位名叫迪提伦的外星人被困在“毒弃之殇”区域，该区域可以从育苗室的远端进入。挪麦人决定在核心实验室讨论不同的救援方法。",
+    "While the Nomai came up with a number of rescue plans, none of them seemed likely to work.": "虽然挪麦人提出了许多救援计划，但似乎没有一个可能成功。",
+    "There is some text higher in the lab, but the stairs are broken, so I can't sit still while my translator is in range.": "实验室高处有一些文字，但楼梯坏了，所以当我的翻译器在范围内时，我无法保持静止。",
+
+    "Quarry": "采石场",
+    "I found some sort of quarry on the inner surface of Graviton's Folly.": "我在引力愚行的内表面发现了一个采石场。",
+    "One of the Nomai decided to use material from Graviton's Folly to build a translation lab.": "一位挪麦人决定使用引力愚行的材料建造一个翻译实验室。",
+
+    //language_dim_log  
+    "Translation Lab": "翻译实验室",
+    "I read that one of the Nomai was studying the alien's language in some sort of lab. It has an entrance near Shattered Hearth, above the park with the big tree.": "我读到一名挪麦人在某个实验室研究外星人的语言。它的入口位于破碎家园附近，在大树公园的上方。",
+    "The entrance seems to be too small for me to fit my ship.": "入口似乎太小，我的飞船无法进入。",
+    "There are a bunch of baby anglerfish directly blocking the path to the lab.": "一群小鮟鱇鱼直接挡住了通往实验室的路。",
+    "I read that the translation lab has a larger entrance somewhere in Briar's Hollow. A Nomai who needed to find it left a temporary beacon at the lab, which then guided them to the larger entrance.": "我读到翻译实验室在荆棘谷的某处有一个更大的入口。一位需要找到它的挪麦人在实验室留下了一个临时信标，信标随后引导他们找到了更大的入口。",
+    "The Nomai hypothesized that anglerfish might not be able to distinguish between organic and inorganic prey.": "挪麦人假设鮟鱇鱼可能无法区分有机和无机猎物。",
+    "I was able to get the baby anglerfish to latch onto my ship so that I could get past.": "我成功让小鮟鱇鱼咬住我的飞船，从而通过了它们。",
+    "One of the Nomai observed a massive anglerfish residing near the translation lab. He theorized that, due to its size, it would starve if the Dree did not continue to feed it.": "一位挪麦人观察到翻译实验室附近居住着一条巨大的鮟鱇鱼。他推测，由于其体型巨大，如果德瑞人不继续喂养它，它将会饿死。",
+
+    "Translations": "翻译",
+    "The Nomai in charge of the translations, Sennetti, determined that the aliens referred to themselves as the Dree.": "负责翻译的挪麦人塞内蒂确定，外星人称自己为德瑞。",
+    "Sennetti worked heavily with a Dree who referred to himself as Ditylum, who was also the first Dree that the Nomai encountered.": "塞内蒂与一位自称迪提伦的德瑞人密切合作，迪提伦也是挪麦人遇到的第一个德瑞人。",
+    "The Dree referred to this whole area as the Deep Bramble, and the plant itself simply as the Bramble.": "德瑞人称整个区域为荆棘深处，而植物本身则简称为荆棘。",
+    "Apparently the Dree are talented in druidcraft, giving them some level of influence over the Bramble.": "显然，德瑞人在自然魔法方面很有天赋，这使他们能够对荆棘施加一定的影响。",
+    "My translator was able to download a Dree dictionary that Sennetti translated.": "我的翻译器能够下载塞内蒂翻译的德瑞语词典。",
+    "The Dree revealed to the Nomai that they did not know of any way to escape the Deep Bramble.": "德瑞人向挪麦人透露，他们不知道如何逃离荆棘深处。",
+
+    //large_dim_log  
+    "Dangerous Node": "危险节点",
+    "I heard about some sort of dangerous Bramble node in Briar's Hollow.": "我听说荆棘谷中有一种危险的荆棘节点。",
+    "Apparently the Nomai and Aliens decided that this node was too dangerous, and needed to be destroyed.": "显然，挪麦人和外星人认为这个节点太危险，需要被摧毁。",
+    "A Dree named Ditylum was charged with poisoning some dangerous node.": "一位名叫迪提伦的德瑞人被指派去毒死某个危险节点。",
+    "A mount on the node is apparently for delivering a lethal toxin, a task that a Dree named Ditylum was charged with.": "节点上的支架显然是为了输送致命毒素，这项任务由一位名叫迪提伦的德瑞人负责。",
+    "Going into the node seems to end the loop instantly, although I can see some strange creature turn towards me just before my vision fades.": "进入节点似乎会立即结束循环，尽管在我的视线消失之前，我看到一些奇怪的生物转向我。",
+    "When I fire my scout into the node, it fails to acknowledge any recall requests for several seconds.": "当我把探测器射入节点时，它在几秒钟内无法响应任何召回请求。",
+    "I was able to kill the node with the toxin injector. When I did so, a creature popped out and swam away, towards the center of Briar's Hollow. I wonder where it might have gone?": "我成功用毒素注射器杀死了节点。当我这样做时，一个生物跳出来并游向荆棘谷的中心。我想知道它可能去了哪里？",
+    "I was able to find the creature in the Distant Node Project.": "我在远程节点项目中找到了那个生物。",
+
+    "Enclosed Space": "封闭空间",
+    "One of the Nomai wrote that a strange creature led him through the recursive node at the center of Briar's Hollow into some sort of enclosed space, after which he turned back to not get lost.": "一位挪麦人写道，一个奇怪的生物带领他穿过荆棘谷中心的递归节点进入某种封闭空间，之后他转身返回以免迷路。",
+    "The Nomai theorized that this space could be entered using the node at the center of Briar's Hollow. They noted how the hole one uses to enter the node lines up directly with where they re-enter the larger space.": "挪麦人推测，这个空间可以通过荆棘谷中心的节点进入。他们注意到进入节点的洞口与重新进入更大空间的位置完全对齐。",
+
+    "Big Lump": "大块物体",
+    "I found a massive lump on the wall of the Bramble. It seems to have grown out from the wall, with no way around.": "我在荆棘的墙上发现了一个巨大的肿块。它似乎是从墙上长出来的，周围没有其他路径。",
+    "I was able to find my way into a strange, enclosed space. There seems to be a Bramble node tucked away inside.": "我成功进入了一个奇怪的封闭空间。里面似乎藏着一个荆棘节点。",
+
+    "Recursive Node": "递归节点",
+    "Supposedly, there is a node at the center of Briar's Hollow that leads into itself.": "据说，荆棘谷中心有一个通向自身的节点。",
+    "I found a node at the center of Briar's Hollow that leads recursively into itself.": "我在荆棘谷中心发现了一个递归通向自身的节点。",
+    "I was able to pick up an amplified ambience signal on the \"Natural Phenomena\" frequency.": "我成功在“自然现象”频率上捕捉到了放大的环境信号。",
+
+    //magmas_recursion  
+    "Landing Zone": "着陆区",
+    "Alien Story": "外星人故事",
+    "One of the Nomai transcribed an old alien legend on a planet called Magma's Recursion": "一名挪麦人转录了一个关于名为“岩浆回响”的星球的外星人古老传说。",
+    "Ancient Signal": "古代信号",
+    "Apparently, there is an ancient signal reverberating through the area surrounding Magma's Recursion.": "显然，岩浆回响周围区域回荡着一种古代信号。",
+    "I can hear some sort of signal reverberating throughout the area that this planet resides in.": "我可以听到一种信号在这个星球所在的区域回荡。",
+    "The Nomai nearly died upon entering the vicinity of Magma's Recursion, but a group of aliens came in and rescued them.": "挪麦人在进入岩浆回响附近时几乎丧命，但一群外星人赶来救了他们。",
+    "I found a transcription of an ancient alien story. According to it, the aliens were able to get an anglerfish to latch onto a giant rock while they stole its eggs.": "我发现了一份古代外星人故事的转录。根据故事，外星人成功让一条鮟鱇鱼咬住一块巨石，同时他们偷走了它的卵。",
+    "Abandoned Settlement": "废弃定居点",
+    "I found a cluster of abandoned Nomai buildings.": "我发现了一群废弃的挪麦建筑。",
+    "Due to how inhospitable this planet is, the Nomai decided not to settle here, and instead only set up a couple of labs.": "由于这个星球的环境恶劣，挪麦人决定不在此定居，而是只建立了几间实验室。",
+    "To help with navigation, the Nomai constructed a road that leads to both of the landmarks that they found.": "为了帮助导航，挪麦人修建了一条通往他们发现的两个地标的路。",
+    "The Nomai thought that the excessive heat may be due to the many recursive seeds funneling heat back towards the already burning planet. They also believed that this may be what prevented the Eye of the Universe's signal from fading away.": "挪麦人认为，过度的热量可能是由于许多递归种子将热量导回已经燃烧的星球。他们还认为，这可能是阻止宇宙之眼信号消失的原因。",
+    "A Nomai named Sennetti informed a Nomai named Okalis that a gift he received from an alien was likely part of a courting ritual.": "一位名叫塞内蒂的挪麦人告诉奥卡利斯，他从外星人那里收到的礼物可能是求偶仪式的一部分。",
+    "Gas Cave": "气体洞穴",
+    "I heard of somewhere called the Eye Signal Lab on a planet called Magma's Recursion.": "我听说过在名为“岩浆回响”的星球上有一个叫“眼信号实验室”的地方。",
+    "I found a cave at the bottom of a long tunnel. My suit warns me that the gas inside is extremely flammable.": "我在一条长隧道的底部发现了一个洞穴。我的宇航服警告我，里面的气体极其易燃。",
+    "In the interest of safety, the Nomai used portable gravity crystals to navigate up to the lab. Unfortunately, many of the crystals have broken, detaching from their sockets. I don't think enough are intact to let me cross.": "为了安全起见，挪麦人使用便携式重力晶体导航到实验室。不幸的是，许多晶体已经破碎并从插槽中脱落。我认为剩下的完整晶体不足以让我通过。",
+    "A Nomai named Okalis asked a Nomai named Nesia for advice regarding his romantic partnership with an alien.": "一位名叫奥卡利斯的挪麦人向妮西亚寻求关于他与外星人恋爱关系的建议。",
+    "Eye Signal Lab": "眼信号实验室",
+    "Unfortunately, the signal did not tell the Nomai much more about the Eye of the Universe than what they already knew. However, they did mention that the signal may help something called the Distant Node Project bring them to the Eye.": "不幸的是，这个信号并没有告诉挪麦人关于宇宙之眼的更多信息。然而，他们确实提到，这个信号可能有助于一个名为“远程节点项目”的计划将他们带到宇宙之眼。",
+    "One of the Nomai set up a recording of the tones that the Dree use to echolocate, so that he could study them while he worked on analyzing the Eye's signal.": "一名挪麦人录下了德瑞人用于回声定位的音调，以便他在分析眼信号的同时研究它们。",
+    "I was able to tune my signalscope to the \"Alien Echolocation\" frequency.": "我成功将信号探测器调到了“外星回声定位”频率。",
+    "Quantum Cave": "量子洞穴",
+    "Supposedly, the Nomai discovered a strange, wandering rock in a cave on Magma's Recursion.": "据说，挪麦人在岩浆回响的一个洞穴中发现了一块奇怪的、会移动的岩石。",
+    "The Nomai discovered that the quantum rock in this cave can be blocked, forcing it to travel to a secret, third location. The Nomai theorized that even a small object, such as a scroll, would be enough to trigger this behavior.": "挪麦人发现，这个洞穴中的量子岩石可以被阻挡，迫使其移动到一个秘密的第三位置。挪麦人推测，即使是像卷轴这样的小物体也足以触发这种行为。",
+    "I found a cave in the side of a hill on Magma's Recursion. The cave has a quantum rock in it.": "我在岩浆回响的一个山坡上发现了一个洞穴。洞穴里有一块量子岩石。",
+    "The Nomai discovered something about the rock's behavior and wrote it on a scroll, but a cooled lava flow is obstructing part of the scroll wall.": "挪麦人发现了关于岩石行为的一些信息，并将其写在卷轴上，但冷却的熔岩流挡住了卷轴墙的一部分。",
+    "Apparently a behavior of the rock is useful to something called the Distant Node Project. There's more details on a scroll in the cave, but a cooled lava flow is making it impossible to read fully. Despite the condition of the wall, the scroll itself appears undamaged.": "显然，岩石的某种行为对名为“远程节点项目”的计划有用。洞穴中的卷轴上有更多细节，但冷却的熔岩流使其无法完全阅读。尽管墙壁的状况不佳，卷轴本身似乎完好无损。",
+    "I was able to ride the quantum rock to a third location.": "我成功乘坐量子岩石到达了第三个位置。",
+
+    //nursery_log  
+    "The Nursery": "育苗室",
+    "I found a strange wooden corridor, made impassable by several fish. The dense fog of the area makes it impossible to drift through.": "我发现了一条奇怪的木质走廊，被几条鱼挡住了去路。浓密的雾气使得无法穿行。",
+
+    //shattered_hearth_log  
+    "Concert Hall": "音乐厅",
+    "I read that I can repair the broken crystal in the Soil Lab in some sort of concert hall.": "我读到可以在某种音乐厅里修复土壤实验室中破碎的晶体。",
+    "The Nomai theorized that the aliens may have specialized singing organs.": "挪麦人推测外星人可能拥有专门的发声器官。",
+    "One of the Nomai did not attend the show, as he was busy translating the alien's language in a lab.": "一名挪麦人没有参加演出，因为他在实验室里忙于翻译外星人的语言。",
+    "There are five large bells near the stage, with a hexagonal slot above each. The leftmost bell is broken on the ground.": "舞台附近有五个大钟，每个钟上方都有一个六角形插槽。最左边的钟掉在地上摔坏了。",
+    "There is text alluding to a way to fix gravity crystals, but not all of the text is written in Nomai.": "有一段文字暗示了修复重力晶体的方法，但并非所有文字都是用挪麦语写的。",
+    "To fix the gravity crystal, it needs to be socketed into one of the hexagonal slots. Then three bells need to be rung: the one two spots to the left, the one directly to the right, and finally the one directly below.": "要修复重力晶体，需要将其插入其中一个六角形插槽中。然后需要敲响三个钟：左边第二个钟、正右方的钟，最后是正下方的钟。",
+    "I was able to fix a gravity crystal!": "我成功修复了一个重力晶体！",
+    "Alien Park": "外星公园",
+    "A Nomai recording made it seem like this planet is the main area that the aliens live in.": "挪麦人的记录表明，这个星球是外星人主要居住的区域。",
+    "Storytelling Area": "故事角",
+    "I found a small area with a central podium and several places to sit.": "我发现了一个有中央讲台和几个座位的小区域。",
+    "Apparently, this is a place that the aliens would use to tell stories, the main way that their history was preserved.": "显然，这是外星人用来讲故事的地方，是他们保存历史的主要方式。",
+    "A Nomai named Okalis removed his helmet, frightening an alien named Amylax.": "一位名叫奥卡利斯的挪麦人摘下了头盔，吓到了一位名叫阿米拉克斯的外星人。",
+    "Hearth's Core": "家园核心",
+    "The core of the planet is accessible through the many cracks in the rock. There seems to be a bramble node at the center.": "通过岩石中的许多裂缝可以进入行星的核心。中心似乎有一个荆棘节点。",
+    "A Nomai recording warns that the node leads somewhere very hot.": "挪麦人的记录警告说，这个节点通向一个非常热的地方。",
+    "Karenia's House": "卡蕾妮亚的家",
+    "I found a Nomai recording where one of the Nomai learns what happened to the Third Pod.": "我发现了一份挪麦人的记录，其中一名挪麦人得知了第三个逃生舱的情况。",
+    "Amylax's House": "阿米拉克斯的家",
+    "One of the Nomai became excited when informed of a mysterious signal that became trapped near somewhere called Magma's Recursion.": "当得知一个神秘信号被困在名为“岩浆回响”的地方附近时，一名挪麦人变得非常兴奋。",
+    "Apparently, one of the Nomai and one of the aliens became partners.": "显然，一名挪麦人和一名外星人成为了伴侣。",
+
+    //start_dim_log  
+    "Bramble's Doorstep": "荆棘门槛",
+    "After going through the black hole in the Vessel, I appeared in another part of Dark Bramble.": "穿过飞船中的黑洞后，我出现在了黑棘星的另一部分。",
+    "Apparently, the four Nomai teleported to the same part of Dark Bramble that I did.": "显然，四名挪麦人也和我一样传送到了黑棘星的同一区域。",
+    "With no apparent landmarks, the Nomai decided to split up in search of oxygen.": "由于没有明显的地标，挪麦人决定分头寻找氧气。",
+    "I found a signal beacon broadcasting on the \"Nomai Trailmarkers\" frequency.": "我发现了一个以“挪麦信标”频率广播的信号信标。",
+
+    //venomous_reject_log
+    "The Venomous Reject": "毒弃之殇",
+    "I heard that one of the aliens became stranded in an area called the Venomous Reject, only accessible through somewhere called the Nursery.": "我听说有一个外星人被困在了一个叫毒弃之殇的区域，只能通过一个叫育苗室的地方进入。",
+    "The Nomai decided to mount a rescue operation by mounting handles on the top teeth of a fish named Kevin, letting them ride it across the Nursery. To ensure success, they trained Kevin to react to being hit in the eye with any object.": "挪麦人决定通过在一条叫凯文的鱼的上牙安装把手来进行救援行动，让他们骑着它穿过育苗室。为了确保成功，他们训练凯文在被任何物体击中眼睛时做出反应。",
+    "Missing Tooth": "缺失的牙齿",
+    "Apparently, an anglerfish named Kevin lost one of his bottom teeth in an accident, while protecting one of the baby fish in the Nursery.": "显然，一条叫凯文的鮟鱇鱼在保护育苗室的一条小鱼时，因事故失去了一颗下牙。",
+    "The Nomai noted that the Venomous Reject seems to just be a regular Bramble node that mutated to secrete a toxin, capable of killing other portions of the Bramble. The Nomai also noted that this seems to run in the face of the Bramble's unique nature of growing via propagation.": "挪麦人指出，毒弃之殇似乎只是一个普通的荆棘节点，突变为分泌毒素，能够杀死荆棘的其他部分。挪麦人还指出，这似乎与荆棘通过繁殖生长的独特性质相悖。",
+    "The Nomai were curious what would happen if a Bramble node was destroyed when it was the only node leading into a given dimension. Some of them theorized that the pocket dimension would collapse entirely, ejecting any objects trapped inside.": "挪麦人好奇，如果一个荆棘节点是通往某个维度的唯一节点，当它被摧毁时会发生什么。他们中的一些人推测，这个口袋维度会完全崩溃，弹出其中所有被困的物体。",
+    "I found a very large syringe on a table in the lab.": "我在实验室的桌子上发现了一个非常大的注射器。",
+
+    //vesseldimension  
+    "Stranded Nomai": "被困的挪麦人",
+    "Two escape pods seem to have been damaged and never launched. I wonder if any Nomai were left behind?": "似乎有两个逃生舱损坏了，从未发射。我想知道是否有挪麦人被留在了后面？",
+    "I found a Nomai recorder left by a few Nomai who's pod was damaged. In it, they decided to regroup at the bridge to discuss how to escape Dark Bramble.": "我发现了一个由几个逃生舱损坏的挪麦人留下的记录仪。在里面，他们决定在舰桥重新集结，讨论如何逃离黑棘星。",
+    "A recorder on the bridge told me that the stranded Nomai made a plan to try to warp out of Dark Bramble. I should be able to find more about their experiment in the lower bridge.": "舰桥上的一个记录仪告诉我，被困的挪麦人制定了一个计划，试图从黑棘星中跃迁出去。我应该能在下层舰桥找到更多关于他们实验的信息。",
+    "A recorder on the lower bridge detailed how the Nomai were able to make a black hole that should have allowed them to escape Dark Bramble.": "下层舰桥的一个记录仪详细描述了挪麦人是如何制造一个黑洞，使他们能够逃离黑棘星。",
+    "I found a strange Nomai device in the lower bridge. The device has a small, broken warp core in it.": "我在下层舰桥发现了一个奇怪的挪麦装置。装置里有一个破损的小型跃迁核心。",
+    "I was able to use a warp core to activate the makeshift warp device. When I went through, my suit was able to record the signature of the black hole so that the interstellar drive on my ship can take me to the other system.": "我能使用一个跃迁核心激活临时跃迁装置。当我穿过黑洞时，我的宇航服能够记录它的特征，以便飞船的星际驱动器能带我前往另一个星系。"
+  },
+
+  "UIDictionary": {
+    "Ditylum": "迪提伦",
+    "DeepBramble": "荆棘深处",
+    "Graviton's Folly": "引力愚行",
+    "Magma's Recursion": "岩浆回响",
+    "Titan's Tears": "泰坦之泪",
+    "Bramble's Doorstep": "荆棘门槛",
+    "Bramble's Heart": "荆棘之心",
+    "Briar's Hollow": "荆棘空洞",
+    "Bright Hollow": "明亮空穴",
+    "Parent's Rest": "母亲憩所",
+    "Lover's Rock": "恋人之岩",
+    "The Nursery": "育苗室",
+    "Shattered Hearth": "破碎家园",
+    "The Venomous Reject": "毒弃之殇",
+    "Nomai Trailmarkers": "挪麦信标",
+    "First Marker": "第一个信标",
+    "Camp Marker": "营地信标",
+    "Natural Phenomena": "自然现象",
+    "Amplified Ambience": "放大的环境音",
+    "Gravitational Anomaly": "重力异常",
+    "Echolocation Tones": "回声定位音",
+    "Warped Echolocation": "扭曲的回声定位",
+    "Ditylum Echolocation": "迪提伦的回声定位",
+    "Hot Shard": "炽热碎片",
+    "Alien Echolocation": "外星人的回声定位",
+    "Geothermal Activity": "地热活动",
+
+    "Gravity Crystal": "重力晶体",
+    "Toxin Injector": "毒素注射器",
+
+    "WARNING: FLAMMABLE GAS DETECTED": "警告：检测到可燃气体",
+    "WARNING: EXCESSIVE HEAT DETECTED": "警告：检测到致命高温",
+    "RECALL REQUEST UNACKNOWLEDGED": "探测器召回请求未响应",
+    "SCOUT RECALL COMPLETED": "探测器召回完成",
+
+    "Signal: ": "信号：",
+    "<!> Untranslated Dree writing <!>": "<!>未翻译的德瑞文字<!>",
+
+    "Forgotten Castaways": "Forgotten Castaways",
+
+    "YOU WERE BOTH CONSUMED BY A FOREIGN STAR": "你们被一颗遥远的恒星吞噬了。",
+    "AT LEAST YOU’RE NOT THE ONLY ONE WHO’S THE LAST OF THEIR KIND": "至少你不是唯一一个沦为种族最后一员的存在。",
+    "THE BRAMBLE CLAIMS ANOTHER": "荆棘再次夺走了一些生命。"
+  }
+}
+
