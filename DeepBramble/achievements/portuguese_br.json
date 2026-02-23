@@ -1,0 +1,40 @@
+﻿{
+  "AchievementTranslations": {
+  "FC.JUKE_FISH": {
+        "Name": "Nave Não Necessária",
+        "Description": "Leia o dicionário no laboratório de tradução sem que um bebê tamboril morda sua nave."
+      },
+      "FC.DOUBLE_WARP": {
+        "Name": "Espera, eu não preciso fazer isso todo loop?",
+        "Description": "Alcance o Abrolho Profundo usando o Hospedeiro pela segunda vez."
+      },
+      "FC.ERNESTO": {
+        "Name": "Aqui está você!",
+        "Description": "Fale com Ernesto."
+      },
+      "FC.GEYSER": {
+        "Name": "Queimaduras de Quarto Grau",
+        "Description": "Toque na lava de um gêiser e viva para contar a história."
+      },
+      "FC.MARSHMALLOW": {
+        "Name": "Quente o Suficiente",
+        "Description": "Coma um marshmallow que você cozinhou sem estender o graveto."
+      },
+      "FC.SCROLL_HAUL": {
+        "Name": "Eu sei onde a parede está!",
+        "Description": "Traga o pergaminho da caverna quântica para Outer Wilds e o leia."
+      },
+      "FC.PET": {
+        "Name": "Bom Peixinho!",
+        "Description": "Acaricie todos os peixes possíveis em um único loop."
+      },
+      "FC.BABY_BITE": {
+        "Name": "Acupuntura Amadora",
+        "Description": "Sobreviva por 30 segundos com um bebê tamboril preso a você"
+      },
+      "FC.BABY_TAXI": {
+        "Name": "Educação Responsável",
+        "Description": "Use sua nave para levar todos os bebês tamboril ao berçário, onde eles pertencem."
+      }
+    }
+}
