@@ -1,7 +1,7 @@
 ﻿{
   "AchievementTranslations": {
   "FC.JUKE_FISH": {
-        "Name": "Nave Não Necessária",
+        "Name": "Não Preciso de Nave",
         "Description": "Leia o dicionário no laboratório de tradução sem que um bebê tamboril morda sua nave."
       },
       "FC.DOUBLE_WARP": {
@@ -38,3 +38,4 @@
       }
     }
 }
+
