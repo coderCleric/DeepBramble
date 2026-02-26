@@ -915,7 +915,7 @@
     "Wait! One more thing!": "Ei, uma última coisa!",
     "Here we go again...": "Lá vamos nós de novo...",
     "We did some last-minute adjustments to your navigational equipment, and made a pretty nice improvement. If you have your signalscope focused on a signal and press your lock-on button, you can lock onto whatever the signal is coming from! That's assuming you've fully identified the signal, of course.": "Nós fizemos alguns ajustes de última hora no seu equipamento de navegação, uma melhoria bem legal. Se você tiver seu onduloscópio focado em um sinal e pressionar o botão de marcar, você pode marcar o local de onde o sinal esteja vindo! Assumindo que você tenha identificado completamente o sinal, claro.",
-    "That's... weirdly good timing for you to bring that up. Thanks!": "Isso... é um timing estranhamente bom para você mencionar isso. Obrigado!",
+    "That's... weirdly good timing for you to bring that up. Thanks!": "Esse... é um momento estranhamente bom para você mencionar isso. Obrigado!",
 
     //lowerbridgetext  
     "NESIA: That should be the last of the circuitry in place. Is the warp core prepared?": "NESIA: Com isso, a parte elétrica deve estar no lugar. O núcleo de transportação está preparado?",
@@ -1243,4 +1243,5 @@
     "THE BRAMBLE CLAIMS ANOTHER": "O ABROLHO TOMA OUTRO."
   }
 }
+
 
