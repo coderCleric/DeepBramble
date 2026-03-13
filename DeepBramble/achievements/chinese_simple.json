@@ -1,0 +1,40 @@
+{
+  "AchievementTranslations": {
+    "FC.JUKE_FISH": {
+      "Name": "无需飞船",
+      "Description": "在没有幼鱼咬住飞船的情况下，阅读翻译实验室的词典。"
+    },
+    "FC.DOUBLE_WARP": {
+      "Name": "等等，我不用每次都这样？",
+      "Description": "再次在飞船上跃迁至荆棘深处。"
+    },
+    "FC.ERNESTO": {
+      "Name": "他在那儿！",
+      "Description": "与厄内斯托对话。"
+    },
+    "FC.GEYSER": {
+      "Name": "四级烧伤",
+      "Description": "接触间歇泉喷出的岩浆并存活。"
+    },
+    "FC.MARSHMALLOW": {
+      "Name": "火候刚好",
+      "Description": "吃掉一根没有伸长烤棍就直接烤熟的棉花糖。"
+    },
+    "FC.SCROLL_HAUL": {
+      "Name": "我知道墙在哪！",
+      "Description": "将量子洞穴的卷轴带回太阳系并阅读。"
+    },
+    "FC.PET": {
+      "Name": "好鱼鱼！",
+      "Description": "在一个时间循环内抚摸所有可抚摸的鮟鱇鱼。"
+    },
+    "FC.BABY_BITE": {
+      "Name": "业余针灸",
+      "Description": "被幼鱼咬住后存活30秒。"
+    },
+    "FC.BABY_TAXI": {
+      "Name": "负责任的家长",
+      "Description": "用飞船将所有幼鱼送回育苗室。"
+    }
+  }
+}
