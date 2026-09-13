@@ -88,7 +88,7 @@ This mod has extra achievements that can be earned through [Achievements+](https
   - nepyanagi - Japanese translation
   - SanBaiMing & SheepCreator2 - Simplified Chinese translation
   - ErriiickK - PT-BR translation
-  - Bubalex-1 - Russian translation
+  - Bubalex01 - Russian translation
 - Title screen music derived from The Lost Reels by Andrew Prahlow
 - Custom music made with GarageBand
 
