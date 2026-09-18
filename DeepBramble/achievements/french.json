@@ -1,0 +1,40 @@
+﻿{
+  "AchievementTranslations": {
+    "FC.JUKE_FISH": {
+      "Name": "Pas besoin de vaisseau",
+      "Description": "Réussissez à obtenir le dictionnaire du laboratoire de traduction sans qu'un seul petit cœlacanthe ne s'accroche à votre vaisseau"
+    },
+    "FC.DOUBLE_WARP": {
+      "Name": "Attends, je n'ai pas besoin de faire ça à chaque boucle ?", 
+      "Description": "Atteignez Fondronces en utilisant le Vaisseau pour la seconde fois"
+    },
+    "FC.ERNESTO": {
+      "Name": "Ah le voilà !",
+      "Description": "Parlez à Ernesto."
+    },
+    "FC.GEYSER": {
+      "Name": "Brulûre au quatrième degré",
+      "Description": "Touchez la lave d'un geyser et survivez."
+    },
+    "FC.MARSHMALLOW": {
+      "Name": "Bien assez chaud",
+      "Description": "Mangez une guimauve bien cuite sans avoir à tendre le bâton"
+    },
+    "FC.SCROLL_HAUL": {
+      "Name": "Je sais où se trouve un mur !",
+      "Description": "Amenez le parchemin de la grotte quantique jusqu'à l'Outer Wilds et le lire là-bas"
+    },
+    "FC.PET": {
+      "Name": "Bon petit poissounet !",
+      "Description": "Caressez tous les cœlacanthes câlinable en une seule boucle."
+    },
+    "FC.BABY_BITE": {
+      "Name": "Fan d'acupuncture",
+      "Description": "Survivez pendant 30 secondes avec un petit cœlacanthe accroché à vous"
+    },
+    "FC.BABY_TAXI": {
+      "Name": "Parent responsable",
+      "Description": "Utilisez votre vaisseau pour amener tous les petits cœlacanthes à la pouponnière"
+    }
+  }
+}
